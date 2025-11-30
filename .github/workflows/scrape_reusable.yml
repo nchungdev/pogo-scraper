@@ -1,0 +1,152 @@
+name: Reusable Scraper Workflow
+
+on:
+  workflow_call:
+    inputs:
+      freq:
+        required: true
+        type: string
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+
+    steps:
+      # ---------------------------------------------------------
+      # 1️⃣ Checkout MAIN (scraper code)
+      # ---------------------------------------------------------
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      # ---------------------------------------------------------
+      # 2️⃣ Setup Python & Playwright
+      # ---------------------------------------------------------
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-pw-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Chromium
+        run: |
+          python -m playwright install --with-deps chromium
+
+      # ---------------------------------------------------------
+      # 3️⃣ Prepare output directory
+      # ---------------------------------------------------------
+      - name: Prepare output folders
+        run: |
+          mkdir -p output/${{ inputs.freq }}/html
+          mkdir -p output/${{ inputs.freq }}/json
+
+      # ---------------------------------------------------------
+      # 4️⃣ Clone cache branch to restore HTML cache
+      # ---------------------------------------------------------
+      - name: Restore HTML cache
+        run: |
+          BRANCH=data-${{ inputs.freq }}
+          REPO="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+
+          # Try clone
+          git clone --depth 1 -b $BRANCH $REPO temp_cache || true
+
+          CACHE_DIR="temp_cache/output/${{ inputs.freq }}/html"
+          TARGET="output/${{ inputs.freq }}/html"
+
+          if [ -d "$CACHE_DIR" ]; then
+            echo "✔ Restoring HTML cache"
+            cp -r $CACHE_DIR/. $TARGET/ || true
+          else
+            echo "⚠ No cache found"
+          fi
+
+      # ---------------------------------------------------------
+      # 5️⃣ Run scraper
+      # ---------------------------------------------------------
+      - name: Run scraper
+        run: python -m src.main ${{ inputs.freq }}
+        continue-on-error: true
+
+      # ---------------------------------------------------------
+      # 6️⃣ Upload to Firestore
+      # ---------------------------------------------------------
+      - name: Upload Firestore
+        run: |
+          echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}" | base64 --decode > serviceAccount.json
+          python -m src.upload_firestore
+        continue-on-error: true
+
+      # ---------------------------------------------------------
+      # 7️⃣ Collect output into temp folder
+      # ---------------------------------------------------------
+      - name: Collect output
+        run: |
+          mkdir -p temp_out/html temp_out/json
+
+          cp -r output/${{ inputs.freq }}/html/. temp_out/html/ || true
+          cp -r output/${{ inputs.freq }}/json/. temp_out/json/ || true
+
+      # ---------------------------------------------------------
+      # 8️⃣ Clone target branch CLEAN for commit
+      # ---------------------------------------------------------
+      - name: Clone target data branch clean
+        run: |
+          BRANCH=data-${{ inputs.freq }}
+          REPO="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+
+          # Clone if exists, else create
+          if git ls-remote --heads $REPO $BRANCH | grep $BRANCH >/dev/null; then
+            echo "✔ Branch exists → clone"
+            git clone --depth 1 -b $BRANCH $REPO data_branch
+          else
+            echo "⚠ Branch missing → create"
+            git clone $REPO data_branch
+            cd data_branch
+            git checkout --orphan $BRANCH
+            echo "# Init data branch" > README.md
+            git add README.md
+            git commit -m "Init branch $BRANCH"
+            git push $REPO $BRANCH
+            cd ..
+          fi
+
+      # ---------------------------------------------------------
+      # 9️⃣ Replace data in data branch
+      # ---------------------------------------------------------
+      - name: Replace data safely
+        run: |
+          BRANCH="data-${{ inputs.freq }}"
+          FREQ="${{ inputs.freq }}"
+
+          rm -rf data_branch/output/$FREQ
+          mkdir -p data_branch/output/$FREQ/html
+          mkdir -p data_branch/output/$FREQ/json
+
+          cp -r temp_out/html/. data_branch/output/$FREQ/html/ || true
+          cp -r temp_out/json/. data_branch/output/$FREQ/json/ || true
+
+      # ---------------------------------------------------------
+      # 🔟 Commit & push
+      # ---------------------------------------------------------
+      - name: Commit and push data
+        run: |
+          cd data_branch
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add .
+          git commit -m "${{ inputs.freq }} update $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes"
+          git push origin HEAD

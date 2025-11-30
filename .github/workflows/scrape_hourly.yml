@@ -1,0 +1,20 @@
+name: Scrape Pokémon GO Data (Hourly)
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pogo-hourly
+  cancel-in-progress: false
+
+jobs:
+  call-reusable:
+    uses: ./.github/workflows/scrape_reusable.yml
+    secrets: inherit
+    with:
+      freq: hourly

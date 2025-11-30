@@ -1,12 +1,12 @@
-import time
 import logging
+import time
 from typing import Any, Dict, List, Optional
 
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 from src.base import BaseScraper
-from src.common.utils import save_html
+from src.common import save_cache_html
 
 logger = logging.getLogger(__name__)
 
@@ -14,8 +14,8 @@ logger = logging.getLogger(__name__)
 class RaidNowScraper(BaseScraper):
     """Scraper lấy dữ liệu RaidNow (LeekDuck) bằng Playwright."""
 
-    def __init__(self, url: str, file_name: str, scraper_settings: dict[str, Any]):
-        super().__init__(url, file_name, scraper_settings)
+    def __init__(self, scraper: Any, scraper_settings: dict[str, Any]):
+        super().__init__(scraper, scraper_settings)
 
         # Playwright-only settings (default)
         self.headless = scraper_settings.get("headless", True)
@@ -62,7 +62,7 @@ class RaidNowScraper(BaseScraper):
                     continue
 
                 # Save raw HTML
-                save_html(html, self.raw_html_path)
+                save_cache_html(html, self.raw_html_path)
 
                 return BeautifulSoup(html, "lxml")
 

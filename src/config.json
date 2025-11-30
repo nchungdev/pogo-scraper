@@ -3,47 +3,74 @@
     "user": "nchungdev",
     "repo": "pogo-scrapers"
   },
+
   "scraper_settings": {
     "retries": 3,
     "delay": 5,
     "timeout": 15,
     "cache_expiration_hours": 1
   },
+
   "scrapers": {
     "TypeScraper": {
       "url": "https://db.pokemongohub.net/tools/type-chart",
       "file_name": "type_chart",
-      "enabled": true
+      "enabled": true,
+      "pipeline": "monthly",
+      "collection": "pogo"
     },
+
     "RaidNowScraper": {
       "url": "https://raidnow.leekduck.com",
-      "file_name": "raid_now",
-      "enabled": true
+      "file_name": "raidnow",
+      "enabled": true,
+      "pipeline": "hourly",
+      "collection": "pogo"
     },
+
     "RaidBossScraper": {
       "url": "https://leekduck.com/boss/",
-      "file_name": "raid_bosses",
-      "enabled": true
+      "file_name": "boss",
+      "enabled": true,
+      "pipeline": "daily",
+      "collection": "pogo"
     },
+
     "ResearchScraper": {
       "url": "https://leekduck.com/research/",
-      "file_name": "research_tasks",
-      "enabled": true
+      "file_name": "research",
+      "enabled": true,
+      "pipeline": "daily",
+      "collection": "pogo"
     },
+
     "RocketLineupScraper": {
       "url": "https://leekduck.com/rocket-lineups/",
       "file_name": "rocket_lineups",
-      "enabled": true
+      "enabled": true,
+      "pipeline": "daily",
+      "collection": "pogo"
     },
     "EggScraper": {
       "url": "https://leekduck.com/eggs/",
-      "file_name": "egg_pool",
-      "enabled": true
+      "file_name": "eggs",
+      "enabled": true,
+      "pipeline": "hourly",
+      "collection": "pogo"
     },
     "EventScraper": {
       "url": "https://leekduck.com/events/",
       "file_name": "events",
-      "enabled": true
+      "enabled": true,
+      "pipeline": "weekly",
+      "collection": "pogo"
+    },
+    "PokemonListScraper": {
+      "url": "https://pokeapi.co/api/v2/pokemon-species?limit=100000",
+      "file_name": "pokemon_species",
+      "enabled": true,
+      "pipeline": "monthly",
+      "collection": "pogo"
     }
   }
 }

@@ -39,16 +39,14 @@ def convert_events_json(old_json: dict) -> dict:
 
 class EventScraper(BaseScraper):
     def __init__(
-        self,
-        url: str,
-        file_name: str,
-        scraper_settings: dict[str, Any],
-        check_existing_events: bool = False,
-        github_user: Optional[str] = None,
-        github_repo: Optional[str] = None,
+            self,
+            scraper: Any,
+            scraper_settings: dict[str, Any],
+            check_existing_events: bool = False,
+            github_user: Optional[str] = None,
+            github_repo: Optional[str] = None,
     ):
-        super().__init__(url, file_name, scraper_settings)
-        self.file_name = file_name
+        super().__init__(scraper, scraper_settings)
         self.check_existing_events = check_existing_events
         self.github_user = github_user
         self.github_repo = github_repo

@@ -15,46 +15,20 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 from src.base import BaseScraper
-from src.common.utils import save_html
+from src.common import save_cache_html
 from src.scrapers.types.parsers.type_chart_parser import parse_type_chart
 
 
 class TypeScraper(BaseScraper):
 
-    def __init__(
-            self,
-            url: str,
-            file_name: str,
-            scraper_settings: dict[str, Any],
-            external_context=None
-    ):
-        super().__init__(url=url, file_name=file_name, scraper_settings=scraper_settings)
+    def __init__(self, scraper: Any, scraper_settings: dict[str, Any], external_context=None):
+        super().__init__(scraper, scraper_settings)
         self.external_context = external_context  # may reuse browser context
-
-    # --------------------------------------------------------
-    # Load cached HTML
-    # --------------------------------------------------------
-    def _load_cached_html(self) -> Optional[BeautifulSoup]:
-        try:
-            with open(self.raw_html_path, "r", encoding="utf-8") as f:
-                html = f.read()
-                print(f"[CACHE] Loaded cached HTML → {self.raw_html_path}")
-                return BeautifulSoup(html, "lxml")
-        except FileNotFoundError:
-            return None
-        except Exception as e:
-            print(f"[CACHE ERROR] {e}")
-            return None
 
     # --------------------------------------------------------
     # Playwright fetch (try external context → fallback)
     # --------------------------------------------------------
     def _fetch_html(self) -> Optional[BeautifulSoup]:
-
-        # 1. Try cached
-        cached = self._load_cached_html()
-        if cached:
-            return cached
 
         print(f"[Playwright] Fetching {self.url}")
 
@@ -66,7 +40,7 @@ class TypeScraper(BaseScraper):
                 page.wait_for_load_state("networkidle")
 
                 html = page.content()
-                save_html(html, self.raw_html_path)
+                save_cache_html(html, self.raw_html_path)
 
                 page.close()
                 return BeautifulSoup(html, "lxml")
@@ -100,7 +74,7 @@ class TypeScraper(BaseScraper):
                 page.wait_for_load_state("networkidle")
 
                 html = page.content()
-                save_html(html, self.raw_html_path)
+                save_cache_html(html, self.raw_html_path)
 
                 page.close()
                 ctx.close()
