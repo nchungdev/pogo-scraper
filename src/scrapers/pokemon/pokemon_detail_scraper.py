@@ -15,8 +15,9 @@ from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
 from src.base.base_scraper import BaseScraper
+from src.common import save_cache_html
 from src.common.normalize import normalize_url
-from src.common.utils import parse_toc, save_html
+from src.common.utils import parse_toc
 from src.scrapers.pokemon.parsers import *
 
 BASE = "https://db.pokemongohub.net"
@@ -27,38 +28,16 @@ BASE = "https://db.pokemongohub.net"
 # ============================================================
 class PokemonDetailScraper(BaseScraper):
 
-    def __init__(self, url: str, file_name: str, scraper_settings: dict[str, Any], external_context=None):
-        super().__init__(url=url, file_name=file_name, scraper_settings=scraper_settings)
+    def __init__(self, url: str, file_name: str, pipeline: str, scraper_settings: dict[str, Any], external_context=None):
+        super().__init__(url, file_name, pipeline, scraper_settings=scraper_settings, subfolder="pokemon")
         self.external_context = external_context
-
-    # ----------------------------------------
-    # Cache loader
-    # ----------------------------------------
-    def _load_cached_html(self) -> Optional[BeautifulSoup]:
-        try:
-            with open(self.raw_html_path, "r", encoding="utf-8") as f:
-                html = f.read()
-                print(f"[CACHE] Loaded cached HTML → {self.raw_html_path}")
-                return BeautifulSoup(html, "lxml")
-        except FileNotFoundError:
-            return None
-        except Exception as e:
-            print(f"[CACHE ERROR] {e}")
-            return None
 
     # ----------------------------------------
     # Playwright fetch (with fallback)
     # ----------------------------------------
     def _fetch_html(self) -> Optional[BeautifulSoup]:
-
-        # ✓ 1. Try cache
-        cached = self._load_cached_html()
-        if cached:
-            return cached
-
         print(f"[Playwright] Fetching {self.url}")
 
-        # ✓ 2. Fast path: reuse external context
         if self.external_context:
             try:
                 page = self.external_context.new_page()
@@ -69,7 +48,7 @@ class PokemonDetailScraper(BaseScraper):
                     toggle.click()
                     page.wait_for_timeout(200)
                 html = page.content()
-                save_html(html, self.raw_html_path)
+                save_cache_html(html, self.raw_html_path)
                 page.close()
                 return BeautifulSoup(html, "lxml")
             except Exception as e:
@@ -111,7 +90,7 @@ class PokemonDetailScraper(BaseScraper):
                     pass
 
                 html = page.content()
-                save_html(html, self.raw_html_path)
+                save_cache_html(html, self.raw_html_path)
 
                 page.close()
                 ctx.close()

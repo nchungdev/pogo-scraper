@@ -2,24 +2,41 @@ import json
 import os
 import time
 from abc import ABC, abstractmethod
+from pathlib import Path
 from typing import Any, Optional
 
 import requests
 from bs4 import BeautifulSoup
 
-from src.common.utils import save_html
+from src.common import save_cache_html, load_cache_html
 
 
 class BaseScraper(ABC):
-    def __init__(self, url: str, file_name: str, scraper_settings: dict[str, Any]):
-        # Always resolve actual repo root
-        root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    def __init__(
+            self,
+            url: str,
+            file_name: str,
+            pipeline: str,
+            scraper_settings: dict[str, Any],
+            subfolder: str = None,          # <— NEW
+    ):
+        # Resolve project root
+        root_dir = Path(__file__).resolve().parents[2]
         self.url = url
-        # Save HTML inside repo/html/
-        self.raw_html_path = os.path.join(root_dir, "output", "html", f"{file_name}.html")
-        # Save JSON inside repo/json/
-        self.json_path = os.path.join(root_dir, "output", "json", f"{file_name}.json")
         self.scraper_settings = scraper_settings
+        self.pipeline = pipeline
+
+        # --- Dynamic folder support ---
+        html_dir = os.path.join(root_dir, "output", pipeline, "html")
+        json_dir = os.path.join(root_dir, "output", pipeline, "json")
+
+        if subfolder:
+            html_dir = os.path.join(html_dir, subfolder)
+            json_dir = os.path.join(json_dir, subfolder)
+
+        # --- Final paths ---
+        self.raw_html_path = os.path.join(html_dir, f"{file_name}.html")
+        self.json_path = os.path.join(json_dir, f"{file_name}.json")
 
     def _fetch_html(self) -> Optional[BeautifulSoup]:
         retries = self.scraper_settings.get("retries", 3)
@@ -32,7 +49,7 @@ class BaseScraper(ABC):
                 response = requests.get(self.url, timeout=timeout)
                 response.raise_for_status()
 
-                save_html(response.text, self.raw_html_path)
+                save_cache_html(response.text, self.raw_html_path)
 
                 return BeautifulSoup(response.content, "lxml")
             except requests.exceptions.RequestException as e:
@@ -60,7 +77,11 @@ class BaseScraper(ABC):
         pass
 
     def run(self):
-        soup = self._fetch_html()
+        cached = load_cache_html(self.raw_html_path)
+        if cached:
+            soup = cached
+        else:
+            soup = self._fetch_html()
         if soup:
             data = self.parse(soup)
             self.save_to_json(data)

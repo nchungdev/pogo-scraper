@@ -1,0 +1,24 @@
+import json
+import os
+from typing import Dict, Any
+
+from src import scrapers
+
+
+def load_config() -> Dict[str, Any]:
+    root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    with open(os.path.join(root, "config.json"), "r") as f:
+        return json.load(f)
+
+
+def run_scraper_by_name(name: str, cfg: Dict[str, Any]):
+    cls = getattr(scrapers, name)
+    s_cfg = cfg["scrapers"][name]
+    inst = cls(
+        url=s_cfg["url"],
+        file_name=s_cfg["file_name"],
+        pipeline=s_cfg["pipeline"],
+        scraper_settings=cfg["scraper_settings"]
+    )
+    print(f"→ Running {name}")
+    inst.run()

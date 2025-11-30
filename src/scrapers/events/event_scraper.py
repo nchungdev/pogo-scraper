@@ -42,12 +42,13 @@ class EventScraper(BaseScraper):
         self,
         url: str,
         file_name: str,
+        pipeline: str,
         scraper_settings: dict[str, Any],
         check_existing_events: bool = False,
         github_user: Optional[str] = None,
         github_repo: Optional[str] = None,
     ):
-        super().__init__(url, file_name, scraper_settings)
+        super().__init__(url, file_name, pipeline, scraper_settings, subfolder="events")
         self.file_name = file_name
         self.check_existing_events = check_existing_events
         self.github_user = github_user

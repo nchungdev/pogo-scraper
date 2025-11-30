@@ -1,0 +1,19 @@
+name: Scrape Pokémon GO Data (Daily)
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pogo-scraper-lock
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    uses: ./.github/workflows/scrape_reusable.yml
+    with:
+      freq: daily

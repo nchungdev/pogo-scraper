@@ -1,21 +1,9 @@
-import os
 import re
 from datetime import datetime
 from typing import Any, Optional, Union, List
 
 from bs4 import BeautifulSoup
 from bs4.element import Tag
-
-
-def save_html(content: str, path: str):
-    """Utility function to save HTML content to a specified path."""
-    if not os.getenv("CI"):
-        html_dir = os.path.dirname(path)
-        if not os.path.exists(html_dir):
-            os.makedirs(html_dir)
-        with open(path, "w", encoding="utf-8") as f:
-            f.write(content)
-        print(f"Saved raw HTML to {path}")
 
 
 def parse_cp_range(cp_string: str) -> Optional[dict[str, int]]:
@@ -99,7 +87,7 @@ def process_time_data(
 def clean_banner_url(url: Optional[str]) -> Optional[str]:
     if not url:
         return None
-    return re.sub(r"cdn-cgi/image/.*?\/(?=assets)", "", url)
+    return re.sub(r"cdn-cgi/image/.*?/(?=assets)", "", url)
 
 
 def clean_text(s: str):

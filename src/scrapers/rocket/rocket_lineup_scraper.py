@@ -28,8 +28,8 @@ def convert_rocket_json(old_json: dict) -> dict:
     return {"results": result}
 
 class RocketLineupScraper(BaseScraper):
-    def __init__(self, url: str, file_name: str, scraper_settings: dict[str, Any]):
-        super().__init__(url, file_name, scraper_settings)
+    def __init__(self, url: str, file_name: str, pipeline: str, scraper_settings: dict[str, Any]):
+        super().__init__(url, file_name, pipeline, scraper_settings, subfolder="rocket_lineups")
 
     def parse(self, soup: BeautifulSoup) -> dict[str, Any]:
         lineups: dict[str, Any] = {}

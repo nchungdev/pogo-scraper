@@ -1,208 +1,202 @@
-# Leak Duck 🦆
+# Pokémon GO Data Scraper
 
-[![Scrape Leek Duck Data](https://github.com/zhenga8533/leak-duck/actions/workflows/run_scrapers.yml/badge.svg)](https://github.com/zhenga8533/leak-duck/actions/workflows/run_scrapers.yml)
-![Last Updated](https://img.shields.io/github/last-commit/zhenga8533/leak-duck/data)
+[![Hourly Scraper](https://github.com/nchungdev/pogo-scraper/actions/workflows/scrape_hourly.yml/badge.svg)](https://github.com/nchungdev/pogo-scraper/actions/workflows/scrape_hourly.yml)<br>
+[![Daily Scraper](https://github.com/nchungdev/pogo-scraper/actions/workflows/scrape_daily.yml/badge.svg)](https://github.com/nchungdev/pogo-scraper/actions/workflows/scrape_daily.yml)<br>
+[![Weekly Scraper](https://github.com/nchungdev/pogo-scraper/actions/workflows/scrape_weekly.yml/badge.svg)](https://github.com/nchungdev/pogo-scraper/actions/workflows/scrape_weekly.yml)<br>
+[![Monthly Scraper](https://github.com/nchungdev/pogo-scraper/actions/workflows/scrape_monthly.yml/badge.svg)](https://github.com/nchungdev/pogo-scraper/actions/workflows/scrape_monthly.yml)<br>
+![Last Updated](https://img.shields.io/github/last-commit/nchungdev/pogo-scraper/data)
 
-A Python-based web scraper that automatically collects and updates Pokémon GO data from [leekduck.com](https://leekduck.com). This project uses GitHub Actions to run on a schedule and pushes the structured JSON data to a dedicated `data` branch.
-
----
-
-## About The Project
-
-This project provides a reliable, automated way to access up-to-date information for Pokémon GO. It scrapes the Leek Duck website for the latest details on Raid Bosses, Events, Field Research, Team GO Rocket lineups, and the current Egg Pool. The scraper is designed to be run automatically **every 12 hours** via a GitHub Actions workflow, ensuring the data is always fresh and reliable.
-
-The scraped data is automatically committed and pushed to the `data` branch of this repository, making it easy to use as a free, simple API for your own projects.
+A fully automated scraping system designed to fetch, cache, and publish structured Pokémon GO game data.  
+This project provides high-quality datasets updated on *hourly, daily, weekly, and monthly* schedules using GitHub Actions.
 
 ---
 
-## Features
+## 📌 Table of Contents
 
-- **Automated Scraping**: Runs automatically every 12 hours using GitHub Actions.
-- **Comprehensive Data**: Scrapes a wide range of Pokémon GO data, including:
-  - **Raid Bosses**: Current Pokémon in all raid tiers.
-  - **Events**: A categorized list of all current and upcoming in-game events.
-  - **Field Research**: All available research tasks and their possible rewards.
-  - **Team GO Rocket**: The complete lineups for Giovanni, Leaders, and Grunts.
-  - **Egg Pool**: The current list of Pokémon hatching from each egg distance.
-- **Data Archiving**: Automatically archives past events to a separate file for historical data.
-- **Resilient**: Includes retry logic with configurable delay and timeout settings to handle network errors gracefully.
-- **Organized**: A clean and modular project structure that is easy to understand and extend.
-
----
-
-## API & Documentation
-
-The raw JSON files can be used as simple, free API endpoints for your projects.
-
-**➡️ For detailed information, visit the [Official Project Wiki](https://github.com/zhenga8533/leak-duck/wiki)**
-
-The wiki includes a full breakdown of the data structure for each file, field descriptions, and direct links to the JSON endpoints.
+- [Overview](#overview)
+- [Features](#features)
+- [Scraped Data Sources](#scraped-data-sources)
+- [Automation Schedules](#automation-schedules)
+- [Repository Layout](#repository-layout)
+- [Running Locally](#running-locally)
+- [Data Output](#data-output)
+- [Extending the System](#extending-the-system)
+- [License](#license)
 
 ---
 
-## Data Output
+## 📖 Overview
 
-The scraped data is automatically committed and pushed to the `data` branch of this repository.
+This repository hosts a modular, scalable scraper system for collecting structured Pokémon GO data from multiple public sources such as:
 
-**➡️ Browse the raw data files here: [https://github.com/zhenga8533/leak-duck/tree/data](https://github.com/zhenga8533/leak-duck/tree/data)**
+- Pokémon GO Hub
+- LeekDuck
+- RaidNow
+- PokéAPI
 
-The following files are generated:
-
-- `raid_bosses.json` - All current Pokémon in Tier 1, 3, 5, Mega, and Shadow Raids.
-- `research_tasks.json` - All available Field Research tasks and their possible rewards.
-- `rocket_lineups.json` - The complete lineups for Team GO Rocket Leaders and Grunts.
-- `egg_pool.json` - The current list of Pokémon hatching from each egg distance.
-- `events.json`- All current and upcoming events.
-- `archives/archive_YYYY.json` - Historical event data, organized by year.
-  - _Note: Automated archiving of past events is handled by the script._
-
-### Example Data (`raid_bosses.json`)
-
-```json
-{
-  "Tier 5": [
-    {
-      "name": "Palkia",
-      "tier": 5,
-      "shiny_available": true,
-      "cp_range": {
-        "min": 2190,
-        "max": 2280
-      },
-      "boosted_cp_range": {
-        "min": 2737,
-        "max": 2850
-      },
-      "types": ["Water", "Dragon"],
-      "asset_url": "[https://cdn.leekduck.com/assets/img/pokemon_icons/pm484.icon.png](https://cdn.leekduck.com/assets/img/pokemon_icons/pm484.icon.png)"
-    }
-  ]
-}
-```
+The scraper outputs standardized JSON files which are automatically committed to a dedicated **data** branch and can be used as free static JSON APIs for apps or research.
 
 ---
 
-## Getting Started
+## ✨ Features
 
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-
-- Python 3.12+
-- pip
-
-### Installation & Local Usage
-
-1.  **Clone the repository:**
-
-    ```sh
-    git clone [https://github.com/zhenga8533/leak-duck.git](https://github.com/zhenga8533/leak-duck.git)
-    cd leak-duck
-    ```
-
-2.  **Create and activate a virtual environment:**
-
-    ```sh
-    # For Windows
-    # python -m venv venv
-    # .\venv\Scripts\activate
-
-    # For macOS/Linux
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-    **Upgrade pip to the latest version:**
-    ```sh
-    pip install --upgrade pip
-    ```
-
-3.  **Install the required packages:**
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-    ```sh
-    playwright install --with-deps chromium
-    ```
-
-4.  **Run the scraper manually:**
-
-    ```sh
-    python -m src.main
-    ```
-
-    When run locally, the script will create two folders in your project root: `html/` and `json/`. These folders are included in the `.gitignore` and will not be committed to your repository.
+- **Automated multi-frequency scraping**
+    - Hourly updates
+    - Daily updates
+    - Weekly updates
+    - Monthly updates
+- **HTML caching system**
+    - Metadata timestamping
+    - Cache expiry rules
+    - GitHub Action HTML restoration
+- **Fully modular scraper architecture**
+    - Each scraper inherits from `BaseScraper`
+    - Each group of scrapers has its own pipeline
+- **Resilient**
+    - Retries, delays, timeouts
+    - Graceful fallback even when scraping partially fails
+- **Data stored in a separate branch**
+    - Allows clean separation between code and generated data
+- **Extensible**
+    - Add new scrapers or pipelines easily
 
 ---
 
-## Automation with GitHub Actions
+## 🎯 Scraped Data Sources
 
-This repository is configured to run the scraper automatically using GitHub Actions.
-
-- **Workflow file:** `.github/workflows/run_scrapers.yml`
-- **Trigger:** The workflow runs on a schedule (every 12 hours) and can also be triggered manually from the "Actions" tab in GitHub.
-- **Process:**
-  1.  The action checks out the `main` branch to get the latest scraper code.
-  2.  It installs the Python dependencies (using a cache for speed).
-  3.  It runs the `src/main.py` script, which generates the JSON files.
-  4.  The action then checks out the `data` branch, adds the new JSON files, and commits them.
-  5.  Finally, it pushes the updated data files directly to the `data` branch.
-
-**Note:** For the GitHub Action to work, you must **manually create the `data` branch** as a clean, orphan branch in your repository first.
+| Category | Source | Frequency |
+|---------|--------|-----------|
+| Type Chart | Pokémon GO Hub | daily |
+| Pokémon Detail | Pokémon GO Hub | weekly/monthly |
+| Moves (PvE/PvP) | Pokémon GO Hub | weekly |
+| Raids / Eggs / Rocket | LeekDuck | hourly |
+| RaidNow Feed | RaidNow | hourly |
+| Pokémon Species List | PokéAPI | cached / as needed |
 
 ---
 
-## Project Structure
+## ⏱ Automation Schedules
+
+Four workflows live in `.github/workflows/`:
+
+| Workflow | Cron | Purpose |
+|----------|------|---------|
+| `scrape_hourly.yml` | Every hour | Raids, Eggs, Research, Rocket, RaidNow |
+| `scrape_daily.yml` | Every 24h | Type Chart, Moves |
+| `scrape_weekly.yml` | Weekly | Pokémon Detail (partial) |
+| `scrape_monthly.yml` | Monthly | Full Pokémon Dataset rebuild |
+
+All workflows push JSON + HTML cache to the `data` branch.
+
+---
+
+## 🗂 Repository Layout
 
 ```
-leak-duck/
-├── .github/
-│   └── workflows/
-│       └── run_scrapers.yml
+project/
+│
 ├── src/
-│   ├── scrapers/
-│   │   ├── __init__.py
+│   ├── base/
 │   │   ├── base_scraper.py
-│   │   ├── raid_boss_scraper.py
-│   │   ├── research_scraper.py
-│   │   ├── rocket_lineup_scraper.py
-│   │   ├── egg_scraper.py
-│   │   ├── event_scraper.py
-│   │   └── event_page_scraper.py
-│   ├── __init__.py
-│   ├── archiver.py
-│   ├── config.json
-│   ├── main.py
-│   └── utils.py
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
+│   │   ├── html_cache.py
+│   │   └── playwright_fetcher.py
+│   │
+│   ├── common/
+│   │   ├── utils.py
+│   │   ├── normalize.py
+│   │   ├── url_utils.py
+│   │   └── text_utils.py
+│   │
+│   ├── pipelines/
+│   │   ├── hourly_pipeline.py
+│   │   ├── daily_pipeline.py
+│   │   ├── weekly_pipeline.py
+│   │   └── monthly_pipeline.py
+│   │
+│   ├── scrapers/
+│   │   ├── pokemon/
+│   │   ├── moves/
+│   │   ├── raids/
+│   │   ├── types/
+│   │   └── events/
+│   │
+│   └── main.py
+│
+├── output/ (local only, gitignored)
+│   ├── html/
+│   └── json/
+│
+├── data branch (GitHub only)
+│   ├── html/
+│   └── json/
+│
+└── README.md
 ```
 
 ---
 
-## Contributing
+## 🧪 Running Locally
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+### 1. Clone & setup:
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+```sh
+git clone https://github.com/nchungdev/pogo-scraper
+cd pogo-scraper
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+playwright install --with-deps chromium
+```
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+### 2. Run the entire pipeline:
+
+```sh
+python -m src.main
+```
+
+### 3. Run a specific mode:
+
+```sh
+python -m src.main --mode hourly
+python -m src.main --mode daily
+python -m src.main --mode weekly
+python -m src.main --mode monthly
+```
 
 ---
 
-## License
+## 📤 Data Output
 
-Distributed under the MIT License. See `LICENSE` for more information.
+All generated JSON & cached HTML are committed to the **data branch**, e.g.:
+
+```
+https://raw.githubusercontent.com/nchungdev/pogo-scraper/data/json/raid_bosses.json
+https://raw.githubusercontent.com/nchungdev/pogo-scraper/data/json/type_chart.json
+https://raw.githubusercontent.com/nchungdev/pogo-scraper/data/json/species_list.json
+```
+
+You can use them as free CDN-served JSON endpoints.
 
 ---
 
-## Acknowledgments
+## ➕ Extending the System
 
-- All data is sourced from the fantastic resources at [leekduck.com](https://leekduck.com).
-- **Disclaimer**: This project is for educational purposes and is not affiliated with Leek Duck or Niantic.
+To create a new scraper:
+
+```sh
+python tools/create_scraper.py category name --title "My Scraper"
+```
+
+The generator produces:
+
+- Scraper class
+- Parser folder
+- Pipeline integration
+- Imports in `__init__.py`
+
+---
+
+## 📄 License
+
+Distributed under the MIT License.  
+Pokémon assets belong to The Pokémon Company / Niantic – this project is not affiliated with them.

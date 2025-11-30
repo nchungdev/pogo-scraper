@@ -8,8 +8,8 @@ from src.common.utils import parse_cp_range
 
 
 class RaidBossScraper(BaseScraper):
-    def __init__(self, url: str, file_name: str, scraper_settings: dict[str, Any]):
-        super().__init__(url, file_name, scraper_settings)
+    def __init__(self, url: str, file_name: str, pipeline: str, scraper_settings: dict[str, Any]):
+        super().__init__(url, file_name, pipeline, scraper_settings, subfolder="raid_bosses")
 
     def parse(self, soup: BeautifulSoup) -> dict[str, Any]:
         flat_list: list[dict[str, Any]] = []

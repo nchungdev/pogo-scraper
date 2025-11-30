@@ -1,0 +1,131 @@
+name: Reusable Scraper Workflow
+
+on:
+  workflow_call:
+    inputs:
+      freq:
+        required: true
+        type: string
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+
+    steps:
+      # ---------------------------------------------------------
+      # 1️⃣ Checkout main source code
+      # ---------------------------------------------------------
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      # ---------------------------------------------------------
+      # 2️⃣ Setup Python + deps
+      # ---------------------------------------------------------
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ---------------------------------------------------------
+      # 3️⃣ Prepare output folders
+      # ---------------------------------------------------------
+      - name: Prepare output folders
+        run: |
+          mkdir -p src/output/${{ inputs.freq }}/html
+          mkdir -p src/output/${{ inputs.freq }}/json
+
+      # ---------------------------------------------------------
+      # 4️⃣ Restore HTML cache from data branch
+      # ---------------------------------------------------------
+      - name: Checkout data (cache)
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data_cache
+        continue-on-error: true
+
+      - name: Restore HTML cache
+        run: |
+          cache_dir="data_cache/output/${{ inputs.freq }}/html"
+          target="src/output/${{ inputs.freq }}/html"
+
+          if [ -d "$cache_dir" ]; then
+            echo "Restoring HTML cache from $cache_dir"
+            cp -r $cache_dir/. $target/ || true
+          else
+            echo "⚠️ No HTML cache found for ${{ inputs.freq }}"
+          fi
+
+      # ---------------------------------------------------------
+      # 5️⃣ Run scraper pipeline
+      # ---------------------------------------------------------
+      - name: Run scraper
+        run: python -m src.main ${{ inputs.freq }}
+        continue-on-error: true   # always commit partial data
+
+      # ---------------------------------------------------------
+      # 6️⃣ Upload Firestore (optional)
+      # ---------------------------------------------------------
+      - name: Upload Firestore
+        run: |
+          echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}" | base64 --decode > serviceAccount.json
+          python -m src.upload_firestore
+        continue-on-error: true
+
+      # ---------------------------------------------------------
+      # 7️⃣ Collect output to temp folder
+      # ---------------------------------------------------------
+      - name: Collect output
+        run: |
+          mkdir -p temp/${{ inputs.freq }}/html
+          mkdir -p temp/${{ inputs.freq }}/json
+
+          cp -r src/output/${{ inputs.freq }}/html/. temp/${{ inputs.freq }}/html/ || true
+          cp -r src/output/${{ inputs.freq }}/json/. temp/${{ inputs.freq }}/json/ || true
+
+      # ---------------------------------------------------------
+      # 8️⃣ Checkout data branch CLEAN (no merge, fresh)
+      # ---------------------------------------------------------
+      - name: Checkout data branch clean
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data_branch
+          clean: true
+
+      # ---------------------------------------------------------
+      # 9️⃣ Remove old data + write new (safe overwrite)
+      # ---------------------------------------------------------
+      - name: Replace data safely
+        run: |
+          freq="${{ inputs.freq }}"
+
+          # Remove old data for this freq
+          rm -rf data_branch/output/$freq
+          mkdir -p data_branch/output/$freq/html
+          mkdir -p data_branch/output/$freq/json
+
+          # Copy new data
+          cp -r temp/$freq/html/. data_branch/output/$freq/html/ || true
+          cp -r temp/$freq/json/. data_branch/output/$freq/json/ || true
+
+      # ---------------------------------------------------------
+      # 🔟 Commit & push new data
+      # ---------------------------------------------------------
+      - name: Commit and push data
+        run: |
+          cd data_branch
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add .
+          git commit -m "${{ inputs.freq }} update $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes"
+          git push origin data
