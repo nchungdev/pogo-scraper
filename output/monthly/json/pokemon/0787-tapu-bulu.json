@@ -1,0 +1,940 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3865,
+        "attack": 249,
+        "defense": 215,
+        "stamina": 172,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": true,
+        "title": "Tapu Bulu",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/787.webp",
+        "types": [
+            "Grass",
+            "Fairy"
+        ],
+        "weather_boost": [
+            "sunny",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bullet Seed",
+            "charged": "Nature's Madness",
+            "dps": 14.68,
+            "tdo": 294.24,
+            "boosted_weather": [
+                "sunny",
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Nature's Madness *",
+                "charged_url": "https://db.pokemongohub.net/move/390",
+                "dps": 14.68,
+                "tdo": 294.2,
+                "score": 13.06
+            },
+            {
+                "rank": 2,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 13.5,
+                "tdo": 270.7,
+                "score": 12.01
+            },
+            {
+                "rank": 3,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Nature's Madness *",
+                "charged_url": "https://db.pokemongohub.net/move/390",
+                "dps": 13.28,
+                "tdo": 266.2,
+                "score": 11.81
+            },
+            {
+                "rank": 4,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 12.62,
+                "tdo": 253.0,
+                "score": 11.23
+            },
+            {
+                "rank": 5,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 12.49,
+                "tdo": 250.4,
+                "score": 11.11
+            },
+            {
+                "rank": 6,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Solar Beam",
+                "charged_url": "https://db.pokemongohub.net/move/116",
+                "dps": 12.44,
+                "tdo": 249.3,
+                "score": 11.07
+            },
+            {
+                "rank": 7,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 11.93,
+                "tdo": 239.1,
+                "score": 10.61
+            },
+            {
+                "rank": 8,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Solar Beam",
+                "charged_url": "https://db.pokemongohub.net/move/116",
+                "dps": 11.45,
+                "tdo": 229.6,
+                "score": 10.19
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Rock Smash",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 17,
+                    "energy": 12,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 17,
+                    "energy": 12,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/241"
+            },
+            {
+                "name": "Bullet Seed",
+                "type": "Grass",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/271"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Megahorn",
+                "type": "Bug",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.5s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/22"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.1s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/86"
+            },
+            {
+                "name": "Solar Beam",
+                "type": "Grass",
+                "stats": {
+                    "damage": 180,
+                    "energy": 100,
+                    "duration": 5.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 180,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 5.0,
+                    "damage_window": "2.8s - 4.8s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/116"
+            },
+            {
+                "name": "Grass Knot",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/272"
+            },
+            {
+                "name": "Nature's Madness *",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/390"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Tapu Bulu's has 3865 max CP (at Level 50). A Tapu Bulu obtained from Raids can be encountered from 1870 CP to 1953 CP, or if weather boosted, in the 2338 CP to 2442 CP range. In Field and Special Research, Tapu Bulu can be found in the 1403 CP to 1465 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3865",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1403 - 1465",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1870 - 1953",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1870 - 1953",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2338 - 2442",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2338 CP - 2442 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 48,
+        "2": 151,
+        "3": 254,
+        "4": 358,
+        "5": 461,
+        "6": 564,
+        "7": 667,
+        "8": 770,
+        "9": 874,
+        "10": 977,
+        "11": 1074,
+        "12": 1172,
+        "13": 1270,
+        "14": 1367,
+        "15": 1465,
+        "16": 1563,
+        "17": 1660,
+        "18": 1758,
+        "19": 1856,
+        "20": 1953,
+        "21": 2051,
+        "22": 2149,
+        "23": 2247,
+        "24": 2344,
+        "25": 2442,
+        "26": 2540,
+        "27": 2638,
+        "28": 2735,
+        "29": 2833,
+        "30": 2931,
+        "31": 2980,
+        "32": 3028,
+        "33": 3077,
+        "34": 3126,
+        "35": 3175,
+        "36": 3224,
+        "37": 3273,
+        "38": 3321,
+        "39": 3370,
+        "40": 3419,
+        "41": 3462,
+        "42": 3506,
+        "43": 3550,
+        "44": 3594,
+        "45": 3639,
+        "46": 3684,
+        "47": 3729,
+        "48": 3774,
+        "49": 3820,
+        "50": 3865
+    },
+    "meta_analysis": "Tapu Bulu in the meta PvE Analysis Tapu Bulu is arguably the least popular of the Tapus in the main series games. But surprise, surprise… it's perhaps the most resourceful of the four in Pokémon GO ! 🤯 Like other Tapus , it's pretty mediocre as a Fairy Pokémon since it lacks a Fast attack of this type. On the other hand, it is a respectable Grass-type attacker that you'll enjoy using! 🍃 ⚔️ Raids - A pretty solid Grass-type attacker . Not amazing. Not bad. Plain and simple 👍. 🛡️ Gyms - Legendaries cannot be Gym defenders in Pokémon GO . PvP Analysis Tapu Bulu's typing and moveset give it PvP relevance , although primarily in the Master League . 🔵 Great League - Tapu Bulu has a stat range that's too high for the Great League . 🟡 Ultra League - It works… somewhat in the Ultra League , but its offense-oriented stats and risky matchups make it inconsistent to use 😟. It's not exactly bad, but you'll encounter more losses than you expect . 🟣 Master League - Tapu Bulu's revenge arc comes to full fruition in the Master League , where this Legendary uses the energy gains from Bullet Seed to unleash insane Nature's Madness spams , threatening a large portion of the meta 👌. It also doesn’t have many exploitable weaknesses in this format, so it excels defensively as well. A phenomenal fit for your Master League teams, Tapu Bulu is a gift that keeps on giving 🎁. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Tapu Bulu",
+        "type": "Grass",
+        "intro_text": "A list of Mega Pokémon that boost Tapu Bulu's Grass and Fairy-type moves, Candy, and Candy XL from catching Tapu Bulu.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 787,
+            "height_m": 1.9,
+            "weight_kg": 45.5,
+            "region": "Generation 7",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.93 m",
+            "xs": "0.95 m",
+            "m": "1.9 m",
+            "xl": "2.85 m",
+            "xxl": "2.95 m",
+            "description": "Tapu Bulu's height ranges from 0.93 m to 2.95 m, with the average being 1.9 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.931,
+                "upper_m": 0.95,
+                "lower_ft": "3′01″",
+                "upper_ft": "3′01″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.95,
+                "upper_m": 1.9,
+                "lower_ft": "3′01″",
+                "upper_ft": "6′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.425,
+                "upper_m": 2.375,
+                "lower_ft": "4′08″",
+                "upper_ft": "7′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.375,
+                "upper_m": 2.85,
+                "lower_ft": "7′10″",
+                "upper_ft": "9′04″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.85,
+                "upper_m": 2.945,
+                "lower_ft": "9′04″",
+                "upper_ft": "9′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It pulls large trees up by the roots and swings them around. It causes vegetation to grow, and then it absorbs energy from the growth."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "The guardian deity of Ula’ula is a lazy Pokémon. It commands plants to immobilize its foes and then deals them a savage blow with its horns."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Although it’s called a guardian deity, it’s violent enough to crush anyone it sees as an enemy."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It makes ringing sounds with its tail to let others know where it is, avoiding unneeded conflicts. This guardian deity of Ula’ula controls plants."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Tapu Bulu",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm787.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm787.icon.png"
+            },
+            {
+                "label": "Shiny Tapu Bulu",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm787.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm787.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 787,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0787_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0787_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Tapu Bulu sprite"
+            },
+            {
+                "pokedex_number": 787,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0787_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0787_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Tapu Bulu sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/787_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/787_social.jpg",
+                "alt": "Tapu Bulu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/787_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/787_social_dark.jpg",
+                "alt": "Tapu Bulu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/787_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/787_social_map.jpg",
+                "alt": "Tapu Bulu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/787_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/787_social_map_dark.jpg",
+                "alt": "Tapu Bulu"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Tapu Bulu’s strengths and weaknesses?",
+            "answer": "As a Grass and Fairy-type Pokémon, Tapu Bulu is especially weak against Poison-type moves, and weak against Fire, Flying, Ice, and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Tapu Bulu in Pokémon GO?",
+            "answer": "The best moves for Tapu Bulu in Pokémon GO are Bullet Seed and Nature's Madness. This moveset has a DPS (Damage Per Second) of 14.677 and a TDO (Total Damage Output) of 294.238."
+        },
+        {
+            "question": "How does Tapu Bulu perform in Raids?",
+            "answer": "Tapu Bulu can be useful in specific Raid matchups but has limited effectiveness. Ranks #169 as a Raid attacker."
+        },
+        {
+            "question": "How does Tapu Bulu rank as a Grass-type attacker?",
+            "answer": "Tapu Bulu is an A+ Tier Grass-type attacker, ranking at number #17 and performing very well in most scenarios and a great choice for trainers."
+        },
+        {
+            "question": "How does Tapu Bulu rank as a Fairy-type attacker?",
+            "answer": "Tapu Bulu is an S-Tier Fairy-type attacker, ranking at number #8 and providing exceptional value due to its strong stats and effective moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Tapu Bulu?",
+            "answer": "The following Mega Pokémon boost Tapu Bulu: Mega Venusaur, Mega Sceptile, Primal Groudon, Mega Abomasnow, Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, and Mega Diancie."
+        },
+        {
+            "question": "What is Tapu Bulu’s maximum CP at Level 40 and Level 50?",
+            "answer": "Tapu Bulu’s maximum CP at Level 40 is 3419 CP and 3865 CP at Level 50."
+        },
+        {
+            "question": "Can Tapu Bulu be shiny in Pokémon GO?",
+            "answer": "Tapu Bulu can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Tapu Bulu Dynamax in Pokémon GO?",
+            "answer": "Tapu Bulu cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,882 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1524,
+        "attack": 136,
+        "defense": 112,
+        "stamina": 146,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Aipom",
+        "forms": [
+            {
+                "name": "Aipom",
+                "href": "/pokemon/190",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/190.webp"
+            },
+            {
+                "name": "Shadow Aipom",
+                "href": "/pokemon/190-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/190.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/190.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Scratch",
+            "charged": "Swift",
+            "dps": 6.47,
+            "tdo": 61.7,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 6.47,
+                "tdo": 61.7,
+                "score": 5.13
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 6.31,
+                "tdo": 60.2,
+                "score": 5.0
+            },
+            {
+                "rank": 3,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Low Sweep",
+                "charged_url": "https://db.pokemongohub.net/move/56",
+                "dps": 6.07,
+                "tdo": 57.9,
+                "score": 4.81
+            },
+            {
+                "rank": 4,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 4.89,
+                "tdo": 46.6,
+                "score": 3.87
+            },
+            {
+                "rank": 5,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 4.81,
+                "tdo": 45.9,
+                "score": 3.81
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Low Sweep",
+                "charged_url": "https://db.pokemongohub.net/move/56",
+                "dps": 4.36,
+                "tdo": 41.5,
+                "score": 3.45
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Low Sweep",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 40,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 40,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.4s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/56"
+            },
+            {
+                "name": "Swift",
+                "type": "Normal",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.2s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/125"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Aipom's has 1524 max CP (at Level 50). A Aipom obtained from Raids can be encountered from 718 CP to 770 CP, or if weather boosted, in the 898 CP to 963 CP range. In Field and Special Research, Aipom can be found in the 539 CP to 578 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1524",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "539 - 578",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "718 - 770",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "718 - 770",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "898 - 963",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "898 CP - 963 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 19,
+        "2": 59,
+        "3": 100,
+        "4": 141,
+        "5": 181,
+        "6": 222,
+        "7": 263,
+        "8": 304,
+        "9": 344,
+        "10": 385,
+        "11": 423,
+        "12": 462,
+        "13": 500,
+        "14": 539,
+        "15": 578,
+        "16": 616,
+        "17": 655,
+        "18": 693,
+        "19": 732,
+        "20": 770,
+        "21": 809,
+        "22": 847,
+        "23": 886,
+        "24": 924,
+        "25": 963,
+        "26": 1001,
+        "27": 1040,
+        "28": 1078,
+        "29": 1117,
+        "30": 1156,
+        "31": 1175,
+        "32": 1194,
+        "33": 1213,
+        "34": 1233,
+        "35": 1252,
+        "36": 1271,
+        "37": 1290,
+        "38": 1310,
+        "39": 1329,
+        "40": 1348,
+        "41": 1365,
+        "42": 1382,
+        "43": 1400,
+        "44": 1417,
+        "45": 1435,
+        "46": 1452,
+        "47": 1470,
+        "48": 1488,
+        "49": 1506,
+        "50": 1524
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Aipom",
+                    "href": "/pokemon/190",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/190.webp"
+                },
+                "to": {
+                    "name": "Ambipom",
+                    "href": "/pokemon/424",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/424.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Special Item: Sinnoh Stone"
+                ]
+            }
+        ],
+        "details": [
+            "100 Candy",
+            "Special Item: Sinnoh Stone"
+        ],
+        "family": [
+            {
+                "name": "Aipom",
+                "href": "/pokemon/190",
+                "img": "https://db.pokemongohub.net/images/official/medium/190.webp"
+            },
+            {
+                "name": "Ambipom",
+                "href": "/pokemon/424",
+                "img": "https://db.pokemongohub.net/images/official/medium/424.webp"
+            },
+            {
+                "name": "Shadow Aipom",
+                "href": "/pokemon/190-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Ambipom",
+                "href": "/pokemon/424-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Aipom in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Aipom",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Aipom's Normal-type moves, Candy, and Candy XL from catching Aipom.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 190,
+            "height_m": 0.79,
+            "weight_kg": 11.5,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.39 m",
+            "xs": "0.4 m",
+            "m": "0.79 m",
+            "xl": "1.19 m",
+            "xxl": "1.38 m",
+            "description": "Aipom's height ranges from 0.39 m to 1.38 m, with the average being 0.79 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.3871,
+                "upper_m": 0.395,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.395,
+                "upper_m": 0.79,
+                "lower_ft": "1′04″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.5925,
+                "upper_m": 0.9875,
+                "lower_ft": "1′11″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.9875,
+                "upper_m": 1.185,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.185,
+                "upper_m": 1.3825,
+                "lower_ft": "3′11″",
+                "upper_ft": "4′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It lives atop tall trees. When leap ing from branch to branch, it deftly uses its tail for balance."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It uses its tail to hang on to tree branches. It uses its momentum to swing from one branch to another."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "AIPOM’s tail ends in a hand-like appendage that can be cleverly manipulated. However, because the POKéMON uses its tail so much, its real hands have become rather clumsy."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "Its tail ends with a dexterous, handlike appendage. However, because it uses the tail so much, AIPOM’s real hands have become rather clumsy."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
+        },
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It uses its tail to pluck fruits that are out of reach. Its tail is more adept than its real hands."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It lives atop giant trees. It wraps its tail around a branch so it won’t fall off while asleep."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It lives high among the treetops. It can use its tail as freely and cleverly as its hands."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It lives atop tall trees. When leaping from branch to branch, it deftly uses its tail for balance."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Aipom’s tail ends in a hand-like appendage that can be cleverly manipulated. However, because the Pokémon uses its tail so much, its real hands have become rather clumsy."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It searches for prey from the tops of trees. When it spots its favorite food, Bounsweet, Aipom gets excited and pounces."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "This treetop dweller possesses a tail as dexterous as a hand. Ancient writings describe this Pokémon as a one-armed oddity."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Aipom",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm190.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm190.icon.png"
+            },
+            {
+                "label": "Regular Aipom♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm190.g2.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm190.g2.icon.png"
+            },
+            {
+                "label": "Shiny Aipom",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm190.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm190.s.icon.png"
+            },
+            {
+                "label": "Shiny Aipom♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm190.g2.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm190.g2.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 190,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0190_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0190_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Aipom ♀ sprite"
+            },
+            {
+                "pokedex_number": 190,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0190_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0190_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Aipom ♀ sprite"
+            },
+            {
+                "pokedex_number": 190,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0190_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0190_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Aipom sprite"
+            },
+            {
+                "pokedex_number": 190,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0190_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0190_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Aipom sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/190_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/190_social.jpg",
+                "alt": "Aipom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/190_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/190_social_dark.jpg",
+                "alt": "Aipom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/190_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/190_social_map.jpg",
+                "alt": "Aipom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/190_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/190_social_map_dark.jpg",
+                "alt": "Aipom"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Aipom’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Aipom is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Aipom in Pokémon GO?",
+            "answer": "The best moves for Aipom in Pokémon GO are Scratch and Swift. This moveset has a DPS (Damage Per Second) of 6.475 and a TDO (Total Damage Output) of 61.705."
+        },
+        {
+            "question": "How does Aipom perform in Raids?",
+            "answer": "Aipom's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Aipom rank as a Normal-type attacker?",
+            "answer": "Aipom is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Aipom?",
+            "answer": "The following Mega Pokémon boost Aipom: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Aipom’s maximum CP at Level 40 and Level 50?",
+            "answer": "Aipom’s maximum CP at Level 40 is 1348 CP and 1524 CP at Level 50."
+        },
+        {
+            "question": "Can Aipom be shiny in Pokémon GO?",
+            "answer": "Aipom can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Aipom Dynamax in Pokémon GO?",
+            "answer": "Aipom cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

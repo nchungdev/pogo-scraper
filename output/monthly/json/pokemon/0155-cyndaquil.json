@@ -1,0 +1,884 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1108,
+        "attack": 116,
+        "defense": 93,
+        "stamina": 118,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Cyndaquil",
+        "forms": [
+            {
+                "name": "Cyndaquil",
+                "href": "/pokemon/155",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/155.webp"
+            },
+            {
+                "name": "Shadow Cyndaquil",
+                "href": "/pokemon/155-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/155.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/155.webp",
+        "types": [
+            "Fire"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Flamethrower",
+            "dps": 4.64,
+            "tdo": 31.08,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 4.64,
+                "tdo": 31.1,
+                "score": 3.38
+            },
+            {
+                "rank": 2,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 4.63,
+                "tdo": 31.0,
+                "score": 3.37
+            },
+            {
+                "rank": 3,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 4.49,
+                "tdo": 30.0,
+                "score": 3.27
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 4.48,
+                "tdo": 30.0,
+                "score": 3.26
+            },
+            {
+                "rank": 5,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 4.24,
+                "tdo": 28.4,
+                "score": 3.09
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 4.21,
+                "tdo": 28.2,
+                "score": 3.07
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            },
+            {
+                "name": "Swift",
+                "type": "Normal",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.2s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/125"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Cyndaquil's has 1108 max CP (at Level 50). A Cyndaquil obtained from Raids can be encountered from 516 CP to 560 CP, or if weather boosted, in the 645 CP to 700 CP range. In Field and Special Research, Cyndaquil can be found in the 387 CP to 420 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1108",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "387 - 420",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "516 - 560",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "516 - 560",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "645 - 700",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "645 CP - 700 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 43,
+        "3": 73,
+        "4": 102,
+        "5": 132,
+        "6": 161,
+        "7": 191,
+        "8": 221,
+        "9": 250,
+        "10": 280,
+        "11": 308,
+        "12": 336,
+        "13": 364,
+        "14": 392,
+        "15": 420,
+        "16": 448,
+        "17": 476,
+        "18": 504,
+        "19": 532,
+        "20": 560,
+        "21": 588,
+        "22": 616,
+        "23": 644,
+        "24": 672,
+        "25": 700,
+        "26": 728,
+        "27": 756,
+        "28": 784,
+        "29": 812,
+        "30": 840,
+        "31": 854,
+        "32": 868,
+        "33": 882,
+        "34": 896,
+        "35": 910,
+        "36": 924,
+        "37": 938,
+        "38": 952,
+        "39": 966,
+        "40": 980,
+        "41": 993,
+        "42": 1005,
+        "43": 1018,
+        "44": 1030,
+        "45": 1043,
+        "46": 1056,
+        "47": 1069,
+        "48": 1082,
+        "49": 1095,
+        "50": 1108
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Cyndaquil",
+                    "href": "/pokemon/155",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/155.webp"
+                },
+                "to": {
+                    "name": "Quilava",
+                    "href": "/pokemon/156",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/156.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Quilava",
+                    "href": "/pokemon/156",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/156.webp"
+                },
+                "to": {
+                    "name": "Typhlosion",
+                    "href": "/pokemon/157",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/157.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Cyndaquil",
+                "href": "/pokemon/155",
+                "img": "https://db.pokemongohub.net/images/official/medium/155.webp"
+            },
+            {
+                "name": "Quilava",
+                "href": "/pokemon/156",
+                "img": "https://db.pokemongohub.net/images/official/medium/156.webp"
+            },
+            {
+                "name": "Typhlosion",
+                "href": "/pokemon/157",
+                "img": "https://db.pokemongohub.net/images/official/medium/157.webp"
+            },
+            {
+                "name": "Hisuian Typhlosion",
+                "href": "/pokemon/157-Hisuian",
+                "img": "https://db.pokemongohub.net/images/official/medium/157_hisuian.webp"
+            },
+            {
+                "name": "Shadow Hisuian Typhlosion",
+                "href": "/pokemon/157-Hisuian_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Cyndaquil",
+                "href": "/pokemon/155-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Quilava",
+                "href": "/pokemon/156-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Typhlosion",
+                "href": "/pokemon/157-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Cyndaquil in the meta PvE Analysis ⚔️ Raids Cyndaquil is the first stage of Johto’s Fire-type starter . With a max CP of 1108 , there is no way Cyndaquil can be considered a viable raid attacker. 🔮 Dynamax N/A PvP Analysis 🧸 Little Cup Cyndaquil is not a good fit for any of the open metas, unsurprisingly. Even in the 500 CP Little Cup format , it’s not particularly strong. However, it can be a fun spice pick to try out. Cyndaquil’s main strength is fast attack pressure with Ember , which can devastate unsuspecting meta picks such as Bronzor or Cottonee . However, in this case, Cyndaquil’s Shadow form is superior . 🔵 Great League N/A 🟡 Ultra League N/A 🟣 Master League N/A",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Cyndaquil",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Cyndaquil's Fire-type moves, Candy, and Candy XL from catching Cyndaquil.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 155,
+            "height_m": 0.51,
+            "weight_kg": 7.9,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.26 m",
+            "m": "0.51 m",
+            "xl": "0.77 m",
+            "xxl": "0.89 m",
+            "description": "Cyndaquil's height ranges from 0.25 m to 0.89 m, with the average being 0.51 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2499,
+                "upper_m": 0.255,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.255,
+                "upper_m": 0.51,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3825,
+                "upper_m": 0.6375,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.6375,
+                "upper_m": 0.765,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.765,
+                "upper_m": 0.8925,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′11″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It is timid, and always curls it self up in a ball. If attacked, it flares up its back for protection."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "The fire that spouts from its back burns hottest when it is angry. The flaring flames intimidate foes."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "CYNDAQUIL protects itself by flaring up the flames on its back. The flames are vigorous if the POKéMON is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It flares flames from its back to protect itself. The fire burns vigorously if the POKéMON is angry. When it is tired, it sputters with incomplete combustion."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "It is timid and always curls itself up in a ball. If attacked, it flares up its back for protection."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It has a timid nature. If it is startled, the flames on its back burn more vigorously."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It is timid and always curls itself up in a ball. If attacked, it flares up its back for protection."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It has a timid nature. If it is startled, the flames on its back burn more vigorously."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Cyndaquil protects itself by flaring up the flames on its back. The flames are vigorous if the Pokémon is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Hails from the Johto region. Though usually curled into a ball due to its timid disposition, it harbors tremendous firepower."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Cyndaquil",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm155.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm155.icon.png"
+            },
+            {
+                "label": "Shiny Cyndaquil",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm155.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm155.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 155,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0155_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0155_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Cyndaquil sprite"
+            },
+            {
+                "pokedex_number": 155,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0155_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0155_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Cyndaquil sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/155_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/155_social.jpg",
+                "alt": "Cyndaquil"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/155_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/155_social_dark.jpg",
+                "alt": "Cyndaquil"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/155_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/155_social_map.jpg",
+                "alt": "Cyndaquil"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/155_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/155_social_map_dark.jpg",
+                "alt": "Cyndaquil"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Cyndaquil’s strengths and weaknesses?",
+            "answer": "As a Fire-type Pokémon, Cyndaquil is weak to Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Cyndaquil in Pokémon GO?",
+            "answer": "The best moves for Cyndaquil in Pokémon GO are Tackle and Flamethrower. This moveset has a DPS (Damage Per Second) of 4.642 and a TDO (Total Damage Output) of 31.076."
+        },
+        {
+            "question": "How does Cyndaquil perform in Raids?",
+            "answer": "Cyndaquil's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Cyndaquil rank as a Fire-type attacker?",
+            "answer": "Cyndaquil's performance as a Fire-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Cyndaquil?",
+            "answer": "The following Mega Pokémon boost Cyndaquil: Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Cyndaquil’s maximum CP at Level 40 and Level 50?",
+            "answer": "Cyndaquil’s maximum CP at Level 40 is 980 CP and 1108 CP at Level 50."
+        },
+        {
+            "question": "Can Cyndaquil be shiny in Pokémon GO?",
+            "answer": "Cyndaquil can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Cyndaquil Dynamax in Pokémon GO?",
+            "answer": "Cyndaquil cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

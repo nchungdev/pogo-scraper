@@ -1,0 +1,922 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2288,
+        "attack": 145,
+        "defense": 156,
+        "stamina": 225,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Noctowl",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/164.webp",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Wing Attack",
+            "charged": "Sky Attack",
+            "dps": 8.88,
+            "tdo": 169.92,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Sky Attack",
+                "charged_url": "https://db.pokemongohub.net/move/257",
+                "dps": 8.88,
+                "tdo": 169.9,
+                "score": 7.86
+            },
+            {
+                "rank": 2,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Sky Attack",
+                "charged_url": "https://db.pokemongohub.net/move/257",
+                "dps": 8.65,
+                "tdo": 165.5,
+                "score": 7.65
+            },
+            {
+                "rank": 3,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 7.85,
+                "tdo": 150.1,
+                "score": 6.94
+            },
+            {
+                "rank": 4,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 7.65,
+                "tdo": 146.3,
+                "score": 6.77
+            },
+            {
+                "rank": 5,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 7.59,
+                "tdo": 145.2,
+                "score": 6.72
+            },
+            {
+                "rank": 6,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 7.39,
+                "tdo": 141.4,
+                "score": 6.54
+            },
+            {
+                "rank": 7,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 6.24,
+                "tdo": 119.4,
+                "score": 5.52
+            },
+            {
+                "rank": 8,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 6.03,
+                "tdo": 115.3,
+                "score": 5.33
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Wing Attack",
+                "type": "Flying",
+                "stats": {
+                    "damage": 10,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/210"
+            },
+            {
+                "name": "Extrasensory",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/274"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Psychic",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/108"
+            },
+            {
+                "name": "Sky Attack",
+                "type": "Flying",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.5s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/257"
+            },
+            {
+                "name": "Night Shade",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/265"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Noctowl's has 2288 max CP (at Level 50). A Noctowl obtained from Raids can be encountered from 1092 CP to 1156 CP, or if weather boosted, in the 1365 CP to 1446 CP range. In Field and Special Research, Noctowl can be found in the 819 CP to 867 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2288",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "819 - 867",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1092 - 1156",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1092 - 1156",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1365 - 1446",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1365 CP - 1446 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 28,
+        "2": 89,
+        "3": 150,
+        "4": 211,
+        "5": 273,
+        "6": 334,
+        "7": 395,
+        "8": 456,
+        "9": 517,
+        "10": 578,
+        "11": 636,
+        "12": 694,
+        "13": 752,
+        "14": 809,
+        "15": 867,
+        "16": 925,
+        "17": 983,
+        "18": 1041,
+        "19": 1098,
+        "20": 1156,
+        "21": 1214,
+        "22": 1272,
+        "23": 1330,
+        "24": 1388,
+        "25": 1446,
+        "26": 1503,
+        "27": 1561,
+        "28": 1619,
+        "29": 1677,
+        "30": 1735,
+        "31": 1764,
+        "32": 1793,
+        "33": 1822,
+        "34": 1850,
+        "35": 1879,
+        "36": 1908,
+        "37": 1937,
+        "38": 1966,
+        "39": 1995,
+        "40": 2024,
+        "41": 2050,
+        "42": 2076,
+        "43": 2102,
+        "44": 2128,
+        "45": 2154,
+        "46": 2181,
+        "47": 2207,
+        "48": 2234,
+        "49": 2261,
+        "50": 2288
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Hoothoot",
+                    "href": "/pokemon/163",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/163.webp"
+                },
+                "to": {
+                    "name": "Noctowl",
+                    "href": "/pokemon/164",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/164.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Hoothoot",
+                "href": "/pokemon/163",
+                "img": "https://db.pokemongohub.net/images/official/medium/163.webp"
+            },
+            {
+                "name": "Noctowl",
+                "href": "/pokemon/164",
+                "img": "https://db.pokemongohub.net/images/official/medium/164.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Noctowl in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Noctowl",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Noctowl's Normal and Flying-type moves, Candy, and Candy XL from catching Noctowl.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 164,
+            "height_m": 1.6,
+            "weight_kg": 40.8,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.78 m",
+            "xs": "0.8 m",
+            "m": "1.6 m",
+            "xl": "2.4 m",
+            "xxl": "2.8 m",
+            "description": "Noctowl's height ranges from 0.78 m to 2.8 m, with the average being 1.6 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.784,
+                "upper_m": 0.8,
+                "lower_ft": "2′07″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.8,
+                "upper_m": 1.6,
+                "lower_ft": "2′07″",
+                "upper_ft": "5′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.2,
+                "upper_m": 2,
+                "lower_ft": "3′11″",
+                "upper_ft": "6′07″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2,
+                "upper_m": 2.4,
+                "lower_ft": "6′07″",
+                "upper_ft": "7′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.4,
+                "upper_m": 2.8,
+                "lower_ft": "7′10″",
+                "upper_ft": "9′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "When it needs to think, it rotates its head 180 de grees to sharpen its intellectual power."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "Its extremely soft feathers make no sound in flight. It silently sneaks up on prey without being detected."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "NOCTOWL never fails at catching prey in darkness. This POKéMON owes its success to its superior vision that allows it to see in minimal light, and to its soft, supple wings that make no sound in flight."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It unfailingly catches prey in darkness. NOCTOWL owe their success to superior vision that allows them to see in minimal light, and to their supple and silent wings."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark."
+        },
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "Its eyes are special. They can pick out objects as long as there is the tiniest amount of light."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "If it flips its head upside down, it’s a sign that it is engaged in very complex thinking."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark."
+        },
+        {
+            "versions": [
+                "Y",
+                "Shield"
+            ],
+            "entry": "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Noctowl never fails at catching prey in darkness. This Pokémon owes its success to its superior vision that allows it to see in minimal light, and to its soft, supple wings that make no sound in flight."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "With eyes that can see in pitch-darkness, it never lets its prey escape. Some even call it “the emperor of dark nights.”"
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "When it turns its head entirely upside down, you know it’s troubled by something. If you don’t leave it be, it will peck you."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Noctowl",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm164.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm164.icon.png"
+            },
+            {
+                "label": "Shiny Noctowl",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm164.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm164.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 164,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0164_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0164_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Noctowl sprite"
+            },
+            {
+                "pokedex_number": 164,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0164_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0164_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Noctowl sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/164_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/164_social.jpg",
+                "alt": "Noctowl"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/164_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/164_social_dark.jpg",
+                "alt": "Noctowl"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/164_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/164_social_map.jpg",
+                "alt": "Noctowl"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/164_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/164_social_map_dark.jpg",
+                "alt": "Noctowl"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 164,
+            "name": "Noctowl",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm164.cJAN_2022_NOEVOLVE.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm164.cJAN_2022_NOEVOLVE.icon.png",
+            "category": "Jan 2022"
+        },
+        {
+            "pokedex_number": 164,
+            "name": "Shiny Noctowl",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm164.cJAN_2022_NOEVOLVE.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm164.cJAN_2022_NOEVOLVE.s.icon.png",
+            "category": "Jan 2022"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Noctowl’s strengths and weaknesses?",
+            "answer": "As a Normal and Flying-type Pokémon, Noctowl is weak to Electric, Ice, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Noctowl in Pokémon GO?",
+            "answer": "The best moves for Noctowl in Pokémon GO are Wing Attack and Sky Attack. This moveset has a DPS (Damage Per Second) of 8.883 and a TDO (Total Damage Output) of 169.922."
+        },
+        {
+            "question": "How does Noctowl perform in Raids?",
+            "answer": "Noctowl's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Noctowl rank as a Normal-type attacker?",
+            "answer": "Noctowl's performance as a Normal-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Noctowl rank as a Flying-type attacker?",
+            "answer": "Noctowl is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Noctowl?",
+            "answer": "The following Mega Pokémon boost Noctowl: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, Mega Audino, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Noctowl’s maximum CP at Level 40 and Level 50?",
+            "answer": "Noctowl’s maximum CP at Level 40 is 2024 CP and 2288 CP at Level 50."
+        },
+        {
+            "question": "Can Noctowl be shiny in Pokémon GO?",
+            "answer": "Noctowl can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Noctowl Dynamax in Pokémon GO?",
+            "answer": "Noctowl cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

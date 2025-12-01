@@ -1,0 +1,795 @@
+{
+    "overview_and_stats": {
+        "max_cp": 974,
+        "attack": 98,
+        "defense": 93,
+        "stamina": 123,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": false,
+        "title": "Hatenna",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/856.webp",
+        "types": [
+            "Psychic"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Confusion",
+            "charged": "Psychic",
+            "dps": 4.68,
+            "tdo": 32.52,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 4.68,
+                "tdo": 32.5,
+                "score": 3.44
+            },
+            {
+                "rank": 2,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 4.67,
+                "tdo": 32.5,
+                "score": 3.44
+            },
+            {
+                "rank": 3,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 4.47,
+                "tdo": 31.0,
+                "score": 3.28
+            },
+            {
+                "rank": 4,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 4.03,
+                "tdo": 28.0,
+                "score": 2.97
+            },
+            {
+                "rank": 5,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 3.88,
+                "tdo": 26.9,
+                "score": 2.85
+            },
+            {
+                "rank": 6,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 3.8,
+                "tdo": 26.4,
+                "score": 2.79
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Confusion",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 19,
+                    "energy": 14,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 14,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.5s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 16,
+                    "energy": 14
+                },
+                "url": "https://db.pokemongohub.net/move/235"
+            },
+            {
+                "name": "Charm",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 20,
+                    "energy": 11,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 20,
+                    "energy": 11,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 13,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/320"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Psyshock",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/60"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.1s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/86"
+            },
+            {
+                "name": "Psychic",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/108"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Hatenna's has 974 max CP (at Level 50). A Hatenna obtained from Raids can be encountered from 451 CP to 492 CP, or if weather boosted, in the 563 CP to 615 CP range. In Field and Special Research, Hatenna can be found in the 338 CP to 369 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "974",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "338 - 369",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "451 - 492",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "451 - 492",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "563 - 615",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "563 CP - 615 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 12,
+        "2": 38,
+        "3": 64,
+        "4": 90,
+        "5": 116,
+        "6": 142,
+        "7": 168,
+        "8": 194,
+        "9": 220,
+        "10": 246,
+        "11": 270,
+        "12": 295,
+        "13": 320,
+        "14": 344,
+        "15": 369,
+        "16": 393,
+        "17": 418,
+        "18": 443,
+        "19": 467,
+        "20": 492,
+        "21": 516,
+        "22": 541,
+        "23": 566,
+        "24": 590,
+        "25": 615,
+        "26": 640,
+        "27": 664,
+        "28": 689,
+        "29": 713,
+        "30": 738,
+        "31": 750,
+        "32": 763,
+        "33": 775,
+        "34": 787,
+        "35": 800,
+        "36": 812,
+        "37": 824,
+        "38": 837,
+        "39": 849,
+        "40": 861,
+        "41": 872,
+        "42": 883,
+        "43": 894,
+        "44": 905,
+        "45": 916,
+        "46": 928,
+        "47": 939,
+        "48": 951,
+        "49": 962,
+        "50": 974
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Hatenna",
+                    "href": "/pokemon/856",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/856.webp"
+                },
+                "to": {
+                    "name": "Hattrem",
+                    "href": "/pokemon/857",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/857.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Hattrem",
+                    "href": "/pokemon/857",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/857.webp"
+                },
+                "to": {
+                    "name": "Hatterene",
+                    "href": "/pokemon/858",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/858.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Hatenna",
+                "href": "/pokemon/856",
+                "img": "https://db.pokemongohub.net/images/official/medium/856.webp"
+            },
+            {
+                "name": "Hattrem",
+                "href": "/pokemon/857",
+                "img": "https://db.pokemongohub.net/images/official/medium/857.webp"
+            },
+            {
+                "name": "Hatterene",
+                "href": "/pokemon/858",
+                "img": "https://db.pokemongohub.net/images/official/medium/858.webp"
+            },
+            {
+                "name": "Gigantamax Hatterene",
+                "href": "/pokemon/858-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/858_gmax.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Hatenna in the meta PvE Analysis Hatenna is just a smol reclusive little gal who does not want to get involved in fighting raid bosses. She is the Calm Pokémon for a reason. Please leave her alone. Hatenna is a pure Psychic-type Pokémon. Her best PvP moveset is Confusion, Dazzling Gleam and Psychic. PvP Analysis Little Cup : While Hatenna fits in Little Cup, she doesn't have great stats. With 98 attack, 93 defense, and 123 stamina, making her too squishy to be viable. Great League : Hatenna maxes out at 954 CP. Too small. Ultra League : She is too tiny and squishy. No. Master League : Please don't. She will be stomped out of existence immediately.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Hatenna",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Hatenna's Psychic-type moves, Candy, and Candy XL from catching Hatenna.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 856,
+            "height_m": 0.4,
+            "weight_kg": 3.4,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Hatenna's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 10.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Via the protrusion on its head, it senses other creatures’ emotions. If you don’t have a calm disposition, it will never warm up to you."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Hatenna",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm856.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm856.icon.png"
+            },
+            {
+                "label": "Shiny Hatenna",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm856.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm856.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 856,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0856_000_fo_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0856_000_fo_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Hatenna sprite"
+            },
+            {
+                "pokedex_number": 856,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0856_000_fo_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0856_000_fo_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Hatenna sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/856_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/856_social.jpg",
+                "alt": "Hatenna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/856_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/856_social_dark.jpg",
+                "alt": "Hatenna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/856_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/856_social_map.jpg",
+                "alt": "Hatenna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/856_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/856_social_map_dark.jpg",
+                "alt": "Hatenna"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Hatenna’s strengths and weaknesses?",
+            "answer": "As a Psychic-type Pokémon, Hatenna is weak to Bug, Dark, and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Hatenna in Pokémon GO?",
+            "answer": "The best moves for Hatenna in Pokémon GO are Confusion and Psychic. This moveset has a DPS (Damage Per Second) of 4.681 and a TDO (Total Damage Output) of 32.521."
+        },
+        {
+            "question": "How does Hatenna perform in Raids?",
+            "answer": "Hatenna's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Hatenna rank as a Psychic-type attacker?",
+            "answer": "Hatenna's performance as a Psychic-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Hatenna?",
+            "answer": "The following Mega Pokémon boost Hatenna: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Hatenna’s maximum CP at Level 40 and Level 50?",
+            "answer": "Hatenna’s maximum CP at Level 40 is 861 CP and 974 CP at Level 50."
+        },
+        {
+            "question": "Can Hatenna be shiny in Pokémon GO?",
+            "answer": "Hatenna cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Hatenna Dynamax in Pokémon GO?",
+            "answer": "Hatenna can Dynamax in Pokémon GO."
+        }
+    ]
+}

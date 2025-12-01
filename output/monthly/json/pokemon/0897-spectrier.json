@@ -1,0 +1,668 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3827,
+        "attack": 273,
+        "defense": 146,
+        "stamina": 205,
+        "buddy_distance": 20,
+        "released": false,
+        "shiny_released": false,
+        "title": "Spectrier",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/897.webp",
+        "types": [
+            "Ghost"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Shadow Ball",
+            "dps": 14.68,
+            "tdo": 242.38,
+            "boosted_weather": [
+                "partlyCloudy",
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 14.68,
+                "tdo": 242.4,
+                "score": 12.76
+            },
+            {
+                "rank": 2,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 12.19,
+                "tdo": 201.3,
+                "score": 10.6
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 11.98,
+                "tdo": 197.7,
+                "score": 10.41
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 10.56,
+                "tdo": 174.4,
+                "score": 9.18
+            },
+            {
+                "rank": 5,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 9.54,
+                "tdo": 157.6,
+                "score": 8.29
+            },
+            {
+                "rank": 6,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 8.71,
+                "tdo": 143.9,
+                "score": 7.57
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Take Down",
+                "type": "Normal",
+                "stats": {
+                    "damage": 7,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 8,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/282"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Bulldoze",
+                "type": "Ground",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/95"
+            },
+            {
+                "name": "Foul Play",
+                "type": "Dark",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.7s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/280"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Spectrier's has 3827 max CP (at Level 50). A Spectrier obtained from Raids can be encountered from 1849 CP to 1934 CP, or if weather boosted, in the 2312 CP to 2418 CP range. In Field and Special Research, Spectrier can be found in the 1387 CP to 1450 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3827",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1387 - 1450",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1849 - 1934",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1849 - 1934",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2312 - 2418",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2312 CP - 2418 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 47,
+        "2": 150,
+        "3": 252,
+        "4": 354,
+        "5": 456,
+        "6": 558,
+        "7": 660,
+        "8": 763,
+        "9": 865,
+        "10": 967,
+        "11": 1064,
+        "12": 1160,
+        "13": 1257,
+        "14": 1354,
+        "15": 1450,
+        "16": 1547,
+        "17": 1644,
+        "18": 1741,
+        "19": 1837,
+        "20": 1934,
+        "21": 2031,
+        "22": 2127,
+        "23": 2224,
+        "24": 2321,
+        "25": 2418,
+        "26": 2514,
+        "27": 2611,
+        "28": 2708,
+        "29": 2805,
+        "30": 2901,
+        "31": 2950,
+        "32": 2998,
+        "33": 3046,
+        "34": 3095,
+        "35": 3143,
+        "36": 3191,
+        "37": 3240,
+        "38": 3288,
+        "39": 3336,
+        "40": 3385,
+        "41": 3428,
+        "42": 3471,
+        "43": 3515,
+        "44": 3558,
+        "45": 3602,
+        "46": 3647,
+        "47": 3691,
+        "48": 3736,
+        "49": 3781,
+        "50": 3827
+    },
+    "meta_analysis": "Spectrier in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Spectrier",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Spectrier's Ghost-type moves, Candy, and Candy XL from catching Spectrier.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 897,
+            "height_m": 2,
+            "weight_kg": 44.5,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.98 m",
+            "xs": "1 m",
+            "m": "2 m",
+            "xl": "3 m",
+            "xxl": "3.1 m",
+            "description": "Spectrier's height ranges from 0.98 m to 3.1 m, with the average being 2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.98,
+                "upper_m": 1,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1,
+                "upper_m": 2,
+                "lower_ft": "3′03″",
+                "upper_ft": "6′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.5,
+                "upper_m": 2.5,
+                "lower_ft": "4′11″",
+                "upper_ft": "8′02″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.5,
+                "upper_m": 3,
+                "lower_ft": "8′02″",
+                "upper_ft": "9′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 3,
+                "upper_m": 3.1,
+                "lower_ft": "9′10″",
+                "upper_ft": "10′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 30.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It probes its surroundings with all its senses save one—it doesn’t use its sense of sight. Spectrier’s kicks are said to separate soul from body."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "As it dashes through the night, Spectrier absorbs the life-force of sleeping creatures. It craves silence and solitude."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 897,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0897_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0897_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Spectrier sprite"
+            },
+            {
+                "pokedex_number": 897,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0897_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0897_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Spectrier sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/897_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/897_social.jpg",
+                "alt": "Spectrier"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/897_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/897_social_dark.jpg",
+                "alt": "Spectrier"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/897_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/897_social_map.jpg",
+                "alt": "Spectrier"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/897_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/897_social_map_dark.jpg",
+                "alt": "Spectrier"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Spectrier’s strengths and weaknesses?",
+            "answer": "As a Ghost-type Pokémon, Spectrier is weak to Dark and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Spectrier in Pokémon GO?",
+            "answer": "The best moves for Spectrier in Pokémon GO are Tackle and Shadow Ball. This moveset has a DPS (Damage Per Second) of 14.682 and a TDO (Total Damage Output) of 242.384."
+        },
+        {
+            "question": "How does Spectrier perform in Raids?",
+            "answer": "Spectrier's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Spectrier rank as a Ghost-type attacker?",
+            "answer": "Spectrier's performance as a Ghost-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Spectrier?",
+            "answer": "The following Mega Pokémon boost Spectrier: Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Spectrier’s maximum CP at Level 40 and Level 50?",
+            "answer": "Spectrier’s maximum CP at Level 40 is 3385 CP and 3827 CP at Level 50."
+        },
+        {
+            "question": "Can Spectrier be shiny in Pokémon GO?",
+            "answer": "Spectrier cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Spectrier Dynamax in Pokémon GO?",
+            "answer": "Spectrier cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,660 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2460,
+        "attack": 197,
+        "defense": 131,
+        "stamina": 170,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": false,
+        "title": "Boltund",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/836.webp",
+        "types": [
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Spark",
+            "charged": "Thunder",
+            "dps": 8.54,
+            "tdo": 107.54,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Thunder",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 8.54,
+                "tdo": 107.5,
+                "score": 7.13
+            },
+            {
+                "rank": 2,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Thunder",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 8.44,
+                "tdo": 106.2,
+                "score": 7.04
+            },
+            {
+                "rank": 3,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 8.19,
+                "tdo": 103.1,
+                "score": 6.84
+            },
+            {
+                "rank": 4,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 8.01,
+                "tdo": 100.9,
+                "score": 6.69
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Spark",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/206"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Thunder",
+                "type": "Electric",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/78"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Boltund's has 2460 max CP (at Level 50). A Boltund obtained from Raids can be encountered from 1176 CP to 1243 CP, or if weather boosted, in the 1471 CP to 1554 CP range. In Field and Special Research, Boltund can be found in the 882 CP to 932 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2460",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "882 - 932",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1176 - 1243",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1176 - 1243",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1471 - 1554",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1471 CP - 1554 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 30,
+        "2": 96,
+        "3": 162,
+        "4": 227,
+        "5": 293,
+        "6": 359,
+        "7": 424,
+        "8": 490,
+        "9": 556,
+        "10": 621,
+        "11": 684,
+        "12": 746,
+        "13": 808,
+        "14": 870,
+        "15": 932,
+        "16": 994,
+        "17": 1056,
+        "18": 1119,
+        "19": 1181,
+        "20": 1243,
+        "21": 1305,
+        "22": 1367,
+        "23": 1430,
+        "24": 1492,
+        "25": 1554,
+        "26": 1616,
+        "27": 1678,
+        "28": 1740,
+        "29": 1803,
+        "30": 1865,
+        "31": 1896,
+        "32": 1927,
+        "33": 1958,
+        "34": 1989,
+        "35": 2020,
+        "36": 2051,
+        "37": 2082,
+        "38": 2113,
+        "39": 2145,
+        "40": 2176,
+        "41": 2203,
+        "42": 2231,
+        "43": 2259,
+        "44": 2287,
+        "45": 2315,
+        "46": 2344,
+        "47": 2373,
+        "48": 2401,
+        "49": 2430,
+        "50": 2460
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Yamper",
+                    "href": "/pokemon/835",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/835.webp"
+                },
+                "to": {
+                    "name": "Boltund",
+                    "href": "/pokemon/836",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/836.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Yamper",
+                "href": "/pokemon/835",
+                "img": "https://db.pokemongohub.net/images/official/medium/835.webp"
+            },
+            {
+                "name": "Boltund",
+                "href": "/pokemon/836",
+                "img": "https://db.pokemongohub.net/images/official/medium/836.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Boltund in the meta PvE Analysis In terms of stats and power, Boltund is one of those typical run-of-the-mill Pokémon that provide no real viability. This Electric type is just a Pokédex collection. ⚡ ⚔️ Raids Even not considering Megas and Shadows, there are numerous Electric type Pokémon that offer better damage output and survivability in Raids. Boltund is not convenient for these battles at all. 😶 🛡️ Gyms Despite having only a single weakness (to Ground-type moves), Boltund hardly had any bulk to take advantage of this perk. 👎 💎 The best PvE moves for Boltund are Spark and Thunder. PvP Analysis 🔵 Great League Boltund brings no value to your Great League team. It has no spectacular moveset or stats to set it apart, nor does it function as a decent pick. It just loses battles and leaves you frustrated. Bad doggo! 🟡 Ultra League Maxing out at only 2460 CP, Boltund is a poor pick for the Ultra League. 🟣 Master League Here Boltund, here… throws a frisbee far, far away from the Master League ... good doggo! 🐶 💎 The best PvP moves for Boltund are Spark, Crunch and Thunder.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Boltund",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Boltund's Electric-type moves, Candy, and Candy XL from catching Boltund.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 836,
+            "height_m": 1,
+            "weight_kg": 34,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "1.75 m",
+            "description": "Boltund's height ranges from 0.49 m to 1.75 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 1.75,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It sends electricity through its legs to boost their strength. Running at top speed, it easily breaks 50 mph."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Boltund",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm836.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm836.icon.png"
+            },
+            {
+                "label": "Shiny Boltund",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm836.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm836.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 836,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0836_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0836_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Boltund sprite"
+            },
+            {
+                "pokedex_number": 836,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0836_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0836_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Boltund sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/836_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/836_social.jpg",
+                "alt": "Boltund"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/836_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/836_social_dark.jpg",
+                "alt": "Boltund"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/836_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/836_social_map.jpg",
+                "alt": "Boltund"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/836_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/836_social_map_dark.jpg",
+                "alt": "Boltund"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Boltund’s strengths and weaknesses?",
+            "answer": "As a Electric-type Pokémon, Boltund is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Boltund in Pokémon GO?",
+            "answer": "The best moves for Boltund in Pokémon GO are Spark and Thunder. This moveset has a DPS (Damage Per Second) of 8.542 and a TDO (Total Damage Output) of 107.537."
+        },
+        {
+            "question": "How does Boltund perform in Raids?",
+            "answer": "Boltund's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Boltund rank as a Electric-type attacker?",
+            "answer": "Boltund is an F-Tier Electric-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Boltund?",
+            "answer": "The following Mega Pokémon boost Boltund: Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Boltund’s maximum CP at Level 40 and Level 50?",
+            "answer": "Boltund’s maximum CP at Level 40 is 2176 CP and 2460 CP at Level 50."
+        },
+        {
+            "question": "Can Boltund be shiny in Pokémon GO?",
+            "answer": "Boltund cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Boltund Dynamax in Pokémon GO?",
+            "answer": "Boltund cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

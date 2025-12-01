@@ -1,0 +1,712 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2421,
+        "attack": 173,
+        "defense": 163,
+        "stamina": 172,
+        "buddy_distance": 3,
+        "released": false,
+        "shiny_released": false,
+        "title": "Cramorant",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/845.webp",
+        "types": [
+            "Flying",
+            "Water"
+        ],
+        "weather_boost": [
+            "windy",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Fly",
+            "dps": 10.84,
+            "tdo": 168.19,
+            "boosted_weather": [
+                "rain",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Fly",
+                "charged_url": "https://db.pokemongohub.net/move/341",
+                "dps": 10.84,
+                "tdo": 168.2,
+                "score": 9.34
+            },
+            {
+                "rank": 2,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Fly",
+                "charged_url": "https://db.pokemongohub.net/move/341",
+                "dps": 10.41,
+                "tdo": 161.5,
+                "score": 8.97
+            },
+            {
+                "rank": 3,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Drill Peck",
+                "charged_url": "https://db.pokemongohub.net/move/38",
+                "dps": 9.75,
+                "tdo": 151.3,
+                "score": 8.4
+            },
+            {
+                "rank": 4,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Drill Peck",
+                "charged_url": "https://db.pokemongohub.net/move/38",
+                "dps": 9.43,
+                "tdo": 146.3,
+                "score": 8.12
+            },
+            {
+                "rank": 5,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Hydro Pump",
+                "charged_url": "https://db.pokemongohub.net/move/107",
+                "dps": 8.9,
+                "tdo": 138.1,
+                "score": 7.67
+            },
+            {
+                "rank": 6,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Hydro Pump",
+                "charged_url": "https://db.pokemongohub.net/move/107",
+                "dps": 8.4,
+                "tdo": 130.3,
+                "score": 7.24
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Peck",
+                "type": "Flying",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/211"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Drill Peck",
+                "type": "Flying",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.9s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/38"
+            },
+            {
+                "name": "Hydro Pump",
+                "type": "Water",
+                "stats": {
+                    "damage": 135,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 135,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.1s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/107"
+            },
+            {
+                "name": "Fly",
+                "type": "Flying",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.4s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/341"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Cramorant's has 2421 max CP (at Level 50). A Cramorant obtained from Raids can be encountered from 1158 CP to 1224 CP, or if weather boosted, in the 1448 CP to 1530 CP range. In Field and Special Research, Cramorant can be found in the 869 CP to 918 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2421",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "869 - 918",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1158 - 1224",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1158 - 1224",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1448 - 1530",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1448 CP - 1530 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 30,
+        "2": 94,
+        "3": 159,
+        "4": 224,
+        "5": 288,
+        "6": 353,
+        "7": 418,
+        "8": 482,
+        "9": 547,
+        "10": 612,
+        "11": 673,
+        "12": 734,
+        "13": 795,
+        "14": 857,
+        "15": 918,
+        "16": 979,
+        "17": 1040,
+        "18": 1101,
+        "19": 1162,
+        "20": 1224,
+        "21": 1285,
+        "22": 1346,
+        "23": 1407,
+        "24": 1469,
+        "25": 1530,
+        "26": 1591,
+        "27": 1652,
+        "28": 1713,
+        "29": 1775,
+        "30": 1836,
+        "31": 1866,
+        "32": 1897,
+        "33": 1928,
+        "34": 1958,
+        "35": 1989,
+        "36": 2019,
+        "37": 2050,
+        "38": 2081,
+        "39": 2111,
+        "40": 2142,
+        "41": 2169,
+        "42": 2196,
+        "43": 2224,
+        "44": 2252,
+        "45": 2279,
+        "46": 2307,
+        "47": 2336,
+        "48": 2364,
+        "49": 2393,
+        "50": 2421
+    },
+    "meta_analysis": "Cramorant in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Cramorant",
+        "type": "Flying",
+        "intro_text": "A list of Mega Pokémon that boost Cramorant's Flying and Water-type moves, Candy, and Candy XL from catching Cramorant.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Salamence",
+                "pokemon_id": 373,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/373-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 845,
+            "height_m": 0.8,
+            "weight_kg": 18,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.39 m",
+            "xs": "0.4 m",
+            "m": "0.8 m",
+            "xl": "1.2 m",
+            "xxl": "1.4 m",
+            "description": "Cramorant's height ranges from 0.39 m to 1.4 m, with the average being 0.8 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.392,
+                "upper_m": 0.4,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.4,
+                "upper_m": 0.8,
+                "lower_ft": "1′04″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.6,
+                "upper_m": 1,
+                "lower_ft": "1′12″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1,
+                "upper_m": 1.2,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.2,
+                "upper_m": 1.4,
+                "lower_ft": "3′11″",
+                "upper_ft": "4′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 10.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It’s so strong that it can knock out some opponents in a single hit, but it also may forget what it’s battling midfight."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This hungry Pokémon swallows Arrokuda whole. Occasionally, it makes a mistake and tries to swallow a Pokémon other than its preferred prey."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 845,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0845_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0845_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Cramorant sprite"
+            },
+            {
+                "pokedex_number": 845,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0845_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0845_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Cramorant sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/845_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/845_social.jpg",
+                "alt": "Cramorant"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/845_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/845_social_dark.jpg",
+                "alt": "Cramorant"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/845_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/845_social_map.jpg",
+                "alt": "Cramorant"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/845_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/845_social_map_dark.jpg",
+                "alt": "Cramorant"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Cramorant’s strengths and weaknesses?",
+            "answer": "As a Flying and Water-type Pokémon, Cramorant is especially weak against Electric-type moves, and weak against Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Cramorant in Pokémon GO?",
+            "answer": "The best moves for Cramorant in Pokémon GO are Water Gun and Fly. This moveset has a DPS (Damage Per Second) of 10.841 and a TDO (Total Damage Output) of 168.192."
+        },
+        {
+            "question": "How does Cramorant perform in Raids?",
+            "answer": "Cramorant's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Cramorant rank as a Flying-type attacker?",
+            "answer": "Cramorant's performance as a Flying-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Cramorant?",
+            "answer": "The following Mega Pokémon boost Cramorant: Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, Mega Rayquaza, Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Cramorant’s maximum CP at Level 40 and Level 50?",
+            "answer": "Cramorant’s maximum CP at Level 40 is 2142 CP and 2421 CP at Level 50."
+        },
+        {
+            "question": "Can Cramorant be shiny in Pokémon GO?",
+            "answer": "Cramorant cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Cramorant Dynamax in Pokémon GO?",
+            "answer": "Cramorant cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

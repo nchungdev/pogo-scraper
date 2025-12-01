@@ -1,0 +1,831 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3027,
+        "attack": 231,
+        "defense": 140,
+        "stamina": 181,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Lycanroc",
+        "forms": [
+            {
+                "name": "Lycanroc",
+                "href": "/pokemon/745",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/745.webp"
+            },
+            {
+                "name": "Lycanroc (Dusk Form)",
+                "href": "/pokemon/745-Dusk",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/745_f3.webp"
+            },
+            {
+                "name": "Lycanroc (Midnight Form)",
+                "href": "/pokemon/745-Midnight",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/745_f2.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/745.webp",
+        "types": [
+            "Rock"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Rock Throw",
+            "charged": "Stone Edge",
+            "dps": 11.27,
+            "tdo": 159.59,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Rock Throw",
+                "fast_url": "https://db.pokemongohub.net/move/227",
+                "charged": "Stone Edge",
+                "charged_url": "https://db.pokemongohub.net/move/32",
+                "dps": 11.27,
+                "tdo": 159.6,
+                "score": 9.58
+            },
+            {
+                "rank": 2,
+                "fast": "Rock Throw",
+                "fast_url": "https://db.pokemongohub.net/move/227",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 11.09,
+                "tdo": 157.1,
+                "score": 9.43
+            },
+            {
+                "rank": 3,
+                "fast": "Rock Throw",
+                "fast_url": "https://db.pokemongohub.net/move/227",
+                "charged": "Drill Run",
+                "charged_url": "https://db.pokemongohub.net/move/46",
+                "dps": 11.06,
+                "tdo": 156.6,
+                "score": 9.41
+            },
+            {
+                "rank": 4,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Stone Edge",
+                "charged_url": "https://db.pokemongohub.net/move/32",
+                "dps": 10.49,
+                "tdo": 148.6,
+                "score": 8.92
+            },
+            {
+                "rank": 5,
+                "fast": "Rock Throw",
+                "fast_url": "https://db.pokemongohub.net/move/227",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 10.27,
+                "tdo": 145.4,
+                "score": 8.73
+            },
+            {
+                "rank": 6,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Drill Run",
+                "charged_url": "https://db.pokemongohub.net/move/46",
+                "dps": 10.24,
+                "tdo": 145.0,
+                "score": 8.71
+            },
+            {
+                "rank": 7,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 10.14,
+                "tdo": 143.5,
+                "score": 8.62
+            },
+            {
+                "rank": 8,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 9.43,
+                "tdo": 133.5,
+                "score": 8.02
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Sucker Punch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/203"
+            },
+            {
+                "name": "Rock Throw",
+                "type": "Rock",
+                "stats": {
+                    "damage": 13,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 8,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/227"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Stone Edge",
+                "type": "Rock",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "0.9s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/32"
+            },
+            {
+                "name": "Drill Run",
+                "type": "Ground",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.9s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/46"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            },
+            {
+                "name": "Trailblaze",
+                "type": "Grass",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.2s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/392"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Lycanroc's has 3027 max CP (at Level 50). A Lycanroc obtained from Raids can be encountered from 1455 CP to 1530 CP, or if weather boosted, in the 1819 CP to 1912 CP range. In Field and Special Research, Lycanroc can be found in the 1091 CP to 1147 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3027",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1091 - 1147",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1455 - 1530",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1455 - 1530",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1819 - 1912",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1819 CP - 1912 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 37,
+        "2": 118,
+        "3": 199,
+        "4": 280,
+        "5": 361,
+        "6": 442,
+        "7": 522,
+        "8": 603,
+        "9": 684,
+        "10": 765,
+        "11": 841,
+        "12": 918,
+        "13": 994,
+        "14": 1071,
+        "15": 1147,
+        "16": 1224,
+        "17": 1300,
+        "18": 1377,
+        "19": 1453,
+        "20": 1530,
+        "21": 1606,
+        "22": 1683,
+        "23": 1759,
+        "24": 1836,
+        "25": 1912,
+        "26": 1989,
+        "27": 2065,
+        "28": 2142,
+        "29": 2219,
+        "30": 2295,
+        "31": 2333,
+        "32": 2372,
+        "33": 2410,
+        "34": 2448,
+        "35": 2486,
+        "36": 2525,
+        "37": 2563,
+        "38": 2601,
+        "39": 2639,
+        "40": 2678,
+        "41": 2712,
+        "42": 2746,
+        "43": 2780,
+        "44": 2815,
+        "45": 2850,
+        "46": 2885,
+        "47": 2920,
+        "48": 2955,
+        "49": 2991,
+        "50": 3027
+    },
+    "meta_analysis": "Lycanroc in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Lycanroc",
+        "type": "Rock",
+        "intro_text": "A list of Mega Pokémon that boost Lycanroc's Rock-type moves, Candy, and Candy XL from catching Lycanroc.",
+        "mega_list": [
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 745,
+            "height_m": 0.8,
+            "weight_kg": 25,
+            "region": "Generation 7",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.39 m",
+            "xs": "0.4 m",
+            "m": "0.8 m",
+            "xl": "1.2 m",
+            "xxl": "1.4 m",
+            "description": "Lycanroc's height ranges from 0.39 m to 1.4 m, with the average being 0.8 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.392,
+                "upper_m": 0.4,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.4,
+                "upper_m": 0.8,
+                "lower_ft": "1′04″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.6,
+                "upper_m": 1,
+                "lower_ft": "1′12″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1,
+                "upper_m": 1.2,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.2,
+                "upper_m": 1.4,
+                "lower_ft": "3′11″",
+                "upper_ft": "4′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "When properly raised from a young age, it will become a trustworthy partner that will absolutely never betray its Trainer."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "The sharp rocks in its mane can cut like knives. Lycanroc wears its prey down by degrees before finishing them off."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "The rocks in its mane are sharper than a knife. Fragments that break off are treasured as good luck charms."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This Lycanroc is calm and cautious. The rocks jutting from its mane are razor sharp."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "With swift movements, this Pokémon gradually backs its prey into a corner. Lycanroc’s fangs are always aimed toward opponents’ weak spots."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 745,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0745_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0745_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Lycanroc sprite"
+            },
+            {
+                "pokedex_number": 745,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0745_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0745_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Lycanroc sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/745_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/745_social.jpg",
+                "alt": "Lycanroc"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/745_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/745_social_dark.jpg",
+                "alt": "Lycanroc"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/745_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/745_social_map.jpg",
+                "alt": "Lycanroc"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/745_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/745_social_map_dark.jpg",
+                "alt": "Lycanroc"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Lycanroc’s strengths and weaknesses?",
+            "answer": "As a Rock-type Pokémon, Lycanroc is weak to Fighting, Grass, Ground, Steel, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Lycanroc in Pokémon GO?",
+            "answer": "The best moves for Lycanroc in Pokémon GO are Rock Throw and Stone Edge. This moveset has a DPS (Damage Per Second) of 11.271 and a TDO (Total Damage Output) of 159.593."
+        },
+        {
+            "question": "How does Lycanroc perform in Raids?",
+            "answer": "Lycanroc's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Lycanroc rank as a Rock-type attacker?",
+            "answer": "Lycanroc is a D-Tier Rock-type attacker, struggling in Raids due to its lower stats or suboptimal moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Lycanroc?",
+            "answer": "The following Mega Pokémon boost Lycanroc: Mega Aerodactyl, Mega Tyranitar, and Mega Diancie."
+        },
+        {
+            "question": "What is Lycanroc’s maximum CP at Level 40 and Level 50?",
+            "answer": "Lycanroc’s maximum CP at Level 40 is 2678 CP and 3027 CP at Level 50."
+        },
+        {
+            "question": "Can Lycanroc be shiny in Pokémon GO?",
+            "answer": "Lycanroc can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Lycanroc Dynamax in Pokémon GO?",
+            "answer": "Lycanroc cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

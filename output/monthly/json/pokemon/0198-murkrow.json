@@ -1,0 +1,920 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1766,
+        "attack": 175,
+        "defense": 87,
+        "stamina": 155,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Murkrow",
+        "forms": [
+            {
+                "name": "Murkrow",
+                "href": "/pokemon/198",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/198.webp"
+            },
+            {
+                "name": "Shadow Murkrow",
+                "href": "/pokemon/198-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/198.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/198.webp",
+        "types": [
+            "Dark",
+            "Flying"
+        ],
+        "weather_boost": [
+            "fog",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Feint Attack",
+            "charged": "Drill Peck",
+            "dps": 8.37,
+            "tdo": 67.69,
+            "boosted_weather": [
+                "fog",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Drill Peck",
+                "charged_url": "https://db.pokemongohub.net/move/38",
+                "dps": 8.37,
+                "tdo": 67.7,
+                "score": 6.4
+            },
+            {
+                "rank": 2,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Drill Peck",
+                "charged_url": "https://db.pokemongohub.net/move/38",
+                "dps": 8.02,
+                "tdo": 64.8,
+                "score": 6.12
+            },
+            {
+                "rank": 3,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 7.9,
+                "tdo": 63.9,
+                "score": 6.04
+            },
+            {
+                "rank": 4,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 7.59,
+                "tdo": 61.4,
+                "score": 5.8
+            },
+            {
+                "rank": 5,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 7.48,
+                "tdo": 60.5,
+                "score": 5.72
+            },
+            {
+                "rank": 6,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 7.2,
+                "tdo": 58.2,
+                "score": 5.5
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Peck",
+                "type": "Flying",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/211"
+            },
+            {
+                "name": "Feint Attack",
+                "type": "Dark",
+                "stats": {
+                    "damage": 11,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 10,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/238"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Drill Peck",
+                "type": "Flying",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.9s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/38"
+            },
+            {
+                "name": "Foul Play",
+                "type": "Dark",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.7s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/280"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Murkrow's has 1766 max CP (at Level 50). A Murkrow obtained from Raids can be encountered from 835 CP to 892 CP, or if weather boosted, in the 1044 CP to 1116 CP range. In Field and Special Research, Murkrow can be found in the 626 CP to 669 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1766",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "626 - 669",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "835 - 892",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "835 - 892",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1044 - 1116",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1044 CP - 1116 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 22,
+        "2": 69,
+        "3": 116,
+        "4": 163,
+        "5": 210,
+        "6": 257,
+        "7": 305,
+        "8": 352,
+        "9": 399,
+        "10": 446,
+        "11": 491,
+        "12": 535,
+        "13": 580,
+        "14": 625,
+        "15": 669,
+        "16": 714,
+        "17": 759,
+        "18": 803,
+        "19": 848,
+        "20": 892,
+        "21": 937,
+        "22": 982,
+        "23": 1026,
+        "24": 1071,
+        "25": 1116,
+        "26": 1160,
+        "27": 1205,
+        "28": 1250,
+        "29": 1294,
+        "30": 1339,
+        "31": 1361,
+        "32": 1384,
+        "33": 1406,
+        "34": 1428,
+        "35": 1451,
+        "36": 1473,
+        "37": 1495,
+        "38": 1518,
+        "39": 1540,
+        "40": 1562,
+        "41": 1582,
+        "42": 1602,
+        "43": 1622,
+        "44": 1642,
+        "45": 1663,
+        "46": 1683,
+        "47": 1704,
+        "48": 1724,
+        "49": 1745,
+        "50": 1766
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Murkrow",
+                    "href": "/pokemon/198",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/198.webp"
+                },
+                "to": {
+                    "name": "Honchkrow",
+                    "href": "/pokemon/430",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/430.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Special Item: Sinnoh Stone"
+                ]
+            }
+        ],
+        "details": [
+            "100 Candy",
+            "Special Item: Sinnoh Stone"
+        ],
+        "family": [
+            {
+                "name": "Murkrow",
+                "href": "/pokemon/198",
+                "img": "https://db.pokemongohub.net/images/official/medium/198.webp"
+            },
+            {
+                "name": "Honchkrow",
+                "href": "/pokemon/430",
+                "img": "https://db.pokemongohub.net/images/official/medium/430.webp"
+            },
+            {
+                "name": "Shadow Murkrow",
+                "href": "/pokemon/198-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Honchkrow",
+                "href": "/pokemon/430-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Murkrow in the meta PvE Analysis With low Attack and Stamina stats , and an even lower Defense , Murkrow is not a viable PvE Pokémon in either raids or gyms. 🥲 PvP Analysis 🧸 Little Cup Murkrow’s Dark-type moves ensure victories against key threats like Bronzor, Greavard, and Shadow Golett , but beyond these few wins , it struggles against most of the meta. 😕 Honestly, Deino and Vullaby are the Dark-types you should use in Little Cup, and for Flying-types, Ducklett or Golbat are much better choices. Murkrow is just an inferior option. 😭 🔵 Great League Murkrow barely finds any wins , and there’s no reason to use it in Great League battles. 👎 🟡 Ultra League & 🟣 Master League Murkrow gets completely destroyed in both Ultra League and Master League. 😶 💥 The best moves for Murkrow in PvP are: ➡ Feint Attack, Foul Play, and Drill Peck.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Murkrow",
+        "type": "Dark",
+        "intro_text": "A list of Mega Pokémon that boost Murkrow's Dark and Flying-type moves, Candy, and Candy XL from catching Murkrow.",
+        "mega_list": [
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Absol",
+                "pokemon_id": 359,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/359-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 198,
+            "height_m": 0.51,
+            "weight_kg": 2.1,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.26 m",
+            "m": "0.51 m",
+            "xl": "0.77 m",
+            "xxl": "1.02 m",
+            "description": "Murkrow's height ranges from 0.25 m to 1.02 m, with the average being 0.51 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2499,
+                "upper_m": 0.255,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.255,
+                "upper_m": 0.51,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3825,
+                "upper_m": 0.6375,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.6375,
+                "upper_m": 0.765,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.765,
+                "upper_m": 1.02,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It hides any shiny object it finds in a secret location. MURKROW and MEOWTH loot one another's stashes."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "MURKROW was feared and loathed as the alleged bearer of ill fortune. This POKéMON shows strong interest in anything that sparkles or glitters. It will even try to steal rings from women."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "MURKROW were feared as the alleged bearers of ill fortune. It shows strong interest in anything that sparkles. It will even try to steal rings from women."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night."
+        },
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It is believed that seeing this Pokémon at night will bring about ominous occurrences."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It appears near travelers to lure them into deep forests. It is said to carry misfortune."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "If spotted, it will lure an unwary person into chasing it then lose the pursuer on mountain trails."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It hides any shiny object it finds in a secret location. Murkrow and Meowth loot one another’s stashes."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Murkrow was feared and loathed as the alleged bearer of ill fortune. This Pokémon shows strong interest in anything that sparkles or glitters. It will even try to steal rings from women."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "They awaken at dusk and take wing in the twilight, leading to the expression, “Get home before the Murkrow fly.”"
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Seen as a symbol of bad luck, it’s generally disliked. Yet it gives presents—objects that sparkle or shine—to Trainers it’s close to."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It has a weakness for shiny things. It’s been known to sneak into the nests of Gabite—noted collectors of jewels—in search of treasure."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It searches for shiny things for its boss. Murkrow’s presence is said to be unlucky, so many people detest it."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Widely shunned as a bearer of ill fortune. Upon crossing paths with this creature, I've been told one must chant ”Workrum, Workrum—bad luck, don't come” as a protective incantation."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Murkrow",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm198.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm198.icon.png"
+            },
+            {
+                "label": "Regular Murkrow♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm198.g2.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm198.g2.icon.png"
+            },
+            {
+                "label": "Shiny Murkrow",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm198.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm198.s.icon.png"
+            },
+            {
+                "label": "Shiny Murkrow♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm198.g2.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm198.g2.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 198,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0198_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0198_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Murkrow ♀ sprite"
+            },
+            {
+                "pokedex_number": 198,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0198_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0198_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Murkrow ♀ sprite"
+            },
+            {
+                "pokedex_number": 198,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0198_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0198_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Murkrow sprite"
+            },
+            {
+                "pokedex_number": 198,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0198_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0198_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Murkrow sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/198_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/198_social.jpg",
+                "alt": "Murkrow"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/198_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/198_social_dark.jpg",
+                "alt": "Murkrow"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/198_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/198_social_map.jpg",
+                "alt": "Murkrow"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/198_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/198_social_map_dark.jpg",
+                "alt": "Murkrow"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Murkrow’s strengths and weaknesses?",
+            "answer": "As a Dark and Flying-type Pokémon, Murkrow is weak to Electric, Fairy, Ice, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Murkrow in Pokémon GO?",
+            "answer": "The best moves for Murkrow in Pokémon GO are Feint Attack and Drill Peck. This moveset has a DPS (Damage Per Second) of 8.375 and a TDO (Total Damage Output) of 67.686."
+        },
+        {
+            "question": "How does Murkrow perform in Raids?",
+            "answer": "Murkrow's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Murkrow rank as a Dark-type attacker?",
+            "answer": "Murkrow is an F-Tier Dark-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Murkrow rank as a Flying-type attacker?",
+            "answer": "Murkrow is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Murkrow?",
+            "answer": "The following Mega Pokémon boost Murkrow: Mega Gyarados, Mega Houndoom, Mega Tyranitar, Mega Sableye, Mega Sharpedo, Mega Absol, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Murkrow’s maximum CP at Level 40 and Level 50?",
+            "answer": "Murkrow’s maximum CP at Level 40 is 1562 CP and 1766 CP at Level 50."
+        },
+        {
+            "question": "Can Murkrow be shiny in Pokémon GO?",
+            "answer": "Murkrow can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Murkrow Dynamax in Pokémon GO?",
+            "answer": "Murkrow cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

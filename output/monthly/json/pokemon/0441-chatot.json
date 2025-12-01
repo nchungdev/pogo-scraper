@@ -1,0 +1,761 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2025,
+        "attack": 183,
+        "defense": 91,
+        "stamina": 183,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Chatot",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/441.webp",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Steel Wing",
+            "charged": "Sky Attack",
+            "dps": 9.19,
+            "tdo": 89.89,
+            "boosted_weather": [
+                "snow",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Sky Attack",
+                "charged_url": "https://db.pokemongohub.net/move/257",
+                "dps": 9.19,
+                "tdo": 89.9,
+                "score": 7.32
+            },
+            {
+                "rank": 2,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Sky Attack",
+                "charged_url": "https://db.pokemongohub.net/move/257",
+                "dps": 9.15,
+                "tdo": 89.5,
+                "score": 7.29
+            },
+            {
+                "rank": 3,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 7.44,
+                "tdo": 72.8,
+                "score": 5.93
+            },
+            {
+                "rank": 4,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Heat Wave",
+                "charged_url": "https://db.pokemongohub.net/move/42",
+                "dps": 7.16,
+                "tdo": 70.1,
+                "score": 5.71
+            },
+            {
+                "rank": 5,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 7.0,
+                "tdo": 68.4,
+                "score": 5.57
+            },
+            {
+                "rank": 6,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Heat Wave",
+                "charged_url": "https://db.pokemongohub.net/move/42",
+                "dps": 6.68,
+                "tdo": 65.3,
+                "score": 5.32
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Peck",
+                "type": "Flying",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/211"
+            },
+            {
+                "name": "Steel Wing",
+                "type": "Steel",
+                "stats": {
+                    "damage": 14,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 14,
+                    "energy": 8,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.7s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/239"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Heat Wave",
+                "type": "Fire",
+                "stats": {
+                    "damage": 95,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.7s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 95,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/42"
+            },
+            {
+                "name": "Sky Attack",
+                "type": "Flying",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.5s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/257"
+            },
+            {
+                "name": "Night Shade",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/265"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Chatot's has 2025 max CP (at Level 50). A Chatot obtained from Raids can be encountered from 961 CP to 1023 CP, or if weather boosted, in the 1202 CP to 1279 CP range. In Field and Special Research, Chatot can be found in the 721 CP to 767 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2025",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "721 - 767",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "961 - 1023",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "961 - 1023",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1202 - 1279",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1202 CP - 1279 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 25,
+        "2": 79,
+        "3": 133,
+        "4": 187,
+        "5": 241,
+        "6": 295,
+        "7": 349,
+        "8": 403,
+        "9": 457,
+        "10": 512,
+        "11": 563,
+        "12": 614,
+        "13": 665,
+        "14": 716,
+        "15": 767,
+        "16": 819,
+        "17": 870,
+        "18": 921,
+        "19": 972,
+        "20": 1023,
+        "21": 1074,
+        "22": 1126,
+        "23": 1177,
+        "24": 1228,
+        "25": 1279,
+        "26": 1330,
+        "27": 1382,
+        "28": 1433,
+        "29": 1484,
+        "30": 1535,
+        "31": 1561,
+        "32": 1586,
+        "33": 1612,
+        "34": 1638,
+        "35": 1663,
+        "36": 1689,
+        "37": 1714,
+        "38": 1740,
+        "39": 1765,
+        "40": 1791,
+        "41": 1814,
+        "42": 1837,
+        "43": 1860,
+        "44": 1883,
+        "45": 1906,
+        "46": 1930,
+        "47": 1953,
+        "48": 1977,
+        "49": 2001,
+        "50": 2025
+    },
+    "meta_analysis": "Chatot in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Chatot",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Chatot's Normal and Flying-type moves, Candy, and Candy XL from catching Chatot.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 441,
+            "height_m": 0.5,
+            "weight_kg": 1.9,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.88 m",
+            "description": "Chatot's height ranges from 0.25 m to 0.88 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.875,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.8,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It can learn and speak human words. If they gather, they all learn the same saying."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It keeps rhythm by flicking its tail feathers like a metronome. It imitates human speech."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its tongue is just like a human’s. As a result, it can cleverly mimic human speech."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It mimics the cries of other Pokémon to trick them into thinking it’s one of them. This way they won’t attack it."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It mimics the cries of other Pokémon to trick them into thinking it’s one of them. This way they won’t attack it."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It can learn and speak human words. If they gather, they all learn the same saying."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "A versatile performer skilled in the imitation of human speech. It is said that older, more experienced Chatot can even understand the meaning of the words they mimic."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Chatot",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm441.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm441.icon.png"
+            },
+            {
+                "label": "Shiny Chatot",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm441.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm441.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 441,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0441_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0441_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Chatot sprite"
+            },
+            {
+                "pokedex_number": 441,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0441_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0441_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Chatot sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/441_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/441_social.jpg",
+                "alt": "Chatot"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/441_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/441_social_dark.jpg",
+                "alt": "Chatot"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/441_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/441_social_map.jpg",
+                "alt": "Chatot"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/441_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/441_social_map_dark.jpg",
+                "alt": "Chatot"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Chatot’s strengths and weaknesses?",
+            "answer": "As a Normal and Flying-type Pokémon, Chatot is weak to Electric, Ice, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Chatot in Pokémon GO?",
+            "answer": "The best moves for Chatot in Pokémon GO are Steel Wing and Sky Attack. This moveset has a DPS (Damage Per Second) of 9.189 and a TDO (Total Damage Output) of 89.888."
+        },
+        {
+            "question": "How does Chatot perform in Raids?",
+            "answer": "Chatot's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Chatot rank as a Normal-type attacker?",
+            "answer": "Chatot's performance as a Normal-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Chatot rank as a Flying-type attacker?",
+            "answer": "Chatot is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Chatot?",
+            "answer": "The following Mega Pokémon boost Chatot: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, Mega Audino, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Chatot’s maximum CP at Level 40 and Level 50?",
+            "answer": "Chatot’s maximum CP at Level 40 is 1791 CP and 2025 CP at Level 50."
+        },
+        {
+            "question": "Can Chatot be shiny in Pokémon GO?",
+            "answer": "Chatot can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Chatot Dynamax in Pokémon GO?",
+            "answer": "Chatot cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

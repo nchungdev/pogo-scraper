@@ -1,0 +1,890 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2361,
+        "attack": 182,
+        "defense": 132,
+        "stamina": 181,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Swanna",
+        "forms": [
+            {
+                "name": "Swanna",
+                "href": "/pokemon/581",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/581.webp"
+            },
+            {
+                "name": "Shadow Swanna",
+                "href": "/pokemon/581-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/581.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/581.webp",
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "weather_boost": [
+            "rain",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Fly",
+            "dps": 11.15,
+            "tdo": 149.8,
+            "boosted_weather": [
+                "rain",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Fly",
+                "charged_url": "https://db.pokemongohub.net/move/341",
+                "dps": 11.15,
+                "tdo": 149.8,
+                "score": 9.41
+            },
+            {
+                "rank": 2,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Fly",
+                "charged_url": "https://db.pokemongohub.net/move/341",
+                "dps": 10.75,
+                "tdo": 144.4,
+                "score": 9.07
+            },
+            {
+                "rank": 3,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Hurricane",
+                "charged_url": "https://db.pokemongohub.net/move/122",
+                "dps": 8.71,
+                "tdo": 116.9,
+                "score": 7.34
+            },
+            {
+                "rank": 4,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Hurricane",
+                "charged_url": "https://db.pokemongohub.net/move/122",
+                "dps": 8.58,
+                "tdo": 115.2,
+                "score": 7.23
+            },
+            {
+                "rank": 5,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 8.55,
+                "tdo": 114.8,
+                "score": 7.21
+            },
+            {
+                "rank": 6,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 8.53,
+                "tdo": 114.6,
+                "score": 7.2
+            },
+            {
+                "rank": 7,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 8.53,
+                "tdo": 114.5,
+                "score": 7.19
+            },
+            {
+                "rank": 8,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 8.49,
+                "tdo": 114.0,
+                "score": 7.16
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            },
+            {
+                "name": "Air Slash",
+                "type": "Flying",
+                "stats": {
+                    "damage": 12,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 12,
+                    "energy": 8,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/255"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ice Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/39"
+            },
+            {
+                "name": "Bubble Beam",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.6s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 25,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/53"
+            },
+            {
+                "name": "Hurricane",
+                "type": "Flying",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.0s - 2.2s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/122"
+            },
+            {
+                "name": "Fly",
+                "type": "Flying",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.4s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/341"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Swanna's has 2361 max CP (at Level 50). A Swanna obtained from Raids can be encountered from 1128 CP to 1193 CP, or if weather boosted, in the 1410 CP to 1491 CP range. In Field and Special Research, Swanna can be found in the 846 CP to 895 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2361",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "846 - 895",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1128 - 1193",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1128 - 1193",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1410 - 1491",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1410 CP - 1491 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 29,
+        "2": 92,
+        "3": 155,
+        "4": 218,
+        "5": 281,
+        "6": 344,
+        "7": 407,
+        "8": 470,
+        "9": 533,
+        "10": 596,
+        "11": 656,
+        "12": 716,
+        "13": 775,
+        "14": 835,
+        "15": 895,
+        "16": 954,
+        "17": 1014,
+        "18": 1074,
+        "19": 1133,
+        "20": 1193,
+        "21": 1253,
+        "22": 1312,
+        "23": 1372,
+        "24": 1432,
+        "25": 1491,
+        "26": 1551,
+        "27": 1611,
+        "28": 1670,
+        "29": 1730,
+        "30": 1790,
+        "31": 1820,
+        "32": 1849,
+        "33": 1879,
+        "34": 1909,
+        "35": 1939,
+        "36": 1969,
+        "37": 1999,
+        "38": 2028,
+        "39": 2058,
+        "40": 2088,
+        "41": 2115,
+        "42": 2141,
+        "43": 2168,
+        "44": 2195,
+        "45": 2222,
+        "46": 2250,
+        "47": 2277,
+        "48": 2305,
+        "49": 2333,
+        "50": 2361
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Ducklett",
+                    "href": "/pokemon/580",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/580.webp"
+                },
+                "to": {
+                    "name": "Swanna",
+                    "href": "/pokemon/581",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/581.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Ducklett",
+                "href": "/pokemon/580",
+                "img": "https://db.pokemongohub.net/images/official/medium/580.webp"
+            },
+            {
+                "name": "Swanna",
+                "href": "/pokemon/581",
+                "img": "https://db.pokemongohub.net/images/official/medium/581.webp"
+            },
+            {
+                "name": "Shadow Ducklett",
+                "href": "/pokemon/580-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Swanna",
+                "href": "/pokemon/581-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Swanna in the meta PvE Analysis ⚔️ Raids Swanna is a Water- and Flying-type Pokémon. Unfortunately, it does not perform well as a raid attacker for either type. As such, it is not recommended to use Swanna as a raid attacker. PvP Analysis 🔵 Great League Swanna is relatively frail , with mediocre attacks and a double weakness to Electric-type moves. As such, it does not perform particularly well in the Great League. 🟡 Ultra League Swanna has a max CP of 2361 , making it weaker than most Pokémon you’ll face in the 2500 CP Ultra League. 🟣 Master League Swanna is far too weak for the Master League.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Swanna",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Swanna's Water and Flying-type moves, Candy, and Candy XL from catching Swanna.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 581,
+            "height_m": 1.3,
+            "weight_kg": 24.2,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.64 m",
+            "xs": "0.65 m",
+            "m": "1.3 m",
+            "xl": "1.95 m",
+            "xxl": "2.28 m",
+            "description": "Swanna's height ranges from 0.64 m to 2.28 m, with the average being 1.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.637,
+                "upper_m": 0.65,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′02″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.65,
+                "upper_m": 1.3,
+                "lower_ft": "2′02″",
+                "upper_ft": "4′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.975,
+                "upper_m": 1.625,
+                "lower_ft": "3′02″",
+                "upper_ft": "5′04″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.625,
+                "upper_m": 1.95,
+                "lower_ft": "5′04″",
+                "upper_ft": "6′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.95,
+                "upper_m": 2.275,
+                "lower_ft": "6′05″",
+                "upper_ft": "7′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "It administers sharp, powerful pecks with its bill. It whips its long neck to deliver forceful repeated strikes."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Swanna",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm581.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm581.icon.png"
+            },
+            {
+                "label": "Shiny Swanna",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm581.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm581.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 581,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0581_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0581_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Swanna sprite"
+            },
+            {
+                "pokedex_number": 581,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0581_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0581_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Swanna sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/581_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/581_social.jpg",
+                "alt": "Swanna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/581_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/581_social_dark.jpg",
+                "alt": "Swanna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/581_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/581_social_map.jpg",
+                "alt": "Swanna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/581_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/581_social_map_dark.jpg",
+                "alt": "Swanna"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Swanna’s strengths and weaknesses?",
+            "answer": "As a Water and Flying-type Pokémon, Swanna is especially weak against Electric-type moves, and weak against Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Swanna in Pokémon GO?",
+            "answer": "The best moves for Swanna in Pokémon GO are Water Gun and Fly. This moveset has a DPS (Damage Per Second) of 11.155 and a TDO (Total Damage Output) of 149.8."
+        },
+        {
+            "question": "How does Swanna perform in Raids?",
+            "answer": "Swanna's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Swanna rank as a Water-type attacker?",
+            "answer": "Swanna is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Swanna rank as a Flying-type attacker?",
+            "answer": "Swanna is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Swanna?",
+            "answer": "The following Mega Pokémon boost Swanna: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Swanna’s maximum CP at Level 40 and Level 50?",
+            "answer": "Swanna’s maximum CP at Level 40 is 2088 CP and 2361 CP at Level 50."
+        },
+        {
+            "question": "Can Swanna be shiny in Pokémon GO?",
+            "answer": "Swanna can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Swanna Dynamax in Pokémon GO?",
+            "answer": "Swanna cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

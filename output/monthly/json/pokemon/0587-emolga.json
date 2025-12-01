@@ -1,0 +1,829 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1847,
+        "attack": 158,
+        "defense": 127,
+        "stamina": 146,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Emolga",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/587.webp",
+        "types": [
+            "Electric",
+            "Flying"
+        ],
+        "weather_boost": [
+            "rain",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Thunder Shock",
+            "charged": "Thunderbolt",
+            "dps": 8.35,
+            "tdo": 88.96,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 8.35,
+                "tdo": 89.0,
+                "score": 6.76
+            },
+            {
+                "rank": 2,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 8.24,
+                "tdo": 87.8,
+                "score": 6.68
+            },
+            {
+                "rank": 3,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 7.84,
+                "tdo": 83.5,
+                "score": 6.35
+            },
+            {
+                "rank": 4,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 7.83,
+                "tdo": 83.4,
+                "score": 6.34
+            },
+            {
+                "rank": 5,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Acrobatics",
+                "charged_url": "https://db.pokemongohub.net/move/364",
+                "dps": 7.46,
+                "tdo": 79.5,
+                "score": 6.05
+            },
+            {
+                "rank": 6,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 7.36,
+                "tdo": 78.4,
+                "score": 5.96
+            },
+            {
+                "rank": 7,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 7.0,
+                "tdo": 74.6,
+                "score": 5.67
+            },
+            {
+                "rank": 8,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Acrobatics",
+                "charged_url": "https://db.pokemongohub.net/move/364",
+                "dps": 6.78,
+                "tdo": 72.3,
+                "score": 5.5
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Thunder Shock",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/205"
+            },
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Discharge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.1s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/35"
+            },
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            },
+            {
+                "name": "Acrobatics",
+                "type": "Flying",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "0.6s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/364"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Emolga's has 1847 max CP (at Level 50). A Emolga obtained from Raids can be encountered from 876 CP to 933 CP, or if weather boosted, in the 1095 CP to 1166 CP range. In Field and Special Research, Emolga can be found in the 657 CP to 700 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1847",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "657 - 700",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "876 - 933",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "876 - 933",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1095 - 1166",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1095 CP - 1166 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 23,
+        "2": 72,
+        "3": 121,
+        "4": 171,
+        "5": 220,
+        "6": 269,
+        "7": 318,
+        "8": 368,
+        "9": 417,
+        "10": 466,
+        "11": 513,
+        "12": 560,
+        "13": 606,
+        "14": 653,
+        "15": 700,
+        "16": 746,
+        "17": 793,
+        "18": 840,
+        "19": 886,
+        "20": 933,
+        "21": 980,
+        "22": 1026,
+        "23": 1073,
+        "24": 1120,
+        "25": 1166,
+        "26": 1213,
+        "27": 1260,
+        "28": 1307,
+        "29": 1353,
+        "30": 1400,
+        "31": 1423,
+        "32": 1447,
+        "33": 1470,
+        "34": 1493,
+        "35": 1517,
+        "36": 1540,
+        "37": 1563,
+        "38": 1587,
+        "39": 1610,
+        "40": 1633,
+        "41": 1654,
+        "42": 1675,
+        "43": 1696,
+        "44": 1717,
+        "45": 1738,
+        "46": 1760,
+        "47": 1781,
+        "48": 1803,
+        "49": 1825,
+        "50": 1847
+    },
+    "meta_analysis": "Emolga in the meta PvE Analysis Emolga is another run-of-the-mill Pikachu clone , and just like the iconic Pokémon , Emolga’s stats are also low . Naturally, it shouldn’t be used in raids or gyms by any means. 😅 PvP Analysis 💥 The best PvP moveset for Emolga is Thunder Shock, Discharge, and Acrobatics . 🔵 Great League Just like lightning , Emolga has a fast moveset that puts the Great League meta on notice . Thunder Shock helps Discharge and Acrobatics charge up quickly, making it a threat to Water, Flying, Fighting, and Grass-types . 😎 Emolga often steamrolls opponents , but keep in mind that it can’t take too many hits . Think of it as a mini Zapdos. ⚡ 🟡 Ultra League Emolga maxes out at 1847 CP , so it isn’t viable for the Ultra League . 🟣 Master League NO.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Emolga",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Emolga's Electric and Flying-type moves, Candy, and Candy XL from catching Emolga.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 587,
+            "height_m": 0.4,
+            "weight_kg": 5,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Emolga's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "The energy made in its cheeks’ electric pouches is stored inside its membrane and released while it is gliding."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "They live on treetops and glide using the inside of a cape-like membrane while discharging electricity."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It glides on its outstretched membrane while shocking foes with the electricity stored in the pouches on its cheeks."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "They live on treetops and glide using the inside of a cape-like membrane while discharging electricity."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "The energy made in its cheeks’ electric pouches is stored inside its membrane and released while it is gliding."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It glides using its cape-like membrane. Electrical energy scatters from it, shocking its friends and foes alike."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It grills berries and bug Pokémon with electric shocks and makes a meal of them. It usually nests in the holes gouged in trees by Pikipek."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "They store up electricity to fly through the air. When thunder cracks at night, sometimes there are almost enough of them to blot out the sky."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "As it flies, it scatters electricity around, so bird Pokémon keep their distance. That’s why Emolga can keep all its food to itself."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "As Emolga flutters through the air, it crackles with electricity. This Pokémon is cute, but it can cause a lot of trouble."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This Pokémon absolutely loves sweet berries. Sometimes it stuffs its cheeks full of so much food that it can’t fly properly."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Emolga",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm587.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm587.icon.png"
+            },
+            {
+                "label": "Shiny Emolga",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm587.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm587.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 587,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0587_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0587_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Emolga sprite"
+            },
+            {
+                "pokedex_number": 587,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0587_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0587_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Emolga sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/587_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/587_social.jpg",
+                "alt": "Emolga"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/587_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/587_social_dark.jpg",
+                "alt": "Emolga"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/587_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/587_social_map.jpg",
+                "alt": "Emolga"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/587_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/587_social_map_dark.jpg",
+                "alt": "Emolga"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Emolga’s strengths and weaknesses?",
+            "answer": "As a Electric and Flying-type Pokémon, Emolga is weak to Ice and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Emolga in Pokémon GO?",
+            "answer": "The best moves for Emolga in Pokémon GO are Thunder Shock and Thunderbolt. This moveset has a DPS (Damage Per Second) of 8.348 and a TDO (Total Damage Output) of 88.957."
+        },
+        {
+            "question": "How does Emolga perform in Raids?",
+            "answer": "Emolga's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Emolga rank as a Electric-type attacker?",
+            "answer": "Emolga is an F-Tier Electric-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Emolga rank as a Flying-type attacker?",
+            "answer": "Emolga is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Emolga?",
+            "answer": "The following Mega Pokémon boost Emolga: Mega Ampharos, Mega Manectric, Primal Kyogre, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Emolga’s maximum CP at Level 40 and Level 50?",
+            "answer": "Emolga’s maximum CP at Level 40 is 1633 CP and 1847 CP at Level 50."
+        },
+        {
+            "question": "Can Emolga be shiny in Pokémon GO?",
+            "answer": "Emolga can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Emolga Dynamax in Pokémon GO?",
+            "answer": "Emolga cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

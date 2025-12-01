@@ -1,0 +1,850 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2570,
+        "attack": 163,
+        "defense": 237,
+        "stamina": 151,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Cofagrigus",
+        "forms": [
+            {
+                "name": "Cofagrigus",
+                "href": "/pokemon/563",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/563.webp"
+            },
+            {
+                "name": "Shadow Cofagrigus",
+                "href": "/pokemon/563-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/563.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/563.webp",
+        "types": [
+            "Ghost"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Shadow Claw",
+            "charged": "Shadow Ball",
+            "dps": 9.78,
+            "tdo": 190.66,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 9.78,
+                "tdo": 190.7,
+                "score": 8.67
+            },
+            {
+                "rank": 2,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 9.15,
+                "tdo": 178.3,
+                "score": 8.11
+            },
+            {
+                "rank": 3,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 8.8,
+                "tdo": 171.7,
+                "score": 7.8
+            },
+            {
+                "rank": 4,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 8.66,
+                "tdo": 168.8,
+                "score": 7.68
+            },
+            {
+                "rank": 5,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 7.99,
+                "tdo": 155.7,
+                "score": 7.08
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 7.69,
+                "tdo": 150.0,
+                "score": 6.82
+            },
+            {
+                "rank": 7,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 7.62,
+                "tdo": 148.5,
+                "score": 6.75
+            },
+            {
+                "rank": 8,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 6.91,
+                "tdo": 134.7,
+                "score": 6.12
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Shadow Claw",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.3s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/213"
+            },
+            {
+                "name": "Zen Headbutt",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 9,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/234"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Psychic",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/108"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Cofagrigus's has 2570 max CP (at Level 50). A Cofagrigus obtained from Raids can be encountered from 1231 CP to 1299 CP, or if weather boosted, in the 1539 CP to 1624 CP range. In Field and Special Research, Cofagrigus can be found in the 923 CP to 974 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2570",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "923 - 974",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1231 - 1299",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1231 - 1299",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1539 - 1624",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1539 CP - 1624 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 32,
+        "2": 100,
+        "3": 169,
+        "4": 238,
+        "5": 306,
+        "6": 375,
+        "7": 443,
+        "8": 512,
+        "9": 581,
+        "10": 649,
+        "11": 714,
+        "12": 779,
+        "13": 844,
+        "14": 909,
+        "15": 974,
+        "16": 1039,
+        "17": 1104,
+        "18": 1169,
+        "19": 1234,
+        "20": 1299,
+        "21": 1364,
+        "22": 1429,
+        "23": 1494,
+        "24": 1559,
+        "25": 1624,
+        "26": 1689,
+        "27": 1754,
+        "28": 1819,
+        "29": 1884,
+        "30": 1949,
+        "31": 1981,
+        "32": 2014,
+        "33": 2046,
+        "34": 2079,
+        "35": 2111,
+        "36": 2143,
+        "37": 2176,
+        "38": 2208,
+        "39": 2241,
+        "40": 2273,
+        "41": 2302,
+        "42": 2331,
+        "43": 2360,
+        "44": 2390,
+        "45": 2419,
+        "46": 2449,
+        "47": 2479,
+        "48": 2509,
+        "49": 2540,
+        "50": 2570
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Yamask",
+                    "href": "/pokemon/562",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/562.webp"
+                },
+                "to": {
+                    "name": "Cofagrigus",
+                    "href": "/pokemon/563",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/563.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Yamask",
+                "href": "/pokemon/562",
+                "img": "https://db.pokemongohub.net/images/official/medium/562.webp"
+            },
+            {
+                "name": "Cofagrigus",
+                "href": "/pokemon/563",
+                "img": "https://db.pokemongohub.net/images/official/medium/563.webp"
+            },
+            {
+                "name": "Runerigus",
+                "href": "/pokemon/867",
+                "img": "https://db.pokemongohub.net/images/official/medium/867.webp"
+            },
+            {
+                "name": "Galarian Yamask",
+                "href": "/pokemon/562-Galarian",
+                "img": "https://db.pokemongohub.net/images/official/medium/562_galar.webp"
+            },
+            {
+                "name": "Galarian Shadow Yamask",
+                "href": "/pokemon/562-Galarian_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Yamask",
+                "href": "/pokemon/562-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Cofagrigus",
+                "href": "/pokemon/563-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Runerigus",
+                "href": "/pokemon/867-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Cofagrigus in the meta PvE Analysis ⚔️ Raids Cofagrigus barely cracks the 2500 CP mark, so you’re probably better off using other Ghost Pokémon for raids. 🛡️ Gyms Cofagrigus can be a decent gym defender , but there are much stronger defensive options . 🔮 Dynamax Cofagrigus is not currently available to Dynamax . PvP Analysis Preferred Moveset – Shadow Claw , Shadow Ball , & Dark Pulse 🧸 Little League Cofagrigus has a decent win-loss record in the open Little League meta, but its moveset is a little too slow to be very effective in this format. 🔵 Great League Cofagrigus has been in and out of the open Great League meta over the years. It has good typing for PvP, a strong moveset, and a very decent stat product to boot. Unfortunately, its lack of coverage holds it back , particularly in the current meta where Drapion and Wigglytuff roam free. Cofagrigus is perhaps best suited to limited metas , where it can perform to its full potential without these Pokémon to counter it. 🟡 Ultra League Similar to the Great League , Cofagrigus was previously very strong in the Ultra League meta. However, it has fallen in the rankings recently, and considering the hefty XL candy and stardust investment required, there are currently better options available . That said, Cofagrigus is just a meta shift or movepool update away from becoming viable again in open Ultra League . 🟣 Master League The Coffin Pokémon barely exceeds the 2500 CP cap , so it can't make a meaningful impact in the Master League meta. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Cofagrigus",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Cofagrigus's Ghost-type moves, Candy, and Candy XL from catching Cofagrigus.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 563,
+            "height_m": 1.7,
+            "weight_kg": 76.5,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.83 m",
+            "xs": "0.85 m",
+            "m": "1.7 m",
+            "xl": "2.55 m",
+            "xxl": "2.64 m",
+            "description": "Cofagrigus's height ranges from 0.83 m to 2.64 m, with the average being 1.7 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.833,
+                "upper_m": 0.85,
+                "lower_ft": "2′09″",
+                "upper_ft": "2′09″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.85,
+                "upper_m": 1.7,
+                "lower_ft": "2′09″",
+                "upper_ft": "5′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.275,
+                "upper_m": 2.125,
+                "lower_ft": "4′02″",
+                "upper_ft": "6′12″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.125,
+                "upper_m": 2.55,
+                "lower_ft": "6′12″",
+                "upper_ft": "8′04″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.55,
+                "upper_m": 2.635,
+                "lower_ft": "8′04″",
+                "upper_ft": "8′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_PSYCHIC",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.8,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This Pokémon has a body of sparkling gold. People say it no longer remembers that it was once human."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "There are many depictions of Cofagrigus decorating ancient tombs. They’re symbols of the wealth that kings of bygone eras had."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Cofagrigus",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm563.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm563.icon.png"
+            },
+            {
+                "label": "Shiny Cofagrigus",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm563.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm563.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 563,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0563_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0563_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Cofagrigus sprite"
+            },
+            {
+                "pokedex_number": 563,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0563_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0563_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Cofagrigus sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/563_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/563_social.jpg",
+                "alt": "Cofagrigus"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/563_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/563_social_dark.jpg",
+                "alt": "Cofagrigus"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/563_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/563_social_map.jpg",
+                "alt": "Cofagrigus"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/563_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/563_social_map_dark.jpg",
+                "alt": "Cofagrigus"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Cofagrigus’s strengths and weaknesses?",
+            "answer": "As a Ghost-type Pokémon, Cofagrigus is weak to Dark and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Cofagrigus in Pokémon GO?",
+            "answer": "The best moves for Cofagrigus in Pokémon GO are Shadow Claw and Shadow Ball. This moveset has a DPS (Damage Per Second) of 9.778 and a TDO (Total Damage Output) of 190.656."
+        },
+        {
+            "question": "How does Cofagrigus perform in Raids?",
+            "answer": "Cofagrigus's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Cofagrigus rank as a Ghost-type attacker?",
+            "answer": "Cofagrigus is an F-Tier Ghost-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Cofagrigus?",
+            "answer": "The following Mega Pokémon boost Cofagrigus: Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Cofagrigus’s maximum CP at Level 40 and Level 50?",
+            "answer": "Cofagrigus’s maximum CP at Level 40 is 2273 CP and 2570 CP at Level 50."
+        },
+        {
+            "question": "Can Cofagrigus be shiny in Pokémon GO?",
+            "answer": "Cofagrigus can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Cofagrigus Dynamax in Pokémon GO?",
+            "answer": "Cofagrigus cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,990 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1661,
+        "attack": 145,
+        "defense": 110,
+        "stamina": 158,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Fletchinder",
+        "forms": [
+            {
+                "name": "Fletchinder",
+                "href": "/pokemon/662",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/662.webp"
+            },
+            {
+                "name": "Shadow Fletchinder",
+                "href": "/pokemon/662-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/662.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/662.webp",
+        "types": [
+            "Fire",
+            "Flying"
+        ],
+        "weather_boost": [
+            "sunny",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Ember",
+            "charged": "Fly",
+            "dps": 8.01,
+            "tdo": 80.71,
+            "boosted_weather": [
+                "sunny",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Fly",
+                "charged_url": "https://db.pokemongohub.net/move/341",
+                "dps": 8.01,
+                "tdo": 80.7,
+                "score": 6.42
+            },
+            {
+                "rank": 2,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Fly",
+                "charged_url": "https://db.pokemongohub.net/move/341",
+                "dps": 8.01,
+                "tdo": 80.7,
+                "score": 6.42
+            },
+            {
+                "rank": 3,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Fly",
+                "charged_url": "https://db.pokemongohub.net/move/341",
+                "dps": 7.95,
+                "tdo": 80.1,
+                "score": 6.37
+            },
+            {
+                "rank": 4,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 6.74,
+                "tdo": 67.9,
+                "score": 5.4
+            },
+            {
+                "rank": 5,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 6.52,
+                "tdo": 65.7,
+                "score": 5.22
+            },
+            {
+                "rank": 6,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 6.52,
+                "tdo": 65.7,
+                "score": 5.22
+            },
+            {
+                "rank": 7,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 6.3,
+                "tdo": 63.5,
+                "score": 5.05
+            },
+            {
+                "rank": 8,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Heat Wave",
+                "charged_url": "https://db.pokemongohub.net/move/42",
+                "dps": 6.09,
+                "tdo": 61.4,
+                "score": 4.88
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            },
+            {
+                "name": "Peck",
+                "type": "Flying",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/211"
+            },
+            {
+                "name": "Steel Wing",
+                "type": "Steel",
+                "stats": {
+                    "damage": 14,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 14,
+                    "energy": 8,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.7s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/239"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Heat Wave",
+                "type": "Fire",
+                "stats": {
+                    "damage": 95,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.7s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 95,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/42"
+            },
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            },
+            {
+                "name": "Fly",
+                "type": "Flying",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.4s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/341"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Fletchinder's has 1661 max CP (at Level 50). A Fletchinder obtained from Raids can be encountered from 785 CP to 839 CP, or if weather boosted, in the 981 CP to 1049 CP range. In Field and Special Research, Fletchinder can be found in the 589 CP to 629 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1661",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "589 - 629",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "785 - 839",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "785 - 839",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "981 - 1049",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "981 CP - 1049 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 20,
+        "2": 65,
+        "3": 109,
+        "4": 153,
+        "5": 198,
+        "6": 242,
+        "7": 286,
+        "8": 331,
+        "9": 375,
+        "10": 420,
+        "11": 461,
+        "12": 503,
+        "13": 545,
+        "14": 587,
+        "15": 629,
+        "16": 671,
+        "17": 713,
+        "18": 755,
+        "19": 797,
+        "20": 839,
+        "21": 881,
+        "22": 923,
+        "23": 965,
+        "24": 1007,
+        "25": 1049,
+        "26": 1091,
+        "27": 1133,
+        "28": 1175,
+        "29": 1217,
+        "30": 1259,
+        "31": 1280,
+        "32": 1301,
+        "33": 1322,
+        "34": 1343,
+        "35": 1364,
+        "36": 1385,
+        "37": 1406,
+        "38": 1427,
+        "39": 1448,
+        "40": 1469,
+        "41": 1488,
+        "42": 1506,
+        "43": 1525,
+        "44": 1544,
+        "45": 1563,
+        "46": 1583,
+        "47": 1602,
+        "48": 1622,
+        "49": 1641,
+        "50": 1661
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Fletchling",
+                    "href": "/pokemon/661",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/661.webp"
+                },
+                "to": {
+                    "name": "Fletchinder",
+                    "href": "/pokemon/662",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/662.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Fletchinder",
+                    "href": "/pokemon/662",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/662.webp"
+                },
+                "to": {
+                    "name": "Talonflame",
+                    "href": "/pokemon/663",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/663.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Fletchling",
+                "href": "/pokemon/661",
+                "img": "https://db.pokemongohub.net/images/official/medium/661.webp"
+            },
+            {
+                "name": "Fletchinder",
+                "href": "/pokemon/662",
+                "img": "https://db.pokemongohub.net/images/official/medium/662.webp"
+            },
+            {
+                "name": "Talonflame",
+                "href": "/pokemon/663",
+                "img": "https://db.pokemongohub.net/images/official/medium/663.webp"
+            },
+            {
+                "name": "Shadow Fletchling",
+                "href": "/pokemon/661-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Fletchinder",
+                "href": "/pokemon/662-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Talonflame",
+                "href": "/pokemon/663-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Fletchinder in the meta PvE Analysis ⚔️ Raids Fletchinder will be in and out of a raid battle quicker than a flash. PvP Analysis Preferred Moveset - Ember, Fly & Aerial Ace / Flame Charge 🧸 Little League Fletchinder hasn’t been eligible for a Little Cup meta to date, though its a fairly cheap investment if the opportunity comes along. 🔵 Great League With the recent buff to Ember, Fletchinder is now a viable pick in the Great League - though it is best suited to limited metas where its many water and rock-type counters aren’t hunting it down.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Fletchinder",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Fletchinder's Fire and Flying-type moves, Candy, and Candy XL from catching Fletchinder.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 662,
+            "height_m": 0.7,
+            "weight_kg": 16,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.34 m",
+            "xs": "0.35 m",
+            "m": "0.7 m",
+            "xl": "1.05 m",
+            "xxl": "1.23 m",
+            "description": "Fletchinder's height ranges from 0.34 m to 1.23 m, with the average being 0.7 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.343,
+                "upper_m": 0.35,
+                "lower_ft": "1′02″",
+                "upper_ft": "1′02″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.35,
+                "upper_m": 0.7,
+                "lower_ft": "1′02″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.525,
+                "upper_m": 0.875,
+                "lower_ft": "1′09″",
+                "upper_ft": "2′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.875,
+                "upper_m": 1.05,
+                "lower_ft": "2′10″",
+                "upper_ft": "3′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.05,
+                "upper_m": 1.225,
+                "lower_ft": "3′05″",
+                "upper_ft": "4′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "The hotter the flame sac on its belly, the faster it can fly, but it takes some time to get the fire going."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "From its beak, it fires embers at its prey. Once it has caught them, it grills them at high heat before feasting upon them."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It will not tolerate other Fletchinder entering its territory, which has a radius of several miles."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It scatters embers in the tall grass. Then bug Pokémon, frightened by the flames, come flying out, and Fletchinder gobbles them up."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Fletchinder launches embers into the den of its prey. When the prey comes leaping out, Fletchinder’s sharp talons finish it off."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Fletchinder are exceedingly territorial and aggressive. These Pokémon fight among themselves over feeding grounds."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Fletchinder",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm662.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm662.icon.png"
+            },
+            {
+                "label": "Shiny Fletchinder",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm662.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm662.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 662,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0662_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0662_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Fletchinder sprite"
+            },
+            {
+                "pokedex_number": 662,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0662_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0662_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Fletchinder sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/662_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/662_social.jpg",
+                "alt": "Fletchinder"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/662_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/662_social_dark.jpg",
+                "alt": "Fletchinder"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/662_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/662_social_map.jpg",
+                "alt": "Fletchinder"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/662_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/662_social_map_dark.jpg",
+                "alt": "Fletchinder"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Fletchinder’s strengths and weaknesses?",
+            "answer": "As a Fire and Flying-type Pokémon, Fletchinder is especially weak against Rock-type moves, and weak against Electric and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Fletchinder in Pokémon GO?",
+            "answer": "The best moves for Fletchinder in Pokémon GO are Ember and Fly. This moveset has a DPS (Damage Per Second) of 8.007 and a TDO (Total Damage Output) of 80.709."
+        },
+        {
+            "question": "How does Fletchinder perform in Raids?",
+            "answer": "Fletchinder's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Fletchinder rank as a Fire-type attacker?",
+            "answer": "Fletchinder is an F-Tier Fire-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Fletchinder rank as a Flying-type attacker?",
+            "answer": "Fletchinder is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Fletchinder?",
+            "answer": "The following Mega Pokémon boost Fletchinder: Mega Houndoom, Mega Blaziken, Mega Camerupt, Primal Groudon, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Fletchinder’s maximum CP at Level 40 and Level 50?",
+            "answer": "Fletchinder’s maximum CP at Level 40 is 1469 CP and 1661 CP at Level 50."
+        },
+        {
+            "question": "Can Fletchinder be shiny in Pokémon GO?",
+            "answer": "Fletchinder can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Fletchinder Dynamax in Pokémon GO?",
+            "answer": "Fletchinder cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

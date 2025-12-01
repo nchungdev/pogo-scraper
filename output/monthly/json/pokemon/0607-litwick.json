@@ -1,0 +1,926 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1138,
+        "attack": 108,
+        "defense": 98,
+        "stamina": 137,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Litwick",
+        "forms": [
+            {
+                "name": "Litwick",
+                "href": "/pokemon/607",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/607.webp"
+            },
+            {
+                "name": "Shadow Litwick",
+                "href": "/pokemon/607-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/607.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/607.webp",
+        "types": [
+            "Ghost",
+            "Fire"
+        ],
+        "weather_boost": [
+            "fog",
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Ember",
+            "charged": "Mystical Fire",
+            "dps": 5.3,
+            "tdo": 42.47,
+            "boosted_weather": [
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Mystical Fire",
+                "charged_url": "https://db.pokemongohub.net/move/382",
+                "dps": 5.3,
+                "tdo": 42.5,
+                "score": 4.04
+            },
+            {
+                "rank": 2,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Mystical Fire",
+                "charged_url": "https://db.pokemongohub.net/move/382",
+                "dps": 5.08,
+                "tdo": 40.7,
+                "score": 3.87
+            },
+            {
+                "rank": 3,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Burst",
+                "charged_url": "https://db.pokemongohub.net/move/102",
+                "dps": 4.77,
+                "tdo": 38.2,
+                "score": 3.64
+            },
+            {
+                "rank": 4,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 4.49,
+                "tdo": 35.9,
+                "score": 3.42
+            },
+            {
+                "rank": 5,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Flame Burst",
+                "charged_url": "https://db.pokemongohub.net/move/102",
+                "dps": 4.43,
+                "tdo": 35.4,
+                "score": 3.37
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 4.12,
+                "tdo": 33.0,
+                "score": 3.14
+            },
+            {
+                "rank": 7,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Heat Wave",
+                "charged_url": "https://db.pokemongohub.net/move/42",
+                "dps": 4.11,
+                "tdo": 32.9,
+                "score": 3.13
+            },
+            {
+                "rank": 8,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Heat Wave",
+                "charged_url": "https://db.pokemongohub.net/move/42",
+                "dps": 3.6,
+                "tdo": 28.8,
+                "score": 2.75
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Heat Wave",
+                "type": "Fire",
+                "stats": {
+                    "damage": 95,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.7s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 95,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/42"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            },
+            {
+                "name": "Flame Burst",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "0.9s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/102"
+            },
+            {
+                "name": "Mystical Fire",
+                "type": "Fire",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/382"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Litwick's has 1138 max CP (at Level 50). A Litwick obtained from Raids can be encountered from 530 CP to 575 CP, or if weather boosted, in the 663 CP to 719 CP range. In Field and Special Research, Litwick can be found in the 398 CP to 431 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1138",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "398 - 431",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "530 - 575",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "530 - 575",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "663 - 719",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "663 CP - 719 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 44,
+        "3": 75,
+        "4": 105,
+        "5": 135,
+        "6": 166,
+        "7": 196,
+        "8": 226,
+        "9": 257,
+        "10": 287,
+        "11": 316,
+        "12": 345,
+        "13": 374,
+        "14": 402,
+        "15": 431,
+        "16": 460,
+        "17": 489,
+        "18": 517,
+        "19": 546,
+        "20": 575,
+        "21": 604,
+        "22": 632,
+        "23": 661,
+        "24": 690,
+        "25": 719,
+        "26": 747,
+        "27": 776,
+        "28": 805,
+        "29": 834,
+        "30": 863,
+        "31": 877,
+        "32": 891,
+        "33": 906,
+        "34": 920,
+        "35": 934,
+        "36": 949,
+        "37": 963,
+        "38": 978,
+        "39": 992,
+        "40": 1006,
+        "41": 1019,
+        "42": 1032,
+        "43": 1045,
+        "44": 1058,
+        "45": 1071,
+        "46": 1084,
+        "47": 1097,
+        "48": 1111,
+        "49": 1124,
+        "50": 1138
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Litwick",
+                    "href": "/pokemon/607",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/607.webp"
+                },
+                "to": {
+                    "name": "Lampent",
+                    "href": "/pokemon/608",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/608.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Lampent",
+                    "href": "/pokemon/608",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/608.webp"
+                },
+                "to": {
+                    "name": "Chandelure",
+                    "href": "/pokemon/609",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/609.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Special Item: Unova Stone"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Litwick",
+                "href": "/pokemon/607",
+                "img": "https://db.pokemongohub.net/images/official/medium/607.webp"
+            },
+            {
+                "name": "Lampent",
+                "href": "/pokemon/608",
+                "img": "https://db.pokemongohub.net/images/official/medium/608.webp"
+            },
+            {
+                "name": "Chandelure",
+                "href": "/pokemon/609",
+                "img": "https://db.pokemongohub.net/images/official/medium/609.webp"
+            },
+            {
+                "name": "Shadow Litwick",
+                "href": "/pokemon/607-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Lampent",
+                "href": "/pokemon/608-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Chandelure",
+                "href": "/pokemon/609-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Litwick in the meta PvE Analysis Litwick is adorable and has a great design, but when it comes to combat, the candle just melts 🫠 ⚔️ Raids - Poor bulk makes sure that it isn't even decent against 1-Star Raid bosses 😅 🛡️ Gyms - Well, it can light up Gyms! 🔆 PvP Analysis 🔵 Great League - 🌬️🕯️ 🟡 Ultra League - 🌬️🕯️ 🟣 Master League - 🌬️🕯️",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Litwick",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Litwick's Ghost and Fire-type moves, Candy, and Candy XL from catching Litwick.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 607,
+            "height_m": 0.3,
+            "weight_kg": 3.1,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Litwick's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its flame is usually out, but it starts shining when it absorbs life force from people or Pokémon."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "The flame on its head keeps its body slightly warm. This Pokémon takes lost children by the hand to guide them to the spirit world."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Litwick",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm607.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm607.icon.png"
+            },
+            {
+                "label": "Shiny Litwick",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm607.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm607.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 607,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0607_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0607_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Litwick sprite"
+            },
+            {
+                "pokedex_number": 607,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0607_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0607_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Litwick sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/607_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/607_social.jpg",
+                "alt": "Litwick"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/607_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/607_social_dark.jpg",
+                "alt": "Litwick"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/607_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/607_social_map.jpg",
+                "alt": "Litwick"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/607_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/607_social_map_dark.jpg",
+                "alt": "Litwick"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Litwick’s strengths and weaknesses?",
+            "answer": "As a Ghost and Fire-type Pokémon, Litwick is weak to Dark, Ghost, Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Litwick in Pokémon GO?",
+            "answer": "The best moves for Litwick in Pokémon GO are Ember and Mystical Fire. This moveset has a DPS (Damage Per Second) of 5.305 and a TDO (Total Damage Output) of 42.47."
+        },
+        {
+            "question": "How does Litwick perform in Raids?",
+            "answer": "Litwick's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Litwick rank as a Ghost-type attacker?",
+            "answer": "Litwick's performance as a Ghost-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Litwick?",
+            "answer": "The following Mega Pokémon boost Litwick: Mega Gengar, Mega Sableye, Mega Banette, Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Litwick’s maximum CP at Level 40 and Level 50?",
+            "answer": "Litwick’s maximum CP at Level 40 is 1006 CP and 1138 CP at Level 50."
+        },
+        {
+            "question": "Can Litwick be shiny in Pokémon GO?",
+            "answer": "Litwick can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Litwick Dynamax in Pokémon GO?",
+            "answer": "Litwick cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

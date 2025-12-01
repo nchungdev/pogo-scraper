@@ -1,0 +1,823 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1902,
+        "attack": 114,
+        "defense": 163,
+        "stamina": 230,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Audino",
+        "forms": [
+            {
+                "name": "Audino",
+                "href": "/pokemon/531",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/531.webp"
+            },
+            {
+                "name": "Mega Audino",
+                "href": "/pokemon/531-Mega",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/531_f2.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/531.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Pound",
+            "charged": "Hyper Beam",
+            "dps": 7.3,
+            "tdo": 148.29,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 7.3,
+                "tdo": 148.3,
+                "score": 6.5
+            },
+            {
+                "rank": 2,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 6.71,
+                "tdo": 136.4,
+                "score": 5.98
+            },
+            {
+                "rank": 3,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 6.56,
+                "tdo": 133.3,
+                "score": 5.84
+            },
+            {
+                "rank": 4,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 6.0,
+                "tdo": 121.9,
+                "score": 5.34
+            },
+            {
+                "rank": 5,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 5.77,
+                "tdo": 117.2,
+                "score": 5.13
+            },
+            {
+                "rank": 6,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 5.65,
+                "tdo": 114.9,
+                "score": 5.03
+            },
+            {
+                "rank": 7,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Disarming Voice",
+                "charged_url": "https://db.pokemongohub.net/move/84",
+                "dps": 5.08,
+                "tdo": 103.3,
+                "score": 4.52
+            },
+            {
+                "rank": 8,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Disarming Voice",
+                "charged_url": "https://db.pokemongohub.net/move/84",
+                "dps": 4.52,
+                "tdo": 91.9,
+                "score": 4.03
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Pound",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.4s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/222"
+            },
+            {
+                "name": "Zen Headbutt",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 9,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/234"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Hyper Beam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 150,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 150,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.5s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/14"
+            },
+            {
+                "name": "Disarming Voice",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.3s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/84"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.1s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/86"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Audino's has 1902 max CP (at Level 50). A Audino obtained from Raids can be encountered from 901 CP to 961 CP, or if weather boosted, in the 1127 CP to 1201 CP range. In Field and Special Research, Audino can be found in the 676 CP to 721 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1902",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "676 - 721",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "901 - 961",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "901 - 961",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1127 - 1201",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1127 CP - 1201 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 23,
+        "2": 74,
+        "3": 125,
+        "4": 176,
+        "5": 226,
+        "6": 277,
+        "7": 328,
+        "8": 379,
+        "9": 430,
+        "10": 480,
+        "11": 528,
+        "12": 576,
+        "13": 625,
+        "14": 673,
+        "15": 721,
+        "16": 769,
+        "17": 817,
+        "18": 865,
+        "19": 913,
+        "20": 961,
+        "21": 1009,
+        "22": 1057,
+        "23": 1105,
+        "24": 1153,
+        "25": 1201,
+        "26": 1249,
+        "27": 1298,
+        "28": 1346,
+        "29": 1394,
+        "30": 1442,
+        "31": 1466,
+        "32": 1490,
+        "33": 1514,
+        "34": 1538,
+        "35": 1562,
+        "36": 1586,
+        "37": 1610,
+        "38": 1634,
+        "39": 1658,
+        "40": 1682,
+        "41": 1703,
+        "42": 1725,
+        "43": 1747,
+        "44": 1768,
+        "45": 1790,
+        "46": 1812,
+        "47": 1834,
+        "48": 1857,
+        "49": 1879,
+        "50": 1902
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Audino",
+                    "href": "/pokemon/531",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/531.webp"
+                },
+                "to": {
+                    "name": "Mega Audino",
+                    "href": "/pokemon/531-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "200 / 40 Mega Energy"
+        ],
+        "family": [
+            {
+                "name": "Audino",
+                "href": "/pokemon/531",
+                "img": "https://db.pokemongohub.net/images/official/medium/531.webp"
+            },
+            {
+                "name": "Mega Audino",
+                "href": "/pokemon/531-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Audino in the meta PvE Analysis Audino is a pure Normal-type Pokémon with a max CP of 1902 . As a Normal type , it is not useful for PvE , even with its best moveset of Pound and Hyper Beam . It does have a Mega Evolution that gains a Fairy typing , which could be slightly more useful , but not by much. The best part about Audino is that catching it gives you a ton of extra stardust ! ⚔️ Raids Normal types don’t do super effective damage against any other typing, so they have little use in raids . 🛡️ Gyms There are much better options available. PvP Analysis Audino’s best moveset for PvP is Zen Headbutt , Disarming Voice , and Hyper Beam , but that Normal typing means Audino isn’t making any waves in PvP. 🔵 Great League Audino is one of the bulkiest Pokémon in the Great League . However, its bulk isn’t as insane as Chansey’s . But Audino still shares the same problem as Chansey —it does not have particularly good attacks . Zen Headbutt is a pretty bad fast attack , both in terms of damage output and energy generation . Audino also only has heavy energy-dependent charged attacks , making it slow to charge and ineffective in battle . So overall, Audino isn’t a great Pokémon to use in the Great League , but it can be used for some fun niche stall team action . 🟡 Ultra League Audino is too small for Ultra League and would need to be maxed out to level 50 with XL Candy , and even then, it would not be of any use . 🟣 Master League Just don’t do it. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Audino",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Audino's Normal-type moves, Candy, and Candy XL from catching Audino.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 531,
+            "height_m": 1.1,
+            "weight_kg": 31,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 2100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": 15,
+        "size_info": {
+            "xxs": "0.54 m",
+            "xs": "0.55 m",
+            "m": "1.1 m",
+            "xl": "1.65 m",
+            "xxl": "1.71 m",
+            "description": "Audino's height ranges from 0.54 m to 1.71 m, with the average being 1.1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.539,
+                "upper_m": 0.55,
+                "lower_ft": "1′09″",
+                "upper_ft": "1′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.55,
+                "upper_m": 1.1,
+                "lower_ft": "1′10″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.825,
+                "upper_m": 1.375,
+                "lower_ft": "2′08″",
+                "upper_ft": "4′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.375,
+                "upper_m": 1.65,
+                "lower_ft": "4′06″",
+                "upper_ft": "5′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.65,
+                "upper_m": 1.705,
+                "lower_ft": "5′05″",
+                "upper_ft": "5′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "Its auditory sense is astounding. It has a radarlike ability to understand its surroundings through slight sounds."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Audino’s sense of hearing is superb. Not even a pebble rolling along over a mile away will escape Audino’s ears."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This Pokémon has a kind heart. By touching with its feelers, Audino can gauge other creatures’ feelings and physical conditions."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Audino",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm531.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm531.icon.png"
+            },
+            {
+                "label": "Shiny Audino",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm531.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm531.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 531,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0531_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0531_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Audino sprite"
+            },
+            {
+                "pokedex_number": 531,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0531_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0531_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Audino sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/531_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/531_social.jpg",
+                "alt": "Audino"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/531_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/531_social_dark.jpg",
+                "alt": "Audino"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/531_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/531_social_map.jpg",
+                "alt": "Audino"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/531_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/531_social_map_dark.jpg",
+                "alt": "Audino"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Audino’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Audino is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Audino in Pokémon GO?",
+            "answer": "The best moves for Audino in Pokémon GO are Pound and Hyper Beam. This moveset has a DPS (Damage Per Second) of 7.295 and a TDO (Total Damage Output) of 148.288."
+        },
+        {
+            "question": "How does Audino perform in Raids?",
+            "answer": "Audino's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Audino rank as a Normal-type attacker?",
+            "answer": "Audino is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Audino?",
+            "answer": "The following Mega Pokémon boost Audino: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Audino’s maximum CP at Level 40 and Level 50?",
+            "answer": "Audino’s maximum CP at Level 40 is 1682 CP and 1902 CP at Level 50."
+        },
+        {
+            "question": "Can Audino be shiny in Pokémon GO?",
+            "answer": "Audino can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Audino Dynamax in Pokémon GO?",
+            "answer": "Audino cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

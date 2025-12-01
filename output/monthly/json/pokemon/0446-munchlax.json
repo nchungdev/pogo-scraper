@@ -1,0 +1,820 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2139,
+        "attack": 137,
+        "defense": 117,
+        "stamina": 286,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Munchlax",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/446.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Body Slam",
+            "dps": 7.46,
+            "tdo": 138.13,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 7.46,
+                "tdo": 138.1,
+                "score": 6.57
+            },
+            {
+                "rank": 2,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 7.32,
+                "tdo": 135.5,
+                "score": 6.45
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Gunk Shot",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 7.31,
+                "tdo": 135.3,
+                "score": 6.44
+            },
+            {
+                "rank": 4,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Gunk Shot",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 7.12,
+                "tdo": 131.9,
+                "score": 6.28
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 6.36,
+                "tdo": 117.8,
+                "score": 5.61
+            },
+            {
+                "rank": 6,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 6.15,
+                "tdo": 113.9,
+                "score": 5.42
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Lick",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/212"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Gunk Shot",
+                "type": "Poison",
+                "stats": {
+                    "damage": 130,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 130,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.6s - 2.6s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/92"
+            },
+            {
+                "name": "Bulldoze",
+                "type": "Ground",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/95"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Munchlax's has 2139 max CP (at Level 50). A Munchlax obtained from Raids can be encountered from 1017 CP to 1081 CP, or if weather boosted, in the 1271 CP to 1351 CP range. In Field and Special Research, Munchlax can be found in the 762 CP to 811 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2139",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "762 - 811",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1017 - 1081",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1017 - 1081",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1271 - 1351",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1271 CP - 1351 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 26,
+        "2": 83,
+        "3": 141,
+        "4": 198,
+        "5": 255,
+        "6": 312,
+        "7": 369,
+        "8": 426,
+        "9": 483,
+        "10": 540,
+        "11": 594,
+        "12": 648,
+        "13": 702,
+        "14": 757,
+        "15": 811,
+        "16": 865,
+        "17": 919,
+        "18": 973,
+        "19": 1027,
+        "20": 1081,
+        "21": 1135,
+        "22": 1189,
+        "23": 1243,
+        "24": 1297,
+        "25": 1351,
+        "26": 1405,
+        "27": 1459,
+        "28": 1513,
+        "29": 1568,
+        "30": 1622,
+        "31": 1649,
+        "32": 1676,
+        "33": 1703,
+        "34": 1730,
+        "35": 1757,
+        "36": 1784,
+        "37": 1811,
+        "38": 1838,
+        "39": 1865,
+        "40": 1892,
+        "41": 1916,
+        "42": 1940,
+        "43": 1964,
+        "44": 1989,
+        "45": 2013,
+        "46": 2038,
+        "47": 2063,
+        "48": 2088,
+        "49": 2113,
+        "50": 2139
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Munchlax",
+                    "href": "/pokemon/446",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/446.webp"
+                },
+                "to": {
+                    "name": "Snorlax",
+                    "href": "/pokemon/143",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/143.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Snorlax",
+                "href": "/pokemon/143",
+                "img": "https://db.pokemongohub.net/images/official/medium/143.webp"
+            },
+            {
+                "name": "Munchlax",
+                "href": "/pokemon/446",
+                "img": "https://db.pokemongohub.net/images/official/medium/446.webp"
+            },
+            {
+                "name": "Gigantamax Snorlax",
+                "href": "/pokemon/143-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/143_gmax.webp"
+            },
+            {
+                "name": "Shadow Snorlax",
+                "href": "/pokemon/143-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Snorlax",
+                "href": "/pokemon/143-Wildarea_2024",
+                "img": "https://db.pokemongohub.net/images/official/medium/143.webp"
+            },
+            {
+                "name": "Shadow Snorlax",
+                "href": "/pokemon/143-Wildarea_2024_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Munchlax in the meta PvE Analysis ⚔️ Raids Munchlax is an unevolved Pokémon , making it undesirable for raids . But even if that were not the case, Munchlax is a Normal-type , and Normal-types are unrecommended for raids since no Pokémon are weak to Normal-type attacks . PvP Analysis 🔵 Great League Despite being an unevolved Pokémon , Munchlax is actually a decent Pokémon and better than its evolution in the Great League . While Munchlax isn’t a top meta pick , it does have quite a lot going for it . For starters, it has a respectably large HP pool , making it really bulky . As a Normal-type , it only has a singular weakness to Fighting-type attacks . It also has a choice between Tackle and Lick as its Fast Attacks , both of which generate energy quickly and have very short attack animations . These pair well with Body Slam and Bulldoze as its Charged Attacks , making it spammy and versatile. Although a recent nerf to Body Slam slightly hurts its PvP prospects, Munchlax remains a solid spice pick in the Great League. 🟡 Ultra League With a max CP of 2139 , Munchlax is not strong enough for the Ultra League . 🟣 Master League With a max CP of 2139 , Munchlax is not strong enough for the Master League . Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Munchlax",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Munchlax's Normal-type moves, Candy, and Candy XL from catching Munchlax.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 446,
+            "height_m": 0.6,
+            "weight_kg": 105,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.29 m",
+            "xs": "0.3 m",
+            "m": "0.6 m",
+            "xl": "0.9 m",
+            "xxl": "1.05 m",
+            "description": "Munchlax's height ranges from 0.29 m to 1.05 m, with the average being 0.6 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.294,
+                "upper_m": 0.3,
+                "lower_ft": "0′12″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.3,
+                "upper_m": 0.6,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.45,
+                "upper_m": 0.75,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.75,
+                "upper_m": 0.9,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.9,
+                "upper_m": 1.05,
+                "lower_ft": "2′11″",
+                "upper_ft": "3′05″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It wolfs down its weight in food once a day, swallowing food whole with almost no chewing."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It hides food under its long body hair. However, it forgets it has hidden the food."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "In its desperation to gulp down food, it forgets about the food it has hidden under its fur."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It conceals food under the long fur on its body. It carts around this food stash and swallows it without chewing."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It hides food under its long body hair. However, it forgets it has hidden the food."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It conceals food under the long fur on its body. It carts around this food stash and swallows it without chewing."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It needs to consume its own weight in food every day. As far as flavor is concerned, it’s indifferent."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "When it finds something that looks like it might be edible, it goes right ahead and swallows it whole. That’s why it gets fatter day by day."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It hides food under its long fur, but it sometimes forgets about it and causes a stinky disturbance."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Anything that looks edible, Munchlax will go on and swallow whole. Its stomach is tough enough to handle it even if the food has gone rotten."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Stuffing itself with vast amounts of food is its only concern. Whether the food is rotten or fresh, yummy or tasteless—it does not care."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It stores food beneath its fur. It might share just one bite, but only if it really trusts you."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Its robust stomach allows it to nonchalantly devour even rotted matter. It pays frequent visits to villages, seeking out food scraps intended for compost."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Munchlax",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm446.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm446.icon.png"
+            },
+            {
+                "label": "Shiny Munchlax",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm446.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm446.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 446,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0446_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0446_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Munchlax sprite"
+            },
+            {
+                "pokedex_number": 446,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0446_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0446_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Munchlax sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/446_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/446_social.jpg",
+                "alt": "Munchlax"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/446_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/446_social_dark.jpg",
+                "alt": "Munchlax"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/446_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/446_social_map.jpg",
+                "alt": "Munchlax"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/446_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/446_social_map_dark.jpg",
+                "alt": "Munchlax"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Munchlax’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Munchlax is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Munchlax in Pokémon GO?",
+            "answer": "The best moves for Munchlax in Pokémon GO are Tackle and Body Slam. This moveset has a DPS (Damage Per Second) of 7.459 and a TDO (Total Damage Output) of 138.134."
+        },
+        {
+            "question": "How does Munchlax perform in Raids?",
+            "answer": "Munchlax's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Munchlax rank as a Normal-type attacker?",
+            "answer": "Munchlax is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Munchlax?",
+            "answer": "The following Mega Pokémon boost Munchlax: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Munchlax’s maximum CP at Level 40 and Level 50?",
+            "answer": "Munchlax’s maximum CP at Level 40 is 1892 CP and 2139 CP at Level 50."
+        },
+        {
+            "question": "Can Munchlax be shiny in Pokémon GO?",
+            "answer": "Munchlax can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Munchlax Dynamax in Pokémon GO?",
+            "answer": "Munchlax cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,949 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1048,
+        "attack": 110,
+        "defense": 97,
+        "stamina": 111,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Ekans",
+        "forms": [
+            {
+                "name": "Ekans",
+                "href": "/pokemon/23",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/023.webp"
+            },
+            {
+                "name": "Shadow Ekans",
+                "href": "/pokemon/23-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/023.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/023.webp",
+        "types": [
+            "Poison"
+        ],
+        "weather_boost": [
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Poison Sting",
+            "charged": "Sludge Bomb",
+            "dps": 4.92,
+            "tdo": 32.35,
+            "boosted_weather": [
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 4.92,
+                "tdo": 32.3,
+                "score": 3.56
+            },
+            {
+                "rank": 2,
+                "fast": "Acid",
+                "fast_url": "https://db.pokemongohub.net/move/225",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 4.85,
+                "tdo": 31.9,
+                "score": 3.51
+            },
+            {
+                "rank": 3,
+                "fast": "Acid",
+                "fast_url": "https://db.pokemongohub.net/move/225",
+                "charged": "Poison Fang",
+                "charged_url": "https://db.pokemongohub.net/move/50",
+                "dps": 4.5,
+                "tdo": 29.6,
+                "score": 3.26
+            },
+            {
+                "rank": 4,
+                "fast": "Acid",
+                "fast_url": "https://db.pokemongohub.net/move/225",
+                "charged": "Wrap",
+                "charged_url": "https://db.pokemongohub.net/move/13",
+                "dps": 4.43,
+                "tdo": 29.2,
+                "score": 3.21
+            },
+            {
+                "rank": 5,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Poison Fang",
+                "charged_url": "https://db.pokemongohub.net/move/50",
+                "dps": 4.27,
+                "tdo": 28.1,
+                "score": 3.09
+            },
+            {
+                "rank": 6,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Wrap",
+                "charged_url": "https://db.pokemongohub.net/move/13",
+                "dps": 4.21,
+                "tdo": 27.7,
+                "score": 3.05
+            },
+            {
+                "rank": 7,
+                "fast": "Acid",
+                "fast_url": "https://db.pokemongohub.net/move/225",
+                "charged": "Gunk Shot *",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 4.12,
+                "tdo": 27.1,
+                "score": 2.99
+            },
+            {
+                "rank": 8,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Gunk Shot *",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 3.98,
+                "tdo": 26.2,
+                "score": 2.89
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Acid",
+                "type": "Poison",
+                "stats": {
+                    "damage": 11,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 10,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/225"
+            },
+            {
+                "name": "Poison Sting",
+                "type": "Poison",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/236"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Wrap",
+                "type": "Normal",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/13"
+            },
+            {
+                "name": "Poison Fang",
+                "type": "Poison",
+                "stats": {
+                    "damage": 30,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 30,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.7s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/50"
+            },
+            {
+                "name": "Sludge Bomb",
+                "type": "Poison",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/90"
+            },
+            {
+                "name": "Gunk Shot *",
+                "type": "Poison",
+                "stats": {
+                    "damage": 130,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 130,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.6s - 2.6s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/92"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Ekans's has 1048 max CP (at Level 50). A Ekans obtained from Raids can be encountered from 487 CP to 529 CP, or if weather boosted, in the 609 CP to 662 CP range. In Field and Special Research, Ekans can be found in the 365 CP to 397 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1048",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "365 - 397",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "487 - 529",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "487 - 529",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "609 - 662",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "609 CP - 662 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 41,
+        "3": 69,
+        "4": 97,
+        "5": 125,
+        "6": 153,
+        "7": 181,
+        "8": 209,
+        "9": 237,
+        "10": 265,
+        "11": 291,
+        "12": 318,
+        "13": 344,
+        "14": 371,
+        "15": 397,
+        "16": 423,
+        "17": 450,
+        "18": 476,
+        "19": 503,
+        "20": 529,
+        "21": 556,
+        "22": 582,
+        "23": 609,
+        "24": 635,
+        "25": 662,
+        "26": 688,
+        "27": 715,
+        "28": 741,
+        "29": 768,
+        "30": 795,
+        "31": 808,
+        "32": 821,
+        "33": 834,
+        "34": 847,
+        "35": 861,
+        "36": 874,
+        "37": 887,
+        "38": 900,
+        "39": 914,
+        "40": 927,
+        "41": 939,
+        "42": 951,
+        "43": 962,
+        "44": 974,
+        "45": 987,
+        "46": 999,
+        "47": 1011,
+        "48": 1023,
+        "49": 1036,
+        "50": 1048
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Ekans",
+                    "href": "/pokemon/23",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/023.webp"
+                },
+                "to": {
+                    "name": "Arbok",
+                    "href": "/pokemon/24",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/024.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Ekans",
+                "href": "/pokemon/23",
+                "img": "https://db.pokemongohub.net/images/official/medium/023.webp"
+            },
+            {
+                "name": "Arbok",
+                "href": "/pokemon/24",
+                "img": "https://db.pokemongohub.net/images/official/medium/024.webp"
+            },
+            {
+                "name": "Shadow Ekans",
+                "href": "/pokemon/23-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Arbok",
+                "href": "/pokemon/24-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Ekans in the meta PvE Analysis ⚔️ Raids It’s snake spelt backwards ! That’s about the most interesting thing that can be said about Ekans as a raid attacker. It’s a base form Poison type , and while there are plenty of worse options to use, there are also over a hundred better Pokémon . Roserade and Toxicroak are much more valuable budget options for countering the few notable Fairy and Grass-type raid bosses that call for Poison-type coverage. 🛡️ Gyms Being only weak to Psychic and Ground types , Poison isn’t a terrible option for defending gyms—just don’t use Ekans . It’s far too frail to have any staying power, and much better defenders exist, such as Clodsire and Alolan Muk . PvP Analysis 🧸 Little League Maxing out at 1048 CP , the Little League is the only place where Ekans would be eligible. However, with its limited movepool and lackluster stat spread , it doesn’t even make it to the footnotes of PvP rankings . 🔵 Great League As above, Ekans can’t even reach the CP requirement here. 🟡 Ultra League If you want a Poison type, use Drapion . If you want a snake, use Serperior . 🟣 Master League Not a question that needs answering.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Ekans",
+        "type": "Poison",
+        "intro_text": "A list of Mega Pokémon that boost Ekans's Poison-type moves, Candy, and Candy XL from catching Ekans.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 23,
+            "height_m": 2,
+            "weight_kg": 6.9,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.98 m",
+            "xs": "1 m",
+            "m": "2 m",
+            "xl": "3 m",
+            "xxl": "3.5 m",
+            "description": "Ekans's height ranges from 0.98 m to 3.5 m, with the average being 2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.98,
+                "upper_m": 1,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1,
+                "upper_m": 2,
+                "lower_ft": "3′03″",
+                "upper_ft": "6′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.5,
+                "upper_m": 2.5,
+                "lower_ft": "4′11″",
+                "upper_ft": "8′02″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.5,
+                "upper_m": 3,
+                "lower_ft": "8′02″",
+                "upper_ft": "9′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 3,
+                "upper_m": 3.5,
+                "lower_ft": "9′10″",
+                "upper_ft": "11′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 29,
+            "jump_time_s": 2,
+            "attack_probability": 20.0,
+            "attack_timer_s": 10,
+            "dodge_probability": 10.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It can freely de tach its jaw to swallow large prey whole. It can be come too heavy to move, however."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It always hides in grass. When first born, it has no poison, so its bite is painful, but harmless."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It flutters the tip of its tongue to seek out the scent of prey, then swallows the prey whole."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "EKANS curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "An EKANS curls itself up in a spiral while it rests. This position allows it to quickly respond to an enemy from any direction with a threat from its upraised head."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "A very common sight in grassland, etc. It flicks its tongue in and out to sense danger in its surroundings."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Moving silently and stealthily, it eats the eggs of birds, such as PIDGEY and SPEAROW, whole."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It sneaks through grass without making a sound and strikes unsuspecting prey from behind."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It can freely detach its jaw to swallow large prey whole. It can become too heavy to move, however."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It always hides in grass. When first born, it has no poison, so its bite is painful, but harmless."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Moving silently and stealthily, it eats the eggs of birds, such as Pidgey and Spearow, whole."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "The eggs of bird Pokémon are its favorite food. It swallows eggs whole, so sometimes an egg gets stuck, and Ekans faints."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Ekans",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm23.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm23.icon.png"
+            },
+            {
+                "label": "Shiny Ekans",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm23.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm23.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 23,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0023_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0023_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Ekans sprite"
+            },
+            {
+                "pokedex_number": 23,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0023_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0023_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Ekans sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/023_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/023_social.jpg",
+                "alt": "Ekans"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/023_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/023_social_dark.jpg",
+                "alt": "Ekans"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/023_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/023_social_map.jpg",
+                "alt": "Ekans"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/023_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/023_social_map_dark.jpg",
+                "alt": "Ekans"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Ekans’s strengths and weaknesses?",
+            "answer": "As a Poison-type Pokémon, Ekans is weak to Ground and Psychic-type moves."
+        },
+        {
+            "question": "What are the best moves for Ekans in Pokémon GO?",
+            "answer": "The best moves for Ekans in Pokémon GO are Poison Sting and Sludge Bomb. This moveset has a DPS (Damage Per Second) of 4.918 and a TDO (Total Damage Output) of 32.345."
+        },
+        {
+            "question": "How does Ekans perform in Raids?",
+            "answer": "Ekans's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Ekans rank as a Poison-type attacker?",
+            "answer": "Ekans's performance as a Poison-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Ekans?",
+            "answer": "The following Mega Pokémon boost Ekans: Mega Venusaur, Mega Beedrill, and Mega Gengar."
+        },
+        {
+            "question": "What is Ekans’s maximum CP at Level 40 and Level 50?",
+            "answer": "Ekans’s maximum CP at Level 40 is 927 CP and 1048 CP at Level 50."
+        },
+        {
+            "question": "Can Ekans be shiny in Pokémon GO?",
+            "answer": "Ekans can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Ekans Dynamax in Pokémon GO?",
+            "answer": "Ekans cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

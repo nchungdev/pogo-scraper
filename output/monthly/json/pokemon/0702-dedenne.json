@@ -1,0 +1,745 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2081,
+        "attack": 164,
+        "defense": 134,
+        "stamina": 167,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Dedenne",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/702.webp",
+        "types": [
+            "Electric",
+            "Fairy"
+        ],
+        "weather_boost": [
+            "rain",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Thunder Shock",
+            "charged": "Play Rough",
+            "dps": 8.98,
+            "tdo": 113.47,
+            "boosted_weather": [
+                "rain",
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 8.98,
+                "tdo": 113.5,
+                "score": 7.5
+            },
+            {
+                "rank": 2,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 8.78,
+                "tdo": 111.0,
+                "score": 7.33
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 8.31,
+                "tdo": 105.0,
+                "score": 6.94
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 8.26,
+                "tdo": 104.4,
+                "score": 6.9
+            },
+            {
+                "rank": 5,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Parabolic Charge",
+                "charged_url": "https://db.pokemongohub.net/move/75",
+                "dps": 7.59,
+                "tdo": 96.0,
+                "score": 6.34
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Parabolic Charge",
+                "charged_url": "https://db.pokemongohub.net/move/75",
+                "dps": 7.17,
+                "tdo": 90.7,
+                "score": 5.99
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Thunder Shock",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/205"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Discharge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.1s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/35"
+            },
+            {
+                "name": "Parabolic Charge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.6s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/75"
+            },
+            {
+                "name": "Play Rough",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/88"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Dedenne's has 2081 max CP (at Level 50). A Dedenne obtained from Raids can be encountered from 991 CP to 1051 CP, or if weather boosted, in the 1239 CP to 1315 CP range. In Field and Special Research, Dedenne can be found in the 743 CP to 789 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2081",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "743 - 789",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "991 - 1051",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "991 - 1051",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1239 - 1315",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1239 CP - 1315 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 26,
+        "2": 81,
+        "3": 137,
+        "4": 192,
+        "5": 248,
+        "6": 303,
+        "7": 359,
+        "8": 415,
+        "9": 470,
+        "10": 526,
+        "11": 578,
+        "12": 631,
+        "13": 683,
+        "14": 736,
+        "15": 789,
+        "16": 841,
+        "17": 894,
+        "18": 946,
+        "19": 999,
+        "20": 1051,
+        "21": 1104,
+        "22": 1157,
+        "23": 1209,
+        "24": 1262,
+        "25": 1315,
+        "26": 1367,
+        "27": 1420,
+        "28": 1472,
+        "29": 1525,
+        "30": 1578,
+        "31": 1604,
+        "32": 1630,
+        "33": 1657,
+        "34": 1683,
+        "35": 1709,
+        "36": 1735,
+        "37": 1762,
+        "38": 1788,
+        "39": 1814,
+        "40": 1841,
+        "41": 1864,
+        "42": 1887,
+        "43": 1911,
+        "44": 1935,
+        "45": 1959,
+        "46": 1983,
+        "47": 2007,
+        "48": 2032,
+        "49": 2056,
+        "50": 2081
+    },
+    "meta_analysis": "Dedenne in the meta PvE Analysis Dedenne is the Pikachu clone of Gen 6, and just like all members of this adorable category, it lacks viability in PvE. ⚡ ⚔️ Raids It's literally a tiny electric mouse. Not to be included in Raids as it doesn't have reasonable damage output. 👎 🛡️ Gyms It can hardly take any hits, so don't put it in Gyms haha. 😅 PvP Analysis 🔵 Great League Dedenne may have balanced stats, and its Electric/Fairy typing might look good theoretically, but the reality is very different. 🥲 As an Electric type, Bug/Electric Pokémon like Charjabug and Galvantula perform much better, especially since they aren't weak to Ground-type attacks. 🪲⚡ Moreover, those Pokémon have versatile moves to make an impact, while Dedenne is left with the expensive Play Rough , a Fairy-type move that it often struggles to use due to its average bulk. Ultimately, Dedenne is a very unreliable Pokémon to run. 📉 🟡 Ultra League A level 50 Dedenne hits only 2081 CP, vastly limiting any potential in the Ultra League. 😭 🟣 Master League Dedenne is best left to ‘fairy’tales (no pun intended), not the evil halls of the Master League. 😈 Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Dedenne",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Dedenne's Electric and Fairy-type moves, Candy, and Candy XL from catching Dedenne.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 702,
+            "height_m": 0.2,
+            "weight_kg": 2.2,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.1 m",
+            "xs": "0.1 m",
+            "m": "0.2 m",
+            "xl": "0.3 m",
+            "xxl": "0.35 m",
+            "description": "Dedenne's height ranges from 0.1 m to 0.35 m, with the average being 0.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.098,
+                "upper_m": 0.1,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.1,
+                "upper_m": 0.2,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.15,
+                "upper_m": 0.25,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.25,
+                "upper_m": 0.3,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.3,
+                "upper_m": 0.35,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It uses its tail to absorb electricity from power plants or from outlets in houses, and then it fires the electricity from its whiskers."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It sneaks into people’s homes and steals electricity from their outlets. When your electric bill seems off, it’s the handiwork of this rascal."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "A Dedenne’s whiskers pick up electrical waves other Dedenne send out. These Pokémon share locations of food or electricity with one another."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Since Dedenne can’t generate much electricity on its own, it steals electricity from outlets or other electric Pokémon."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Dedenne",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm702.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm702.icon.png"
+            },
+            {
+                "label": "Shiny Dedenne",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm702.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm702.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 702,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0702_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0702_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Dedenne sprite"
+            },
+            {
+                "pokedex_number": 702,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0702_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0702_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Dedenne sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/702_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/702_social.jpg",
+                "alt": "Dedenne"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/702_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/702_social_dark.jpg",
+                "alt": "Dedenne"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/702_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/702_social_map.jpg",
+                "alt": "Dedenne"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/702_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/702_social_map_dark.jpg",
+                "alt": "Dedenne"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 702,
+            "name": "Dedenne",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm702.cWINTER_2024.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm702.cWINTER_2024.icon.png",
+            "category": "Winter 2024"
+        },
+        {
+            "pokedex_number": 702,
+            "name": "Shiny Dedenne",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm702.cWINTER_2024.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm702.cWINTER_2024.s.icon.png",
+            "category": "Winter 2024"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Dedenne’s strengths and weaknesses?",
+            "answer": "As a Electric and Fairy-type Pokémon, Dedenne is weak to Ground and Poison-type moves."
+        },
+        {
+            "question": "What are the best moves for Dedenne in Pokémon GO?",
+            "answer": "The best moves for Dedenne in Pokémon GO are Thunder Shock and Play Rough. This moveset has a DPS (Damage Per Second) of 8.977 and a TDO (Total Damage Output) of 113.465."
+        },
+        {
+            "question": "How does Dedenne perform in Raids?",
+            "answer": "Dedenne's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Dedenne rank as a Electric-type attacker?",
+            "answer": "Dedenne is an F-Tier Electric-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Dedenne rank as a Fairy-type attacker?",
+            "answer": "Dedenne is an F-Tier Fairy-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Dedenne?",
+            "answer": "The following Mega Pokémon boost Dedenne: Mega Ampharos, Mega Manectric, Primal Kyogre, Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, and Mega Diancie."
+        },
+        {
+            "question": "What is Dedenne’s maximum CP at Level 40 and Level 50?",
+            "answer": "Dedenne’s maximum CP at Level 40 is 1841 CP and 2081 CP at Level 50."
+        },
+        {
+            "question": "Can Dedenne be shiny in Pokémon GO?",
+            "answer": "Dedenne can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Dedenne Dynamax in Pokémon GO?",
+            "answer": "Dedenne cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,648 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2762,
+        "attack": 208,
+        "defense": 166,
+        "stamina": 155,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Indeedee",
+        "forms": [
+            {
+                "name": "Indeedee (Female)",
+                "href": "/pokemon/876-Female",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/876_f2.webp"
+            },
+            {
+                "name": "Indeedee (Male)",
+                "href": "/pokemon/876-Male",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/876.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/876.webp",
+        "types": [
+            "Psychic",
+            "Normal"
+        ],
+        "weather_boost": [
+            "windy",
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Extrasensory",
+            "charged": "Psychic",
+            "dps": 11.53,
+            "tdo": 165.42,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 11.53,
+                "tdo": 165.4,
+                "score": 9.83
+            },
+            {
+                "rank": 2,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 10.65,
+                "tdo": 152.7,
+                "score": 9.07
+            },
+            {
+                "rank": 3,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Psybeam",
+                "charged_url": "https://db.pokemongohub.net/move/30",
+                "dps": 9.26,
+                "tdo": 132.8,
+                "score": 7.89
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Extrasensory",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/274"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Psybeam",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/30"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Psychic",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/108"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Indeedee's has 2762 max CP (at Level 50). A Indeedee obtained from Raids can be encountered from 1325 CP to 1396 CP, or if weather boosted, in the 1657 CP to 1745 CP range. In Field and Special Research, Indeedee can be found in the 994 CP to 1047 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2762",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "994 - 1047",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1325 - 1396",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1325 - 1396",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1657 - 1745",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1657 CP - 1745 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 34,
+        "2": 108,
+        "3": 182,
+        "4": 255,
+        "5": 329,
+        "6": 403,
+        "7": 477,
+        "8": 550,
+        "9": 624,
+        "10": 698,
+        "11": 768,
+        "12": 837,
+        "13": 907,
+        "14": 977,
+        "15": 1047,
+        "16": 1116,
+        "17": 1186,
+        "18": 1256,
+        "19": 1326,
+        "20": 1396,
+        "21": 1465,
+        "22": 1535,
+        "23": 1605,
+        "24": 1675,
+        "25": 1745,
+        "26": 1814,
+        "27": 1884,
+        "28": 1954,
+        "29": 2024,
+        "30": 2094,
+        "31": 2129,
+        "32": 2164,
+        "33": 2198,
+        "34": 2233,
+        "35": 2268,
+        "36": 2303,
+        "37": 2338,
+        "38": 2373,
+        "39": 2408,
+        "40": 2443,
+        "41": 2474,
+        "42": 2505,
+        "43": 2536,
+        "44": 2568,
+        "45": 2600,
+        "46": 2632,
+        "47": 2664,
+        "48": 2696,
+        "49": 2729,
+        "50": 2762
+    },
+    "meta_analysis": "Indeedee in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Indeedee",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Indeedee's Psychic and Normal-type moves, Candy, and Candy XL from catching Indeedee.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 876,
+            "height_m": 0.9,
+            "weight_kg": 28,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.44 m",
+            "xs": "0.45 m",
+            "m": "0.9 m",
+            "xl": "1.35 m",
+            "xxl": "1.58 m",
+            "description": "Indeedee's height ranges from 0.44 m to 1.58 m, with the average being 0.9 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.441,
+                "upper_m": 0.45,
+                "lower_ft": "1′05″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.45,
+                "upper_m": 0.9,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.675,
+                "upper_m": 1.125,
+                "lower_ft": "2′03″",
+                "upper_ft": "3′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.125,
+                "upper_m": 1.35,
+                "lower_ft": "3′08″",
+                "upper_ft": "4′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.35,
+                "upper_m": 1.575,
+                "lower_ft": "4′05″",
+                "upper_ft": "5′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 30.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Through its horns, it can pick up on the emotions of creatures around it. Positive emotions are the source of its strength."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 876,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0876_000_mo_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0876_000_mo_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Indeedee sprite"
+            },
+            {
+                "pokedex_number": 876,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0876_000_mo_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0876_000_mo_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Indeedee sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/876_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/876_social.jpg",
+                "alt": "Indeedee"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/876_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/876_social_dark.jpg",
+                "alt": "Indeedee"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/876_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/876_social_map.jpg",
+                "alt": "Indeedee"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/876_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/876_social_map_dark.jpg",
+                "alt": "Indeedee"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Indeedee’s strengths and weaknesses?",
+            "answer": "As a Psychic and Normal-type Pokémon, Indeedee is weak to Bug and Dark-type moves."
+        },
+        {
+            "question": "What are the best moves for Indeedee in Pokémon GO?",
+            "answer": "The best moves for Indeedee in Pokémon GO are Extrasensory and Psychic. This moveset has a DPS (Damage Per Second) of 11.534 and a TDO (Total Damage Output) of 165.42."
+        },
+        {
+            "question": "How does Indeedee perform in Raids?",
+            "answer": "Indeedee's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Indeedee rank as a Psychic-type attacker?",
+            "answer": "Indeedee's performance as a Psychic-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Indeedee?",
+            "answer": "The following Mega Pokémon boost Indeedee: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, Mega Gallade, Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Indeedee’s maximum CP at Level 40 and Level 50?",
+            "answer": "Indeedee’s maximum CP at Level 40 is 2443 CP and 2762 CP at Level 50."
+        },
+        {
+            "question": "Can Indeedee be shiny in Pokémon GO?",
+            "answer": "Indeedee can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Indeedee Dynamax in Pokémon GO?",
+            "answer": "Indeedee cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

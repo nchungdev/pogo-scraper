@@ -1,0 +1,926 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3330,
+        "attack": 222,
+        "defense": 171,
+        "stamina": 198,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Overqwil",
+        "forms": [
+            {
+                "name": "Overqwil",
+                "href": "/pokemon/904",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/904.webp"
+            },
+            {
+                "name": "Shadow Overqwil",
+                "href": "/pokemon/904-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/904.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/904.webp",
+        "types": [
+            "Dark",
+            "Poison"
+        ],
+        "weather_boost": [
+            "fog",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Poison Jab",
+            "charged": "Sludge Bomb",
+            "dps": 12.95,
+            "tdo": 239.14,
+            "boosted_weather": [
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 12.95,
+                "tdo": 239.1,
+                "score": 11.41
+            },
+            {
+                "rank": 2,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 12.21,
+                "tdo": 225.5,
+                "score": 10.77
+            },
+            {
+                "rank": 3,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 12.02,
+                "tdo": 221.9,
+                "score": 10.58
+            },
+            {
+                "rank": 4,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 11.75,
+                "tdo": 217.0,
+                "score": 10.36
+            },
+            {
+                "rank": 5,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 11.17,
+                "tdo": 206.3,
+                "score": 9.85
+            },
+            {
+                "rank": 6,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 11.0,
+                "tdo": 203.1,
+                "score": 9.69
+            },
+            {
+                "rank": 7,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 10.86,
+                "tdo": 200.6,
+                "score": 9.57
+            },
+            {
+                "rank": 8,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Aqua Tail",
+                "charged_url": "https://db.pokemongohub.net/move/58",
+                "dps": 10.49,
+                "tdo": 193.6,
+                "score": 9.24
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Poison Jab",
+                "type": "Poison",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.4s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/224"
+            },
+            {
+                "name": "Poison Sting",
+                "type": "Poison",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/236"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Ice Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/39"
+            },
+            {
+                "name": "Aqua Tail",
+                "type": "Water",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/58"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Sludge Bomb",
+                "type": "Poison",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/90"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Overqwil's has 3330 max CP (at Level 50). A Overqwil obtained from Raids can be encountered from 1606 CP to 1683 CP, or if weather boosted, in the 2008 CP to 2104 CP range. In Field and Special Research, Overqwil can be found in the 1205 CP to 1262 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3330",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1205 - 1262",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1606 - 1683",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1606 - 1683",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2008 - 2104",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2008 CP - 2104 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 41,
+        "2": 130,
+        "3": 219,
+        "4": 308,
+        "5": 397,
+        "6": 486,
+        "7": 575,
+        "8": 664,
+        "9": 753,
+        "10": 842,
+        "11": 926,
+        "12": 1010,
+        "13": 1094,
+        "14": 1178,
+        "15": 1262,
+        "16": 1346,
+        "17": 1431,
+        "18": 1515,
+        "19": 1599,
+        "20": 1683,
+        "21": 1767,
+        "22": 1851,
+        "23": 1936,
+        "24": 2020,
+        "25": 2104,
+        "26": 2188,
+        "27": 2272,
+        "28": 2357,
+        "29": 2441,
+        "30": 2525,
+        "31": 2567,
+        "32": 2609,
+        "33": 2651,
+        "34": 2693,
+        "35": 2735,
+        "36": 2778,
+        "37": 2820,
+        "38": 2862,
+        "39": 2904,
+        "40": 2946,
+        "41": 2983,
+        "42": 3021,
+        "43": 3059,
+        "44": 3097,
+        "45": 3135,
+        "46": 3174,
+        "47": 3213,
+        "48": 3252,
+        "49": 3291,
+        "50": 3330
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Hisuian Qwilfish",
+                    "href": "/pokemon/211-Hisuian",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/211_hisuian.webp"
+                },
+                "to": {
+                    "name": "Overqwil",
+                    "href": "/pokemon/904",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/904.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Win 10 raids"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Win 10 raids"
+        ],
+        "family": [
+            {
+                "name": "Qwilfish",
+                "href": "/pokemon/211",
+                "img": "https://db.pokemongohub.net/images/official/medium/211.webp"
+            },
+            {
+                "name": "Overqwil",
+                "href": "/pokemon/904",
+                "img": "https://db.pokemongohub.net/images/official/medium/904.webp"
+            },
+            {
+                "name": "Hisuian Qwilfish",
+                "href": "/pokemon/211-Hisuian",
+                "img": "https://db.pokemongohub.net/images/official/medium/211_hisuian.webp"
+            },
+            {
+                "name": "Shadow Hisuian Qwilfish",
+                "href": "/pokemon/211-Hisuian_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Qwilfish",
+                "href": "/pokemon/211-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Overqwil",
+                "href": "/pokemon/904-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Overqwil in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Overqwil",
+        "type": "Dark",
+        "intro_text": "A list of Mega Pokémon that boost Overqwil's Dark and Poison-type moves, Candy, and Candy XL from catching Overqwil.",
+        "mega_list": [
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Absol",
+                "pokemon_id": 359,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/359-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 904,
+            "height_m": 2.5,
+            "weight_kg": 60.5,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "1.23 m",
+            "xs": "1.25 m",
+            "m": "2.5 m",
+            "xl": "3.75 m",
+            "xxl": "4.38 m",
+            "description": "Overqwil's height ranges from 1.23 m to 4.38 m, with the average being 2.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 1.225,
+                "upper_m": 1.25,
+                "lower_ft": "4′00″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.25,
+                "upper_m": 2.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "8′02″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.875,
+                "upper_m": 3.125,
+                "lower_ft": "6′02″",
+                "upper_ft": "10′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 3.125,
+                "upper_m": 3.75,
+                "lower_ft": "10′03″",
+                "upper_ft": "12′04″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 3.75,
+                "upper_m": 4.375,
+                "lower_ft": "12′04″",
+                "upper_ft": "14′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Its lancelike spikes and savage temperament have earned it the nickname ”sea fiend.” It slurps up poison to nourish itself."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Overqwil",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm904.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm904.icon.png"
+            },
+            {
+                "label": "Shiny Overqwil",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm904.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm904.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 904,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0904_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0904_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Overqwil sprite"
+            },
+            {
+                "pokedex_number": 904,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0904_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0904_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Overqwil sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/904_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/904_social.jpg",
+                "alt": "Overqwil"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/904_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/904_social_dark.jpg",
+                "alt": "Overqwil"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/904_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/904_social_map.jpg",
+                "alt": "Overqwil"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/904_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/904_social_map_dark.jpg",
+                "alt": "Overqwil"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Overqwil’s strengths and weaknesses?",
+            "answer": "As a Dark and Poison-type Pokémon, Overqwil is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Overqwil in Pokémon GO?",
+            "answer": "The best moves for Overqwil in Pokémon GO are Poison Jab and Sludge Bomb. This moveset has a DPS (Damage Per Second) of 12.95 and a TDO (Total Damage Output) of 239.142."
+        },
+        {
+            "question": "How does Overqwil perform in Raids?",
+            "answer": "Overqwil's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Overqwil rank as a Dark-type attacker?",
+            "answer": "Overqwil is an F-Tier Dark-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Overqwil rank as a Poison-type attacker?",
+            "answer": "Overqwil is an A+ Tier Poison-type attacker, ranking at number #11 and performing very well in most scenarios and a great choice for trainers."
+        },
+        {
+            "question": "What Mega Pokémon boost Overqwil?",
+            "answer": "The following Mega Pokémon boost Overqwil: Mega Gyarados, Mega Houndoom, Mega Tyranitar, Mega Sableye, Mega Sharpedo, Mega Absol, Mega Venusaur, Mega Beedrill, and Mega Gengar."
+        },
+        {
+            "question": "What is Overqwil’s maximum CP at Level 40 and Level 50?",
+            "answer": "Overqwil’s maximum CP at Level 40 is 2946 CP and 3330 CP at Level 50."
+        },
+        {
+            "question": "Can Overqwil be shiny in Pokémon GO?",
+            "answer": "Overqwil can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Overqwil Dynamax in Pokémon GO?",
+            "answer": "Overqwil cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

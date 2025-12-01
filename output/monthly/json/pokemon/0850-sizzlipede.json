@@ -1,0 +1,798 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1186,
+        "attack": 118,
+        "defense": 90,
+        "stamina": 137,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": false,
+        "title": "Sizzlipede",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/850.webp",
+        "types": [
+            "Fire",
+            "Bug"
+        ],
+        "weather_boost": [
+            "sunny",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bug Bite",
+            "charged": "Bug Buzz",
+            "dps": 5.85,
+            "tdo": 43.5,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 5.85,
+                "tdo": 43.5,
+                "score": 4.38
+            },
+            {
+                "rank": 2,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 5.2,
+                "tdo": 38.6,
+                "score": 3.89
+            },
+            {
+                "rank": 3,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 5.07,
+                "tdo": 37.7,
+                "score": 3.8
+            },
+            {
+                "rank": 4,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Heat Wave",
+                "charged_url": "https://db.pokemongohub.net/move/42",
+                "dps": 5.01,
+                "tdo": 37.3,
+                "score": 3.75
+            },
+            {
+                "rank": 5,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 4.68,
+                "tdo": 34.8,
+                "score": 3.51
+            },
+            {
+                "rank": 6,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Heat Wave",
+                "charged_url": "https://db.pokemongohub.net/move/42",
+                "dps": 4.2,
+                "tdo": 31.3,
+                "score": 3.15
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bug Bite",
+                "type": "Bug",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/201"
+            },
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Heat Wave",
+                "type": "Fire",
+                "stats": {
+                    "damage": 95,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.7s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 95,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/42"
+            },
+            {
+                "name": "Bug Buzz",
+                "type": "Bug",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.8s - 2.9s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/49"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Sizzlipede's has 1186 max CP (at Level 50). A Sizzlipede obtained from Raids can be encountered from 553 CP to 599 CP, or if weather boosted, in the 692 CP to 749 CP range. In Field and Special Research, Sizzlipede can be found in the 415 CP to 449 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1186",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "415 - 449",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "553 - 599",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "553 - 599",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "692 - 749",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "692 CP - 749 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 46,
+        "3": 78,
+        "4": 109,
+        "5": 141,
+        "6": 173,
+        "7": 204,
+        "8": 236,
+        "9": 268,
+        "10": 299,
+        "11": 329,
+        "12": 359,
+        "13": 389,
+        "14": 419,
+        "15": 449,
+        "16": 479,
+        "17": 509,
+        "18": 539,
+        "19": 569,
+        "20": 599,
+        "21": 629,
+        "22": 659,
+        "23": 689,
+        "24": 719,
+        "25": 749,
+        "26": 779,
+        "27": 809,
+        "28": 839,
+        "29": 869,
+        "30": 899,
+        "31": 914,
+        "32": 929,
+        "33": 944,
+        "34": 959,
+        "35": 974,
+        "36": 989,
+        "37": 1004,
+        "38": 1019,
+        "39": 1034,
+        "40": 1049,
+        "41": 1062,
+        "42": 1076,
+        "43": 1089,
+        "44": 1103,
+        "45": 1116,
+        "46": 1130,
+        "47": 1144,
+        "48": 1158,
+        "49": 1172,
+        "50": 1186
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Sizzlipede",
+                    "href": "/pokemon/850",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/850.webp"
+                },
+                "to": {
+                    "name": "Centiskorch",
+                    "href": "/pokemon/851",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/851.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Sizzlipede",
+                "href": "/pokemon/850",
+                "img": "https://db.pokemongohub.net/images/official/medium/850.webp"
+            },
+            {
+                "name": "Centiskorch",
+                "href": "/pokemon/851",
+                "img": "https://db.pokemongohub.net/images/official/medium/851.webp"
+            },
+            {
+                "name": "Gigantamax Centiskorch",
+                "href": "/pokemon/851-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/851_gmax.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Sizzlipede in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Sizzlipede",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Sizzlipede's Fire and Bug-type moves, Candy, and Candy XL from catching Sizzlipede.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 850,
+            "height_m": 0.7,
+            "weight_kg": 1,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.34 m",
+            "xs": "0.35 m",
+            "m": "0.7 m",
+            "xl": "1.05 m",
+            "xxl": "1.23 m",
+            "description": "Sizzlipede's height ranges from 0.34 m to 1.23 m, with the average being 0.7 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.343,
+                "upper_m": 0.35,
+                "lower_ft": "1′02″",
+                "upper_ft": "1′02″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.35,
+                "upper_m": 0.7,
+                "lower_ft": "1′02″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.525,
+                "upper_m": 0.875,
+                "lower_ft": "1′09″",
+                "upper_ft": "2′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.875,
+                "upper_m": 1.05,
+                "lower_ft": "2′10″",
+                "upper_ft": "3′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.05,
+                "upper_m": 1.225,
+                "lower_ft": "3′05″",
+                "upper_ft": "4′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It wraps prey up with its heated body, cooking them in its coils. Once they’re well-done, it will voraciously nibble them down to the last morsel."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Sizzlipede",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm850.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm850.icon.png"
+            },
+            {
+                "label": "Shiny Sizzlipede",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm850.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm850.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 850,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0850_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0850_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Sizzlipede sprite"
+            },
+            {
+                "pokedex_number": 850,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0850_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0850_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Sizzlipede sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/850_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/850_social.jpg",
+                "alt": "Sizzlipede"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/850_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/850_social_dark.jpg",
+                "alt": "Sizzlipede"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/850_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/850_social_map.jpg",
+                "alt": "Sizzlipede"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/850_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/850_social_map_dark.jpg",
+                "alt": "Sizzlipede"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Sizzlipede’s strengths and weaknesses?",
+            "answer": "As a Fire and Bug-type Pokémon, Sizzlipede is especially weak against Rock-type moves, and weak against Flying and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Sizzlipede in Pokémon GO?",
+            "answer": "The best moves for Sizzlipede in Pokémon GO are Bug Bite and Bug Buzz. This moveset has a DPS (Damage Per Second) of 5.847 and a TDO (Total Damage Output) of 43.496."
+        },
+        {
+            "question": "How does Sizzlipede perform in Raids?",
+            "answer": "Sizzlipede's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Sizzlipede rank as a Fire-type attacker?",
+            "answer": "Sizzlipede's performance as a Fire-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Sizzlipede?",
+            "answer": "The following Mega Pokémon boost Sizzlipede: Mega Houndoom, Mega Blaziken, Mega Camerupt, Primal Groudon, Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, and Primal Kyogre."
+        },
+        {
+            "question": "What is Sizzlipede’s maximum CP at Level 40 and Level 50?",
+            "answer": "Sizzlipede’s maximum CP at Level 40 is 1049 CP and 1186 CP at Level 50."
+        },
+        {
+            "question": "Can Sizzlipede be shiny in Pokémon GO?",
+            "answer": "Sizzlipede cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Sizzlipede Dynamax in Pokémon GO?",
+            "answer": "Sizzlipede cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

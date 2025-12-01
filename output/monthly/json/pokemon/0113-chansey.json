@@ -1,0 +1,903 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1418,
+        "attack": 60,
+        "defense": 128,
+        "stamina": 487,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Chansey",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/113.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Pound",
+            "charged": "Hyper Beam",
+            "dps": 4.87,
+            "tdo": 162.9,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 4.87,
+                "tdo": 162.9,
+                "score": 4.53
+            },
+            {
+                "rank": 2,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 4.39,
+                "tdo": 147.0,
+                "score": 4.09
+            },
+            {
+                "rank": 3,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 4.2,
+                "tdo": 140.4,
+                "score": 3.9
+            },
+            {
+                "rank": 4,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 4.06,
+                "tdo": 135.8,
+                "score": 3.78
+            },
+            {
+                "rank": 5,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 3.81,
+                "tdo": 127.4,
+                "score": 3.54
+            },
+            {
+                "rank": 6,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 3.67,
+                "tdo": 122.9,
+                "score": 3.42
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Pound",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.4s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/222"
+            },
+            {
+                "name": "Zen Headbutt",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 9,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/234"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Hyper Beam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 150,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 150,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.5s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/14"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.1s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/86"
+            },
+            {
+                "name": "Psychic",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/108"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Chansey's has 1418 max CP (at Level 50). A Chansey obtained from Raids can be encountered from 654 CP to 717 CP, or if weather boosted, in the 817 CP to 896 CP range. In Field and Special Research, Chansey can be found in the 490 CP to 537 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1418",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "490 - 537",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "654 - 717",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "654 - 717",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "817 - 896",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "817 CP - 896 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 17,
+        "2": 55,
+        "3": 93,
+        "4": 131,
+        "5": 169,
+        "6": 207,
+        "7": 245,
+        "8": 282,
+        "9": 320,
+        "10": 358,
+        "11": 394,
+        "12": 430,
+        "13": 466,
+        "14": 502,
+        "15": 537,
+        "16": 573,
+        "17": 609,
+        "18": 645,
+        "19": 681,
+        "20": 717,
+        "21": 753,
+        "22": 788,
+        "23": 824,
+        "24": 860,
+        "25": 896,
+        "26": 932,
+        "27": 968,
+        "28": 1004,
+        "29": 1039,
+        "30": 1075,
+        "31": 1093,
+        "32": 1111,
+        "33": 1129,
+        "34": 1147,
+        "35": 1165,
+        "36": 1183,
+        "37": 1201,
+        "38": 1219,
+        "39": 1237,
+        "40": 1255,
+        "41": 1270,
+        "42": 1287,
+        "43": 1303,
+        "44": 1319,
+        "45": 1335,
+        "46": 1352,
+        "47": 1368,
+        "48": 1385,
+        "49": 1402,
+        "50": 1418
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Happiny",
+                    "href": "/pokemon/440",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/440.webp"
+                },
+                "to": {
+                    "name": "Chansey",
+                    "href": "/pokemon/113",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/113.webp"
+                },
+                "requirements": [
+                    "25 Candy",
+                    "Walk 15 km with your buddy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Chansey",
+                    "href": "/pokemon/113",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/113.webp"
+                },
+                "to": {
+                    "name": "Blissey",
+                    "href": "/pokemon/242",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/242.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy",
+            "Walk 15 km with your buddy"
+        ],
+        "family": [
+            {
+                "name": "Chansey",
+                "href": "/pokemon/113",
+                "img": "https://db.pokemongohub.net/images/official/medium/113.webp"
+            },
+            {
+                "name": "Blissey",
+                "href": "/pokemon/242",
+                "img": "https://db.pokemongohub.net/images/official/medium/242.webp"
+            },
+            {
+                "name": "Happiny",
+                "href": "/pokemon/440",
+                "img": "https://db.pokemongohub.net/images/official/medium/440.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Chansey in the meta PvE Analysis Normal types aren't generally good in PvE as they don't inflict super-effective damage on any Pokémon type. Some do well in weather-boosted conditions where they can do high neutral damage. Chansey doesn't fit any of those, however. 🥲 However, it's a supreme Gym defender ! 🤩 ⚔️ Raids Forget about the Normal typing— Chansey has a lowly 60 Attack . End of discussion. 😅 🛡️ Gyms Chansey is a hallmark Gym defender in Pokémon GO , packing an outrageous 487 HP ! 😱 While Chansey won't deal much damage to the Gym attacker , it will hold its ground even against super-effective attacks ! 🔰 With a lower CP than its evolution Blissey , Chansey’s motivation drops slower, making it a fortress in Gym defense . 🏰 Show more Show less PvP Analysis 🔵 Great League Chansey has an absolutely abysmal moveset for PvP , and its massive HP does it no favors whatsoever. 😶 🟡 Ultra League For a Pokémon whose maximum CP is just a lowly 1418 , the Ultra League is out of bounds for Chansey . 🟣 Master League See that egg Chansey is carrying? 🥚 Not Master League , more like Master Chef ! 🍳",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Chansey",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Chansey's Normal-type moves, Candy, and Candy XL from catching Chansey.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 113,
+            "height_m": 1.1,
+            "weight_kg": 34.6,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.54 m",
+            "xs": "0.55 m",
+            "m": "1.1 m",
+            "xl": "1.65 m",
+            "xxl": "1.93 m",
+            "description": "Chansey's height ranges from 0.54 m to 1.93 m, with the average being 1.1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.539,
+                "upper_m": 0.55,
+                "lower_ft": "1′09″",
+                "upper_ft": "1′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.55,
+                "upper_m": 1.1,
+                "lower_ft": "1′10″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.825,
+                "upper_m": 1.375,
+                "lower_ft": "2′08″",
+                "upper_ft": "4′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.375,
+                "upper_m": 1.65,
+                "lower_ft": "4′06″",
+                "upper_ft": "5′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.65,
+                "upper_m": 1.925,
+                "lower_ft": "5′05″",
+                "upper_ft": "6′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 3,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 8,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "A rare and elusive POKéMON that is said to bring happiness to those who manage to get it."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "A gentle and kind hearted POKéMON that shares its nutritious eggs if it sees an injured POKéMON."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "Few in number and difficult to cap ture, it is said to bring happiness to the trainer who catches it."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "People try to catch it for its extremely nutritious eggs, but it rarely can be found."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "CHANSEY lays nutritionally excellent eggs on an everyday basis. The eggs are so delicious, they are easily and eagerly devoured by even those people who have lost their appetite."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "CHANSEY lay nutritionally excellent eggs every day. The eggs are so delicious, they are eagerly devoured by even those people who have lost their appetite."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It lays several eggs a day. The eggs are apparently rich in nutrients and extremely delicious."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "A rare and elusive POKéMON that is said to bring happiness to those who manage to catch one."
+        },
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It is said to deliver happiness. Being compassionate, it shares its eggs with injured people."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It lays several eggs a day and won’t share them with those who have evil in their hearts."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "Being few in number and difficult to capture, it is said to bring happiness to the Trainer who catches it."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It is said to deliver happiness. Being compassionate, it shares its eggs with injured people."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It lays several eggs a day. The eggs are apparently rich in nutrients and extremely delicious."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Chansey lays nutritionally excellent eggs on an everyday basis. The eggs are so delicious, they are easily and eagerly devoured by even those people who have lost their appetite."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "The eggs laid by Chansey are rich in nutrients and a favorite food of many Pokémon."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Not only are these Pokémon fast runners, they’re also few in number, so anyone who finds one must be lucky indeed."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It seems that other Pokémon’s efforts to take its delicious, nutritious egg away from it caused Chansey to get faster at fleeing."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Because the eggs on their bellies have been overharvested by people in the past, the Chansey population remains very small."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "A gentle and kindhearted Pokémon that shares its nutritious eggs if it sees an injured Pokémon."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "The egg Chansey carries is not only delicious but also packed with nutrition. It’s used as a high-class cooking ingredient."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This species was once very slow. To protect their eggs from other creatures, these Pokémon became able to flee quickly."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "This purehearted Pokémon shares its eggs with the injured."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Chansey",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm113.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm113.icon.png"
+            },
+            {
+                "label": "Shiny Chansey",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm113.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm113.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 113,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0113_000_fo_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0113_000_fo_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Chansey sprite"
+            },
+            {
+                "pokedex_number": 113,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0113_000_fo_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0113_000_fo_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Chansey sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/113_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/113_social.jpg",
+                "alt": "Chansey"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/113_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/113_social_dark.jpg",
+                "alt": "Chansey"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/113_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/113_social_map.jpg",
+                "alt": "Chansey"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/113_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/113_social_map_dark.jpg",
+                "alt": "Chansey"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 113,
+            "name": "Chansey",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm113.cNOVEMBER_2018.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm113.cNOVEMBER_2018.icon.png",
+            "category": "November 2018"
+        },
+        {
+            "pokedex_number": 113,
+            "name": "Shiny Chansey",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm113.cNOVEMBER_2018.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm113.cNOVEMBER_2018.s.icon.png",
+            "category": "November 2018"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Chansey’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Chansey is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Chansey in Pokémon GO?",
+            "answer": "The best moves for Chansey in Pokémon GO are Pound and Hyper Beam. This moveset has a DPS (Damage Per Second) of 4.869 and a TDO (Total Damage Output) of 162.902."
+        },
+        {
+            "question": "How does Chansey perform in Raids?",
+            "answer": "Chansey's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Chansey rank as a Normal-type attacker?",
+            "answer": "Chansey's performance as a Normal-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Chansey?",
+            "answer": "The following Mega Pokémon boost Chansey: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Chansey’s maximum CP at Level 40 and Level 50?",
+            "answer": "Chansey’s maximum CP at Level 40 is 1255 CP and 1418 CP at Level 50."
+        },
+        {
+            "question": "Can Chansey be shiny in Pokémon GO?",
+            "answer": "Chansey can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Chansey Dynamax in Pokémon GO?",
+            "answer": "Chansey can Dynamax in Pokémon GO."
+        }
+    ]
+}

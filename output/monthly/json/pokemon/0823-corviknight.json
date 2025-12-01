@@ -1,0 +1,933 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2777,
+        "attack": 163,
+        "defense": 192,
+        "stamina": 221,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": false,
+        "title": "Corviknight",
+        "forms": [
+            {
+                "name": "Corviknight",
+                "href": "/pokemon/823",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/823.webp"
+            },
+            {
+                "name": "Gigantamax Corviknight",
+                "href": "/pokemon/823-Gigantamax",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/823_gmax.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/823.webp",
+        "types": [
+            "Flying",
+            "Steel"
+        ],
+        "weather_boost": [
+            "windy",
+            "snow"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Steel Wing",
+            "charged": "Sky Attack",
+            "dps": 10.41,
+            "tdo": 237.13,
+            "boosted_weather": [
+                "snow",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Sky Attack",
+                "charged_url": "https://db.pokemongohub.net/move/257",
+                "dps": 10.41,
+                "tdo": 237.1,
+                "score": 9.39
+            },
+            {
+                "rank": 2,
+                "fast": "Sand Attack",
+                "fast_url": "https://db.pokemongohub.net/move/403",
+                "charged": "Sky Attack",
+                "charged_url": "https://db.pokemongohub.net/move/257",
+                "dps": 9.96,
+                "tdo": 226.7,
+                "score": 8.97
+            },
+            {
+                "rank": 3,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Sky Attack",
+                "charged_url": "https://db.pokemongohub.net/move/257",
+                "dps": 9.74,
+                "tdo": 221.8,
+                "score": 8.78
+            },
+            {
+                "rank": 4,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Iron Head *",
+                "charged_url": "https://db.pokemongohub.net/move/74",
+                "dps": 9.1,
+                "tdo": 207.2,
+                "score": 8.2
+            },
+            {
+                "rank": 5,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Payback",
+                "charged_url": "https://db.pokemongohub.net/move/333",
+                "dps": 8.66,
+                "tdo": 197.2,
+                "score": 7.81
+            },
+            {
+                "rank": 6,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Iron Head *",
+                "charged_url": "https://db.pokemongohub.net/move/74",
+                "dps": 8.42,
+                "tdo": 191.8,
+                "score": 7.6
+            },
+            {
+                "rank": 7,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Air Cutter *",
+                "charged_url": "https://db.pokemongohub.net/move/121",
+                "dps": 8.21,
+                "tdo": 186.8,
+                "score": 7.39
+            },
+            {
+                "rank": 8,
+                "fast": "Sand Attack",
+                "fast_url": "https://db.pokemongohub.net/move/403",
+                "charged": "Iron Head *",
+                "charged_url": "https://db.pokemongohub.net/move/74",
+                "dps": 8.12,
+                "tdo": 184.9,
+                "score": 7.32
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Steel Wing",
+                "type": "Steel",
+                "stats": {
+                    "damage": 14,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 14,
+                    "energy": 8,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.7s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/239"
+            },
+            {
+                "name": "Air Slash",
+                "type": "Flying",
+                "stats": {
+                    "damage": 12,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 12,
+                    "energy": 8,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/255"
+            },
+            {
+                "name": "Sand Attack",
+                "type": "Ground",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.6s"
+                },
+                "trainer_battle": {
+                    "damage": 2,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/403"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Iron Head *",
+                "type": "Steel",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.4s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/74"
+            },
+            {
+                "name": "Air Cutter *",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/121"
+            },
+            {
+                "name": "Sky Attack",
+                "type": "Flying",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.5s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/257"
+            },
+            {
+                "name": "Payback",
+                "type": "Dark",
+                "stats": {
+                    "damage": 95,
+                    "energy": 100,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 100,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "0.9s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/333"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Corviknight's has 2777 max CP (at Level 50). A Corviknight obtained from Raids can be encountered from 1333 CP to 1404 CP, or if weather boosted, in the 1667 CP to 1755 CP range. In Field and Special Research, Corviknight can be found in the 1000 CP to 1053 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2777",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1000 - 1053",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1333 - 1404",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1333 - 1404",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1667 - 1755",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1667 CP - 1755 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 34,
+        "2": 108,
+        "3": 183,
+        "4": 257,
+        "5": 331,
+        "6": 405,
+        "7": 479,
+        "8": 553,
+        "9": 628,
+        "10": 702,
+        "11": 772,
+        "12": 842,
+        "13": 912,
+        "14": 983,
+        "15": 1053,
+        "16": 1123,
+        "17": 1193,
+        "18": 1263,
+        "19": 1333,
+        "20": 1404,
+        "21": 1474,
+        "22": 1544,
+        "23": 1614,
+        "24": 1684,
+        "25": 1755,
+        "26": 1825,
+        "27": 1895,
+        "28": 1965,
+        "29": 2036,
+        "30": 2106,
+        "31": 2141,
+        "32": 2176,
+        "33": 2211,
+        "34": 2246,
+        "35": 2281,
+        "36": 2316,
+        "37": 2351,
+        "38": 2387,
+        "39": 2422,
+        "40": 2457,
+        "41": 2488,
+        "42": 2519,
+        "43": 2551,
+        "44": 2583,
+        "45": 2615,
+        "46": 2647,
+        "47": 2679,
+        "48": 2712,
+        "49": 2745,
+        "50": 2777
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Rookidee",
+                    "href": "/pokemon/821",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/821.webp"
+                },
+                "to": {
+                    "name": "Corvisquire",
+                    "href": "/pokemon/822",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/822.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Corvisquire",
+                    "href": "/pokemon/822",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/822.webp"
+                },
+                "to": {
+                    "name": "Corviknight",
+                    "href": "/pokemon/823",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/823.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Rookidee",
+                "href": "/pokemon/821",
+                "img": "https://db.pokemongohub.net/images/official/medium/821.webp"
+            },
+            {
+                "name": "Corvisquire",
+                "href": "/pokemon/822",
+                "img": "https://db.pokemongohub.net/images/official/medium/822.webp"
+            },
+            {
+                "name": "Corviknight",
+                "href": "/pokemon/823",
+                "img": "https://db.pokemongohub.net/images/official/medium/823.webp"
+            },
+            {
+                "name": "Gigantamax Corviknight",
+                "href": "/pokemon/823-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/823_gmax.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Corviknight in the meta PvE Analysis ⚔️ Raids Corviknight is a Steel and Flying type Pokémon. Unfortunately, as a raid attacker , it is outclassed by other Pokémon in either category. Nevertheless, Corviknight’s best moveset is Steel Wing and Brave Bird . As a Flying type, Corviknight is strong against Fighting , Bug , and Grass types. Meanwhile, as a Steel type, it is strong against Rock , Ice , and Fairy types. However, there are better options available. PvP Analysis 🔵 Great League Anyone who remembers the terror of fellow Steel and Flying type Skarmory will understand Corviknight’s potential in the Great League. It boasts solid stats , a fantastic type combination , and even shares Skarmory’s Steel Wing and Brave Bird ! Even better, it replaces Skarmory’s Sky Attack with the far spammier Drill Peck , making it an excellent pick . 🟡 Ultra League Much like in the Great League, Corviknight is a solid candidate for the Ultra League. Unlike Skarmory , Corviknight can reach near the CP cap of 2500 , making it more viable. However, it requires significant XL Candy investment . 🟣 Master League Corviknight is not an ideal choice for the legendary-dominated Master League . Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Corviknight",
+        "type": "Flying",
+        "intro_text": "A list of Mega Pokémon that boost Corviknight's Flying and Steel-type moves, Candy, and Candy XL from catching Corviknight.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Salamence",
+                "pokemon_id": 373,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/373-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 823,
+            "height_m": 2.2,
+            "weight_kg": 75,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 10,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "1.08 m",
+            "xs": "1.1 m",
+            "m": "2.2 m",
+            "xl": "3.3 m",
+            "xxl": "3.41 m",
+            "description": "Corviknight's height ranges from 1.08 m to 3.41 m, with the average being 2.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 1.078,
+                "upper_m": 1.1,
+                "lower_ft": "3′06″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.1,
+                "upper_m": 2.2,
+                "lower_ft": "3′07″",
+                "upper_ft": "7′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.65,
+                "upper_m": 2.75,
+                "lower_ft": "5′05″",
+                "upper_ft": "9′00″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.75,
+                "upper_m": 3.3,
+                "lower_ft": "9′00″",
+                "upper_ft": "10′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 3.3,
+                "upper_m": 3.41,
+                "lower_ft": "10′10″",
+                "upper_ft": "11′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 30.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This Pokémon reigns supreme in the skies of the Galar region. The black luster of its steel body could drive terror into the heart of any foe."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "With their great intellect and flying skills, these Pokémon very successfully act as the Galar region’s airborne taxi service."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Corviknight",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm823.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm823.icon.png"
+            },
+            {
+                "label": "Shiny Corviknight",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm823.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm823.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 823,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0823_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0823_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Corviknight sprite"
+            },
+            {
+                "pokedex_number": 823,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0823_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0823_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Corviknight sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/823_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/823_social.jpg",
+                "alt": "Corviknight"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/823_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/823_social_dark.jpg",
+                "alt": "Corviknight"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/823_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/823_social_map.jpg",
+                "alt": "Corviknight"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/823_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/823_social_map_dark.jpg",
+                "alt": "Corviknight"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Corviknight’s strengths and weaknesses?",
+            "answer": "As a Flying and Steel-type Pokémon, Corviknight is weak to Electric and Fire-type moves."
+        },
+        {
+            "question": "What are the best moves for Corviknight in Pokémon GO?",
+            "answer": "The best moves for Corviknight in Pokémon GO are Steel Wing and Sky Attack. This moveset has a DPS (Damage Per Second) of 10.414 and a TDO (Total Damage Output) of 237.127."
+        },
+        {
+            "question": "How does Corviknight perform in Raids?",
+            "answer": "Corviknight's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Corviknight rank as a Flying-type attacker?",
+            "answer": "Corviknight is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Corviknight rank as a Steel-type attacker?",
+            "answer": "Corviknight is an F-Tier Steel-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Corviknight?",
+            "answer": "The following Mega Pokémon boost Corviknight: Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, Mega Rayquaza, Mega Steelix, Mega Scizor, Mega Mawile, Mega Aggron, Mega Metagross, and Mega Lucario."
+        },
+        {
+            "question": "What is Corviknight’s maximum CP at Level 40 and Level 50?",
+            "answer": "Corviknight’s maximum CP at Level 40 is 2457 CP and 2777 CP at Level 50."
+        },
+        {
+            "question": "Can Corviknight be shiny in Pokémon GO?",
+            "answer": "Corviknight cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Corviknight Dynamax in Pokémon GO?",
+            "answer": "Corviknight can Dynamax in Pokémon GO."
+        }
+    ]
+}

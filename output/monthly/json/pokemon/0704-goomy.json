@@ -1,0 +1,821 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1103,
+        "attack": 101,
+        "defense": 112,
+        "stamina": 128,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Goomy",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/704.webp",
+        "types": [
+            "Dragon"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Dragon Pulse",
+            "dps": 4.75,
+            "tdo": 40.2,
+            "boosted_weather": [
+                "partlyCloudy",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 4.75,
+                "tdo": 40.2,
+                "score": 3.67
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 4.75,
+                "tdo": 40.2,
+                "score": 3.67
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Muddy Water",
+                "charged_url": "https://db.pokemongohub.net/move/316",
+                "dps": 4.24,
+                "tdo": 35.9,
+                "score": 3.27
+            },
+            {
+                "rank": 4,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Muddy Water",
+                "charged_url": "https://db.pokemongohub.net/move/316",
+                "dps": 4.24,
+                "tdo": 35.9,
+                "score": 3.27
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Sludge Wave",
+                "charged_url": "https://db.pokemongohub.net/move/91",
+                "dps": 4.0,
+                "tdo": 33.8,
+                "score": 3.09
+            },
+            {
+                "rank": 6,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Sludge Wave",
+                "charged_url": "https://db.pokemongohub.net/move/91",
+                "dps": 4.0,
+                "tdo": 33.8,
+                "score": 3.09
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dragon Pulse",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.0s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/82"
+            },
+            {
+                "name": "Sludge Wave",
+                "type": "Poison",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.8s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/91"
+            },
+            {
+                "name": "Muddy Water",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.0s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 35,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/316"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Goomy's has 1103 max CP (at Level 50). A Goomy obtained from Raids can be encountered from 514 CP to 557 CP, or if weather boosted, in the 642 CP to 697 CP range. In Field and Special Research, Goomy can be found in the 385 CP to 418 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1103",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "385 - 418",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "514 - 557",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "514 - 557",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "642 - 697",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "642 CP - 697 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 43,
+        "3": 72,
+        "4": 102,
+        "5": 131,
+        "6": 161,
+        "7": 190,
+        "8": 220,
+        "9": 249,
+        "10": 279,
+        "11": 306,
+        "12": 334,
+        "13": 362,
+        "14": 390,
+        "15": 418,
+        "16": 446,
+        "17": 474,
+        "18": 502,
+        "19": 530,
+        "20": 557,
+        "21": 585,
+        "22": 613,
+        "23": 641,
+        "24": 669,
+        "25": 697,
+        "26": 725,
+        "27": 753,
+        "28": 781,
+        "29": 809,
+        "30": 836,
+        "31": 850,
+        "32": 864,
+        "33": 878,
+        "34": 892,
+        "35": 906,
+        "36": 920,
+        "37": 934,
+        "38": 948,
+        "39": 962,
+        "40": 976,
+        "41": 988,
+        "42": 1001,
+        "43": 1013,
+        "44": 1026,
+        "45": 1039,
+        "46": 1051,
+        "47": 1064,
+        "48": 1077,
+        "49": 1090,
+        "50": 1103
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Goomy",
+                    "href": "/pokemon/704",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/704.webp"
+                },
+                "to": {
+                    "name": "Sliggoo",
+                    "href": "/pokemon/705",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/705.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Sliggoo",
+                    "href": "/pokemon/705",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/705.webp"
+                },
+                "to": {
+                    "name": "Goodra",
+                    "href": "/pokemon/706",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/706.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Rainy Lure Module"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Goomy",
+                "href": "/pokemon/704",
+                "img": "https://db.pokemongohub.net/images/official/medium/704.webp"
+            },
+            {
+                "name": "Sliggoo",
+                "href": "/pokemon/705",
+                "img": "https://db.pokemongohub.net/images/official/medium/705.webp"
+            },
+            {
+                "name": "Goodra",
+                "href": "/pokemon/706",
+                "img": "https://db.pokemongohub.net/images/official/medium/706.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Goomy in the meta PvE Analysis Goomy is officially known as the weakest Dragon-type Pokémon . Enough said! 😅 ⚔️ Raids HAHAHAHAHA 🤣🤣🤣🤣🤣🤣 🛡️ Gyms Goomy gets effortlessly squashed by Gym attackers. 😛 PvP Analysis 🧸 Little Cup Even the Little Cup meta doesn’t favor Goomy’s prospects in combat. 🤣 It’s just so bad! 🔵 Great League GLoomy , lol. 😅 🟡 Ultra League An Ultra disappointment . 😮‍💨 🟣 Master League Even experienced Dragon-type experts cannot Master Goomy! 😭",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Goomy",
+        "type": "Dragon",
+        "intro_text": "A list of Mega Pokémon that boost Goomy's Dragon-type moves, Candy, and Candy XL from catching Goomy.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Altaria",
+                "pokemon_id": 334,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/334-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Salamence",
+                "pokemon_id": 373,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/373-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Garchomp",
+                "pokemon_id": 445,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/445-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 704,
+            "height_m": 0.3,
+            "weight_kg": 2.8,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Goomy's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 10.0,
+            "dodge_duration_s": 0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn’t dry out."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It’s covered in a slimy membrane that makes any punches or kicks slide off it harmlessly."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "The weakest of all Dragon-type Pokémon, it’s unable to breathe if its skin dries out, so it sticks to shady places."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Its source of protection is its slimy, germ-laden mucous membrane. Anyone who touches it needs some thorough hand-washing."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It uses its horns to check out its surroundings. They’re very sensitive, so if you grab them, it will feel a strong shock and be unable to move."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Its body is mostly water. If it dries out, it will die, so it’s always sitting with perfect stillness in the shade."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Because most of its body is water, it will dry up if the weather becomes too arid. It’s considered the weakest dragon Pokémon."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Their horns are powerful sensors. As soon as Goomy pick up any sign of enemies, they go into hiding. This is how they’ve survived."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Goomy hides away in the shade of trees, where it's nice and humid. If the slime coating its body dries out, the Pokémon instantly becomes lethargic."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Goomy",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm704.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm704.icon.png"
+            },
+            {
+                "label": "Shiny Goomy",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm704.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm704.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 704,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0704_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0704_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Goomy sprite"
+            },
+            {
+                "pokedex_number": 704,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0704_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0704_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Goomy sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/704_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/704_social.jpg",
+                "alt": "Goomy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/704_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/704_social_dark.jpg",
+                "alt": "Goomy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/704_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/704_social_map.jpg",
+                "alt": "Goomy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/704_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/704_social_map_dark.jpg",
+                "alt": "Goomy"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Goomy’s strengths and weaknesses?",
+            "answer": "As a Dragon-type Pokémon, Goomy is weak to Dragon, Fairy, and Ice-type moves."
+        },
+        {
+            "question": "What are the best moves for Goomy in Pokémon GO?",
+            "answer": "The best moves for Goomy in Pokémon GO are Tackle and Dragon Pulse. This moveset has a DPS (Damage Per Second) of 4.749 and a TDO (Total Damage Output) of 40.203."
+        },
+        {
+            "question": "How does Goomy perform in Raids?",
+            "answer": "Goomy's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Goomy rank as a Dragon-type attacker?",
+            "answer": "Goomy's performance as a Dragon-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Goomy?",
+            "answer": "The following Mega Pokémon boost Goomy: Mega Ampharos, Mega Sceptile, Mega Altaria, Mega Salamence, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Garchomp."
+        },
+        {
+            "question": "What is Goomy’s maximum CP at Level 40 and Level 50?",
+            "answer": "Goomy’s maximum CP at Level 40 is 976 CP and 1103 CP at Level 50."
+        },
+        {
+            "question": "Can Goomy be shiny in Pokémon GO?",
+            "answer": "Goomy can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Goomy Dynamax in Pokémon GO?",
+            "answer": "Goomy cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

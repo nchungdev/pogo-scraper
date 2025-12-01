@@ -1,0 +1,951 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3265,
+        "attack": 232,
+        "defense": 156,
+        "stamina": 190,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Luxray",
+        "forms": [
+            {
+                "name": "Luxray",
+                "href": "/pokemon/405",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/405.webp"
+            },
+            {
+                "name": "Shadow Luxray",
+                "href": "/pokemon/405-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/405.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/405.webp",
+        "types": [
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Snarl",
+            "charged": "Wild Charge",
+            "dps": 13.43,
+            "tdo": 219.37,
+            "boosted_weather": [
+                "fog",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 13.43,
+                "tdo": 219.4,
+                "score": 11.66
+            },
+            {
+                "rank": 2,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 13.07,
+                "tdo": 213.5,
+                "score": 11.33
+            },
+            {
+                "rank": 3,
+                "fast": "Hidden Power",
+                "fast_url": "https://db.pokemongohub.net/move/281",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 11.91,
+                "tdo": 194.5,
+                "score": 10.33
+            },
+            {
+                "rank": 4,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 10.65,
+                "tdo": 174.0,
+                "score": 9.24
+            },
+            {
+                "rank": 5,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 10.39,
+                "tdo": 169.7,
+                "score": 9.01
+            },
+            {
+                "rank": 6,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 9.62,
+                "tdo": 157.2,
+                "score": 8.35
+            },
+            {
+                "rank": 7,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 9.46,
+                "tdo": 154.6,
+                "score": 8.21
+            },
+            {
+                "rank": 8,
+                "fast": "Hidden Power",
+                "fast_url": "https://db.pokemongohub.net/move/281",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 9.26,
+                "tdo": 151.3,
+                "score": 8.03
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Spark",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/206"
+            },
+            {
+                "name": "Snarl",
+                "type": "Dark",
+                "stats": {
+                    "damage": 11,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/278"
+            },
+            {
+                "name": "Hidden Power",
+                "type": "Normal",
+                "stats": {
+                    "damage": 15,
+                    "energy": 15,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 15,
+                    "energy": 15,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.1s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/281"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Hyper Beam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 150,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 150,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.5s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/14"
+            },
+            {
+                "name": "Wild Charge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/251"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            },
+            {
+                "name": "Psychic Fangs *",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 25,
+                    "energy": 33,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 25,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.2s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/353"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Luxray's has 3265 max CP (at Level 50). A Luxray obtained from Raids can be encountered from 1573 CP to 1650 CP, or if weather boosted, in the 1967 CP to 2063 CP range. In Field and Special Research, Luxray can be found in the 1180 CP to 1237 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3265",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1180 - 1237",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1573 - 1650",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1573 - 1650",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1967 - 2063",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1967 CP - 2063 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 40,
+        "2": 128,
+        "3": 215,
+        "4": 302,
+        "5": 389,
+        "6": 476,
+        "7": 563,
+        "8": 651,
+        "9": 738,
+        "10": 825,
+        "11": 908,
+        "12": 990,
+        "13": 1072,
+        "14": 1155,
+        "15": 1237,
+        "16": 1320,
+        "17": 1402,
+        "18": 1485,
+        "19": 1567,
+        "20": 1650,
+        "21": 1732,
+        "22": 1815,
+        "23": 1898,
+        "24": 1980,
+        "25": 2063,
+        "26": 2145,
+        "27": 2228,
+        "28": 2310,
+        "29": 2393,
+        "30": 2475,
+        "31": 2517,
+        "32": 2558,
+        "33": 2599,
+        "34": 2640,
+        "35": 2682,
+        "36": 2723,
+        "37": 2764,
+        "38": 2805,
+        "39": 2847,
+        "40": 2888,
+        "41": 2925,
+        "42": 2961,
+        "43": 2999,
+        "44": 3036,
+        "45": 3074,
+        "46": 3111,
+        "47": 3149,
+        "48": 3188,
+        "49": 3226,
+        "50": 3265
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Shinx",
+                    "href": "/pokemon/403",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/403.webp"
+                },
+                "to": {
+                    "name": "Luxio",
+                    "href": "/pokemon/404",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/404.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Luxio",
+                    "href": "/pokemon/404",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/404.webp"
+                },
+                "to": {
+                    "name": "Luxray",
+                    "href": "/pokemon/405",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/405.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Shinx",
+                "href": "/pokemon/403",
+                "img": "https://db.pokemongohub.net/images/official/medium/403.webp"
+            },
+            {
+                "name": "Luxio",
+                "href": "/pokemon/404",
+                "img": "https://db.pokemongohub.net/images/official/medium/404.webp"
+            },
+            {
+                "name": "Luxray",
+                "href": "/pokemon/405",
+                "img": "https://db.pokemongohub.net/images/official/medium/405.webp"
+            },
+            {
+                "name": "Shadow Shinx",
+                "href": "/pokemon/403-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Luxio",
+                "href": "/pokemon/404-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Luxray",
+                "href": "/pokemon/405-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Luxray in the meta PvE Analysis ⚔️ Raids Luxray is a pure Electric -type Pokémon and a rather great one at that when it comes to being a raid attacker. This is because Luxray is a fully evolved Pokémon that is also very attack-weighted. Luxray can use its immense attack stat to fight against Flying and Water -type raid Pokémon. As an Electric -type raid attacker, you want the move combination of Spark and Wild Charge on your Luxray . 🔮 Dynamax N/A PvP Analysis Luxray has not yet been a strong Pokémon for any of the open leagues, and this should come as no surprise considering it’s a very frail and glassy Pokémon. However, it is worth mentioning that Luxray does have a history of success in certain limited metas and community-run challenges, typically running the move combination of Snarl , Psychic Fangs , and Wild Charge . 🔵 Great League Not recommended 🟡 Ultra League Not recommended 🟣 Master League Not recommended",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Luxray",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Luxray's Electric-type moves, Candy, and Candy XL from catching Luxray.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 405,
+            "height_m": 1.4,
+            "weight_kg": 42,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 10,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.69 m",
+            "xs": "0.7 m",
+            "m": "1.4 m",
+            "xl": "2.1 m",
+            "xxl": "2.45 m",
+            "description": "Luxray's height ranges from 0.69 m to 2.45 m, with the average being 1.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.686,
+                "upper_m": 0.7,
+                "lower_ft": "2′03″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.7,
+                "upper_m": 1.4,
+                "lower_ft": "2′04″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.05,
+                "upper_m": 1.75,
+                "lower_ft": "3′05″",
+                "upper_ft": "5′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.75,
+                "upper_m": 2.1,
+                "lower_ft": "5′09″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.1,
+                "upper_m": 2.45,
+                "lower_ft": "6′11″",
+                "upper_ft": "8′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 30.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 10.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It has eyes that can see through anything. It spots and captures prey hiding behind objects."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "When its eyes gleam gold, it can spot hiding prey--even those taking shelter behind a wall."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It can see clearly through walls to track down its prey and seek its lost young."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "LUXRAY’s ability to see through objects comes in handy when it’s scouting for danger."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "When its eyes gleam gold, it can spot hiding prey--even those taking shelter behind a wall."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Luxray’s ability to see through objects comes in handy when it’s scouting for danger."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "When its eyes gleam gold, it can spot hiding prey—even those taking shelter behind a wall."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Luxray can see through solid objects. It will instantly spot prey trying to hide behind walls, even if the walls are thick."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Seeing through solid objects uses up a lot of Luxray’s electricity, so the Pokémon sleeps for long periods of time to store up energy."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "They form packs, each having one male as leader. Legends say that when Luxray's two eyes shimmer with gold, the Pokémon can see through anything."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Luxray",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm405.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm405.icon.png"
+            },
+            {
+                "label": "Regular Luxray♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm405.g2.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm405.g2.icon.png"
+            },
+            {
+                "label": "Shiny Luxray",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm405.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm405.s.icon.png"
+            },
+            {
+                "label": "Shiny Luxray♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm405.g2.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm405.g2.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 405,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0405_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0405_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Luxray ♀ sprite"
+            },
+            {
+                "pokedex_number": 405,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0405_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0405_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Luxray ♀ sprite"
+            },
+            {
+                "pokedex_number": 405,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0405_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0405_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Luxray sprite"
+            },
+            {
+                "pokedex_number": 405,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0405_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0405_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Luxray sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/405_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/405_social.jpg",
+                "alt": "Luxray"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/405_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/405_social_dark.jpg",
+                "alt": "Luxray"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/405_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/405_social_map.jpg",
+                "alt": "Luxray"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/405_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/405_social_map_dark.jpg",
+                "alt": "Luxray"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Luxray’s strengths and weaknesses?",
+            "answer": "As a Electric-type Pokémon, Luxray is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Luxray in Pokémon GO?",
+            "answer": "The best moves for Luxray in Pokémon GO are Snarl and Wild Charge. This moveset has a DPS (Damage Per Second) of 13.426 and a TDO (Total Damage Output) of 219.368."
+        },
+        {
+            "question": "How does Luxray perform in Raids?",
+            "answer": "Luxray's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Luxray rank as a Electric-type attacker?",
+            "answer": "Luxray is a solid A-Tier Electric-type attacker, ranking at number #24. It is reliable in many situations but not the absolute best."
+        },
+        {
+            "question": "What Mega Pokémon boost Luxray?",
+            "answer": "The following Mega Pokémon boost Luxray: Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Luxray’s maximum CP at Level 40 and Level 50?",
+            "answer": "Luxray’s maximum CP at Level 40 is 2888 CP and 3265 CP at Level 50."
+        },
+        {
+            "question": "Can Luxray be shiny in Pokémon GO?",
+            "answer": "Luxray can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Luxray Dynamax in Pokémon GO?",
+            "answer": "Luxray cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

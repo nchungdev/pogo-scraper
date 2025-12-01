@@ -1,0 +1,861 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1692,
+        "attack": 156,
+        "defense": 107,
+        "stamina": 146,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Larvesta",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/636.webp",
+        "types": [
+            "Bug",
+            "Fire"
+        ],
+        "weather_boost": [
+            "rain",
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bug Bite",
+            "charged": "Bug Buzz",
+            "dps": 7.93,
+            "tdo": 72.59,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 7.93,
+                "tdo": 72.6,
+                "score": 6.23
+            },
+            {
+                "rank": 2,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 7.15,
+                "tdo": 65.4,
+                "score": 5.62
+            },
+            {
+                "rank": 3,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Flame Wheel",
+                "charged_url": "https://db.pokemongohub.net/move/21",
+                "dps": 6.84,
+                "tdo": 62.6,
+                "score": 5.37
+            },
+            {
+                "rank": 4,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 6.77,
+                "tdo": 62.0,
+                "score": 5.32
+            },
+            {
+                "rank": 5,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 6.32,
+                "tdo": 57.9,
+                "score": 4.96
+            },
+            {
+                "rank": 6,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Wheel",
+                "charged_url": "https://db.pokemongohub.net/move/21",
+                "dps": 6.21,
+                "tdo": 56.8,
+                "score": 4.88
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bug Bite",
+                "type": "Bug",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/201"
+            },
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flame Wheel",
+                "type": "Fire",
+                "stats": {
+                    "damage": 55,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.9s - 2.2s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/21"
+            },
+            {
+                "name": "Bug Buzz",
+                "type": "Bug",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.8s - 2.9s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/49"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Larvesta's has 1692 max CP (at Level 50). A Larvesta obtained from Raids can be encountered from 800 CP to 855 CP, or if weather boosted, in the 1000 CP to 1069 CP range. In Field and Special Research, Larvesta can be found in the 600 CP to 641 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1692",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "600 - 641",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "800 - 855",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "800 - 855",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1000 - 1069",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1000 CP - 1069 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 21,
+        "2": 66,
+        "3": 111,
+        "4": 156,
+        "5": 201,
+        "6": 247,
+        "7": 292,
+        "8": 337,
+        "9": 382,
+        "10": 427,
+        "11": 470,
+        "12": 513,
+        "13": 556,
+        "14": 598,
+        "15": 641,
+        "16": 684,
+        "17": 727,
+        "18": 769,
+        "19": 812,
+        "20": 855,
+        "21": 898,
+        "22": 940,
+        "23": 983,
+        "24": 1026,
+        "25": 1069,
+        "26": 1111,
+        "27": 1154,
+        "28": 1197,
+        "29": 1240,
+        "30": 1283,
+        "31": 1304,
+        "32": 1325,
+        "33": 1347,
+        "34": 1368,
+        "35": 1389,
+        "36": 1411,
+        "37": 1432,
+        "38": 1454,
+        "39": 1475,
+        "40": 1496,
+        "41": 1515,
+        "42": 1534,
+        "43": 1554,
+        "44": 1573,
+        "45": 1593,
+        "46": 1612,
+        "47": 1632,
+        "48": 1652,
+        "49": 1672,
+        "50": 1692
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Larvesta",
+                    "href": "/pokemon/636",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/636.webp"
+                },
+                "to": {
+                    "name": "Volcarona",
+                    "href": "/pokemon/637",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/637.webp"
+                },
+                "requirements": [
+                    "400 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "400 Candy"
+        ],
+        "family": [
+            {
+                "name": "Larvesta",
+                "href": "/pokemon/636",
+                "img": "https://db.pokemongohub.net/images/official/medium/636.webp"
+            },
+            {
+                "name": "Volcarona",
+                "href": "/pokemon/637",
+                "img": "https://db.pokemongohub.net/images/official/medium/637.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Larvesta in the meta PvE Analysis Larvesta is an undeniably great-looking Pokémon and enjoys cult status among fans . It is also one of the rarest finds in Pokémon GO , so it is highly sought after by the game’s trainers . While all this makes for a great addition to your collection , this Bug/Fire-type is lacking in PvE battles due to low stats . 🫠 PvP Analysis 🔵 Great League Larvesta has good stats across all areas , but doesn’t have a strong enough moveset to make a difference. 🥲 It secures a few wins , but overall, it is quite limited . Alolan Marowak and Talonflame are better Fire-types , while Charjabug and Ariados are better Bug-types . With a maximum CP of only 1692 , Larvesta doesn’t find any use in the other GO Battle League formats . 💥 The best PvP moveset for Larvesta is Ember, Flame Charge, and Bug Buzz .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Larvesta",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Larvesta's Bug and Fire-type moves, Candy, and Candy XL from catching Larvesta.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 636,
+            "height_m": 1.1,
+            "weight_kg": 28.8,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.54 m",
+            "xs": "0.55 m",
+            "m": "1.1 m",
+            "xl": "1.65 m",
+            "xxl": "1.93 m",
+            "description": "Larvesta's height ranges from 0.54 m to 1.93 m, with the average being 1.1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.539,
+                "upper_m": 0.55,
+                "lower_ft": "1′09″",
+                "upper_ft": "1′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.55,
+                "upper_m": 1.1,
+                "lower_ft": "1′10″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.825,
+                "upper_m": 1.375,
+                "lower_ft": "2′08″",
+                "upper_ft": "4′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.375,
+                "upper_m": 1.65,
+                "lower_ft": "4′06″",
+                "upper_ft": "5′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.65,
+                "upper_m": 1.925,
+                "lower_ft": "5′05″",
+                "upper_ft": "6′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Said to have been born from the sun, it spews fire from its horns and encases itself in a cocoon of fire when it evolves."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Said to have been born from the sun, it spews fire from its horns and encases itself in a cocoon of fire when it evolves."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "When battling opponents, it sprays fire from its five horns. The max temperature of the flames can reach nearly 5,500 degrees Fahrenheit."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It protects itself with flame. Long years ago, people believed Larvesta had a nest on the sun."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "The people of ancient times believed that Larvesta fell from the sun."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Larvesta’s body is warm all over. It spouts fire from the tips of its horns to intimidate predators and scare prey."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Larvesta",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm636.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm636.icon.png"
+            },
+            {
+                "label": "Shiny Larvesta",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm636.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm636.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 636,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0636_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0636_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Larvesta sprite"
+            },
+            {
+                "pokedex_number": 636,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0636_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0636_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Larvesta sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/636_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/636_social.jpg",
+                "alt": "Larvesta"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/636_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/636_social_dark.jpg",
+                "alt": "Larvesta"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/636_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/636_social_map.jpg",
+                "alt": "Larvesta"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/636_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/636_social_map_dark.jpg",
+                "alt": "Larvesta"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Larvesta’s strengths and weaknesses?",
+            "answer": "As a Bug and Fire-type Pokémon, Larvesta is especially weak against Rock-type moves, and weak against Flying and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Larvesta in Pokémon GO?",
+            "answer": "The best moves for Larvesta in Pokémon GO are Bug Bite and Bug Buzz. This moveset has a DPS (Damage Per Second) of 7.929 and a TDO (Total Damage Output) of 72.587."
+        },
+        {
+            "question": "How does Larvesta perform in Raids?",
+            "answer": "Larvesta's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Larvesta rank as a Bug-type attacker?",
+            "answer": "Larvesta is an F-Tier Bug-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Larvesta rank as a Fire-type attacker?",
+            "answer": "Larvesta is an F-Tier Fire-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Larvesta?",
+            "answer": "The following Mega Pokémon boost Larvesta: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, Primal Kyogre, Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Larvesta’s maximum CP at Level 40 and Level 50?",
+            "answer": "Larvesta’s maximum CP at Level 40 is 1496 CP and 1692 CP at Level 50."
+        },
+        {
+            "question": "Can Larvesta be shiny in Pokémon GO?",
+            "answer": "Larvesta can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Larvesta Dynamax in Pokémon GO?",
+            "answer": "Larvesta cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

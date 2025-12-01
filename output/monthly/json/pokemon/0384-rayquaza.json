@@ -1,0 +1,991 @@
+{
+    "overview_and_stats": {
+        "max_cp": 4336,
+        "attack": 284,
+        "defense": 170,
+        "stamina": 213,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": true,
+        "title": "Rayquaza",
+        "forms": [
+            {
+                "name": "Rayquaza",
+                "href": "/pokemon/384",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/384.webp"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "href": "/pokemon/384-Mega",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/384_f2.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/384.webp",
+        "types": [
+            "Dragon",
+            "Flying"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Dragon Tail",
+            "charged": "Dragon Ascent",
+            "dps": 19.72,
+            "tdo": 387.77,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Dragon Ascent",
+                "charged_url": "https://db.pokemongohub.net/move/384",
+                "dps": 19.72,
+                "tdo": 387.8,
+                "score": 17.53
+            },
+            {
+                "rank": 2,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Dragon Ascent",
+                "charged_url": "https://db.pokemongohub.net/move/384",
+                "dps": 18.79,
+                "tdo": 369.4,
+                "score": 16.68
+            },
+            {
+                "rank": 3,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Breaking Swipe *",
+                "charged_url": "https://db.pokemongohub.net/move/379",
+                "dps": 17.19,
+                "tdo": 338.0,
+                "score": 15.26
+            },
+            {
+                "rank": 4,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Outrage",
+                "charged_url": "https://db.pokemongohub.net/move/277",
+                "dps": 16.07,
+                "tdo": 315.9,
+                "score": 14.27
+            },
+            {
+                "rank": 5,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Breaking Swipe *",
+                "charged_url": "https://db.pokemongohub.net/move/379",
+                "dps": 15.98,
+                "tdo": 314.2,
+                "score": 14.18
+            },
+            {
+                "rank": 6,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Outrage",
+                "charged_url": "https://db.pokemongohub.net/move/277",
+                "dps": 15.19,
+                "tdo": 298.7,
+                "score": 13.49
+            },
+            {
+                "rank": 7,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Hurricane *",
+                "charged_url": "https://db.pokemongohub.net/move/122",
+                "dps": 14.95,
+                "tdo": 293.9,
+                "score": 13.28
+            },
+            {
+                "rank": 8,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 14.22,
+                "tdo": 279.6,
+                "score": 12.63
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Dragon Tail",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 14,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 14,
+                    "energy": 8,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 12
+                },
+                "url": "https://db.pokemongohub.net/move/253"
+            },
+            {
+                "name": "Air Slash",
+                "type": "Flying",
+                "stats": {
+                    "damage": 12,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 12,
+                    "energy": 8,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/255"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Ancient Power",
+                "type": "Rock",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.9s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/62"
+            },
+            {
+                "name": "Hurricane *",
+                "type": "Flying",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.0s - 2.2s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/122"
+            },
+            {
+                "name": "Outrage",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 110,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 110,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "2.6s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/277"
+            },
+            {
+                "name": "Breaking Swipe *",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/379"
+            },
+            {
+                "name": "Dragon Ascent",
+                "type": "Flying",
+                "stats": {
+                    "damage": 140,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "3.3s - 3.4s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 70
+                },
+                "url": "https://db.pokemongohub.net/move/384"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Rayquaza's has 4336 max CP (at Level 50). A Rayquaza obtained from Raids can be encountered from 2102 CP to 2191 CP, or if weather boosted, in the 2627 CP to 2739 CP range. In Field and Special Research, Rayquaza can be found in the 1576 CP to 1643 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "4336",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1576 - 1643",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "2102 - 2191",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2102 - 2191",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2627 - 2739",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2627 CP - 2739 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 54,
+        "2": 170,
+        "3": 285,
+        "4": 401,
+        "5": 517,
+        "6": 633,
+        "7": 748,
+        "8": 864,
+        "9": 980,
+        "10": 1096,
+        "11": 1205,
+        "12": 1315,
+        "13": 1424,
+        "14": 1534,
+        "15": 1643,
+        "16": 1753,
+        "17": 1862,
+        "18": 1972,
+        "19": 2082,
+        "20": 2191,
+        "21": 2301,
+        "22": 2410,
+        "23": 2520,
+        "24": 2630,
+        "25": 2739,
+        "26": 2849,
+        "27": 2958,
+        "28": 3068,
+        "29": 3178,
+        "30": 3287,
+        "31": 3342,
+        "32": 3397,
+        "33": 3451,
+        "34": 3506,
+        "35": 3561,
+        "36": 3616,
+        "37": 3671,
+        "38": 3725,
+        "39": 3780,
+        "40": 3835,
+        "41": 3884,
+        "42": 3933,
+        "43": 3982,
+        "44": 4031,
+        "45": 4081,
+        "46": 4132,
+        "47": 4182,
+        "48": 4233,
+        "49": 4284,
+        "50": 4336
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Rayquaza",
+                    "href": "/pokemon/384",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/384.webp"
+                },
+                "to": {
+                    "name": "Mega Rayquaza",
+                    "href": "/pokemon/384-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "400 / 80 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "400 / 80 Mega Energy"
+        ],
+        "family": [
+            {
+                "name": "Rayquaza",
+                "href": "/pokemon/384",
+                "img": "https://db.pokemongohub.net/images/official/medium/384.webp"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "href": "/pokemon/384-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Rayquaza in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Rayquaza",
+        "type": "Dragon",
+        "intro_text": "A list of Mega Pokémon that boost Rayquaza's Dragon and Flying-type moves, Candy, and Candy XL from catching Rayquaza.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Altaria",
+                "pokemon_id": 334,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/334-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Salamence",
+                "pokemon_id": 373,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/373-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Garchomp",
+                "pokemon_id": 445,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/445-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 384,
+            "height_m": 7.01,
+            "weight_kg": 206.5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": 100,
+        "size_info": {
+            "xxs": "3.43 m",
+            "xs": "3.51 m",
+            "m": "7.01 m",
+            "xl": "10.52 m",
+            "xxl": "10.87 m",
+            "description": "Rayquaza's height ranges from 3.43 m to 10.87 m, with the average being 7.01 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 3.4349,
+                "upper_m": 3.505,
+                "lower_ft": "11′03″",
+                "upper_ft": "11′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 3.505,
+                "upper_m": 7.01,
+                "lower_ft": "11′06″",
+                "upper_ft": "22′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 5.2575,
+                "upper_m": 8.7625,
+                "lower_ft": "17′03″",
+                "upper_ft": "28′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 8.7625,
+                "upper_m": 10.515,
+                "lower_ft": "28′09″",
+                "upper_ft": "34′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 10.515,
+                "upper_m": 10.8655,
+                "lower_ft": "34′06″",
+                "upper_ft": "35′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "RAYQUAZA lived for hundreds of millions of years in the earth’s ozone layer, never descending to the ground. This POKéMON appears to feed on water and particles in the atmosphere."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "RAYQUAZA is said to have lived for hundreds of millions of years in the earth’s ozone layer, above the clouds. Its existence had been completely unknown because it lived so high in the sky."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "A POKéMON that flies endlessly in the ozone layer. It is said it would descend to the ground if KYOGRE and GROUDON were to fight."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It has lived for hundreds of millions of years in the ozone layer. Its flying form looks like a meteor."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It lives in the ozone layer far above the clouds and cannot be seen from the ground."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It lives in the ozone layer far above the clouds and cannot be seen from the ground."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Rayquaza is said to have lived for hundreds of millions of years. Legends remain of how it put to rest the clash between Kyogre and Groudon."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "It flies forever through the ozone layer, consuming meteoroids for sustenance. The many meteoroids in its body provide the energy it needs to Mega Evolve."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Rayquaza",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm384.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm384.icon.png"
+            },
+            {
+                "label": "Shiny Rayquaza",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm384.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm384.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 384,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0384_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0384_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Rayquaza sprite"
+            },
+            {
+                "pokedex_number": 384,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0384_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0384_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Rayquaza sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/384_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/384_social.jpg",
+                "alt": "Rayquaza"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/384_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/384_social_dark.jpg",
+                "alt": "Rayquaza"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/384_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/384_social_map.jpg",
+                "alt": "Rayquaza"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/384_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/384_social_map_dark.jpg",
+                "alt": "Rayquaza"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Rayquaza’s strengths and weaknesses?",
+            "answer": "As a Dragon and Flying-type Pokémon, Rayquaza is especially weak against Ice-type moves, and weak against Dragon, Fairy, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Rayquaza in Pokémon GO?",
+            "answer": "The best moves for Rayquaza in Pokémon GO are Dragon Tail and Dragon Ascent. This moveset has a DPS (Damage Per Second) of 19.724 and a TDO (Total Damage Output) of 387.768."
+        },
+        {
+            "question": "How does Rayquaza perform in Raids?",
+            "answer": "Rayquaza performs exceptionally well in most Raid scenarios. Ranks #30 as a Raid attacker."
+        },
+        {
+            "question": "How does Rayquaza rank as a Dragon-type attacker?",
+            "answer": "Rayquaza is an A+ Tier Dragon-type attacker, ranking at number #14 and performing very well in most scenarios and a great choice for trainers."
+        },
+        {
+            "question": "How does Rayquaza rank as a Flying-type attacker?",
+            "answer": "Rayquaza is an S-Tier Flying-type attacker, ranking at number #2 and providing exceptional value due to its strong stats and effective moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Rayquaza?",
+            "answer": "The following Mega Pokémon boost Rayquaza: Mega Ampharos, Mega Sceptile, Mega Altaria, Mega Salamence, Mega Latias, Mega Latios, Mega Rayquaza, Mega Garchomp, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Rayquaza’s maximum CP at Level 40 and Level 50?",
+            "answer": "Rayquaza’s maximum CP at Level 40 is 3835 CP and 4336 CP at Level 50."
+        },
+        {
+            "question": "Can Rayquaza be shiny in Pokémon GO?",
+            "answer": "Rayquaza can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Rayquaza Dynamax in Pokémon GO?",
+            "answer": "Rayquaza cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

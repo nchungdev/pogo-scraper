@@ -1,0 +1,918 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1194,
+        "attack": 129,
+        "defense": 103,
+        "stamina": 102,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Horsea",
+        "forms": [
+            {
+                "name": "Horsea",
+                "href": "/pokemon/116",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/116.webp"
+            },
+            {
+                "name": "Shadow Horsea",
+                "href": "/pokemon/116-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/116.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/116.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Bubble Beam",
+            "dps": 5.47,
+            "tdo": 35.22,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 5.47,
+                "tdo": 35.2,
+                "score": 3.94
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 5.25,
+                "tdo": 33.8,
+                "score": 3.78
+            },
+            {
+                "rank": 3,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 5.23,
+                "tdo": 33.7,
+                "score": 3.77
+            },
+            {
+                "rank": 4,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 5.0,
+                "tdo": 32.2,
+                "score": 3.6
+            },
+            {
+                "rank": 5,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Flash Cannon",
+                "charged_url": "https://db.pokemongohub.net/move/36",
+                "dps": 4.79,
+                "tdo": 30.8,
+                "score": 3.45
+            },
+            {
+                "rank": 6,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Flash Cannon",
+                "charged_url": "https://db.pokemongohub.net/move/36",
+                "dps": 4.41,
+                "tdo": 28.4,
+                "score": 3.18
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            },
+            {
+                "name": "Bubble",
+                "type": "Water",
+                "stats": {
+                    "damage": 10,
+                    "energy": 12,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 12,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/237"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flash Cannon",
+                "type": "Steel",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 70
+                },
+                "url": "https://db.pokemongohub.net/move/36"
+            },
+            {
+                "name": "Bubble Beam",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.6s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 25,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/53"
+            },
+            {
+                "name": "Dragon Pulse",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.0s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/82"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Horsea's has 1194 max CP (at Level 50). A Horsea obtained from Raids can be encountered from 558 CP to 603 CP, or if weather boosted, in the 697 CP to 754 CP range. In Field and Special Research, Horsea can be found in the 418 CP to 452 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1194",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "418 - 452",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "558 - 603",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "558 - 603",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "697 - 754",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "697 CP - 754 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 46,
+        "3": 78,
+        "4": 110,
+        "5": 142,
+        "6": 174,
+        "7": 206,
+        "8": 238,
+        "9": 270,
+        "10": 302,
+        "11": 332,
+        "12": 362,
+        "13": 392,
+        "14": 422,
+        "15": 452,
+        "16": 483,
+        "17": 513,
+        "18": 543,
+        "19": 573,
+        "20": 603,
+        "21": 634,
+        "22": 664,
+        "23": 694,
+        "24": 724,
+        "25": 754,
+        "26": 785,
+        "27": 815,
+        "28": 845,
+        "29": 875,
+        "30": 905,
+        "31": 920,
+        "32": 936,
+        "33": 951,
+        "34": 966,
+        "35": 981,
+        "36": 996,
+        "37": 1011,
+        "38": 1026,
+        "39": 1041,
+        "40": 1056,
+        "41": 1070,
+        "42": 1083,
+        "43": 1097,
+        "44": 1110,
+        "45": 1124,
+        "46": 1138,
+        "47": 1152,
+        "48": 1166,
+        "49": 1180,
+        "50": 1194
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Horsea",
+                    "href": "/pokemon/116",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/116.webp"
+                },
+                "to": {
+                    "name": "Seadra",
+                    "href": "/pokemon/117",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/117.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Seadra",
+                    "href": "/pokemon/117",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/117.webp"
+                },
+                "to": {
+                    "name": "Kingdra",
+                    "href": "/pokemon/230",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/230.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Special Item: Dragon Scale"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Horsea",
+                "href": "/pokemon/116",
+                "img": "https://db.pokemongohub.net/images/official/medium/116.webp"
+            },
+            {
+                "name": "Seadra",
+                "href": "/pokemon/117",
+                "img": "https://db.pokemongohub.net/images/official/medium/117.webp"
+            },
+            {
+                "name": "Kingdra",
+                "href": "/pokemon/230",
+                "img": "https://db.pokemongohub.net/images/official/medium/230.webp"
+            },
+            {
+                "name": "Shadow Horsea",
+                "href": "/pokemon/116-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Seadra",
+                "href": "/pokemon/117-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Kingdra",
+                "href": "/pokemon/230-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Horsea in the meta PvE Analysis ⚔️ Raids Base forms of three-stage lines like Horsea should be avoided as choices for attacking raid bosses. Even considering its move coverage options , this little seahorse isn’t going to make a dent in that raid boss health bar . 🛡️ Gyms Easily taken down by a double A battery or a blade of Grass . PvP Analysis 🧸 Little League If there’s one place base forms should be useful, it’s Little League . Unfortunately, that’s not the case for Horsea . As a weak pure Water type , your only hope of victory is facing an equally weak Pokémon that is doubly weak, such as Rhyhorn or Onix . Should you find yourself using Horsea , make sure to use its best moves : Water Gun , Bubble Beam , and Dragon Pulse for coverage. 🔵 Great League Maxing out at a lowly 1194 CP makes Horsea far too weak to be viable in the Great League or higher leagues. 🟡 Ultra League As mentioned above, there is no reason to use Horsea here. 🟣 Master League It’s too cute to be destroyed like this. Do better, Trainer. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Horsea",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Horsea's Water-type moves, Candy, and Candy XL from catching Horsea.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 116,
+            "height_m": 0.4,
+            "weight_kg": 8,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Horsea's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "If it senses any danger, it will vigorously spray water or a special type of ink from its mouth."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "If attacked by a larger enemy, it quickly swims to safety by adeptly controlling its dorsal fin."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "Its big, developed fins move rapidly, allowing it to swim backward while still facing forward."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "When they're in a safe location, they can be seen playfully tangling their tails together."
+        },
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "HORSEA eats small insects and moss off of rocks. If the ocean current turns fast, this POKéMON anchors itself by wrapping its tail around rocks or coral to prevent being washed away."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "If HORSEA senses danger, it will reflexively spray a dense black ink from its mouth and try to escape. This POKéMON swims by cleverly flapping the fins on its back."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "By cleverly flicking the fins on its back side to side, it moves in any direction while facing forward. It spits ink to escape if it senses danger."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It maintains balance using its tail, which is wound up like a coil. It may spray ink from its mouth."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "If attacked by a larger enemy, it quickly swims to safety by adeptly controlling its well-developed dorsal fin."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "Its big, developed fins move rapidly, allowing it to swim backward while still facing forward."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Known to shoot down flying bugs with precision blasts of ink from the surface of the water."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Horsea eats small insects and moss off of rocks. If the ocean current turns fast, this Pokémon anchors itself by wrapping its tail around rocks or coral to prevent being washed away."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "If Horsea senses danger, it will reflexively spray a dense black ink from its mouth and try to escape. This Pokémon swims by cleverly flapping the fin on its back."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "If it senses any danger, it will vigorously spray water or a special type of ink from its mouth."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Horsea makes its home in oceans with gentle currents. If this Pokémon is under attack, it spits out pitch-black ink and escapes."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "They swim with dance-like motions and cause whirlpools to form. Horsea compete to see which of them can generate the biggest whirlpool."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Horsea",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm116.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm116.icon.png"
+            },
+            {
+                "label": "Shiny Horsea",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm116.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm116.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 116,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0116_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0116_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Horsea sprite"
+            },
+            {
+                "pokedex_number": 116,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0116_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0116_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Horsea sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/116_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/116_social.jpg",
+                "alt": "Horsea"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/116_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/116_social_dark.jpg",
+                "alt": "Horsea"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/116_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/116_social_map.jpg",
+                "alt": "Horsea"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/116_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/116_social_map_dark.jpg",
+                "alt": "Horsea"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Horsea’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Horsea is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Horsea in Pokémon GO?",
+            "answer": "The best moves for Horsea in Pokémon GO are Water Gun and Bubble Beam. This moveset has a DPS (Damage Per Second) of 5.473 and a TDO (Total Damage Output) of 35.216."
+        },
+        {
+            "question": "How does Horsea perform in Raids?",
+            "answer": "Horsea's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Horsea rank as a Water-type attacker?",
+            "answer": "Horsea's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Horsea?",
+            "answer": "The following Mega Pokémon boost Horsea: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Horsea’s maximum CP at Level 40 and Level 50?",
+            "answer": "Horsea’s maximum CP at Level 40 is 1056 CP and 1194 CP at Level 50."
+        },
+        {
+            "question": "Can Horsea be shiny in Pokémon GO?",
+            "answer": "Horsea can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Horsea Dynamax in Pokémon GO?",
+            "answer": "Horsea cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

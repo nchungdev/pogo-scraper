@@ -1,0 +1,934 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1176,
+        "attack": 97,
+        "defense": 149,
+        "stamina": 120,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Tentacool",
+        "forms": [
+            {
+                "name": "Tentacool",
+                "href": "/pokemon/72",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/072.webp"
+            },
+            {
+                "name": "Shadow Tentacool",
+                "href": "/pokemon/72-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/072.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/072.webp",
+        "types": [
+            "Water",
+            "Poison"
+        ],
+        "weather_boost": [
+            "rain",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bubble",
+            "charged": "Bubble Beam",
+            "dps": 4.73,
+            "tdo": 48.84,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 4.73,
+                "tdo": 48.8,
+                "score": 3.81
+            },
+            {
+                "rank": 2,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 4.71,
+                "tdo": 48.6,
+                "score": 3.79
+            },
+            {
+                "rank": 3,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.51,
+                "tdo": 46.6,
+                "score": 3.63
+            },
+            {
+                "rank": 4,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.49,
+                "tdo": 46.3,
+                "score": 3.61
+            },
+            {
+                "rank": 5,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Wrap",
+                "charged_url": "https://db.pokemongohub.net/move/13",
+                "dps": 4.21,
+                "tdo": 43.4,
+                "score": 3.39
+            },
+            {
+                "rank": 6,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Wrap",
+                "charged_url": "https://db.pokemongohub.net/move/13",
+                "dps": 4.18,
+                "tdo": 43.1,
+                "score": 3.36
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Poison Sting",
+                "type": "Poison",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/236"
+            },
+            {
+                "name": "Bubble",
+                "type": "Water",
+                "stats": {
+                    "damage": 10,
+                    "energy": 12,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 12,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/237"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Wrap",
+                "type": "Normal",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/13"
+            },
+            {
+                "name": "Bubble Beam",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.6s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 25,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/53"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Tentacool's has 1176 max CP (at Level 50). A Tentacool obtained from Raids can be encountered from 549 CP to 594 CP, or if weather boosted, in the 686 CP to 743 CP range. In Field and Special Research, Tentacool can be found in the 411 CP to 446 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1176",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "411 - 446",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "549 - 594",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "549 - 594",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "686 - 743",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "686 CP - 743 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 46,
+        "3": 77,
+        "4": 108,
+        "5": 140,
+        "6": 171,
+        "7": 203,
+        "8": 234,
+        "9": 266,
+        "10": 297,
+        "11": 327,
+        "12": 356,
+        "13": 386,
+        "14": 416,
+        "15": 446,
+        "16": 475,
+        "17": 505,
+        "18": 535,
+        "19": 565,
+        "20": 594,
+        "21": 624,
+        "22": 654,
+        "23": 683,
+        "24": 713,
+        "25": 743,
+        "26": 773,
+        "27": 802,
+        "28": 832,
+        "29": 862,
+        "30": 892,
+        "31": 907,
+        "32": 921,
+        "33": 936,
+        "34": 951,
+        "35": 966,
+        "36": 981,
+        "37": 996,
+        "38": 1011,
+        "39": 1025,
+        "40": 1040,
+        "41": 1054,
+        "42": 1067,
+        "43": 1080,
+        "44": 1094,
+        "45": 1107,
+        "46": 1121,
+        "47": 1135,
+        "48": 1148,
+        "49": 1162,
+        "50": 1176
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Tentacool",
+                    "href": "/pokemon/72",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/072.webp"
+                },
+                "to": {
+                    "name": "Tentacruel",
+                    "href": "/pokemon/73",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/073.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Tentacool",
+                "href": "/pokemon/72",
+                "img": "https://db.pokemongohub.net/images/official/medium/072.webp"
+            },
+            {
+                "name": "Tentacruel",
+                "href": "/pokemon/73",
+                "img": "https://db.pokemongohub.net/images/official/medium/073.webp"
+            },
+            {
+                "name": "Shadow Tentacool",
+                "href": "/pokemon/72-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Tentacruel",
+                "href": "/pokemon/73-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Tentacool in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Tentacool",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Tentacool's Water and Poison-type moves, Candy, and Candy XL from catching Tentacool.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 72,
+            "height_m": 0.9,
+            "weight_kg": 45.5,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.44 m",
+            "xs": "0.45 m",
+            "m": "0.9 m",
+            "xl": "1.35 m",
+            "xxl": "1.8 m",
+            "description": "Tentacool's height ranges from 0.44 m to 1.8 m, with the average being 0.9 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.441,
+                "upper_m": 0.45,
+                "lower_ft": "1′05″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.45,
+                "upper_m": 0.9,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.675,
+                "upper_m": 1.125,
+                "lower_ft": "2′03″",
+                "upper_ft": "3′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.125,
+                "upper_m": 1.35,
+                "lower_ft": "3′08″",
+                "upper_ft": "4′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.35,
+                "upper_m": 1.8,
+                "lower_ft": "4′05″",
+                "upper_ft": "5′11″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 23,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 8,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.6,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "It can sometimes be found all dry and shriveled up on a beach. Toss it back into the sea to revive it."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "When the tide goes out, dehydrated TENTACOOL remains can be found washed up on the shore."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It drifts aimless ly in waves. Very difficult to see in water, it may not be noticed until it stings."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "As it floats along on the waves, it uses its toxic feelers to stab anything it touches."
+        },
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "TENTACOOL’s body is largely composed of water. If it is removed from the sea, it dries up like parchment. If this POKéMON happens to become dehydrated, put it back into the sea."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "TENTACOOL absorbs sunlight and refracts it using water inside its body to convert it into beam energy. This POKéMON shoots beams from its crystal-like eyes."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "Its body is almost entirely composed of water. It ensnares its foe with its two long tentacles, then stabs with the poison stingers at their tips."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "Its eyes are as transparent as crystals. From them, it shoots mysterious beams of light."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Drifts in shallow seas. Anglers who hook them by accident are often punished by their stingers."
+        },
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "Its body is virtually composed of water. It shoots strange beams from its crystal-like eyes."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It drifts in sea currents. Countless fishermen are hurt by its poison stingers."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Because its body is almost entirely composed of water, it shrivels up if it is washed ashore."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "When the tide goes out, dehydrated TENTACOOL remains can be found washed up on the shore."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It drifts aimlessly in waves. Very difficult to see in water, it may not be noticed until it stings."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Its body is virtually composed of water. It shoots strange beams from its crystal-like eyes."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Drifts in shallow seas. Anglers who hook them by accident are often punished by their stingers."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Tentacool’s body is largely composed of water. If it is removed from the sea, it dries up like parchment. If this Pokémon happens to become dehydrated, put it back into the sea."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Tentacool absorbs sunlight and refracts it using water inside its body to convert it into beam energy. This Pokémon shoots beams from the small round organ above its eyes."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "They can be found lying dehydrated on beaches, but they are often still alive. When soaked in water, they will revive."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It drifts in shallow seas, such as the areas near beaches. If you get bitten or stabbed by its toxic tentacles, rush to the hospital."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It drifts through the sea searching for prey. Its poisonous tentacles break off sometimes, but after a while, they grow back."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Its body is 99% water. The remaining 1% contains the organ that makes its poison."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "It can sometimes be found all dry and shriveled up on a beach. Toss it back into the sea to revive it."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Tentacool is not a particularly strong swimmer. It drifts across the surface of shallow seas as it searches for prey."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This Pokémon is mostly made of water. A Tentacool out in the ocean is very hard to spot, because its body blends in with the sea."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "They fire beams from the glassy, magenta orbs that resemble eyes atop their heads, and they drift in shallow seas. During low tide, they can sometimes be found on beaches, desiccated."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Tentacool",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm72.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm72.icon.png"
+            },
+            {
+                "label": "Shiny Tentacool",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm72.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm72.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 72,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0072_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0072_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Tentacool sprite"
+            },
+            {
+                "pokedex_number": 72,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0072_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0072_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Tentacool sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/072_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/072_social.jpg",
+                "alt": "Tentacool"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/072_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/072_social_dark.jpg",
+                "alt": "Tentacool"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/072_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/072_social_map.jpg",
+                "alt": "Tentacool"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/072_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/072_social_map_dark.jpg",
+                "alt": "Tentacool"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Tentacool’s strengths and weaknesses?",
+            "answer": "As a Water and Poison-type Pokémon, Tentacool is weak to Electric, Ground, and Psychic-type moves."
+        },
+        {
+            "question": "What are the best moves for Tentacool in Pokémon GO?",
+            "answer": "The best moves for Tentacool in Pokémon GO are Bubble and Bubble Beam. This moveset has a DPS (Damage Per Second) of 4.732 and a TDO (Total Damage Output) of 48.835."
+        },
+        {
+            "question": "How does Tentacool perform in Raids?",
+            "answer": "Tentacool's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Tentacool rank as a Water-type attacker?",
+            "answer": "Tentacool's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Tentacool?",
+            "answer": "The following Mega Pokémon boost Tentacool: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Venusaur, Mega Beedrill, and Mega Gengar."
+        },
+        {
+            "question": "What is Tentacool’s maximum CP at Level 40 and Level 50?",
+            "answer": "Tentacool’s maximum CP at Level 40 is 1040 CP and 1176 CP at Level 50."
+        },
+        {
+            "question": "Can Tentacool be shiny in Pokémon GO?",
+            "answer": "Tentacool can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Tentacool Dynamax in Pokémon GO?",
+            "answer": "Tentacool cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

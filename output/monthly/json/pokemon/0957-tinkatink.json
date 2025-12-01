@@ -1,0 +1,728 @@
+{
+    "overview_and_stats": {
+        "max_cp": 973,
+        "attack": 85,
+        "defense": 110,
+        "stamina": 137,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Tinkatink",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/957.webp",
+        "types": [
+            "Fairy",
+            "Steel"
+        ],
+        "weather_boost": [
+            "cloudy",
+            "snow"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Fairy Wind",
+            "charged": "Play Rough",
+            "dps": 4.55,
+            "tdo": 40.25,
+            "boosted_weather": [
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Fairy Wind",
+                "fast_url": "https://db.pokemongohub.net/move/350",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 4.55,
+                "tdo": 40.3,
+                "score": 3.54
+            },
+            {
+                "rank": 2,
+                "fast": "Fairy Wind",
+                "fast_url": "https://db.pokemongohub.net/move/350",
+                "charged": "Flash Cannon",
+                "charged_url": "https://db.pokemongohub.net/move/36",
+                "dps": 3.82,
+                "tdo": 33.9,
+                "score": 2.98
+            },
+            {
+                "rank": 3,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 3.8,
+                "tdo": 33.7,
+                "score": 2.97
+            },
+            {
+                "rank": 4,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Flash Cannon",
+                "charged_url": "https://db.pokemongohub.net/move/36",
+                "dps": 3.1,
+                "tdo": 27.5,
+                "score": 2.42
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Rock Smash",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 17,
+                    "energy": 12,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 17,
+                    "energy": 12,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/241"
+            },
+            {
+                "name": "Fairy Wind",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 9,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 9,
+                    "energy": 13,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/350"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flash Cannon",
+                "type": "Steel",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 70
+                },
+                "url": "https://db.pokemongohub.net/move/36"
+            },
+            {
+                "name": "Play Rough",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/88"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Tinkatink's has 973 max CP (at Level 50). A Tinkatink obtained from Raids can be encountered from 450 CP to 491 CP, or if weather boosted, in the 562 CP to 614 CP range. In Field and Special Research, Tinkatink can be found in the 337 CP to 368 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "973",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "337 - 368",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "450 - 491",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "450 - 491",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "562 - 614",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "562 CP - 614 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 12,
+        "2": 38,
+        "3": 64,
+        "4": 90,
+        "5": 116,
+        "6": 142,
+        "7": 168,
+        "8": 194,
+        "9": 220,
+        "10": 246,
+        "11": 270,
+        "12": 295,
+        "13": 319,
+        "14": 344,
+        "15": 368,
+        "16": 393,
+        "17": 418,
+        "18": 442,
+        "19": 467,
+        "20": 491,
+        "21": 516,
+        "22": 541,
+        "23": 565,
+        "24": 590,
+        "25": 614,
+        "26": 639,
+        "27": 664,
+        "28": 688,
+        "29": 713,
+        "30": 737,
+        "31": 750,
+        "32": 762,
+        "33": 774,
+        "34": 787,
+        "35": 799,
+        "36": 811,
+        "37": 824,
+        "38": 836,
+        "39": 848,
+        "40": 860,
+        "41": 871,
+        "42": 882,
+        "43": 893,
+        "44": 905,
+        "45": 916,
+        "46": 927,
+        "47": 938,
+        "48": 950,
+        "49": 961,
+        "50": 973
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Tinkatink",
+                    "href": "/pokemon/957",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/957.webp"
+                },
+                "to": {
+                    "name": "Tinkatuff",
+                    "href": "/pokemon/958",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/958.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Tinkatuff",
+                    "href": "/pokemon/958",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/958.webp"
+                },
+                "to": {
+                    "name": "Tinkaton",
+                    "href": "/pokemon/959",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/959.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Tinkatink",
+                "href": "/pokemon/957",
+                "img": "https://db.pokemongohub.net/images/official/medium/957.webp"
+            },
+            {
+                "name": "Tinkatuff",
+                "href": "/pokemon/958",
+                "img": "https://db.pokemongohub.net/images/official/medium/958.webp"
+            },
+            {
+                "name": "Tinkaton",
+                "href": "/pokemon/959",
+                "img": "https://db.pokemongohub.net/images/official/medium/959.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Tinkatink in the meta PvE Analysis A very low Attack stat of 85 and low bulk make this little one unsuitable for PvE . 👶 Therefore, don't use it in raids or gyms . 🙅‍♀️🙅‍♂️ PvP Analysis 🧸 Little Cup Tinkatink is a superb part of the Little Cup , slaying the platform’s premier threats such as Deino, Ducklett, Seel, Dratini, Skarmory, Vullaby , and Cottonee . This is attributed to Fairy Wind ’s quick energy gains making its expensive Charged attacks quite accessible. Aside from getting a Tinkaton for the Great and Ultra League , it's worth having one Tinkatink for the Little Cup as well! 😁 Tinkatink isn't viable in any other PvP platform. 💥 The best moves for Tinkatink in the Little Cup are Fairy Wind , Play Rough , and Flash Cannon .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Tinkatink",
+        "type": "Fairy",
+        "intro_text": "A list of Mega Pokémon that boost Tinkatink's Fairy and Steel-type moves, Candy, and Candy XL from catching Tinkatink.",
+        "mega_list": [
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Mawile",
+                "pokemon_id": 303,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/303-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Altaria",
+                "pokemon_id": 334,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/334-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 957,
+            "height_m": 0.4,
+            "weight_kg": 8.9,
+            "region": "Generation 9",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.62 m",
+            "description": "Tinkatink's height ranges from 0.2 m to 0.62 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.62,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Scarlet"
+            ],
+            "entry": "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal."
+        },
+        {
+            "versions": [
+                "Violet"
+            ],
+            "entry": "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it’s satisfied with the result."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Tinkatink",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm957.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm957.icon.png"
+            },
+            {
+                "label": "Shiny Tinkatink",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm957.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm957.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 957,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0957_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0957_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Tinkatink ♀ sprite"
+            },
+            {
+                "pokedex_number": 957,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0957_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0957_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Tinkatink ♀ sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/957_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/957_social.jpg",
+                "alt": "Tinkatink"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/957_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/957_social_dark.jpg",
+                "alt": "Tinkatink"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/957_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/957_social_map.jpg",
+                "alt": "Tinkatink"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/957_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/957_social_map_dark.jpg",
+                "alt": "Tinkatink"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Tinkatink’s strengths and weaknesses?",
+            "answer": "As a Fairy and Steel-type Pokémon, Tinkatink is weak to Fire and Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Tinkatink in Pokémon GO?",
+            "answer": "The best moves for Tinkatink in Pokémon GO are Fairy Wind and Play Rough. This moveset has a DPS (Damage Per Second) of 4.545 and a TDO (Total Damage Output) of 40.254."
+        },
+        {
+            "question": "How does Tinkatink perform in Raids?",
+            "answer": "Tinkatink's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Tinkatink rank as a Fairy-type attacker?",
+            "answer": "Tinkatink's performance as a Fairy-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Tinkatink?",
+            "answer": "The following Mega Pokémon boost Tinkatink: Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, Mega Diancie, Mega Steelix, Mega Scizor, Mega Mawile, Mega Aggron, Mega Metagross, and Mega Lucario."
+        },
+        {
+            "question": "What is Tinkatink’s maximum CP at Level 40 and Level 50?",
+            "answer": "Tinkatink’s maximum CP at Level 40 is 860 CP and 973 CP at Level 50."
+        },
+        {
+            "question": "Can Tinkatink be shiny in Pokémon GO?",
+            "answer": "Tinkatink can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Tinkatink Dynamax in Pokémon GO?",
+            "answer": "Tinkatink cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

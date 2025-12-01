@@ -1,0 +1,935 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2874,
+        "attack": 188,
+        "defense": 200,
+        "stamina": 172,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Crustle",
+        "forms": [
+            {
+                "name": "Crustle",
+                "href": "/pokemon/558",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/558.webp"
+            },
+            {
+                "name": "Shadow Crustle",
+                "href": "/pokemon/558-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/558.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/558.webp",
+        "types": [
+            "Bug",
+            "Rock"
+        ],
+        "weather_boost": [
+            "rain",
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Fury Cutter",
+            "charged": "Rock Wrecker",
+            "dps": 11.66,
+            "tdo": 218.53,
+            "boosted_weather": [
+                "rain",
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Fury Cutter",
+                "fast_url": "https://db.pokemongohub.net/move/200",
+                "charged": "Rock Wrecker",
+                "charged_url": "https://db.pokemongohub.net/move/334",
+                "dps": 11.66,
+                "tdo": 218.5,
+                "score": 10.29
+            },
+            {
+                "rank": 2,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Rock Wrecker",
+                "charged_url": "https://db.pokemongohub.net/move/334",
+                "dps": 10.84,
+                "tdo": 203.1,
+                "score": 9.56
+            },
+            {
+                "rank": 3,
+                "fast": "Fury Cutter",
+                "fast_url": "https://db.pokemongohub.net/move/200",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 10.32,
+                "tdo": 193.4,
+                "score": 9.11
+            },
+            {
+                "rank": 4,
+                "fast": "Fury Cutter",
+                "fast_url": "https://db.pokemongohub.net/move/200",
+                "charged": "X-Scissor",
+                "charged_url": "https://db.pokemongohub.net/move/100",
+                "dps": 10.25,
+                "tdo": 192.0,
+                "score": 9.05
+            },
+            {
+                "rank": 5,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "X-Scissor",
+                "charged_url": "https://db.pokemongohub.net/move/100",
+                "dps": 9.93,
+                "tdo": 186.0,
+                "score": 8.76
+            },
+            {
+                "rank": 6,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 9.92,
+                "tdo": 186.0,
+                "score": 8.76
+            },
+            {
+                "rank": 7,
+                "fast": "Fury Cutter",
+                "fast_url": "https://db.pokemongohub.net/move/200",
+                "charged": "Rock Blast",
+                "charged_url": "https://db.pokemongohub.net/move/259",
+                "dps": 9.65,
+                "tdo": 180.8,
+                "score": 8.51
+            },
+            {
+                "rank": 8,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Rock Blast",
+                "charged_url": "https://db.pokemongohub.net/move/259",
+                "dps": 9.56,
+                "tdo": 179.2,
+                "score": 8.44
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Fury Cutter",
+                "type": "Bug",
+                "stats": {
+                    "damage": 4,
+                    "energy": 8,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 8,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/200"
+            },
+            {
+                "name": "Smack Down",
+                "type": "Rock",
+                "stats": {
+                    "damage": 13,
+                    "energy": 7,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 7,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/297"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Rock Slide",
+                "type": "Rock",
+                "stats": {
+                    "damage": 75,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 75,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/64"
+            },
+            {
+                "name": "X-Scissor",
+                "type": "Bug",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.1s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/100"
+            },
+            {
+                "name": "Rock Blast",
+                "type": "Rock",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.5s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/259"
+            },
+            {
+                "name": "Rock Wrecker",
+                "type": "Rock",
+                "stats": {
+                    "damage": 110,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 110,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.9s - 2.6s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/334"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Crustle's has 2874 max CP (at Level 50). A Crustle obtained from Raids can be encountered from 1381 CP to 1452 CP, or if weather boosted, in the 1726 CP to 1815 CP range. In Field and Special Research, Crustle can be found in the 1036 CP to 1089 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2874",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1036 - 1089",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1381 - 1452",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1381 - 1452",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1726 - 1815",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1726 CP - 1815 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 35,
+        "2": 112,
+        "3": 189,
+        "4": 266,
+        "5": 342,
+        "6": 419,
+        "7": 496,
+        "8": 573,
+        "9": 649,
+        "10": 726,
+        "11": 799,
+        "12": 871,
+        "13": 944,
+        "14": 1017,
+        "15": 1089,
+        "16": 1162,
+        "17": 1234,
+        "18": 1307,
+        "19": 1380,
+        "20": 1452,
+        "21": 1525,
+        "22": 1597,
+        "23": 1670,
+        "24": 1743,
+        "25": 1815,
+        "26": 1888,
+        "27": 1961,
+        "28": 2033,
+        "29": 2106,
+        "30": 2179,
+        "31": 2215,
+        "32": 2251,
+        "33": 2288,
+        "34": 2324,
+        "35": 2360,
+        "36": 2397,
+        "37": 2433,
+        "38": 2469,
+        "39": 2505,
+        "40": 2542,
+        "41": 2574,
+        "42": 2607,
+        "43": 2639,
+        "44": 2672,
+        "45": 2705,
+        "46": 2738,
+        "47": 2772,
+        "48": 2806,
+        "49": 2840,
+        "50": 2874
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Dwebble",
+                    "href": "/pokemon/557",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/557.webp"
+                },
+                "to": {
+                    "name": "Crustle",
+                    "href": "/pokemon/558",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/558.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Dwebble",
+                "href": "/pokemon/557",
+                "img": "https://db.pokemongohub.net/images/official/medium/557.webp"
+            },
+            {
+                "name": "Crustle",
+                "href": "/pokemon/558",
+                "img": "https://db.pokemongohub.net/images/official/medium/558.webp"
+            },
+            {
+                "name": "Shadow Dwebble",
+                "href": "/pokemon/557-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Crustle",
+                "href": "/pokemon/558-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Crustle in the meta PvE Analysis Crustle doesn’t have high stats , and needless to say, it’s not good for PvE . It lacks raw power but has decent Defense . 💥 The best moves for Crustle in PvE are Fury Cutter and X-Scissor. ⚔️ Raids Crustle is a usable Bug-type attacker , but that's only because Bug Pokémon aren't great in general . 🪲 It doesn’t bring any real value , though. 😬 🛡️ Gyms On paper, Crustle looks like a solid gym defender with 200 Defense . However, its Bug/Rock typing is problematic since it only resists Normal and Poison , while being weak to Rock, Steel, and Water . So, at best, it’s an average gym defender . PvP Analysis 💥 The best moves for Crustle in PvP are Fury Cutter, X-Scissor, and Rock Slide. 🔵 Great League Bug- and Rock-type offense isn’t particularly useful in the Great League . No wonder Crustle secures only a few wins , which are expected from its moveset . Not good! 😐 🟡 Ultra League Bug- and Rock-type moves are more useful in the Ultra League , but now Crustle faces two major issues : 1️⃣ There are far better Bug- and Rock-type Pokémon in the Ultra League . 2️⃣ A lack of resistances and the abundance of Steel- and Water-types (its weaknesses) make it difficult for Crustle to survive . 🥲 🟣 Master League Wishful thinking, but no —Crustle fails massively in the Master League . 😶 Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Crustle",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Crustle's Bug and Rock-type moves, Candy, and Candy XL from catching Crustle.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 558,
+            "height_m": 1.4,
+            "weight_kg": 200,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.69 m",
+            "xs": "0.7 m",
+            "m": "1.4 m",
+            "xl": "2.1 m",
+            "xxl": "2.45 m",
+            "description": "Crustle's height ranges from 0.69 m to 2.45 m, with the average being 1.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.686,
+                "upper_m": 0.7,
+                "lower_ft": "2′03″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.7,
+                "upper_m": 1.4,
+                "lower_ft": "2′04″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.05,
+                "upper_m": 1.75,
+                "lower_ft": "3′05″",
+                "upper_ft": "5′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.75,
+                "upper_m": 2.1,
+                "lower_ft": "5′09″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.1,
+                "upper_m": 2.45,
+                "lower_ft": "6′11″",
+                "upper_ft": "8′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "When its boulder is broken in battles for territory, it feels unsure and begins to weaken."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This highly territorial Pokémon prefers dry climates. It won’t come out of its boulder on rainy days."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Its thick claws are its greatest weapons. They’re mighty enough to crack Rhyperior’s carapace."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Crustle",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm558.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm558.icon.png"
+            },
+            {
+                "label": "Shiny Crustle",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm558.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm558.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 558,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0558_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0558_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Crustle sprite"
+            },
+            {
+                "pokedex_number": 558,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0558_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0558_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Crustle sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/558_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/558_social.jpg",
+                "alt": "Crustle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/558_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/558_social_dark.jpg",
+                "alt": "Crustle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/558_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/558_social_map.jpg",
+                "alt": "Crustle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/558_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/558_social_map_dark.jpg",
+                "alt": "Crustle"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Crustle’s strengths and weaknesses?",
+            "answer": "As a Bug and Rock-type Pokémon, Crustle is weak to Rock, Steel, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Crustle in Pokémon GO?",
+            "answer": "The best moves for Crustle in Pokémon GO are Fury Cutter and Rock Wrecker. This moveset has a DPS (Damage Per Second) of 11.661 and a TDO (Total Damage Output) of 218.529."
+        },
+        {
+            "question": "How does Crustle perform in Raids?",
+            "answer": "Crustle's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Crustle rank as a Bug-type attacker?",
+            "answer": "Crustle is a D-Tier Bug-type attacker, struggling in Raids due to its lower stats or suboptimal moveset."
+        },
+        {
+            "question": "How does Crustle rank as a Rock-type attacker?",
+            "answer": "Crustle is a D-Tier Rock-type attacker, struggling in Raids due to its lower stats or suboptimal moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Crustle?",
+            "answer": "The following Mega Pokémon boost Crustle: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, Primal Kyogre, Mega Aerodactyl, Mega Tyranitar, and Mega Diancie."
+        },
+        {
+            "question": "What is Crustle’s maximum CP at Level 40 and Level 50?",
+            "answer": "Crustle’s maximum CP at Level 40 is 2542 CP and 2874 CP at Level 50."
+        },
+        {
+            "question": "Can Crustle be shiny in Pokémon GO?",
+            "answer": "Crustle can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Crustle Dynamax in Pokémon GO?",
+            "answer": "Crustle cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

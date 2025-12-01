@@ -1,0 +1,844 @@
+{
+    "overview_and_stats": {
+        "max_cp": 798,
+        "attack": 70,
+        "defense": 162,
+        "stamina": 85,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Duskull",
+        "forms": [
+            {
+                "name": "Duskull",
+                "href": "/pokemon/355",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/355.webp"
+            },
+            {
+                "name": "Shadow Duskull",
+                "href": "/pokemon/355-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/355.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/355.webp",
+        "types": [
+            "Ghost"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Hex",
+            "charged": "Ominous Wind",
+            "dps": 3.37,
+            "tdo": 27.78,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Ominous Wind",
+                "charged_url": "https://db.pokemongohub.net/move/69",
+                "dps": 3.37,
+                "tdo": 27.8,
+                "score": 2.58
+            },
+            {
+                "rank": 2,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Ominous Wind",
+                "charged_url": "https://db.pokemongohub.net/move/69",
+                "dps": 3.23,
+                "tdo": 26.6,
+                "score": 2.48
+            },
+            {
+                "rank": 3,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 3.18,
+                "tdo": 26.2,
+                "score": 2.44
+            },
+            {
+                "rank": 4,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 3.01,
+                "tdo": 24.9,
+                "score": 2.31
+            },
+            {
+                "rank": 5,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Shadow Sneak",
+                "charged_url": "https://db.pokemongohub.net/move/66",
+                "dps": 2.96,
+                "tdo": 24.4,
+                "score": 2.27
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Shadow Sneak",
+                "charged_url": "https://db.pokemongohub.net/move/66",
+                "dps": 2.83,
+                "tdo": 23.3,
+                "score": 2.17
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            },
+            {
+                "name": "Hex",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 8,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 8,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/264"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Sneak",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.3s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/66"
+            },
+            {
+                "name": "Ominous Wind",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/69"
+            },
+            {
+                "name": "Night Shade",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/265"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Duskull's has 798 max CP (at Level 50). A Duskull obtained from Raids can be encountered from 364 CP to 403 CP, or if weather boosted, in the 456 CP to 504 CP range. In Field and Special Research, Duskull can be found in the 273 CP to 302 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "798",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "273 - 302",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "364 - 403",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "364 - 403",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "456 - 504",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "456 CP - 504 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 9,
+        "2": 31,
+        "3": 52,
+        "4": 73,
+        "5": 95,
+        "6": 116,
+        "7": 137,
+        "8": 159,
+        "9": 180,
+        "10": 201,
+        "11": 222,
+        "12": 242,
+        "13": 262,
+        "14": 282,
+        "15": 302,
+        "16": 322,
+        "17": 343,
+        "18": 363,
+        "19": 383,
+        "20": 403,
+        "21": 423,
+        "22": 443,
+        "23": 464,
+        "24": 484,
+        "25": 504,
+        "26": 524,
+        "27": 544,
+        "28": 565,
+        "29": 585,
+        "30": 605,
+        "31": 615,
+        "32": 625,
+        "33": 635,
+        "34": 645,
+        "35": 655,
+        "36": 665,
+        "37": 676,
+        "38": 686,
+        "39": 696,
+        "40": 706,
+        "41": 715,
+        "42": 724,
+        "43": 733,
+        "44": 742,
+        "45": 751,
+        "46": 760,
+        "47": 770,
+        "48": 779,
+        "49": 789,
+        "50": 798
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Duskull",
+                    "href": "/pokemon/355",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/355.webp"
+                },
+                "to": {
+                    "name": "Dusclops",
+                    "href": "/pokemon/356",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/356.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Dusclops",
+                    "href": "/pokemon/356",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/356.webp"
+                },
+                "to": {
+                    "name": "Dusknoir",
+                    "href": "/pokemon/477",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/477.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Special Item: Sinnoh Stone"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Duskull",
+                "href": "/pokemon/355",
+                "img": "https://db.pokemongohub.net/images/official/medium/355.webp"
+            },
+            {
+                "name": "Dusclops",
+                "href": "/pokemon/356",
+                "img": "https://db.pokemongohub.net/images/official/medium/356.webp"
+            },
+            {
+                "name": "Dusknoir",
+                "href": "/pokemon/477",
+                "img": "https://db.pokemongohub.net/images/official/medium/477.webp"
+            },
+            {
+                "name": "Shadow Duskull",
+                "href": "/pokemon/355-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Dusclops",
+                "href": "/pokemon/356-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Dusknoir",
+                "href": "/pokemon/477-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Duskull in the meta PvE Analysis Too weak in stats to be considered for PvE. 😕 ⚔️ Raids - An Attack stat of 70 gives no meat to this skull in Raids 💀 🛡️ Gyms - Gets wiped out by almost anything that attacks a Gym PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Duskull",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Duskull's Ghost-type moves, Candy, and Candy XL from catching Duskull.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 355,
+            "height_m": 0.79,
+            "weight_kg": 15,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.39 m",
+            "xs": "0.4 m",
+            "m": "0.79 m",
+            "xl": "1.19 m",
+            "xxl": "1.38 m",
+            "description": "Duskull's height ranges from 0.39 m to 1.38 m, with the average being 0.79 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.3871,
+                "upper_m": 0.395,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.395,
+                "upper_m": 0.79,
+                "lower_ft": "1′04″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.5925,
+                "upper_m": 0.9875,
+                "lower_ft": "1′11″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.9875,
+                "upper_m": 1.185,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.185,
+                "upper_m": 1.3825,
+                "lower_ft": "3′11″",
+                "upper_ft": "4′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "DUSKULL can pass through any wall no matter how thick it may be. Once this POKéMON chooses a target, it will doggedly pursue the intended victim until the break of dawn."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "DUSKULL wanders lost among the deep darkness of midnight. There is an oft- told admonishment given to misbehaving children that this POKéMON will spirit away bad children who earn scoldings from their mothers."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "A glare from its single scarlet eye makes even burly grown-ups freeze in utter fear. It is a nocturnal POKéMON that roams about under the cloak of darkness."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "Making itself invisible, it silently sneaks up to prey. It has the ability to slip through thick walls."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl"
+            ],
+            "entry": "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It loves the crying of children. It startles bad kids by passing through walls and making them cry."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "If it finds bad children who won’t listen to their parents, it will spirit them away--or so it’s said."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "If it finds bad children who won’t listen to their parents, it will spirit them away--or so it’s said."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Duskull can pass through any wall no matter how thick it may be. Once this Pokémon chooses a target, it will doggedly pursue the intended victim until the break of dawn."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Duskull wanders lost among the deep darkness of midnight. There is an oft-told admonishment given to misbehaving children that this Pokémon will spirit away bad children who earn scoldings from their mothers."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "If it finds bad children who won’t listen to their parents, it will spirit them away—or so it’s said."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Making itself invisible, it silently sneaks up to prey. It has the ability to slip through thick walls."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "I've heard that the children of Hisui all begin to behave once they've been told the story of how this Pokémon roams about before the witching hour to spirit away misbehaving children."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Duskull",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm355.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm355.icon.png"
+            },
+            {
+                "label": "Shiny Duskull",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm355.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm355.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 355,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0355_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0355_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Duskull sprite"
+            },
+            {
+                "pokedex_number": 355,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0355_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0355_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Duskull sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/355_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/355_social.jpg",
+                "alt": "Duskull"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/355_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/355_social_dark.jpg",
+                "alt": "Duskull"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/355_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/355_social_map.jpg",
+                "alt": "Duskull"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/355_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/355_social_map_dark.jpg",
+                "alt": "Duskull"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 355,
+            "name": "Duskull",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm355.cFALL_2022_NOEVOLVE.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm355.cFALL_2022_NOEVOLVE.icon.png",
+            "category": "Fall 2022"
+        },
+        {
+            "pokedex_number": 355,
+            "name": "Shiny Duskull",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm355.cFALL_2022_NOEVOLVE.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm355.cFALL_2022_NOEVOLVE.s.icon.png",
+            "category": "Fall 2022"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Duskull’s strengths and weaknesses?",
+            "answer": "As a Ghost-type Pokémon, Duskull is weak to Dark and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Duskull in Pokémon GO?",
+            "answer": "The best moves for Duskull in Pokémon GO are Hex and Ominous Wind. This moveset has a DPS (Damage Per Second) of 3.367 and a TDO (Total Damage Output) of 27.782."
+        },
+        {
+            "question": "How does Duskull perform in Raids?",
+            "answer": "Duskull's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Duskull rank as a Ghost-type attacker?",
+            "answer": "Duskull's performance as a Ghost-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Duskull?",
+            "answer": "The following Mega Pokémon boost Duskull: Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Duskull’s maximum CP at Level 40 and Level 50?",
+            "answer": "Duskull’s maximum CP at Level 40 is 706 CP and 798 CP at Level 50."
+        },
+        {
+            "question": "Can Duskull be shiny in Pokémon GO?",
+            "answer": "Duskull can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Duskull Dynamax in Pokémon GO?",
+            "answer": "Duskull cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

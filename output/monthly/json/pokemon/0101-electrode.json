@@ -1,0 +1,999 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2373,
+        "attack": 173,
+        "defense": 173,
+        "stamina": 155,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Electrode",
+        "forms": [
+            {
+                "name": "Electrode",
+                "href": "/pokemon/101",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/101.webp"
+            },
+            {
+                "name": "Hisuian Electrode",
+                "href": "/pokemon/101-Hisuian",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/101_hisuian.webp"
+            },
+            {
+                "name": "Shadow Hisuian Electrode",
+                "href": "/pokemon/101-Hisuian_Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/101_hisuian.webp"
+            },
+            {
+                "name": "Shadow Electrode",
+                "href": "/pokemon/101-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/101.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/101.webp",
+        "types": [
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Spark",
+            "charged": "Thunderbolt",
+            "dps": 9.12,
+            "tdo": 135.81,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 9.12,
+                "tdo": 135.8,
+                "score": 7.81
+            },
+            {
+                "rank": 2,
+                "fast": "Volt Switch",
+                "fast_url": "https://db.pokemongohub.net/move/250",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 9.03,
+                "tdo": 134.5,
+                "score": 7.74
+            },
+            {
+                "rank": 3,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 9.01,
+                "tdo": 134.2,
+                "score": 7.71
+            },
+            {
+                "rank": 4,
+                "fast": "Volt Switch",
+                "fast_url": "https://db.pokemongohub.net/move/250",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 8.9,
+                "tdo": 132.6,
+                "score": 7.63
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle *",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 8.78,
+                "tdo": 130.8,
+                "score": 7.52
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle *",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 8.76,
+                "tdo": 130.5,
+                "score": 7.5
+            },
+            {
+                "rank": 7,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 8.12,
+                "tdo": 120.9,
+                "score": 6.95
+            },
+            {
+                "rank": 8,
+                "fast": "Volt Switch",
+                "fast_url": "https://db.pokemongohub.net/move/250",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 8.0,
+                "tdo": 119.2,
+                "score": 6.86
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Spark",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/206"
+            },
+            {
+                "name": "Tackle *",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Volt Switch",
+                "type": "Electric",
+                "stats": {
+                    "damage": 13,
+                    "energy": 20,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 20,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 14,
+                    "energy": 16
+                },
+                "url": "https://db.pokemongohub.net/move/250"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Hyper Beam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 150,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 150,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.5s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/14"
+            },
+            {
+                "name": "Discharge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.1s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/35"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            },
+            {
+                "name": "Foul Play",
+                "type": "Dark",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.7s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/280"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Electrode's has 2373 max CP (at Level 50). A Electrode obtained from Raids can be encountered from 1134 CP to 1199 CP, or if weather boosted, in the 1418 CP to 1499 CP range. In Field and Special Research, Electrode can be found in the 851 CP to 899 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2373",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "851 - 899",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1134 - 1199",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1134 - 1199",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1418 - 1499",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1418 CP - 1499 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 29,
+        "2": 93,
+        "3": 156,
+        "4": 219,
+        "5": 283,
+        "6": 346,
+        "7": 409,
+        "8": 473,
+        "9": 536,
+        "10": 599,
+        "11": 659,
+        "12": 719,
+        "13": 779,
+        "14": 839,
+        "15": 899,
+        "16": 959,
+        "17": 1019,
+        "18": 1079,
+        "19": 1139,
+        "20": 1199,
+        "21": 1259,
+        "22": 1319,
+        "23": 1379,
+        "24": 1439,
+        "25": 1499,
+        "26": 1559,
+        "27": 1619,
+        "28": 1679,
+        "29": 1739,
+        "30": 1799,
+        "31": 1829,
+        "32": 1859,
+        "33": 1889,
+        "34": 1919,
+        "35": 1949,
+        "36": 1979,
+        "37": 2009,
+        "38": 2039,
+        "39": 2069,
+        "40": 2099,
+        "41": 2125,
+        "42": 2152,
+        "43": 2179,
+        "44": 2206,
+        "45": 2234,
+        "46": 2261,
+        "47": 2289,
+        "48": 2317,
+        "49": 2345,
+        "50": 2373
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Voltorb",
+                    "href": "/pokemon/100",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/100.webp"
+                },
+                "to": {
+                    "name": "Electrode",
+                    "href": "/pokemon/101",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/101.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Voltorb",
+                "href": "/pokemon/100",
+                "img": "https://db.pokemongohub.net/images/official/medium/100.webp"
+            },
+            {
+                "name": "Electrode",
+                "href": "/pokemon/101",
+                "img": "https://db.pokemongohub.net/images/official/medium/101.webp"
+            },
+            {
+                "name": "Hisuian Voltorb",
+                "href": "/pokemon/100-Hisuian",
+                "img": "https://db.pokemongohub.net/images/official/medium/100_hisuian.webp"
+            },
+            {
+                "name": "Hisuian Electrode",
+                "href": "/pokemon/101-Hisuian",
+                "img": "https://db.pokemongohub.net/images/official/medium/101_hisuian.webp"
+            },
+            {
+                "name": "Shadow Hisuian Voltorb",
+                "href": "/pokemon/100-Hisuian_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Hisuian Electrode",
+                "href": "/pokemon/101-Hisuian_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Voltorb",
+                "href": "/pokemon/100-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Electrode",
+                "href": "/pokemon/101-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Electrode in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Electrode",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Electrode's Electric-type moves, Candy, and Candy XL from catching Electrode.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 101,
+            "height_m": 1.2,
+            "weight_kg": 66.6,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.59 m",
+            "xs": "0.6 m",
+            "m": "1.2 m",
+            "xl": "1.8 m",
+            "xxl": "2.4 m",
+            "description": "Electrode's height ranges from 0.59 m to 2.4 m, with the average being 1.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.588,
+                "upper_m": 0.6,
+                "lower_ft": "1′11″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.6,
+                "upper_m": 1.2,
+                "lower_ft": "1′12″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.9,
+                "upper_m": 1.5,
+                "lower_ft": "2′11″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.5,
+                "upper_m": 1.8,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.8,
+                "upper_m": 2.4,
+                "lower_ft": "5′11″",
+                "upper_ft": "7′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 8,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 23,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "It stores electric energy under very high pressure. It often explodes with little or no provocation."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It stores an over flowing amount of electric energy inside its body. Even a small shock makes it explode."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode."
+        },
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "ELECTRODE eats electricity in the atmosphere. On days when lightning strikes, you can see this POKéMON exploding all over the place from eating too much electricity."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "One of ELECTRODE’s characteristics is its attraction to electricity. It is a problematical POKéMON that congregates mostly at electrical power plants to feed on electricity that has just been generated."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "They appear in great numbers at electric power plants. Because they feed on electricity, they cause massive and chaotic blackouts in nearby cities."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It explodes in response to even minor stimuli. It is feared, with the nickname of “The Bomb Ball.”"
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "It stores electric energy under very high pressure. It often explodes with little or no provocation."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It is known to drift on winds if it is bloated to bursting with stored electricity."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It explodes in response to even minor stimuli. It is feared, with the nickname of “The Bomb Ball.”"
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Electrode eats electricity in the atmosphere. On days when lightning strikes, you can see this Pokémon exploding all over the place from eating too much electricity."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "One of Electrode’s characteristics is its attraction to electricity. It is a problematical Pokémon that congregates mostly at electrical power plants to feed on electricity that has just been generated."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Electrode",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm101.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm101.icon.png"
+            },
+            {
+                "label": "Shiny Electrode",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm101.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm101.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 101,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0101_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0101_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Electrode sprite"
+            },
+            {
+                "pokedex_number": 101,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0101_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0101_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Electrode sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/101_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/101_social.jpg",
+                "alt": "Electrode"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/101_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/101_social_dark.jpg",
+                "alt": "Electrode"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/101_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/101_social_map.jpg",
+                "alt": "Electrode"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/101_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/101_social_map_dark.jpg",
+                "alt": "Electrode"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Electrode’s strengths and weaknesses?",
+            "answer": "As a Electric-type Pokémon, Electrode is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Electrode in Pokémon GO?",
+            "answer": "The best moves for Electrode in Pokémon GO are Spark and Thunderbolt. This moveset has a DPS (Damage Per Second) of 9.117 and a TDO (Total Damage Output) of 135.813."
+        },
+        {
+            "question": "How does Electrode perform in Raids?",
+            "answer": "Electrode's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Electrode rank as a Electric-type attacker?",
+            "answer": "Electrode is an F-Tier Electric-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Electrode?",
+            "answer": "The following Mega Pokémon boost Electrode: Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Electrode’s maximum CP at Level 40 and Level 50?",
+            "answer": "Electrode’s maximum CP at Level 40 is 2099 CP and 2373 CP at Level 50."
+        },
+        {
+            "question": "Can Electrode be shiny in Pokémon GO?",
+            "answer": "Electrode can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Electrode Dynamax in Pokémon GO?",
+            "answer": "Electrode cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

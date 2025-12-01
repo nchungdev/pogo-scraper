@@ -1,0 +1,785 @@
+{
+    "overview_and_stats": {
+        "max_cp": 895,
+        "attack": 98,
+        "defense": 73,
+        "stamina": 128,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Patrat",
+        "forms": [
+            {
+                "name": "Patrat",
+                "href": "/pokemon/504",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/504.webp"
+            },
+            {
+                "name": "Shadow Patrat",
+                "href": "/pokemon/504-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/504.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/504.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Hyper Fang",
+            "dps": 4.1,
+            "tdo": 24.05,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Hyper Fang",
+                "charged_url": "https://db.pokemongohub.net/move/129",
+                "dps": 4.1,
+                "tdo": 24.0,
+                "score": 2.87
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 4.09,
+                "tdo": 24.0,
+                "score": 2.87
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 4.03,
+                "tdo": 23.6,
+                "score": 2.82
+            },
+            {
+                "rank": 4,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 3.98,
+                "tdo": 23.3,
+                "score": 2.79
+            },
+            {
+                "rank": 5,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Hyper Fang",
+                "charged_url": "https://db.pokemongohub.net/move/129",
+                "dps": 3.98,
+                "tdo": 23.3,
+                "score": 2.79
+            },
+            {
+                "rank": 6,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 3.98,
+                "tdo": 23.3,
+                "score": 2.79
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dig",
+                "type": "Ground",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 4.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.5,
+                    "damage_window": "2.6s - 4.3s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/26"
+            },
+            {
+                "name": "Hyper Fang",
+                "type": "Normal",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.5s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/129"
+            },
+            {
+                "name": "Grass Knot",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/272"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Patrat's has 895 max CP (at Level 50). A Patrat obtained from Raids can be encountered from 412 CP to 452 CP, or if weather boosted, in the 515 CP to 565 CP range. In Field and Special Research, Patrat can be found in the 309 CP to 339 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "895",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "309 - 339",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "412 - 452",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "412 - 452",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "515 - 565",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "515 CP - 565 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 11,
+        "2": 35,
+        "3": 58,
+        "4": 82,
+        "5": 106,
+        "6": 130,
+        "7": 154,
+        "8": 178,
+        "9": 202,
+        "10": 226,
+        "11": 248,
+        "12": 271,
+        "13": 294,
+        "14": 316,
+        "15": 339,
+        "16": 361,
+        "17": 384,
+        "18": 407,
+        "19": 429,
+        "20": 452,
+        "21": 475,
+        "22": 497,
+        "23": 520,
+        "24": 542,
+        "25": 565,
+        "26": 588,
+        "27": 610,
+        "28": 633,
+        "29": 656,
+        "30": 678,
+        "31": 689,
+        "32": 701,
+        "33": 712,
+        "34": 723,
+        "35": 735,
+        "36": 746,
+        "37": 757,
+        "38": 769,
+        "39": 780,
+        "40": 791,
+        "41": 801,
+        "42": 811,
+        "43": 822,
+        "44": 832,
+        "45": 842,
+        "46": 852,
+        "47": 863,
+        "48": 873,
+        "49": 884,
+        "50": 895
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Patrat",
+                    "href": "/pokemon/504",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/504.webp"
+                },
+                "to": {
+                    "name": "Watchog",
+                    "href": "/pokemon/505",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/505.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Patrat",
+                "href": "/pokemon/504",
+                "img": "https://db.pokemongohub.net/images/official/medium/504.webp"
+            },
+            {
+                "name": "Watchog",
+                "href": "/pokemon/505",
+                "img": "https://db.pokemongohub.net/images/official/medium/505.webp"
+            },
+            {
+                "name": "Shadow Patrat",
+                "href": "/pokemon/504-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Watchog",
+                "href": "/pokemon/505-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Patrat in the meta PvE Analysis ⚔️ Raids Patrat is the first stage of a two-stage evolution line and a Normal-type Pokémon. Suffice it to say, Patrat has no place as a raid attacker. PvP Analysis Patrat is an unevolved Pokémon with a max CP of 895. As such, Patrat has no place in any of the three main PvP metas. It also does not perform well in the 500 CP Little Cup format.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Patrat",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Patrat's Normal-type moves, Candy, and Candy XL from catching Patrat.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 504,
+            "height_m": 0.5,
+            "weight_kg": 11.6,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.78 m",
+            "description": "Patrat's height ranges from 0.25 m to 0.78 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.775,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 30.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.6,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "Extremely cautious, they take shifts to maintain a constant watch of their nest. They feel insecure without a lookout."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Extremely cautious, one of them will always be on the lookout, but it won’t notice a foe coming from behind."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Extremely cautious, one of them will always be on the lookout, but it won’t notice a foe coming from behind."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Patrat",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm504.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm504.icon.png"
+            },
+            {
+                "label": "Shiny Patrat",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm504.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm504.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 504,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0504_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0504_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Patrat sprite"
+            },
+            {
+                "pokedex_number": 504,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0504_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0504_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Patrat sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/504_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/504_social.jpg",
+                "alt": "Patrat"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/504_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/504_social_dark.jpg",
+                "alt": "Patrat"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/504_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/504_social_map.jpg",
+                "alt": "Patrat"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/504_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/504_social_map_dark.jpg",
+                "alt": "Patrat"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Patrat’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Patrat is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Patrat in Pokémon GO?",
+            "answer": "The best moves for Patrat in Pokémon GO are Tackle and Hyper Fang. This moveset has a DPS (Damage Per Second) of 4.1 and a TDO (Total Damage Output) of 24.046."
+        },
+        {
+            "question": "How does Patrat perform in Raids?",
+            "answer": "Patrat's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Patrat rank as a Normal-type attacker?",
+            "answer": "Patrat's performance as a Normal-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Patrat?",
+            "answer": "The following Mega Pokémon boost Patrat: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Patrat’s maximum CP at Level 40 and Level 50?",
+            "answer": "Patrat’s maximum CP at Level 40 is 791 CP and 895 CP at Level 50."
+        },
+        {
+            "question": "Can Patrat be shiny in Pokémon GO?",
+            "answer": "Patrat can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Patrat Dynamax in Pokémon GO?",
+            "answer": "Patrat cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

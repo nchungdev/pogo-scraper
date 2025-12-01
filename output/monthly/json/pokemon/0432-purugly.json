@@ -1,0 +1,786 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2208,
+        "attack": 172,
+        "defense": 133,
+        "stamina": 174,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Purugly",
+        "forms": [
+            {
+                "name": "Purugly",
+                "href": "/pokemon/432",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/432.webp"
+            },
+            {
+                "name": "Shadow Purugly",
+                "href": "/pokemon/432-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/432.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/432.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Scratch",
+            "charged": "Play Rough",
+            "dps": 8.68,
+            "tdo": 113.17,
+            "boosted_weather": [
+                "partlyCloudy",
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 8.68,
+                "tdo": 113.2,
+                "score": 7.29
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Thunder",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 8.09,
+                "tdo": 105.4,
+                "score": 6.79
+            },
+            {
+                "rank": 3,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 8.01,
+                "tdo": 104.4,
+                "score": 6.72
+            },
+            {
+                "rank": 4,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 7.84,
+                "tdo": 102.2,
+                "score": 6.58
+            },
+            {
+                "rank": 5,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 7.25,
+                "tdo": 94.5,
+                "score": 6.08
+            },
+            {
+                "rank": 6,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Thunder",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 7.22,
+                "tdo": 94.2,
+                "score": 6.06
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Shadow Claw",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.3s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/213"
+            },
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Thunder",
+                "type": "Electric",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/78"
+            },
+            {
+                "name": "Play Rough",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/88"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Purugly's has 2208 max CP (at Level 50). A Purugly obtained from Raids can be encountered from 1053 CP to 1116 CP, or if weather boosted, in the 1317 CP to 1395 CP range. In Field and Special Research, Purugly can be found in the 790 CP to 837 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2208",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "790 - 837",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1053 - 1116",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1053 - 1116",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1317 - 1395",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1317 CP - 1395 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 27,
+        "2": 86,
+        "3": 145,
+        "4": 204,
+        "5": 263,
+        "6": 322,
+        "7": 381,
+        "8": 440,
+        "9": 499,
+        "10": 558,
+        "11": 614,
+        "12": 669,
+        "13": 725,
+        "14": 781,
+        "15": 837,
+        "16": 893,
+        "17": 948,
+        "18": 1004,
+        "19": 1060,
+        "20": 1116,
+        "21": 1172,
+        "22": 1227,
+        "23": 1283,
+        "24": 1339,
+        "25": 1395,
+        "26": 1451,
+        "27": 1506,
+        "28": 1562,
+        "29": 1618,
+        "30": 1674,
+        "31": 1702,
+        "32": 1730,
+        "33": 1758,
+        "34": 1786,
+        "35": 1813,
+        "36": 1841,
+        "37": 1869,
+        "38": 1897,
+        "39": 1925,
+        "40": 1953,
+        "41": 1978,
+        "42": 2003,
+        "43": 2028,
+        "44": 2053,
+        "45": 2078,
+        "46": 2104,
+        "47": 2130,
+        "48": 2156,
+        "49": 2182,
+        "50": 2208
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Glameow",
+                    "href": "/pokemon/431",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/431.webp"
+                },
+                "to": {
+                    "name": "Purugly",
+                    "href": "/pokemon/432",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/432.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Glameow",
+                "href": "/pokemon/431",
+                "img": "https://db.pokemongohub.net/images/official/medium/431.webp"
+            },
+            {
+                "name": "Purugly",
+                "href": "/pokemon/432",
+                "img": "https://db.pokemongohub.net/images/official/medium/432.webp"
+            },
+            {
+                "name": "Shadow Glameow",
+                "href": "/pokemon/431-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Purugly",
+                "href": "/pokemon/432-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Purugly in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Purugly",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Purugly's Normal-type moves, Candy, and Candy XL from catching Purugly.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 432,
+            "height_m": 1,
+            "weight_kg": 43.8,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "1.55 m",
+            "description": "Purugly's height ranges from 0.49 m to 1.55 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 1.55,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It is a brazen brute that barges its way into another Pokémon’s nest and claims it as its own."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It binds its body with its tails to make itself look bigger. If it locks eyes, it will glare ceaselessly."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It would claim another Pokémon’s nest as its own if it finds a nest sufficiently comfortable."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It would claim another Pokémon’s nest as its own if it finds a nest sufficiently comfortable."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Though impudent and difficult to tame, Purugly enjoys great popularity due to its fur, the beauty of which surpasses even velveteen."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Purugly",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm432.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm432.icon.png"
+            },
+            {
+                "label": "Shiny Purugly",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm432.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm432.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 432,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0432_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0432_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Purugly sprite"
+            },
+            {
+                "pokedex_number": 432,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0432_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0432_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Purugly sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/432_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/432_social.jpg",
+                "alt": "Purugly"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/432_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/432_social_dark.jpg",
+                "alt": "Purugly"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/432_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/432_social_map.jpg",
+                "alt": "Purugly"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/432_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/432_social_map_dark.jpg",
+                "alt": "Purugly"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Purugly’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Purugly is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Purugly in Pokémon GO?",
+            "answer": "The best moves for Purugly in Pokémon GO are Scratch and Play Rough. This moveset has a DPS (Damage Per Second) of 8.68 and a TDO (Total Damage Output) of 113.168."
+        },
+        {
+            "question": "How does Purugly perform in Raids?",
+            "answer": "Purugly's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Purugly rank as a Normal-type attacker?",
+            "answer": "Purugly is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Purugly?",
+            "answer": "The following Mega Pokémon boost Purugly: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Purugly’s maximum CP at Level 40 and Level 50?",
+            "answer": "Purugly’s maximum CP at Level 40 is 1953 CP and 2208 CP at Level 50."
+        },
+        {
+            "question": "Can Purugly be shiny in Pokémon GO?",
+            "answer": "Purugly can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Purugly Dynamax in Pokémon GO?",
+            "answer": "Purugly cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

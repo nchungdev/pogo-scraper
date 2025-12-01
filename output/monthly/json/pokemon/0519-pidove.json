@@ -1,0 +1,824 @@
+{
+    "overview_and_stats": {
+        "max_cp": 958,
+        "attack": 98,
+        "defense": 80,
+        "stamina": 137,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Pidove",
+        "forms": [
+            {
+                "name": "Pidove",
+                "href": "/pokemon/519",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/519.webp"
+            },
+            {
+                "name": "Shadow Pidove",
+                "href": "/pokemon/519-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/519.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/519.webp",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Air Slash",
+            "charged": "Aerial Ace",
+            "dps": 4.37,
+            "tdo": 29.39,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 4.37,
+                "tdo": 29.4,
+                "score": 3.18
+            },
+            {
+                "rank": 2,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 4.35,
+                "tdo": 29.3,
+                "score": 3.17
+            },
+            {
+                "rank": 3,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Air Cutter",
+                "charged_url": "https://db.pokemongohub.net/move/121",
+                "dps": 4.17,
+                "tdo": 28.1,
+                "score": 3.04
+            },
+            {
+                "rank": 4,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Heat Wave",
+                "charged_url": "https://db.pokemongohub.net/move/42",
+                "dps": 4.07,
+                "tdo": 27.4,
+                "score": 2.97
+            },
+            {
+                "rank": 5,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Air Cutter",
+                "charged_url": "https://db.pokemongohub.net/move/121",
+                "dps": 4.04,
+                "tdo": 27.2,
+                "score": 2.95
+            },
+            {
+                "rank": 6,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Heat Wave",
+                "charged_url": "https://db.pokemongohub.net/move/42",
+                "dps": 3.66,
+                "tdo": 24.7,
+                "score": 2.67
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            },
+            {
+                "name": "Air Slash",
+                "type": "Flying",
+                "stats": {
+                    "damage": 12,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 12,
+                    "energy": 8,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/255"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Heat Wave",
+                "type": "Fire",
+                "stats": {
+                    "damage": 95,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.7s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 95,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/42"
+            },
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Air Cutter",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/121"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Pidove's has 958 max CP (at Level 50). A Pidove obtained from Raids can be encountered from 443 CP to 484 CP, or if weather boosted, in the 554 CP to 605 CP range. In Field and Special Research, Pidove can be found in the 332 CP to 363 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "958",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "332 - 363",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "443 - 484",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "443 - 484",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "554 - 605",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "554 CP - 605 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 11,
+        "2": 37,
+        "3": 63,
+        "4": 88,
+        "5": 114,
+        "6": 139,
+        "7": 165,
+        "8": 191,
+        "9": 216,
+        "10": 242,
+        "11": 266,
+        "12": 290,
+        "13": 315,
+        "14": 339,
+        "15": 363,
+        "16": 387,
+        "17": 411,
+        "18": 436,
+        "19": 460,
+        "20": 484,
+        "21": 508,
+        "22": 533,
+        "23": 557,
+        "24": 581,
+        "25": 605,
+        "26": 630,
+        "27": 654,
+        "28": 678,
+        "29": 702,
+        "30": 726,
+        "31": 739,
+        "32": 751,
+        "33": 763,
+        "34": 775,
+        "35": 787,
+        "36": 799,
+        "37": 811,
+        "38": 823,
+        "39": 835,
+        "40": 848,
+        "41": 858,
+        "42": 869,
+        "43": 880,
+        "44": 891,
+        "45": 902,
+        "46": 913,
+        "47": 924,
+        "48": 936,
+        "49": 947,
+        "50": 958
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Pidove",
+                    "href": "/pokemon/519",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/519.webp"
+                },
+                "to": {
+                    "name": "Tranquill",
+                    "href": "/pokemon/520",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/520.webp"
+                },
+                "requirements": [
+                    "12 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Tranquill",
+                    "href": "/pokemon/520",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/520.webp"
+                },
+                "to": {
+                    "name": "Unfezant",
+                    "href": "/pokemon/521",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/521.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "12 Candy"
+        ],
+        "family": [
+            {
+                "name": "Pidove",
+                "href": "/pokemon/519",
+                "img": "https://db.pokemongohub.net/images/official/medium/519.webp"
+            },
+            {
+                "name": "Tranquill",
+                "href": "/pokemon/520",
+                "img": "https://db.pokemongohub.net/images/official/medium/520.webp"
+            },
+            {
+                "name": "Unfezant",
+                "href": "/pokemon/521",
+                "img": "https://db.pokemongohub.net/images/official/medium/521.webp"
+            },
+            {
+                "name": "Shadow Pidove",
+                "href": "/pokemon/519-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Tranquill",
+                "href": "/pokemon/520-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Unfezant",
+                "href": "/pokemon/521-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Pidove in the meta PvE Analysis No usage in Gyms or Raids . PvP Analysis Pidove’s best moves in PvP are Quick Attack , Aerial Ace , and Heat Wave , or Return if you have a purified Pidove . 🧸 Little Cup – Pidove ranks better as a Purified Pokémon for Little Cup than the regular or Shadow version, as Return is a better option alongside Aerial Ace . Pidgeot is a better Normal/Flying type, but Pidove doesn’t perform too badly. 🔵 Great League – Pidove is much too small for the Great League . 🟡 Ultra League – Pidove is way too small for the Ultra League . 🟣 Master League – Pidove will be instantly destroyed in the Master League .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Pidove",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Pidove's Normal and Flying-type moves, Candy, and Candy XL from catching Pidove.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 519,
+            "height_m": 0.3,
+            "weight_kg": 2.1,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Pidove's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 15.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.6,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Each follows its Trainer’s orders as best it can, but they sometimes fail to understand complicated commands."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "This very forgetful Pokémon will wait for a new order from its Trainer even though it already has one."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "This very forgetful Pokémon will wait for a new order from its Trainer even though it already has one."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "These Pokémon live in cities. They are accustomed to people. Flocks often gather in parks and plazas."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Where people go, these Pokémon follow. If you’re scattering food for them, be careful— several hundred of them can gather at once."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It’s forgetful and not very bright, but many Trainers love it anyway for its friendliness and sincerity."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Pidove",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm519.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm519.icon.png"
+            },
+            {
+                "label": "Shiny Pidove",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm519.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm519.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 519,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0519_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0519_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Pidove sprite"
+            },
+            {
+                "pokedex_number": 519,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0519_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0519_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Pidove sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/519_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/519_social.jpg",
+                "alt": "Pidove"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/519_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/519_social_dark.jpg",
+                "alt": "Pidove"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/519_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/519_social_map.jpg",
+                "alt": "Pidove"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/519_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/519_social_map_dark.jpg",
+                "alt": "Pidove"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Pidove’s strengths and weaknesses?",
+            "answer": "As a Normal and Flying-type Pokémon, Pidove is weak to Electric, Ice, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Pidove in Pokémon GO?",
+            "answer": "The best moves for Pidove in Pokémon GO are Air Slash and Aerial Ace. This moveset has a DPS (Damage Per Second) of 4.366 and a TDO (Total Damage Output) of 29.388."
+        },
+        {
+            "question": "How does Pidove perform in Raids?",
+            "answer": "Pidove's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Pidove rank as a Normal-type attacker?",
+            "answer": "Pidove's performance as a Normal-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Pidove?",
+            "answer": "The following Mega Pokémon boost Pidove: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, Mega Audino, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Pidove’s maximum CP at Level 40 and Level 50?",
+            "answer": "Pidove’s maximum CP at Level 40 is 848 CP and 958 CP at Level 50."
+        },
+        {
+            "question": "Can Pidove be shiny in Pokémon GO?",
+            "answer": "Pidove can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Pidove Dynamax in Pokémon GO?",
+            "answer": "Pidove can Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,778 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3351,
+        "attack": 262,
+        "defense": 142,
+        "stamina": 172,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": false,
+        "title": "Inteleon",
+        "forms": [
+            {
+                "name": "Inteleon",
+                "href": "/pokemon/818",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/818.webp"
+            },
+            {
+                "name": "Gigantamax Inteleon",
+                "href": "/pokemon/818-Gigantamax",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/818_gmax.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/818.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Pound",
+            "charged": "Surf",
+            "dps": 13.17,
+            "tdo": 180.25,
+            "boosted_weather": [
+                "partlyCloudy",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Surf",
+                "charged_url": "https://db.pokemongohub.net/move/284",
+                "dps": 13.17,
+                "tdo": 180.3,
+                "score": 11.14
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Surf",
+                "charged_url": "https://db.pokemongohub.net/move/284",
+                "dps": 13.17,
+                "tdo": 180.3,
+                "score": 11.14
+            },
+            {
+                "rank": 3,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 12.83,
+                "tdo": 175.5,
+                "score": 10.86
+            },
+            {
+                "rank": 4,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 12.83,
+                "tdo": 175.5,
+                "score": 10.86
+            },
+            {
+                "rank": 5,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 11.16,
+                "tdo": 152.8,
+                "score": 9.44
+            },
+            {
+                "rank": 6,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 11.16,
+                "tdo": 152.8,
+                "score": 9.44
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Pound",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.4s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/222"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Surf",
+                "type": "Water",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.2s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/284"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Inteleon's has 3351 max CP (at Level 50). A Inteleon obtained from Raids can be encountered from 1614 CP to 1693 CP, or if weather boosted, in the 2018 CP to 2117 CP range. In Field and Special Research, Inteleon can be found in the 1211 CP to 1270 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3351",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1211 - 1270",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1614 - 1693",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1614 - 1693",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2018 - 2117",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2018 CP - 2117 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 41,
+        "2": 131,
+        "3": 220,
+        "4": 310,
+        "5": 399,
+        "6": 489,
+        "7": 578,
+        "8": 668,
+        "9": 757,
+        "10": 847,
+        "11": 931,
+        "12": 1016,
+        "13": 1101,
+        "14": 1185,
+        "15": 1270,
+        "16": 1355,
+        "17": 1439,
+        "18": 1524,
+        "19": 1609,
+        "20": 1693,
+        "21": 1778,
+        "22": 1863,
+        "23": 1948,
+        "24": 2032,
+        "25": 2117,
+        "26": 2202,
+        "27": 2286,
+        "28": 2371,
+        "29": 2456,
+        "30": 2541,
+        "31": 2583,
+        "32": 2625,
+        "33": 2668,
+        "34": 2710,
+        "35": 2752,
+        "36": 2795,
+        "37": 2837,
+        "38": 2879,
+        "39": 2922,
+        "40": 2964,
+        "41": 3002,
+        "42": 3039,
+        "43": 3077,
+        "44": 3116,
+        "45": 3154,
+        "46": 3193,
+        "47": 3232,
+        "48": 3272,
+        "49": 3311,
+        "50": 3351
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Sobble",
+                    "href": "/pokemon/816",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/816.webp"
+                },
+                "to": {
+                    "name": "Drizzile",
+                    "href": "/pokemon/817",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/817.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Drizzile",
+                    "href": "/pokemon/817",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/817.webp"
+                },
+                "to": {
+                    "name": "Inteleon",
+                    "href": "/pokemon/818",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/818.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Sobble",
+                "href": "/pokemon/816",
+                "img": "https://db.pokemongohub.net/images/official/medium/816.webp"
+            },
+            {
+                "name": "Drizzile",
+                "href": "/pokemon/817",
+                "img": "https://db.pokemongohub.net/images/official/medium/817.webp"
+            },
+            {
+                "name": "Inteleon",
+                "href": "/pokemon/818",
+                "img": "https://db.pokemongohub.net/images/official/medium/818.webp"
+            },
+            {
+                "name": "Gigantamax Inteleon",
+                "href": "/pokemon/818-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/818_gmax.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Inteleon in the meta PvE Analysis The name's Leon . Inteleon . 😎 Inteleon has a couple of reasons to be proud of itself. For one, it has the highest Attack stat of all starters in Pokémon GO, at a staggering 262! For context, that's higher than Garchomp ! 😲 Until its eventual Community Day grants it access to Hydro Cannon , Inteleon will remain a serviceable Water -type attacker that you can use. And yes, it's worth an Elite Charged TM in the future ✅ Keep in mind that it's squishier than Greninja , making Inteleon a complete glass cannon 🔍 ⚔️ Raids - Its high Attack stat helps Inteleon deserve a spot on your Raids team, though it's obviously outclassed by many other Water Pokémon ⛲ With Hydro Cannon , Inteleon will be a top-notch attacker, surpassing even Kyogre 😳 🛡️ Gyms - Its underwhelming bulk makes it a terrible Gym defender. 🔮 Dynamax Inteleon with Water -type moves is the top counter to any Max Battles hosting Fire , Ground , or Rock -type Pokémon. Show more Show less PvP Analysis While Greninja has a quick moveset to fit into PvP teams, the lower-bulk Inteleon doesn't. It's just not a PvP Pokémon, unless its signature move in the mainline games, Snipe Shot , does what Water Shuriken did to Greninja 🔫 🔵 Great League - Nothing in Inteleon’s profile makes it fit for the Great League ❌ 🟡 Ultra League - You may regret using Inteleon in the Ultra League 😅 🟣 Master League - Inteleon’s the James Bond of the franchise, but even the tricks up this Pokémon’s sleeve don't help it survive the onslaught of the Master League 😮‍💨",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Inteleon",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Inteleon's Water-type moves, Candy, and Candy XL from catching Inteleon.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 818,
+            "height_m": 1.9,
+            "weight_kg": 45.2,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 10,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.93 m",
+            "xs": "0.95 m",
+            "m": "1.9 m",
+            "xl": "2.85 m",
+            "xxl": "2.95 m",
+            "description": "Inteleon's height ranges from 0.93 m to 2.95 m, with the average being 1.9 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.931,
+                "upper_m": 0.95,
+                "lower_ft": "3′01″",
+                "upper_ft": "3′01″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.95,
+                "upper_m": 1.9,
+                "lower_ft": "3′01″",
+                "upper_ft": "6′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.425,
+                "upper_m": 2.375,
+                "lower_ft": "4′08″",
+                "upper_ft": "7′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.375,
+                "upper_m": 2.85,
+                "lower_ft": "7′10″",
+                "upper_ft": "9′04″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.85,
+                "upper_m": 2.945,
+                "lower_ft": "9′04″",
+                "upper_ft": "9′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Its nictitating membranes let it pick out foes’ weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Inteleon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm818.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm818.icon.png"
+            },
+            {
+                "label": "Shiny Inteleon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm818.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm818.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 818,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0818_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0818_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Inteleon sprite"
+            },
+            {
+                "pokedex_number": 818,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0818_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0818_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Inteleon sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/818_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/818_social.jpg",
+                "alt": "Inteleon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/818_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/818_social_dark.jpg",
+                "alt": "Inteleon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/818_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/818_social_map.jpg",
+                "alt": "Inteleon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/818_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/818_social_map_dark.jpg",
+                "alt": "Inteleon"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Inteleon’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Inteleon is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Inteleon in Pokémon GO?",
+            "answer": "The best moves for Inteleon in Pokémon GO are Pound and Surf. This moveset has a DPS (Damage Per Second) of 13.172 and a TDO (Total Damage Output) of 180.254."
+        },
+        {
+            "question": "How does Inteleon perform in Raids?",
+            "answer": "Inteleon's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Inteleon rank as a Water-type attacker?",
+            "answer": "Inteleon is a B-Tier Water-type attacker, ranking at number #34 with limited utility in specific matchups."
+        },
+        {
+            "question": "What Mega Pokémon boost Inteleon?",
+            "answer": "The following Mega Pokémon boost Inteleon: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Inteleon’s maximum CP at Level 40 and Level 50?",
+            "answer": "Inteleon’s maximum CP at Level 40 is 2964 CP and 3351 CP at Level 50."
+        },
+        {
+            "question": "Can Inteleon be shiny in Pokémon GO?",
+            "answer": "Inteleon cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Inteleon Dynamax in Pokémon GO?",
+            "answer": "Inteleon can Dynamax in Pokémon GO."
+        }
+    ]
+}

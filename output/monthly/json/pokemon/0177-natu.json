@@ -1,0 +1,893 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1246,
+        "attack": 134,
+        "defense": 89,
+        "stamina": 120,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Natu",
+        "forms": [
+            {
+                "name": "Natu",
+                "href": "/pokemon/177",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/177.webp"
+            },
+            {
+                "name": "Shadow Natu",
+                "href": "/pokemon/177-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/177.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/177.webp",
+        "types": [
+            "Psychic",
+            "Flying"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Quick Attack",
+            "charged": "Drill Peck",
+            "dps": 5.69,
+            "tdo": 37.26,
+            "boosted_weather": [
+                "partlyCloudy",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Drill Peck",
+                "charged_url": "https://db.pokemongohub.net/move/38",
+                "dps": 5.69,
+                "tdo": 37.3,
+                "score": 4.12
+            },
+            {
+                "rank": 2,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Drill Peck",
+                "charged_url": "https://db.pokemongohub.net/move/38",
+                "dps": 5.6,
+                "tdo": 36.6,
+                "score": 4.05
+            },
+            {
+                "rank": 3,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 5.32,
+                "tdo": 34.8,
+                "score": 3.85
+            },
+            {
+                "rank": 4,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 5.29,
+                "tdo": 34.6,
+                "score": 3.83
+            },
+            {
+                "rank": 5,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 4.75,
+                "tdo": 31.1,
+                "score": 3.44
+            },
+            {
+                "rank": 6,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 4.48,
+                "tdo": 29.3,
+                "score": 3.24
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Peck",
+                "type": "Flying",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/211"
+            },
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Drill Peck",
+                "type": "Flying",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.9s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/38"
+            },
+            {
+                "name": "Psyshock",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/60"
+            },
+            {
+                "name": "Night Shade",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/265"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Natu's has 1246 max CP (at Level 50). A Natu obtained from Raids can be encountered from 583 CP to 630 CP, or if weather boosted, in the 728 CP to 787 CP range. In Field and Special Research, Natu can be found in the 437 CP to 472 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1246",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "437 - 472",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "583 - 630",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "583 - 630",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "728 - 787",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "728 CP - 787 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 15,
+        "2": 48,
+        "3": 82,
+        "4": 115,
+        "5": 148,
+        "6": 182,
+        "7": 215,
+        "8": 248,
+        "9": 281,
+        "10": 315,
+        "11": 346,
+        "12": 378,
+        "13": 409,
+        "14": 441,
+        "15": 472,
+        "16": 504,
+        "17": 535,
+        "18": 567,
+        "19": 598,
+        "20": 630,
+        "21": 661,
+        "22": 693,
+        "23": 724,
+        "24": 756,
+        "25": 787,
+        "26": 819,
+        "27": 850,
+        "28": 882,
+        "29": 913,
+        "30": 945,
+        "31": 960,
+        "32": 976,
+        "33": 992,
+        "34": 1008,
+        "35": 1023,
+        "36": 1039,
+        "37": 1055,
+        "38": 1071,
+        "39": 1086,
+        "40": 1102,
+        "41": 1116,
+        "42": 1130,
+        "43": 1144,
+        "44": 1159,
+        "45": 1173,
+        "46": 1187,
+        "47": 1202,
+        "48": 1217,
+        "49": 1231,
+        "50": 1246
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Natu",
+                    "href": "/pokemon/177",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/177.webp"
+                },
+                "to": {
+                    "name": "Xatu",
+                    "href": "/pokemon/178",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/178.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Natu",
+                "href": "/pokemon/177",
+                "img": "https://db.pokemongohub.net/images/official/medium/177.webp"
+            },
+            {
+                "name": "Xatu",
+                "href": "/pokemon/178",
+                "img": "https://db.pokemongohub.net/images/official/medium/178.webp"
+            },
+            {
+                "name": "Shadow Natu",
+                "href": "/pokemon/177-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Xatu",
+                "href": "/pokemon/178-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Natu in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Natu",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Natu's Psychic and Flying-type moves, Candy, and Candy XL from catching Natu.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 177,
+            "height_m": 0.2,
+            "weight_kg": 2,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.1 m",
+            "xs": "0.1 m",
+            "m": "0.2 m",
+            "xl": "0.3 m",
+            "xxl": "0.35 m",
+            "description": "Natu's height ranges from 0.1 m to 0.35 m, with the average being 0.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.098,
+                "upper_m": 0.1,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.1,
+                "upper_m": 0.2,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.15,
+                "upper_m": 0.25,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.25,
+                "upper_m": 0.3,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.3,
+                "upper_m": 0.35,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "Because its wings aren't yet fully grown, it has to hop to get around. It is always star ing at something."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees."
+        },
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "NATU cannot fly because its wings are not yet fully grown. If your eyes meet with this POKéMON’s eyes, it will stare back intently at you. But if you move even slightly, it will hop away to safety."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "NATU has a highly developed jumping ability. The POKéMON flaps and leaps onto tree branches that are taller than grown-up people to pick at the tree’s new shoots."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It runs up short trees that grow on the savanna to peck at new shoots. A NATU’s eyes look as if they are always observing something."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Because its wings aren’t yet fully grown, it has to hop to get around. It is always staring at something."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It picks food from cactus plants, deftly avoiding buds and spines. It seems to skip about to move."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "Because its wings aren’t yet fully grown, it has to hop to get around. It is always staring at something."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Because its wings aren’t yet fully grown, it has to hop to get around. It is always staring at something."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Natu cannot fly because its wings are not yet fully grown. If your eyes meet with this Pokémon’s eyes, it will stare back intently at you. But if you move even slightly, it will hop away to safety."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Natu has a highly developed jumping ability. The Pokémon flaps and leaps onto tree branches that are taller than grown-up people to pick at the tree’s new shoots."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Although it still can’t fly, its jumping power is outstanding. It jumps way up into trees and plucks the buds from the branches."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "The look in its eyes gives the impression that it’s carefully observing you. If you approach it, Natu will hop away."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It is extremely good at climbing tree trunks and likes to eat the new sprouts on the trees."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Because its wings aren’t yet fully grown, it has to hop to get around. It is always staring at something."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Natu",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm177.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm177.icon.png"
+            },
+            {
+                "label": "Shiny Natu",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm177.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm177.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 177,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0177_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0177_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Natu sprite"
+            },
+            {
+                "pokedex_number": 177,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0177_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0177_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Natu sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/177_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/177_social.jpg",
+                "alt": "Natu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/177_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/177_social_dark.jpg",
+                "alt": "Natu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/177_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/177_social_map.jpg",
+                "alt": "Natu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/177_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/177_social_map_dark.jpg",
+                "alt": "Natu"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Natu’s strengths and weaknesses?",
+            "answer": "As a Psychic and Flying-type Pokémon, Natu is weak to Dark, Electric, Ghost, Ice, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Natu in Pokémon GO?",
+            "answer": "The best moves for Natu in Pokémon GO are Quick Attack and Drill Peck. This moveset has a DPS (Damage Per Second) of 5.693 and a TDO (Total Damage Output) of 37.258."
+        },
+        {
+            "question": "How does Natu perform in Raids?",
+            "answer": "Natu's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Natu rank as a Psychic-type attacker?",
+            "answer": "Natu is an F-Tier Psychic-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Natu rank as a Flying-type attacker?",
+            "answer": "Natu is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Natu?",
+            "answer": "The following Mega Pokémon boost Natu: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, Mega Gallade, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Natu’s maximum CP at Level 40 and Level 50?",
+            "answer": "Natu’s maximum CP at Level 40 is 1102 CP and 1246 CP at Level 50."
+        },
+        {
+            "question": "Can Natu be shiny in Pokémon GO?",
+            "answer": "Natu can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Natu Dynamax in Pokémon GO?",
+            "answer": "Natu cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

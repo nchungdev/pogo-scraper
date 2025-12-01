@@ -1,0 +1,988 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3033,
+        "attack": 222,
+        "defense": 151,
+        "stamina": 183,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Infernape",
+        "forms": [
+            {
+                "name": "Infernape",
+                "href": "/pokemon/392",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/392.webp"
+            },
+            {
+                "name": "Shadow Infernape",
+                "href": "/pokemon/392-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/392.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/392.webp",
+        "types": [
+            "Fire",
+            "Fighting"
+        ],
+        "weather_boost": [
+            "sunny",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Fire Spin",
+            "charged": "Blast Burn",
+            "dps": 13.77,
+            "tdo": 210.94,
+            "boosted_weather": [
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Blast Burn *",
+                "charged_url": "https://db.pokemongohub.net/move/298",
+                "dps": 13.77,
+                "tdo": 210.9,
+                "score": 11.84
+            },
+            {
+                "rank": 2,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Blast Burn *",
+                "charged_url": "https://db.pokemongohub.net/move/298",
+                "dps": 12.6,
+                "tdo": 193.0,
+                "score": 10.84
+            },
+            {
+                "rank": 3,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 11.87,
+                "tdo": 181.9,
+                "score": 10.21
+            },
+            {
+                "rank": 4,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Close Combat",
+                "charged_url": "https://db.pokemongohub.net/move/245",
+                "dps": 11.3,
+                "tdo": 173.1,
+                "score": 9.72
+            },
+            {
+                "rank": 5,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Solar Beam",
+                "charged_url": "https://db.pokemongohub.net/move/116",
+                "dps": 11.23,
+                "tdo": 172.0,
+                "score": 9.66
+            },
+            {
+                "rank": 6,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 10.66,
+                "tdo": 163.4,
+                "score": 9.17
+            },
+            {
+                "rank": 7,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Solar Beam",
+                "charged_url": "https://db.pokemongohub.net/move/116",
+                "dps": 9.97,
+                "tdo": 152.7,
+                "score": 8.57
+            },
+            {
+                "rank": 8,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Close Combat",
+                "charged_url": "https://db.pokemongohub.net/move/245",
+                "dps": 9.88,
+                "tdo": 151.4,
+                "score": 8.49
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Rock Smash",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 17,
+                    "energy": 12,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 17,
+                    "energy": 12,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/241"
+            },
+            {
+                "name": "Fire Spin",
+                "type": "Fire",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 11,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/269"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Solar Beam",
+                "type": "Grass",
+                "stats": {
+                    "damage": 180,
+                    "energy": 100,
+                    "duration": 5.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 180,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 5.0,
+                    "damage_window": "2.8s - 4.8s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/116"
+            },
+            {
+                "name": "Close Combat",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.2s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/245"
+            },
+            {
+                "name": "Blast Burn *",
+                "type": "Fire",
+                "stats": {
+                    "damage": 120,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 120,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "3.0s - 3.4s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/298"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Infernape's has 3033 max CP (at Level 50). A Infernape obtained from Raids can be encountered from 1459 CP to 1533 CP, or if weather boosted, in the 1824 CP to 1916 CP range. In Field and Special Research, Infernape can be found in the 1094 CP to 1150 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3033",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1094 - 1150",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1459 - 1533",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1459 - 1533",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1824 - 1916",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1824 CP - 1916 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 37,
+        "2": 118,
+        "3": 199,
+        "4": 280,
+        "5": 361,
+        "6": 442,
+        "7": 523,
+        "8": 604,
+        "9": 685,
+        "10": 766,
+        "11": 843,
+        "12": 920,
+        "13": 996,
+        "14": 1073,
+        "15": 1150,
+        "16": 1226,
+        "17": 1303,
+        "18": 1380,
+        "19": 1456,
+        "20": 1533,
+        "21": 1610,
+        "22": 1686,
+        "23": 1763,
+        "24": 1840,
+        "25": 1916,
+        "26": 1993,
+        "27": 2070,
+        "28": 2146,
+        "29": 2223,
+        "30": 2300,
+        "31": 2338,
+        "32": 2377,
+        "33": 2415,
+        "34": 2453,
+        "35": 2491,
+        "36": 2530,
+        "37": 2568,
+        "38": 2606,
+        "39": 2645,
+        "40": 2683,
+        "41": 2717,
+        "42": 2751,
+        "43": 2786,
+        "44": 2821,
+        "45": 2856,
+        "46": 2891,
+        "47": 2926,
+        "48": 2962,
+        "49": 2997,
+        "50": 3033
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Chimchar",
+                    "href": "/pokemon/390",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/390.webp"
+                },
+                "to": {
+                    "name": "Monferno",
+                    "href": "/pokemon/391",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/391.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Monferno",
+                    "href": "/pokemon/391",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/391.webp"
+                },
+                "to": {
+                    "name": "Infernape",
+                    "href": "/pokemon/392",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/392.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Chimchar",
+                "href": "/pokemon/390",
+                "img": "https://db.pokemongohub.net/images/official/medium/390.webp"
+            },
+            {
+                "name": "Monferno",
+                "href": "/pokemon/391",
+                "img": "https://db.pokemongohub.net/images/official/medium/391.webp"
+            },
+            {
+                "name": "Infernape",
+                "href": "/pokemon/392",
+                "img": "https://db.pokemongohub.net/images/official/medium/392.webp"
+            },
+            {
+                "name": "Shadow Chimchar",
+                "href": "/pokemon/390-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Monferno",
+                "href": "/pokemon/391-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Infernape",
+                "href": "/pokemon/392-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Infernape in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Infernape",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Infernape's Fire and Fighting-type moves, Candy, and Candy XL from catching Infernape.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 392,
+            "height_m": 1.2,
+            "weight_kg": 55,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 10,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.59 m",
+            "xs": "0.6 m",
+            "m": "1.2 m",
+            "xl": "1.8 m",
+            "xxl": "2.1 m",
+            "description": "Infernape's height ranges from 0.59 m to 2.1 m, with the average being 1.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.588,
+                "upper_m": 0.6,
+                "lower_ft": "1′11″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.6,
+                "upper_m": 1.2,
+                "lower_ft": "1′12″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.9,
+                "upper_m": 1.5,
+                "lower_ft": "2′11″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.5,
+                "upper_m": 1.8,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.8,
+                "upper_m": 2.1,
+                "lower_ft": "5′11″",
+                "upper_ft": "6′11″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It uses a special kind of martial arts involving all its limbs. Its fire never goes out."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It uses unique fighting moves with fire on its hands and feet. It will take on any opponent."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "A tall, hardy Pokémon with a dazzling appearance. It shrouds itself in flame and battles as if engaged in dance—truly a sight to behold."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Infernape",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm392.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm392.icon.png"
+            },
+            {
+                "label": "Shiny Infernape",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm392.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm392.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 392,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0392_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0392_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Infernape sprite"
+            },
+            {
+                "pokedex_number": 392,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0392_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0392_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Infernape sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/392_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/392_social.jpg",
+                "alt": "Infernape"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/392_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/392_social_dark.jpg",
+                "alt": "Infernape"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/392_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/392_social_map.jpg",
+                "alt": "Infernape"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/392_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/392_social_map_dark.jpg",
+                "alt": "Infernape"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Infernape’s strengths and weaknesses?",
+            "answer": "As a Fire and Fighting-type Pokémon, Infernape is weak to Flying, Ground, Psychic, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Infernape in Pokémon GO?",
+            "answer": "The best moves for Infernape in Pokémon GO are Fire Spin and Blast Burn. This moveset has a DPS (Damage Per Second) of 13.769 and a TDO (Total Damage Output) of 210.942."
+        },
+        {
+            "question": "How does Infernape perform in Raids?",
+            "answer": "Infernape's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Infernape rank as a Fire-type attacker?",
+            "answer": "Infernape is a C-Tier Fire-type attacker, ranking at number #43. It is recommended only when you lack higher-tier options."
+        },
+        {
+            "question": "How does Infernape rank as a Fighting-type attacker?",
+            "answer": "Infernape is an F-Tier Fighting-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Infernape?",
+            "answer": "The following Mega Pokémon boost Infernape: Mega Houndoom, Mega Blaziken, Mega Camerupt, Primal Groudon, Mega Heracross, Mega Blaziken, Mega Medicham, Mega Lopunny, Mega Lucario, and Mega Gallade."
+        },
+        {
+            "question": "What is Infernape’s maximum CP at Level 40 and Level 50?",
+            "answer": "Infernape’s maximum CP at Level 40 is 2683 CP and 3033 CP at Level 50."
+        },
+        {
+            "question": "Can Infernape be shiny in Pokémon GO?",
+            "answer": "Infernape can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Infernape Dynamax in Pokémon GO?",
+            "answer": "Infernape cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

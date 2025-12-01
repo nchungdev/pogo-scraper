@@ -1,0 +1,828 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1007,
+        "attack": 76,
+        "defense": 195,
+        "stamina": 102,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Shieldon",
+        "forms": [
+            {
+                "name": "Shieldon",
+                "href": "/pokemon/410",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/410.webp"
+            },
+            {
+                "name": "Shadow Shieldon",
+                "href": "/pokemon/410-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/410.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/410.webp",
+        "types": [
+            "Rock",
+            "Steel"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "snow"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Iron Tail",
+            "charged": "Heavy Slam",
+            "dps": 4.55,
+            "tdo": 52.15,
+            "boosted_weather": [
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Iron Tail",
+                "fast_url": "https://db.pokemongohub.net/move/266",
+                "charged": "Heavy Slam",
+                "charged_url": "https://db.pokemongohub.net/move/268",
+                "dps": 4.55,
+                "tdo": 52.2,
+                "score": 3.74
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Heavy Slam",
+                "charged_url": "https://db.pokemongohub.net/move/268",
+                "dps": 4.38,
+                "tdo": 50.1,
+                "score": 3.59
+            },
+            {
+                "rank": 3,
+                "fast": "Iron Tail",
+                "fast_url": "https://db.pokemongohub.net/move/266",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 4.23,
+                "tdo": 48.4,
+                "score": 3.47
+            },
+            {
+                "rank": 4,
+                "fast": "Iron Tail",
+                "fast_url": "https://db.pokemongohub.net/move/266",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 4.16,
+                "tdo": 47.6,
+                "score": 3.41
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 3.93,
+                "tdo": 45.0,
+                "score": 3.22
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 3.76,
+                "tdo": 43.0,
+                "score": 3.08
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Iron Tail",
+                "type": "Steel",
+                "stats": {
+                    "damage": 14,
+                    "energy": 6,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 14,
+                    "energy": 6,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 10,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/266"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ancient Power",
+                "type": "Rock",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.9s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/62"
+            },
+            {
+                "name": "Rock Tomb",
+                "type": "Rock",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/63"
+            },
+            {
+                "name": "Heavy Slam",
+                "type": "Steel",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.4s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/268"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Shieldon's has 1007 max CP (at Level 50). A Shieldon obtained from Raids can be encountered from 465 CP to 509 CP, or if weather boosted, in the 581 CP to 636 CP range. In Field and Special Research, Shieldon can be found in the 348 CP to 381 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1007",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "348 - 381",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "465 - 509",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "465 - 509",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "581 - 636",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "581 CP - 636 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 12,
+        "2": 39,
+        "3": 66,
+        "4": 93,
+        "5": 120,
+        "6": 147,
+        "7": 173,
+        "8": 200,
+        "9": 227,
+        "10": 254,
+        "11": 280,
+        "12": 305,
+        "13": 330,
+        "14": 356,
+        "15": 381,
+        "16": 407,
+        "17": 432,
+        "18": 458,
+        "19": 483,
+        "20": 509,
+        "21": 534,
+        "22": 559,
+        "23": 585,
+        "24": 610,
+        "25": 636,
+        "26": 661,
+        "27": 687,
+        "28": 712,
+        "29": 738,
+        "30": 763,
+        "31": 776,
+        "32": 789,
+        "33": 801,
+        "34": 814,
+        "35": 827,
+        "36": 840,
+        "37": 852,
+        "38": 865,
+        "39": 878,
+        "40": 890,
+        "41": 902,
+        "42": 913,
+        "43": 925,
+        "44": 936,
+        "45": 948,
+        "46": 959,
+        "47": 971,
+        "48": 983,
+        "49": 995,
+        "50": 1007
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Shieldon",
+                    "href": "/pokemon/410",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/410.webp"
+                },
+                "to": {
+                    "name": "Bastiodon",
+                    "href": "/pokemon/411",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/411.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Shieldon",
+                "href": "/pokemon/410",
+                "img": "https://db.pokemongohub.net/images/official/medium/410.webp"
+            },
+            {
+                "name": "Bastiodon",
+                "href": "/pokemon/411",
+                "img": "https://db.pokemongohub.net/images/official/medium/411.webp"
+            },
+            {
+                "name": "Shadow Shieldon",
+                "href": "/pokemon/410-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Bastiodon",
+                "href": "/pokemon/411-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Shieldon in the meta PvE Analysis The Shieldon line is a defensive set of Pokémon so don't expect any PvE usage out of them. That said, Shieldon is at the base level of a two-stage evolution line and its stats don't help it in Gyms as well. Moreover, its Rock/Steel typing invites two double weaknesses: Fighting and Ground. 😬 PvP Analysis 🧸 Little Cup Shieldon’s appreciable bulk make it a decent pick for the Little Cup, grabbing wins such as Shadow and regular Ducklett, Cottonee, Shelmet, and Shadow Stunky. However, its ATK is pretty low and the attackset doesn't have too much variety, leaving it in a losing predicament against the Little Cup’s best Pokémon (Deino, Wooper, Wynaut, Bronzor, and Gligar). Just evolve it for the Great League. 🙂 💎 Shieldon’s best attacks for the Little Cup are Tackle, Ancient Power, and Heavy Slam.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Shieldon",
+        "type": "Rock",
+        "intro_text": "A list of Mega Pokémon that boost Shieldon's Rock and Steel-type moves, Candy, and Candy XL from catching Shieldon.",
+        "mega_list": [
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 410,
+            "height_m": 0.5,
+            "weight_kg": 57,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "1 m",
+            "description": "Shieldon's height ranges from 0.25 m to 1 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 1,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′03″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "A Pokémon that lived in jungles around 100 million years ago. Its facial hide is extremely hard."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It habitually polishes its face by rubbing it against tree trunks. It is weak to attacks from behind."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It is outstandingly armored. As a result, it can eat grass and berries without having to fight."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It was generated from a fossil dug out of a layer of clay that was older than anyone knows. It has a sturdy face."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It habitually polishes its face by rubbing it against tree trunks. It is weak to attacks from behind."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It was generated from a fossil dug out of a layer of clay that was older than anyone knows. It has a sturdy face."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Many fossils of this Pokémon have been found, but almost none have shown signs of damage to the face."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "This Pokémon lived in primeval jungles. Few enemies would have been willing to square off against its heavily armored face, so it’s thought."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "A mild-mannered, herbivorous Pokémon, it used its face to dig up tree roots to eat. The skin on its face was plenty tough."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Although its fossils can be found in layers of primeval rock, nothing but its face has ever been discovered."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Much remains unknown about this Pokémon, as few have ever seen it. However, we know that it is calm and dislikes conflict, and it enjoys polishing its face against trees and rocks."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Shieldon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm410.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm410.icon.png"
+            },
+            {
+                "label": "Shiny Shieldon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm410.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm410.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 410,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0410_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0410_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Shieldon sprite"
+            },
+            {
+                "pokedex_number": 410,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0410_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0410_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Shieldon sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/410_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/410_social.jpg",
+                "alt": "Shieldon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/410_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/410_social_dark.jpg",
+                "alt": "Shieldon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/410_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/410_social_map.jpg",
+                "alt": "Shieldon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/410_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/410_social_map_dark.jpg",
+                "alt": "Shieldon"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Shieldon’s strengths and weaknesses?",
+            "answer": "As a Rock and Steel-type Pokémon, Shieldon is especially weak against Fighting and Ground-type moves, and weak against Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Shieldon in Pokémon GO?",
+            "answer": "The best moves for Shieldon in Pokémon GO are Iron Tail and Heavy Slam. This moveset has a DPS (Damage Per Second) of 4.554 and a TDO (Total Damage Output) of 52.153."
+        },
+        {
+            "question": "How does Shieldon perform in Raids?",
+            "answer": "Shieldon's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Shieldon rank as a Rock-type attacker?",
+            "answer": "Shieldon's performance as a Rock-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Shieldon?",
+            "answer": "The following Mega Pokémon boost Shieldon: Mega Aerodactyl, Mega Tyranitar, Mega Diancie, Mega Steelix, Mega Scizor, Mega Mawile, Mega Aggron, Mega Metagross, and Mega Lucario."
+        },
+        {
+            "question": "What is Shieldon’s maximum CP at Level 40 and Level 50?",
+            "answer": "Shieldon’s maximum CP at Level 40 is 890 CP and 1007 CP at Level 50."
+        },
+        {
+            "question": "Can Shieldon be shiny in Pokémon GO?",
+            "answer": "Shieldon can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Shieldon Dynamax in Pokémon GO?",
+            "answer": "Shieldon cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

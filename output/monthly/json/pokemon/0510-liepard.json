@@ -1,0 +1,879 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2087,
+        "attack": 187,
+        "defense": 106,
+        "stamina": 162,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Liepard",
+        "forms": [
+            {
+                "name": "Liepard",
+                "href": "/pokemon/510",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/510.webp"
+            },
+            {
+                "name": "Shadow Liepard",
+                "href": "/pokemon/510-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/510.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/510.webp",
+        "types": [
+            "Dark"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Snarl",
+            "charged": "Dark Pulse",
+            "dps": 9.25,
+            "tdo": 92.34,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 9.25,
+                "tdo": 92.3,
+                "score": 7.4
+            },
+            {
+                "rank": 2,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 8.93,
+                "tdo": 89.1,
+                "score": 7.15
+            },
+            {
+                "rank": 3,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Payback",
+                "charged_url": "https://db.pokemongohub.net/move/333",
+                "dps": 8.74,
+                "tdo": 87.2,
+                "score": 6.99
+            },
+            {
+                "rank": 4,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Gunk Shot",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 8.57,
+                "tdo": 85.5,
+                "score": 6.85
+            },
+            {
+                "rank": 5,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 7.99,
+                "tdo": 79.8,
+                "score": 6.4
+            },
+            {
+                "rank": 6,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 7.8,
+                "tdo": 77.9,
+                "score": 6.24
+            },
+            {
+                "rank": 7,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Payback",
+                "charged_url": "https://db.pokemongohub.net/move/333",
+                "dps": 7.1,
+                "tdo": 70.9,
+                "score": 5.68
+            },
+            {
+                "rank": 8,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Gunk Shot",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 7.07,
+                "tdo": 70.6,
+                "score": 5.66
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Snarl",
+                "type": "Dark",
+                "stats": {
+                    "damage": 11,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/278"
+            },
+            {
+                "name": "Charm",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 20,
+                    "energy": 11,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 20,
+                    "energy": 11,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 13,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/320"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Play Rough",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/88"
+            },
+            {
+                "name": "Gunk Shot",
+                "type": "Poison",
+                "stats": {
+                    "damage": 130,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 130,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.6s - 2.6s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/92"
+            },
+            {
+                "name": "Payback",
+                "type": "Dark",
+                "stats": {
+                    "damage": 95,
+                    "energy": 100,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 100,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "0.9s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/333"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Liepard's has 2087 max CP (at Level 50). A Liepard obtained from Raids can be encountered from 993 CP to 1055 CP, or if weather boosted, in the 1241 CP to 1318 CP range. In Field and Special Research, Liepard can be found in the 744 CP to 791 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2087",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "744 - 791",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "993 - 1055",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "993 - 1055",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1241 - 1318",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1241 CP - 1318 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 26,
+        "2": 81,
+        "3": 137,
+        "4": 193,
+        "5": 249,
+        "6": 304,
+        "7": 360,
+        "8": 416,
+        "9": 471,
+        "10": 527,
+        "11": 580,
+        "12": 633,
+        "13": 685,
+        "14": 738,
+        "15": 791,
+        "16": 844,
+        "17": 896,
+        "18": 949,
+        "19": 1002,
+        "20": 1055,
+        "21": 1107,
+        "22": 1160,
+        "23": 1213,
+        "24": 1266,
+        "25": 1318,
+        "26": 1371,
+        "27": 1424,
+        "28": 1477,
+        "29": 1529,
+        "30": 1582,
+        "31": 1609,
+        "32": 1635,
+        "33": 1661,
+        "34": 1688,
+        "35": 1714,
+        "36": 1740,
+        "37": 1767,
+        "38": 1793,
+        "39": 1819,
+        "40": 1846,
+        "41": 1869,
+        "42": 1893,
+        "43": 1917,
+        "44": 1940,
+        "45": 1965,
+        "46": 1989,
+        "47": 2013,
+        "48": 2037,
+        "49": 2062,
+        "50": 2087
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Purrloin",
+                    "href": "/pokemon/509",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/509.webp"
+                },
+                "to": {
+                    "name": "Liepard",
+                    "href": "/pokemon/510",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/510.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Purrloin",
+                "href": "/pokemon/509",
+                "img": "https://db.pokemongohub.net/images/official/medium/509.webp"
+            },
+            {
+                "name": "Liepard",
+                "href": "/pokemon/510",
+                "img": "https://db.pokemongohub.net/images/official/medium/510.webp"
+            },
+            {
+                "name": "Shadow Purrloin",
+                "href": "/pokemon/509-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Liepard",
+                "href": "/pokemon/510-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Liepard in the meta PvE Analysis Liepard is a pure Dark-type Pokémon with a max CP of 2087 . It is not useful for PvE , even with its best moveset of Snarl and Dark Pulse . ⚔️ Raids Liepard has a measly 106 defense , making it a poor choice for raids . Maxing out at 2087 CP , it is simply too small . 🛡️ Gyms There are much better options available. PvP Analysis Liepard’s best PvP moveset is Snarl, Dark Pulse, and Play Rough . However, it is not a useful PvP Pokémon . 🔵 Great League Liepard does not want to play in Great League. It is too much of a glass cannon to be viable and would rather sleep for 22 hours a day . 🟡 Ultra League Too smol! 🟣 Master League No.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Liepard",
+        "type": "Dark",
+        "intro_text": "A list of Mega Pokémon that boost Liepard's Dark-type moves, Candy, and Candy XL from catching Liepard.",
+        "mega_list": [
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Absol",
+                "pokemon_id": 359,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/359-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 510,
+            "height_m": 1.1,
+            "weight_kg": 37.5,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.54 m",
+            "xs": "0.55 m",
+            "m": "1.1 m",
+            "xl": "1.65 m",
+            "xxl": "1.71 m",
+            "description": "Liepard's height ranges from 0.54 m to 1.71 m, with the average being 1.1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.539,
+                "upper_m": 0.55,
+                "lower_ft": "1′09″",
+                "upper_ft": "1′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.55,
+                "upper_m": 1.1,
+                "lower_ft": "1′10″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.825,
+                "upper_m": 1.375,
+                "lower_ft": "2′08″",
+                "upper_ft": "4′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.375,
+                "upper_m": 1.65,
+                "lower_ft": "4′06″",
+                "upper_ft": "5′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.65,
+                "upper_m": 1.705,
+                "lower_ft": "5′05″",
+                "upper_ft": "5′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "These Pokémon vanish and appear unexpectedly. Many Trainers are drawn to their beautiful form and fur."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Their beautiful form comes from the muscles they have developed. They run silently in the night."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Their beautiful form comes from the muscles they have developed. They run silently in the night."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Don’t be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This stealthy Pokémon sneaks up behind prey without making any sound at all. It competes with Thievul for territory."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Liepard",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm510.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm510.icon.png"
+            },
+            {
+                "label": "Shiny Liepard",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm510.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm510.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 510,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0510_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0510_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Liepard sprite"
+            },
+            {
+                "pokedex_number": 510,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0510_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0510_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Liepard sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/510_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/510_social.jpg",
+                "alt": "Liepard"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/510_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/510_social_dark.jpg",
+                "alt": "Liepard"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/510_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/510_social_map.jpg",
+                "alt": "Liepard"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/510_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/510_social_map_dark.jpg",
+                "alt": "Liepard"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Liepard’s strengths and weaknesses?",
+            "answer": "As a Dark-type Pokémon, Liepard is weak to Bug, Fairy, and Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Liepard in Pokémon GO?",
+            "answer": "The best moves for Liepard in Pokémon GO are Snarl and Dark Pulse. This moveset has a DPS (Damage Per Second) of 9.25 and a TDO (Total Damage Output) of 92.342."
+        },
+        {
+            "question": "How does Liepard perform in Raids?",
+            "answer": "Liepard's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Liepard rank as a Dark-type attacker?",
+            "answer": "Liepard is an F-Tier Dark-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Liepard?",
+            "answer": "The following Mega Pokémon boost Liepard: Mega Gyarados, Mega Houndoom, Mega Tyranitar, Mega Sableye, Mega Sharpedo, and Mega Absol."
+        },
+        {
+            "question": "What is Liepard’s maximum CP at Level 40 and Level 50?",
+            "answer": "Liepard’s maximum CP at Level 40 is 1846 CP and 2087 CP at Level 50."
+        },
+        {
+            "question": "Can Liepard be shiny in Pokémon GO?",
+            "answer": "Liepard can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Liepard Dynamax in Pokémon GO?",
+            "answer": "Liepard cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,949 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1987,
+        "attack": 148,
+        "defense": 125,
+        "stamina": 198,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Furret",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/162.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Quick Attack",
+            "charged": "Hyper Beam",
+            "dps": 8.02,
+            "tdo": 111.53,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 8.02,
+                "tdo": 111.5,
+                "score": 6.8
+            },
+            {
+                "rank": 2,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 7.8,
+                "tdo": 108.4,
+                "score": 6.62
+            },
+            {
+                "rank": 3,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 7.22,
+                "tdo": 100.3,
+                "score": 6.12
+            },
+            {
+                "rank": 4,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 6.99,
+                "tdo": 97.2,
+                "score": 5.93
+            },
+            {
+                "rank": 5,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 6.84,
+                "tdo": 95.1,
+                "score": 5.8
+            },
+            {
+                "rank": 6,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Brick Break",
+                "charged_url": "https://db.pokemongohub.net/move/123",
+                "dps": 6.77,
+                "tdo": 94.1,
+                "score": 5.74
+            },
+            {
+                "rank": 7,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 6.67,
+                "tdo": 92.7,
+                "score": 5.65
+            },
+            {
+                "rank": 8,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Brick Break",
+                "charged_url": "https://db.pokemongohub.net/move/123",
+                "dps": 6.58,
+                "tdo": 91.5,
+                "score": 5.58
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Sucker Punch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/203"
+            },
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Hyper Beam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 150,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 150,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.5s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/14"
+            },
+            {
+                "name": "Dig",
+                "type": "Ground",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 4.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.5,
+                    "damage_window": "2.6s - 4.3s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/26"
+            },
+            {
+                "name": "Brick Break",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 40,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 40,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.7s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/123"
+            },
+            {
+                "name": "Swift",
+                "type": "Normal",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.2s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/125"
+            },
+            {
+                "name": "Trailblaze",
+                "type": "Grass",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.2s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/392"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Furret's has 1987 max CP (at Level 50). A Furret obtained from Raids can be encountered from 944 CP to 1004 CP, or if weather boosted, in the 1181 CP to 1255 CP range. In Field and Special Research, Furret can be found in the 708 CP to 753 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1987",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "708 - 753",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "944 - 1004",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "944 - 1004",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1181 - 1255",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1181 CP - 1255 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 24,
+        "2": 77,
+        "3": 131,
+        "4": 184,
+        "5": 237,
+        "6": 290,
+        "7": 343,
+        "8": 396,
+        "9": 449,
+        "10": 502,
+        "11": 552,
+        "12": 602,
+        "13": 653,
+        "14": 703,
+        "15": 753,
+        "16": 803,
+        "17": 853,
+        "18": 904,
+        "19": 954,
+        "20": 1004,
+        "21": 1054,
+        "22": 1105,
+        "23": 1155,
+        "24": 1205,
+        "25": 1255,
+        "26": 1306,
+        "27": 1356,
+        "28": 1406,
+        "29": 1456,
+        "30": 1506,
+        "31": 1532,
+        "32": 1557,
+        "33": 1582,
+        "34": 1607,
+        "35": 1632,
+        "36": 1657,
+        "37": 1682,
+        "38": 1707,
+        "39": 1732,
+        "40": 1758,
+        "41": 1780,
+        "42": 1802,
+        "43": 1825,
+        "44": 1848,
+        "45": 1871,
+        "46": 1894,
+        "47": 1917,
+        "48": 1940,
+        "49": 1963,
+        "50": 1987
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Sentret",
+                    "href": "/pokemon/161",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/161.webp"
+                },
+                "to": {
+                    "name": "Furret",
+                    "href": "/pokemon/162",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/162.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Sentret",
+                "href": "/pokemon/161",
+                "img": "https://db.pokemongohub.net/images/official/medium/161.webp"
+            },
+            {
+                "name": "Furret",
+                "href": "/pokemon/162",
+                "img": "https://db.pokemongohub.net/images/official/medium/162.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Furret in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Furret",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Furret's Normal-type moves, Candy, and Candy XL from catching Furret.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 162,
+            "height_m": 1.8,
+            "weight_kg": 32.5,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.88 m",
+            "xs": "0.9 m",
+            "m": "1.8 m",
+            "xl": "2.7 m",
+            "xxl": "2.79 m",
+            "description": "Furret's height ranges from 0.88 m to 2.79 m, with the average being 1.8 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.882,
+                "upper_m": 0.9,
+                "lower_ft": "2′11″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.9,
+                "upper_m": 1.8,
+                "lower_ft": "2′11″",
+                "upper_ft": "5′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.35,
+                "upper_m": 2.25,
+                "lower_ft": "4′05″",
+                "upper_ft": "7′05″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.25,
+                "upper_m": 2.7,
+                "lower_ft": "7′05″",
+                "upper_ft": "8′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.7,
+                "upper_m": 2.79,
+                "lower_ft": "8′10″",
+                "upper_ft": "9′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It makes a nest to suit its long and skinny body. The nest is impossible for other POKéMON to enter."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "There is no tell ing where the tail begins. Despite its short legs, it is quick at hunt ing RATTATA."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It lives in narrow burrows that fit its slim body. The deeper the nests go, the more maze like they become."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "FURRET has a very slim build. When under attack, it can slickly squirm through narrow spaces and get away. In spite of its short limbs, this POKéMON is very nimble and fleet."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "A FURRET has a very slim build. When under attack, it can squirm through narrow spaces and get away. In spite of its short limbs, it is very nimble and fleet."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "There is no telling where its tail begins. Despite its short legs, it is quick at hunting RATTATA."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "It makes a nest to suit its long and skinny body. The nest is impossible for other POKéMON to enter."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "There is no telling where the tail begins. Despite its short legs, it is quick and likes to chase RATTATA."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Furret has a very slim build. When under attack, it can slickly squirm through narrow spaces and get away. In spite of its short limbs, this Pokémon is very nimble and fleet."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Furret",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm162.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm162.icon.png"
+            },
+            {
+                "label": "Shiny Furret",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm162.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm162.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 162,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0162_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0162_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Furret sprite"
+            },
+            {
+                "pokedex_number": 162,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0162_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0162_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Furret sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/162_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/162_social.jpg",
+                "alt": "Furret"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/162_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/162_social_dark.jpg",
+                "alt": "Furret"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/162_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/162_social_map.jpg",
+                "alt": "Furret"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/162_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/162_social_map_dark.jpg",
+                "alt": "Furret"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Furret’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Furret is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Furret in Pokémon GO?",
+            "answer": "The best moves for Furret in Pokémon GO are Quick Attack and Hyper Beam. This moveset has a DPS (Damage Per Second) of 8.025 and a TDO (Total Damage Output) of 111.534."
+        },
+        {
+            "question": "How does Furret perform in Raids?",
+            "answer": "Furret's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Furret rank as a Normal-type attacker?",
+            "answer": "Furret is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Furret?",
+            "answer": "The following Mega Pokémon boost Furret: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Furret’s maximum CP at Level 40 and Level 50?",
+            "answer": "Furret’s maximum CP at Level 40 is 1758 CP and 1987 CP at Level 50."
+        },
+        {
+            "question": "Can Furret be shiny in Pokémon GO?",
+            "answer": "Furret can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Furret Dynamax in Pokémon GO?",
+            "answer": "Furret cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,811 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2447,
+        "attack": 192,
+        "defense": 131,
+        "stamina": 177,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Stantler",
+        "forms": [
+            {
+                "name": "Stantler",
+                "href": "/pokemon/234",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/234.webp"
+            },
+            {
+                "name": "Shadow Stantler",
+                "href": "/pokemon/234-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/234.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/234.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Wild Charge",
+            "dps": 9.77,
+            "tdo": 127.59,
+            "boosted_weather": [
+                "partlyCloudy",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 9.77,
+                "tdo": 127.6,
+                "score": 8.2
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Stomp",
+                "charged_url": "https://db.pokemongohub.net/move/127",
+                "dps": 9.19,
+                "tdo": 120.1,
+                "score": 7.72
+            },
+            {
+                "rank": 3,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 8.81,
+                "tdo": 115.1,
+                "score": 7.4
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Megahorn",
+                "charged_url": "https://db.pokemongohub.net/move/22",
+                "dps": 8.74,
+                "tdo": 114.1,
+                "score": 7.33
+            },
+            {
+                "rank": 5,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Stomp",
+                "charged_url": "https://db.pokemongohub.net/move/127",
+                "dps": 8.17,
+                "tdo": 106.7,
+                "score": 6.86
+            },
+            {
+                "rank": 6,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Megahorn",
+                "charged_url": "https://db.pokemongohub.net/move/22",
+                "dps": 7.55,
+                "tdo": 98.7,
+                "score": 6.34
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Zen Headbutt",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 9,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/234"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Megahorn",
+                "type": "Bug",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.5s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/22"
+            },
+            {
+                "name": "Stomp",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 50,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/127"
+            },
+            {
+                "name": "Wild Charge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/251"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Stantler's has 2447 max CP (at Level 50). A Stantler obtained from Raids can be encountered from 1170 CP to 1236 CP, or if weather boosted, in the 1463 CP to 1546 CP range. In Field and Special Research, Stantler can be found in the 878 CP to 927 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2447",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "878 - 927",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1170 - 1236",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1170 - 1236",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1463 - 1546",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1463 CP - 1546 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 30,
+        "2": 95,
+        "3": 161,
+        "4": 226,
+        "5": 291,
+        "6": 357,
+        "7": 422,
+        "8": 487,
+        "9": 553,
+        "10": 618,
+        "11": 680,
+        "12": 742,
+        "13": 804,
+        "14": 865,
+        "15": 927,
+        "16": 989,
+        "17": 1051,
+        "18": 1113,
+        "19": 1175,
+        "20": 1236,
+        "21": 1298,
+        "22": 1360,
+        "23": 1422,
+        "24": 1484,
+        "25": 1546,
+        "26": 1608,
+        "27": 1669,
+        "28": 1731,
+        "29": 1793,
+        "30": 1855,
+        "31": 1886,
+        "32": 1917,
+        "33": 1948,
+        "34": 1979,
+        "35": 2010,
+        "36": 2040,
+        "37": 2071,
+        "38": 2102,
+        "39": 2133,
+        "40": 2164,
+        "41": 2192,
+        "42": 2219,
+        "43": 2247,
+        "44": 2275,
+        "45": 2303,
+        "46": 2332,
+        "47": 2360,
+        "48": 2389,
+        "49": 2418,
+        "50": 2447
+    },
+    "meta_analysis": "Stantler in the meta PvE Analysis Stantler is a Normal-type Pokémon. With no super-effective coverage, it is ruled out of any PvE potential. End of story. 😮‍💨 ⚔️ Raids A Normal-type Pokémon with a high ATK stat can deal some raw neutral damage in Partly Cloudy in-game weather. However, Stantler only has 192 ATK… making its damage output irrelevant. 😬 🛡️ Gyms 1) Fighting types are among the most common Gym attackers, and 2) Stantler doesn't even have the bulk of Pokémon like Snorlax or Blissey to hold them back. Put 1 and 2 together, and you get the picture. 🥲 PvP Analysis 🔵 Great League The only respite for a viable Normal type in PvP is its moveset and the fact that they resist Ghost-type damage. However, Stantler has a terrible moveset, and with hardly any bulk, what use is its resistance? Skip this Pokémon when it comes to PvP. 🚫 🟡 Ultra League There are easily hundreds of Pokémon better than Stantler in the Ultra League. Just go with any of those. 🙂 🟣 Master League It's game season in the Master League, and Dragons love to hunt for Stantler . 🦌 So, keep Stantler far, far, far away from this format. 😅",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Stantler",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Stantler's Normal-type moves, Candy, and Candy XL from catching Stantler.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 234,
+            "height_m": 1.4,
+            "weight_kg": 71.2,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.69 m",
+            "xs": "0.7 m",
+            "m": "1.4 m",
+            "xl": "2.1 m",
+            "xxl": "2.45 m",
+            "description": "Stantler's height ranges from 0.69 m to 2.45 m, with the average being 1.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.686,
+                "upper_m": 0.7,
+                "lower_ft": "2′03″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.7,
+                "upper_m": 1.4,
+                "lower_ft": "2′04″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.05,
+                "upper_m": 1.75,
+                "lower_ft": "3′05″",
+                "upper_ft": "5′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.75,
+                "upper_m": 2.1,
+                "lower_ft": "5′09″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.1,
+                "upper_m": 2.45,
+                "lower_ft": "6′11″",
+                "upper_ft": "8′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "The curved antlers subtly change the flow of air to create a strange space where real ity is distorted."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "Those who stare at its antlers will gradually lose control of their senses and be unable to stand."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "The round balls found on the fallen antlers can be ground into a powder that aids in sleeping."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "STANTLER’s magnificent antlers were traded at high prices as works of art. As a result, this POKéMON was hunted close to extinction by those who were after the priceless antlers."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "STANTLER’s magnificent antlers were once traded at high prices as works of art. As a result, this POKéMON was hunted close to extinction."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "Those who stare at its antlers will gradually lose control of their senses and be unable to stand."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Its curved antlers subtly change the flow of air to create a strange space where reality is distorted."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Staring at its antlers creates an odd sensation as if one were being drawn into their centers."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "The curved antlers subtly change the flow of air to create a strange space where reality is distorted."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "Those who stare at its antlers will gradually lose control of their senses and be unable to stand."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Staring at its antlers creates an odd sensation as if one were being drawn into their centers."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "The curved antlers subtly change the flow of air to create a strange space where reality is distorted."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Stantler’s magnificent antlers were traded at high prices as works of art. As a result, this Pokémon was hunted close to extinction by those who were after the priceless antlers."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Its strangely shaped antlers have the power to bewitch those who see them. Medicine made by grinding up the black orbs from fallen antlers is an effective treatment for insomnia."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Stantler",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm234.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm234.icon.png"
+            },
+            {
+                "label": "Shiny Stantler",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm234.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm234.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 234,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0234_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0234_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Stantler sprite"
+            },
+            {
+                "pokedex_number": 234,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0234_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0234_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Stantler sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/234_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/234_social.jpg",
+                "alt": "Stantler"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/234_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/234_social_dark.jpg",
+                "alt": "Stantler"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/234_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/234_social_map.jpg",
+                "alt": "Stantler"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/234_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/234_social_map_dark.jpg",
+                "alt": "Stantler"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 234,
+            "name": "Stantler",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm234.cWINTER_2018.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm234.cWINTER_2018.icon.png",
+            "category": "Winter 2018"
+        },
+        {
+            "pokedex_number": 234,
+            "name": "Shiny Stantler",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm234.cWINTER_2018.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm234.cWINTER_2018.s.icon.png",
+            "category": "Winter 2018"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Stantler’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Stantler is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Stantler in Pokémon GO?",
+            "answer": "The best moves for Stantler in Pokémon GO are Tackle and Wild Charge. This moveset has a DPS (Damage Per Second) of 9.765 and a TDO (Total Damage Output) of 127.587."
+        },
+        {
+            "question": "How does Stantler perform in Raids?",
+            "answer": "Stantler's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Stantler rank as a Normal-type attacker?",
+            "answer": "Stantler is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Stantler?",
+            "answer": "The following Mega Pokémon boost Stantler: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Stantler’s maximum CP at Level 40 and Level 50?",
+            "answer": "Stantler’s maximum CP at Level 40 is 2164 CP and 2447 CP at Level 50."
+        },
+        {
+            "question": "Can Stantler be shiny in Pokémon GO?",
+            "answer": "Stantler can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Stantler Dynamax in Pokémon GO?",
+            "answer": "Stantler cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

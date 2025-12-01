@@ -1,0 +1,810 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1149,
+        "attack": 107,
+        "defense": 85,
+        "stamina": 163,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Woobat",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/527.webp",
+        "types": [
+            "Psychic",
+            "Flying"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Confusion",
+            "charged": "Psyshock",
+            "dps": 5.35,
+            "tdo": 44.39,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 5.35,
+                "tdo": 44.4,
+                "score": 4.11
+            },
+            {
+                "rank": 2,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 5.21,
+                "tdo": 43.3,
+                "score": 4.01
+            },
+            {
+                "rank": 3,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 5.18,
+                "tdo": 43.0,
+                "score": 3.98
+            },
+            {
+                "rank": 4,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 5.06,
+                "tdo": 42.0,
+                "score": 3.89
+            },
+            {
+                "rank": 5,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Air Cutter",
+                "charged_url": "https://db.pokemongohub.net/move/121",
+                "dps": 4.9,
+                "tdo": 40.6,
+                "score": 3.76
+            },
+            {
+                "rank": 6,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Air Cutter",
+                "charged_url": "https://db.pokemongohub.net/move/121",
+                "dps": 4.78,
+                "tdo": 39.7,
+                "score": 3.67
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Confusion",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 19,
+                    "energy": 14,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 14,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.5s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 16,
+                    "energy": 14
+                },
+                "url": "https://db.pokemongohub.net/move/235"
+            },
+            {
+                "name": "Air Slash",
+                "type": "Flying",
+                "stats": {
+                    "damage": 12,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 12,
+                    "energy": 8,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/255"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Psyshock",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/60"
+            },
+            {
+                "name": "Air Cutter",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/121"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Woobat's has 1149 max CP (at Level 50). A Woobat obtained from Raids can be encountered from 535 CP to 580 CP, or if weather boosted, in the 669 CP to 726 CP range. In Field and Special Research, Woobat can be found in the 401 CP to 435 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1149",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "401 - 435",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "535 - 580",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "535 - 580",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "669 - 726",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "669 CP - 726 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 45,
+        "3": 75,
+        "4": 106,
+        "5": 137,
+        "6": 167,
+        "7": 198,
+        "8": 229,
+        "9": 259,
+        "10": 290,
+        "11": 319,
+        "12": 348,
+        "13": 377,
+        "14": 406,
+        "15": 435,
+        "16": 464,
+        "17": 493,
+        "18": 522,
+        "19": 551,
+        "20": 580,
+        "21": 609,
+        "22": 639,
+        "23": 668,
+        "24": 697,
+        "25": 726,
+        "26": 755,
+        "27": 784,
+        "28": 813,
+        "29": 842,
+        "30": 871,
+        "31": 885,
+        "32": 900,
+        "33": 914,
+        "34": 929,
+        "35": 944,
+        "36": 958,
+        "37": 973,
+        "38": 987,
+        "39": 1002,
+        "40": 1016,
+        "41": 1029,
+        "42": 1042,
+        "43": 1055,
+        "44": 1068,
+        "45": 1081,
+        "46": 1095,
+        "47": 1108,
+        "48": 1122,
+        "49": 1135,
+        "50": 1149
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Woobat",
+                    "href": "/pokemon/527",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/527.webp"
+                },
+                "to": {
+                    "name": "Swoobat",
+                    "href": "/pokemon/528",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/528.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Walk 1 km with your buddy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Walk 1 km with your buddy"
+        ],
+        "family": [
+            {
+                "name": "Woobat",
+                "href": "/pokemon/527",
+                "img": "https://db.pokemongohub.net/images/official/medium/527.webp"
+            },
+            {
+                "name": "Swoobat",
+                "href": "/pokemon/528",
+                "img": "https://db.pokemongohub.net/images/official/medium/528.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Woobat in the meta PvE Analysis ⚔️ Raids Woobat is the first stage of a two-stage Pokémon . As with most Pokémon in PvE , you’re better off using a fully evolved Pokémon instead . PvP Analysis 🧸 Little Cup Woobat has a max CP of 1149 , so it isn’t fit for the three main leagues . However, it does have some use in the 500 CP Little Cup meta . It’s not a top pick in the meta—it’s relatively frail and takes a while to use charged attacks . Plus, it’s part Psychic-type , which means it’s weak to Dark-type attacks . The open Little Cup format features multiple popular Dark-types or Pokémon that use Dark-type attacks , making Woobat vulnerable . However, Woobat does have access to Confusion , a heavy damage-dealing move . Most Pokémon in the Little Cup don’t have much HP , so a hard-hitting move like Confusion can take Woobat quite far —especially if it’s a limited meta with fewer Dark-types . Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Woobat",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Woobat's Psychic and Flying-type moves, Candy, and Candy XL from catching Woobat.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 527,
+            "height_m": 0.4,
+            "weight_kg": 2.1,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Woobat's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_PSYCHIC",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 25.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.4,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "The heart-shaped mark left on a body after a Woobat has been attached to it is said to bring good fortune."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "The heart-shaped mark left on a body after a Woobat has been attached to it is said to bring good fortune."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "While inside a cave, if you look up and see lots of heart-shaped marks lining the walls, it’s evidence that Woobat live there."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Woobat",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm527.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm527.icon.png"
+            },
+            {
+                "label": "Shiny Woobat",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm527.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm527.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 527,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0527_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0527_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Woobat sprite"
+            },
+            {
+                "pokedex_number": 527,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0527_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0527_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Woobat sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/527_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/527_social.jpg",
+                "alt": "Woobat"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/527_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/527_social_dark.jpg",
+                "alt": "Woobat"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/527_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/527_social_map.jpg",
+                "alt": "Woobat"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/527_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/527_social_map_dark.jpg",
+                "alt": "Woobat"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Woobat’s strengths and weaknesses?",
+            "answer": "As a Psychic and Flying-type Pokémon, Woobat is weak to Dark, Electric, Ghost, Ice, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Woobat in Pokémon GO?",
+            "answer": "The best moves for Woobat in Pokémon GO are Confusion and Psyshock. This moveset has a DPS (Damage Per Second) of 5.351 and a TDO (Total Damage Output) of 44.395."
+        },
+        {
+            "question": "How does Woobat perform in Raids?",
+            "answer": "Woobat's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Woobat rank as a Psychic-type attacker?",
+            "answer": "Woobat's performance as a Psychic-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Woobat?",
+            "answer": "The following Mega Pokémon boost Woobat: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, Mega Gallade, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Woobat’s maximum CP at Level 40 and Level 50?",
+            "answer": "Woobat’s maximum CP at Level 40 is 1016 CP and 1149 CP at Level 50."
+        },
+        {
+            "question": "Can Woobat be shiny in Pokémon GO?",
+            "answer": "Woobat can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Woobat Dynamax in Pokémon GO?",
+            "answer": "Woobat cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,832 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2175,
+        "attack": 173,
+        "defense": 106,
+        "stamina": 207,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Pignite",
+        "forms": [
+            {
+                "name": "Pignite",
+                "href": "/pokemon/499",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/499.webp"
+            },
+            {
+                "name": "Shadow Pignite",
+                "href": "/pokemon/499-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/499.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/499.webp",
+        "types": [
+            "Fire",
+            "Fighting"
+        ],
+        "weather_boost": [
+            "sunny",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Ember",
+            "charged": "Flamethrower",
+            "dps": 8.48,
+            "tdo": 106.21,
+            "boosted_weather": [
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 8.48,
+                "tdo": 106.2,
+                "score": 7.08
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 8.31,
+                "tdo": 104.1,
+                "score": 6.93
+            },
+            {
+                "rank": 3,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 7.36,
+                "tdo": 92.1,
+                "score": 6.14
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 7.26,
+                "tdo": 90.9,
+                "score": 6.05
+            },
+            {
+                "rank": 5,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 6.79,
+                "tdo": 85.0,
+                "score": 5.66
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 6.61,
+                "tdo": 82.8,
+                "score": 5.51
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Rock Tomb",
+                "type": "Rock",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/63"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Pignite's has 2175 max CP (at Level 50). A Pignite obtained from Raids can be encountered from 1036 CP to 1099 CP, or if weather boosted, in the 1295 CP to 1374 CP range. In Field and Special Research, Pignite can be found in the 777 CP to 824 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2175",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "777 - 824",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1036 - 1099",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1036 - 1099",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1295 - 1374",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1295 CP - 1374 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 27,
+        "2": 85,
+        "3": 143,
+        "4": 201,
+        "5": 259,
+        "6": 317,
+        "7": 375,
+        "8": 433,
+        "9": 491,
+        "10": 550,
+        "11": 604,
+        "12": 659,
+        "13": 714,
+        "14": 769,
+        "15": 824,
+        "16": 879,
+        "17": 934,
+        "18": 989,
+        "19": 1044,
+        "20": 1099,
+        "21": 1154,
+        "22": 1209,
+        "23": 1264,
+        "24": 1319,
+        "25": 1374,
+        "26": 1429,
+        "27": 1484,
+        "28": 1539,
+        "29": 1594,
+        "30": 1649,
+        "31": 1677,
+        "32": 1704,
+        "33": 1732,
+        "34": 1759,
+        "35": 1787,
+        "36": 1814,
+        "37": 1842,
+        "38": 1869,
+        "39": 1896,
+        "40": 1924,
+        "41": 1948,
+        "42": 1973,
+        "43": 1998,
+        "44": 2023,
+        "45": 2048,
+        "46": 2073,
+        "47": 2098,
+        "48": 2124,
+        "49": 2149,
+        "50": 2175
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Tepig",
+                    "href": "/pokemon/498",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/498.webp"
+                },
+                "to": {
+                    "name": "Pignite",
+                    "href": "/pokemon/499",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/499.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Pignite",
+                    "href": "/pokemon/499",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/499.webp"
+                },
+                "to": {
+                    "name": "Emboar",
+                    "href": "/pokemon/500",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/500.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Tepig",
+                "href": "/pokemon/498",
+                "img": "https://db.pokemongohub.net/images/official/medium/498.webp"
+            },
+            {
+                "name": "Pignite",
+                "href": "/pokemon/499",
+                "img": "https://db.pokemongohub.net/images/official/medium/499.webp"
+            },
+            {
+                "name": "Emboar",
+                "href": "/pokemon/500",
+                "img": "https://db.pokemongohub.net/images/official/medium/500.webp"
+            },
+            {
+                "name": "Shadow Tepig",
+                "href": "/pokemon/498-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Pignite",
+                "href": "/pokemon/499-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Emboar",
+                "href": "/pokemon/500-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Pignite in the meta PvE Analysis ⚔️ Raids Hit evolve and let Emboar unleash! 🛡️ Gyms Shiny flex only . 🔮 Dynamax Pignite is not currently available to Dynamax . PvP Analysis Preferred Moveset – Ember , Flame Charge , & Rock Tomb 🧸 Little League Pignite isn’t terrible in the Little League meta, but it struggles to apply any meaningful shield pressure due to its slow charging moveset and poor typing . 🔵 Great League Pignite struggles in the open meta , but it can perform decently in some limited metas , such as the Evolution Cup . Pignite doesn’t have a terrible stat product , but its Fire/Fighting typing doesn’t help it defensively , making it desperate for a moveset upgrade to improve its performance. 🟡 Ultra League Pignite can’t compete in the Ultra League . 🟣 Master League NA",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Pignite",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Pignite's Fire and Fighting-type moves, Candy, and Candy XL from catching Pignite.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 499,
+            "height_m": 1,
+            "weight_kg": 55.5,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "1.55 m",
+            "description": "Pignite's height ranges from 0.49 m to 1.55 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 1.55,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "Whatever it eats becomes fuel for the flame in its stomach. When it is angered, the intensity of the flame increases."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Pignite",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm499.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm499.icon.png"
+            },
+            {
+                "label": "Shiny Pignite",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm499.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm499.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 499,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0499_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0499_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Pignite sprite"
+            },
+            {
+                "pokedex_number": 499,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0499_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0499_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Pignite sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/499_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/499_social.jpg",
+                "alt": "Pignite"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/499_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/499_social_dark.jpg",
+                "alt": "Pignite"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/499_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/499_social_map.jpg",
+                "alt": "Pignite"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/499_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/499_social_map_dark.jpg",
+                "alt": "Pignite"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Pignite’s strengths and weaknesses?",
+            "answer": "As a Fire and Fighting-type Pokémon, Pignite is weak to Flying, Ground, Psychic, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Pignite in Pokémon GO?",
+            "answer": "The best moves for Pignite in Pokémon GO are Ember and Flamethrower. This moveset has a DPS (Damage Per Second) of 8.483 and a TDO (Total Damage Output) of 106.21."
+        },
+        {
+            "question": "How does Pignite perform in Raids?",
+            "answer": "Pignite's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Pignite rank as a Fire-type attacker?",
+            "answer": "Pignite is an F-Tier Fire-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Pignite?",
+            "answer": "The following Mega Pokémon boost Pignite: Mega Houndoom, Mega Blaziken, Mega Camerupt, Primal Groudon, Mega Heracross, Mega Blaziken, Mega Medicham, Mega Lopunny, Mega Lucario, and Mega Gallade."
+        },
+        {
+            "question": "What is Pignite’s maximum CP at Level 40 and Level 50?",
+            "answer": "Pignite’s maximum CP at Level 40 is 1924 CP and 2175 CP at Level 50."
+        },
+        {
+            "question": "Can Pignite be shiny in Pokémon GO?",
+            "answer": "Pignite can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Pignite Dynamax in Pokémon GO?",
+            "answer": "Pignite cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

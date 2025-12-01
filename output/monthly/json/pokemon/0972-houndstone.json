@@ -1,0 +1,724 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2842,
+        "attack": 186,
+        "defense": 195,
+        "stamina": 176,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": false,
+        "title": "Houndstone",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/972.webp",
+        "types": [
+            "Ghost"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Lick",
+            "charged": "Shadow Ball",
+            "dps": 11.38,
+            "tdo": 212.8,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 11.38,
+                "tdo": 212.8,
+                "score": 10.04
+            },
+            {
+                "rank": 2,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 10.36,
+                "tdo": 193.8,
+                "score": 9.14
+            },
+            {
+                "rank": 3,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 8.28,
+                "tdo": 154.8,
+                "score": 7.31
+            },
+            {
+                "rank": 4,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 7.95,
+                "tdo": 148.6,
+                "score": 7.01
+            },
+            {
+                "rank": 5,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Psychic Fangs",
+                "charged_url": "https://db.pokemongohub.net/move/353",
+                "dps": 7.82,
+                "tdo": 146.2,
+                "score": 6.9
+            },
+            {
+                "rank": 6,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Psychic Fangs",
+                "charged_url": "https://db.pokemongohub.net/move/353",
+                "dps": 7.47,
+                "tdo": 139.6,
+                "score": 6.59
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Lick",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/212"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dig",
+                "type": "Ground",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 4.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.5,
+                    "damage_window": "2.6s - 4.3s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/26"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Psychic Fangs",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 25,
+                    "energy": 33,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 25,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.2s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/353"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Houndstone's has 2842 max CP (at Level 50). A Houndstone obtained from Raids can be encountered from 1365 CP to 1436 CP, or if weather boosted, in the 1707 CP to 1795 CP range. In Field and Special Research, Houndstone can be found in the 1024 CP to 1077 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2842",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1024 - 1077",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1365 - 1436",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1365 - 1436",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1707 - 1795",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1707 CP - 1795 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 35,
+        "2": 111,
+        "3": 187,
+        "4": 263,
+        "5": 339,
+        "6": 415,
+        "7": 490,
+        "8": 566,
+        "9": 642,
+        "10": 718,
+        "11": 790,
+        "12": 862,
+        "13": 934,
+        "14": 1005,
+        "15": 1077,
+        "16": 1149,
+        "17": 1221,
+        "18": 1293,
+        "19": 1364,
+        "20": 1436,
+        "21": 1508,
+        "22": 1580,
+        "23": 1652,
+        "24": 1724,
+        "25": 1795,
+        "26": 1867,
+        "27": 1939,
+        "28": 2011,
+        "29": 2083,
+        "30": 2155,
+        "31": 2191,
+        "32": 2227,
+        "33": 2262,
+        "34": 2298,
+        "35": 2334,
+        "36": 2370,
+        "37": 2406,
+        "38": 2442,
+        "39": 2478,
+        "40": 2514,
+        "41": 2546,
+        "42": 2578,
+        "43": 2610,
+        "44": 2643,
+        "45": 2675,
+        "46": 2708,
+        "47": 2741,
+        "48": 2775,
+        "49": 2808,
+        "50": 2842
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Greavard",
+                    "href": "/pokemon/971",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/971.webp"
+                },
+                "to": {
+                    "name": "Houndstone",
+                    "href": "/pokemon/972",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/972.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Greavard",
+                "href": "/pokemon/971",
+                "img": "https://db.pokemongohub.net/images/official/medium/971.webp"
+            },
+            {
+                "name": "Houndstone",
+                "href": "/pokemon/972",
+                "img": "https://db.pokemongohub.net/images/official/medium/972.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Houndstone in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Houndstone",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Houndstone's Ghost-type moves, Candy, and Candy XL from catching Houndstone.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 972,
+            "height_m": 2,
+            "weight_kg": 15,
+            "region": "Generation 9",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.98 m",
+            "xs": "1 m",
+            "m": "2 m",
+            "xl": "3 m",
+            "xxl": "3.1 m",
+            "description": "Houndstone's height ranges from 0.98 m to 3.1 m, with the average being 2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.98,
+                "upper_m": 1,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1,
+                "upper_m": 2,
+                "lower_ft": "3′03″",
+                "upper_ft": "6′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.5,
+                "upper_m": 2.5,
+                "lower_ft": "4′11″",
+                "upper_ft": "8′02″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.5,
+                "upper_m": 3,
+                "lower_ft": "8′02″",
+                "upper_ft": "9′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 3,
+                "upper_m": 3.1,
+                "lower_ft": "9′10″",
+                "upper_ft": "10′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 2,
+            "attack_probability": 5.0,
+            "attack_timer": 0,
+            "dodge_probability": 10.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Scarlet"
+            ],
+            "entry": "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master."
+        },
+        {
+            "versions": [
+                "Violet"
+            ],
+            "entry": "A lovingly mourned Pokémon was reborn as Houndstone. It doesn’t like anyone touching the protuberance atop its head."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Houndstone",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm972.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm972.icon.png"
+            },
+            {
+                "label": "Shiny Houndstone",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm972.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm972.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 972,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0972_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0972_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Houndstone sprite"
+            },
+            {
+                "pokedex_number": 972,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0972_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0972_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Houndstone sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/972_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/972_social.jpg",
+                "alt": "Houndstone"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/972_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/972_social_dark.jpg",
+                "alt": "Houndstone"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/972_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/972_social_map.jpg",
+                "alt": "Houndstone"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/972_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/972_social_map_dark.jpg",
+                "alt": "Houndstone"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Houndstone’s strengths and weaknesses?",
+            "answer": "As a Ghost-type Pokémon, Houndstone is weak to Dark and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Houndstone in Pokémon GO?",
+            "answer": "The best moves for Houndstone in Pokémon GO are Lick and Shadow Ball. This moveset has a DPS (Damage Per Second) of 11.383 and a TDO (Total Damage Output) of 212.805."
+        },
+        {
+            "question": "How does Houndstone perform in Raids?",
+            "answer": "Houndstone's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Houndstone rank as a Ghost-type attacker?",
+            "answer": "Houndstone is a D-Tier Ghost-type attacker, struggling in Raids due to its lower stats or suboptimal moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Houndstone?",
+            "answer": "The following Mega Pokémon boost Houndstone: Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Houndstone’s maximum CP at Level 40 and Level 50?",
+            "answer": "Houndstone’s maximum CP at Level 40 is 2514 CP and 2842 CP at Level 50."
+        },
+        {
+            "question": "Can Houndstone be shiny in Pokémon GO?",
+            "answer": "Houndstone cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Houndstone Dynamax in Pokémon GO?",
+            "answer": "Houndstone cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

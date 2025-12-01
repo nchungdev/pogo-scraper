@@ -1,0 +1,783 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1137,
+        "attack": 114,
+        "defense": 94,
+        "stamina": 128,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Chingling",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/433.webp",
+        "types": [
+            "Psychic"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Zen Headbutt",
+            "charged": "Psyshock",
+            "dps": 5.08,
+            "tdo": 36.94,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 5.08,
+                "tdo": 36.9,
+                "score": 3.78
+            },
+            {
+                "rank": 2,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 4.95,
+                "tdo": 35.9,
+                "score": 3.68
+            },
+            {
+                "rank": 3,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Wrap",
+                "charged_url": "https://db.pokemongohub.net/move/13",
+                "dps": 4.6,
+                "tdo": 33.4,
+                "score": 3.42
+            },
+            {
+                "rank": 4,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 4.34,
+                "tdo": 31.5,
+                "score": 3.23
+            },
+            {
+                "rank": 5,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 4.19,
+                "tdo": 30.5,
+                "score": 3.12
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Wrap",
+                "charged_url": "https://db.pokemongohub.net/move/13",
+                "dps": 3.64,
+                "tdo": 26.4,
+                "score": 2.71
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Zen Headbutt",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 9,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/234"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Wrap",
+                "type": "Normal",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/13"
+            },
+            {
+                "name": "Psyshock",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/60"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Chingling's has 1137 max CP (at Level 50). A Chingling obtained from Raids can be encountered from 530 CP to 574 CP, or if weather boosted, in the 662 CP to 718 CP range. In Field and Special Research, Chingling can be found in the 397 CP to 431 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1137",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "397 - 431",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "530 - 574",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "530 - 574",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "662 - 718",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "662 CP - 718 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 44,
+        "3": 74,
+        "4": 105,
+        "5": 135,
+        "6": 166,
+        "7": 196,
+        "8": 226,
+        "9": 257,
+        "10": 287,
+        "11": 316,
+        "12": 344,
+        "13": 373,
+        "14": 402,
+        "15": 431,
+        "16": 459,
+        "17": 488,
+        "18": 517,
+        "19": 546,
+        "20": 574,
+        "21": 603,
+        "22": 632,
+        "23": 661,
+        "24": 689,
+        "25": 718,
+        "26": 747,
+        "27": 776,
+        "28": 804,
+        "29": 833,
+        "30": 862,
+        "31": 876,
+        "32": 890,
+        "33": 905,
+        "34": 919,
+        "35": 934,
+        "36": 948,
+        "37": 962,
+        "38": 977,
+        "39": 991,
+        "40": 1005,
+        "41": 1018,
+        "42": 1031,
+        "43": 1044,
+        "44": 1057,
+        "45": 1070,
+        "46": 1083,
+        "47": 1096,
+        "48": 1110,
+        "49": 1123,
+        "50": 1137
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Chingling",
+                    "href": "/pokemon/433",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/433.webp"
+                },
+                "to": {
+                    "name": "Chimecho",
+                    "href": "/pokemon/358",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/358.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Chimecho",
+                "href": "/pokemon/358",
+                "img": "https://db.pokemongohub.net/images/official/medium/358.webp"
+            },
+            {
+                "name": "Chingling",
+                "href": "/pokemon/433",
+                "img": "https://db.pokemongohub.net/images/official/medium/433.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Chingling in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Chingling",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Chingling's Psychic-type moves, Candy, and Candy XL from catching Chingling.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 433,
+            "height_m": 0.2,
+            "weight_kg": 0.6,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.1 m",
+            "xs": "0.1 m",
+            "m": "0.2 m",
+            "xl": "0.3 m",
+            "xxl": "0.35 m",
+            "description": "Chingling's height ranges from 0.1 m to 0.35 m, with the average being 0.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.098,
+                "upper_m": 0.1,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.1,
+                "upper_m": 0.2,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.15,
+                "upper_m": 0.25,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.25,
+                "upper_m": 0.3,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.3,
+                "upper_m": 0.35,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_ELECTRIC",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It emits cries by agitating an orb at the back of its throat. It moves with flouncing hops."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "Each time it hops, it makes a ringing sound. It deafens foes by emitting high-frequency cries."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "There is an orb inside its mouth. When it hops, the orb bounces all over and makes a ringing sound."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It emits high-frequency cries that people can’t hear. Once it starts, it can cry for an awfully long time."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Each time it hops, it makes a ringing sound. It deafens foes by emitting high-frequency cries."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "There is an orb inside its mouth. When it hops, the orb bounces all over and makes a ringing sound."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "This Pokémon gave me an excruciating headache when it seemingly cried out without making a sound. Perhaps there are some sounds that the human ear is simply incapable of hearing."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Chingling",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm433.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm433.icon.png"
+            },
+            {
+                "label": "Shiny Chingling",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm433.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm433.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 433,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0433_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0433_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Chingling sprite"
+            },
+            {
+                "pokedex_number": 433,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0433_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0433_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Chingling sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/433_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/433_social.jpg",
+                "alt": "Chingling"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/433_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/433_social_dark.jpg",
+                "alt": "Chingling"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/433_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/433_social_map.jpg",
+                "alt": "Chingling"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/433_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/433_social_map_dark.jpg",
+                "alt": "Chingling"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Chingling’s strengths and weaknesses?",
+            "answer": "As a Psychic-type Pokémon, Chingling is weak to Bug, Dark, and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Chingling in Pokémon GO?",
+            "answer": "The best moves for Chingling in Pokémon GO are Zen Headbutt and Psyshock. This moveset has a DPS (Damage Per Second) of 5.085 and a TDO (Total Damage Output) of 36.94."
+        },
+        {
+            "question": "How does Chingling perform in Raids?",
+            "answer": "Chingling's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Chingling rank as a Psychic-type attacker?",
+            "answer": "Chingling's performance as a Psychic-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Chingling?",
+            "answer": "The following Mega Pokémon boost Chingling: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Chingling’s maximum CP at Level 40 and Level 50?",
+            "answer": "Chingling’s maximum CP at Level 40 is 1005 CP and 1137 CP at Level 50."
+        },
+        {
+            "question": "Can Chingling be shiny in Pokémon GO?",
+            "answer": "Chingling can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Chingling Dynamax in Pokémon GO?",
+            "answer": "Chingling cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,932 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1236,
+        "attack": 130,
+        "defense": 87,
+        "stamina": 128,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Torchic",
+        "forms": [
+            {
+                "name": "Torchic",
+                "href": "/pokemon/255",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/255.webp"
+            },
+            {
+                "name": "Shadow Torchic",
+                "href": "/pokemon/255-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/255.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/255.webp",
+        "types": [
+            "Fire"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Scratch",
+            "charged": "Flamethrower",
+            "dps": 5.22,
+            "tdo": 35.5,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 5.22,
+                "tdo": 35.5,
+                "score": 3.82
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 5.18,
+                "tdo": 35.2,
+                "score": 3.79
+            },
+            {
+                "rank": 3,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 5.1,
+                "tdo": 34.6,
+                "score": 3.73
+            },
+            {
+                "rank": 4,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 4.97,
+                "tdo": 33.8,
+                "score": 3.64
+            },
+            {
+                "rank": 5,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 4.93,
+                "tdo": 33.5,
+                "score": 3.61
+            },
+            {
+                "rank": 6,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 4.65,
+                "tdo": 31.6,
+                "score": 3.4
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            },
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Rock Tomb",
+                "type": "Rock",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/63"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Torchic's has 1236 max CP (at Level 50). A Torchic obtained from Raids can be encountered from 578 CP to 624 CP, or if weather boosted, in the 722 CP to 781 CP range. In Field and Special Research, Torchic can be found in the 433 CP to 468 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1236",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "433 - 468",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "578 - 624",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "578 - 624",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "722 - 781",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "722 CP - 781 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 15,
+        "2": 48,
+        "3": 81,
+        "4": 114,
+        "5": 147,
+        "6": 180,
+        "7": 213,
+        "8": 246,
+        "9": 279,
+        "10": 312,
+        "11": 343,
+        "12": 375,
+        "13": 406,
+        "14": 437,
+        "15": 468,
+        "16": 500,
+        "17": 531,
+        "18": 562,
+        "19": 593,
+        "20": 624,
+        "21": 656,
+        "22": 687,
+        "23": 718,
+        "24": 750,
+        "25": 781,
+        "26": 812,
+        "27": 843,
+        "28": 875,
+        "29": 906,
+        "30": 937,
+        "31": 953,
+        "32": 968,
+        "33": 984,
+        "34": 1000,
+        "35": 1015,
+        "36": 1031,
+        "37": 1046,
+        "38": 1062,
+        "39": 1078,
+        "40": 1093,
+        "41": 1107,
+        "42": 1121,
+        "43": 1135,
+        "44": 1149,
+        "45": 1164,
+        "46": 1178,
+        "47": 1192,
+        "48": 1207,
+        "49": 1221,
+        "50": 1236
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Torchic",
+                    "href": "/pokemon/255",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/255.webp"
+                },
+                "to": {
+                    "name": "Combusken",
+                    "href": "/pokemon/256",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/256.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Combusken",
+                    "href": "/pokemon/256",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/256.webp"
+                },
+                "to": {
+                    "name": "Blaziken",
+                    "href": "/pokemon/257",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/257.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Blaziken",
+                    "href": "/pokemon/257",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/257.webp"
+                },
+                "to": {
+                    "name": "Mega Blaziken",
+                    "href": "/pokemon/257-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Torchic",
+                "href": "/pokemon/255",
+                "img": "https://db.pokemongohub.net/images/official/medium/255.webp"
+            },
+            {
+                "name": "Combusken",
+                "href": "/pokemon/256",
+                "img": "https://db.pokemongohub.net/images/official/medium/256.webp"
+            },
+            {
+                "name": "Blaziken",
+                "href": "/pokemon/257",
+                "img": "https://db.pokemongohub.net/images/official/medium/257.webp"
+            },
+            {
+                "name": "Mega Blaziken",
+                "href": "/pokemon/257-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Torchic",
+                "href": "/pokemon/255-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Combusken",
+                "href": "/pokemon/256-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Blaziken",
+                "href": "/pokemon/257-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Torchic in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Torchic",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Torchic's Fire-type moves, Candy, and Candy XL from catching Torchic.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 255,
+            "height_m": 0.41,
+            "weight_kg": 2.5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": 15,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.21 m",
+            "m": "0.41 m",
+            "xl": "0.62 m",
+            "xxl": "0.64 m",
+            "description": "Torchic's height ranges from 0.2 m to 0.64 m, with the average being 0.41 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2009,
+                "upper_m": 0.205,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.205,
+                "upper_m": 0.41,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3075,
+                "upper_m": 0.5125,
+                "lower_ft": "1′00″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5125,
+                "upper_m": 0.615,
+                "lower_ft": "1′08″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.615,
+                "upper_m": 0.6355,
+                "lower_ft": "2′00″",
+                "upper_ft": "2′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "TORCHIC sticks with its TRAINER, following behind with unsteady steps. This POKéMON breathes fire of over 1,800 degrees F, including fireballs that leave the foe scorched black."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "TORCHIC has a place inside its body where it keeps its flame. Give it a hug - it will be glowing with warmth. This POKéMON is covered all over by a fluffy coat of down."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "If attacked, it strikes back by spitting balls of fire it forms in its stomach. A TORCHIC dislikes darkness because it can’t see its surroundings."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It has a flame sac inside its belly that perpetually burns. It feels warm if it is hugged."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "Inside its body is a place where it keeps a small flame. Hug it! It will be as warm as a hot-water bottle."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It has a flame sac inside its belly that perpetually burns. It feels warm if it is hugged."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Torchic sticks with its Trainer, following behind with unsteady steps. This Pokémon breathes fire of over 1,800 degrees Fahrenheit, including fireballs that leave the foe scorched black."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Torchic has a place inside its body where it keeps its flame. Give it a hug—it will be glowing with warmth. This Pokémon is covered all over by a fluffy coat of down."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Torchic",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm255.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm255.icon.png"
+            },
+            {
+                "label": "Regular Torchic♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm255.g2.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm255.g2.icon.png"
+            },
+            {
+                "label": "Shiny Torchic",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm255.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm255.s.icon.png"
+            },
+            {
+                "label": "Shiny Torchic♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm255.g2.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm255.g2.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 255,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0255_000_fd_n_00000000_b_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0255_000_fd_n_00000000_b_n.png",
+                "alt": "Pokémon HOME Torchic ♀ sprite"
+            },
+            {
+                "pokedex_number": 255,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0255_000_fd_n_00000000_b_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0255_000_fd_n_00000000_b_n.png",
+                "alt": "Pokémon HOME Shiny Torchic ♀ sprite"
+            },
+            {
+                "pokedex_number": 255,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0255_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0255_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Torchic ♀ sprite"
+            },
+            {
+                "pokedex_number": 255,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0255_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0255_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Torchic ♀ sprite"
+            },
+            {
+                "pokedex_number": 255,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0255_000_md_n_00000000_b_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0255_000_md_n_00000000_b_n.png",
+                "alt": "Pokémon HOME Torchic sprite"
+            },
+            {
+                "pokedex_number": 255,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0255_000_md_n_00000000_b_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0255_000_md_n_00000000_b_n.png",
+                "alt": "Pokémon HOME Shiny Torchic sprite"
+            },
+            {
+                "pokedex_number": 255,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0255_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0255_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Torchic sprite"
+            },
+            {
+                "pokedex_number": 255,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0255_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0255_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Torchic sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/255_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/255_social.jpg",
+                "alt": "Torchic"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/255_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/255_social_dark.jpg",
+                "alt": "Torchic"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/255_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/255_social_map.jpg",
+                "alt": "Torchic"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/255_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/255_social_map_dark.jpg",
+                "alt": "Torchic"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Torchic’s strengths and weaknesses?",
+            "answer": "As a Fire-type Pokémon, Torchic is weak to Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Torchic in Pokémon GO?",
+            "answer": "The best moves for Torchic in Pokémon GO are Scratch and Flamethrower. This moveset has a DPS (Damage Per Second) of 5.222 and a TDO (Total Damage Output) of 35.503."
+        },
+        {
+            "question": "How does Torchic perform in Raids?",
+            "answer": "Torchic's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Torchic rank as a Fire-type attacker?",
+            "answer": "Torchic is an F-Tier Fire-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Torchic?",
+            "answer": "The following Mega Pokémon boost Torchic: Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Torchic’s maximum CP at Level 40 and Level 50?",
+            "answer": "Torchic’s maximum CP at Level 40 is 1093 CP and 1236 CP at Level 50."
+        },
+        {
+            "question": "Can Torchic be shiny in Pokémon GO?",
+            "answer": "Torchic can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Torchic Dynamax in Pokémon GO?",
+            "answer": "Torchic cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

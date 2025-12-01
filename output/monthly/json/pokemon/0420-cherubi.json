@@ -1,0 +1,863 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1074,
+        "attack": 108,
+        "defense": 92,
+        "stamina": 128,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Cherubi",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/420.webp",
+        "types": [
+            "Grass"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Seed Bomb",
+            "dps": 4.85,
+            "tdo": 34.59,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Seed Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/59",
+                "dps": 4.85,
+                "tdo": 34.6,
+                "score": 3.59
+            },
+            {
+                "rank": 2,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Seed Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/59",
+                "dps": 4.51,
+                "tdo": 32.1,
+                "score": 3.34
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 4.45,
+                "tdo": 31.8,
+                "score": 3.3
+            },
+            {
+                "rank": 4,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 4.04,
+                "tdo": 28.8,
+                "score": 2.99
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Petal Blizzard",
+                "charged_url": "https://db.pokemongohub.net/move/47",
+                "dps": 3.89,
+                "tdo": 27.7,
+                "score": 2.88
+            },
+            {
+                "rank": 6,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Petal Blizzard",
+                "charged_url": "https://db.pokemongohub.net/move/47",
+                "dps": 3.47,
+                "tdo": 24.7,
+                "score": 2.57
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Bullet Seed",
+                "type": "Grass",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/271"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Petal Blizzard",
+                "type": "Grass",
+                "stats": {
+                    "damage": 110,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 110,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.2s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/47"
+            },
+            {
+                "name": "Seed Bomb",
+                "type": "Grass",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.1s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/59"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.1s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/86"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Cherubi's has 1074 max CP (at Level 50). A Cherubi obtained from Raids can be encountered from 499 CP to 542 CP, or if weather boosted, in the 624 CP to 678 CP range. In Field and Special Research, Cherubi can be found in the 374 CP to 407 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1074",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "374 - 407",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "499 - 542",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "499 - 542",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "624 - 678",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "624 CP - 678 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 42,
+        "3": 70,
+        "4": 99,
+        "5": 128,
+        "6": 156,
+        "7": 185,
+        "8": 214,
+        "9": 242,
+        "10": 271,
+        "11": 298,
+        "12": 325,
+        "13": 353,
+        "14": 380,
+        "15": 407,
+        "16": 434,
+        "17": 461,
+        "18": 488,
+        "19": 515,
+        "20": 542,
+        "21": 570,
+        "22": 597,
+        "23": 624,
+        "24": 651,
+        "25": 678,
+        "26": 705,
+        "27": 733,
+        "28": 760,
+        "29": 787,
+        "30": 814,
+        "31": 828,
+        "32": 841,
+        "33": 855,
+        "34": 868,
+        "35": 882,
+        "36": 895,
+        "37": 909,
+        "38": 923,
+        "39": 936,
+        "40": 950,
+        "41": 962,
+        "42": 974,
+        "43": 986,
+        "44": 998,
+        "45": 1011,
+        "46": 1023,
+        "47": 1036,
+        "48": 1048,
+        "49": 1061,
+        "50": 1074
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Cherubi",
+                    "href": "/pokemon/420",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/420.webp"
+                },
+                "to": {
+                    "name": "Cherrim (Overcast Form)",
+                    "href": "/pokemon/421-Overcast",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/421.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Cherubi",
+                    "href": "/pokemon/420",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/420.webp"
+                },
+                "to": {
+                    "name": "Cherrim (Sunny Form)",
+                    "href": "/pokemon/421-Sunny",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/421_f2.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Cherubi",
+                "href": "/pokemon/420",
+                "img": "https://db.pokemongohub.net/images/official/medium/420.webp"
+            },
+            {
+                "name": "Cherrim",
+                "href": "/pokemon/421",
+                "img": "https://db.pokemongohub.net/images/official/medium/421.webp"
+            },
+            {
+                "name": "Cherrim (Overcast Form)",
+                "href": "/pokemon/421-Overcast",
+                "img": "https://db.pokemongohub.net/images/official/medium/421.webp"
+            },
+            {
+                "name": "Cherrim (Sunny Form)",
+                "href": "/pokemon/421-Sunny",
+                "img": "https://db.pokemongohub.net/images/official/medium/421_f2.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Cherubi in the meta PvE Analysis ⚔️ Raids You wouldn’t send a seedling in to battle! 🛡️ Gyms Shiny flex only. PvP Analysis Preferred Moveset - Bullet Seed, Seed Bomb & Dazzling Gleam 🧸 Little League Cherubi has a decent enough moveset, but lacks the stats and pacing to be considered a viable pick in the Little League meta.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Cherubi",
+        "type": "Grass",
+        "intro_text": "A list of Mega Pokémon that boost Cherubi's Grass-type moves, Candy, and Candy XL from catching Cherubi.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 420,
+            "height_m": 0.4,
+            "weight_kg": 3.3,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.8 m",
+            "description": "Cherubi's height ranges from 0.2 m to 0.8 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.8,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "Sunlight colors it red. When the small ball is drained of nutrients, it shrivels to herald evolution."
+        },
+        {
+            "versions": [
+                "Platinum"
+            ],
+            "entry": "The small ball is not only filled with nutrients, it is also tasty. STARLY try to peck it off."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It evolves by sucking the energy out of the small ball where it had been storing nutrients."
+        },
+        {
+            "versions": [
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Sunlight colors it red. When the small ball is drained of nutrients, it shrivels to herald evolution."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It evolves by sucking the energy out of the small ball where it had been storing nutrients."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It nimbly dashes about to avoid getting pecked by bird Pokémon that would love to make off with its small, nutrient-rich storage ball."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "The deeper a Cherubi’s red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!"
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Once the fruit growing alongside the main body is large and plump, Cherubi will use the nutrients within to evolve. The fruit then detaches, becoming nourishment for other creatures."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Cherubi",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm420.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm420.icon.png"
+            },
+            {
+                "label": "Shiny Cherubi",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm420.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm420.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 420,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0420_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0420_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Cherubi sprite"
+            },
+            {
+                "pokedex_number": 420,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0420_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0420_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Cherubi sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/420_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/420_social.jpg",
+                "alt": "Cherubi"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/420_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/420_social_dark.jpg",
+                "alt": "Cherubi"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/420_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/420_social_map.jpg",
+                "alt": "Cherubi"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/420_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/420_social_map_dark.jpg",
+                "alt": "Cherubi"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Cherubi’s strengths and weaknesses?",
+            "answer": "As a Grass-type Pokémon, Cherubi is weak to Bug, Fire, Flying, Ice, and Poison-type moves."
+        },
+        {
+            "question": "What are the best moves for Cherubi in Pokémon GO?",
+            "answer": "The best moves for Cherubi in Pokémon GO are Tackle and Seed Bomb. This moveset has a DPS (Damage Per Second) of 4.851 and a TDO (Total Damage Output) of 34.594."
+        },
+        {
+            "question": "How does Cherubi perform in Raids?",
+            "answer": "Cherubi's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Cherubi rank as a Grass-type attacker?",
+            "answer": "Cherubi's performance as a Grass-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Cherubi?",
+            "answer": "The following Mega Pokémon boost Cherubi: Mega Venusaur, Mega Sceptile, Primal Groudon, and Mega Abomasnow."
+        },
+        {
+            "question": "What is Cherubi’s maximum CP at Level 40 and Level 50?",
+            "answer": "Cherubi’s maximum CP at Level 40 is 950 CP and 1074 CP at Level 50."
+        },
+        {
+            "question": "Can Cherubi be shiny in Pokémon GO?",
+            "answer": "Cherubi can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Cherubi Dynamax in Pokémon GO?",
+            "answer": "Cherubi cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

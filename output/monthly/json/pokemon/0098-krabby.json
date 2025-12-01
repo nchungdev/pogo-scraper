@@ -1,0 +1,963 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1764,
+        "attack": 181,
+        "defense": 124,
+        "stamina": 102,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Krabby",
+        "forms": [
+            {
+                "name": "Krabby",
+                "href": "/pokemon/98",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/098.webp"
+            },
+            {
+                "name": "Shadow Krabby",
+                "href": "/pokemon/98-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/098.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/098.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bubble",
+            "charged": "Razor Shell",
+            "dps": 8.91,
+            "tdo": 67.56,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Razor Shell",
+                "charged_url": "https://db.pokemongohub.net/move/318",
+                "dps": 8.91,
+                "tdo": 67.6,
+                "score": 6.71
+            },
+            {
+                "rank": 2,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Razor Shell",
+                "charged_url": "https://db.pokemongohub.net/move/318",
+                "dps": 8.16,
+                "tdo": 61.8,
+                "score": 6.14
+            },
+            {
+                "rank": 3,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 7.43,
+                "tdo": 56.3,
+                "score": 5.59
+            },
+            {
+                "rank": 4,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 7.05,
+                "tdo": 53.5,
+                "score": 5.31
+            },
+            {
+                "rank": 5,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 6.66,
+                "tdo": 50.5,
+                "score": 5.01
+            },
+            {
+                "rank": 6,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Vise Grip",
+                "charged_url": "https://db.pokemongohub.net/move/20",
+                "dps": 6.27,
+                "tdo": 47.5,
+                "score": 4.71
+            },
+            {
+                "rank": 7,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 6.23,
+                "tdo": 47.2,
+                "score": 4.68
+            },
+            {
+                "rank": 8,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Vise Grip",
+                "charged_url": "https://db.pokemongohub.net/move/20",
+                "dps": 5.44,
+                "tdo": 41.2,
+                "score": 4.09
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Mud Shot",
+                "type": "Ground",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/216"
+            },
+            {
+                "name": "Bubble",
+                "type": "Water",
+                "stats": {
+                    "damage": 10,
+                    "energy": 12,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 12,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/237"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Vise Grip",
+                "type": "Normal",
+                "stats": {
+                    "damage": 35,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 35,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.2s - 1.6s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/20"
+            },
+            {
+                "name": "Bubble Beam",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.6s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 25,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/53"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Razor Shell",
+                "type": "Water",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 35,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/318"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Krabby's has 1764 max CP (at Level 50). A Krabby obtained from Raids can be encountered from 835 CP to 892 CP, or if weather boosted, in the 1043 CP to 1115 CP range. In Field and Special Research, Krabby can be found in the 626 CP to 669 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1764",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "626 - 669",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "835 - 892",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "835 - 892",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1043 - 1115",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1043 CP - 1115 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 22,
+        "2": 69,
+        "3": 116,
+        "4": 163,
+        "5": 210,
+        "6": 257,
+        "7": 304,
+        "8": 351,
+        "9": 399,
+        "10": 446,
+        "11": 490,
+        "12": 535,
+        "13": 579,
+        "14": 624,
+        "15": 669,
+        "16": 713,
+        "17": 758,
+        "18": 802,
+        "19": 847,
+        "20": 892,
+        "21": 936,
+        "22": 981,
+        "23": 1025,
+        "24": 1070,
+        "25": 1115,
+        "26": 1159,
+        "27": 1204,
+        "28": 1248,
+        "29": 1293,
+        "30": 1338,
+        "31": 1360,
+        "32": 1382,
+        "33": 1405,
+        "34": 1427,
+        "35": 1449,
+        "36": 1471,
+        "37": 1494,
+        "38": 1516,
+        "39": 1538,
+        "40": 1561,
+        "41": 1580,
+        "42": 1600,
+        "43": 1620,
+        "44": 1641,
+        "45": 1661,
+        "46": 1681,
+        "47": 1702,
+        "48": 1723,
+        "49": 1743,
+        "50": 1764
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Krabby",
+                    "href": "/pokemon/98",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/098.webp"
+                },
+                "to": {
+                    "name": "Kingler",
+                    "href": "/pokemon/99",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/099.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Krabby",
+                "href": "/pokemon/98",
+                "img": "https://db.pokemongohub.net/images/official/medium/098.webp"
+            },
+            {
+                "name": "Kingler",
+                "href": "/pokemon/99",
+                "img": "https://db.pokemongohub.net/images/official/medium/099.webp"
+            },
+            {
+                "name": "Gigantamax Kingler",
+                "href": "/pokemon/99-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/099_gmax.webp"
+            },
+            {
+                "name": "Shadow Krabby",
+                "href": "/pokemon/98-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Kingler",
+                "href": "/pokemon/99-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Krabby in the meta PvE Analysis Krabby is literally just a crab . Even the crab emoji looks like Krabby! 👉 🦀 And no, it doesn’t do anything notable in PvE , whether in Raids or Gyms . 😅 PvP Analysis 🧸 Little Cup Krabby has an exceptionally high ATK for a Little Cup Pokémon , but unfortunately, this comes at the cost of its bulk being significantly reduced . 😕 Additionally, its Charged Moves – Razor Shell and Vise Grip – lack burst damage , which would have helped Krabby secure KOs more easily . Outside of the Little Cup , Krabby has absolutely zero value in the Great, Ultra, and Master League . 👎",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Krabby",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Krabby's Water-type moves, Candy, and Candy XL from catching Krabby.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 98,
+            "height_m": 0.4,
+            "weight_kg": 6.5,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Krabby's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 23,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 8,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "Its pincers are not only powerful weapons, they are used for balance when walking sideways."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "Its pincers are superb weapons. They sometimes break off during battle, but they grow back fast."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "If it senses dan ger approaching, it cloaks itself with bubbles from its mouth so it will look bigger."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "The pincers break off easily. If it loses a pincer, it somehow becomes incapable of walk ing sideways."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "If it is unable to find food, it will absorb nutrients by swallowing a mouthful of sand."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "KRABBY live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these POKéMON can be seen squabbling with each other over territory."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "KRABBY live in holes dug into beaches. On sandy shores with little in the way of food, they can be seen squabbling with each other over territory."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It can be found near the sea. The large pincers grow back if they are torn out of their sockets."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Its pincers are not only powerful weapons, they are used for balance when walking sideways."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It lives in burrows dug on sandy beaches. Its pincers fully grow back if they are broken in battle."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "The pincers break off easily. If it loses a pincer, it somehow becomes incapable of walking sideways."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger."
+        },
+        {
+            "versions": [
+                "Y",
+                "Sword"
+            ],
+            "entry": "It can be found near the sea. The large pincers grow back if they are torn out of their sockets."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "Its pincers are superb weapons. They sometimes break off during battle, but they grow back fast."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Krabby",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm98.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm98.icon.png"
+            },
+            {
+                "label": "Shiny Krabby",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm98.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm98.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 98,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0098_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0098_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Krabby sprite"
+            },
+            {
+                "pokedex_number": 98,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0098_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0098_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Krabby sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/098_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/098_social.jpg",
+                "alt": "Krabby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/098_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/098_social_dark.jpg",
+                "alt": "Krabby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/098_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/098_social_map.jpg",
+                "alt": "Krabby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/098_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/098_social_map_dark.jpg",
+                "alt": "Krabby"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Krabby’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Krabby is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Krabby in Pokémon GO?",
+            "answer": "The best moves for Krabby in Pokémon GO are Bubble and Razor Shell. This moveset has a DPS (Damage Per Second) of 8.913 and a TDO (Total Damage Output) of 67.564."
+        },
+        {
+            "question": "How does Krabby perform in Raids?",
+            "answer": "Krabby's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Krabby rank as a Water-type attacker?",
+            "answer": "Krabby is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Krabby?",
+            "answer": "The following Mega Pokémon boost Krabby: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Krabby’s maximum CP at Level 40 and Level 50?",
+            "answer": "Krabby’s maximum CP at Level 40 is 1561 CP and 1764 CP at Level 50."
+        },
+        {
+            "question": "Can Krabby be shiny in Pokémon GO?",
+            "answer": "Krabby can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Krabby Dynamax in Pokémon GO?",
+            "answer": "Krabby can Dynamax in Pokémon GO."
+        }
+    ]
+}

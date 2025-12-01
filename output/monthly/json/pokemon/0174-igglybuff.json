@@ -1,0 +1,967 @@
+{
+    "overview_and_stats": {
+        "max_cp": 605,
+        "attack": 69,
+        "defense": 32,
+        "stamina": 207,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Igglybuff",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/174.webp",
+        "types": [
+            "Normal",
+            "Fairy"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Pound",
+            "charged": "Shadow Ball",
+            "dps": 3.66,
+            "tdo": 17.78,
+            "boosted_weather": [
+                "partlyCloudy",
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 3.66,
+                "tdo": 17.8,
+                "score": 2.41
+            },
+            {
+                "rank": 2,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 3.66,
+                "tdo": 17.8,
+                "score": 2.41
+            },
+            {
+                "rank": 3,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 3.66,
+                "tdo": 17.8,
+                "score": 2.41
+            },
+            {
+                "rank": 4,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Body Slam *",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 3.66,
+                "tdo": 17.8,
+                "score": 2.41
+            },
+            {
+                "rank": 5,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 3.66,
+                "tdo": 17.8,
+                "score": 2.41
+            },
+            {
+                "rank": 6,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 2.53,
+                "tdo": 12.3,
+                "score": 1.67
+            },
+            {
+                "rank": 7,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 2.53,
+                "tdo": 12.3,
+                "score": 1.67
+            },
+            {
+                "rank": 8,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 2.53,
+                "tdo": 12.3,
+                "score": 1.67
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Pound",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.4s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/222"
+            },
+            {
+                "name": "Feint Attack",
+                "type": "Dark",
+                "stats": {
+                    "damage": 11,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 10,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/238"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Psychic",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/108"
+            },
+            {
+                "name": "Swift",
+                "type": "Normal",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.2s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/125"
+            },
+            {
+                "name": "Body Slam *",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            },
+            {
+                "name": "Wild Charge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/251"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Igglybuff's has 605 max CP (at Level 50). A Igglybuff obtained from Raids can be encountered from 269 CP to 306 CP, or if weather boosted, in the 336 CP to 382 CP range. In Field and Special Research, Igglybuff can be found in the 201 CP to 229 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "605",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "201 - 229",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "269 - 306",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "269 - 306",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "336 - 382",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "336 CP - 382 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 7,
+        "2": 23,
+        "3": 39,
+        "4": 56,
+        "5": 72,
+        "6": 88,
+        "7": 104,
+        "8": 120,
+        "9": 136,
+        "10": 153,
+        "11": 168,
+        "12": 183,
+        "13": 199,
+        "14": 214,
+        "15": 229,
+        "16": 244,
+        "17": 260,
+        "18": 275,
+        "19": 290,
+        "20": 306,
+        "21": 321,
+        "22": 336,
+        "23": 352,
+        "24": 367,
+        "25": 382,
+        "26": 398,
+        "27": 413,
+        "28": 428,
+        "29": 444,
+        "30": 459,
+        "31": 467,
+        "32": 474,
+        "33": 482,
+        "34": 489,
+        "35": 497,
+        "36": 505,
+        "37": 512,
+        "38": 520,
+        "39": 528,
+        "40": 535,
+        "41": 542,
+        "42": 549,
+        "43": 556,
+        "44": 563,
+        "45": 570,
+        "46": 577,
+        "47": 584,
+        "48": 591,
+        "49": 598,
+        "50": 605
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Igglybuff",
+                    "href": "/pokemon/174",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/174.webp"
+                },
+                "to": {
+                    "name": "Jigglypuff",
+                    "href": "/pokemon/39",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/039.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Jigglypuff",
+                    "href": "/pokemon/39",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/039.webp"
+                },
+                "to": {
+                    "name": "Wigglytuff",
+                    "href": "/pokemon/40",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/040.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Jigglypuff",
+                "href": "/pokemon/39",
+                "img": "https://db.pokemongohub.net/images/official/medium/039.webp"
+            },
+            {
+                "name": "Wigglytuff",
+                "href": "/pokemon/40",
+                "img": "https://db.pokemongohub.net/images/official/medium/040.webp"
+            },
+            {
+                "name": "Igglybuff",
+                "href": "/pokemon/174",
+                "img": "https://db.pokemongohub.net/images/official/medium/174.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Igglybuff in the meta PvE Analysis Being a Baby Pokémon, Igglybuff isn't even expected to hold any viability in Raids and Gyms. That said, putting this tiny tot in those popular Baby Pokémon themed Gyms is often a good idea, with many players refraining from attacking the Gym until eight hours have passed! PvP Analysis 🧸 Little Cup Igglybuff is one of a- (Igglybuff) one of the most massive threats in the Little League, with a variety of moves at its disposal that this Baby Pokémon takes full advantage of! It says Deino, Dratini, Ducklett, Swinub, Drifloon, Chansey, Barboach, and even claims unlikely victims such as Skarmory, Vulpix and Shadow Vulpix, Toxicroak, and Shadow Stunky. A completely worthy investment for the Little Cup! 👏",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Igglybuff",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Igglybuff's Normal and Fairy-type moves, Candy, and Candy XL from catching Igglybuff.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 174,
+            "height_m": 0.3,
+            "weight_kg": 1,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Igglybuff's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "Its extremely flexible and elas tic body makes it bounce continuous ly--anytime, any where."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "Instead of walking with its short legs, it moves around by bouncing on its soft, tender body."
+        },
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "IGGLYBUFF’s vocal chords are not sufficiently developed. It would hurt its throat if it were to sing too much. This POKéMON gargles with freshwater from a clean stream."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "IGGLYBUFF has a soft and plushy body that feels very much like a marshmallow. From this body wafts a gently sweet fragrance that soothes and calms the emotions of its foes."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "Its soft and pliable body is very bouncy. When it sings continuously with all its might, its body steadily turns a deepening pink color."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "Its extremely flexible and elastic body makes it bounce continuously--anytime, anywhere."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It has a soft and bouncy body. Once it starts bouncing, it becomes impossible to stop."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "Its extremely flexible and elastic body makes it bounce continuously--anytime, anywhere."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its body has a faintly sweet scent and is bouncy and soft. If it bounces even once, it cannot stop."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Instead of walking with its short legs, it moves around by bouncing on its soft, tender body."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Igglybuff’s vocal cords are not sufficiently developed. It would hurt its throat if it were to sing too much. This Pokémon gargles with freshwater from a clean stream."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Igglybuff has a soft and plushy body that feels very much like a marshmallow. From this body wafts a gently sweet fragrance that soothes and calms the emotions of its foes."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It likes to sing but is not yet good at it. With praise and encouragement, it will get better little by little."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It moves by bouncing along. As it moves a lot, it sweats, and its body gives off a sweet aroma."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It’s always practicing its singing because it wants to improve. Even when it’s asleep, it keeps singing in its dreams!"
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Left to its own devices, it will constantly practice singing. You should make it take a break so it doesn’t hurt its throat."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Igglybuff loves to sing. Its marshmallow-like body gives off a faint sweet smell."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Taking advantage of the softness of its body, Igglybuff moves as if bouncing. Its body turns a deep pink when its temperature rises."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Igglybuff",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm174.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm174.icon.png"
+            },
+            {
+                "label": "Shiny Igglybuff",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm174.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm174.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 174,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0174_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0174_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Igglybuff sprite"
+            },
+            {
+                "pokedex_number": 174,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0174_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0174_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Igglybuff sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/174_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/174_social.jpg",
+                "alt": "Igglybuff"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/174_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/174_social_dark.jpg",
+                "alt": "Igglybuff"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/174_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/174_social_map.jpg",
+                "alt": "Igglybuff"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/174_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/174_social_map_dark.jpg",
+                "alt": "Igglybuff"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Igglybuff’s strengths and weaknesses?",
+            "answer": "As a Normal and Fairy-type Pokémon, Igglybuff is weak to Poison and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Igglybuff in Pokémon GO?",
+            "answer": "The best moves for Igglybuff in Pokémon GO are Pound and Shadow Ball. This moveset has a DPS (Damage Per Second) of 3.655 and a TDO (Total Damage Output) of 17.777."
+        },
+        {
+            "question": "How does Igglybuff perform in Raids?",
+            "answer": "Igglybuff's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Igglybuff rank as a Normal-type attacker?",
+            "answer": "Igglybuff's performance as a Normal-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Igglybuff?",
+            "answer": "The following Mega Pokémon boost Igglybuff: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, Mega Audino, Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, and Mega Diancie."
+        },
+        {
+            "question": "What is Igglybuff’s maximum CP at Level 40 and Level 50?",
+            "answer": "Igglybuff’s maximum CP at Level 40 is 535 CP and 605 CP at Level 50."
+        },
+        {
+            "question": "Can Igglybuff be shiny in Pokémon GO?",
+            "answer": "Igglybuff can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Igglybuff Dynamax in Pokémon GO?",
+            "answer": "Igglybuff cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

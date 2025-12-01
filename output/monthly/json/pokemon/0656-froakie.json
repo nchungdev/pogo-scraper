@@ -1,0 +1,790 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1122,
+        "attack": 122,
+        "defense": 84,
+        "stamina": 121,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Froakie",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/656.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Pound",
+            "charged": "Surf",
+            "dps": 5.15,
+            "tdo": 32.3,
+            "boosted_weather": [
+                "partlyCloudy",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Surf",
+                "charged_url": "https://db.pokemongohub.net/move/284",
+                "dps": 5.15,
+                "tdo": 32.3,
+                "score": 3.68
+            },
+            {
+                "rank": 2,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Surf",
+                "charged_url": "https://db.pokemongohub.net/move/284",
+                "dps": 4.99,
+                "tdo": 31.3,
+                "score": 3.57
+            },
+            {
+                "rank": 3,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 4.96,
+                "tdo": 31.1,
+                "score": 3.55
+            },
+            {
+                "rank": 4,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.9,
+                "tdo": 30.8,
+                "score": 3.5
+            },
+            {
+                "rank": 5,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 4.66,
+                "tdo": 29.2,
+                "score": 3.33
+            },
+            {
+                "rank": 6,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.61,
+                "tdo": 29.0,
+                "score": 3.3
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Pound",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.4s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/222"
+            },
+            {
+                "name": "Bubble",
+                "type": "Water",
+                "stats": {
+                    "damage": 10,
+                    "energy": 12,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 12,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/237"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Surf",
+                "type": "Water",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.2s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/284"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Froakie's has 1122 max CP (at Level 50). A Froakie obtained from Raids can be encountered from 522 CP to 567 CP, or if weather boosted, in the 653 CP to 709 CP range. In Field and Special Research, Froakie can be found in the 392 CP to 425 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1122",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "392 - 425",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "522 - 567",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "522 - 567",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "653 - 709",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "653 CP - 709 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 44,
+        "3": 73,
+        "4": 103,
+        "5": 133,
+        "6": 163,
+        "7": 193,
+        "8": 223,
+        "9": 253,
+        "10": 283,
+        "11": 312,
+        "12": 340,
+        "13": 368,
+        "14": 397,
+        "15": 425,
+        "16": 453,
+        "17": 482,
+        "18": 510,
+        "19": 538,
+        "20": 567,
+        "21": 595,
+        "22": 624,
+        "23": 652,
+        "24": 680,
+        "25": 709,
+        "26": 737,
+        "27": 765,
+        "28": 794,
+        "29": 822,
+        "30": 851,
+        "31": 865,
+        "32": 879,
+        "33": 893,
+        "34": 907,
+        "35": 921,
+        "36": 936,
+        "37": 950,
+        "38": 964,
+        "39": 978,
+        "40": 992,
+        "41": 1005,
+        "42": 1018,
+        "43": 1030,
+        "44": 1043,
+        "45": 1056,
+        "46": 1069,
+        "47": 1082,
+        "48": 1095,
+        "49": 1109,
+        "50": 1122
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Froakie",
+                    "href": "/pokemon/656",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/656.webp"
+                },
+                "to": {
+                    "name": "Frogadier",
+                    "href": "/pokemon/657",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/657.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Frogadier",
+                    "href": "/pokemon/657",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/657.webp"
+                },
+                "to": {
+                    "name": "Greninja",
+                    "href": "/pokemon/658",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/658.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Froakie",
+                "href": "/pokemon/656",
+                "img": "https://db.pokemongohub.net/images/official/medium/656.webp"
+            },
+            {
+                "name": "Frogadier",
+                "href": "/pokemon/657",
+                "img": "https://db.pokemongohub.net/images/official/medium/657.webp"
+            },
+            {
+                "name": "Greninja",
+                "href": "/pokemon/658",
+                "img": "https://db.pokemongohub.net/images/official/medium/658.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Froakie in the meta PvE Analysis Froakie is adorable , but it can’t muster enough strength for the PvE meta . ⚔️ Raids - 🫧 🫧 Think these are enough with low stats ? 🛡️ Gyms - It goes down in a hit or two from anything 😵 PvP Analysis 🧸 Little Cup - The Little Cup is the only platform where Froakie finds any sort of use. That said, it's rather unimpressive because of its low bulk and poor moveset 🫤 🔵 Great League - Froakie just cannot survive in the Great League . 🟡 Ultra League - Hop away ! 🐸 🟣 Master League - Hahaha 😂",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Froakie",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Froakie's Water-type moves, Candy, and Candy XL from catching Froakie.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 656,
+            "height_m": 0.3,
+            "weight_kg": 7,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Froakie's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Froakie",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm656.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm656.icon.png"
+            },
+            {
+                "label": "Shiny Froakie",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm656.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm656.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 656,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0656_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0656_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Froakie sprite"
+            },
+            {
+                "pokedex_number": 656,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0656_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0656_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Froakie sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/656_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/656_social.jpg",
+                "alt": "Froakie"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/656_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/656_social_dark.jpg",
+                "alt": "Froakie"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/656_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/656_social_map.jpg",
+                "alt": "Froakie"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/656_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/656_social_map_dark.jpg",
+                "alt": "Froakie"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 656,
+            "name": "Froakie",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm656.cFALL_2024.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm656.cFALL_2024.icon.png",
+            "category": "Fall 2024"
+        },
+        {
+            "pokedex_number": 656,
+            "name": "Shiny Froakie",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm656.cFALL_2024.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm656.cFALL_2024.s.icon.png",
+            "category": "Fall 2024"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Froakie’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Froakie is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Froakie in Pokémon GO?",
+            "answer": "The best moves for Froakie in Pokémon GO are Pound and Surf. This moveset has a DPS (Damage Per Second) of 5.148 and a TDO (Total Damage Output) of 32.305."
+        },
+        {
+            "question": "How does Froakie perform in Raids?",
+            "answer": "Froakie's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Froakie rank as a Water-type attacker?",
+            "answer": "Froakie's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Froakie?",
+            "answer": "The following Mega Pokémon boost Froakie: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Froakie’s maximum CP at Level 40 and Level 50?",
+            "answer": "Froakie’s maximum CP at Level 40 is 992 CP and 1122 CP at Level 50."
+        },
+        {
+            "question": "Can Froakie be shiny in Pokémon GO?",
+            "answer": "Froakie can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Froakie Dynamax in Pokémon GO?",
+            "answer": "Froakie cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

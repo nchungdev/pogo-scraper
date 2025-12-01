@@ -1,0 +1,867 @@
+{
+    "overview_and_stats": {
+        "max_cp": 865,
+        "attack": 106,
+        "defense": 61,
+        "stamina": 120,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Wingull",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/278.webp",
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "weather_boost": [
+            "rain",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Ice Beam",
+            "dps": 4.19,
+            "tdo": 20.03,
+            "boosted_weather": [
+                "rain",
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 4.19,
+                "tdo": 20.0,
+                "score": 2.75
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.19,
+                "tdo": 20.0,
+                "score": 2.75
+            },
+            {
+                "rank": 3,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Air Cutter",
+                "charged_url": "https://db.pokemongohub.net/move/121",
+                "dps": 4.19,
+                "tdo": 20.0,
+                "score": 2.75
+            },
+            {
+                "rank": 4,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 3.16,
+                "tdo": 15.1,
+                "score": 2.07
+            },
+            {
+                "rank": 5,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 3.16,
+                "tdo": 15.1,
+                "score": 2.07
+            },
+            {
+                "rank": 6,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Air Cutter",
+                "charged_url": "https://db.pokemongohub.net/move/121",
+                "dps": 3.16,
+                "tdo": 15.1,
+                "score": 2.07
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ice Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/39"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Air Cutter",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/121"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Wingull's has 865 max CP (at Level 50). A Wingull obtained from Raids can be encountered from 397 CP to 437 CP, or if weather boosted, in the 497 CP to 546 CP range. In Field and Special Research, Wingull can be found in the 298 CP to 328 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "865",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "298 - 328",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "397 - 437",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "397 - 437",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "497 - 546",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "497 CP - 546 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 10,
+        "2": 33,
+        "3": 57,
+        "4": 80,
+        "5": 103,
+        "6": 126,
+        "7": 149,
+        "8": 172,
+        "9": 195,
+        "10": 218,
+        "11": 240,
+        "12": 262,
+        "13": 284,
+        "14": 306,
+        "15": 328,
+        "16": 349,
+        "17": 371,
+        "18": 393,
+        "19": 415,
+        "20": 437,
+        "21": 459,
+        "22": 481,
+        "23": 503,
+        "24": 524,
+        "25": 546,
+        "26": 568,
+        "27": 590,
+        "28": 612,
+        "29": 634,
+        "30": 656,
+        "31": 667,
+        "32": 678,
+        "33": 688,
+        "34": 699,
+        "35": 710,
+        "36": 721,
+        "37": 732,
+        "38": 743,
+        "39": 754,
+        "40": 765,
+        "41": 775,
+        "42": 784,
+        "43": 794,
+        "44": 804,
+        "45": 814,
+        "46": 824,
+        "47": 834,
+        "48": 844,
+        "49": 855,
+        "50": 865
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Wingull",
+                    "href": "/pokemon/278",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/278.webp"
+                },
+                "to": {
+                    "name": "Pelipper",
+                    "href": "/pokemon/279",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/279.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Wingull",
+                "href": "/pokemon/278",
+                "img": "https://db.pokemongohub.net/images/official/medium/278.webp"
+            },
+            {
+                "name": "Pelipper",
+                "href": "/pokemon/279",
+                "img": "https://db.pokemongohub.net/images/official/medium/279.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Wingull in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Wingull",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Wingull's Water and Flying-type moves, Candy, and Candy XL from catching Wingull.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 278,
+            "height_m": 0.61,
+            "weight_kg": 9.5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.3 m",
+            "xs": "0.31 m",
+            "m": "0.61 m",
+            "xl": "0.92 m",
+            "xxl": "1.07 m",
+            "description": "Wingull's height ranges from 0.3 m to 1.07 m, with the average being 0.61 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2989,
+                "upper_m": 0.305,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′00″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.305,
+                "upper_m": 0.61,
+                "lower_ft": "1′00″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.4575,
+                "upper_m": 0.7625,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.7625,
+                "upper_m": 0.915,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.915,
+                "upper_m": 1.0675,
+                "lower_ft": "3′00″",
+                "upper_ft": "3′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "WINGULL has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This POKéMON rides the winds and flies as if it were skating across the sky."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "WINGULL rides updrafts rising from the sea by extending its long and narrow wings to glide. This POKéMON’s long beak is useful for catching prey."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It makes its nest on a sheer cliff at the edge of the sea. It has trouble keeping its wings flapping in flight. Instead, it soars on updrafts."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It rides upon ocean winds as if it were a glider. In the winter, it hides food around its nest."
+        },
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "Catching sea winds with its long wings, it soars as if it were a glider. It folds its wings to rest."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It soars on updrafts without flapping its wings. It makes a nest on sheer cliffs at the sea’s edge."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Catching sea winds with its long wings, it soars as if it were a glider. It folds its wings to rest."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Wingull has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This Pokémon rides the winds and flies as if it were skating across the sky."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Wingull rides updrafts rising from the sea by extending its long and narrow wings to glide. This Pokémon’s long beak is useful for catching prey."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Its hollow bones enhance its lightness. It spreads its wings to the wind and soars away into the sky."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Fishermen keep an eye out for Wingull in the sky, because wherever they’re circling, the ocean is sure to be teeming with fish Pokémon."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "With its long, thin wings, it catches updrafts and flies like a glider high up into the sky."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It builds nests in cliffs by the sea. It circles the skies above the ocean looking for its favorite food—Wishiwashi."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It soars on updrafts without flapping its wings. It makes a nest on sheer cliffs at the sea’s edge."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Wingull",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm278.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm278.icon.png"
+            },
+            {
+                "label": "Shiny Wingull",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm278.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm278.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 278,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0278_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0278_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Wingull sprite"
+            },
+            {
+                "pokedex_number": 278,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0278_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0278_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Wingull sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/278_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/278_social.jpg",
+                "alt": "Wingull"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/278_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/278_social_dark.jpg",
+                "alt": "Wingull"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/278_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/278_social_map.jpg",
+                "alt": "Wingull"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/278_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/278_social_map_dark.jpg",
+                "alt": "Wingull"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Wingull’s strengths and weaknesses?",
+            "answer": "As a Water and Flying-type Pokémon, Wingull is especially weak against Electric-type moves, and weak against Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Wingull in Pokémon GO?",
+            "answer": "The best moves for Wingull in Pokémon GO are Water Gun and Ice Beam. This moveset has a DPS (Damage Per Second) of 4.188 and a TDO (Total Damage Output) of 20.026."
+        },
+        {
+            "question": "How does Wingull perform in Raids?",
+            "answer": "Wingull's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Wingull rank as a Water-type attacker?",
+            "answer": "Wingull's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Wingull?",
+            "answer": "The following Mega Pokémon boost Wingull: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Wingull’s maximum CP at Level 40 and Level 50?",
+            "answer": "Wingull’s maximum CP at Level 40 is 765 CP and 865 CP at Level 50."
+        },
+        {
+            "question": "Can Wingull be shiny in Pokémon GO?",
+            "answer": "Wingull can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Wingull Dynamax in Pokémon GO?",
+            "answer": "Wingull cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

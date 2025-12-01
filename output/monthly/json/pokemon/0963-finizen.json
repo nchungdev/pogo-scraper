@@ -1,0 +1,768 @@
+{
+    "overview_and_stats": {
+        "max_cp": 988,
+        "attack": 90,
+        "defense": 80,
+        "stamina": 172,
+        "buddy_distance": 5,
+        "released": false,
+        "shiny_released": false,
+        "title": "Finizen",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/963.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Waterfall",
+            "charged": "Water Pulse",
+            "dps": 4.37,
+            "tdo": 36.15,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Waterfall",
+                "fast_url": "https://db.pokemongohub.net/move/283",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.37,
+                "tdo": 36.2,
+                "score": 3.35
+            },
+            {
+                "rank": 2,
+                "fast": "Waterfall",
+                "fast_url": "https://db.pokemongohub.net/move/283",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 4.32,
+                "tdo": 35.7,
+                "score": 3.32
+            },
+            {
+                "rank": 3,
+                "fast": "Waterfall",
+                "fast_url": "https://db.pokemongohub.net/move/283",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 4.18,
+                "tdo": 34.6,
+                "score": 3.21
+            },
+            {
+                "rank": 4,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 3.77,
+                "tdo": 31.2,
+                "score": 2.9
+            },
+            {
+                "rank": 5,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 3.77,
+                "tdo": 31.2,
+                "score": 2.9
+            },
+            {
+                "rank": 6,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 3.66,
+                "tdo": 30.3,
+                "score": 2.81
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Waterfall",
+                "type": "Water",
+                "stats": {
+                    "damage": 13,
+                    "energy": 7,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/283"
+            },
+            {
+                "name": "Charm",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 20,
+                    "energy": 11,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 20,
+                    "energy": 11,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 13,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/320"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aqua Jet",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/57"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Icy Wind",
+                "type": "Ice",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.2s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/111"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Finizen's has 988 max CP (at Level 50). A Finizen obtained from Raids can be encountered from 456 CP to 499 CP, or if weather boosted, in the 570 CP to 624 CP range. In Field and Special Research, Finizen can be found in the 342 CP to 374 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "988",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "342 - 374",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "456 - 499",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "456 - 499",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "570 - 624",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "570 CP - 624 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 12,
+        "2": 38,
+        "3": 65,
+        "4": 91,
+        "5": 117,
+        "6": 144,
+        "7": 170,
+        "8": 197,
+        "9": 223,
+        "10": 249,
+        "11": 274,
+        "12": 299,
+        "13": 324,
+        "14": 349,
+        "15": 374,
+        "16": 399,
+        "17": 424,
+        "18": 449,
+        "19": 474,
+        "20": 499,
+        "21": 524,
+        "22": 549,
+        "23": 574,
+        "24": 599,
+        "25": 624,
+        "26": 649,
+        "27": 674,
+        "28": 699,
+        "29": 724,
+        "30": 749,
+        "31": 761,
+        "32": 774,
+        "33": 786,
+        "34": 799,
+        "35": 811,
+        "36": 824,
+        "37": 836,
+        "38": 849,
+        "39": 861,
+        "40": 874,
+        "41": 885,
+        "42": 896,
+        "43": 907,
+        "44": 918,
+        "45": 930,
+        "46": 941,
+        "47": 953,
+        "48": 964,
+        "49": 976,
+        "50": 988
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Finizen",
+                    "href": "/pokemon/963",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/963.webp"
+                },
+                "to": {
+                    "name": "Palafin",
+                    "href": "/pokemon/964",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/964.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Finizen",
+                "href": "/pokemon/963",
+                "img": "https://db.pokemongohub.net/images/official/medium/963.webp"
+            },
+            {
+                "name": "Palafin",
+                "href": "/pokemon/964",
+                "img": "https://db.pokemongohub.net/images/official/medium/964.webp"
+            },
+            {
+                "name": "Palafin (Hero Form)",
+                "href": "/pokemon/964-Hero",
+                "img": "https://db.pokemongohub.net/images/official/medium/964.webp"
+            },
+            {
+                "name": "Palafin (Zero Form)",
+                "href": "/pokemon/964-Zero",
+                "img": "https://db.pokemongohub.net/images/official/medium/964.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Finizen in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Finizen",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Finizen's Water-type moves, Candy, and Candy XL from catching Finizen.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 963,
+            "height_m": 1.3,
+            "weight_kg": 60.2,
+            "region": "Generation 9",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.64 m",
+            "xs": "0.65 m",
+            "m": "1.3 m",
+            "xl": "1.95 m",
+            "xxl": "2.28 m",
+            "description": "Finizen's height ranges from 0.64 m to 2.28 m, with the average being 1.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.637,
+                "upper_m": 0.65,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′02″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.65,
+                "upper_m": 1.3,
+                "lower_ft": "2′02″",
+                "upper_ft": "4′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.975,
+                "upper_m": 1.625,
+                "lower_ft": "3′02″",
+                "upper_ft": "5′04″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.625,
+                "upper_m": 1.95,
+                "lower_ft": "5′04″",
+                "upper_ft": "6′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.95,
+                "upper_m": 2.275,
+                "lower_ft": "6′05″",
+                "upper_ft": "7′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Scarlet"
+            ],
+            "entry": "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures."
+        },
+        {
+            "versions": [
+                "Violet"
+            ],
+            "entry": "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 963,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0963_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0963_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Finizen sprite"
+            },
+            {
+                "pokedex_number": 963,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0963_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0963_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Finizen sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/963_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/963_social.jpg",
+                "alt": "Finizen"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/963_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/963_social_dark.jpg",
+                "alt": "Finizen"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/963_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/963_social_map.jpg",
+                "alt": "Finizen"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/963_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/963_social_map_dark.jpg",
+                "alt": "Finizen"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Finizen’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Finizen is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Finizen in Pokémon GO?",
+            "answer": "The best moves for Finizen in Pokémon GO are Waterfall and Water Pulse. This moveset has a DPS (Damage Per Second) of 4.366 and a TDO (Total Damage Output) of 36.151."
+        },
+        {
+            "question": "How does Finizen perform in Raids?",
+            "answer": "Finizen's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Finizen rank as a Water-type attacker?",
+            "answer": "Finizen's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Finizen?",
+            "answer": "The following Mega Pokémon boost Finizen: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Finizen’s maximum CP at Level 40 and Level 50?",
+            "answer": "Finizen’s maximum CP at Level 40 is 874 CP and 988 CP at Level 50."
+        },
+        {
+            "question": "Can Finizen be shiny in Pokémon GO?",
+            "answer": "Finizen cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Finizen Dynamax in Pokémon GO?",
+            "answer": "Finizen cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

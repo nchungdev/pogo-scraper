@@ -1,0 +1,966 @@
+{
+    "overview_and_stats": {
+        "max_cp": 4181,
+        "attack": 260,
+        "defense": 192,
+        "stamina": 209,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": false,
+        "title": "Keldeo",
+        "forms": [
+            {
+                "name": "Keldeo (Ordinary Forme)",
+                "href": "/pokemon/647-Ordinary",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/647.webp"
+            },
+            {
+                "name": "Keldeo (Resolute Forme)",
+                "href": "/pokemon/647-Resolute",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/647_f2.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/647.webp",
+        "types": [
+            "Water",
+            "Fighting"
+        ],
+        "weather_boost": [
+            "rain",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Low Kick",
+            "charged": "Sacred Sword",
+            "dps": 15.9,
+            "tdo": 343.73,
+            "boosted_weather": [
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Low Kick",
+                "fast_url": "https://db.pokemongohub.net/move/207",
+                "charged": "Sacred Sword",
+                "charged_url": "https://db.pokemongohub.net/move/330",
+                "dps": 15.9,
+                "tdo": 343.7,
+                "score": 14.27
+            },
+            {
+                "rank": 2,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Sacred Sword",
+                "charged_url": "https://db.pokemongohub.net/move/330",
+                "dps": 15.42,
+                "tdo": 333.3,
+                "score": 13.84
+            },
+            {
+                "rank": 3,
+                "fast": "Low Kick",
+                "fast_url": "https://db.pokemongohub.net/move/207",
+                "charged": "Hydro Pump",
+                "charged_url": "https://db.pokemongohub.net/move/107",
+                "dps": 13.3,
+                "tdo": 287.5,
+                "score": 11.94
+            },
+            {
+                "rank": 4,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Hydro Pump",
+                "charged_url": "https://db.pokemongohub.net/move/107",
+                "dps": 12.88,
+                "tdo": 278.4,
+                "score": 11.56
+            },
+            {
+                "rank": 5,
+                "fast": "Low Kick",
+                "fast_url": "https://db.pokemongohub.net/move/207",
+                "charged": "Close Combat",
+                "charged_url": "https://db.pokemongohub.net/move/245",
+                "dps": 12.64,
+                "tdo": 273.2,
+                "score": 11.33
+            },
+            {
+                "rank": 6,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Close Combat",
+                "charged_url": "https://db.pokemongohub.net/move/245",
+                "dps": 12.26,
+                "tdo": 265.0,
+                "score": 11.0
+            },
+            {
+                "rank": 7,
+                "fast": "Low Kick",
+                "fast_url": "https://db.pokemongohub.net/move/207",
+                "charged": "X-Scissor",
+                "charged_url": "https://db.pokemongohub.net/move/100",
+                "dps": 11.93,
+                "tdo": 257.9,
+                "score": 10.7
+            },
+            {
+                "rank": 8,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "X-Scissor",
+                "charged_url": "https://db.pokemongohub.net/move/100",
+                "dps": 11.76,
+                "tdo": 254.1,
+                "score": 10.55
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Low Kick",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/207"
+            },
+            {
+                "name": "Poison Jab",
+                "type": "Poison",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.4s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/224"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aqua Jet",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/57"
+            },
+            {
+                "name": "X-Scissor",
+                "type": "Bug",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.1s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/100"
+            },
+            {
+                "name": "Hydro Pump",
+                "type": "Water",
+                "stats": {
+                    "damage": 135,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 135,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.1s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/107"
+            },
+            {
+                "name": "Close Combat",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.2s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/245"
+            },
+            {
+                "name": "Sacred Sword",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.3s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/330"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Keldeo's has 4181 max CP (at Level 50). A Keldeo obtained from Raids can be encountered from 2026 CP to 2113 CP, or if weather boosted, in the 2533 CP to 2641 CP range. In Field and Special Research, Keldeo can be found in the 1520 CP to 1585 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "4181",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1520 - 1585",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "2026 - 2113",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2026 - 2113",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2533 - 2641",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2533 CP - 2641 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 52,
+        "2": 163,
+        "3": 275,
+        "4": 387,
+        "5": 498,
+        "6": 610,
+        "7": 722,
+        "8": 833,
+        "9": 945,
+        "10": 1057,
+        "11": 1162,
+        "12": 1268,
+        "13": 1373,
+        "14": 1479,
+        "15": 1585,
+        "16": 1690,
+        "17": 1796,
+        "18": 1902,
+        "19": 2007,
+        "20": 2113,
+        "21": 2219,
+        "22": 2324,
+        "23": 2430,
+        "24": 2536,
+        "25": 2641,
+        "26": 2747,
+        "27": 2853,
+        "28": 2958,
+        "29": 3064,
+        "30": 3170,
+        "31": 3223,
+        "32": 3275,
+        "33": 3328,
+        "34": 3381,
+        "35": 3434,
+        "36": 3487,
+        "37": 3540,
+        "38": 3592,
+        "39": 3645,
+        "40": 3698,
+        "41": 3745,
+        "42": 3792,
+        "43": 3840,
+        "44": 3888,
+        "45": 3936,
+        "46": 3984,
+        "47": 4033,
+        "48": 4082,
+        "49": 4131,
+        "50": 4181
+    },
+    "meta_analysis": "Keldeo in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Keldeo",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Keldeo's Water and Fighting-type moves, Candy, and Candy XL from catching Keldeo.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 647,
+            "height_m": 1.4,
+            "weight_kg": 48.5,
+            "region": "Generation 5",
+            "can_be_traded": false,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.69 m",
+            "xs": "0.7 m",
+            "m": "1.4 m",
+            "xl": "2.1 m",
+            "xxl": "2.17 m",
+            "description": "Keldeo's height ranges from 0.69 m to 2.17 m, with the average being 1.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.686,
+                "upper_m": 0.7,
+                "lower_ft": "2′03″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.7,
+                "upper_m": 1.4,
+                "lower_ft": "2′04″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.05,
+                "upper_m": 1.75,
+                "lower_ft": "3′05″",
+                "upper_ft": "5′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.75,
+                "upper_m": 2.1,
+                "lower_ft": "5′09″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.1,
+                "upper_m": 2.17,
+                "lower_ft": "6′11″",
+                "upper_ft": "7′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Cobalion, Terrakion, and Virizion taught this Pokémon how to fight. It dashes across the world, seeking more opportunities to further its training."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "They say that Keldeo must survive harsh battles and fully develop the horn on its forehead before this Pokémon’s true power will awaken."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 647,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0647_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0647_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Keldeo sprite"
+            },
+            {
+                "pokedex_number": 647,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0647_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0647_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Keldeo sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/647_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/647_social.jpg",
+                "alt": "Keldeo"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/647_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/647_social_dark.jpg",
+                "alt": "Keldeo"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/647_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/647_social_map.jpg",
+                "alt": "Keldeo"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/647_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/647_social_map_dark.jpg",
+                "alt": "Keldeo"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Keldeo’s strengths and weaknesses?",
+            "answer": "As a Water and Fighting-type Pokémon, Keldeo is weak to Electric, Fairy, Flying, Grass, and Psychic-type moves."
+        },
+        {
+            "question": "What are the best moves for Keldeo in Pokémon GO?",
+            "answer": "The best moves for Keldeo in Pokémon GO are Low Kick and Sacred Sword. This moveset has a DPS (Damage Per Second) of 15.904 and a TDO (Total Damage Output) of 343.725."
+        },
+        {
+            "question": "How does Keldeo perform in Raids?",
+            "answer": "Keldeo's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Keldeo rank as a Water-type attacker?",
+            "answer": "Keldeo's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Keldeo?",
+            "answer": "The following Mega Pokémon boost Keldeo: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Heracross, Mega Blaziken, Mega Medicham, Mega Lopunny, Mega Lucario, and Mega Gallade."
+        },
+        {
+            "question": "What is Keldeo’s maximum CP at Level 40 and Level 50?",
+            "answer": "Keldeo’s maximum CP at Level 40 is 3698 CP and 4181 CP at Level 50."
+        },
+        {
+            "question": "Can Keldeo be shiny in Pokémon GO?",
+            "answer": "Keldeo cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Keldeo Dynamax in Pokémon GO?",
+            "answer": "Keldeo cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

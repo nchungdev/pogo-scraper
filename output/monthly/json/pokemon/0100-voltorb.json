@@ -1,0 +1,988 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1141,
+        "attack": 109,
+        "defense": 111,
+        "stamina": 120,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Voltorb",
+        "forms": [
+            {
+                "name": "Voltorb",
+                "href": "/pokemon/100",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/100.webp"
+            },
+            {
+                "name": "Hisuian Voltorb",
+                "href": "/pokemon/100-Hisuian",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/100_hisuian.webp"
+            },
+            {
+                "name": "Shadow Hisuian Voltorb",
+                "href": "/pokemon/100-Hisuian_Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/100_hisuian.webp"
+            },
+            {
+                "name": "Shadow Voltorb",
+                "href": "/pokemon/100-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/100.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/100.webp",
+        "types": [
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Spark",
+            "charged": "Discharge",
+            "dps": 5.4,
+            "tdo": 42.84,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 5.4,
+                "tdo": 42.8,
+                "score": 4.11
+            },
+            {
+                "rank": 2,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 5.33,
+                "tdo": 42.3,
+                "score": 4.05
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 5.21,
+                "tdo": 41.3,
+                "score": 3.96
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 5.08,
+                "tdo": 40.3,
+                "score": 3.86
+            },
+            {
+                "rank": 5,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Gyro Ball",
+                "charged_url": "https://db.pokemongohub.net/move/267",
+                "dps": 4.55,
+                "tdo": 36.0,
+                "score": 3.46
+            },
+            {
+                "rank": 6,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Signal Beam *",
+                "charged_url": "https://db.pokemongohub.net/move/99",
+                "dps": 4.53,
+                "tdo": 35.9,
+                "score": 3.44
+            },
+            {
+                "rank": 7,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Gyro Ball",
+                "charged_url": "https://db.pokemongohub.net/move/267",
+                "dps": 4.45,
+                "tdo": 35.3,
+                "score": 3.39
+            },
+            {
+                "rank": 8,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Signal Beam *",
+                "charged_url": "https://db.pokemongohub.net/move/99",
+                "dps": 4.44,
+                "tdo": 35.2,
+                "score": 3.37
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Spark",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/206"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Discharge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.1s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/35"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            },
+            {
+                "name": "Signal Beam *",
+                "type": "Bug",
+                "stats": {
+                    "damage": 75,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 75,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.9s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/99"
+            },
+            {
+                "name": "Gyro Ball",
+                "type": "Steel",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "3.2s - 3.5s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/267"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Voltorb's has 1141 max CP (at Level 50). A Voltorb obtained from Raids can be encountered from 532 CP to 577 CP, or if weather boosted, in the 665 CP to 721 CP range. In Field and Special Research, Voltorb can be found in the 399 CP to 432 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1141",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "399 - 432",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "532 - 577",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "532 - 577",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "665 - 721",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "665 CP - 721 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 44,
+        "3": 75,
+        "4": 105,
+        "5": 136,
+        "6": 166,
+        "7": 197,
+        "8": 227,
+        "9": 258,
+        "10": 288,
+        "11": 317,
+        "12": 346,
+        "13": 375,
+        "14": 404,
+        "15": 432,
+        "16": 461,
+        "17": 490,
+        "18": 519,
+        "19": 548,
+        "20": 577,
+        "21": 606,
+        "22": 634,
+        "23": 663,
+        "24": 692,
+        "25": 721,
+        "26": 750,
+        "27": 779,
+        "28": 808,
+        "29": 836,
+        "30": 865,
+        "31": 880,
+        "32": 894,
+        "33": 909,
+        "34": 923,
+        "35": 937,
+        "36": 952,
+        "37": 966,
+        "38": 981,
+        "39": 995,
+        "40": 1010,
+        "41": 1022,
+        "42": 1035,
+        "43": 1048,
+        "44": 1061,
+        "45": 1075,
+        "46": 1088,
+        "47": 1101,
+        "48": 1114,
+        "49": 1128,
+        "50": 1141
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Voltorb",
+                    "href": "/pokemon/100",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/100.webp"
+                },
+                "to": {
+                    "name": "Electrode",
+                    "href": "/pokemon/101",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/101.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Voltorb",
+                "href": "/pokemon/100",
+                "img": "https://db.pokemongohub.net/images/official/medium/100.webp"
+            },
+            {
+                "name": "Electrode",
+                "href": "/pokemon/101",
+                "img": "https://db.pokemongohub.net/images/official/medium/101.webp"
+            },
+            {
+                "name": "Hisuian Voltorb",
+                "href": "/pokemon/100-Hisuian",
+                "img": "https://db.pokemongohub.net/images/official/medium/100_hisuian.webp"
+            },
+            {
+                "name": "Hisuian Electrode",
+                "href": "/pokemon/101-Hisuian",
+                "img": "https://db.pokemongohub.net/images/official/medium/101_hisuian.webp"
+            },
+            {
+                "name": "Shadow Hisuian Voltorb",
+                "href": "/pokemon/100-Hisuian_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Hisuian Electrode",
+                "href": "/pokemon/101-Hisuian_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Voltorb",
+                "href": "/pokemon/100-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Electrode",
+                "href": "/pokemon/101-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Voltorb in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Voltorb",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Voltorb's Electric-type moves, Candy, and Candy XL from catching Voltorb.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 100,
+            "height_m": 0.5,
+            "weight_kg": 10.4,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "1 m",
+            "description": "Voltorb's height ranges from 0.25 m to 1 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 1,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′03″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "Usually found in power plants. Easily mistaken for a POKé BALL, they have zapped many people."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "It is said to camouflage itself as a POKé BALL. It will self-destruct with very little stimulus."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It was discovered when POKé BALLS were introduced. It is said that there is some connection."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "During the study of this POKéMON, it was discovered that its compo nents are not found in nature."
+        },
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "VOLTORB was first sighted at a company that manufactures POKé BALLS. The link between that sighting and the fact that this POKéMON looks very similar to a POKé BALL remains a mystery."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "VOLTORB is extremely sensitive - it explodes at the slightest of shocks. It is rumored that it was first created when a POKé BALL was exposed to a powerful pulse of energy."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It bears an uncanny and unexplained resemblance to a POKé BALL. Because it explodes at the slightest shock, even veteran TRAINERS treat it with caution."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "A life-form whose identity is unknown. It is said to SCREECH or suddenly SELFDESTRUCT."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Usually found in power plants. Easily mistaken for a POKé BALL, it has zapped many people."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It was discovered when Poké Balls were introduced. It is said that there is some connection."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on contact."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It was discovered when Poké Balls were introduced. It is said that there is some connection."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Voltorb was first sighted at a company that manufactures Poké Balls. The link between that sighting and the fact that this Pokémon looks very similar to a Poké Ball remains a mystery."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Voltorb is extremely sensitive—it explodes at the slightest of shocks. It is rumored that it was first created when a Poké Ball was exposed to a powerful pulse of energy."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "It is said to camouflage itself as a Poké Ball. It will self-destruct with very little stimulus."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Voltorb",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm100.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm100.icon.png"
+            },
+            {
+                "label": "Shiny Voltorb",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm100.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm100.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 100,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0100_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0100_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Voltorb sprite"
+            },
+            {
+                "pokedex_number": 100,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0100_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0100_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Voltorb sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/100_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/100_social.jpg",
+                "alt": "Voltorb"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/100_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/100_social_dark.jpg",
+                "alt": "Voltorb"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/100_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/100_social_map.jpg",
+                "alt": "Voltorb"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/100_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/100_social_map_dark.jpg",
+                "alt": "Voltorb"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Voltorb’s strengths and weaknesses?",
+            "answer": "As a Electric-type Pokémon, Voltorb is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Voltorb in Pokémon GO?",
+            "answer": "The best moves for Voltorb in Pokémon GO are Spark and Discharge. This moveset has a DPS (Damage Per Second) of 5.403 and a TDO (Total Damage Output) of 42.836."
+        },
+        {
+            "question": "How does Voltorb perform in Raids?",
+            "answer": "Voltorb's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Voltorb rank as a Electric-type attacker?",
+            "answer": "Voltorb's performance as a Electric-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Voltorb?",
+            "answer": "The following Mega Pokémon boost Voltorb: Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Voltorb’s maximum CP at Level 40 and Level 50?",
+            "answer": "Voltorb’s maximum CP at Level 40 is 1010 CP and 1141 CP at Level 50."
+        },
+        {
+            "question": "Can Voltorb be shiny in Pokémon GO?",
+            "answer": "Voltorb can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Voltorb Dynamax in Pokémon GO?",
+            "answer": "Voltorb cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

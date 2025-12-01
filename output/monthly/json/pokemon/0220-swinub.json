@@ -1,0 +1,870 @@
+{
+    "overview_and_stats": {
+        "max_cp": 837,
+        "attack": 90,
+        "defense": 69,
+        "stamina": 137,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Swinub",
+        "forms": [
+            {
+                "name": "Swinub",
+                "href": "/pokemon/220",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/220.webp"
+            },
+            {
+                "name": "Shadow Swinub",
+                "href": "/pokemon/220-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/220.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/220.webp",
+        "types": [
+            "Ice",
+            "Ground"
+        ],
+        "weather_boost": [
+            "snow",
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Body Slam",
+            "dps": 3.52,
+            "tdo": 20.96,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 3.52,
+                "tdo": 21.0,
+                "score": 2.48
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 3.52,
+                "tdo": 21.0,
+                "score": 2.48
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 3.39,
+                "tdo": 20.2,
+                "score": 2.39
+            },
+            {
+                "rank": 4,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 2.96,
+                "tdo": 17.6,
+                "score": 2.09
+            },
+            {
+                "rank": 5,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 2.93,
+                "tdo": 17.4,
+                "score": 2.06
+            },
+            {
+                "rank": 6,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 2.85,
+                "tdo": 16.9,
+                "score": 2.01
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Powder Snow",
+                "type": "Ice",
+                "stats": {
+                    "damage": 6,
+                    "energy": 15,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 15,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/244"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Rock Slide",
+                "type": "Rock",
+                "stats": {
+                    "damage": 75,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 75,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/64"
+            },
+            {
+                "name": "Icy Wind",
+                "type": "Ice",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.2s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/111"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Swinub's has 837 max CP (at Level 50). A Swinub obtained from Raids can be encountered from 384 CP to 423 CP, or if weather boosted, in the 480 CP to 529 CP range. In Field and Special Research, Swinub can be found in the 288 CP to 317 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "837",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "288 - 317",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "384 - 423",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "384 - 423",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "480 - 529",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "480 CP - 529 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 10,
+        "2": 32,
+        "3": 55,
+        "4": 77,
+        "5": 99,
+        "6": 122,
+        "7": 144,
+        "8": 167,
+        "9": 189,
+        "10": 211,
+        "11": 232,
+        "12": 254,
+        "13": 275,
+        "14": 296,
+        "15": 317,
+        "16": 338,
+        "17": 359,
+        "18": 381,
+        "19": 402,
+        "20": 423,
+        "21": 444,
+        "22": 465,
+        "23": 486,
+        "24": 508,
+        "25": 529,
+        "26": 550,
+        "27": 571,
+        "28": 592,
+        "29": 614,
+        "30": 635,
+        "31": 645,
+        "32": 656,
+        "33": 666,
+        "34": 677,
+        "35": 688,
+        "36": 698,
+        "37": 709,
+        "38": 719,
+        "39": 730,
+        "40": 741,
+        "41": 750,
+        "42": 759,
+        "43": 769,
+        "44": 779,
+        "45": 788,
+        "46": 798,
+        "47": 808,
+        "48": 817,
+        "49": 827,
+        "50": 837
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Swinub",
+                    "href": "/pokemon/220",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/220.webp"
+                },
+                "to": {
+                    "name": "Piloswine",
+                    "href": "/pokemon/221",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/221.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Piloswine",
+                    "href": "/pokemon/221",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/221.webp"
+                },
+                "to": {
+                    "name": "Mamoswine",
+                    "href": "/pokemon/473",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/473.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Special Item: Sinnoh Stone"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Swinub",
+                "href": "/pokemon/220",
+                "img": "https://db.pokemongohub.net/images/official/medium/220.webp"
+            },
+            {
+                "name": "Piloswine",
+                "href": "/pokemon/221",
+                "img": "https://db.pokemongohub.net/images/official/medium/221.webp"
+            },
+            {
+                "name": "Mamoswine",
+                "href": "/pokemon/473",
+                "img": "https://db.pokemongohub.net/images/official/medium/473.webp"
+            },
+            {
+                "name": "Shadow Swinub",
+                "href": "/pokemon/220-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Piloswine",
+                "href": "/pokemon/221-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Mamoswine",
+                "href": "/pokemon/473-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Swinub in the meta PvE Analysis A max CP below 1000 and a couple of stats that don’t even touch 100 . 🤨 Don’t know how it’s named sWINub . 🤭 ⚔️ Raids It’s foul ! 🛡️ Gyms Keep something stronger in Gyms . Swinub isn’t what you’re looking for. 😛 PvP Analysis 🧸 Little Cup The chilling fast energy generation of Powder Snow , the Attack debuffing effects of Icy Wind , and Body Slam spam make Swinub a fine contender in the Little Cup . 😊 The problem? Swinub can’t take hits, leaving it all alone in the cold. 🥶 🔵 Great League Swinub won’t get you any wins in the Great League . It’s best left for the Little Cup . 🐻 🟡 Ultra League It doesn’t have the stats to battle here. 🟣 Master League Nah.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Swinub",
+        "type": "Ice",
+        "intro_text": "A list of Mega Pokémon that boost Swinub's Ice and Ground-type moves, Candy, and Candy XL from catching Swinub.",
+        "mega_list": [
+            {
+                "name": "Mega Glalie",
+                "pokemon_id": 362,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/362-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 220,
+            "height_m": 0.41,
+            "weight_kg": 6.5,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.21 m",
+            "m": "0.41 m",
+            "xl": "0.62 m",
+            "xxl": "0.72 m",
+            "description": "Swinub's height ranges from 0.2 m to 0.72 m, with the average being 0.41 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2009,
+                "upper_m": 0.205,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.205,
+                "upper_m": 0.41,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3075,
+                "upper_m": 0.5125,
+                "lower_ft": "1′00″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5125,
+                "upper_m": 0.615,
+                "lower_ft": "1′08″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.615,
+                "upper_m": 0.7175,
+                "lower_ft": "2′00″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "If it smells some thing enticing, it dashes headlong off to find the source of the aroma."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It uses the tip of its nose to dig for food. Its nose is so tough that even frozen ground poses no problem."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "SWINUB roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead grass. This POKéMON occasionally roots out hot springs."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under dried grass. It occasionally roots out hot springs."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "If it smells something enticing, it dashes off headlong to find the source of the aroma."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl"
+            ],
+            "entry": "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "If it smells something enticing, it dashes off headlong to find the source of the aroma."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Rooting the tip of its snout into the ground, it searches for food. Sometimes it even digs up a hot spring."
+        },
+        {
+            "versions": [
+                "X",
+                "Sword"
+            ],
+            "entry": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
+        },
+        {
+            "versions": [
+                "Y",
+                "Shield"
+            ],
+            "entry": "If it smells something enticing, it dashes off headlong to find the source of the aroma."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Swinub roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead grass. This Pokémon occasionally roots out hot springs."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Swinub excels at sniffing out mushrooms buried beneath grass or snow. Since ancient times, the people of Hisui have often relied upon this skill."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Swinub",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm220.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm220.icon.png"
+            },
+            {
+                "label": "Shiny Swinub",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm220.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm220.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 220,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0220_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0220_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Swinub sprite"
+            },
+            {
+                "pokedex_number": 220,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0220_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0220_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Swinub sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/220_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/220_social.jpg",
+                "alt": "Swinub"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/220_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/220_social_dark.jpg",
+                "alt": "Swinub"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/220_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/220_social_map.jpg",
+                "alt": "Swinub"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/220_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/220_social_map_dark.jpg",
+                "alt": "Swinub"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Swinub’s strengths and weaknesses?",
+            "answer": "As a Ice and Ground-type Pokémon, Swinub is weak to Fighting, Fire, Grass, Steel, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Swinub in Pokémon GO?",
+            "answer": "The best moves for Swinub in Pokémon GO are Tackle and Body Slam. This moveset has a DPS (Damage Per Second) of 3.523 and a TDO (Total Damage Output) of 20.964."
+        },
+        {
+            "question": "How does Swinub perform in Raids?",
+            "answer": "Swinub's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Swinub rank as a Ice-type attacker?",
+            "answer": "Swinub's performance as a Ice-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Swinub?",
+            "answer": "The following Mega Pokémon boost Swinub: Mega Glalie, Mega Abomasnow, Mega Steelix, Mega Swampert, Mega Camerupt, Primal Groudon, and Mega Garchomp."
+        },
+        {
+            "question": "What is Swinub’s maximum CP at Level 40 and Level 50?",
+            "answer": "Swinub’s maximum CP at Level 40 is 741 CP and 837 CP at Level 50."
+        },
+        {
+            "question": "Can Swinub be shiny in Pokémon GO?",
+            "answer": "Swinub can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Swinub Dynamax in Pokémon GO?",
+            "answer": "Swinub cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,965 @@
+{
+    "overview_and_stats": {
+        "max_cp": 609,
+        "attack": 79,
+        "defense": 59,
+        "stamina": 99,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Ralts",
+        "forms": [
+            {
+                "name": "Ralts",
+                "href": "/pokemon/280",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/280.webp"
+            },
+            {
+                "name": "Shadow Ralts",
+                "href": "/pokemon/280-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/280.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/280.webp",
+        "types": [
+            "Psychic",
+            "Fairy"
+        ],
+        "weather_boost": [
+            "windy",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Confusion",
+            "charged": "Psyshock",
+            "dps": 3.47,
+            "tdo": 13.64,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 3.47,
+                "tdo": 13.6,
+                "score": 2.12
+            },
+            {
+                "rank": 2,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Shadow Sneak",
+                "charged_url": "https://db.pokemongohub.net/move/66",
+                "dps": 3.47,
+                "tdo": 13.6,
+                "score": 2.12
+            },
+            {
+                "rank": 3,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Disarming Voice",
+                "charged_url": "https://db.pokemongohub.net/move/84",
+                "dps": 3.47,
+                "tdo": 13.6,
+                "score": 2.12
+            },
+            {
+                "rank": 4,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 1.94,
+                "tdo": 7.6,
+                "score": 1.19
+            },
+            {
+                "rank": 5,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Shadow Sneak",
+                "charged_url": "https://db.pokemongohub.net/move/66",
+                "dps": 1.94,
+                "tdo": 7.6,
+                "score": 1.19
+            },
+            {
+                "rank": 6,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Disarming Voice",
+                "charged_url": "https://db.pokemongohub.net/move/84",
+                "dps": 1.94,
+                "tdo": 7.6,
+                "score": 1.19
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Confusion",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 19,
+                    "energy": 14,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 14,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.5s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 16,
+                    "energy": 14
+                },
+                "url": "https://db.pokemongohub.net/move/235"
+            },
+            {
+                "name": "Charge Beam",
+                "type": "Electric",
+                "stats": {
+                    "damage": 7,
+                    "energy": 14,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 14,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/249"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Psyshock",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/60"
+            },
+            {
+                "name": "Shadow Sneak",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.3s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/66"
+            },
+            {
+                "name": "Disarming Voice",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.3s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/84"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Ralts's has 609 max CP (at Level 50). A Ralts obtained from Raids can be encountered from 275 CP to 308 CP, or if weather boosted, in the 344 CP to 385 CP range. In Field and Special Research, Ralts can be found in the 206 CP to 231 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "609",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "206 - 231",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "275 - 308",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "275 - 308",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "344 - 385",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "344 CP - 385 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 7,
+        "2": 23,
+        "3": 40,
+        "4": 56,
+        "5": 72,
+        "6": 89,
+        "7": 105,
+        "8": 121,
+        "9": 137,
+        "10": 154,
+        "11": 169,
+        "12": 184,
+        "13": 200,
+        "14": 215,
+        "15": 231,
+        "16": 246,
+        "17": 261,
+        "18": 277,
+        "19": 292,
+        "20": 308,
+        "21": 323,
+        "22": 338,
+        "23": 354,
+        "24": 369,
+        "25": 385,
+        "26": 400,
+        "27": 416,
+        "28": 431,
+        "29": 446,
+        "30": 462,
+        "31": 469,
+        "32": 477,
+        "33": 485,
+        "34": 493,
+        "35": 500,
+        "36": 508,
+        "37": 516,
+        "38": 523,
+        "39": 531,
+        "40": 539,
+        "41": 546,
+        "42": 552,
+        "43": 559,
+        "44": 566,
+        "45": 573,
+        "46": 580,
+        "47": 588,
+        "48": 595,
+        "49": 602,
+        "50": 609
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Ralts",
+                    "href": "/pokemon/280",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/280.webp"
+                },
+                "to": {
+                    "name": "Kirlia",
+                    "href": "/pokemon/281",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/281.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Kirlia",
+                    "href": "/pokemon/281",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/281.webp"
+                },
+                "to": {
+                    "name": "Gallade",
+                    "href": "/pokemon/475",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/475.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Special Item: Sinnoh Stone",
+                    "Male required"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Kirlia",
+                    "href": "/pokemon/281",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/281.webp"
+                },
+                "to": {
+                    "name": "Gardevoir",
+                    "href": "/pokemon/282",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/282.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Gallade",
+                    "href": "/pokemon/475",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/475.webp"
+                },
+                "to": {
+                    "name": "Mega Gallade",
+                    "href": "/pokemon/475-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Gardevoir",
+                    "href": "/pokemon/282",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/282.webp"
+                },
+                "to": {
+                    "name": "Mega Gardevoir",
+                    "href": "/pokemon/282-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Ralts",
+                "href": "/pokemon/280",
+                "img": "https://db.pokemongohub.net/images/official/medium/280.webp"
+            },
+            {
+                "name": "Kirlia",
+                "href": "/pokemon/281",
+                "img": "https://db.pokemongohub.net/images/official/medium/281.webp"
+            },
+            {
+                "name": "Gardevoir",
+                "href": "/pokemon/282",
+                "img": "https://db.pokemongohub.net/images/official/medium/282.webp"
+            },
+            {
+                "name": "Gallade",
+                "href": "/pokemon/475",
+                "img": "https://db.pokemongohub.net/images/official/medium/475.webp"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "href": "/pokemon/282-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "href": "/pokemon/475-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Ralts",
+                "href": "/pokemon/280-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Kirlia",
+                "href": "/pokemon/281-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Gardevoir",
+                "href": "/pokemon/282-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Gallade",
+                "href": "/pokemon/475-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Ralts in the meta PvE Analysis Here's the deal: Not a single stat of Ralts is above 100. In terms of a Pokémon that's the first of a three-stage evolution line, Ralts is amongst the weakest and has no place in the PvE meta . 🥲 ⚔️ Raids You're doing yourself and your teammates a huge injustice if you bring Ralts to a Raid battle . 🫣 🛡️ Gyms Despite having the Fairy typing , it can't even withstand Dragon-type Fast Moves . This gives you a picture of Ralts as a Gym defender . 😐 PvP Analysis 🧸 Little Cup With a hard-hitting STAB Fast Move in Confusion , Ralts can do some reasonable damage when shields are up or against targets weak to it. Otherwise, it's too fragile to rely on, making it an underwhelming pick . 😶 🔵 Great League Ralts’ Psychic powers are telling you to not use it in PvP . Listen to it. 🙂 🟡 Ultra League Blink and Ralts vanishes from an Ultra League battle . Magic! 🪄 🟣 Master League Dragons already hate Fairies , why subject Ralts to this predicament?! 😅",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Ralts",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Ralts's Psychic and Fairy-type moves, Candy, and Candy XL from catching Ralts.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 280,
+            "height_m": 0.41,
+            "weight_kg": 6.6,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.21 m",
+            "m": "0.41 m",
+            "xl": "0.62 m",
+            "xxl": "0.72 m",
+            "description": "Ralts's height ranges from 0.2 m to 0.72 m, with the average being 0.41 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2009,
+                "upper_m": 0.205,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.205,
+                "upper_m": 0.41,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3075,
+                "upper_m": 0.5125,
+                "lower_ft": "1′00″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5125,
+                "upper_m": 0.615,
+                "lower_ft": "1′08″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.615,
+                "upper_m": 0.7175,
+                "lower_ft": "2′00″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "RALTS senses the emotions of people using the horns on its head. This POKéMON rarely appears before people. But when it does, it draws closer if it senses that the person has a positive disposition."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "RALTS has the ability to sense the emotions of people. If its TRAINER is in a cheerful mood, this POKéMON grows cheerful and joyous in the same way."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "A RALTS has the power to sense the emotions of people and POKéMON with the horns on its head. It takes cover if it senses any hostility."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It is highly attuned to the emotions of people and POKéMON. It hides if it senses hostility."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl"
+            ],
+            "entry": "It uses the horns on its head to sense human emotions. It is said to appear in front of cheerful people."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "The horns on its head provide a strong power that enables it to sense people’s emotions."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "The horns on its head provide a strong power that enables it to sense people’s emotions."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Ralts senses the emotions of people using the horns on its head. This Pokémon rarely appears before people. But when it does, it draws closer if it senses that the person has a positive disposition."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Ralts has the ability to sense the emotions of people. If its Trainer is in a cheerful mood, this Pokémon grows cheerful and joyous in the same way."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Tends to prefer people with a chipper disposition to those who are gloomy, but it has shown no discrimination with regard to age or gender. Needs more research."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Ralts",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm280.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm280.icon.png"
+            },
+            {
+                "label": "Shiny Ralts",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm280.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm280.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 280,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0280_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0280_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Ralts sprite"
+            },
+            {
+                "pokedex_number": 280,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0280_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0280_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Ralts sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/280_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/280_social.jpg",
+                "alt": "Ralts"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/280_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/280_social_dark.jpg",
+                "alt": "Ralts"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/280_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/280_social_map.jpg",
+                "alt": "Ralts"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/280_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/280_social_map_dark.jpg",
+                "alt": "Ralts"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Ralts’s strengths and weaknesses?",
+            "answer": "As a Psychic and Fairy-type Pokémon, Ralts is weak to Ghost, Poison, and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Ralts in Pokémon GO?",
+            "answer": "The best moves for Ralts in Pokémon GO are Confusion and Psyshock. This moveset has a DPS (Damage Per Second) of 3.47 and a TDO (Total Damage Output) of 13.644."
+        },
+        {
+            "question": "How does Ralts perform in Raids?",
+            "answer": "Ralts's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Ralts rank as a Psychic-type attacker?",
+            "answer": "Ralts's performance as a Psychic-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Ralts?",
+            "answer": "The following Mega Pokémon boost Ralts: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, Mega Gallade, Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, and Mega Diancie."
+        },
+        {
+            "question": "What is Ralts’s maximum CP at Level 40 and Level 50?",
+            "answer": "Ralts’s maximum CP at Level 40 is 539 CP and 609 CP at Level 50."
+        },
+        {
+            "question": "Can Ralts be shiny in Pokémon GO?",
+            "answer": "Ralts can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Ralts Dynamax in Pokémon GO?",
+            "answer": "Ralts cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

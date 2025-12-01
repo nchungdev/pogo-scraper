@@ -1,0 +1,731 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2762,
+        "attack": 221,
+        "defense": 132,
+        "stamina": 172,
+        "buddy_distance": 1,
+        "released": false,
+        "shiny_released": false,
+        "title": "Kilowattrel",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/941.webp",
+        "types": [
+            "Electric",
+            "Flying"
+        ],
+        "weather_boost": [
+            "rain",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Thunder Shock",
+            "charged": "Thunderbolt",
+            "dps": 11.63,
+            "tdo": 149.03,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 11.63,
+                "tdo": 149.0,
+                "score": 9.74
+            },
+            {
+                "rank": 2,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 11.25,
+                "tdo": 144.1,
+                "score": 9.42
+            },
+            {
+                "rank": 3,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Acrobatics",
+                "charged_url": "https://db.pokemongohub.net/move/364",
+                "dps": 10.48,
+                "tdo": 134.2,
+                "score": 8.77
+            },
+            {
+                "rank": 4,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 10.26,
+                "tdo": 131.5,
+                "score": 8.59
+            },
+            {
+                "rank": 5,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Acrobatics",
+                "charged_url": "https://db.pokemongohub.net/move/364",
+                "dps": 10.15,
+                "tdo": 130.1,
+                "score": 8.5
+            },
+            {
+                "rank": 6,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 10.12,
+                "tdo": 129.7,
+                "score": 8.48
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Thunder Shock",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/205"
+            },
+            {
+                "name": "Air Slash",
+                "type": "Flying",
+                "stats": {
+                    "damage": 12,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 12,
+                    "energy": 8,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/255"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            },
+            {
+                "name": "Acrobatics",
+                "type": "Flying",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "0.6s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/364"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Kilowattrel's has 2762 max CP (at Level 50). A Kilowattrel obtained from Raids can be encountered from 1325 CP to 1396 CP, or if weather boosted, in the 1656 CP to 1745 CP range. In Field and Special Research, Kilowattrel can be found in the 994 CP to 1047 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2762",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "994 - 1047",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1325 - 1396",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1325 - 1396",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1656 - 1745",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1656 CP - 1745 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 34,
+        "2": 108,
+        "3": 182,
+        "4": 255,
+        "5": 329,
+        "6": 403,
+        "7": 477,
+        "8": 550,
+        "9": 624,
+        "10": 698,
+        "11": 768,
+        "12": 838,
+        "13": 907,
+        "14": 977,
+        "15": 1047,
+        "16": 1117,
+        "17": 1187,
+        "18": 1256,
+        "19": 1326,
+        "20": 1396,
+        "21": 1466,
+        "22": 1536,
+        "23": 1605,
+        "24": 1675,
+        "25": 1745,
+        "26": 1815,
+        "27": 1885,
+        "28": 1955,
+        "29": 2025,
+        "30": 2094,
+        "31": 2129,
+        "32": 2164,
+        "33": 2199,
+        "34": 2234,
+        "35": 2269,
+        "36": 2304,
+        "37": 2339,
+        "38": 2374,
+        "39": 2408,
+        "40": 2443,
+        "41": 2474,
+        "42": 2506,
+        "43": 2537,
+        "44": 2569,
+        "45": 2600,
+        "46": 2632,
+        "47": 2665,
+        "48": 2697,
+        "49": 2730,
+        "50": 2762
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Wattrel",
+                    "href": "/pokemon/940",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/940.webp"
+                },
+                "to": {
+                    "name": "Kilowattrel",
+                    "href": "/pokemon/941",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/941.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Wattrel",
+                "href": "/pokemon/940",
+                "img": "https://db.pokemongohub.net/images/official/medium/940.webp"
+            },
+            {
+                "name": "Kilowattrel",
+                "href": "/pokemon/941",
+                "img": "https://db.pokemongohub.net/images/official/medium/941.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Kilowattrel in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Kilowattrel",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Kilowattrel's Electric and Flying-type moves, Candy, and Candy XL from catching Kilowattrel.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 941,
+            "height_m": 1.4,
+            "weight_kg": 38.6,
+            "region": "Generation 9",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.69 m",
+            "xs": "0.7 m",
+            "m": "1.4 m",
+            "xl": "2.1 m",
+            "xxl": "2.45 m",
+            "description": "Kilowattrel's height ranges from 0.69 m to 2.45 m, with the average being 1.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.686,
+                "upper_m": 0.7,
+                "lower_ft": "2′03″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.7,
+                "upper_m": 1.4,
+                "lower_ft": "2′04″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.05,
+                "upper_m": 1.75,
+                "lower_ft": "3′05″",
+                "upper_ft": "5′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.75,
+                "upper_m": 2.1,
+                "lower_ft": "5′09″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.1,
+                "upper_m": 2.45,
+                "lower_ft": "6′11″",
+                "upper_ft": "8′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Scarlet"
+            ],
+            "entry": "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day."
+        },
+        {
+            "versions": [
+                "Violet"
+            ],
+            "entry": "It uses its throat sac to store electricity generated by its wings. There’s hardly any oil in its feathers, so it is a poor swimmer."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 941,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0941_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0941_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Kilowattrel sprite"
+            },
+            {
+                "pokedex_number": 941,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0941_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0941_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Kilowattrel sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/941_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/941_social.jpg",
+                "alt": "Kilowattrel"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/941_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/941_social_dark.jpg",
+                "alt": "Kilowattrel"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/941_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/941_social_map.jpg",
+                "alt": "Kilowattrel"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/941_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/941_social_map_dark.jpg",
+                "alt": "Kilowattrel"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Kilowattrel’s strengths and weaknesses?",
+            "answer": "As a Electric and Flying-type Pokémon, Kilowattrel is weak to Ice and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Kilowattrel in Pokémon GO?",
+            "answer": "The best moves for Kilowattrel in Pokémon GO are Thunder Shock and Thunderbolt. This moveset has a DPS (Damage Per Second) of 11.631 and a TDO (Total Damage Output) of 149.029."
+        },
+        {
+            "question": "How does Kilowattrel perform in Raids?",
+            "answer": "Kilowattrel's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Kilowattrel rank as a Electric-type attacker?",
+            "answer": "Kilowattrel's performance as a Electric-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Kilowattrel?",
+            "answer": "The following Mega Pokémon boost Kilowattrel: Mega Ampharos, Mega Manectric, Primal Kyogre, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Kilowattrel’s maximum CP at Level 40 and Level 50?",
+            "answer": "Kilowattrel’s maximum CP at Level 40 is 2443 CP and 2762 CP at Level 50."
+        },
+        {
+            "question": "Can Kilowattrel be shiny in Pokémon GO?",
+            "answer": "Kilowattrel cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Kilowattrel Dynamax in Pokémon GO?",
+            "answer": "Kilowattrel cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

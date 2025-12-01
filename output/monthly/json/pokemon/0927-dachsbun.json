@@ -1,0 +1,734 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2370,
+        "attack": 159,
+        "defense": 212,
+        "stamina": 149,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": false,
+        "title": "Dachsbun",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/927.webp",
+        "types": [
+            "Fairy"
+        ],
+        "weather_boost": [
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Charm",
+            "charged": "Play Rough",
+            "dps": 8.76,
+            "tdo": 152.01,
+            "boosted_weather": [
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 8.76,
+                "tdo": 152.0,
+                "score": 7.66
+            },
+            {
+                "rank": 2,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 8.39,
+                "tdo": 145.6,
+                "score": 7.34
+            },
+            {
+                "rank": 3,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 7.56,
+                "tdo": 131.2,
+                "score": 6.61
+            },
+            {
+                "rank": 4,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Psychic Fangs",
+                "charged_url": "https://db.pokemongohub.net/move/353",
+                "dps": 7.15,
+                "tdo": 124.1,
+                "score": 6.25
+            },
+            {
+                "rank": 5,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 7.1,
+                "tdo": 123.1,
+                "score": 6.2
+            },
+            {
+                "rank": 6,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Psychic Fangs",
+                "charged_url": "https://db.pokemongohub.net/move/353",
+                "dps": 6.54,
+                "tdo": 113.5,
+                "score": 5.72
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Charm",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 20,
+                    "energy": 11,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 20,
+                    "energy": 11,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 13,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/320"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Play Rough",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/88"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            },
+            {
+                "name": "Psychic Fangs",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 25,
+                    "energy": 33,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 25,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.2s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/353"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Dachsbun's has 2370 max CP (at Level 50). A Dachsbun obtained from Raids can be encountered from 1133 CP to 1198 CP, or if weather boosted, in the 1416 CP to 1497 CP range. In Field and Special Research, Dachsbun can be found in the 849 CP to 898 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2370",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "849 - 898",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1133 - 1198",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1133 - 1198",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1416 - 1497",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1416 CP - 1497 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 29,
+        "2": 92,
+        "3": 156,
+        "4": 219,
+        "5": 282,
+        "6": 346,
+        "7": 409,
+        "8": 472,
+        "9": 535,
+        "10": 599,
+        "11": 659,
+        "12": 719,
+        "13": 778,
+        "14": 838,
+        "15": 898,
+        "16": 958,
+        "17": 1018,
+        "18": 1078,
+        "19": 1138,
+        "20": 1198,
+        "21": 1258,
+        "22": 1318,
+        "23": 1377,
+        "24": 1437,
+        "25": 1497,
+        "26": 1557,
+        "27": 1617,
+        "28": 1677,
+        "29": 1737,
+        "30": 1797,
+        "31": 1827,
+        "32": 1857,
+        "33": 1887,
+        "34": 1917,
+        "35": 1947,
+        "36": 1977,
+        "37": 2007,
+        "38": 2036,
+        "39": 2066,
+        "40": 2096,
+        "41": 2123,
+        "42": 2150,
+        "43": 2177,
+        "44": 2204,
+        "45": 2231,
+        "46": 2259,
+        "47": 2286,
+        "48": 2314,
+        "49": 2342,
+        "50": 2370
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Fidough",
+                    "href": "/pokemon/926",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/926.webp"
+                },
+                "to": {
+                    "name": "Dachsbun",
+                    "href": "/pokemon/927",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/927.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Fidough",
+                "href": "/pokemon/926",
+                "img": "https://db.pokemongohub.net/images/official/medium/926.webp"
+            },
+            {
+                "name": "Dachsbun",
+                "href": "/pokemon/927",
+                "img": "https://db.pokemongohub.net/images/official/medium/927.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Dachsbun in the meta PvE Analysis With an ATK far below the 200 mark , Dachsbun is a poor PvE pick in a meta dominated by Pokémon like Xerneas and Mega Gardevoir . 📉 ⚔️ Raids Dachsbun is not worth running , even against 3-Star Raid Bosses , let alone against Legendaries and Mega Evolutions . Even if you are out of the best options , we would suggest using Gardevoir , Togekiss , or Sylveon instead. 🛡️ Gyms Dachsbun has a reasonable DEF and can hang on a bit against the commonly used Fighting and Dragon-type Gym attackers . PvP Analysis 🧸 Little Cup Just like its pre-evolution Fidough , the combination of Charm and Psychic Fangs makes Dachsbun a hard-hitting attacker , capable of overpowering opponents who typically have low bulk . However, Fidough is bulkier , making it the better choice for the Little Cup. It’s recommended to stick with Fidough for this format. 🔵 Great League Dachsbun establishes itself as a powerful Great League Pokémon , boasting the heavy-damage Charm and handy Charged Moves like Psychic Fangs and Body Slam . It’s best to keep Charm + Psychic Fangs as your default strategy , as this combo can even bring down the dreaded Skarmory to low HP. ‼️ Aside from an excellent moveset , its impressive DEF and HP make it the bulkiest Charmer in the Great League, giving it a niche above Wigglytuff , the go-to Charmer for this format (and Dachsbun beats Wigglytuff !). 🟡 Ultra League Dachsbun is built for the Great League. 🟣 Master League N/A Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Dachsbun",
+        "type": "Fairy",
+        "intro_text": "A list of Mega Pokémon that boost Dachsbun's Fairy-type moves, Candy, and Candy XL from catching Dachsbun.",
+        "mega_list": [
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Mawile",
+                "pokemon_id": 303,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/303-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Altaria",
+                "pokemon_id": 334,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/334-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 927,
+            "height_m": 0.5,
+            "weight_kg": 14.9,
+            "region": "Generation 9",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.78 m",
+            "description": "Dachsbun's height ranges from 0.25 m to 0.78 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.775,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Scarlet"
+            ],
+            "entry": "The pleasant aroma that emanates from this Pokémon’s body helps wheat grow, so Dachsbun has been treasured by farming villages."
+        },
+        {
+            "versions": [
+                "Violet"
+            ],
+            "entry": "The surface of this Pokémon’s skin hardens when exposed to intense heat, and its body has an appetizing aroma."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Dachsbun",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm927.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm927.icon.png"
+            },
+            {
+                "label": "Shiny Dachsbun",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm927.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm927.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 927,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0927_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0927_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Dachsbun sprite"
+            },
+            {
+                "pokedex_number": 927,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0927_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0927_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Dachsbun sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/927_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/927_social.jpg",
+                "alt": "Dachsbun"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/927_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/927_social_dark.jpg",
+                "alt": "Dachsbun"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/927_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/927_social_map.jpg",
+                "alt": "Dachsbun"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/927_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/927_social_map_dark.jpg",
+                "alt": "Dachsbun"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Dachsbun’s strengths and weaknesses?",
+            "answer": "As a Fairy-type Pokémon, Dachsbun is weak to Poison and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Dachsbun in Pokémon GO?",
+            "answer": "The best moves for Dachsbun in Pokémon GO are Charm and Play Rough. This moveset has a DPS (Damage Per Second) of 8.76 and a TDO (Total Damage Output) of 152.008."
+        },
+        {
+            "question": "How does Dachsbun perform in Raids?",
+            "answer": "Dachsbun's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Dachsbun rank as a Fairy-type attacker?",
+            "answer": "Dachsbun is an F-Tier Fairy-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Dachsbun?",
+            "answer": "The following Mega Pokémon boost Dachsbun: Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, and Mega Diancie."
+        },
+        {
+            "question": "What is Dachsbun’s maximum CP at Level 40 and Level 50?",
+            "answer": "Dachsbun’s maximum CP at Level 40 is 2096 CP and 2370 CP at Level 50."
+        },
+        {
+            "question": "Can Dachsbun be shiny in Pokémon GO?",
+            "answer": "Dachsbun cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Dachsbun Dynamax in Pokémon GO?",
+            "answer": "Dachsbun cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

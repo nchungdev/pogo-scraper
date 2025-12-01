@@ -1,0 +1,803 @@
+{
+    "overview_and_stats": {
+        "max_cp": 625,
+        "attack": 68,
+        "defense": 72,
+        "stamina": 116,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Bunnelby",
+        "forms": [
+            {
+                "name": "Bunnelby",
+                "href": "/pokemon/659",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/659.webp"
+            },
+            {
+                "name": "Shadow Bunnelby",
+                "href": "/pokemon/659-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/659.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/659.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Quick Attack",
+            "charged": "Dig",
+            "dps": 2.74,
+            "tdo": 14.54,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 2.74,
+                "tdo": 14.5,
+                "score": 1.86
+            },
+            {
+                "rank": 2,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 2.74,
+                "tdo": 14.5,
+                "score": 1.86
+            },
+            {
+                "rank": 3,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Earthquake",
+                "charged_url": "https://db.pokemongohub.net/move/31",
+                "dps": 2.69,
+                "tdo": 14.3,
+                "score": 1.83
+            },
+            {
+                "rank": 4,
+                "fast": "Mud-Slap",
+                "fast_url": "https://db.pokemongohub.net/move/233",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 2.64,
+                "tdo": 14.0,
+                "score": 1.8
+            },
+            {
+                "rank": 5,
+                "fast": "Mud-Slap",
+                "fast_url": "https://db.pokemongohub.net/move/233",
+                "charged": "Earthquake",
+                "charged_url": "https://db.pokemongohub.net/move/31",
+                "dps": 2.64,
+                "tdo": 14.0,
+                "score": 1.8
+            },
+            {
+                "rank": 6,
+                "fast": "Mud-Slap",
+                "fast_url": "https://db.pokemongohub.net/move/233",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 2.64,
+                "tdo": 14.0,
+                "score": 1.8
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            },
+            {
+                "name": "Mud-Slap",
+                "type": "Ground",
+                "stats": {
+                    "damage": 19,
+                    "energy": 13,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 13,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.3s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/233"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dig",
+                "type": "Ground",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 4.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.5,
+                    "damage_window": "2.6s - 4.3s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/26"
+            },
+            {
+                "name": "Earthquake",
+                "type": "Ground",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.4s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/31"
+            },
+            {
+                "name": "Bulldoze",
+                "type": "Ground",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/95"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Bunnelby's has 625 max CP (at Level 50). A Bunnelby obtained from Raids can be encountered from 282 CP to 316 CP, or if weather boosted, in the 353 CP to 395 CP range. In Field and Special Research, Bunnelby can be found in the 212 CP to 237 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "625",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "212 - 237",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "282 - 316",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "282 - 316",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "353 - 395",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "353 CP - 395 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 7,
+        "2": 24,
+        "3": 41,
+        "4": 57,
+        "5": 74,
+        "6": 91,
+        "7": 108,
+        "8": 124,
+        "9": 141,
+        "10": 158,
+        "11": 173,
+        "12": 189,
+        "13": 205,
+        "14": 221,
+        "15": 237,
+        "16": 253,
+        "17": 268,
+        "18": 284,
+        "19": 300,
+        "20": 316,
+        "21": 332,
+        "22": 347,
+        "23": 363,
+        "24": 379,
+        "25": 395,
+        "26": 411,
+        "27": 426,
+        "28": 442,
+        "29": 458,
+        "30": 474,
+        "31": 482,
+        "32": 490,
+        "33": 498,
+        "34": 506,
+        "35": 513,
+        "36": 521,
+        "37": 529,
+        "38": 537,
+        "39": 545,
+        "40": 553,
+        "41": 560,
+        "42": 567,
+        "43": 574,
+        "44": 581,
+        "45": 588,
+        "46": 596,
+        "47": 603,
+        "48": 610,
+        "49": 618,
+        "50": 625
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Bunnelby",
+                    "href": "/pokemon/659",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/659.webp"
+                },
+                "to": {
+                    "name": "Diggersby",
+                    "href": "/pokemon/660",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/660.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Bunnelby",
+                "href": "/pokemon/659",
+                "img": "https://db.pokemongohub.net/images/official/medium/659.webp"
+            },
+            {
+                "name": "Diggersby",
+                "href": "/pokemon/660",
+                "img": "https://db.pokemongohub.net/images/official/medium/660.webp"
+            },
+            {
+                "name": "Shadow Bunnelby",
+                "href": "/pokemon/659-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Diggersby",
+                "href": "/pokemon/660-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Bunnelby in the meta PvE Analysis ⚔️ Raids – Bunnelby , being an unevolved Pokémon with 625 CP , is not strong enough to be a valid raid attacker . Not only that, Normal types are not a good fit for PvE as there are no types that are weak to Normal-type attacks. 🔮 Dynamax – N/A PvP Analysis 🔵 Great League – N/A 🟡 Ultra League – N/A 🟣 Master League – N/A",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Bunnelby",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Bunnelby's Normal-type moves, Candy, and Candy XL from catching Bunnelby.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 659,
+            "height_m": 0.4,
+            "weight_kg": 5,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Bunnelby's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 40.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "They use their large ears to dig burrows. They will dig the whole night through."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It’s very sensitive to danger. The sound of Corviknight’s flapping will have Bunnelby digging a hole to hide underground in moments."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Bunnelby",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm659.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm659.icon.png"
+            },
+            {
+                "label": "Shiny Bunnelby",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm659.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm659.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 659,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0659_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0659_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Bunnelby sprite"
+            },
+            {
+                "pokedex_number": 659,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0659_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0659_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Bunnelby sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/659_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/659_social.jpg",
+                "alt": "Bunnelby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/659_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/659_social_dark.jpg",
+                "alt": "Bunnelby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/659_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/659_social_map.jpg",
+                "alt": "Bunnelby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/659_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/659_social_map_dark.jpg",
+                "alt": "Bunnelby"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Bunnelby’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Bunnelby is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Bunnelby in Pokémon GO?",
+            "answer": "The best moves for Bunnelby in Pokémon GO are Quick Attack and Dig. This moveset has a DPS (Damage Per Second) of 2.738 and a TDO (Total Damage Output) of 14.543."
+        },
+        {
+            "question": "How does Bunnelby perform in Raids?",
+            "answer": "Bunnelby's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Bunnelby rank as a Normal-type attacker?",
+            "answer": "Bunnelby's performance as a Normal-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Bunnelby?",
+            "answer": "The following Mega Pokémon boost Bunnelby: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Bunnelby’s maximum CP at Level 40 and Level 50?",
+            "answer": "Bunnelby’s maximum CP at Level 40 is 553 CP and 625 CP at Level 50."
+        },
+        {
+            "question": "Can Bunnelby be shiny in Pokémon GO?",
+            "answer": "Bunnelby can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Bunnelby Dynamax in Pokémon GO?",
+            "answer": "Bunnelby cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

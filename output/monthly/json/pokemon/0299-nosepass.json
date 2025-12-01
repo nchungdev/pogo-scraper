@@ -1,0 +1,871 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1123,
+        "attack": 82,
+        "defense": 215,
+        "stamina": 102,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Nosepass",
+        "forms": [
+            {
+                "name": "Nosepass",
+                "href": "/pokemon/299",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/299.webp"
+            },
+            {
+                "name": "Shadow Nosepass",
+                "href": "/pokemon/299-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/299.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/299.webp",
+        "types": [
+            "Rock"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Rock Throw",
+            "charged": "Rock Slide",
+            "dps": 4.81,
+            "tdo": 60.28,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Rock Throw",
+                "fast_url": "https://db.pokemongohub.net/move/227",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 4.81,
+                "tdo": 60.3,
+                "score": 4.01
+            },
+            {
+                "rank": 2,
+                "fast": "Rock Throw",
+                "fast_url": "https://db.pokemongohub.net/move/227",
+                "charged": "Rock Blast",
+                "charged_url": "https://db.pokemongohub.net/move/259",
+                "dps": 4.68,
+                "tdo": 58.7,
+                "score": 3.91
+            },
+            {
+                "rank": 3,
+                "fast": "Rock Throw",
+                "fast_url": "https://db.pokemongohub.net/move/227",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 4.6,
+                "tdo": 57.7,
+                "score": 3.84
+            },
+            {
+                "rank": 4,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 4.46,
+                "tdo": 56.0,
+                "score": 3.72
+            },
+            {
+                "rank": 5,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Rock Blast",
+                "charged_url": "https://db.pokemongohub.net/move/259",
+                "dps": 4.3,
+                "tdo": 53.9,
+                "score": 3.59
+            },
+            {
+                "rank": 6,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 4.17,
+                "tdo": 52.3,
+                "score": 3.48
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Spark",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/206"
+            },
+            {
+                "name": "Rock Throw",
+                "type": "Rock",
+                "stats": {
+                    "damage": 13,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 8,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/227"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Rock Slide",
+                "type": "Rock",
+                "stats": {
+                    "damage": 75,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 75,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/64"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            },
+            {
+                "name": "Rock Blast",
+                "type": "Rock",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.5s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/259"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Nosepass's has 1123 max CP (at Level 50). A Nosepass obtained from Raids can be encountered from 521 CP to 567 CP, or if weather boosted, in the 651 CP to 709 CP range. In Field and Special Research, Nosepass can be found in the 390 CP to 425 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1123",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "390 - 425",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "521 - 567",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "521 - 567",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "651 - 709",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "651 CP - 709 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 44,
+        "3": 74,
+        "4": 104,
+        "5": 134,
+        "6": 164,
+        "7": 194,
+        "8": 224,
+        "9": 254,
+        "10": 284,
+        "11": 312,
+        "12": 340,
+        "13": 369,
+        "14": 397,
+        "15": 425,
+        "16": 454,
+        "17": 482,
+        "18": 511,
+        "19": 539,
+        "20": 567,
+        "21": 596,
+        "22": 624,
+        "23": 653,
+        "24": 681,
+        "25": 709,
+        "26": 738,
+        "27": 766,
+        "28": 795,
+        "29": 823,
+        "30": 851,
+        "31": 866,
+        "32": 880,
+        "33": 894,
+        "34": 908,
+        "35": 922,
+        "36": 937,
+        "37": 951,
+        "38": 965,
+        "39": 979,
+        "40": 993,
+        "41": 1006,
+        "42": 1019,
+        "43": 1031,
+        "44": 1044,
+        "45": 1057,
+        "46": 1070,
+        "47": 1083,
+        "48": 1096,
+        "49": 1110,
+        "50": 1123
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Nosepass",
+                    "href": "/pokemon/299",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/299.webp"
+                },
+                "to": {
+                    "name": "Probopass",
+                    "href": "/pokemon/476",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/476.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Magnetic Lure Module"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Magnetic Lure Module"
+        ],
+        "family": [
+            {
+                "name": "Nosepass",
+                "href": "/pokemon/299",
+                "img": "https://db.pokemongohub.net/images/official/medium/299.webp"
+            },
+            {
+                "name": "Probopass",
+                "href": "/pokemon/476",
+                "img": "https://db.pokemongohub.net/images/official/medium/476.webp"
+            },
+            {
+                "name": "Shadow Nosepass",
+                "href": "/pokemon/299-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Probopass",
+                "href": "/pokemon/476-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Nosepass in the meta PvE Analysis Nosepass has an ATK of… drum roll 🥁… 82. 🥲 ⚔️ Raids (nose)Pass! 🛡️ Gyms Nosepass has a good enough DEF (215) to warrant a place in Gyms. That said, keep in mind that Rock-type Pokémon have numerous weaknesses , including Fighting, Grass, Ground, Steel, and Water . 🤯 PvP Analysis 🧸 Little Cup In terms of bulk , Nosepass has good play in the Little Cup, but unfortunately, its ATK is way too low to deal significant damage to most of the meta. The Shadow version is better! 🔵 Great League A max CP of only 1123 makes Nosepass extremely weak for the Great League. 🫢 🟡 Ultra League Don't even think of using Nosepass in the Ultra League, even if you're bored. 🟣 Master League Nosepass represents a compass , and it's pointing in a direction far, far away from the Master League. 🧭",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Nosepass",
+        "type": "Rock",
+        "intro_text": "A list of Mega Pokémon that boost Nosepass's Rock-type moves, Candy, and Candy XL from catching Nosepass.",
+        "mega_list": [
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 299,
+            "height_m": 0.99,
+            "weight_kg": 97,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "0.99 m",
+            "xl": "1.49 m",
+            "xxl": "1.98 m",
+            "description": "Nosepass's height ranges from 0.49 m to 1.98 m, with the average being 0.99 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.4851,
+                "upper_m": 0.495,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′07″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.495,
+                "upper_m": 0.99,
+                "lower_ft": "1′07″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.7425,
+                "upper_m": 1.2375,
+                "lower_ft": "2′05″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.2375,
+                "upper_m": 1.485,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.485,
+                "upper_m": 1.98,
+                "lower_ft": "4′10″",
+                "upper_ft": "6′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "NOSEPASS’s magnetic nose is always pointed to the north. If two of these POKéMON meet, they cannot turn their faces to each other when they are close because their magnetic noses repel one another."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "NOSEPASS had been said to be completely unmoving, with its magnetic nose pointed due north. However, close observation has revealed that the POKéMON actually moves by a little over 3/8 of an inch every year."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "Its body emits a powerful magnetism. It feeds on prey that is pulled in by the force. Its magnetism is stronger in cold seasons."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "Its magnetic nose consistently faces north. Travelers check NOSEPASS to get their bearings."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl"
+            ],
+            "entry": "Its nose is a magnet. As a result, this Pokémon always keeps its face pointing north."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "If two of these meet, they cannot get too close because their noses repel each other."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its magnetic nose always faces north and draws iron objects to its body to protect itself better."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Its magnetic nose always faces north and draws iron objects to its body to protect itself better."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Its magnetic nose consistently faces north. Travelers check Nosepass to get their bearings."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Nosepass’s magnetic nose is always pointed to the north. If two of these Pokémon meet, they cannot turn their faces to each other when they are close because their magnetic noses repel one another."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Nosepass had been said to be completely unmoving, with its magnetic nose pointed due north. However, close observation has revealed that the Pokémon actually moves by a little over 3/8 of an inch every year."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "The magnet in Nosepass’s nose provides an unerring compass, making it an excellent partner for Trainers going on a journey."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It uses powerful magnetism to drag its prey toward it. It’s also been known to pull in metal, which it collects and uses to protect itself."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It moves less than an inch a year, but when it’s in a jam, it will spin and drill down into the ground in a split second."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Once the people of Hisui discovered that its red nose always points north, they grew to rely on it greatly when traveling afar. The nose seems to work in a similar way to ancient compasses."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Nosepass",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm299.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm299.icon.png"
+            },
+            {
+                "label": "Shiny Nosepass",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm299.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm299.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 299,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0299_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0299_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Nosepass sprite"
+            },
+            {
+                "pokedex_number": 299,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0299_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0299_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Nosepass sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/299_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/299_social.jpg",
+                "alt": "Nosepass"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/299_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/299_social_dark.jpg",
+                "alt": "Nosepass"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/299_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/299_social_map.jpg",
+                "alt": "Nosepass"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/299_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/299_social_map_dark.jpg",
+                "alt": "Nosepass"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Nosepass’s strengths and weaknesses?",
+            "answer": "As a Rock-type Pokémon, Nosepass is weak to Fighting, Grass, Ground, Steel, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Nosepass in Pokémon GO?",
+            "answer": "The best moves for Nosepass in Pokémon GO are Rock Throw and Rock Slide. This moveset has a DPS (Damage Per Second) of 4.806 and a TDO (Total Damage Output) of 60.282."
+        },
+        {
+            "question": "How does Nosepass perform in Raids?",
+            "answer": "Nosepass's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Nosepass rank as a Rock-type attacker?",
+            "answer": "Nosepass's performance as a Rock-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Nosepass?",
+            "answer": "The following Mega Pokémon boost Nosepass: Mega Aerodactyl, Mega Tyranitar, and Mega Diancie."
+        },
+        {
+            "question": "What is Nosepass’s maximum CP at Level 40 and Level 50?",
+            "answer": "Nosepass’s maximum CP at Level 40 is 993 CP and 1123 CP at Level 50."
+        },
+        {
+            "question": "Can Nosepass be shiny in Pokémon GO?",
+            "answer": "Nosepass can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Nosepass Dynamax in Pokémon GO?",
+            "answer": "Nosepass cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

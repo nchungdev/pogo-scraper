@@ -1,0 +1,860 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1472,
+        "attack": 124,
+        "defense": 133,
+        "stamina": 137,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Bonsly",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/438.webp",
+        "types": [
+            "Rock"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Rock Throw",
+            "charged": "Rock Slide",
+            "dps": 6.57,
+            "tdo": 68.92,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Rock Throw",
+                "fast_url": "https://db.pokemongohub.net/move/227",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 6.57,
+                "tdo": 68.9,
+                "score": 5.31
+            },
+            {
+                "rank": 2,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 6.12,
+                "tdo": 64.2,
+                "score": 4.95
+            },
+            {
+                "rank": 3,
+                "fast": "Rock Throw",
+                "fast_url": "https://db.pokemongohub.net/move/227",
+                "charged": "Earthquake",
+                "charged_url": "https://db.pokemongohub.net/move/31",
+                "dps": 5.98,
+                "tdo": 62.7,
+                "score": 4.83
+            },
+            {
+                "rank": 4,
+                "fast": "Rock Throw",
+                "fast_url": "https://db.pokemongohub.net/move/227",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 5.97,
+                "tdo": 62.6,
+                "score": 4.82
+            },
+            {
+                "rank": 5,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 5.48,
+                "tdo": 57.5,
+                "score": 4.43
+            },
+            {
+                "rank": 6,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Earthquake",
+                "charged_url": "https://db.pokemongohub.net/move/31",
+                "dps": 5.43,
+                "tdo": 57.0,
+                "score": 4.39
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Rock Throw",
+                "type": "Rock",
+                "stats": {
+                    "damage": 13,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 8,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/227"
+            },
+            {
+                "name": "Counter",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/243"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Earthquake",
+                "type": "Ground",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.4s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/31"
+            },
+            {
+                "name": "Rock Tomb",
+                "type": "Rock",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/63"
+            },
+            {
+                "name": "Rock Slide",
+                "type": "Rock",
+                "stats": {
+                    "damage": 75,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 75,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/64"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Bonsly's has 1472 max CP (at Level 50). A Bonsly obtained from Raids can be encountered from 693 CP to 744 CP, or if weather boosted, in the 866 CP to 930 CP range. In Field and Special Research, Bonsly can be found in the 520 CP to 558 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1472",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "520 - 558",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "693 - 744",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "693 - 744",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "866 - 930",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "866 CP - 930 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 18,
+        "2": 57,
+        "3": 97,
+        "4": 136,
+        "5": 175,
+        "6": 214,
+        "7": 254,
+        "8": 293,
+        "9": 332,
+        "10": 372,
+        "11": 409,
+        "12": 446,
+        "13": 483,
+        "14": 520,
+        "15": 558,
+        "16": 595,
+        "17": 632,
+        "18": 669,
+        "19": 706,
+        "20": 744,
+        "21": 781,
+        "22": 818,
+        "23": 855,
+        "24": 892,
+        "25": 930,
+        "26": 967,
+        "27": 1004,
+        "28": 1041,
+        "29": 1078,
+        "30": 1116,
+        "31": 1134,
+        "32": 1153,
+        "33": 1171,
+        "34": 1190,
+        "35": 1209,
+        "36": 1227,
+        "37": 1246,
+        "38": 1264,
+        "39": 1283,
+        "40": 1302,
+        "41": 1318,
+        "42": 1335,
+        "43": 1352,
+        "44": 1368,
+        "45": 1385,
+        "46": 1402,
+        "47": 1420,
+        "48": 1437,
+        "49": 1454,
+        "50": 1472
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Bonsly",
+                    "href": "/pokemon/438",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/438.webp"
+                },
+                "to": {
+                    "name": "Sudowoodo",
+                    "href": "/pokemon/185",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/185.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Walk 15 km with your buddy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Walk 15 km with your buddy"
+        ],
+        "family": [
+            {
+                "name": "Sudowoodo",
+                "href": "/pokemon/185",
+                "img": "https://db.pokemongohub.net/images/official/medium/185.webp"
+            },
+            {
+                "name": "Bonsly",
+                "href": "/pokemon/438",
+                "img": "https://db.pokemongohub.net/images/official/medium/438.webp"
+            },
+            {
+                "name": "Shadow Sudowoodo",
+                "href": "/pokemon/185-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Bonsly in the meta PvE Analysis Bonsly is a pure Rock-type baby Pokémon with a max CP of 1471 . It is not useful for PvE , even with its best moveset of Rock Throw and Rock Slide . ⚔️ Raids Too small and weak. 🛡️ Gyms There are much better options available. PvP Analysis Bonsly’s best moveset for PvP is Rock Throw , Rock Slide , and Earthquake , but it’s sadly not a particularly useful PvP Pokémon . 🧸 Little Cup Bonsly does fit in the Little Cup and just breaks the top 100 Pokémon to use in it. Not great. It loses to major players like Bronzor and Wynaut , but does pick up a win over Vullaby . 🔵 Great League Bonsly does fit in the Great League , but it requires maxing out to level 50 to even try to compete, and even then, it isn’t breaking the top 500 Pokémon rankings . 🟡 Ultra League Bonsly just cannot hack it in Ultra League . (Hack, like you would a tree, get it?) 🟣 Master League Poor Bonsly would be destroyed in Master League quicker than a whole horde of Bidoof destroying a tree. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Bonsly",
+        "type": "Rock",
+        "intro_text": "A list of Mega Pokémon that boost Bonsly's Rock-type moves, Candy, and Candy XL from catching Bonsly.",
+        "mega_list": [
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 438,
+            "height_m": 0.5,
+            "weight_kg": 15,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.88 m",
+            "description": "Bonsly's height ranges from 0.25 m to 0.88 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.875,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It looks as if it is always crying. It is actually adjusting its body’s fluid levels by eliminating excess."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It prefers arid environments. It leaks water from its eyes to adjust its body’s fluid levels."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "In order to adjust the level of fluids in its body, it exudes water from its eyes. This makes it appear to be crying."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It prefers arid environments. It leaks water from its eyes to adjust its body’s fluid levels."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It does not deal well with water, so it lives in dry locales. Since its surroundings tend to lack greenery, it stands out noticeably."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "From its eyes, it can expel excess moisture from its body. This liquid is similar in composition to human sweat."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It discharges moisture from its eyes, making it look like it’s crying—apparently an effective way of getting enemies to let down their guard."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "If its body gets too damp, it will die. So, in a process reminiscent of sweating, its eyes expel moisture."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It expels both sweat and tears from its eyes. The sweat is a little salty, while the tears have a slight bitterness."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This Pokémon lives in dry, rocky areas. As its green spheres dry out, their dull luster increases."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Its tears elicit sympathy from those who see them, but do not be deceived! This expulsion of body water is merely a physiological mechanism for keeping itself in good health."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Bonsly",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm438.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm438.icon.png"
+            },
+            {
+                "label": "Shiny Bonsly",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm438.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm438.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 438,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0438_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0438_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Bonsly sprite"
+            },
+            {
+                "pokedex_number": 438,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0438_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0438_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Bonsly sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/438_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/438_social.jpg",
+                "alt": "Bonsly"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/438_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/438_social_dark.jpg",
+                "alt": "Bonsly"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/438_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/438_social_map.jpg",
+                "alt": "Bonsly"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/438_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/438_social_map_dark.jpg",
+                "alt": "Bonsly"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Bonsly’s strengths and weaknesses?",
+            "answer": "As a Rock-type Pokémon, Bonsly is weak to Fighting, Grass, Ground, Steel, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Bonsly in Pokémon GO?",
+            "answer": "The best moves for Bonsly in Pokémon GO are Rock Throw and Rock Slide. This moveset has a DPS (Damage Per Second) of 6.573 and a TDO (Total Damage Output) of 68.922."
+        },
+        {
+            "question": "How does Bonsly perform in Raids?",
+            "answer": "Bonsly's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Bonsly rank as a Rock-type attacker?",
+            "answer": "Bonsly is an F-Tier Rock-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Bonsly?",
+            "answer": "The following Mega Pokémon boost Bonsly: Mega Aerodactyl, Mega Tyranitar, and Mega Diancie."
+        },
+        {
+            "question": "What is Bonsly’s maximum CP at Level 40 and Level 50?",
+            "answer": "Bonsly’s maximum CP at Level 40 is 1302 CP and 1472 CP at Level 50."
+        },
+        {
+            "question": "Can Bonsly be shiny in Pokémon GO?",
+            "answer": "Bonsly can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Bonsly Dynamax in Pokémon GO?",
+            "answer": "Bonsly cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

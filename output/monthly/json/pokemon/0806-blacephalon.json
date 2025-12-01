@@ -1,0 +1,728 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3727,
+        "attack": 315,
+        "defense": 148,
+        "stamina": 142,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": true,
+        "title": "Blacephalon",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/806.webp",
+        "types": [
+            "Fire",
+            "Ghost"
+        ],
+        "weather_boost": [
+            "sunny",
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Incinerate",
+            "charged": "Shadow Ball",
+            "dps": 16.35,
+            "tdo": 195.08,
+            "boosted_weather": [
+                "sunny",
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Incinerate",
+                "fast_url": "https://db.pokemongohub.net/move/346",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 16.35,
+                "tdo": 195.1,
+                "score": 13.53
+            },
+            {
+                "rank": 2,
+                "fast": "Incinerate",
+                "fast_url": "https://db.pokemongohub.net/move/346",
+                "charged": "Mystical Fire",
+                "charged_url": "https://db.pokemongohub.net/move/382",
+                "dps": 16.01,
+                "tdo": 191.0,
+                "score": 13.24
+            },
+            {
+                "rank": 3,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 15.53,
+                "tdo": 185.2,
+                "score": 12.85
+            },
+            {
+                "rank": 4,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Mystical Fire",
+                "charged_url": "https://db.pokemongohub.net/move/382",
+                "dps": 14.94,
+                "tdo": 178.1,
+                "score": 12.36
+            },
+            {
+                "rank": 5,
+                "fast": "Incinerate",
+                "fast_url": "https://db.pokemongohub.net/move/346",
+                "charged": "Overheat",
+                "charged_url": "https://db.pokemongohub.net/move/270",
+                "dps": 14.61,
+                "tdo": 174.3,
+                "score": 12.09
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Overheat",
+                "charged_url": "https://db.pokemongohub.net/move/270",
+                "dps": 13.49,
+                "tdo": 160.9,
+                "score": 11.16
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            },
+            {
+                "name": "Incinerate",
+                "type": "Fire",
+                "stats": {
+                    "damage": 32,
+                    "energy": 22,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 32,
+                    "energy": 22,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "0.7s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 20,
+                    "energy": 20
+                },
+                "url": "https://db.pokemongohub.net/move/346"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Overheat",
+                "type": "Fire",
+                "stats": {
+                    "damage": 160,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 160,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "2.6s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/270"
+            },
+            {
+                "name": "Mystical Fire",
+                "type": "Fire",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/382"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Blacephalon's has 3727 max CP (at Level 50). A Blacephalon obtained from Raids can be encountered from 1797 CP to 1884 CP, or if weather boosted, in the 2246 CP to 2355 CP range. In Field and Special Research, Blacephalon can be found in the 1348 CP to 1413 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3727",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1348 - 1413",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1797 - 1884",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1797 - 1884",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2246 - 2355",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2246 CP - 2355 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 46,
+        "2": 146,
+        "3": 245,
+        "4": 345,
+        "5": 444,
+        "6": 544,
+        "7": 643,
+        "8": 743,
+        "9": 842,
+        "10": 942,
+        "11": 1036,
+        "12": 1130,
+        "13": 1224,
+        "14": 1319,
+        "15": 1413,
+        "16": 1507,
+        "17": 1601,
+        "18": 1695,
+        "19": 1789,
+        "20": 1884,
+        "21": 1978,
+        "22": 2072,
+        "23": 2166,
+        "24": 2260,
+        "25": 2355,
+        "26": 2449,
+        "27": 2543,
+        "28": 2637,
+        "29": 2732,
+        "30": 2826,
+        "31": 2873,
+        "32": 2920,
+        "33": 2967,
+        "34": 3014,
+        "35": 3061,
+        "36": 3108,
+        "37": 3155,
+        "38": 3203,
+        "39": 3250,
+        "40": 3297,
+        "41": 3339,
+        "42": 3381,
+        "43": 3423,
+        "44": 3466,
+        "45": 3509,
+        "46": 3552,
+        "47": 3595,
+        "48": 3639,
+        "49": 3683,
+        "50": 3727
+    },
+    "meta_analysis": "Blacephalon in the meta PvE Analysis Blacephalon is one of the strongest Ultra Beasts , performing brilliantly both as a Fire and a Ghost type. Yes, it is extremely fragile , but in all the time it hangs around in battle, it inflicts unreal damage figures . 🤯 Its performance is not as consistent as fellow UB Kartana , but still, Blacephalon is one Pokémon worth pursuing for high IVs . 🔥 ⚔️ Raids Keeping Megas and Shadows aside, Blacephalon is the #1 Pokémon as a Fire and Ghost type — but with a catch: 👉 Incinerate is a powerful Fire-type Fast Move , but it’s quite slow , and often Blacephalon faints before it can use its Charged Move . 👉 Against Ghost types , keep in mind that Blacephalon is itself weak to Ghost-type damage . So, dodging is key to ensuring optimal performance from Blacephalon . 🎯 🛡️ Gyms Ultra Beasts can't be put in Gyms. 💎 Blacephalon’s best moveset in PvE is: 1️⃣ Incinerate + Mystical Fire (as a Fire type) 2️⃣ Astonish + Shadow Ball (as a Ghost type) Show more Show less PvP Analysis Blacephalon’s performance is more or less the same across every PvP League . Because of its super high ATK and powerful moves at its disposal, it does snag a few wins . However, the bigger picture is that its extreme fragility makes it unreliable for GBL wins , and there are always better Fire and Ghost types in each of the three Leagues. 😯 So, while it's fun to run Blacephalon in PvP, it's a traditional spicy pick that can surprise opponents many times — but also loses just as often . 🙂 💎 Blacephalon's best moveset for PvP is Incinerate , Mystical Fire , and Shadow Ball .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Blacephalon",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Blacephalon's Fire and Ghost-type moves, Candy, and Candy XL from catching Blacephalon.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 806,
+            "height_m": 1.8,
+            "weight_kg": 13,
+            "region": "Generation 7",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.88 m",
+            "xs": "0.9 m",
+            "m": "1.8 m",
+            "xl": "2.7 m",
+            "xxl": "2.79 m",
+            "description": "Blacephalon's height ranges from 0.88 m to 2.79 m, with the average being 1.8 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.882,
+                "upper_m": 0.9,
+                "lower_ft": "2′11″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.9,
+                "upper_m": 1.8,
+                "lower_ft": "2′11″",
+                "upper_ft": "5′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.35,
+                "upper_m": 2.25,
+                "lower_ft": "4′05″",
+                "upper_ft": "7′05″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.25,
+                "upper_m": 2.7,
+                "lower_ft": "7′05″",
+                "upper_ft": "8′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.7,
+                "upper_m": 2.79,
+                "lower_ft": "8′10″",
+                "upper_ft": "9′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It’s apparently one kind of Ultra Beast."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "A UB that appeared from an Ultra Wormhole, it causes explosions, then takes advantage of opponents’ surprise to rob them of their vitality."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Blacephalon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm806.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm806.icon.png"
+            },
+            {
+                "label": "Shiny Blacephalon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm806.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm806.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 806,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0806_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0806_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Blacephalon sprite"
+            },
+            {
+                "pokedex_number": 806,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0806_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0806_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Blacephalon sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/806_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/806_social.jpg",
+                "alt": "Blacephalon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/806_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/806_social_dark.jpg",
+                "alt": "Blacephalon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/806_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/806_social_map.jpg",
+                "alt": "Blacephalon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/806_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/806_social_map_dark.jpg",
+                "alt": "Blacephalon"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Blacephalon’s strengths and weaknesses?",
+            "answer": "As a Fire and Ghost-type Pokémon, Blacephalon is weak to Dark, Ghost, Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Blacephalon in Pokémon GO?",
+            "answer": "The best moves for Blacephalon in Pokémon GO are Incinerate and Shadow Ball. This moveset has a DPS (Damage Per Second) of 16.355 and a TDO (Total Damage Output) of 195.076."
+        },
+        {
+            "question": "How does Blacephalon perform in Raids?",
+            "answer": "Blacephalon is a solid choice for many Raid battles. Ranks #51 as a Raid attacker."
+        },
+        {
+            "question": "How does Blacephalon rank as a Fire-type attacker?",
+            "answer": "Blacephalon is an A+ Tier Fire-type attacker, ranking at number #20 and performing very well in most scenarios and a great choice for trainers."
+        },
+        {
+            "question": "How does Blacephalon rank as a Ghost-type attacker?",
+            "answer": "Blacephalon is an A+ Tier Ghost-type attacker, ranking at number #14 and performing very well in most scenarios and a great choice for trainers."
+        },
+        {
+            "question": "What Mega Pokémon boost Blacephalon?",
+            "answer": "The following Mega Pokémon boost Blacephalon: Mega Houndoom, Mega Blaziken, Mega Camerupt, Primal Groudon, Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Blacephalon’s maximum CP at Level 40 and Level 50?",
+            "answer": "Blacephalon’s maximum CP at Level 40 is 3297 CP and 3727 CP at Level 50."
+        },
+        {
+            "question": "Can Blacephalon be shiny in Pokémon GO?",
+            "answer": "Blacephalon can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Blacephalon Dynamax in Pokémon GO?",
+            "answer": "Blacephalon cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

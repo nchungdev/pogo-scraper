@@ -1,0 +1,933 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1150,
+        "attack": 121,
+        "defense": 99,
+        "stamina": 111,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Paras",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/046.webp",
+        "types": [
+            "Bug",
+            "Grass"
+        ],
+        "weather_boost": [
+            "rain",
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bug Bite",
+            "charged": "Seed Bomb",
+            "dps": 5.91,
+            "tdo": 39.56,
+            "boosted_weather": [
+                "rain",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Seed Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/59",
+                "dps": 5.91,
+                "tdo": 39.6,
+                "score": 4.3
+            },
+            {
+                "rank": 2,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "X-Scissor",
+                "charged_url": "https://db.pokemongohub.net/move/100",
+                "dps": 5.89,
+                "tdo": 39.4,
+                "score": 4.29
+            },
+            {
+                "rank": 3,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Cross Poison",
+                "charged_url": "https://db.pokemongohub.net/move/89",
+                "dps": 5.33,
+                "tdo": 35.7,
+                "score": 3.88
+            },
+            {
+                "rank": 4,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Seed Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/59",
+                "dps": 5.26,
+                "tdo": 35.2,
+                "score": 3.83
+            },
+            {
+                "rank": 5,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "X-Scissor",
+                "charged_url": "https://db.pokemongohub.net/move/100",
+                "dps": 5.23,
+                "tdo": 35.0,
+                "score": 3.81
+            },
+            {
+                "rank": 6,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Cross Poison",
+                "charged_url": "https://db.pokemongohub.net/move/89",
+                "dps": 4.95,
+                "tdo": 33.2,
+                "score": 3.61
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bug Bite",
+                "type": "Bug",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/201"
+            },
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Seed Bomb",
+                "type": "Grass",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.1s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/59"
+            },
+            {
+                "name": "Cross Poison",
+                "type": "Poison",
+                "stats": {
+                    "damage": 40,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 40,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/89"
+            },
+            {
+                "name": "X-Scissor",
+                "type": "Bug",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.1s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/100"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Paras's has 1150 max CP (at Level 50). A Paras obtained from Raids can be encountered from 536 CP to 581 CP, or if weather boosted, in the 671 CP to 727 CP range. In Field and Special Research, Paras can be found in the 402 CP to 436 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1150",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "402 - 436",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "536 - 581",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "536 - 581",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "671 - 727",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "671 CP - 727 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 45,
+        "3": 75,
+        "4": 106,
+        "5": 137,
+        "6": 168,
+        "7": 198,
+        "8": 229,
+        "9": 260,
+        "10": 290,
+        "11": 320,
+        "12": 349,
+        "13": 378,
+        "14": 407,
+        "15": 436,
+        "16": 465,
+        "17": 494,
+        "18": 523,
+        "19": 552,
+        "20": 581,
+        "21": 610,
+        "22": 639,
+        "23": 668,
+        "24": 698,
+        "25": 727,
+        "26": 756,
+        "27": 785,
+        "28": 814,
+        "29": 843,
+        "30": 872,
+        "31": 887,
+        "32": 901,
+        "33": 916,
+        "34": 930,
+        "35": 945,
+        "36": 959,
+        "37": 974,
+        "38": 988,
+        "39": 1003,
+        "40": 1018,
+        "41": 1030,
+        "42": 1043,
+        "43": 1057,
+        "44": 1070,
+        "45": 1083,
+        "46": 1096,
+        "47": 1110,
+        "48": 1123,
+        "49": 1137,
+        "50": 1150
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Paras",
+                    "href": "/pokemon/46",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/046.webp"
+                },
+                "to": {
+                    "name": "Parasect",
+                    "href": "/pokemon/47",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/047.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Paras",
+                "href": "/pokemon/46",
+                "img": "https://db.pokemongohub.net/images/official/medium/046.webp"
+            },
+            {
+                "name": "Parasect",
+                "href": "/pokemon/47",
+                "img": "https://db.pokemongohub.net/images/official/medium/047.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Paras in the meta PvE Analysis A classic Gen 1 Pokémon that became more of a fan favorite in Legends Arceus, Paras is pure nostalgia and has the perk of giving a base value of 500 Stardust (938 Stardust from an active Star Piece and weather boost), but when it comes to PvE battles, it's of no use. PvP Analysis 🧸 Little Cup Both Bug and Grass are useful offensive types in the Little League, enabling Paras to beat fearsome threats like Deino, Umbreon, Wooper, Barboach, Shadow Oddish, Bulbasaur, as well as Dratini, Igglybuff, Chansey, and Chinchou. As such, Paras serves as a core breaker in this format, making it a good fit for your teams.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Paras",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Paras's Bug and Grass-type moves, Candy, and Candy XL from catching Paras.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 46,
+            "height_m": 0.3,
+            "weight_kg": 5.4,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Paras's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 29,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 10,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "Burrows to suck tree roots. The mushrooms on its back grow by draw ing nutrients from the bug host."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It is doused with mushroom spores when it is born. As its body grows, mushrooms sprout from its back."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "As its body grows large, oriental mushrooms named tochukaso start sprouting out of its back."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "The tochukaso growing on this POKéMON's back orders it to extract juice from tree trunks."
+        },
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "PARAS has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from the BUG POKéMON host. They are highly valued as a medicine for extending life."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "PARAS has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this BUG POKéMON host. They are highly valued as a medicine for extending life."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "A PARAS has parasitic tochukaso mushrooms growing on its back. They grow by drawing nutrients from the host. They are valued as a medicine for long life."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "Growing out of the bug’s back are mushrooms called tochukaso. The mushrooms grow with the bug host."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum"
+            ],
+            "entry": "Mushrooms named tochukaso grow on its back. They grow along with the host PARAS."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It is doused with mushroom spores when it is born. As its body grows, mushrooms sprout from its back."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "As its body grows, large mushrooms named tochukaso start sprouting out of its back."
+        },
+        {
+            "versions": [
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Mushrooms named tochukaso grow on its back. They grow along with the host Paras."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Growing out of the bug’s back are mushrooms called tochukaso. The mushrooms grow with the bug host."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "No matter how much it eats, the mushrooms growing on its back steal away most of the nutrients it consumes."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Mushrooms called tochukaso sprout from its back. They can be dried and powdered to make a medicine used to extend life."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Whether it’s due to a lack of moisture or a lack of nutrients, in Alola the mushrooms on Paras don’t grow up quite right."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Sometimes seen at the foot of trees in humid forests. The mushrooms on its back—called tochukaso—are not present on infant specimens and instead emerge as Paras matures."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Paras",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm46.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm46.icon.png"
+            },
+            {
+                "label": "Shiny Paras",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm46.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm46.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 46,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0046_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0046_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Paras sprite"
+            },
+            {
+                "pokedex_number": 46,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0046_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0046_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Paras sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/046_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/046_social.jpg",
+                "alt": "Paras"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/046_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/046_social_dark.jpg",
+                "alt": "Paras"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/046_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/046_social_map.jpg",
+                "alt": "Paras"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/046_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/046_social_map_dark.jpg",
+                "alt": "Paras"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Paras’s strengths and weaknesses?",
+            "answer": "As a Bug and Grass-type Pokémon, Paras is especially weak against Fire and Flying-type moves, and weak against Bug, Ice, Poison, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Paras in Pokémon GO?",
+            "answer": "The best moves for Paras in Pokémon GO are Bug Bite and Seed Bomb. This moveset has a DPS (Damage Per Second) of 5.909 and a TDO (Total Damage Output) of 39.564."
+        },
+        {
+            "question": "How does Paras perform in Raids?",
+            "answer": "Paras's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Paras rank as a Bug-type attacker?",
+            "answer": "Paras's performance as a Bug-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Paras?",
+            "answer": "The following Mega Pokémon boost Paras: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, Primal Kyogre, Mega Venusaur, Mega Sceptile, Primal Groudon, and Mega Abomasnow."
+        },
+        {
+            "question": "What is Paras’s maximum CP at Level 40 and Level 50?",
+            "answer": "Paras’s maximum CP at Level 40 is 1018 CP and 1150 CP at Level 50."
+        },
+        {
+            "question": "Can Paras be shiny in Pokémon GO?",
+            "answer": "Paras can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Paras Dynamax in Pokémon GO?",
+            "answer": "Paras cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,984 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2679,
+        "attack": 171,
+        "defense": 188,
+        "stamina": 190,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Grumpig",
+        "forms": [
+            {
+                "name": "Grumpig",
+                "href": "/pokemon/326",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/326.webp"
+            },
+            {
+                "name": "Shadow Grumpig",
+                "href": "/pokemon/326-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/326.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/326.webp",
+        "types": [
+            "Psychic"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Psywave",
+            "charged": "Psychic",
+            "dps": 10.13,
+            "tdo": 196.4,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Psywave",
+                "fast_url": "https://db.pokemongohub.net/move/401",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 10.13,
+                "tdo": 196.4,
+                "score": 8.98
+            },
+            {
+                "rank": 2,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 10.04,
+                "tdo": 194.8,
+                "score": 8.9
+            },
+            {
+                "rank": 3,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 9.25,
+                "tdo": 179.4,
+                "score": 8.2
+            },
+            {
+                "rank": 4,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 9.23,
+                "tdo": 179.1,
+                "score": 8.18
+            },
+            {
+                "rank": 5,
+                "fast": "Psywave",
+                "fast_url": "https://db.pokemongohub.net/move/401",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 9.2,
+                "tdo": 178.5,
+                "score": 8.16
+            },
+            {
+                "rank": 6,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Dynamic Punch",
+                "charged_url": "https://db.pokemongohub.net/move/246",
+                "dps": 8.99,
+                "tdo": 174.4,
+                "score": 7.97
+            },
+            {
+                "rank": 7,
+                "fast": "Psywave",
+                "fast_url": "https://db.pokemongohub.net/move/401",
+                "charged": "Dynamic Punch",
+                "charged_url": "https://db.pokemongohub.net/move/246",
+                "dps": 8.92,
+                "tdo": 173.0,
+                "score": 7.9
+            },
+            {
+                "rank": 8,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 8.34,
+                "tdo": 161.7,
+                "score": 7.38
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Charge Beam",
+                "type": "Electric",
+                "stats": {
+                    "damage": 7,
+                    "energy": 14,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 14,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/249"
+            },
+            {
+                "name": "Extrasensory",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/274"
+            },
+            {
+                "name": "Psywave",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.6s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/401"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Psychic",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/108"
+            },
+            {
+                "name": "Dynamic Punch",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.0s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/246"
+            },
+            {
+                "name": "Mirror Coat",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.2s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/276"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Grumpig's has 2679 max CP (at Level 50). A Grumpig obtained from Raids can be encountered from 1285 CP to 1354 CP, or if weather boosted, in the 1606 CP to 1692 CP range. In Field and Special Research, Grumpig can be found in the 964 CP to 1015 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2679",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "964 - 1015",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1285 - 1354",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1285 - 1354",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1606 - 1692",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1606 CP - 1692 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 33,
+        "2": 105,
+        "3": 176,
+        "4": 248,
+        "5": 319,
+        "6": 391,
+        "7": 462,
+        "8": 534,
+        "9": 605,
+        "10": 677,
+        "11": 744,
+        "12": 812,
+        "13": 880,
+        "14": 948,
+        "15": 1015,
+        "16": 1083,
+        "17": 1151,
+        "18": 1218,
+        "19": 1286,
+        "20": 1354,
+        "21": 1421,
+        "22": 1489,
+        "23": 1557,
+        "24": 1625,
+        "25": 1692,
+        "26": 1760,
+        "27": 1828,
+        "28": 1895,
+        "29": 1963,
+        "30": 2031,
+        "31": 2065,
+        "32": 2099,
+        "33": 2132,
+        "34": 2166,
+        "35": 2200,
+        "36": 2234,
+        "37": 2268,
+        "38": 2302,
+        "39": 2336,
+        "40": 2369,
+        "41": 2399,
+        "42": 2430,
+        "43": 2460,
+        "44": 2491,
+        "45": 2522,
+        "46": 2553,
+        "47": 2584,
+        "48": 2615,
+        "49": 2647,
+        "50": 2679
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Spoink",
+                    "href": "/pokemon/325",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/325.webp"
+                },
+                "to": {
+                    "name": "Grumpig",
+                    "href": "/pokemon/326",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/326.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Spoink",
+                "href": "/pokemon/325",
+                "img": "https://db.pokemongohub.net/images/official/medium/325.webp"
+            },
+            {
+                "name": "Grumpig",
+                "href": "/pokemon/326",
+                "img": "https://db.pokemongohub.net/images/official/medium/326.webp"
+            },
+            {
+                "name": "Shadow Spoink",
+                "href": "/pokemon/325-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Grumpig",
+                "href": "/pokemon/326-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Grumpig in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Grumpig",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Grumpig's Psychic-type moves, Candy, and Candy XL from catching Grumpig.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 326,
+            "height_m": 0.89,
+            "weight_kg": 71.5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.44 m",
+            "xs": "0.45 m",
+            "m": "0.89 m",
+            "xl": "1.34 m",
+            "xxl": "1.56 m",
+            "description": "Grumpig's height ranges from 0.44 m to 1.56 m, with the average being 0.89 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.4361,
+                "upper_m": 0.445,
+                "lower_ft": "1′05″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.445,
+                "upper_m": 0.89,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.6675,
+                "upper_m": 1.1125,
+                "lower_ft": "2′02″",
+                "upper_ft": "3′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.1125,
+                "upper_m": 1.335,
+                "lower_ft": "3′08″",
+                "upper_ft": "4′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.335,
+                "upper_m": 1.5575,
+                "lower_ft": "4′05″",
+                "upper_ft": "5′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "GRUMPIG uses the black pearls on its body to amplify its psychic power waves for gaining total control over its foe. When this POKéMON uses its special power, its snorting breath grows labored."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "GRUMPIG uses the black pearls on its body to wield its fantastic powers. When it is doing so, it dances bizarrely. This POKéMON’s black pearls are valuable as works of art."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It stores power in the black pearls on its forehead. When it uses psychic power, it performs an odd dance step. Its style of dancing became hugely popular overseas."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It can gain control over foes by doing odd dance steps. The black pearls on its forehead are precious gems."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It uses black pearls to amplify its psycho-power. It does an odd dance to gain control over foes."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It can perform odd dance steps to influence foes. Its style of dancing became hugely popular overseas."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It uses black pearls to amplify its psychic power. It does a strange dance to control foes’ minds."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It uses black pearls to amplify its psychic power. It does a strange dance to control foes’ minds."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Grumpig uses the black pearls on its body to amplify its psychic power waves for gaining total control over its foe. When this Pokémon uses its special power, its snorting breath grows labored."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Grumpig uses the black pearls on its body to wield its fantastic powers. When it is doing so, it dances bizarrely. This Pokémon’s black pearls are valuable as works of art."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Grumpig",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm326.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm326.icon.png"
+            },
+            {
+                "label": "Shiny Grumpig",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm326.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm326.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 326,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0326_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0326_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Grumpig sprite"
+            },
+            {
+                "pokedex_number": 326,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0326_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0326_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Grumpig sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/326_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/326_social.jpg",
+                "alt": "Grumpig"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/326_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/326_social_dark.jpg",
+                "alt": "Grumpig"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/326_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/326_social_map.jpg",
+                "alt": "Grumpig"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/326_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/326_social_map_dark.jpg",
+                "alt": "Grumpig"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Grumpig’s strengths and weaknesses?",
+            "answer": "As a Psychic-type Pokémon, Grumpig is weak to Bug, Dark, and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Grumpig in Pokémon GO?",
+            "answer": "The best moves for Grumpig in Pokémon GO are Psywave and Psychic. This moveset has a DPS (Damage Per Second) of 10.125 and a TDO (Total Damage Output) of 196.4."
+        },
+        {
+            "question": "How does Grumpig perform in Raids?",
+            "answer": "Grumpig's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Grumpig rank as a Psychic-type attacker?",
+            "answer": "Grumpig is an F-Tier Psychic-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Grumpig?",
+            "answer": "The following Mega Pokémon boost Grumpig: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Grumpig’s maximum CP at Level 40 and Level 50?",
+            "answer": "Grumpig’s maximum CP at Level 40 is 2369 CP and 2679 CP at Level 50."
+        },
+        {
+            "question": "Can Grumpig be shiny in Pokémon GO?",
+            "answer": "Grumpig can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Grumpig Dynamax in Pokémon GO?",
+            "answer": "Grumpig cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

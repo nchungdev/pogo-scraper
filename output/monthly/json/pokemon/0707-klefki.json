@@ -1,0 +1,824 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2204,
+        "attack": 160,
+        "defense": 179,
+        "stamina": 149,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": false,
+        "title": "Klefki",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/707.webp",
+        "types": [
+            "Steel",
+            "Fairy"
+        ],
+        "weather_boost": [
+            "snow",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Play Rough",
+            "dps": 8.26,
+            "tdo": 122.45,
+            "boosted_weather": [
+                "partlyCloudy",
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 8.26,
+                "tdo": 122.5,
+                "score": 7.07
+            },
+            {
+                "rank": 2,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 7.81,
+                "tdo": 115.8,
+                "score": 6.69
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 7.36,
+                "tdo": 109.1,
+                "score": 6.3
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Flash Cannon",
+                "charged_url": "https://db.pokemongohub.net/move/36",
+                "dps": 7.08,
+                "tdo": 105.0,
+                "score": 6.06
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Draining Kiss",
+                "charged_url": "https://db.pokemongohub.net/move/85",
+                "dps": 6.97,
+                "tdo": 103.4,
+                "score": 5.97
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 6.7,
+                "tdo": 99.3,
+                "score": 5.73
+            },
+            {
+                "rank": 7,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Draining Kiss",
+                "charged_url": "https://db.pokemongohub.net/move/85",
+                "dps": 6.29,
+                "tdo": 93.3,
+                "score": 5.39
+            },
+            {
+                "rank": 8,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Flash Cannon",
+                "charged_url": "https://db.pokemongohub.net/move/36",
+                "dps": 6.24,
+                "tdo": 92.6,
+                "score": 5.35
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flash Cannon",
+                "type": "Steel",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 70
+                },
+                "url": "https://db.pokemongohub.net/move/36"
+            },
+            {
+                "name": "Draining Kiss",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "0.9s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/85"
+            },
+            {
+                "name": "Play Rough",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/88"
+            },
+            {
+                "name": "Foul Play",
+                "type": "Dark",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.7s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/280"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Klefki's has 2204 max CP (at Level 50). A Klefki obtained from Raids can be encountered from 1051 CP to 1114 CP, or if weather boosted, in the 1314 CP to 1392 CP range. In Field and Special Research, Klefki can be found in the 788 CP to 835 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2204",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "788 - 835",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1051 - 1114",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1051 - 1114",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1314 - 1392",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1314 CP - 1392 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 27,
+        "2": 86,
+        "3": 145,
+        "4": 204,
+        "5": 262,
+        "6": 321,
+        "7": 380,
+        "8": 439,
+        "9": 498,
+        "10": 557,
+        "11": 612,
+        "12": 668,
+        "13": 724,
+        "14": 779,
+        "15": 835,
+        "16": 891,
+        "17": 946,
+        "18": 1002,
+        "19": 1058,
+        "20": 1114,
+        "21": 1169,
+        "22": 1225,
+        "23": 1281,
+        "24": 1336,
+        "25": 1392,
+        "26": 1448,
+        "27": 1504,
+        "28": 1559,
+        "29": 1615,
+        "30": 1671,
+        "31": 1699,
+        "32": 1726,
+        "33": 1754,
+        "34": 1782,
+        "35": 1810,
+        "36": 1838,
+        "37": 1866,
+        "38": 1893,
+        "39": 1921,
+        "40": 1949,
+        "41": 1974,
+        "42": 1999,
+        "43": 2024,
+        "44": 2049,
+        "45": 2074,
+        "46": 2100,
+        "47": 2126,
+        "48": 2151,
+        "49": 2177,
+        "50": 2204
+    },
+    "meta_analysis": "Klefki in the meta PvE Analysis Klefki is one of the regional pokémon in the game, located only in France and its surrounding regions. Its rarity makes Klefki tough to get your hands on, outside of special events or trades with friends. ⚔️ Raids Klefki isn’t built for the raid scene, maxing out at 2204 CP. 🛡️ Gyms Klefki’s unique typing might be helpful in PvP, but less so in gym defence. PvP Analysis Preferred Moveset - Astonish, Foul Play & Play Rough / Flash Cannon 🧸 Little League Klefki performs decently against the general Little League meta - if it ever gets the chance to compete in the meta, it is a strong pick primarily due to its typing and powerful Astonish fast move pressure. 🔵 Great League Klefki is one of the few pokémon blessed with the dual fairy-steel typing. It performs decently against the open meta, but it shines more so in limited metas where its decent stat product and typing can shine. It’s a little bit slow, but it can make a dent with Astonish and its good coverage moveset. 🟡 Ultra League Despite Klefki’s amazing typing, Klefki can’t keep up with the Ultra League due to its lower stat product. The new kid on the block, Tinkaton, is a much more worthwhile investment for this format. 🟣 Master League Leave the Klefki at home when you dive into the Master League. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Klefki",
+        "type": "Steel",
+        "intro_text": "A list of Mega Pokémon that boost Klefki's Steel and Fairy-type moves, Candy, and Candy XL from catching Klefki.",
+        "mega_list": [
+            {
+                "name": "Mega Steelix",
+                "pokemon_id": 208,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/208-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Mawile",
+                "pokemon_id": 303,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/303-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Aggron",
+                "pokemon_id": 306,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/306-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lucario",
+                "pokemon_id": 448,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/448-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 707,
+            "height_m": 0.2,
+            "weight_kg": 3,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.1 m",
+            "xs": "0.1 m",
+            "m": "0.2 m",
+            "xl": "0.3 m",
+            "xxl": "0.35 m",
+            "description": "Klefki's height ranges from 0.1 m to 0.35 m, with the average being 0.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.098,
+                "upper_m": 0.1,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.1,
+                "upper_m": 0.2,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.15,
+                "upper_m": 0.25,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.25,
+                "upper_m": 0.3,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.3,
+                "upper_m": 0.35,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 60.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 5.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "These key collectors threaten any attackers by fiercely jingling their keys at them."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "This even-tempered Pokémon has a habit of collecting keys. It will sneak into people’s homes to steal their keys."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It inserts its horn into chinks in metal, absorbing metal ions. For some reason, it collects keys."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Although it’s unclear why it collects keys, giving it a key makes Klefki very happy. However, it apparently only likes master keys."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Long ago it lived in mines, but once the minerals that make up its diet became scarcer, Klefki began appearing in human settlements."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This Pokémon is constantly collecting keys. Entrust a Klefki with important keys, and the Pokémon will protect them no matter what."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Klefki sucks in metal ions with the horn topping its head. It seems this Pokémon loves keys so much that its head needed to look like one, too."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Klefki",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm707.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm707.icon.png"
+            },
+            {
+                "label": "Shiny Klefki",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm707.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm707.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 707,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0707_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0707_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Klefki sprite"
+            },
+            {
+                "pokedex_number": 707,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0707_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0707_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Klefki sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/707_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/707_social.jpg",
+                "alt": "Klefki"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/707_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/707_social_dark.jpg",
+                "alt": "Klefki"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/707_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/707_social_map.jpg",
+                "alt": "Klefki"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/707_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/707_social_map_dark.jpg",
+                "alt": "Klefki"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Klefki’s strengths and weaknesses?",
+            "answer": "As a Steel and Fairy-type Pokémon, Klefki is weak to Fire and Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Klefki in Pokémon GO?",
+            "answer": "The best moves for Klefki in Pokémon GO are Tackle and Play Rough. This moveset has a DPS (Damage Per Second) of 8.257 and a TDO (Total Damage Output) of 122.454."
+        },
+        {
+            "question": "How does Klefki perform in Raids?",
+            "answer": "Klefki's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Klefki rank as a Steel-type attacker?",
+            "answer": "Klefki is an F-Tier Steel-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Klefki rank as a Fairy-type attacker?",
+            "answer": "Klefki is an F-Tier Fairy-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Klefki?",
+            "answer": "The following Mega Pokémon boost Klefki: Mega Steelix, Mega Scizor, Mega Mawile, Mega Aggron, Mega Metagross, Mega Lucario, Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, and Mega Diancie."
+        },
+        {
+            "question": "What is Klefki’s maximum CP at Level 40 and Level 50?",
+            "answer": "Klefki’s maximum CP at Level 40 is 1949 CP and 2204 CP at Level 50."
+        },
+        {
+            "question": "Can Klefki be shiny in Pokémon GO?",
+            "answer": "Klefki cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Klefki Dynamax in Pokémon GO?",
+            "answer": "Klefki cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

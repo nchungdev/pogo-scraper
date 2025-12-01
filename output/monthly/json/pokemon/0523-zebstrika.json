@@ -1,0 +1,810 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2745,
+        "attack": 211,
+        "defense": 136,
+        "stamina": 181,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Zebstrika",
+        "forms": [
+            {
+                "name": "Zebstrika",
+                "href": "/pokemon/523",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/523.webp"
+            },
+            {
+                "name": "Shadow Zebstrika",
+                "href": "/pokemon/523-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/523.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/523.webp",
+        "types": [
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Spark",
+            "charged": "Wild Charge",
+            "dps": 11.73,
+            "tdo": 161.87,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 11.73,
+                "tdo": 161.9,
+                "score": 9.94
+            },
+            {
+                "rank": 2,
+                "fast": "Low Kick",
+                "fast_url": "https://db.pokemongohub.net/move/207",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 11.23,
+                "tdo": 154.8,
+                "score": 9.51
+            },
+            {
+                "rank": 3,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 10.74,
+                "tdo": 148.2,
+                "score": 9.1
+            },
+            {
+                "rank": 4,
+                "fast": "Low Kick",
+                "fast_url": "https://db.pokemongohub.net/move/207",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 10.44,
+                "tdo": 144.0,
+                "score": 8.84
+            },
+            {
+                "rank": 5,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 7.67,
+                "tdo": 105.7,
+                "score": 6.49
+            },
+            {
+                "rank": 6,
+                "fast": "Low Kick",
+                "fast_url": "https://db.pokemongohub.net/move/207",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 7.63,
+                "tdo": 105.2,
+                "score": 6.46
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Spark",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/206"
+            },
+            {
+                "name": "Low Kick",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/207"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Discharge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.1s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/35"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            },
+            {
+                "name": "Wild Charge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/251"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Zebstrika's has 2745 max CP (at Level 50). A Zebstrika obtained from Raids can be encountered from 1317 CP to 1387 CP, or if weather boosted, in the 1646 CP to 1734 CP range. In Field and Special Research, Zebstrika can be found in the 987 CP to 1040 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2745",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "987 - 1040",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1317 - 1387",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1317 - 1387",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1646 - 1734",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1646 CP - 1734 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 34,
+        "2": 107,
+        "3": 180,
+        "4": 254,
+        "5": 327,
+        "6": 400,
+        "7": 474,
+        "8": 547,
+        "9": 620,
+        "10": 694,
+        "11": 763,
+        "12": 832,
+        "13": 902,
+        "14": 971,
+        "15": 1040,
+        "16": 1110,
+        "17": 1179,
+        "18": 1248,
+        "19": 1318,
+        "20": 1387,
+        "21": 1456,
+        "22": 1526,
+        "23": 1595,
+        "24": 1665,
+        "25": 1734,
+        "26": 1803,
+        "27": 1873,
+        "28": 1942,
+        "29": 2012,
+        "30": 2081,
+        "31": 2116,
+        "32": 2150,
+        "33": 2185,
+        "34": 2220,
+        "35": 2254,
+        "36": 2289,
+        "37": 2324,
+        "38": 2358,
+        "39": 2393,
+        "40": 2428,
+        "41": 2459,
+        "42": 2490,
+        "43": 2521,
+        "44": 2552,
+        "45": 2584,
+        "46": 2616,
+        "47": 2648,
+        "48": 2680,
+        "49": 2712,
+        "50": 2745
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Blitzle",
+                    "href": "/pokemon/522",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/522.webp"
+                },
+                "to": {
+                    "name": "Zebstrika",
+                    "href": "/pokemon/523",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/523.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Blitzle",
+                "href": "/pokemon/522",
+                "img": "https://db.pokemongohub.net/images/official/medium/522.webp"
+            },
+            {
+                "name": "Zebstrika",
+                "href": "/pokemon/523",
+                "img": "https://db.pokemongohub.net/images/official/medium/523.webp"
+            },
+            {
+                "name": "Shadow Blitzle",
+                "href": "/pokemon/522-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Zebstrika",
+                "href": "/pokemon/523-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Zebstrika in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Zebstrika",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Zebstrika's Electric-type moves, Candy, and Candy XL from catching Zebstrika.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 523,
+            "height_m": 1.6,
+            "weight_kg": 79.5,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.78 m",
+            "xs": "0.8 m",
+            "m": "1.6 m",
+            "xl": "2.4 m",
+            "xxl": "2.8 m",
+            "description": "Zebstrika's height ranges from 0.78 m to 2.8 m, with the average being 1.6 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.784,
+                "upper_m": 0.8,
+                "lower_ft": "2′07″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.8,
+                "upper_m": 1.6,
+                "lower_ft": "2′07″",
+                "upper_ft": "5′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.2,
+                "upper_m": 2,
+                "lower_ft": "3′11″",
+                "upper_ft": "6′07″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2,
+                "upper_m": 2.4,
+                "lower_ft": "6′07″",
+                "upper_ft": "7′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.4,
+                "upper_m": 2.8,
+                "lower_ft": "7′10″",
+                "upper_ft": "9′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 2,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "This ill-tempered Pokémon is dangerous because when it’s angry, it shoots lightning from its mane in all directions."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Zebstrika",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm523.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm523.icon.png"
+            },
+            {
+                "label": "Shiny Zebstrika",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm523.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm523.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 523,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0523_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0523_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Zebstrika sprite"
+            },
+            {
+                "pokedex_number": 523,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0523_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0523_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Zebstrika sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/523_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/523_social.jpg",
+                "alt": "Zebstrika"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/523_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/523_social_dark.jpg",
+                "alt": "Zebstrika"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/523_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/523_social_map.jpg",
+                "alt": "Zebstrika"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/523_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/523_social_map_dark.jpg",
+                "alt": "Zebstrika"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Zebstrika’s strengths and weaknesses?",
+            "answer": "As a Electric-type Pokémon, Zebstrika is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Zebstrika in Pokémon GO?",
+            "answer": "The best moves for Zebstrika in Pokémon GO are Spark and Wild Charge. This moveset has a DPS (Damage Per Second) of 11.734 and a TDO (Total Damage Output) of 161.868."
+        },
+        {
+            "question": "How does Zebstrika perform in Raids?",
+            "answer": "Zebstrika's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Zebstrika rank as a Electric-type attacker?",
+            "answer": "Zebstrika is a C-Tier Electric-type attacker, ranking at number #50. It is recommended only when you lack higher-tier options."
+        },
+        {
+            "question": "What Mega Pokémon boost Zebstrika?",
+            "answer": "The following Mega Pokémon boost Zebstrika: Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Zebstrika’s maximum CP at Level 40 and Level 50?",
+            "answer": "Zebstrika’s maximum CP at Level 40 is 2428 CP and 2745 CP at Level 50."
+        },
+        {
+            "question": "Can Zebstrika be shiny in Pokémon GO?",
+            "answer": "Zebstrika can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Zebstrika Dynamax in Pokémon GO?",
+            "answer": "Zebstrika cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

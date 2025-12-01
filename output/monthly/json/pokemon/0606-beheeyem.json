@@ -1,0 +1,811 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3112,
+        "attack": 221,
+        "defense": 163,
+        "stamina": 181,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Beheeyem",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/606.webp",
+        "types": [
+            "Psychic"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Confusion",
+            "charged": "Psychic",
+            "dps": 12.5,
+            "tdo": 203.24,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 12.5,
+                "tdo": 203.2,
+                "score": 10.83
+            },
+            {
+                "rank": 2,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 11.16,
+                "tdo": 181.5,
+                "score": 9.68
+            },
+            {
+                "rank": 3,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 10.67,
+                "tdo": 173.5,
+                "score": 9.25
+            },
+            {
+                "rank": 4,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 10.34,
+                "tdo": 168.1,
+                "score": 8.96
+            },
+            {
+                "rank": 5,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 8.8,
+                "tdo": 143.1,
+                "score": 7.63
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 8.54,
+                "tdo": 138.8,
+                "score": 7.4
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Confusion",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 19,
+                    "energy": 14,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 14,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.5s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 16,
+                    "energy": 14
+                },
+                "url": "https://db.pokemongohub.net/move/235"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Rock Slide",
+                "type": "Rock",
+                "stats": {
+                    "damage": 75,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 75,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/64"
+            },
+            {
+                "name": "Psychic",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/108"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Beheeyem's has 3112 max CP (at Level 50). A Beheeyem obtained from Raids can be encountered from 1498 CP to 1573 CP, or if weather boosted, in the 1873 CP to 1966 CP range. In Field and Special Research, Beheeyem can be found in the 1124 CP to 1180 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3112",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1124 - 1180",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1498 - 1573",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1498 - 1573",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1873 - 1966",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1873 CP - 1966 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 38,
+        "2": 122,
+        "3": 205,
+        "4": 288,
+        "5": 371,
+        "6": 454,
+        "7": 537,
+        "8": 620,
+        "9": 703,
+        "10": 786,
+        "11": 865,
+        "12": 944,
+        "13": 1022,
+        "14": 1101,
+        "15": 1180,
+        "16": 1258,
+        "17": 1337,
+        "18": 1415,
+        "19": 1494,
+        "20": 1573,
+        "21": 1651,
+        "22": 1730,
+        "23": 1809,
+        "24": 1887,
+        "25": 1966,
+        "26": 2045,
+        "27": 2123,
+        "28": 2202,
+        "29": 2281,
+        "30": 2360,
+        "31": 2399,
+        "32": 2438,
+        "33": 2477,
+        "34": 2517,
+        "35": 2556,
+        "36": 2595,
+        "37": 2635,
+        "38": 2674,
+        "39": 2713,
+        "40": 2753,
+        "41": 2788,
+        "42": 2823,
+        "43": 2858,
+        "44": 2894,
+        "45": 2930,
+        "46": 2966,
+        "47": 3002,
+        "48": 3038,
+        "49": 3075,
+        "50": 3112
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Elgyem",
+                    "href": "/pokemon/605",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/605.webp"
+                },
+                "to": {
+                    "name": "Beheeyem",
+                    "href": "/pokemon/606",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/606.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Elgyem",
+                "href": "/pokemon/605",
+                "img": "https://db.pokemongohub.net/images/official/medium/605.webp"
+            },
+            {
+                "name": "Beheeyem",
+                "href": "/pokemon/606",
+                "img": "https://db.pokemongohub.net/images/official/medium/606.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Beheeyem in the meta PvE Analysis Beheeyem is a pure Psychic-type Pokémon with a max CP of 3112 . It is not useful for PvE, even with its best moveset of Confusion and Psychic . ⚔️ Raids With Psychic-types having so many dominant and meta-relevant Pokémon, Beheeyem falls to the wayside as it simply doesn’t have the stats to compete. 🛡️ Gyms Beheeyem is truly an F-tier gym defender , as it lacks both bulk and staying power. PvP Analysis Beheeyem’s best moveset for PvP is Astonish , Dark Pulse , and Rock Slide . However, it is sadly not a particularly useful PvP Pokémon. 🔵 Great League Beheeyem is a glass cannon , and glass cannons don’t tend to have much use in PvP. It loses to favorites like Mandibuzz , Drapion , and Clodsire . 🟡 Ultra League Beheeyem again suffers losses to some major Ultra League contenders, including Giratina and Talonflame . It simply doesn’t have the bulk to compete. 🟣 Master League Beheeyem phone home. This little alien wants no part in Master League.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Beheeyem",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Beheeyem's Psychic-type moves, Candy, and Candy XL from catching Beheeyem.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 606,
+            "height_m": 1,
+            "weight_kg": 34.5,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "1.75 m",
+            "description": "Beheeyem's height ranges from 0.49 m to 1.75 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 1.75,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.8,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "It can manipulate an opponent’s memory. Apparently, it communicates by flashing its three different-colored fingers."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "It uses psychic power to control an opponent’s brain and tamper with its memories."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Apparently, it communicates by flashing its three fingers, but those patterns haven’t been decoded."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Apparently, it communicates by flashing its three fingers, but those patterns haven’t been decoded."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It uses psychic power to control an opponent’s brain and tamper with its memories."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "With its psychic powers, it rewrites its opponents’ memories. You, too, may have already had your memories rewritten."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It has strong psychic powers. Using its fingers that flash three different colors, it controls its opponents and rewrites their memories."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Sometimes found drifting above wheat fields, this Pokémon can control the memories of its opponents."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Beheeyem",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm606.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm606.icon.png"
+            },
+            {
+                "label": "Shiny Beheeyem",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm606.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm606.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 606,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0606_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0606_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Beheeyem sprite"
+            },
+            {
+                "pokedex_number": 606,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0606_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0606_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Beheeyem sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/606_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/606_social.jpg",
+                "alt": "Beheeyem"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/606_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/606_social_dark.jpg",
+                "alt": "Beheeyem"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/606_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/606_social_map.jpg",
+                "alt": "Beheeyem"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/606_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/606_social_map_dark.jpg",
+                "alt": "Beheeyem"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Beheeyem’s strengths and weaknesses?",
+            "answer": "As a Psychic-type Pokémon, Beheeyem is weak to Bug, Dark, and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Beheeyem in Pokémon GO?",
+            "answer": "The best moves for Beheeyem in Pokémon GO are Confusion and Psychic. This moveset has a DPS (Damage Per Second) of 12.498 and a TDO (Total Damage Output) of 203.235."
+        },
+        {
+            "question": "How does Beheeyem perform in Raids?",
+            "answer": "Beheeyem's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Beheeyem rank as a Psychic-type attacker?",
+            "answer": "Beheeyem is a D-Tier Psychic-type attacker, struggling in Raids due to its lower stats or suboptimal moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Beheeyem?",
+            "answer": "The following Mega Pokémon boost Beheeyem: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Beheeyem’s maximum CP at Level 40 and Level 50?",
+            "answer": "Beheeyem’s maximum CP at Level 40 is 2753 CP and 3112 CP at Level 50."
+        },
+        {
+            "question": "Can Beheeyem be shiny in Pokémon GO?",
+            "answer": "Beheeyem can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Beheeyem Dynamax in Pokémon GO?",
+            "answer": "Beheeyem cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,900 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1088,
+        "attack": 95,
+        "defense": 90,
+        "stamina": 172,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Spheal",
+        "forms": [
+            {
+                "name": "Spheal",
+                "href": "/pokemon/363",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/363.webp"
+            },
+            {
+                "name": "Shadow Spheal",
+                "href": "/pokemon/363-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/363.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/363.webp",
+        "types": [
+            "Ice",
+            "Water"
+        ],
+        "weather_boost": [
+            "snow",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Aurora Beam",
+            "dps": 4.77,
+            "tdo": 43.66,
+            "boosted_weather": [
+                "rain",
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Aurora Beam",
+                "charged_url": "https://db.pokemongohub.net/move/248",
+                "dps": 4.77,
+                "tdo": 43.7,
+                "score": 3.75
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 4.65,
+                "tdo": 42.5,
+                "score": 3.65
+            },
+            {
+                "rank": 3,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.6,
+                "tdo": 42.1,
+                "score": 3.62
+            },
+            {
+                "rank": 4,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Aurora Beam",
+                "charged_url": "https://db.pokemongohub.net/move/248",
+                "dps": 3.9,
+                "tdo": 35.7,
+                "score": 3.06
+            },
+            {
+                "rank": 5,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 3.85,
+                "tdo": 35.2,
+                "score": 3.02
+            },
+            {
+                "rank": 6,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 3.75,
+                "tdo": 34.4,
+                "score": 2.95
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            },
+            {
+                "name": "Rock Smash",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 17,
+                    "energy": 12,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 17,
+                    "energy": 12,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/241"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            },
+            {
+                "name": "Aurora Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "3.3s - 3.5s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/248"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Spheal's has 1088 max CP (at Level 50). A Spheal obtained from Raids can be encountered from 505 CP to 550 CP, or if weather boosted, in the 631 CP to 687 CP range. In Field and Special Research, Spheal can be found in the 379 CP to 412 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1088",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "379 - 412",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "505 - 550",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "505 - 550",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "631 - 687",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "631 CP - 687 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 42,
+        "3": 71,
+        "4": 100,
+        "5": 129,
+        "6": 158,
+        "7": 187,
+        "8": 217,
+        "9": 246,
+        "10": 275,
+        "11": 302,
+        "12": 330,
+        "13": 357,
+        "14": 385,
+        "15": 412,
+        "16": 440,
+        "17": 467,
+        "18": 495,
+        "19": 522,
+        "20": 550,
+        "21": 577,
+        "22": 605,
+        "23": 632,
+        "24": 660,
+        "25": 687,
+        "26": 715,
+        "27": 742,
+        "28": 770,
+        "29": 797,
+        "30": 825,
+        "31": 838,
+        "32": 852,
+        "33": 866,
+        "34": 880,
+        "35": 893,
+        "36": 907,
+        "37": 921,
+        "38": 935,
+        "39": 948,
+        "40": 962,
+        "41": 974,
+        "42": 987,
+        "43": 999,
+        "44": 1012,
+        "45": 1024,
+        "46": 1037,
+        "47": 1049,
+        "48": 1062,
+        "49": 1075,
+        "50": 1088
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Spheal",
+                    "href": "/pokemon/363",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/363.webp"
+                },
+                "to": {
+                    "name": "Sealeo",
+                    "href": "/pokemon/364",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/364.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Sealeo",
+                    "href": "/pokemon/364",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/364.webp"
+                },
+                "to": {
+                    "name": "Walrein",
+                    "href": "/pokemon/365",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/365.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Spheal",
+                "href": "/pokemon/363",
+                "img": "https://db.pokemongohub.net/images/official/medium/363.webp"
+            },
+            {
+                "name": "Sealeo",
+                "href": "/pokemon/364",
+                "img": "https://db.pokemongohub.net/images/official/medium/364.webp"
+            },
+            {
+                "name": "Walrein",
+                "href": "/pokemon/365",
+                "img": "https://db.pokemongohub.net/images/official/medium/365.webp"
+            },
+            {
+                "name": "Shadow Spheal",
+                "href": "/pokemon/363-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Sealeo",
+                "href": "/pokemon/364-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Walrein",
+                "href": "/pokemon/365-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Spheal in the meta PvE Analysis With neither ATK nor DEF crossing 100, Spheal isn't strong enough for PvE battles like Raids and Gyms. Focus on evolving it all the way to Walrein. 🦭 PvP Analysis 🧸 Little Cup Spheal is a good Pokémon in the Little Cup courtesy of the spammy Body Slam. It's quite bulky as well and its moveset makes it threatening both with shields and without. While it loses to threats like Deino, Wynaut, Bronzor, Ducklett, and Cottonee Spheal wins against Gligar, Seel, Vulpix, Alolan Vulpix, and Shelmet. Undoubtedly a handy team member. 👍 💎 The best moves for Spheal in PvP are Water Gun, Body Slam and Aurora Beam.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Spheal",
+        "type": "Ice",
+        "intro_text": "A list of Mega Pokémon that boost Spheal's Ice and Water-type moves, Candy, and Candy XL from catching Spheal.",
+        "mega_list": [
+            {
+                "name": "Mega Glalie",
+                "pokemon_id": 362,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/362-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 363,
+            "height_m": 0.79,
+            "weight_kg": 39.5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.39 m",
+            "xs": "0.4 m",
+            "m": "0.79 m",
+            "xl": "1.19 m",
+            "xxl": "1.38 m",
+            "description": "Spheal's height ranges from 0.39 m to 1.38 m, with the average being 0.79 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.3871,
+                "upper_m": 0.395,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.395,
+                "upper_m": 0.79,
+                "lower_ft": "1′04″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.5925,
+                "upper_m": 0.9875,
+                "lower_ft": "1′11″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.9875,
+                "upper_m": 1.185,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.185,
+                "upper_m": 1.3825,
+                "lower_ft": "3′11″",
+                "upper_ft": "4′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 20.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 5.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "SPHEAL is much faster rolling than walking to get around. When groups of this POKéMON eat, they all clap at once to show their pleasure. Because of this, their mealtimes are noisy."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "SPHEAL always travels by rolling around on its ball-like body. When the season for ice floes arrives, this POKéMON can be seen rolling about on ice and crossing the sea."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It is completely covered with plushy fur. As a result, it never feels the cold even when it is rolling about on ice floes or diving in the sea."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It rolls across ice floes to reach shore because its body is poorly shaped for swimming."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It crosses the oceans by rolling itself on drifting ice. Fluffy fur keeps it warm when the temperature is below freezing."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "They can’t swim well yet, and they move much faster by rolling. When they’re happy, they clap fins."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "They can’t swim well yet, and they move much faster by rolling. When they’re happy, they clap fins."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Spheal is much faster rolling than walking to get around. When groups of this Pokémon eat, they all clap at once to show their pleasure. Because of this, their mealtimes are noisy."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Spheal always travels by rolling around on its ball-like body. When the season for ice floes arrives, this Pokémon can be seen rolling about on ice and crossing the sea."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This Pokémon’s body is covered in blubber and impressively round. It’s faster for Spheal to roll around than walk."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "As it drifts among the waves, Spheal probes the sea. As soon as it spots prey, it informs the Walrein in its herd."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "During the season when drift ice approaches the shore, Spheal prefers living on the ice—where fewer predators lurk—rather than the land. Its fur retains heat superbly and resists harsh cold."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Spheal",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm363.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm363.icon.png"
+            },
+            {
+                "label": "Shiny Spheal",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm363.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm363.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 363,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0363_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0363_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Spheal sprite"
+            },
+            {
+                "pokedex_number": 363,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0363_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0363_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Spheal sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/363_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/363_social.jpg",
+                "alt": "Spheal"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/363_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/363_social_dark.jpg",
+                "alt": "Spheal"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/363_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/363_social_map.jpg",
+                "alt": "Spheal"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/363_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/363_social_map_dark.jpg",
+                "alt": "Spheal"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 363,
+            "name": "Spheal",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm363.cHOLIDAY_2021_NOEVOLVE.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm363.cHOLIDAY_2021_NOEVOLVE.icon.png",
+            "category": "Holiday 2021"
+        },
+        {
+            "pokedex_number": 363,
+            "name": "Shiny Spheal",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm363.cHOLIDAY_2021_NOEVOLVE.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm363.cHOLIDAY_2021_NOEVOLVE.s.icon.png",
+            "category": "Holiday 2021"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Spheal’s strengths and weaknesses?",
+            "answer": "As a Ice and Water-type Pokémon, Spheal is weak to Electric, Fighting, Grass, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Spheal in Pokémon GO?",
+            "answer": "The best moves for Spheal in Pokémon GO are Water Gun and Aurora Beam. This moveset has a DPS (Damage Per Second) of 4.77 and a TDO (Total Damage Output) of 43.656."
+        },
+        {
+            "question": "How does Spheal perform in Raids?",
+            "answer": "Spheal's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Spheal rank as a Ice-type attacker?",
+            "answer": "Spheal's performance as a Ice-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Spheal?",
+            "answer": "The following Mega Pokémon boost Spheal: Mega Glalie, Mega Abomasnow, Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Spheal’s maximum CP at Level 40 and Level 50?",
+            "answer": "Spheal’s maximum CP at Level 40 is 962 CP and 1088 CP at Level 50."
+        },
+        {
+            "question": "Can Spheal be shiny in Pokémon GO?",
+            "answer": "Spheal can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Spheal Dynamax in Pokémon GO?",
+            "answer": "Spheal cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

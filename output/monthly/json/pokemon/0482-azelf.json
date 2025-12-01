@@ -1,0 +1,774 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3629,
+        "attack": 270,
+        "defense": 151,
+        "stamina": 181,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": true,
+        "title": "Azelf",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/482.webp",
+        "types": [
+            "Psychic"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Confusion",
+            "charged": "Future Sight",
+            "dps": 13.54,
+            "tdo": 205.38,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Future Sight",
+                "charged_url": "https://db.pokemongohub.net/move/275",
+                "dps": 13.54,
+                "tdo": 205.4,
+                "score": 11.63
+            },
+            {
+                "rank": 2,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Future Sight",
+                "charged_url": "https://db.pokemongohub.net/move/275",
+                "dps": 13.4,
+                "tdo": 203.3,
+                "score": 11.52
+            },
+            {
+                "rank": 3,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Fire Blast",
+                "charged_url": "https://db.pokemongohub.net/move/103",
+                "dps": 12.46,
+                "tdo": 188.9,
+                "score": 10.7
+            },
+            {
+                "rank": 4,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Fire Blast",
+                "charged_url": "https://db.pokemongohub.net/move/103",
+                "dps": 12.14,
+                "tdo": 184.0,
+                "score": 10.42
+            },
+            {
+                "rank": 5,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 11.25,
+                "tdo": 170.5,
+                "score": 9.66
+            },
+            {
+                "rank": 6,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 10.76,
+                "tdo": 163.2,
+                "score": 9.24
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Confusion",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 19,
+                    "energy": 14,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 14,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.5s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 16,
+                    "energy": 14
+                },
+                "url": "https://db.pokemongohub.net/move/235"
+            },
+            {
+                "name": "Extrasensory",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/274"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Fire Blast",
+                "type": "Fire",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "2.9s - 3.7s"
+                },
+                "trainer_battle": {
+                    "damage": 140,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/103"
+            },
+            {
+                "name": "Swift",
+                "type": "Normal",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.2s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/125"
+            },
+            {
+                "name": "Future Sight",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 115,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 115,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.2s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/275"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Azelf's has 3629 max CP (at Level 50). A Azelf obtained from Raids can be encountered from 1752 CP to 1834 CP, or if weather boosted, in the 2190 CP to 2293 CP range. In Field and Special Research, Azelf can be found in the 1314 CP to 1376 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3629",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1314 - 1376",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1752 - 1834",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1752 - 1834",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2190 - 2293",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2190 CP - 2293 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 45,
+        "2": 142,
+        "3": 239,
+        "4": 336,
+        "5": 433,
+        "6": 529,
+        "7": 626,
+        "8": 723,
+        "9": 820,
+        "10": 917,
+        "11": 1009,
+        "12": 1101,
+        "13": 1192,
+        "14": 1284,
+        "15": 1376,
+        "16": 1467,
+        "17": 1559,
+        "18": 1651,
+        "19": 1742,
+        "20": 1834,
+        "21": 1926,
+        "22": 2018,
+        "23": 2109,
+        "24": 2201,
+        "25": 2293,
+        "26": 2385,
+        "27": 2476,
+        "28": 2568,
+        "29": 2660,
+        "30": 2752,
+        "31": 2798,
+        "32": 2843,
+        "33": 2889,
+        "34": 2935,
+        "35": 2981,
+        "36": 3027,
+        "37": 3073,
+        "38": 3119,
+        "39": 3164,
+        "40": 3210,
+        "41": 3251,
+        "42": 3292,
+        "43": 3333,
+        "44": 3375,
+        "45": 3417,
+        "46": 3459,
+        "47": 3501,
+        "48": 3544,
+        "49": 3586,
+        "50": 3629
+    },
+    "meta_analysis": "Azelf in the meta PvE Analysis Azelf had a remarkable Attack stat of 270 as well as a good attackset, immediately putting it in Psychic-type PvE contention. However, it is largely outclassed by others, including non-Megas and non-Shadows. If you're short on strong Psychic Pokémon, feel free to use Azelf. 👍 ⚔️ Raids Even non-Legendary Pokémon with the attack Psychic (Alakazam and Espeon) do more damage. Plus, they are cheaper to power up, making Azelf a second thought. 😐 🛡️ Gyms N/A 💥 The best attackset for Azelf in PvE are Confusion and Future Sight. PvP Analysis Azelf’s Attack-heavy stats and clunky attackset make it a poor battler in the Great and Ultra League. In the Master League, Mewtwo exists as a far, far better option. Besides, its poor attackset results in Azelf being decimated by opponents before it can make any meaningful impact.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Azelf",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Azelf's Psychic-type moves, Candy, and Candy XL from catching Azelf.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 482,
+            "height_m": 0.3,
+            "weight_kg": 0.3,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Azelf's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 5.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.4,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "Known as “The Being of Willpower.” It sleeps at the bottom of a lake to keep the world in balance."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It is thought that UXIE, MESPRIT and AZELF all came from the same egg."
+        },
+        {
+            "versions": [
+                "Platinum"
+            ],
+            "entry": "When AZELF flew, people gained the determination to do things. It was the birth of willpower."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "This Pokémon is said to have endowed humans with the determination needed to face any of life’s difficulties."
+        },
+        {
+            "versions": [
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "When Azelf flew, people gained the determination to do things. It was the birth of willpower."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Known as “The Being of Willpower.” It sleeps at the bottom of a lake to keep the world in balance."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It is thought that Uxie, Mesprit, and Azelf all came from the same egg."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "The dreaded Being of Willpower. Legends tell of this Pokémon manipulating the will of its adversaries and turning them into puppets of its own."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Azelf",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm482.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm482.icon.png"
+            },
+            {
+                "label": "Shiny Azelf",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm482.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm482.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 482,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0482_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0482_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Azelf sprite"
+            },
+            {
+                "pokedex_number": 482,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0482_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0482_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Azelf sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/482_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/482_social.jpg",
+                "alt": "Azelf"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/482_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/482_social_dark.jpg",
+                "alt": "Azelf"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/482_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/482_social_map.jpg",
+                "alt": "Azelf"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/482_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/482_social_map_dark.jpg",
+                "alt": "Azelf"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Azelf’s strengths and weaknesses?",
+            "answer": "As a Psychic-type Pokémon, Azelf is weak to Bug, Dark, and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Azelf in Pokémon GO?",
+            "answer": "The best moves for Azelf in Pokémon GO are Confusion and Future Sight. This moveset has a DPS (Damage Per Second) of 13.543 and a TDO (Total Damage Output) of 205.384."
+        },
+        {
+            "question": "How does Azelf perform in Raids?",
+            "answer": "Azelf's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Azelf rank as a Psychic-type attacker?",
+            "answer": "Azelf is a B-Tier Psychic-type attacker, ranking at number #39 with limited utility in specific matchups."
+        },
+        {
+            "question": "What Mega Pokémon boost Azelf?",
+            "answer": "The following Mega Pokémon boost Azelf: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Azelf’s maximum CP at Level 40 and Level 50?",
+            "answer": "Azelf’s maximum CP at Level 40 is 3210 CP and 3629 CP at Level 50."
+        },
+        {
+            "question": "Can Azelf be shiny in Pokémon GO?",
+            "answer": "Azelf can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Azelf Dynamax in Pokémon GO?",
+            "answer": "Azelf cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

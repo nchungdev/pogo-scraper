@@ -1,0 +1,851 @@
+{
+    "overview_and_stats": {
+        "max_cp": 4227,
+        "attack": 285,
+        "defense": 198,
+        "stamina": 172,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": true,
+        "title": "Darkrai",
+        "forms": [
+            {
+                "name": "Darkrai",
+                "href": "/pokemon/491",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/491.webp"
+            },
+            {
+                "name": "Shadow Darkrai",
+                "href": "/pokemon/491-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/491.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/491.webp",
+        "types": [
+            "Dark"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Snarl",
+            "charged": "Shadow Ball",
+            "dps": 15.04,
+            "tdo": 279.2,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 15.04,
+                "tdo": 279.2,
+                "score": 13.27
+            },
+            {
+                "rank": 2,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 14.64,
+                "tdo": 271.8,
+                "score": 12.91
+            },
+            {
+                "rank": 3,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Sludge Bomb *",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 14.64,
+                "tdo": 271.8,
+                "score": 12.91
+            },
+            {
+                "rank": 4,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 14.28,
+                "tdo": 265.1,
+                "score": 12.6
+            },
+            {
+                "rank": 5,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Focus Blast",
+                "charged_url": "https://db.pokemongohub.net/move/247",
+                "dps": 14.0,
+                "tdo": 259.9,
+                "score": 12.34
+            },
+            {
+                "rank": 6,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 13.94,
+                "tdo": 258.7,
+                "score": 12.29
+            },
+            {
+                "rank": 7,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Sludge Bomb *",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 13.88,
+                "tdo": 257.7,
+                "score": 12.24
+            },
+            {
+                "rank": 8,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Focus Blast",
+                "charged_url": "https://db.pokemongohub.net/move/247",
+                "dps": 13.15,
+                "tdo": 244.1,
+                "score": 11.59
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Feint Attack",
+                "type": "Dark",
+                "stats": {
+                    "damage": 11,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 10,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/238"
+            },
+            {
+                "name": "Snarl",
+                "type": "Dark",
+                "stats": {
+                    "damage": 11,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/278"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Sludge Bomb *",
+                "type": "Poison",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/90"
+            },
+            {
+                "name": "Focus Blast",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "3.0s - 3.5s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/247"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Darkrai's has 4227 max CP (at Level 50). A Darkrai obtained from Raids can be encountered from 2048 CP to 2136 CP, or if weather boosted, in the 2560 CP to 2671 CP range. In Field and Special Research, Darkrai can be found in the 1536 CP to 1602 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "4227",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1536 - 1602",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "2048 - 2136",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2048 - 2136",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2560 - 2671",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2560 CP - 2671 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 52,
+        "2": 165,
+        "3": 278,
+        "4": 391,
+        "5": 504,
+        "6": 617,
+        "7": 730,
+        "8": 843,
+        "9": 955,
+        "10": 1068,
+        "11": 1175,
+        "12": 1282,
+        "13": 1389,
+        "14": 1495,
+        "15": 1602,
+        "16": 1709,
+        "17": 1816,
+        "18": 1923,
+        "19": 2029,
+        "20": 2136,
+        "21": 2243,
+        "22": 2350,
+        "23": 2457,
+        "24": 2564,
+        "25": 2671,
+        "26": 2778,
+        "27": 2884,
+        "28": 2991,
+        "29": 3098,
+        "30": 3205,
+        "31": 3258,
+        "32": 3312,
+        "33": 3365,
+        "34": 3419,
+        "35": 3472,
+        "36": 3525,
+        "37": 3579,
+        "38": 3632,
+        "39": 3686,
+        "40": 3739,
+        "41": 3786,
+        "42": 3834,
+        "43": 3882,
+        "44": 3931,
+        "45": 3979,
+        "46": 4028,
+        "47": 4078,
+        "48": 4127,
+        "49": 4177,
+        "50": 4227
+    },
+    "meta_analysis": "Darkrai in the meta PvE Analysis ⚔️ Raids – The pitch-black Pokémon, Darkrai , ranks just outside the top 10 Dark-type raid attackers , so still worth an investment of powering up a high IV one. Its ideal moveset of Snarl and Dark Pulse can be obtained through standard TM's , and will easily help you handle one of the many Psychic or Ghost-type raid bosses. Especially handy when October rolls in and we get the spooky seasonal bosses. 🛡️ Gyms – As a Mythical Pokémon , Darkrai is unable to defend gyms . PvP Analysis 🔵 Great League - Since most Mythical Pokémon can't be traded, it's impossible to get a Darkrai eligible for Great League . The only way this will change in the future is the unlikely event of Darkrai becoming a roaming encounter, like we've seen with Latias , Latios , or the Lake Guardians . 🟡 Ultra League - Darkrai boasts a high Attack stat but fairly low HP , meaning it comes in far too frail to be able to make an impact in Ultra League . It can pick up wins against some Ghost-types like Drifblim and Trevenant , but nothing that could break some of the meta core. 🟣 Master League - Performing considerably better if maxed out, Darkrai is still ranked outside of the top 100 battlers. This is in spite of some amazing coverage moves, like Focus Blast , Shadow Ball , and Sludge Bomb as a legacy move. It can still pick up some notable wins against the likes of Dusk Mane and Dawn Wings Necrozma , as well as the mighty Mewtwo , but may be too situational to be relied on regularly. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Darkrai",
+        "type": "Dark",
+        "intro_text": "A list of Mega Pokémon that boost Darkrai's Dark-type moves, Candy, and Candy XL from catching Darkrai.",
+        "mega_list": [
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Absol",
+                "pokemon_id": 359,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/359-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 491,
+            "height_m": 1.5,
+            "weight_kg": 50.5,
+            "region": "Generation 4",
+            "can_be_traded": false,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.74 m",
+            "xs": "0.75 m",
+            "m": "1.5 m",
+            "xl": "2.25 m",
+            "xxl": "2.33 m",
+            "description": "Darkrai's height ranges from 0.74 m to 2.33 m, with the average being 1.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.735,
+                "upper_m": 0.75,
+                "lower_ft": "2′05″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.75,
+                "upper_m": 1.5,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.125,
+                "upper_m": 1.875,
+                "lower_ft": "3′08″",
+                "upper_ft": "6′02″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.875,
+                "upper_m": 2.25,
+                "lower_ft": "6′02″",
+                "upper_ft": "7′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.25,
+                "upper_m": 2.325,
+                "lower_ft": "7′05″",
+                "upper_ft": "7′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It can lull people to sleep and make them dream. It is active during nights of the new moon."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "Folklore has it that on moonless nights, this Pokémon will make people see horrific nightmares."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "To protect itself, it afflicts those around it with nightmares. However, it means no harm."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It can lull people to sleep and make them dream. It is active during nights of the new moon."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "On a moonless night, a strange incident occurred in which every one of a village's inhabitants suffered nightmares. The villagers attested that Darkrai appeared before them in these nightmares."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Darkrai",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm491.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm491.icon.png"
+            },
+            {
+                "label": "Shiny Darkrai",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm491.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm491.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 491,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0491_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0491_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Darkrai sprite"
+            },
+            {
+                "pokedex_number": 491,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0491_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0491_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Darkrai sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/491_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/491_social.jpg",
+                "alt": "Darkrai"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/491_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/491_social_dark.jpg",
+                "alt": "Darkrai"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/491_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/491_social_map.jpg",
+                "alt": "Darkrai"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/491_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/491_social_map_dark.jpg",
+                "alt": "Darkrai"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Darkrai’s strengths and weaknesses?",
+            "answer": "As a Dark-type Pokémon, Darkrai is weak to Bug, Fairy, and Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Darkrai in Pokémon GO?",
+            "answer": "The best moves for Darkrai in Pokémon GO are Snarl and Shadow Ball. This moveset has a DPS (Damage Per Second) of 15.039 and a TDO (Total Damage Output) of 279.202."
+        },
+        {
+            "question": "How does Darkrai perform in Raids?",
+            "answer": "Darkrai has niche use in Raid, but is outclassed by other attackers. Ranks #133 as a Raid attacker."
+        },
+        {
+            "question": "How does Darkrai rank as a Dark-type attacker?",
+            "answer": "Darkrai is an A+ Tier Dark-type attacker, ranking at number #13 and performing very well in most scenarios and a great choice for trainers."
+        },
+        {
+            "question": "What Mega Pokémon boost Darkrai?",
+            "answer": "The following Mega Pokémon boost Darkrai: Mega Gyarados, Mega Houndoom, Mega Tyranitar, Mega Sableye, Mega Sharpedo, and Mega Absol."
+        },
+        {
+            "question": "What is Darkrai’s maximum CP at Level 40 and Level 50?",
+            "answer": "Darkrai’s maximum CP at Level 40 is 3739 CP and 4227 CP at Level 50."
+        },
+        {
+            "question": "Can Darkrai be shiny in Pokémon GO?",
+            "answer": "Darkrai can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Darkrai Dynamax in Pokémon GO?",
+            "answer": "Darkrai cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

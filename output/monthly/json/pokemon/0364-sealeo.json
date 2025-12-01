@@ -1,0 +1,940 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1938,
+        "attack": 137,
+        "defense": 132,
+        "stamina": 207,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Sealeo",
+        "forms": [
+            {
+                "name": "Sealeo",
+                "href": "/pokemon/364",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/364.webp"
+            },
+            {
+                "name": "Shadow Sealeo",
+                "href": "/pokemon/364-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/364.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/364.webp",
+        "types": [
+            "Ice",
+            "Water"
+        ],
+        "weather_boost": [
+            "snow",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Surf",
+            "dps": 7.79,
+            "tdo": 118.56,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Surf",
+                "charged_url": "https://db.pokemongohub.net/move/284",
+                "dps": 7.79,
+                "tdo": 118.6,
+                "score": 6.7
+            },
+            {
+                "rank": 2,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Surf",
+                "charged_url": "https://db.pokemongohub.net/move/284",
+                "dps": 7.17,
+                "tdo": 109.0,
+                "score": 6.16
+            },
+            {
+                "rank": 3,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Aurora Beam",
+                "charged_url": "https://db.pokemongohub.net/move/248",
+                "dps": 6.89,
+                "tdo": 104.8,
+                "score": 5.92
+            },
+            {
+                "rank": 4,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 6.54,
+                "tdo": 99.4,
+                "score": 5.62
+            },
+            {
+                "rank": 5,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 6.52,
+                "tdo": 99.2,
+                "score": 5.61
+            },
+            {
+                "rank": 6,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Aurora Beam",
+                "charged_url": "https://db.pokemongohub.net/move/248",
+                "dps": 6.25,
+                "tdo": 95.0,
+                "score": 5.37
+            },
+            {
+                "rank": 7,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 5.78,
+                "tdo": 87.9,
+                "score": 4.96
+            },
+            {
+                "rank": 8,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 5.77,
+                "tdo": 87.8,
+                "score": 4.96
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            },
+            {
+                "name": "Powder Snow",
+                "type": "Ice",
+                "stats": {
+                    "damage": 6,
+                    "energy": 15,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 15,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/244"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            },
+            {
+                "name": "Aurora Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "3.3s - 3.5s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/248"
+            },
+            {
+                "name": "Surf",
+                "type": "Water",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.2s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/284"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Sealeo's has 1938 max CP (at Level 50). A Sealeo obtained from Raids can be encountered from 920 CP to 979 CP, or if weather boosted, in the 1151 CP to 1225 CP range. In Field and Special Research, Sealeo can be found in the 690 CP to 735 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1938",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "690 - 735",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "920 - 979",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "920 - 979",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1151 - 1225",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1151 CP - 1225 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 24,
+        "2": 76,
+        "3": 127,
+        "4": 179,
+        "5": 231,
+        "6": 283,
+        "7": 334,
+        "8": 386,
+        "9": 438,
+        "10": 490,
+        "11": 539,
+        "12": 588,
+        "13": 637,
+        "14": 686,
+        "15": 735,
+        "16": 784,
+        "17": 833,
+        "18": 882,
+        "19": 930,
+        "20": 979,
+        "21": 1028,
+        "22": 1077,
+        "23": 1127,
+        "24": 1176,
+        "25": 1225,
+        "26": 1274,
+        "27": 1323,
+        "28": 1372,
+        "29": 1421,
+        "30": 1470,
+        "31": 1494,
+        "32": 1519,
+        "33": 1543,
+        "34": 1568,
+        "35": 1592,
+        "36": 1617,
+        "37": 1641,
+        "38": 1666,
+        "39": 1690,
+        "40": 1714,
+        "41": 1736,
+        "42": 1758,
+        "43": 1780,
+        "44": 1802,
+        "45": 1825,
+        "46": 1847,
+        "47": 1870,
+        "48": 1892,
+        "49": 1915,
+        "50": 1938
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Spheal",
+                    "href": "/pokemon/363",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/363.webp"
+                },
+                "to": {
+                    "name": "Sealeo",
+                    "href": "/pokemon/364",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/364.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Sealeo",
+                    "href": "/pokemon/364",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/364.webp"
+                },
+                "to": {
+                    "name": "Walrein",
+                    "href": "/pokemon/365",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/365.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Spheal",
+                "href": "/pokemon/363",
+                "img": "https://db.pokemongohub.net/images/official/medium/363.webp"
+            },
+            {
+                "name": "Sealeo",
+                "href": "/pokemon/364",
+                "img": "https://db.pokemongohub.net/images/official/medium/364.webp"
+            },
+            {
+                "name": "Walrein",
+                "href": "/pokemon/365",
+                "img": "https://db.pokemongohub.net/images/official/medium/365.webp"
+            },
+            {
+                "name": "Shadow Spheal",
+                "href": "/pokemon/363-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Sealeo",
+                "href": "/pokemon/364-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Walrein",
+                "href": "/pokemon/365-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Sealeo in the meta PvE Analysis Not much to expect from the middle of a three-stage evolution line so evolving Sealeo is the goal with regards to the PvE meta. 🧬 PvP Analysis 🔵 Great League Sealeo puts massive pressure on its opponents with constant Body Slam spam thanks to Powder Snow’s high energy gains. Add the fact that Water and Ice have great synergy, covering each other’s weaknesses, and it's easy to see why Sealeo is so irksome to face in the Great League. ✅ It lacks a good second Charged Move and that limits its viability but at the end of the battle, shelling out Body Slam repeatedly oftens turns the tables in your favor. 🙂 Sealeo is too weak for the Ultra and Master League. 💎 The best moves for Sealeo im PvP are Powder Snow, Body Slam and Water Pulse.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Sealeo",
+        "type": "Ice",
+        "intro_text": "A list of Mega Pokémon that boost Sealeo's Ice and Water-type moves, Candy, and Candy XL from catching Sealeo.",
+        "mega_list": [
+            {
+                "name": "Mega Glalie",
+                "pokemon_id": 362,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/362-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 364,
+            "height_m": 1.09,
+            "weight_kg": 87.6,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.53 m",
+            "xs": "0.55 m",
+            "m": "1.09 m",
+            "xl": "1.64 m",
+            "xxl": "1.91 m",
+            "description": "Sealeo's height ranges from 0.53 m to 1.91 m, with the average being 1.09 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.5341,
+                "upper_m": 0.545,
+                "lower_ft": "1′09″",
+                "upper_ft": "1′09″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.545,
+                "upper_m": 1.09,
+                "lower_ft": "1′09″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.8175,
+                "upper_m": 1.3625,
+                "lower_ft": "2′08″",
+                "upper_ft": "4′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.3625,
+                "upper_m": 1.635,
+                "lower_ft": "4′06″",
+                "upper_ft": "5′04″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.635,
+                "upper_m": 1.9075,
+                "lower_ft": "5′04″",
+                "upper_ft": "6′03″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 30.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 5.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "SEALEO has the habit of always juggling on the tip of its nose anything it sees for the first time. This POKéMON occasionally entertains itself by balancing and rolling a SPHEAL on its nose."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "SEALEO often balances and rolls things on the tip of its nose. While the POKéMON is rolling something, it checks the object’s aroma and texture to determine whether it likes the object or not."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "SEALEO live in herds on ice floes. Using its powerful flippers, it shatters ice. It dives into the sea to hunt prey five times a day."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It touches new things with its nose to test for smell and feel. It plays by spinning SPHEAL on its nose."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It habitually spins things on its nose. By doing so, it learns textures and odors."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It has a very sensitive nose. It touches new things with its nose to examine them."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Be it Spheal or Poké Ball, it will spin any round object on its nose with the greatest of ease."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It has a very sensitive nose. It touches new things with its nose to examine them."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Be it Spheal or Poké Ball, it will spin any round object on its nose with the greatest of ease."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Sealeo has the habit of always juggling on the tip of its nose anything it sees for the first time. This Pokémon occasionally entertains itself by balancing and rolling a Spheal on its nose."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Sealeo often balances and rolls things on the tip of its nose. While the Pokémon is rolling something, it checks the object’s aroma and texture to determine whether it likes the object or not."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Sealeo live on top of drift ice. They go swimming when they’re on the hunt, seeking out their prey by scent."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This Pokémon has a habit of spinning round things on its nose, whether those things are Poké Balls or Spheal."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Its white whiskers are very sensitive. Sealeo will balance Spheal on the tip of its nose, checking its scent and its feel to be sure the Spheal is healthy."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Sealeo",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm364.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm364.icon.png"
+            },
+            {
+                "label": "Shiny Sealeo",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm364.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm364.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 364,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0364_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0364_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Sealeo sprite"
+            },
+            {
+                "pokedex_number": 364,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0364_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0364_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Sealeo sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/364_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/364_social.jpg",
+                "alt": "Sealeo"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/364_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/364_social_dark.jpg",
+                "alt": "Sealeo"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/364_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/364_social_map.jpg",
+                "alt": "Sealeo"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/364_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/364_social_map_dark.jpg",
+                "alt": "Sealeo"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Sealeo’s strengths and weaknesses?",
+            "answer": "As a Ice and Water-type Pokémon, Sealeo is weak to Electric, Fighting, Grass, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Sealeo in Pokémon GO?",
+            "answer": "The best moves for Sealeo in Pokémon GO are Water Gun and Surf. This moveset has a DPS (Damage Per Second) of 7.795 and a TDO (Total Damage Output) of 118.561."
+        },
+        {
+            "question": "How does Sealeo perform in Raids?",
+            "answer": "Sealeo's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Sealeo rank as a Ice-type attacker?",
+            "answer": "Sealeo is an F-Tier Ice-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Sealeo rank as a Water-type attacker?",
+            "answer": "Sealeo is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Sealeo?",
+            "answer": "The following Mega Pokémon boost Sealeo: Mega Glalie, Mega Abomasnow, Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Sealeo’s maximum CP at Level 40 and Level 50?",
+            "answer": "Sealeo’s maximum CP at Level 40 is 1714 CP and 1938 CP at Level 50."
+        },
+        {
+            "question": "Can Sealeo be shiny in Pokémon GO?",
+            "answer": "Sealeo can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Sealeo Dynamax in Pokémon GO?",
+            "answer": "Sealeo cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

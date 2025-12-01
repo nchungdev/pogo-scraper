@@ -1,0 +1,852 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1362,
+        "attack": 121,
+        "defense": 110,
+        "stamina": 146,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Roggenrola",
+        "forms": [
+            {
+                "name": "Roggenrola",
+                "href": "/pokemon/524",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/524.webp"
+            },
+            {
+                "name": "Shadow Roggenrola",
+                "href": "/pokemon/524-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/524.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/524.webp",
+        "types": [
+            "Rock"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Smack Down",
+            "charged": "Rock Blast",
+            "dps": 6.08,
+            "tdo": 57.03,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Rock Blast",
+                "charged_url": "https://db.pokemongohub.net/move/259",
+                "dps": 6.08,
+                "tdo": 57.0,
+                "score": 4.8
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Rock Blast",
+                "charged_url": "https://db.pokemongohub.net/move/259",
+                "dps": 5.65,
+                "tdo": 53.0,
+                "score": 4.46
+            },
+            {
+                "rank": 3,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 5.54,
+                "tdo": 51.9,
+                "score": 4.37
+            },
+            {
+                "rank": 4,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Stone Edge",
+                "charged_url": "https://db.pokemongohub.net/move/32",
+                "dps": 5.53,
+                "tdo": 51.9,
+                "score": 4.37
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Stone Edge",
+                "charged_url": "https://db.pokemongohub.net/move/32",
+                "dps": 5.07,
+                "tdo": 47.5,
+                "score": 4.0
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 4.91,
+                "tdo": 46.1,
+                "score": 3.88
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Smack Down",
+                "type": "Rock",
+                "stats": {
+                    "damage": 13,
+                    "energy": 7,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 7,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/297"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Stone Edge",
+                "type": "Rock",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "0.9s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/32"
+            },
+            {
+                "name": "Bulldoze",
+                "type": "Ground",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/95"
+            },
+            {
+                "name": "Rock Blast",
+                "type": "Rock",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.5s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/259"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Roggenrola's has 1362 max CP (at Level 50). A Roggenrola obtained from Raids can be encountered from 639 CP to 688 CP, or if weather boosted, in the 799 CP to 860 CP range. In Field and Special Research, Roggenrola can be found in the 479 CP to 516 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1362",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "479 - 516",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "639 - 688",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "639 - 688",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "799 - 860",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "799 CP - 860 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 17,
+        "2": 53,
+        "3": 89,
+        "4": 126,
+        "5": 162,
+        "6": 198,
+        "7": 235,
+        "8": 271,
+        "9": 308,
+        "10": 344,
+        "11": 378,
+        "12": 413,
+        "13": 447,
+        "14": 482,
+        "15": 516,
+        "16": 550,
+        "17": 585,
+        "18": 619,
+        "19": 654,
+        "20": 688,
+        "21": 722,
+        "22": 757,
+        "23": 791,
+        "24": 826,
+        "25": 860,
+        "26": 895,
+        "27": 929,
+        "28": 964,
+        "29": 998,
+        "30": 1032,
+        "31": 1050,
+        "32": 1067,
+        "33": 1084,
+        "34": 1101,
+        "35": 1118,
+        "36": 1136,
+        "37": 1153,
+        "38": 1170,
+        "39": 1187,
+        "40": 1205,
+        "41": 1220,
+        "42": 1235,
+        "43": 1251,
+        "44": 1266,
+        "45": 1282,
+        "46": 1298,
+        "47": 1314,
+        "48": 1330,
+        "49": 1346,
+        "50": 1362
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Roggenrola",
+                    "href": "/pokemon/524",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/524.webp"
+                },
+                "to": {
+                    "name": "Boldore",
+                    "href": "/pokemon/525",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/525.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Boldore",
+                    "href": "/pokemon/525",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/525.webp"
+                },
+                "to": {
+                    "name": "Gigalith",
+                    "href": "/pokemon/526",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/526.webp"
+                },
+                "requirements": [
+                    "200 Candy",
+                    "0 Candy if traded"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Roggenrola",
+                "href": "/pokemon/524",
+                "img": "https://db.pokemongohub.net/images/official/medium/524.webp"
+            },
+            {
+                "name": "Boldore",
+                "href": "/pokemon/525",
+                "img": "https://db.pokemongohub.net/images/official/medium/525.webp"
+            },
+            {
+                "name": "Gigalith",
+                "href": "/pokemon/526",
+                "img": "https://db.pokemongohub.net/images/official/medium/526.webp"
+            },
+            {
+                "name": "Shadow Roggenrola",
+                "href": "/pokemon/524-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Boldore",
+                "href": "/pokemon/525-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Gigalith",
+                "href": "/pokemon/526-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Roggenrola in the meta PvE Analysis To its credit, Roggenrola has pretty impressive stats for a Pokémon that's the base level of a three-stage evolution line. But in the overall meta, Roggenrola can't compete. 😶 Naturally, it's competitive neither in ⚔️ Raids nor 🛡️ Gyms . PvP Analysis 💎 Roggenrola’s best moveset for PvP is Smack Down , Stone Edge , and Rock Blast . 🧸 Little Cup - Roggenrola lacks a cheap Charged Move and can't do anything outside Rock-type coverage. 🪨 Roggenrola doesn't work in the 🔵 Great League , 🟡 Ultra League , or 🟣 Master League .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Roggenrola",
+        "type": "Rock",
+        "intro_text": "A list of Mega Pokémon that boost Roggenrola's Rock-type moves, Candy, and Candy XL from catching Roggenrola.",
+        "mega_list": [
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 524,
+            "height_m": 0.4,
+            "weight_kg": 18,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Roggenrola's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "The hexagonal-shaped hole is its ear. It has a tendency to walk in the direction the sound is coming from."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Born deep within the ground, it compares itself with similar species, such as Geodude and Carbink, to settle which has the hardest body."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "The hexagonal cavity is its ear. It walks in the direction of sounds it hears, but if the sounds cease, it panics and topples over."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "The hexagonal hole is its ear. Deep in that ear is an energy core, so if you stick your hand in there, Roggenrola will be very angry!"
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It was found in a fissure in a layer of exposed rock. The material that makes up its body is dirt from several hundred years ago."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It’s as hard as steel, but apparently a long soak in water will cause it to soften a bit."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Roggenrola",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm524.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm524.icon.png"
+            },
+            {
+                "label": "Shiny Roggenrola",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm524.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm524.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 524,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0524_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0524_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Roggenrola sprite"
+            },
+            {
+                "pokedex_number": 524,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0524_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0524_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Roggenrola sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/524_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/524_social.jpg",
+                "alt": "Roggenrola"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/524_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/524_social_dark.jpg",
+                "alt": "Roggenrola"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/524_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/524_social_map.jpg",
+                "alt": "Roggenrola"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/524_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/524_social_map_dark.jpg",
+                "alt": "Roggenrola"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Roggenrola’s strengths and weaknesses?",
+            "answer": "As a Rock-type Pokémon, Roggenrola is weak to Fighting, Grass, Ground, Steel, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Roggenrola in Pokémon GO?",
+            "answer": "The best moves for Roggenrola in Pokémon GO are Smack Down and Rock Blast. This moveset has a DPS (Damage Per Second) of 6.08 and a TDO (Total Damage Output) of 57.031."
+        },
+        {
+            "question": "How does Roggenrola perform in Raids?",
+            "answer": "Roggenrola's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Roggenrola rank as a Rock-type attacker?",
+            "answer": "Roggenrola is an F-Tier Rock-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Roggenrola?",
+            "answer": "The following Mega Pokémon boost Roggenrola: Mega Aerodactyl, Mega Tyranitar, and Mega Diancie."
+        },
+        {
+            "question": "What is Roggenrola’s maximum CP at Level 40 and Level 50?",
+            "answer": "Roggenrola’s maximum CP at Level 40 is 1205 CP and 1362 CP at Level 50."
+        },
+        {
+            "question": "Can Roggenrola be shiny in Pokémon GO?",
+            "answer": "Roggenrola can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Roggenrola Dynamax in Pokémon GO?",
+            "answer": "Roggenrola cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

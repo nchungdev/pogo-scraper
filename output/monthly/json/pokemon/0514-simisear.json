@@ -1,0 +1,786 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2657,
+        "attack": 206,
+        "defense": 133,
+        "stamina": 181,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Simisear",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/514.webp",
+        "types": [
+            "Fire"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Fire Spin",
+            "charged": "Flamethrower",
+            "dps": 10.96,
+            "tdo": 148.19,
+            "boosted_weather": [
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 10.96,
+                "tdo": 148.2,
+                "score": 9.25
+            },
+            {
+                "rank": 2,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Fire Blast",
+                "charged_url": "https://db.pokemongohub.net/move/103",
+                "dps": 10.55,
+                "tdo": 142.6,
+                "score": 8.91
+            },
+            {
+                "rank": 3,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 9.83,
+                "tdo": 132.9,
+                "score": 8.3
+            },
+            {
+                "rank": 4,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Fire Blast",
+                "charged_url": "https://db.pokemongohub.net/move/103",
+                "dps": 9.35,
+                "tdo": 126.4,
+                "score": 7.9
+            },
+            {
+                "rank": 5,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 9.31,
+                "tdo": 125.8,
+                "score": 7.86
+            },
+            {
+                "rank": 6,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 8.58,
+                "tdo": 116.0,
+                "score": 7.25
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Fire Spin",
+                "type": "Fire",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 11,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/269"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Fire Blast",
+                "type": "Fire",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "2.9s - 3.7s"
+                },
+                "trainer_battle": {
+                    "damage": 140,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/103"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Simisear's has 2657 max CP (at Level 50). A Simisear obtained from Raids can be encountered from 1273 CP to 1343 CP, or if weather boosted, in the 1592 CP to 1679 CP range. In Field and Special Research, Simisear can be found in the 955 CP to 1007 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2657",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "955 - 1007",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1273 - 1343",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1273 - 1343",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1592 - 1679",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1592 CP - 1679 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 33,
+        "2": 104,
+        "3": 175,
+        "4": 246,
+        "5": 317,
+        "6": 388,
+        "7": 459,
+        "8": 529,
+        "9": 600,
+        "10": 671,
+        "11": 739,
+        "12": 806,
+        "13": 873,
+        "14": 940,
+        "15": 1007,
+        "16": 1074,
+        "17": 1141,
+        "18": 1209,
+        "19": 1276,
+        "20": 1343,
+        "21": 1410,
+        "22": 1477,
+        "23": 1544,
+        "24": 1612,
+        "25": 1679,
+        "26": 1746,
+        "27": 1813,
+        "28": 1880,
+        "29": 1948,
+        "30": 2015,
+        "31": 2048,
+        "32": 2082,
+        "33": 2115,
+        "34": 2149,
+        "35": 2183,
+        "36": 2216,
+        "37": 2250,
+        "38": 2283,
+        "39": 2317,
+        "40": 2350,
+        "41": 2380,
+        "42": 2410,
+        "43": 2440,
+        "44": 2471,
+        "45": 2501,
+        "46": 2532,
+        "47": 2563,
+        "48": 2594,
+        "49": 2626,
+        "50": 2657
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Pansear",
+                    "href": "/pokemon/513",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/513.webp"
+                },
+                "to": {
+                    "name": "Simisear",
+                    "href": "/pokemon/514",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/514.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Special Item: Unova Stone"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Special Item: Unova Stone"
+        ],
+        "family": [
+            {
+                "name": "Pansear",
+                "href": "/pokemon/513",
+                "img": "https://db.pokemongohub.net/images/official/medium/513.webp"
+            },
+            {
+                "name": "Simisear",
+                "href": "/pokemon/514",
+                "img": "https://db.pokemongohub.net/images/official/medium/514.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Simisear in the meta PvE Analysis Simisear is a pure Fire-type Pokémon with a max CP of 2657 . It is not useful for PvE even with its best moveset of Fire Spin and Flamethrower . ⚔️ Raids Too small and weak. 🛡️ Gyms There are much better options available. PvP Analysis Simisear’s best moveset for PvP is Fire Spin, Crunch, and Flamethrower . It is sadly not a particularly useful PvP Pokémon . 🔵 Great League Simisear is a glass cannon , making it less viable in PvP because it can’t take many hits . 🟡 Ultra League Simisear ranks as the best of the elemental monkeys , but that isn’t saying much . It may beat Venusaur and Virizion , but it loses not only to Water-types but also to other Fire-types! 🟣 Master League Simisear maxes out at 2657 CP , making it tiny compared to the big hitters of Master League .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Simisear",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Simisear's Fire-type moves, Candy, and Candy XL from catching Simisear.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 514,
+            "height_m": 1,
+            "weight_kg": 28,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "1.75 m",
+            "description": "Simisear's height ranges from 0.49 m to 1.75 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 1.75,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "It loves sweets because they become energy for the fire burning inside its body."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "A flame burns inside its body. It scatters embers from its head and tail to sear its opponents."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Simisear",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm514.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm514.icon.png"
+            },
+            {
+                "label": "Shiny Simisear",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm514.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm514.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 514,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0514_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0514_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Simisear sprite"
+            },
+            {
+                "pokedex_number": 514,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0514_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0514_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Simisear sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/514_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/514_social.jpg",
+                "alt": "Simisear"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/514_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/514_social_dark.jpg",
+                "alt": "Simisear"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/514_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/514_social_map.jpg",
+                "alt": "Simisear"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/514_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/514_social_map_dark.jpg",
+                "alt": "Simisear"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Simisear’s strengths and weaknesses?",
+            "answer": "As a Fire-type Pokémon, Simisear is weak to Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Simisear in Pokémon GO?",
+            "answer": "The best moves for Simisear in Pokémon GO are Fire Spin and Flamethrower. This moveset has a DPS (Damage Per Second) of 10.961 and a TDO (Total Damage Output) of 148.194."
+        },
+        {
+            "question": "How does Simisear perform in Raids?",
+            "answer": "Simisear's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Simisear rank as a Fire-type attacker?",
+            "answer": "Simisear is an F-Tier Fire-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Simisear?",
+            "answer": "The following Mega Pokémon boost Simisear: Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Simisear’s maximum CP at Level 40 and Level 50?",
+            "answer": "Simisear’s maximum CP at Level 40 is 2350 CP and 2657 CP at Level 50."
+        },
+        {
+            "question": "Can Simisear be shiny in Pokémon GO?",
+            "answer": "Simisear can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Simisear Dynamax in Pokémon GO?",
+            "answer": "Simisear cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

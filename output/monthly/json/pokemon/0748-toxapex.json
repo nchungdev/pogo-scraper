@@ -1,0 +1,778 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1905,
+        "attack": 114,
+        "defense": 273,
+        "stamina": 137,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Toxapex",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/748.webp",
+        "types": [
+            "Poison",
+            "Water"
+        ],
+        "weather_boost": [
+            "cloudy",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Poison Jab",
+            "charged": "Gunk Shot",
+            "dps": 6.74,
+            "tdo": 137.56,
+            "boosted_weather": [
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Gunk Shot",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 6.74,
+                "tdo": 137.6,
+                "score": 6.01
+            },
+            {
+                "rank": 2,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Brine",
+                "charged_url": "https://db.pokemongohub.net/move/104",
+                "dps": 6.23,
+                "tdo": 127.1,
+                "score": 5.55
+            },
+            {
+                "rank": 3,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Sludge Wave",
+                "charged_url": "https://db.pokemongohub.net/move/91",
+                "dps": 6.22,
+                "tdo": 127.0,
+                "score": 5.55
+            },
+            {
+                "rank": 4,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Gunk Shot",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 6.18,
+                "tdo": 126.1,
+                "score": 5.51
+            },
+            {
+                "rank": 5,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Brine",
+                "charged_url": "https://db.pokemongohub.net/move/104",
+                "dps": 5.78,
+                "tdo": 118.0,
+                "score": 5.15
+            },
+            {
+                "rank": 6,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Sludge Wave",
+                "charged_url": "https://db.pokemongohub.net/move/91",
+                "dps": 5.7,
+                "tdo": 116.3,
+                "score": 5.08
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Poison Jab",
+                "type": "Poison",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.4s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/224"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Sludge Wave",
+                "type": "Poison",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.8s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/91"
+            },
+            {
+                "name": "Gunk Shot",
+                "type": "Poison",
+                "stats": {
+                    "damage": 130,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 130,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.6s - 2.6s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/92"
+            },
+            {
+                "name": "Brine",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/104"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Toxapex's has 1905 max CP (at Level 50). A Toxapex obtained from Raids can be encountered from 902 CP to 963 CP, or if weather boosted, in the 1128 CP to 1204 CP range. In Field and Special Research, Toxapex can be found in the 677 CP to 722 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1905",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "677 - 722",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "902 - 963",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "902 - 963",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1128 - 1204",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1128 CP - 1204 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 23,
+        "2": 74,
+        "3": 125,
+        "4": 176,
+        "5": 227,
+        "6": 278,
+        "7": 329,
+        "8": 380,
+        "9": 430,
+        "10": 481,
+        "11": 529,
+        "12": 578,
+        "13": 626,
+        "14": 674,
+        "15": 722,
+        "16": 770,
+        "17": 818,
+        "18": 866,
+        "19": 915,
+        "20": 963,
+        "21": 1011,
+        "22": 1059,
+        "23": 1107,
+        "24": 1155,
+        "25": 1204,
+        "26": 1252,
+        "27": 1300,
+        "28": 1348,
+        "29": 1396,
+        "30": 1445,
+        "31": 1469,
+        "32": 1493,
+        "33": 1517,
+        "34": 1541,
+        "35": 1565,
+        "36": 1589,
+        "37": 1613,
+        "38": 1637,
+        "39": 1661,
+        "40": 1685,
+        "41": 1707,
+        "42": 1728,
+        "43": 1750,
+        "44": 1772,
+        "45": 1794,
+        "46": 1816,
+        "47": 1838,
+        "48": 1860,
+        "49": 1883,
+        "50": 1905
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Mareanie",
+                    "href": "/pokemon/747",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/747.webp"
+                },
+                "to": {
+                    "name": "Toxapex",
+                    "href": "/pokemon/748",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/748.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Mareanie",
+                "href": "/pokemon/747",
+                "img": "https://db.pokemongohub.net/images/official/medium/747.webp"
+            },
+            {
+                "name": "Toxapex",
+                "href": "/pokemon/748",
+                "img": "https://db.pokemongohub.net/images/official/medium/748.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Toxapex in the meta PvE Analysis ⚔️ Raids Toxapex is sadly on the smaller side for raids, and there are better options available for both of its typings. 🛡️ Gyms There are much better options available. Toxapex’s best moveset for PvP is Poison Jab , Brine , and Sludge Wave . PvP is where Toxapex truly gets to shine! PvP Analysis Toxapex’s best moveset for PvP is Poison Jab , Brine , and Sludge Wave . PvP is where Toxapex truly gets to shine! 🔵 Great League Toxapex is an absolute star in Great League , ranking incredibly well, and having key wins over other popular Great League Pokémon like Azumarill , Talonflame , and Feraligatr . 🟡 Ultra League Toxapex is sadly too low CP to compete in Ultra League . 🟣 Master League Toxapex is far too low CP for Master League —stick to Great League for success!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Toxapex",
+        "type": "Poison",
+        "intro_text": "A list of Mega Pokémon that boost Toxapex's Poison and Water-type moves, Candy, and Candy XL from catching Toxapex.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 748,
+            "height_m": 0.7,
+            "weight_kg": 14.5,
+            "region": "Generation 7",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.34 m",
+            "xs": "0.35 m",
+            "m": "0.7 m",
+            "xl": "1.05 m",
+            "xxl": "1.23 m",
+            "description": "Toxapex's height ranges from 0.34 m to 1.23 m, with the average being 0.7 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.343,
+                "upper_m": 0.35,
+                "lower_ft": "1′02″",
+                "upper_ft": "1′02″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.35,
+                "upper_m": 0.7,
+                "lower_ft": "1′02″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.525,
+                "upper_m": 0.875,
+                "lower_ft": "1′09″",
+                "upper_ft": "2′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.875,
+                "upper_m": 1.05,
+                "lower_ft": "2′10″",
+                "upper_ft": "3′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.05,
+                "upper_m": 1.225,
+                "lower_ft": "3′05″",
+                "upper_ft": "4′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Toxapex crawls along the ocean floor on its 12 legs. It leaves a trail of Corsola bits scattered in its wake."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Those attacked by Toxapex’s poison will suffer intense pain for three days and three nights. Post-recovery, there will be some aftereffects."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "To attack, this Pokémon sends toxic spikes flying at its enemies. Ones that come close get mown down by the claws on its feet."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "With its 12 legs, it creates a dome to shelter within. The flow of the tides doesn’t affect Toxapex in there, so it’s very comfortable."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "To survive in the cold waters of Galar, this Pokémon forms a dome with its legs, enclosing its body so it can capture its own body heat."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Within the poison sac in its body is a poison so toxic that Pokémon as large as Wailord will still be suffering three days after it first takes effect."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Toxapex",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm748.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm748.icon.png"
+            },
+            {
+                "label": "Shiny Toxapex",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm748.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm748.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 748,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0748_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0748_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Toxapex sprite"
+            },
+            {
+                "pokedex_number": 748,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0748_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0748_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Toxapex sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/748_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/748_social.jpg",
+                "alt": "Toxapex"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/748_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/748_social_dark.jpg",
+                "alt": "Toxapex"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/748_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/748_social_map.jpg",
+                "alt": "Toxapex"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/748_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/748_social_map_dark.jpg",
+                "alt": "Toxapex"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Toxapex’s strengths and weaknesses?",
+            "answer": "As a Poison and Water-type Pokémon, Toxapex is weak to Electric, Ground, and Psychic-type moves."
+        },
+        {
+            "question": "What are the best moves for Toxapex in Pokémon GO?",
+            "answer": "The best moves for Toxapex in Pokémon GO are Poison Jab and Gunk Shot. This moveset has a DPS (Damage Per Second) of 6.742 and a TDO (Total Damage Output) of 137.563."
+        },
+        {
+            "question": "How does Toxapex perform in Raids?",
+            "answer": "Toxapex's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Toxapex rank as a Poison-type attacker?",
+            "answer": "Toxapex is an F-Tier Poison-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Toxapex rank as a Water-type attacker?",
+            "answer": "Toxapex is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Toxapex?",
+            "answer": "The following Mega Pokémon boost Toxapex: Mega Venusaur, Mega Beedrill, Mega Gengar, Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Toxapex’s maximum CP at Level 40 and Level 50?",
+            "answer": "Toxapex’s maximum CP at Level 40 is 1685 CP and 1905 CP at Level 50."
+        },
+        {
+            "question": "Can Toxapex be shiny in Pokémon GO?",
+            "answer": "Toxapex can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Toxapex Dynamax in Pokémon GO?",
+            "answer": "Toxapex cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

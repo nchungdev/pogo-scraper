@@ -1,0 +1,758 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2949,
+        "attack": 186,
+        "defense": 153,
+        "stamina": 242,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Oinkologne",
+        "forms": [
+            {
+                "name": "Oinkologne",
+                "href": "/pokemon/916",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/916.webp"
+            },
+            {
+                "name": "Oinkologne (Female)",
+                "href": "/pokemon/916-Female",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/916_f2.webp"
+            },
+            {
+                "name": "Oinkologne (Male)",
+                "href": "/pokemon/916-Male",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/916.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/916.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Body Slam",
+            "dps": 9.53,
+            "tdo": 191.78,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 9.53,
+                "tdo": 191.8,
+                "score": 8.48
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 9.02,
+                "tdo": 181.5,
+                "score": 8.03
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 8.27,
+                "tdo": 166.4,
+                "score": 7.35
+            },
+            {
+                "rank": 4,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 7.94,
+                "tdo": 159.7,
+                "score": 7.06
+            },
+            {
+                "rank": 5,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 7.17,
+                "tdo": 144.3,
+                "score": 6.38
+            },
+            {
+                "rank": 6,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 7.02,
+                "tdo": 141.3,
+                "score": 6.25
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Take Down",
+                "type": "Normal",
+                "stats": {
+                    "damage": 7,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 8,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/282"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dig",
+                "type": "Ground",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 4.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.5,
+                    "damage_window": "2.6s - 4.3s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/26"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            },
+            {
+                "name": "Trailblaze",
+                "type": "Grass",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.2s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/392"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Oinkologne's has 2949 max CP (at Level 50). A Oinkologne obtained from Raids can be encountered from 1417 CP to 1490 CP, or if weather boosted, in the 1772 CP to 1863 CP range. In Field and Special Research, Oinkologne can be found in the 1063 CP to 1118 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2949",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1063 - 1118",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1417 - 1490",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1417 - 1490",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1772 - 1863",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1772 CP - 1863 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 36,
+        "2": 115,
+        "3": 194,
+        "4": 273,
+        "5": 351,
+        "6": 430,
+        "7": 509,
+        "8": 588,
+        "9": 666,
+        "10": 745,
+        "11": 820,
+        "12": 894,
+        "13": 969,
+        "14": 1043,
+        "15": 1118,
+        "16": 1192,
+        "17": 1267,
+        "18": 1341,
+        "19": 1416,
+        "20": 1490,
+        "21": 1565,
+        "22": 1639,
+        "23": 1714,
+        "24": 1788,
+        "25": 1863,
+        "26": 1937,
+        "27": 2012,
+        "28": 2086,
+        "29": 2161,
+        "30": 2236,
+        "31": 2273,
+        "32": 2310,
+        "33": 2347,
+        "34": 2385,
+        "35": 2422,
+        "36": 2459,
+        "37": 2496,
+        "38": 2534,
+        "39": 2571,
+        "40": 2608,
+        "41": 2641,
+        "42": 2674,
+        "43": 2708,
+        "44": 2742,
+        "45": 2776,
+        "46": 2810,
+        "47": 2844,
+        "48": 2879,
+        "49": 2914,
+        "50": 2949
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Lechonk",
+                    "href": "/pokemon/915",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/915.webp"
+                },
+                "to": {
+                    "name": "Oinkologne",
+                    "href": "/pokemon/916",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/916.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Male required"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Male required"
+        ],
+        "family": [
+            {
+                "name": "Lechonk",
+                "href": "/pokemon/915",
+                "img": "https://db.pokemongohub.net/images/official/medium/915.webp"
+            },
+            {
+                "name": "Oinkologne",
+                "href": "/pokemon/916",
+                "img": "https://db.pokemongohub.net/images/official/medium/916.webp"
+            },
+            {
+                "name": "Oinkologne (Female)",
+                "href": "/pokemon/916-Female",
+                "img": "https://db.pokemongohub.net/images/official/medium/916_f2.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Oinkologne in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Oinkologne",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Oinkologne's Normal-type moves, Candy, and Candy XL from catching Oinkologne.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 916,
+            "height_m": 1,
+            "weight_kg": 120,
+            "region": "Generation 9",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "1.55 m",
+            "description": "Oinkologne's height ranges from 0.49 m to 1.55 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 1.55,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Scarlet"
+            ],
+            "entry": "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail."
+        },
+        {
+            "versions": [
+                "Violet"
+            ],
+            "entry": "It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Oinkologne",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm916.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm916.icon.png"
+            },
+            {
+                "label": "Shiny Oinkologne",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm916.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm916.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 916,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0916_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0916_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Oinkologne sprite"
+            },
+            {
+                "pokedex_number": 916,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0916_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0916_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Oinkologne sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/916_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/916_social.jpg",
+                "alt": "Oinkologne"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/916_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/916_social_dark.jpg",
+                "alt": "Oinkologne"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/916_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/916_social_map.jpg",
+                "alt": "Oinkologne"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/916_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/916_social_map_dark.jpg",
+                "alt": "Oinkologne"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Oinkologne’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Oinkologne is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Oinkologne in Pokémon GO?",
+            "answer": "The best moves for Oinkologne in Pokémon GO are Tackle and Body Slam. This moveset has a DPS (Damage Per Second) of 9.53 and a TDO (Total Damage Output) of 191.782."
+        },
+        {
+            "question": "How does Oinkologne perform in Raids?",
+            "answer": "Oinkologne's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Oinkologne rank as a Normal-type attacker?",
+            "answer": "Oinkologne is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Oinkologne?",
+            "answer": "The following Mega Pokémon boost Oinkologne: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Oinkologne’s maximum CP at Level 40 and Level 50?",
+            "answer": "Oinkologne’s maximum CP at Level 40 is 2608 CP and 2949 CP at Level 50."
+        },
+        {
+            "question": "Can Oinkologne be shiny in Pokémon GO?",
+            "answer": "Oinkologne can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Oinkologne Dynamax in Pokémon GO?",
+            "answer": "Oinkologne cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

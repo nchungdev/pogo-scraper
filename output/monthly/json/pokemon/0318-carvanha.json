@@ -1,0 +1,889 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1154,
+        "attack": 171,
+        "defense": 39,
+        "stamina": 128,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Carvanha",
+        "forms": [
+            {
+                "name": "Carvanha",
+                "href": "/pokemon/318",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/318.webp"
+            },
+            {
+                "name": "Shadow Carvanha",
+                "href": "/pokemon/318-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/318.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/318.webp",
+        "types": [
+            "Water",
+            "Dark"
+        ],
+        "weather_boost": [
+            "rain",
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bite",
+            "charged": "Poison Fang",
+            "dps": 6.88,
+            "tdo": 24.76,
+            "boosted_weather": [
+                "fog",
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Poison Fang",
+                "charged_url": "https://db.pokemongohub.net/move/50",
+                "dps": 6.88,
+                "tdo": 24.8,
+                "score": 4.06
+            },
+            {
+                "rank": 2,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 6.88,
+                "tdo": 24.8,
+                "score": 4.06
+            },
+            {
+                "rank": 3,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 6.88,
+                "tdo": 24.8,
+                "score": 4.06
+            },
+            {
+                "rank": 4,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Poison Fang",
+                "charged_url": "https://db.pokemongohub.net/move/50",
+                "dps": 5.89,
+                "tdo": 21.2,
+                "score": 3.48
+            },
+            {
+                "rank": 5,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 5.89,
+                "tdo": 21.2,
+                "score": 3.48
+            },
+            {
+                "rank": 6,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 5.89,
+                "tdo": 21.2,
+                "score": 3.48
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Snarl",
+                "type": "Dark",
+                "stats": {
+                    "damage": 11,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/278"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Poison Fang",
+                "type": "Poison",
+                "stats": {
+                    "damage": 30,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 30,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.7s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/50"
+            },
+            {
+                "name": "Aqua Jet",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/57"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Carvanha's has 1154 max CP (at Level 50). A Carvanha obtained from Raids can be encountered from 531 CP to 583 CP, or if weather boosted, in the 664 CP to 729 CP range. In Field and Special Research, Carvanha can be found in the 398 CP to 437 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1154",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "398 - 437",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "531 - 583",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "531 - 583",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "664 - 729",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "664 CP - 729 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 45,
+        "3": 76,
+        "4": 106,
+        "5": 137,
+        "6": 168,
+        "7": 199,
+        "8": 230,
+        "9": 260,
+        "10": 291,
+        "11": 320,
+        "12": 350,
+        "13": 379,
+        "14": 408,
+        "15": 437,
+        "16": 466,
+        "17": 495,
+        "18": 525,
+        "19": 554,
+        "20": 583,
+        "21": 612,
+        "22": 641,
+        "23": 670,
+        "24": 700,
+        "25": 729,
+        "26": 758,
+        "27": 787,
+        "28": 816,
+        "29": 845,
+        "30": 875,
+        "31": 889,
+        "32": 904,
+        "33": 918,
+        "34": 933,
+        "35": 947,
+        "36": 962,
+        "37": 977,
+        "38": 991,
+        "39": 1006,
+        "40": 1020,
+        "41": 1033,
+        "42": 1046,
+        "43": 1059,
+        "44": 1073,
+        "45": 1086,
+        "46": 1099,
+        "47": 1113,
+        "48": 1126,
+        "49": 1140,
+        "50": 1154
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Carvanha",
+                    "href": "/pokemon/318",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/318.webp"
+                },
+                "to": {
+                    "name": "Sharpedo",
+                    "href": "/pokemon/319",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/319.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Sharpedo",
+                    "href": "/pokemon/319",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/319.webp"
+                },
+                "to": {
+                    "name": "Mega Sharpedo",
+                    "href": "/pokemon/319-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Carvanha",
+                "href": "/pokemon/318",
+                "img": "https://db.pokemongohub.net/images/official/medium/318.webp"
+            },
+            {
+                "name": "Sharpedo",
+                "href": "/pokemon/319",
+                "img": "https://db.pokemongohub.net/images/official/medium/319.webp"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "href": "/pokemon/319-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Carvanha",
+                "href": "/pokemon/318-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Sharpedo",
+                "href": "/pokemon/319-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Carvanha in the meta PvE Analysis Oh, na-na-na, Carvanha… 🎵 39 DEF , oh no-no-no 🎶 ⚔️ Raids – This piranha can bite with 171 ATK , but doesn’t survive 🎏. 🛡️ Gyms – As Gym food ? Sure ! 🍣 PvP Analysis 🧸 Little Cup – Carvanha has a surprisingly high ATK that makes it deal quite a lot of damage in a format where most Pokémon have low bulk . Ironically, its main problem here is its own pathetically low DEF stat 😅. 🔵 Great League – Fish . Yum . 😋 🟡 Ultra League – Fish . Rot . 🤢 🟣 Master League – Fish vs Dragons ?! 😱",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Carvanha",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Carvanha's Water and Dark-type moves, Candy, and Candy XL from catching Carvanha.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 318,
+            "height_m": 0.79,
+            "weight_kg": 20.8,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": 15,
+        "size_info": {
+            "xxs": "0.39 m",
+            "xs": "0.4 m",
+            "m": "0.79 m",
+            "xl": "1.19 m",
+            "xxl": "1.58 m",
+            "description": "Carvanha's height ranges from 0.39 m to 1.58 m, with the average being 0.79 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.3871,
+                "upper_m": 0.395,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.395,
+                "upper_m": 0.79,
+                "lower_ft": "1′04″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.5925,
+                "upper_m": 0.9875,
+                "lower_ft": "1′11″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.9875,
+                "upper_m": 1.185,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.185,
+                "upper_m": 1.58,
+                "lower_ft": "3′11″",
+                "upper_ft": "5′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 30.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "CARVANHA’s strongly developed jaws and its sharply pointed fangs pack the destructive power to rip out boat hulls. Many boats have been attacked and sunk by this POKéMON."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "If anything invades CARVANHA’s territory, it will swarm and tear at the intruder with its pointed fangs. On its own, however, this POKéMON turns suddenly timid."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "CARVANHA attack ships in swarms, making them sink. Although it is said to be a very vicious POKéMON, it timidly flees as soon as it finds itself alone."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It lives in massive rivers that course through jungles. It swarms prey that enter its territory."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "They swarm any foe that invades their territory. Their sharp fangs can tear out boat hulls."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It lives in massive rivers that course through jungles. It swarms prey that enter its territory."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Carvanha’s strongly developed jaws and its sharply pointed fangs pack the destructive power to rip out boat hulls. Many boats have been attacked and sunk by this Pokémon."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "If anything invades Carvanha’s territory, it will swarm and tear at the intruder with its pointed fangs. On its own, however, this Pokémon turns suddenly timid."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Each school has its own territory. Any intruders are mercilessly attacked with fangs bared."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "If they scent the faintest trace of blood, they rush to attack en masse. When alone, they’re rather cowardly."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "They’re such cowards that they won’t hunt alone. When five or so of them get together, they suddenly turn ferocious!"
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It won’t attack while it’s alone—not even if it spots prey. Instead, it waits for other Carvanha to join it, and then the Pokémon attack as a group."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Carvanha",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm318.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm318.icon.png"
+            },
+            {
+                "label": "Shiny Carvanha",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm318.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm318.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 318,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0318_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0318_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Carvanha sprite"
+            },
+            {
+                "pokedex_number": 318,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0318_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0318_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Carvanha sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/318_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/318_social.jpg",
+                "alt": "Carvanha"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/318_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/318_social_dark.jpg",
+                "alt": "Carvanha"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/318_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/318_social_map.jpg",
+                "alt": "Carvanha"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/318_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/318_social_map_dark.jpg",
+                "alt": "Carvanha"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Carvanha’s strengths and weaknesses?",
+            "answer": "As a Water and Dark-type Pokémon, Carvanha is weak to Bug, Electric, Fairy, Fighting, and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Carvanha in Pokémon GO?",
+            "answer": "The best moves for Carvanha in Pokémon GO are Bite and Poison Fang. This moveset has a DPS (Damage Per Second) of 6.88 and a TDO (Total Damage Output) of 24.762."
+        },
+        {
+            "question": "How does Carvanha perform in Raids?",
+            "answer": "Carvanha's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Carvanha rank as a Water-type attacker?",
+            "answer": "Carvanha's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Carvanha?",
+            "answer": "The following Mega Pokémon boost Carvanha: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Gyarados, Mega Houndoom, Mega Tyranitar, Mega Sableye, Mega Sharpedo, and Mega Absol."
+        },
+        {
+            "question": "What is Carvanha’s maximum CP at Level 40 and Level 50?",
+            "answer": "Carvanha’s maximum CP at Level 40 is 1020 CP and 1154 CP at Level 50."
+        },
+        {
+            "question": "Can Carvanha be shiny in Pokémon GO?",
+            "answer": "Carvanha can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Carvanha Dynamax in Pokémon GO?",
+            "answer": "Carvanha cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

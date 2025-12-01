@@ -1,0 +1,815 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1224,
+        "attack": 115,
+        "defense": 85,
+        "stamina": 163,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Tepig",
+        "forms": [
+            {
+                "name": "Tepig",
+                "href": "/pokemon/498",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/498.webp"
+            },
+            {
+                "name": "Shadow Tepig",
+                "href": "/pokemon/498-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/498.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/498.webp",
+        "types": [
+            "Fire"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Flamethrower",
+            "dps": 5.2,
+            "tdo": 43.15,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 5.2,
+                "tdo": 43.1,
+                "score": 4.0
+            },
+            {
+                "rank": 2,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 5.19,
+                "tdo": 43.1,
+                "score": 3.99
+            },
+            {
+                "rank": 3,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 4.84,
+                "tdo": 40.1,
+                "score": 3.72
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 4.82,
+                "tdo": 40.0,
+                "score": 3.71
+            },
+            {
+                "rank": 5,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 4.76,
+                "tdo": 39.5,
+                "score": 3.66
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 4.76,
+                "tdo": 39.5,
+                "score": 3.66
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Tepig's has 1224 max CP (at Level 50). A Tepig obtained from Raids can be encountered from 571 CP to 618 CP, or if weather boosted, in the 714 CP to 773 CP range. In Field and Special Research, Tepig can be found in the 428 CP to 464 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1224",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "428 - 464",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "571 - 618",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "571 - 618",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "714 - 773",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "714 CP - 773 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 15,
+        "2": 48,
+        "3": 80,
+        "4": 113,
+        "5": 146,
+        "6": 178,
+        "7": 211,
+        "8": 244,
+        "9": 276,
+        "10": 309,
+        "11": 340,
+        "12": 371,
+        "13": 402,
+        "14": 433,
+        "15": 464,
+        "16": 495,
+        "17": 526,
+        "18": 557,
+        "19": 588,
+        "20": 618,
+        "21": 649,
+        "22": 680,
+        "23": 711,
+        "24": 742,
+        "25": 773,
+        "26": 804,
+        "27": 835,
+        "28": 866,
+        "29": 897,
+        "30": 928,
+        "31": 944,
+        "32": 959,
+        "33": 974,
+        "34": 990,
+        "35": 1005,
+        "36": 1021,
+        "37": 1036,
+        "38": 1052,
+        "39": 1067,
+        "40": 1083,
+        "41": 1097,
+        "42": 1110,
+        "43": 1124,
+        "44": 1138,
+        "45": 1152,
+        "46": 1167,
+        "47": 1181,
+        "48": 1195,
+        "49": 1210,
+        "50": 1224
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Tepig",
+                    "href": "/pokemon/498",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/498.webp"
+                },
+                "to": {
+                    "name": "Pignite",
+                    "href": "/pokemon/499",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/499.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Pignite",
+                    "href": "/pokemon/499",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/499.webp"
+                },
+                "to": {
+                    "name": "Emboar",
+                    "href": "/pokemon/500",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/500.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Tepig",
+                "href": "/pokemon/498",
+                "img": "https://db.pokemongohub.net/images/official/medium/498.webp"
+            },
+            {
+                "name": "Pignite",
+                "href": "/pokemon/499",
+                "img": "https://db.pokemongohub.net/images/official/medium/499.webp"
+            },
+            {
+                "name": "Emboar",
+                "href": "/pokemon/500",
+                "img": "https://db.pokemongohub.net/images/official/medium/500.webp"
+            },
+            {
+                "name": "Shadow Tepig",
+                "href": "/pokemon/498-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Pignite",
+                "href": "/pokemon/499-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Emboar",
+                "href": "/pokemon/500-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Tepig in the meta PvE Analysis ⚔️ Raids This little piggy won’t last long on the battlefield . 🛡️ Gyms Shiny flex only . 🔮 Dynamax Tepig is not currently available to Dynamax . PvP Analysis Preferred Moveset – Ember , Body Slam , & Flame Charge 🧸 Little League Tepig isn’t a terrible Fire-type pick in Little League , but it has to compete with Vulpix , which tends to be slightly more effective in this role . 🔵 Great League NA 🟡 Ultra League NA 🟣 Master League NA",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Tepig",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Tepig's Fire-type moves, Candy, and Candy XL from catching Tepig.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 498,
+            "height_m": 0.5,
+            "weight_kg": 9.9,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.78 m",
+            "description": "Tepig's height ranges from 0.25 m to 0.78 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.775,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Tepig",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm498.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm498.icon.png"
+            },
+            {
+                "label": "Shiny Tepig",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm498.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm498.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 498,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0498_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0498_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Tepig sprite"
+            },
+            {
+                "pokedex_number": 498,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0498_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0498_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Tepig sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/498_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/498_social.jpg",
+                "alt": "Tepig"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/498_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/498_social_dark.jpg",
+                "alt": "Tepig"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/498_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/498_social_map.jpg",
+                "alt": "Tepig"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/498_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/498_social_map_dark.jpg",
+                "alt": "Tepig"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Tepig’s strengths and weaknesses?",
+            "answer": "As a Fire-type Pokémon, Tepig is weak to Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Tepig in Pokémon GO?",
+            "answer": "The best moves for Tepig in Pokémon GO are Tackle and Flamethrower. This moveset has a DPS (Damage Per Second) of 5.201 and a TDO (Total Damage Output) of 43.149."
+        },
+        {
+            "question": "How does Tepig perform in Raids?",
+            "answer": "Tepig's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Tepig rank as a Fire-type attacker?",
+            "answer": "Tepig is an F-Tier Fire-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Tepig?",
+            "answer": "The following Mega Pokémon boost Tepig: Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Tepig’s maximum CP at Level 40 and Level 50?",
+            "answer": "Tepig’s maximum CP at Level 40 is 1083 CP and 1224 CP at Level 50."
+        },
+        {
+            "question": "Can Tepig be shiny in Pokémon GO?",
+            "answer": "Tepig can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Tepig Dynamax in Pokémon GO?",
+            "answer": "Tepig cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

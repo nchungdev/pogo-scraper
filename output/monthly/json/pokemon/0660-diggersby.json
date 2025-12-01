@@ -1,0 +1,929 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1706,
+        "attack": 112,
+        "defense": 155,
+        "stamina": 198,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Diggersby",
+        "forms": [
+            {
+                "name": "Diggersby",
+                "href": "/pokemon/660",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/660.webp"
+            },
+            {
+                "name": "Shadow Diggersby",
+                "href": "/pokemon/660-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/660.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/660.webp",
+        "types": [
+            "Normal",
+            "Ground"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Quick Attack",
+            "charged": "Scorching Sands",
+            "dps": 6.75,
+            "tdo": 113.9,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Scorching Sands",
+                "charged_url": "https://db.pokemongohub.net/move/393",
+                "dps": 6.75,
+                "tdo": 113.9,
+                "score": 5.88
+            },
+            {
+                "rank": 2,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Scorching Sands",
+                "charged_url": "https://db.pokemongohub.net/move/393",
+                "dps": 6.58,
+                "tdo": 111.1,
+                "score": 5.73
+            },
+            {
+                "rank": 3,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Earthquake",
+                "charged_url": "https://db.pokemongohub.net/move/31",
+                "dps": 6.53,
+                "tdo": 110.3,
+                "score": 5.69
+            },
+            {
+                "rank": 4,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 6.53,
+                "tdo": 110.3,
+                "score": 5.69
+            },
+            {
+                "rank": 5,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 6.36,
+                "tdo": 107.4,
+                "score": 5.54
+            },
+            {
+                "rank": 6,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Earthquake",
+                "charged_url": "https://db.pokemongohub.net/move/31",
+                "dps": 6.36,
+                "tdo": 107.3,
+                "score": 5.54
+            },
+            {
+                "rank": 7,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 5.92,
+                "tdo": 100.0,
+                "score": 5.16
+            },
+            {
+                "rank": 8,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 5.81,
+                "tdo": 98.1,
+                "score": 5.06
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Mud Shot",
+                "type": "Ground",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/216"
+            },
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Hyper Beam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 150,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 150,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.5s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/14"
+            },
+            {
+                "name": "Dig",
+                "type": "Ground",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 4.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.5,
+                    "damage_window": "2.6s - 4.3s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/26"
+            },
+            {
+                "name": "Earthquake",
+                "type": "Ground",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.4s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/31"
+            },
+            {
+                "name": "Fire Punch",
+                "type": "Fire",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/115"
+            },
+            {
+                "name": "Scorching Sands",
+                "type": "Ground",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/393"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Diggersby's has 1706 max CP (at Level 50). A Diggersby obtained from Raids can be encountered from 806 CP to 862 CP, or if weather boosted, in the 1008 CP to 1078 CP range. In Field and Special Research, Diggersby can be found in the 605 CP to 646 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1706",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "605 - 646",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "806 - 862",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "806 - 862",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1008 - 1078",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1008 CP - 1078 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 21,
+        "2": 66,
+        "3": 112,
+        "4": 158,
+        "5": 203,
+        "6": 249,
+        "7": 294,
+        "8": 340,
+        "9": 385,
+        "10": 431,
+        "11": 474,
+        "12": 517,
+        "13": 560,
+        "14": 603,
+        "15": 646,
+        "16": 690,
+        "17": 733,
+        "18": 776,
+        "19": 819,
+        "20": 862,
+        "21": 905,
+        "22": 948,
+        "23": 991,
+        "24": 1035,
+        "25": 1078,
+        "26": 1121,
+        "27": 1164,
+        "28": 1207,
+        "29": 1250,
+        "30": 1293,
+        "31": 1315,
+        "32": 1336,
+        "33": 1358,
+        "34": 1380,
+        "35": 1401,
+        "36": 1423,
+        "37": 1444,
+        "38": 1466,
+        "39": 1487,
+        "40": 1509,
+        "41": 1528,
+        "42": 1547,
+        "43": 1567,
+        "44": 1586,
+        "45": 1606,
+        "46": 1626,
+        "47": 1646,
+        "48": 1666,
+        "49": 1686,
+        "50": 1706
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Bunnelby",
+                    "href": "/pokemon/659",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/659.webp"
+                },
+                "to": {
+                    "name": "Diggersby",
+                    "href": "/pokemon/660",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/660.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Bunnelby",
+                "href": "/pokemon/659",
+                "img": "https://db.pokemongohub.net/images/official/medium/659.webp"
+            },
+            {
+                "name": "Diggersby",
+                "href": "/pokemon/660",
+                "img": "https://db.pokemongohub.net/images/official/medium/660.webp"
+            },
+            {
+                "name": "Shadow Bunnelby",
+                "href": "/pokemon/659-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Diggersby",
+                "href": "/pokemon/660-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Diggersby in the meta PvE Analysis ⚔️ Raids – Diggersby is a Pokémon that’s focused more on bulk rather than damage output . As such, despite being a Normal and Ground-type Pokémon, Diggersby is not an ideal raid attacker candidate for either of those roles. 🔮 Dynamax – N/A PvP Analysis 🔵 Great League – Diggersby is one of the best Normal types for the Great League . Diggersby is very bulky and tanks a lot of hits. It can also generate energy very fast with either Quick Attack or Mud Shot and has a spammy charged attack in Fire Punch to boot. Not only that, Diggersby is a Normal, Ground-type with access to Scorching Sands . This makes Diggersby strong against powerful Poison-types such as Clodsire and Drapion . It can even take out fellow Normal-type Dunsparce . 🟡 Ultra League – With a max CP of 1706 , Diggersby is too weak for the Ultra League . 🟣 Master League – With a max CP of 1706 , Diggersby is too weak for the Master League . Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Diggersby",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Diggersby's Normal and Ground-type moves, Candy, and Candy XL from catching Diggersby.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 660,
+            "height_m": 1,
+            "weight_kg": 42.4,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "1.75 m",
+            "description": "Diggersby's height ranges from 0.49 m to 1.75 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 1.75,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 40.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it’s finished digging, it lounges lazily."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "With power equal to an excavator, it can dig through dense bedrock. It’s a huge help during tunnel construction."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Diggersby",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm660.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm660.icon.png"
+            },
+            {
+                "label": "Shiny Diggersby",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm660.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm660.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 660,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0660_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0660_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Diggersby sprite"
+            },
+            {
+                "pokedex_number": 660,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0660_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0660_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Diggersby sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/660_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/660_social.jpg",
+                "alt": "Diggersby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/660_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/660_social_dark.jpg",
+                "alt": "Diggersby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/660_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/660_social_map.jpg",
+                "alt": "Diggersby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/660_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/660_social_map_dark.jpg",
+                "alt": "Diggersby"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Diggersby’s strengths and weaknesses?",
+            "answer": "As a Normal and Ground-type Pokémon, Diggersby is weak to Fighting, Grass, Ice, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Diggersby in Pokémon GO?",
+            "answer": "The best moves for Diggersby in Pokémon GO are Quick Attack and Scorching Sands. This moveset has a DPS (Damage Per Second) of 6.749 and a TDO (Total Damage Output) of 113.905."
+        },
+        {
+            "question": "How does Diggersby perform in Raids?",
+            "answer": "Diggersby's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Diggersby rank as a Normal-type attacker?",
+            "answer": "Diggersby is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Diggersby rank as a Ground-type attacker?",
+            "answer": "Diggersby is an F-Tier Ground-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Diggersby?",
+            "answer": "The following Mega Pokémon boost Diggersby: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, Mega Audino, Mega Steelix, Mega Swampert, Mega Camerupt, Primal Groudon, and Mega Garchomp."
+        },
+        {
+            "question": "What is Diggersby’s maximum CP at Level 40 and Level 50?",
+            "answer": "Diggersby’s maximum CP at Level 40 is 1509 CP and 1706 CP at Level 50."
+        },
+        {
+            "question": "Can Diggersby be shiny in Pokémon GO?",
+            "answer": "Diggersby can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Diggersby Dynamax in Pokémon GO?",
+            "answer": "Diggersby cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

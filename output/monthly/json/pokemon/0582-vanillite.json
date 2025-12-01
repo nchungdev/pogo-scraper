@@ -1,0 +1,842 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1168,
+        "attack": 118,
+        "defense": 106,
+        "stamina": 113,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Vanillite",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/582.webp",
+        "types": [
+            "Ice"
+        ],
+        "weather_boost": [
+            "snow"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Powder Snow",
+            "charged": "Ice Beam",
+            "dps": 4.78,
+            "tdo": 34.52,
+            "boosted_weather": [
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 4.78,
+                "tdo": 34.5,
+                "score": 3.55
+            },
+            {
+                "rank": 2,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 4.42,
+                "tdo": 31.9,
+                "score": 3.28
+            },
+            {
+                "rank": 3,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 4.3,
+                "tdo": 31.0,
+                "score": 3.19
+            },
+            {
+                "rank": 4,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 4.08,
+                "tdo": 29.4,
+                "score": 3.03
+            },
+            {
+                "rank": 5,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Signal Beam",
+                "charged_url": "https://db.pokemongohub.net/move/99",
+                "dps": 3.99,
+                "tdo": 28.8,
+                "score": 2.97
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Signal Beam",
+                "charged_url": "https://db.pokemongohub.net/move/99",
+                "dps": 3.74,
+                "tdo": 27.0,
+                "score": 2.78
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Powder Snow",
+                "type": "Ice",
+                "stats": {
+                    "damage": 6,
+                    "energy": 15,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 15,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/244"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ice Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/39"
+            },
+            {
+                "name": "Signal Beam",
+                "type": "Bug",
+                "stats": {
+                    "damage": 75,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 75,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.9s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/99"
+            },
+            {
+                "name": "Icy Wind",
+                "type": "Ice",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.2s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/111"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Vanillite's has 1168 max CP (at Level 50). A Vanillite obtained from Raids can be encountered from 545 CP to 590 CP, or if weather boosted, in the 682 CP to 738 CP range. In Field and Special Research, Vanillite can be found in the 409 CP to 443 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1168",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "409 - 443",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "545 - 590",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "545 - 590",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "682 - 738",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "682 CP - 738 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 45,
+        "3": 77,
+        "4": 108,
+        "5": 139,
+        "6": 170,
+        "7": 201,
+        "8": 233,
+        "9": 264,
+        "10": 295,
+        "11": 324,
+        "12": 354,
+        "13": 384,
+        "14": 413,
+        "15": 443,
+        "16": 472,
+        "17": 502,
+        "18": 531,
+        "19": 561,
+        "20": 590,
+        "21": 620,
+        "22": 649,
+        "23": 679,
+        "24": 708,
+        "25": 738,
+        "26": 767,
+        "27": 797,
+        "28": 827,
+        "29": 856,
+        "30": 886,
+        "31": 900,
+        "32": 915,
+        "33": 930,
+        "34": 945,
+        "35": 959,
+        "36": 974,
+        "37": 989,
+        "38": 1004,
+        "39": 1019,
+        "40": 1033,
+        "41": 1046,
+        "42": 1060,
+        "43": 1073,
+        "44": 1086,
+        "45": 1100,
+        "46": 1113,
+        "47": 1127,
+        "48": 1141,
+        "49": 1154,
+        "50": 1168
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Vanillite",
+                    "href": "/pokemon/582",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/582.webp"
+                },
+                "to": {
+                    "name": "Vanillish",
+                    "href": "/pokemon/583",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/583.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Vanillish",
+                    "href": "/pokemon/583",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/583.webp"
+                },
+                "to": {
+                    "name": "Vanilluxe",
+                    "href": "/pokemon/584",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/584.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Vanillite",
+                "href": "/pokemon/582",
+                "img": "https://db.pokemongohub.net/images/official/medium/582.webp"
+            },
+            {
+                "name": "Vanillish",
+                "href": "/pokemon/583",
+                "img": "https://db.pokemongohub.net/images/official/medium/583.webp"
+            },
+            {
+                "name": "Vanilluxe",
+                "href": "/pokemon/584",
+                "img": "https://db.pokemongohub.net/images/official/medium/584.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Vanillite in the meta PvE Analysis Vanillite , the starting Pokémon of a three-stage evolution line, has zero impact in PvE , and so does this literal ice cream cone . 🍦 ⚔️ Raids THIS! Yes, this is that Ice-type treat that even Dragons enjoy. Don’t. 😂 🛡️ Gyms It melts to any attack. 🫠 PvP Analysis 🧸 Little Cup With low stats and a mono Ice typing that grants it only one resistance ( Ice ) but several weaknesses ( Fighting , Fire , Rock , and Steel ), Vanillite struggles. Its moveset is poor, offering only Icy Wind to debuff the opponent’s ATK and the terrible Signal Beam as a secondary move. 👎 Vanillite is far too weak for the Great , Ultra , and Master League .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Vanillite",
+        "type": "Ice",
+        "intro_text": "A list of Mega Pokémon that boost Vanillite's Ice-type moves, Candy, and Candy XL from catching Vanillite.",
+        "mega_list": [
+            {
+                "name": "Mega Glalie",
+                "pokemon_id": 362,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/362-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 582,
+            "height_m": 0.4,
+            "weight_kg": 5.7,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Vanillite's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Theoretically, this Pokémon formed from icicles bathed in energy from the morning sun. Their breath is -58° F."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "The temperature of their breath is -58 degrees Fahrenheit. They create snow crystals and make snow fall in the areas around them."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Born of an icicle, this Pokémon uses its frosty breath to make ice crystals, causing snow to fall."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It feels pleasantly cool when embraced. This Pokémon is treasured by households in warm regions."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It exhales cold air that is at –58 degrees Fahrenheit. When it’s in a warm place, it shrinks little by little."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "When the morning sun hit an icicle, it wished not to melt, and thus Vanillite was born. At night, it buries itself in snow to sleep."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Unable to survive in hot areas, it makes itself comfortable by breathing out air cold enough to cause snow. It burrows into the snow to sleep."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Supposedly, this Pokémon was born from an icicle. It spews out freezing air at −58 degrees Fahrenheit to make itself more comfortable."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Vanillite",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm582.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm582.icon.png"
+            },
+            {
+                "label": "Shiny Vanillite",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm582.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm582.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 582,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0582_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0582_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Vanillite sprite"
+            },
+            {
+                "pokedex_number": 582,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0582_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0582_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Vanillite sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/582_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/582_social.jpg",
+                "alt": "Vanillite"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/582_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/582_social_dark.jpg",
+                "alt": "Vanillite"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/582_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/582_social_map.jpg",
+                "alt": "Vanillite"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/582_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/582_social_map_dark.jpg",
+                "alt": "Vanillite"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Vanillite’s strengths and weaknesses?",
+            "answer": "As a Ice-type Pokémon, Vanillite is weak to Fighting, Fire, Rock, and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Vanillite in Pokémon GO?",
+            "answer": "The best moves for Vanillite in Pokémon GO are Powder Snow and Ice Beam. This moveset has a DPS (Damage Per Second) of 4.781 and a TDO (Total Damage Output) of 34.517."
+        },
+        {
+            "question": "How does Vanillite perform in Raids?",
+            "answer": "Vanillite's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Vanillite rank as a Ice-type attacker?",
+            "answer": "Vanillite's performance as a Ice-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Vanillite?",
+            "answer": "The following Mega Pokémon boost Vanillite: Mega Glalie and Mega Abomasnow."
+        },
+        {
+            "question": "What is Vanillite’s maximum CP at Level 40 and Level 50?",
+            "answer": "Vanillite’s maximum CP at Level 40 is 1033 CP and 1168 CP at Level 50."
+        },
+        {
+            "question": "Can Vanillite be shiny in Pokémon GO?",
+            "answer": "Vanillite can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Vanillite Dynamax in Pokémon GO?",
+            "answer": "Vanillite cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

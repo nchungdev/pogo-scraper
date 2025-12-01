@@ -1,0 +1,906 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1190,
+        "attack": 124,
+        "defense": 94,
+        "stamina": 120,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Treecko",
+        "forms": [
+            {
+                "name": "Treecko",
+                "href": "/pokemon/252",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/252.webp"
+            },
+            {
+                "name": "Shadow Treecko",
+                "href": "/pokemon/252-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/252.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/252.webp",
+        "types": [
+            "Grass"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Pound",
+            "charged": "Grass Knot",
+            "dps": 5.79,
+            "tdo": 39.73,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 5.79,
+                "tdo": 39.7,
+                "score": 4.25
+            },
+            {
+                "rank": 2,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 5.3,
+                "tdo": 36.4,
+                "score": 3.89
+            },
+            {
+                "rank": 3,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 5.16,
+                "tdo": 35.4,
+                "score": 3.78
+            },
+            {
+                "rank": 4,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 5.04,
+                "tdo": 34.5,
+                "score": 3.69
+            },
+            {
+                "rank": 5,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 4.37,
+                "tdo": 30.0,
+                "score": 3.21
+            },
+            {
+                "rank": 6,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 4.17,
+                "tdo": 28.6,
+                "score": 3.06
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Pound",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.4s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/222"
+            },
+            {
+                "name": "Bullet Seed",
+                "type": "Grass",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/271"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Grass Knot",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/272"
+            },
+            {
+                "name": "Energy Ball",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/273"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Treecko's has 1190 max CP (at Level 50). A Treecko obtained from Raids can be encountered from 556 CP to 601 CP, or if weather boosted, in the 695 CP to 752 CP range. In Field and Special Research, Treecko can be found in the 417 CP to 451 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1190",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "417 - 451",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "556 - 601",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "556 - 601",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "695 - 752",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "695 CP - 752 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 46,
+        "3": 78,
+        "4": 110,
+        "5": 142,
+        "6": 173,
+        "7": 205,
+        "8": 237,
+        "9": 269,
+        "10": 300,
+        "11": 331,
+        "12": 361,
+        "13": 391,
+        "14": 421,
+        "15": 451,
+        "16": 481,
+        "17": 511,
+        "18": 541,
+        "19": 571,
+        "20": 601,
+        "21": 631,
+        "22": 661,
+        "23": 692,
+        "24": 722,
+        "25": 752,
+        "26": 782,
+        "27": 812,
+        "28": 842,
+        "29": 872,
+        "30": 902,
+        "31": 917,
+        "32": 932,
+        "33": 947,
+        "34": 962,
+        "35": 977,
+        "36": 992,
+        "37": 1008,
+        "38": 1023,
+        "39": 1038,
+        "40": 1053,
+        "41": 1066,
+        "42": 1079,
+        "43": 1093,
+        "44": 1107,
+        "45": 1120,
+        "46": 1134,
+        "47": 1148,
+        "48": 1162,
+        "49": 1176,
+        "50": 1190
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Treecko",
+                    "href": "/pokemon/252",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/252.webp"
+                },
+                "to": {
+                    "name": "Grovyle",
+                    "href": "/pokemon/253",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/253.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Grovyle",
+                    "href": "/pokemon/253",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/253.webp"
+                },
+                "to": {
+                    "name": "Sceptile",
+                    "href": "/pokemon/254",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/254.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Sceptile",
+                    "href": "/pokemon/254",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/254.webp"
+                },
+                "to": {
+                    "name": "Mega Sceptile",
+                    "href": "/pokemon/254-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Treecko",
+                "href": "/pokemon/252",
+                "img": "https://db.pokemongohub.net/images/official/medium/252.webp"
+            },
+            {
+                "name": "Grovyle",
+                "href": "/pokemon/253",
+                "img": "https://db.pokemongohub.net/images/official/medium/253.webp"
+            },
+            {
+                "name": "Sceptile",
+                "href": "/pokemon/254",
+                "img": "https://db.pokemongohub.net/images/official/medium/254.webp"
+            },
+            {
+                "name": "Mega Sceptile",
+                "href": "/pokemon/254-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Treecko",
+                "href": "/pokemon/252-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Grovyle",
+                "href": "/pokemon/253-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Sceptile",
+                "href": "/pokemon/254-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Treecko in the meta PvE Analysis Little Treecko is at the base level of a three-stage evolution line, so it's unfair to expect PvE relevance out of it. So, focus on evolving it rather than using it in Raids and Gyms battles . 🦎 PvP Analysis 🧸 Little Cup With ATK-oriented stats , Treecko loses bulk . Add its average moveset , and Treecko finds it challenging to muster wins. It can't even beat Ducklett and, needless to say, loses to Shelmet , Gligar , Deino , and Bronzor . A disappointing run overall. Treecko is unviable in any other PvP format . 💎 Treecko’s best moveset for the Little Cup is Bullet Seed , Grass Knot , and Aerial Ace .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Treecko",
+        "type": "Grass",
+        "intro_text": "A list of Mega Pokémon that boost Treecko's Grass-type moves, Candy, and Candy XL from catching Treecko.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 252,
+            "height_m": 0.51,
+            "weight_kg": 5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": 15,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.26 m",
+            "m": "0.51 m",
+            "xl": "0.77 m",
+            "xxl": "0.79 m",
+            "description": "Treecko's height ranges from 0.25 m to 0.79 m, with the average being 0.51 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2499,
+                "upper_m": 0.255,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.255,
+                "upper_m": 0.51,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3825,
+                "upper_m": 0.6375,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.6375,
+                "upper_m": 0.765,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.765,
+                "upper_m": 0.7905,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "TREECKO has small hooks on the bottom of its feet that enable it to scale vertical walls. This POKéMON attacks by slamming foes with its thick tail."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "TREECKO is cool, calm, and collected - it never panics under any situation. If a bigger foe were to glare at this POKéMON, it would glare right back without conceding an inch of ground."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It makes its nest in a giant tree in the forest. It ferociously guards against anything nearing its territory. It is said to be the protector of the forest’s trees."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It quickly scales even vertical walls. It senses humidity with its tail to predict the next day’s weather."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It quickly scales even vertical walls. It senses humidity with its tail to predict the next day’s weather."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Treecko has small hooks on the bottom of its feet that enable it to scale vertical walls. This Pokémon attacks by slamming foes with its thick tail."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Treecko is cool, calm, and collected—it never panics under any situation. If a bigger foe were to glare at this Pokémon, it would glare right back without conceding an inch of ground."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Treecko",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm252.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm252.icon.png"
+            },
+            {
+                "label": "Shiny Treecko",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm252.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm252.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 252,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0252_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0252_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Treecko sprite"
+            },
+            {
+                "pokedex_number": 252,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0252_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0252_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Treecko sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/252_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/252_social.jpg",
+                "alt": "Treecko"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/252_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/252_social_dark.jpg",
+                "alt": "Treecko"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/252_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/252_social_map.jpg",
+                "alt": "Treecko"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/252_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/252_social_map_dark.jpg",
+                "alt": "Treecko"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Treecko’s strengths and weaknesses?",
+            "answer": "As a Grass-type Pokémon, Treecko is weak to Bug, Fire, Flying, Ice, and Poison-type moves."
+        },
+        {
+            "question": "What are the best moves for Treecko in Pokémon GO?",
+            "answer": "The best moves for Treecko in Pokémon GO are Pound and Grass Knot. This moveset has a DPS (Damage Per Second) of 5.793 and a TDO (Total Damage Output) of 39.733."
+        },
+        {
+            "question": "How does Treecko perform in Raids?",
+            "answer": "Treecko's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Treecko rank as a Grass-type attacker?",
+            "answer": "Treecko's performance as a Grass-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Treecko?",
+            "answer": "The following Mega Pokémon boost Treecko: Mega Venusaur, Mega Sceptile, Primal Groudon, and Mega Abomasnow."
+        },
+        {
+            "question": "What is Treecko’s maximum CP at Level 40 and Level 50?",
+            "answer": "Treecko’s maximum CP at Level 40 is 1053 CP and 1190 CP at Level 50."
+        },
+        {
+            "question": "Can Treecko be shiny in Pokémon GO?",
+            "answer": "Treecko can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Treecko Dynamax in Pokémon GO?",
+            "answer": "Treecko cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

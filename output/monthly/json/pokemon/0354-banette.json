@@ -1,0 +1,835 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2599,
+        "attack": 218,
+        "defense": 126,
+        "stamina": 162,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Banette",
+        "forms": [
+            {
+                "name": "Banette",
+                "href": "/pokemon/354",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/354.webp"
+            },
+            {
+                "name": "Mega Banette",
+                "href": "/pokemon/354-Mega",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/354_f2.webp"
+            },
+            {
+                "name": "Shadow Banette",
+                "href": "/pokemon/354-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/354.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/354.webp",
+        "types": [
+            "Ghost"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Shadow Claw",
+            "charged": "Shadow Ball",
+            "dps": 11.94,
+            "tdo": 138.89,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 11.94,
+                "tdo": 138.9,
+                "score": 9.83
+            },
+            {
+                "rank": 2,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 11.46,
+                "tdo": 133.4,
+                "score": 9.44
+            },
+            {
+                "rank": 3,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 10.43,
+                "tdo": 121.3,
+                "score": 8.59
+            },
+            {
+                "rank": 4,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Thunder",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 9.64,
+                "tdo": 112.1,
+                "score": 7.94
+            },
+            {
+                "rank": 5,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 9.45,
+                "tdo": 110.0,
+                "score": 7.78
+            },
+            {
+                "rank": 6,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Thunder",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 8.06,
+                "tdo": 93.7,
+                "score": 6.64
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Shadow Claw",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.3s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/213"
+            },
+            {
+                "name": "Hex",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 8,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 8,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/264"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Thunder",
+                "type": "Electric",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/78"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.1s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/86"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Banette's has 2599 max CP (at Level 50). A Banette obtained from Raids can be encountered from 1244 CP to 1313 CP, or if weather boosted, in the 1555 CP to 1642 CP range. In Field and Special Research, Banette can be found in the 933 CP to 985 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2599",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "933 - 985",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1244 - 1313",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1244 - 1313",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1555 - 1642",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1555 CP - 1642 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 32,
+        "2": 101,
+        "3": 171,
+        "4": 240,
+        "5": 310,
+        "6": 379,
+        "7": 448,
+        "8": 518,
+        "9": 587,
+        "10": 657,
+        "11": 722,
+        "12": 788,
+        "13": 854,
+        "14": 919,
+        "15": 985,
+        "16": 1051,
+        "17": 1116,
+        "18": 1182,
+        "19": 1247,
+        "20": 1313,
+        "21": 1379,
+        "22": 1445,
+        "23": 1510,
+        "24": 1576,
+        "25": 1642,
+        "26": 1707,
+        "27": 1773,
+        "28": 1839,
+        "29": 1904,
+        "30": 1970,
+        "31": 2003,
+        "32": 2036,
+        "33": 2069,
+        "34": 2102,
+        "35": 2134,
+        "36": 2167,
+        "37": 2200,
+        "38": 2233,
+        "39": 2266,
+        "40": 2298,
+        "41": 2328,
+        "42": 2357,
+        "43": 2387,
+        "44": 2416,
+        "45": 2446,
+        "46": 2476,
+        "47": 2507,
+        "48": 2537,
+        "49": 2568,
+        "50": 2599
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Shuppet",
+                    "href": "/pokemon/353",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/353.webp"
+                },
+                "to": {
+                    "name": "Banette",
+                    "href": "/pokemon/354",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/354.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Banette",
+                    "href": "/pokemon/354",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/354.webp"
+                },
+                "to": {
+                    "name": "Mega Banette",
+                    "href": "/pokemon/354-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "100 / 20 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Shuppet",
+                "href": "/pokemon/353",
+                "img": "https://db.pokemongohub.net/images/official/medium/353.webp"
+            },
+            {
+                "name": "Banette",
+                "href": "/pokemon/354",
+                "img": "https://db.pokemongohub.net/images/official/medium/354.webp"
+            },
+            {
+                "name": "Mega Banette",
+                "href": "/pokemon/354-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Shuppet",
+                "href": "/pokemon/353-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Banette",
+                "href": "/pokemon/354-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Banette in the meta PvE Analysis Banette doesn't outperform in PvE , but with a satisfactory Attack and perfect moveset , it can be snuck into your group of Ghost types . 👻 ⚔️ Raids There are several good Ghost types in Pokémon GO, and if you're lacking top contenders, Banette is a fine choice. 🙂 🛡️ Gyms While it has nice offenses , its ability to take damage is subpar. Not your ideal Gym defender . 🫤 PvP Analysis 🔵 Great League Extremely concerning bulk is a nail in the coffin for Banette in the Great League , and even though it can grab some 1v1 wins with its excellent moveset , you're going to risk getting more losses overall since this Pokémon is more of a liability. 😶 🟡 Ultra League While Banette can pull off surprising wins (at times) in the Great League , it falls hard in the Ultra League , a battlefield filled with the most Ghost types around. Don't run Banette here when there are so many superior options. 😌 🟣 Master League Most of its foes in the Master League aren't even Ghost types , yet they are scarier than Banette . 🤭",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Banette",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Banette's Ghost-type moves, Candy, and Candy XL from catching Banette.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 354,
+            "height_m": 1.09,
+            "weight_kg": 12.5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": 15,
+        "size_info": {
+            "xxs": "0.53 m",
+            "xs": "0.55 m",
+            "m": "1.09 m",
+            "xl": "1.64 m",
+            "xxl": "1.91 m",
+            "description": "Banette's height ranges from 0.53 m to 1.91 m, with the average being 1.09 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.5341,
+                "upper_m": 0.545,
+                "lower_ft": "1′09″",
+                "upper_ft": "1′09″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.545,
+                "upper_m": 1.09,
+                "lower_ft": "1′09″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.8175,
+                "upper_m": 1.3625,
+                "lower_ft": "2′08″",
+                "upper_ft": "4′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.3625,
+                "upper_m": 1.635,
+                "lower_ft": "4′06″",
+                "upper_ft": "5′04″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.635,
+                "upper_m": 1.9075,
+                "lower_ft": "5′04″",
+                "upper_ft": "6′03″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 20.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "BANETTE generates energy for laying strong curses by sticking pins into its own body. This POKéMON was originally a pitiful plush doll that was thrown away."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "A cursed energy permeated the stuffing of a discarded and forgotten plush doll, giving it new life as BANETTE. The POKéMON’s energy would escape if it were to ever open its mouth."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "An abandoned plush doll became this POKéMON. They are said to live in garbage dumps and wander about in search of the children that threw them away."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "Strong feelings of hatred turned a puppet into a POKéMON. If it opens its mouth, its cursed energy escapes."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "A doll that became a Pokémon over its grudge from being junked. It seeks the child that disowned it."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "A doll that became a Pokémon over its grudge of being thrown away. It seeks the child who disowned it."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "A doll that became a Pokémon over its grudge from being junked. It seeks the child that disowned it."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Strong feelings of hatred turned a puppet into a Pokémon. If it opens its mouth, its cursed energy escapes."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Banette generates energy for laying strong curses by sticking pins into its own body. This Pokémon was originally a pitiful plush doll that was thrown away."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "A cursed energy permeated the stuffing of a discarded and forgotten plush doll, giving it new life as Banette. The Pokémon’s energy would escape if it were to ever open its mouth."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It’s a stuffed toy that was thrown away and became possessed, ever searching for the one who threw it away so it can exact its revenge."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Resentment at being cast off made it spring into being. Some say that treating it well will satisfy it, and it will once more become a stuffed toy."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Banette",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm354.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm354.icon.png"
+            },
+            {
+                "label": "Shiny Banette",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm354.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm354.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 354,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0354_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0354_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Banette sprite"
+            },
+            {
+                "pokedex_number": 354,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0354_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0354_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Banette sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/354_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/354_social.jpg",
+                "alt": "Banette"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/354_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/354_social_dark.jpg",
+                "alt": "Banette"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/354_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/354_social_map.jpg",
+                "alt": "Banette"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/354_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/354_social_map_dark.jpg",
+                "alt": "Banette"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Banette’s strengths and weaknesses?",
+            "answer": "As a Ghost-type Pokémon, Banette is weak to Dark and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Banette in Pokémon GO?",
+            "answer": "The best moves for Banette in Pokémon GO are Shadow Claw and Shadow Ball. This moveset has a DPS (Damage Per Second) of 11.94 and a TDO (Total Damage Output) of 138.886."
+        },
+        {
+            "question": "How does Banette perform in Raids?",
+            "answer": "Banette's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Banette rank as a Ghost-type attacker?",
+            "answer": "Banette is a D-Tier Ghost-type attacker, struggling in Raids due to its lower stats or suboptimal moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Banette?",
+            "answer": "The following Mega Pokémon boost Banette: Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Banette’s maximum CP at Level 40 and Level 50?",
+            "answer": "Banette’s maximum CP at Level 40 is 2298 CP and 2599 CP at Level 50."
+        },
+        {
+            "question": "Can Banette be shiny in Pokémon GO?",
+            "answer": "Banette can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Banette Dynamax in Pokémon GO?",
+            "answer": "Banette cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,791 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1230,
+        "attack": 108,
+        "defense": 117,
+        "stamina": 137,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Clauncher",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/692.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Crabhammer",
+            "dps": 6.34,
+            "tdo": 59.26,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Crabhammer",
+                "charged_url": "https://db.pokemongohub.net/move/305",
+                "dps": 6.34,
+                "tdo": 59.3,
+                "score": 5.0
+            },
+            {
+                "rank": 2,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Crabhammer",
+                "charged_url": "https://db.pokemongohub.net/move/305",
+                "dps": 5.38,
+                "tdo": 50.4,
+                "score": 4.25
+            },
+            {
+                "rank": 3,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 5.07,
+                "tdo": 47.4,
+                "score": 4.0
+            },
+            {
+                "rank": 4,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 4.89,
+                "tdo": 45.7,
+                "score": 3.86
+            },
+            {
+                "rank": 5,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.6,
+                "tdo": 43.0,
+                "score": 3.63
+            },
+            {
+                "rank": 6,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 4.54,
+                "tdo": 42.5,
+                "score": 3.58
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            },
+            {
+                "name": "Smack Down",
+                "type": "Rock",
+                "stats": {
+                    "damage": 13,
+                    "energy": 7,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 7,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/297"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aqua Jet",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/57"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Crabhammer",
+                "type": "Water",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.6s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 85,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/305"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Clauncher's has 1230 max CP (at Level 50). A Clauncher obtained from Raids can be encountered from 575 CP to 621 CP, or if weather boosted, in the 719 CP to 777 CP range. In Field and Special Research, Clauncher can be found in the 431 CP to 466 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1230",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "431 - 466",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "575 - 621",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "575 - 621",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "719 - 777",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "719 CP - 777 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 15,
+        "2": 48,
+        "3": 81,
+        "4": 113,
+        "5": 146,
+        "6": 179,
+        "7": 212,
+        "8": 245,
+        "9": 278,
+        "10": 311,
+        "11": 342,
+        "12": 373,
+        "13": 404,
+        "14": 435,
+        "15": 466,
+        "16": 497,
+        "17": 528,
+        "18": 559,
+        "19": 590,
+        "20": 621,
+        "21": 652,
+        "22": 683,
+        "23": 715,
+        "24": 746,
+        "25": 777,
+        "26": 808,
+        "27": 839,
+        "28": 870,
+        "29": 901,
+        "30": 932,
+        "31": 948,
+        "32": 963,
+        "33": 979,
+        "34": 994,
+        "35": 1010,
+        "36": 1026,
+        "37": 1041,
+        "38": 1057,
+        "39": 1072,
+        "40": 1088,
+        "41": 1101,
+        "42": 1115,
+        "43": 1129,
+        "44": 1143,
+        "45": 1158,
+        "46": 1172,
+        "47": 1186,
+        "48": 1201,
+        "49": 1215,
+        "50": 1230
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Clauncher",
+                    "href": "/pokemon/692",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/692.webp"
+                },
+                "to": {
+                    "name": "Clawitzer",
+                    "href": "/pokemon/693",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/693.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Clauncher",
+                "href": "/pokemon/692",
+                "img": "https://db.pokemongohub.net/images/official/medium/692.webp"
+            },
+            {
+                "name": "Clawitzer",
+                "href": "/pokemon/693",
+                "img": "https://db.pokemongohub.net/images/official/medium/693.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Clauncher in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Clauncher",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Clauncher's Water-type moves, Candy, and Candy XL from catching Clauncher.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 692,
+            "height_m": 0.5,
+            "weight_kg": 8.3,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.88 m",
+            "description": "Clauncher's height ranges from 0.25 m to 0.88 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.875,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Through controlled explosions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Its claws occasionally fall off, and it keeps a low profile until they grow back. The meat of its claws is so delicious!"
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It moves around by jetting water from its right pincer. It has a poor sense of balance, so it’s terrible at swimming straight."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Clauncher’s claws can fall off during battle, but they’ll regenerate. The meat inside the claws is popular as a delicacy in Galar."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "By detonating gas that accumulates in its right claw, this Pokémon launches water like a bullet. This is how Clauncher defeats its enemies."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Clauncher",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm692.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm692.icon.png"
+            },
+            {
+                "label": "Shiny Clauncher",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm692.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm692.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 692,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0692_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0692_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Clauncher sprite"
+            },
+            {
+                "pokedex_number": 692,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0692_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0692_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Clauncher sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/692_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/692_social.jpg",
+                "alt": "Clauncher"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/692_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/692_social_dark.jpg",
+                "alt": "Clauncher"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/692_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/692_social_map.jpg",
+                "alt": "Clauncher"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/692_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/692_social_map_dark.jpg",
+                "alt": "Clauncher"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Clauncher’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Clauncher is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Clauncher in Pokémon GO?",
+            "answer": "The best moves for Clauncher in Pokémon GO are Water Gun and Crabhammer. This moveset has a DPS (Damage Per Second) of 6.336 and a TDO (Total Damage Output) of 59.257."
+        },
+        {
+            "question": "How does Clauncher perform in Raids?",
+            "answer": "Clauncher's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Clauncher rank as a Water-type attacker?",
+            "answer": "Clauncher is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Clauncher?",
+            "answer": "The following Mega Pokémon boost Clauncher: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Clauncher’s maximum CP at Level 40 and Level 50?",
+            "answer": "Clauncher’s maximum CP at Level 40 is 1088 CP and 1230 CP at Level 50."
+        },
+        {
+            "question": "Can Clauncher be shiny in Pokémon GO?",
+            "answer": "Clauncher can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Clauncher Dynamax in Pokémon GO?",
+            "answer": "Clauncher cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

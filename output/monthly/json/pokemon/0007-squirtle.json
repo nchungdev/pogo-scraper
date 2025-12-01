@@ -1,0 +1,988 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1069,
+        "attack": 94,
+        "defense": 121,
+        "stamina": 127,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Squirtle",
+        "forms": [
+            {
+                "name": "Squirtle",
+                "href": "/pokemon/7",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/007.webp"
+            },
+            {
+                "name": "Shadow Squirtle",
+                "href": "/pokemon/7-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/007.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/007.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bubble",
+            "charged": "Aqua Tail",
+            "dps": 4.75,
+            "tdo": 42.78,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Aqua Tail",
+                "charged_url": "https://db.pokemongohub.net/move/58",
+                "dps": 4.75,
+                "tdo": 42.8,
+                "score": 3.72
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Aqua Tail",
+                "charged_url": "https://db.pokemongohub.net/move/58",
+                "dps": 4.63,
+                "tdo": 41.6,
+                "score": 3.62
+            },
+            {
+                "rank": 3,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.29,
+                "tdo": 38.6,
+                "score": 3.36
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.2,
+                "tdo": 37.8,
+                "score": 3.28
+            },
+            {
+                "rank": 5,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 4.14,
+                "tdo": 37.3,
+                "score": 3.24
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 4.08,
+                "tdo": 36.7,
+                "score": 3.2
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Bubble",
+                "type": "Water",
+                "stats": {
+                    "damage": 10,
+                    "energy": 12,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 12,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/237"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aqua Jet",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/57"
+            },
+            {
+                "name": "Aqua Tail",
+                "type": "Water",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/58"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Squirtle's has 1069 max CP (at Level 50). A Squirtle obtained from Raids can be encountered from 497 CP to 540 CP, or if weather boosted, in the 621 CP to 675 CP range. In Field and Special Research, Squirtle can be found in the 372 CP to 405 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1069",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "372 - 405",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "497 - 540",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "497 - 540",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "621 - 675",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "621 CP - 675 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 41,
+        "3": 70,
+        "4": 99,
+        "5": 127,
+        "6": 156,
+        "7": 184,
+        "8": 213,
+        "9": 241,
+        "10": 270,
+        "11": 297,
+        "12": 324,
+        "13": 351,
+        "14": 378,
+        "15": 405,
+        "16": 432,
+        "17": 459,
+        "18": 486,
+        "19": 513,
+        "20": 540,
+        "21": 567,
+        "22": 594,
+        "23": 621,
+        "24": 648,
+        "25": 675,
+        "26": 702,
+        "27": 729,
+        "28": 756,
+        "29": 783,
+        "30": 810,
+        "31": 824,
+        "32": 837,
+        "33": 851,
+        "34": 865,
+        "35": 878,
+        "36": 892,
+        "37": 905,
+        "38": 919,
+        "39": 932,
+        "40": 946,
+        "41": 958,
+        "42": 970,
+        "43": 982,
+        "44": 994,
+        "45": 1006,
+        "46": 1019,
+        "47": 1031,
+        "48": 1044,
+        "49": 1056,
+        "50": 1069
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Squirtle",
+                    "href": "/pokemon/7",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/007.webp"
+                },
+                "to": {
+                    "name": "Wartortle",
+                    "href": "/pokemon/8",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/008.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Wartortle",
+                    "href": "/pokemon/8",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/008.webp"
+                },
+                "to": {
+                    "name": "Blastoise",
+                    "href": "/pokemon/9",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/009.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Blastoise",
+                    "href": "/pokemon/9",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/009.webp"
+                },
+                "to": {
+                    "name": "Mega Blastoise",
+                    "href": "/pokemon/9-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Squirtle",
+                "href": "/pokemon/7",
+                "img": "https://db.pokemongohub.net/images/official/medium/007.webp"
+            },
+            {
+                "name": "Wartortle",
+                "href": "/pokemon/8",
+                "img": "https://db.pokemongohub.net/images/official/medium/008.webp"
+            },
+            {
+                "name": "Blastoise",
+                "href": "/pokemon/9",
+                "img": "https://db.pokemongohub.net/images/official/medium/009.webp"
+            },
+            {
+                "name": "Gigantamax Blastoise",
+                "href": "/pokemon/9-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/009_gmax.webp"
+            },
+            {
+                "name": "Mega Blastoise",
+                "href": "/pokemon/9-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Squirtle",
+                "href": "/pokemon/7-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Wartortle",
+                "href": "/pokemon/8-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Blastoise",
+                "href": "/pokemon/9-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Squirtle in the meta PvE Analysis ⚔️ Raids – As awesome as Squirtle is, was, and ever will be, bringing it to a raid is asking for trouble. 🛡️ Gyms – Shiny flex only. 🔮 Dynamax - Squirtle can Dynamax , and is capable of taking down 1-star Dynamax bosses on its own. However, you'll want to both evolve and power up your Dynamax Squirtles to take down the harder bosses. PvP Analysis Preferred Moveset: Bubble , Aqua Tail , & Water Pulse 🧸 Little Cup - Squirtle's moveset and average stats don't give it a lot of flexibility, but it can handle many of the Fire and Ground types in the Little Cup meta. Its success is very much alignment dependent. 🔵 Great League - With a max CP of 1069 , Squirtle has no place in the Great League scene. 🟡 Ultra League - Same as above. 🟣 Master League - Same as above.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Squirtle",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Squirtle's Water-type moves, Candy, and Candy XL from catching Squirtle.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 7,
+            "height_m": 0.5,
+            "weight_kg": 9,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": 15,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.88 m",
+            "description": "Squirtle's height ranges from 0.25 m to 0.88 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.875,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "Shoots water at prey while in the water. Withdraws into its shell when in danger."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "The shell is soft when it is born. It soon becomes so resilient, prod ding fingers will bounce off it."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "The shell, which hardens soon after it is born, is resilient. If you poke it, it will bounce back out."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "When it feels threatened, it draws its legs inside its shell and sprays water from its mouth."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "SQUIRTLE’s shell is not merely used for protection. The shell’s rounded shape and the grooves on its surface help minimize resistance in water, enabling this POKéMON to swim at high speeds."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "Its shell is not just for protection. Its rounded shape and the grooves on its surface minimize resistance in water, enabling SQUIRTLE to swim at high speeds."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "When it retracts its long neck into its shell, it squirts out water with vigorous force."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It shelters itself in its shell, then strikes back with spouts of water at every opportunity."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "The shell is soft when it is born. It soon becomes so resilient, prodding fingers will bounce off it."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "The shell, which hardens soon after it is born, is resilient. If you poke it, it will bounce back out."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It shelters itself in its shell then strikes back with spouts of water at every opportunity."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It shelters itself in its shell, then strikes back with spouts of water at every opportunity."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Shoots water at prey while in the water. Withdraws into its shell when in danger."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Squirtle’s shell is not merely used for protection. The shell’s rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Squirtle’s shell is not merely used for protection. The shell’s rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "Shoots water at prey while in the water. Withdraws into its shell when in danger."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "When it retracts its long neck into its shell, it squirts out water with vigorous force."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Squirtle",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm7.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm7.icon.png"
+            },
+            {
+                "label": "Shiny Squirtle",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm7.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm7.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 7,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0007_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0007_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Squirtle sprite"
+            },
+            {
+                "pokedex_number": 7,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0007_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0007_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Squirtle sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/007_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/007_social.jpg",
+                "alt": "Squirtle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/007_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/007_social_dark.jpg",
+                "alt": "Squirtle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/007_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/007_social_map.jpg",
+                "alt": "Squirtle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/007_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/007_social_map_dark.jpg",
+                "alt": "Squirtle"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 7,
+            "name": "Squirtle",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm7.cJAN_2020_NOEVOLVE.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm7.cJAN_2020_NOEVOLVE.icon.png",
+            "category": "Jan 2020"
+        },
+        {
+            "pokedex_number": 7,
+            "name": "Shiny Squirtle",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm7.cJAN_2020_NOEVOLVE.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm7.cJAN_2020_NOEVOLVE.s.icon.png",
+            "category": "Jan 2020"
+        },
+        {
+            "pokedex_number": 7,
+            "name": "Squirtle",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm7.cSPRING_2020_NOEVOLVE.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm7.cSPRING_2020_NOEVOLVE.icon.png",
+            "category": "Spring 2020"
+        },
+        {
+            "pokedex_number": 7,
+            "name": "Shiny Squirtle",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm7.cSPRING_2020_NOEVOLVE.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm7.cSPRING_2020_NOEVOLVE.s.icon.png",
+            "category": "Spring 2020"
+        },
+        {
+            "pokedex_number": 7,
+            "name": "Squirtle",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm7.cSUMMER_2018.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm7.cSUMMER_2018.icon.png",
+            "category": "Summer 2018"
+        },
+        {
+            "pokedex_number": 7,
+            "name": "Shiny Squirtle",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm7.cSUMMER_2018.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm7.cSUMMER_2018.s.icon.png",
+            "category": "Summer 2018"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Squirtle’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Squirtle is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Squirtle in Pokémon GO?",
+            "answer": "The best moves for Squirtle in Pokémon GO are Bubble and Aqua Tail. This moveset has a DPS (Damage Per Second) of 4.753 and a TDO (Total Damage Output) of 42.78."
+        },
+        {
+            "question": "How does Squirtle perform in Raids?",
+            "answer": "Squirtle's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Squirtle rank as a Water-type attacker?",
+            "answer": "Squirtle's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Squirtle?",
+            "answer": "The following Mega Pokémon boost Squirtle: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Squirtle’s maximum CP at Level 40 and Level 50?",
+            "answer": "Squirtle’s maximum CP at Level 40 is 946 CP and 1069 CP at Level 50."
+        },
+        {
+            "question": "Can Squirtle be shiny in Pokémon GO?",
+            "answer": "Squirtle can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Squirtle Dynamax in Pokémon GO?",
+            "answer": "Squirtle can Dynamax in Pokémon GO."
+        }
+    ]
+}

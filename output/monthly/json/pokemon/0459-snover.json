@@ -1,0 +1,982 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1311,
+        "attack": 115,
+        "defense": 105,
+        "stamina": 155,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Snover",
+        "forms": [
+            {
+                "name": "Snover",
+                "href": "/pokemon/459",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/459.webp"
+            },
+            {
+                "name": "Shadow Snover",
+                "href": "/pokemon/459-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/459.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/459.webp",
+        "types": [
+            "Grass",
+            "Ice"
+        ],
+        "weather_boost": [
+            "sunny",
+            "snow"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Leafage",
+            "charged": "Ice Beam",
+            "dps": 6.23,
+            "tdo": 59.21,
+            "boosted_weather": [
+                "sunny",
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Leafage",
+                "fast_url": "https://db.pokemongohub.net/move/385",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 6.23,
+                "tdo": 59.2,
+                "score": 4.93
+            },
+            {
+                "rank": 2,
+                "fast": "Leafage",
+                "fast_url": "https://db.pokemongohub.net/move/385",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 5.87,
+                "tdo": 55.8,
+                "score": 4.65
+            },
+            {
+                "rank": 3,
+                "fast": "Leafage",
+                "fast_url": "https://db.pokemongohub.net/move/385",
+                "charged": "Stomp",
+                "charged_url": "https://db.pokemongohub.net/move/127",
+                "dps": 5.77,
+                "tdo": 54.9,
+                "score": 4.57
+            },
+            {
+                "rank": 4,
+                "fast": "Ice Shard",
+                "fast_url": "https://db.pokemongohub.net/move/217",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 5.61,
+                "tdo": 53.4,
+                "score": 4.45
+            },
+            {
+                "rank": 5,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 5.42,
+                "tdo": 51.5,
+                "score": 4.29
+            },
+            {
+                "rank": 6,
+                "fast": "Ice Shard",
+                "fast_url": "https://db.pokemongohub.net/move/217",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 5.22,
+                "tdo": 49.6,
+                "score": 4.13
+            },
+            {
+                "rank": 7,
+                "fast": "Ice Shard",
+                "fast_url": "https://db.pokemongohub.net/move/217",
+                "charged": "Stomp",
+                "charged_url": "https://db.pokemongohub.net/move/127",
+                "dps": 4.94,
+                "tdo": 47.0,
+                "score": 3.91
+            },
+            {
+                "rank": 8,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 4.89,
+                "tdo": 46.5,
+                "score": 3.87
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ice Shard",
+                "type": "Ice",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.4s - 0.7s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/217"
+            },
+            {
+                "name": "Powder Snow",
+                "type": "Ice",
+                "stats": {
+                    "damage": 6,
+                    "energy": 15,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 15,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/244"
+            },
+            {
+                "name": "Leafage",
+                "type": "Grass",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.7s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/385"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ice Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/39"
+            },
+            {
+                "name": "Stomp",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 50,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/127"
+            },
+            {
+                "name": "Energy Ball",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/273"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Snover's has 1311 max CP (at Level 50). A Snover obtained from Raids can be encountered from 614 CP to 662 CP, or if weather boosted, in the 768 CP to 828 CP range. In Field and Special Research, Snover can be found in the 460 CP to 497 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1311",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "460 - 497",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "614 - 662",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "614 - 662",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "768 - 828",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "768 CP - 828 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 16,
+        "2": 51,
+        "3": 86,
+        "4": 121,
+        "5": 156,
+        "6": 191,
+        "7": 226,
+        "8": 261,
+        "9": 296,
+        "10": 331,
+        "11": 364,
+        "12": 397,
+        "13": 430,
+        "14": 463,
+        "15": 497,
+        "16": 530,
+        "17": 563,
+        "18": 596,
+        "19": 629,
+        "20": 662,
+        "21": 695,
+        "22": 728,
+        "23": 762,
+        "24": 795,
+        "25": 828,
+        "26": 861,
+        "27": 894,
+        "28": 927,
+        "29": 960,
+        "30": 994,
+        "31": 1010,
+        "32": 1027,
+        "33": 1043,
+        "34": 1060,
+        "35": 1076,
+        "36": 1093,
+        "37": 1110,
+        "38": 1126,
+        "39": 1143,
+        "40": 1159,
+        "41": 1174,
+        "42": 1189,
+        "43": 1204,
+        "44": 1219,
+        "45": 1234,
+        "46": 1249,
+        "47": 1264,
+        "48": 1280,
+        "49": 1295,
+        "50": 1311
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Snover",
+                    "href": "/pokemon/459",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/459.webp"
+                },
+                "to": {
+                    "name": "Abomasnow",
+                    "href": "/pokemon/460",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/460.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Abomasnow",
+                    "href": "/pokemon/460",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/460.webp"
+                },
+                "to": {
+                    "name": "Mega Abomasnow",
+                    "href": "/pokemon/460-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Snover",
+                "href": "/pokemon/459",
+                "img": "https://db.pokemongohub.net/images/official/medium/459.webp"
+            },
+            {
+                "name": "Abomasnow",
+                "href": "/pokemon/460",
+                "img": "https://db.pokemongohub.net/images/official/medium/460.webp"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "href": "/pokemon/460-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Snover",
+                "href": "/pokemon/459-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Abomasnow",
+                "href": "/pokemon/460-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Snover in the meta PvE Analysis The Ice/Grass-type Snover is not worth running in PvE due to its low stats. 🙃 ⚔️ Raids Its Ice-type attacks are not powerful enough to trouble Pokémon double weak to Ice . 😬 Also, it doesn't even have a Grass-type Quick attack , so that meta is out of the equation. 🛡️ Gyms The Ice/Grass combo has seven weaknesses , including a double weakness to Fire-type moves . Think again. 😅 PvP Analysis 🧸 Little Cup It can gain some wins against Pokémon weak to Ice or Ground . Otherwise, Snover’s slew of weaknesses really holds it back. 😭 🔵 Great League NO ENTRY 🚫 🟡 Ultra League Avoid at all costs! 🟣 Master League It's snOVER ! 😅",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Snover",
+        "type": "Grass",
+        "intro_text": "A list of Mega Pokémon that boost Snover's Grass and Ice-type moves, Candy, and Candy XL from catching Snover.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 459,
+            "height_m": 1,
+            "weight_kg": 50.5,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": 15,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "1.75 m",
+            "description": "Snover's height ranges from 0.49 m to 1.75 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 1.75,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 10.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "In the spring, it grows berries with the texture of frozen treats around its belly."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Seemingly curious about people, they gather around footsteps they find on snowy mountains."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "During cold seasons, it migrates to the mountain’s lower reaches. It returns to the snow-covered summit in the spring."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "During cold seasons, it migrates to the mountain’s lower reaches. It returns to the snow-covered summit in the spring."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "In the spring, it grows berries with the texture of frozen treats around its belly."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It lives on snowy mountains. It sinks its legs into the snow to absorb water and keep its own temperature down."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "The berries that grow around its belly are like ice pops. Galarian Darumaka absolutely love these berries."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "One is likely to encounter this Pokémon while out in the snow. There are stories of Snover appearing in human settlements but doing no harm—rather, they bond with the children."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Snover",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm459.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm459.icon.png"
+            },
+            {
+                "label": "Regular Snover♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm459.g2.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm459.g2.icon.png"
+            },
+            {
+                "label": "Shiny Snover",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm459.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm459.s.icon.png"
+            },
+            {
+                "label": "Shiny Snover♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm459.g2.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm459.g2.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 459,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0459_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0459_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Snover ♀ sprite"
+            },
+            {
+                "pokedex_number": 459,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0459_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0459_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Snover ♀ sprite"
+            },
+            {
+                "pokedex_number": 459,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0459_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0459_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Snover sprite"
+            },
+            {
+                "pokedex_number": 459,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0459_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0459_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Snover sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/459_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/459_social.jpg",
+                "alt": "Snover"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/459_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/459_social_dark.jpg",
+                "alt": "Snover"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/459_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/459_social_map.jpg",
+                "alt": "Snover"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/459_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/459_social_map_dark.jpg",
+                "alt": "Snover"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Snover’s strengths and weaknesses?",
+            "answer": "As a Grass and Ice-type Pokémon, Snover is especially weak against Fire-type moves, and weak against Bug, Fighting, Flying, Poison, Rock, and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Snover in Pokémon GO?",
+            "answer": "The best moves for Snover in Pokémon GO are Leafage and Ice Beam. This moveset has a DPS (Damage Per Second) of 6.227 and a TDO (Total Damage Output) of 59.212."
+        },
+        {
+            "question": "How does Snover perform in Raids?",
+            "answer": "Snover's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Snover rank as a Grass-type attacker?",
+            "answer": "Snover is an F-Tier Grass-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Snover rank as a Ice-type attacker?",
+            "answer": "Snover is an F-Tier Ice-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Snover?",
+            "answer": "The following Mega Pokémon boost Snover: Mega Venusaur, Mega Sceptile, Primal Groudon, Mega Abomasnow, Mega Glalie, and Mega Abomasnow."
+        },
+        {
+            "question": "What is Snover’s maximum CP at Level 40 and Level 50?",
+            "answer": "Snover’s maximum CP at Level 40 is 1159 CP and 1311 CP at Level 50."
+        },
+        {
+            "question": "Can Snover be shiny in Pokémon GO?",
+            "answer": "Snover can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Snover Dynamax in Pokémon GO?",
+            "answer": "Snover cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

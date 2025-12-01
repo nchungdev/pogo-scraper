@@ -1,0 +1,718 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2901,
+        "attack": 190,
+        "defense": 166,
+        "stamina": 207,
+        "buddy_distance": 5,
+        "released": false,
+        "shiny_released": false,
+        "title": "Arctozolt",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/881.webp",
+        "types": [
+            "Electric",
+            "Ice"
+        ],
+        "weather_boost": [
+            "rain",
+            "snow"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Thunder Shock",
+            "charged": "Avalanche",
+            "dps": 11.16,
+            "tdo": 208.93,
+            "boosted_weather": [
+                "rain",
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Avalanche",
+                "charged_url": "https://db.pokemongohub.net/move/254",
+                "dps": 11.16,
+                "tdo": 208.9,
+                "score": 9.85
+            },
+            {
+                "rank": 2,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Avalanche",
+                "charged_url": "https://db.pokemongohub.net/move/254",
+                "dps": 10.42,
+                "tdo": 195.1,
+                "score": 9.2
+            },
+            {
+                "rank": 3,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 10.38,
+                "tdo": 194.5,
+                "score": 9.17
+            },
+            {
+                "rank": 4,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 9.78,
+                "tdo": 183.2,
+                "score": 8.64
+            },
+            {
+                "rank": 5,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 7.84,
+                "tdo": 146.8,
+                "score": 6.92
+            },
+            {
+                "rank": 6,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 7.33,
+                "tdo": 137.3,
+                "score": 6.47
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Thunder Shock",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/205"
+            },
+            {
+                "name": "Powder Snow",
+                "type": "Ice",
+                "stats": {
+                    "damage": 6,
+                    "energy": 15,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 15,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/244"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Discharge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.1s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/35"
+            },
+            {
+                "name": "Ancient Power",
+                "type": "Rock",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.9s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/62"
+            },
+            {
+                "name": "Avalanche",
+                "type": "Ice",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.5s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/254"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Arctozolt's has 2901 max CP (at Level 50). A Arctozolt obtained from Raids can be encountered from 1394 CP to 1466 CP, or if weather boosted, in the 1743 CP to 1833 CP range. In Field and Special Research, Arctozolt can be found in the 1046 CP to 1100 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2901",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1046 - 1100",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1394 - 1466",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1394 - 1466",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1743 - 1833",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1743 CP - 1833 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 36,
+        "2": 113,
+        "3": 191,
+        "4": 268,
+        "5": 346,
+        "6": 423,
+        "7": 501,
+        "8": 578,
+        "9": 656,
+        "10": 733,
+        "11": 806,
+        "12": 880,
+        "13": 953,
+        "14": 1026,
+        "15": 1100,
+        "16": 1173,
+        "17": 1246,
+        "18": 1319,
+        "19": 1393,
+        "20": 1466,
+        "21": 1539,
+        "22": 1613,
+        "23": 1686,
+        "24": 1759,
+        "25": 1833,
+        "26": 1906,
+        "27": 1980,
+        "28": 2053,
+        "29": 2126,
+        "30": 2200,
+        "31": 2236,
+        "32": 2273,
+        "33": 2310,
+        "34": 2346,
+        "35": 2383,
+        "36": 2419,
+        "37": 2456,
+        "38": 2493,
+        "39": 2529,
+        "40": 2566,
+        "41": 2599,
+        "42": 2631,
+        "43": 2664,
+        "44": 2698,
+        "45": 2731,
+        "46": 2765,
+        "47": 2798,
+        "48": 2832,
+        "49": 2867,
+        "50": 2901
+    },
+    "meta_analysis": "Arctozolt in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Arctozolt",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Arctozolt's Electric and Ice-type moves, Candy, and Candy XL from catching Arctozolt.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 881,
+            "height_m": 2.3,
+            "weight_kg": 150,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "1.13 m",
+            "xs": "1.15 m",
+            "m": "2.3 m",
+            "xl": "3.45 m",
+            "xxl": "3.57 m",
+            "description": "Arctozolt's height ranges from 1.13 m to 3.57 m, with the average being 2.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 1.127,
+                "upper_m": 1.15,
+                "lower_ft": "3′08″",
+                "upper_ft": "3′09″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.15,
+                "upper_m": 2.3,
+                "lower_ft": "3′09″",
+                "upper_ft": "7′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.725,
+                "upper_m": 2.875,
+                "lower_ft": "5′08″",
+                "upper_ft": "9′05″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.875,
+                "upper_m": 3.45,
+                "lower_ft": "9′05″",
+                "upper_ft": "11′04″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 3.45,
+                "upper_m": 3.565,
+                "lower_ft": "11′04″",
+                "upper_ft": "11′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This Pokémon lived on prehistoric seashores and was able to preserve food with the ice on its body. It went extinct because it moved so slowly."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 881,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0881_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0881_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Arctozolt sprite"
+            },
+            {
+                "pokedex_number": 881,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0881_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0881_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Arctozolt sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/881_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/881_social.jpg",
+                "alt": "Arctozolt"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/881_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/881_social_dark.jpg",
+                "alt": "Arctozolt"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/881_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/881_social_map.jpg",
+                "alt": "Arctozolt"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/881_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/881_social_map_dark.jpg",
+                "alt": "Arctozolt"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Arctozolt’s strengths and weaknesses?",
+            "answer": "As a Electric and Ice-type Pokémon, Arctozolt is weak to Fighting, Fire, Ground, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Arctozolt in Pokémon GO?",
+            "answer": "The best moves for Arctozolt in Pokémon GO are Thunder Shock and Avalanche. This moveset has a DPS (Damage Per Second) of 11.156 and a TDO (Total Damage Output) of 208.934."
+        },
+        {
+            "question": "How does Arctozolt perform in Raids?",
+            "answer": "Arctozolt's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Arctozolt rank as a Electric-type attacker?",
+            "answer": "Arctozolt's performance as a Electric-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Arctozolt?",
+            "answer": "The following Mega Pokémon boost Arctozolt: Mega Ampharos, Mega Manectric, Primal Kyogre, Mega Glalie, and Mega Abomasnow."
+        },
+        {
+            "question": "What is Arctozolt’s maximum CP at Level 40 and Level 50?",
+            "answer": "Arctozolt’s maximum CP at Level 40 is 2566 CP and 2901 CP at Level 50."
+        },
+        {
+            "question": "Can Arctozolt be shiny in Pokémon GO?",
+            "answer": "Arctozolt cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Arctozolt Dynamax in Pokémon GO?",
+            "answer": "Arctozolt cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,955 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3530,
+        "attack": 179,
+        "defense": 309,
+        "stamina": 190,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": true,
+        "title": "Regice",
+        "forms": [
+            {
+                "name": "Regice",
+                "href": "/pokemon/378",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/378.webp"
+            },
+            {
+                "name": "Shadow Regice",
+                "href": "/pokemon/378-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/378.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/378.webp",
+        "types": [
+            "Ice"
+        ],
+        "weather_boost": [
+            "snow"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Lock-On",
+            "charged": "Blizzard",
+            "dps": 9.87,
+            "tdo": 305.6,
+            "boosted_weather": [
+                "partlyCloudy",
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Lock-On",
+                "fast_url": "https://db.pokemongohub.net/move/325",
+                "charged": "Blizzard",
+                "charged_url": "https://db.pokemongohub.net/move/40",
+                "dps": 9.87,
+                "tdo": 305.6,
+                "score": 9.14
+            },
+            {
+                "rank": 2,
+                "fast": "Frost Breath",
+                "fast_url": "https://db.pokemongohub.net/move/218",
+                "charged": "Blizzard",
+                "charged_url": "https://db.pokemongohub.net/move/40",
+                "dps": 9.49,
+                "tdo": 293.8,
+                "score": 8.79
+            },
+            {
+                "rank": 3,
+                "fast": "Frost Breath",
+                "fast_url": "https://db.pokemongohub.net/move/218",
+                "charged": "Earthquake",
+                "charged_url": "https://db.pokemongohub.net/move/31",
+                "dps": 8.72,
+                "tdo": 269.9,
+                "score": 8.07
+            },
+            {
+                "rank": 4,
+                "fast": "Frost Breath",
+                "fast_url": "https://db.pokemongohub.net/move/218",
+                "charged": "Focus Blast",
+                "charged_url": "https://db.pokemongohub.net/move/247",
+                "dps": 8.72,
+                "tdo": 269.9,
+                "score": 8.07
+            },
+            {
+                "rank": 5,
+                "fast": "Lock-On",
+                "fast_url": "https://db.pokemongohub.net/move/325",
+                "charged": "Earthquake",
+                "charged_url": "https://db.pokemongohub.net/move/31",
+                "dps": 8.52,
+                "tdo": 263.9,
+                "score": 7.89
+            },
+            {
+                "rank": 6,
+                "fast": "Lock-On",
+                "fast_url": "https://db.pokemongohub.net/move/325",
+                "charged": "Focus Blast",
+                "charged_url": "https://db.pokemongohub.net/move/247",
+                "dps": 8.52,
+                "tdo": 263.9,
+                "score": 7.89
+            },
+            {
+                "rank": 7,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Blizzard",
+                "charged_url": "https://db.pokemongohub.net/move/40",
+                "dps": 8.36,
+                "tdo": 258.7,
+                "score": 7.73
+            },
+            {
+                "rank": 8,
+                "fast": "Frost Breath",
+                "fast_url": "https://db.pokemongohub.net/move/218",
+                "charged": "Thunder *",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 8.12,
+                "tdo": 251.3,
+                "score": 7.51
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Frost Breath",
+                "type": "Ice",
+                "stats": {
+                    "damage": 11,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 9,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/218"
+            },
+            {
+                "name": "Rock Smash",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 17,
+                    "energy": 12,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 17,
+                    "energy": 12,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/241"
+            },
+            {
+                "name": "Lock-On",
+                "type": "Normal",
+                "stats": {
+                    "damage": 2,
+                    "energy": 10,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 2,
+                    "energy": 10,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.4s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 1,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/325"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Earthquake",
+                "type": "Ground",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.4s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/31"
+            },
+            {
+                "name": "Blizzard",
+                "type": "Ice",
+                "stats": {
+                    "damage": 130,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 130,
+                    "energy": 100,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 140,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/40"
+            },
+            {
+                "name": "Thunder *",
+                "type": "Electric",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/78"
+            },
+            {
+                "name": "Focus Blast",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "3.0s - 3.5s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/247"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Regice's has 3530 max CP (at Level 50). A Regice obtained from Raids can be encountered from 1703 CP to 1784 CP, or if weather boosted, in the 2129 CP to 2230 CP range. In Field and Special Research, Regice can be found in the 1277 CP to 1338 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3530",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1277 - 1338",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1703 - 1784",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1703 - 1784",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2129 - 2230",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2129 CP - 2230 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 44,
+        "2": 138,
+        "3": 232,
+        "4": 326,
+        "5": 421,
+        "6": 515,
+        "7": 609,
+        "8": 703,
+        "9": 798,
+        "10": 892,
+        "11": 981,
+        "12": 1070,
+        "13": 1160,
+        "14": 1249,
+        "15": 1338,
+        "16": 1427,
+        "17": 1516,
+        "18": 1605,
+        "19": 1695,
+        "20": 1784,
+        "21": 1873,
+        "22": 1962,
+        "23": 2052,
+        "24": 2141,
+        "25": 2230,
+        "26": 2319,
+        "27": 2409,
+        "28": 2498,
+        "29": 2587,
+        "30": 2676,
+        "31": 2721,
+        "32": 2765,
+        "33": 2810,
+        "34": 2855,
+        "35": 2899,
+        "36": 2944,
+        "37": 2988,
+        "38": 3033,
+        "39": 3078,
+        "40": 3122,
+        "41": 3162,
+        "42": 3202,
+        "43": 3242,
+        "44": 3282,
+        "45": 3323,
+        "46": 3364,
+        "47": 3405,
+        "48": 3446,
+        "49": 3488,
+        "50": 3530
+    },
+    "meta_analysis": "Regice in the meta PvE Analysis Regice’s low ATK does it no favors in the PvE meta, as it gets lost in the crowded landscape of stronger Ice -type Pokémon. 🥶 ⚔️ Raids You might think using Regice against Dragon -type Raid Bosses that are double weak to Ice -type moves would make it worth using, but to be honest, its low damage output only wastes precious battle time. 🛡️ Gyms Legendaries can't be used to defend Gyms. PvP Analysis Ice is one of the worst defensive typings, not only because of its four weaknesses to Fighting , Fire , Rock , and Steel , but also because it only resists Ice types. 🥲 Still, Regice kind of makes up for it due to its insanely high DEF but also quick access to high-cost Charged Moves thanks to Lock-On . It's not Registeel , but it’s still decent in PvP, mainly because Ice is an excellent offensive typing. ❄️ 🔵 Great League The powerful but expensive moveset duo of Blizzard and Thunder is highly functional for Regice thanks to the incredible energy gains of Lock-On . Both get amazing coverage and cement the bulky Regice as an eyeball-turning threat in this format. 👀 Azumarill , Feraligatr , Cresselia , Toxapex … all fall to Regice ! 🗻 🟡 Ultra League Regice's surprising display of power continues in the Ultra League, slaying the mighty Giratina Altered as well as other strong opponents! 😎 It's bulky enough to tank hits and farm energy with Lock-On , making it a formidable threat even when shields are up. 👍 🟣 Master League Regice is outclassed by numerous Ice types in the Master League. While it isn't the most reliable Pokémon in this format, it can still beat some of the best Dragon , Flying , and Ground types. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Regice",
+        "type": "Ice",
+        "intro_text": "A list of Mega Pokémon that boost Regice's Ice-type moves, Candy, and Candy XL from catching Regice.",
+        "mega_list": [
+            {
+                "name": "Mega Glalie",
+                "pokemon_id": 362,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/362-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 378,
+            "height_m": 1.8,
+            "weight_kg": 175,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.88 m",
+            "xs": "0.9 m",
+            "m": "1.8 m",
+            "xl": "2.7 m",
+            "xxl": "2.79 m",
+            "description": "Regice's height ranges from 0.88 m to 2.79 m, with the average being 1.8 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.882,
+                "upper_m": 0.9,
+                "lower_ft": "2′11″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.9,
+                "upper_m": 1.8,
+                "lower_ft": "2′11″",
+                "upper_ft": "5′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.35,
+                "upper_m": 2.25,
+                "lower_ft": "4′05″",
+                "upper_ft": "7′05″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.25,
+                "upper_m": 2.7,
+                "lower_ft": "7′05″",
+                "upper_ft": "8′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.7,
+                "upper_m": 2.79,
+                "lower_ft": "8′10″",
+                "upper_ft": "9′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 20.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 5.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "REGICE’s body was made during an ice age. The deep-frozen body can’t be melted, even by fire. This POKéMON controls frigid air of minus 328 degrees F."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "REGICE cloaks itself with frigid air of negative 328 degrees F. Things will freeze solid just by going near this POKéMON. Its icy body is so cold, it will not melt even if it is immersed in magma."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "Its entire body is made of Antarctic ice. After extensive studies, researchers believe the ice was formed during an ice age."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "Research revealed that its body is made of the same kind of ice that is found at the South Pole."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its body is made of ice from the ice age. It controls frigid air of -328 degrees Fahrenheit."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It is said to have slept in a glacier for thousands of years. Its body can’t be melted, even by magma."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It is said to have slept in a glacier for thousands of years. Its body can’t be melted, even by magma."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Its body is made of ice from the ice age. It controls frigid air of -328 degrees Fahrenheit."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Regice’s body was made during an ice age. The deep-frozen body can’t be melted, even by fire. This Pokémon controls frigid air of -328 degrees Fahrenheit."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Regice cloaks itself with frigid air of -328 degrees Fahrenheit. Things will freeze solid just by going near this Pokémon. Its icy body is so cold, it will not melt even if it is immersed in magma."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "With cold air that can reach temperatures as low as −328 degrees Fahrenheit, Regice instantly freezes any creature that approaches it."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This Pokémon’s body is made of solid ice. It’s said that Regice was born beneath thick ice in the ice age."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Regice",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm378.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm378.icon.png"
+            },
+            {
+                "label": "Shiny Regice",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm378.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm378.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 378,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0378_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0378_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Regice sprite"
+            },
+            {
+                "pokedex_number": 378,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0378_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0378_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Regice sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/378_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/378_social.jpg",
+                "alt": "Regice"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/378_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/378_social_dark.jpg",
+                "alt": "Regice"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/378_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/378_social_map.jpg",
+                "alt": "Regice"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/378_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/378_social_map_dark.jpg",
+                "alt": "Regice"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Regice’s strengths and weaknesses?",
+            "answer": "As a Ice-type Pokémon, Regice is weak to Fighting, Fire, Rock, and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Regice in Pokémon GO?",
+            "answer": "The best moves for Regice in Pokémon GO are Lock-On and Blizzard. This moveset has a DPS (Damage Per Second) of 9.871 and a TDO (Total Damage Output) of 305.595."
+        },
+        {
+            "question": "How does Regice perform in Raids?",
+            "answer": "Regice's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Regice rank as a Ice-type attacker?",
+            "answer": "Regice is an F-Tier Ice-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Regice?",
+            "answer": "The following Mega Pokémon boost Regice: Mega Glalie and Mega Abomasnow."
+        },
+        {
+            "question": "What is Regice’s maximum CP at Level 40 and Level 50?",
+            "answer": "Regice’s maximum CP at Level 40 is 3122 CP and 3530 CP at Level 50."
+        },
+        {
+            "question": "Can Regice be shiny in Pokémon GO?",
+            "answer": "Regice can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Regice Dynamax in Pokémon GO?",
+            "answer": "Regice cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

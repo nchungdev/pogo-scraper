@@ -1,0 +1,754 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1054,
+        "attack": 115,
+        "defense": 78,
+        "stamina": 127,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Helioptile",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/694.webp",
+        "types": [
+            "Electric",
+            "Normal"
+        ],
+        "weather_boost": [
+            "rain",
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Thunder Shock",
+            "charged": "Thunderbolt",
+            "dps": 4.96,
+            "tdo": 30.52,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 4.96,
+                "tdo": 30.5,
+                "score": 3.53
+            },
+            {
+                "rank": 2,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 4.82,
+                "tdo": 29.7,
+                "score": 3.43
+            },
+            {
+                "rank": 3,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Parabolic Charge",
+                "charged_url": "https://db.pokemongohub.net/move/75",
+                "dps": 4.54,
+                "tdo": 28.0,
+                "score": 3.23
+            },
+            {
+                "rank": 4,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Parabolic Charge",
+                "charged_url": "https://db.pokemongohub.net/move/75",
+                "dps": 4.51,
+                "tdo": 27.8,
+                "score": 3.21
+            },
+            {
+                "rank": 5,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 4.34,
+                "tdo": 26.7,
+                "score": 3.08
+            },
+            {
+                "rank": 6,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 4.32,
+                "tdo": 26.6,
+                "score": 3.07
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Thunder Shock",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/205"
+            },
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Parabolic Charge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.6s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/75"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            },
+            {
+                "name": "Bulldoze",
+                "type": "Ground",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/95"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Helioptile's has 1054 max CP (at Level 50). A Helioptile obtained from Raids can be encountered from 489 CP to 533 CP, or if weather boosted, in the 612 CP to 666 CP range. In Field and Special Research, Helioptile can be found in the 367 CP to 399 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1054",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "367 - 399",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "489 - 533",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "489 - 533",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "612 - 666",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "612 CP - 666 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 41,
+        "3": 69,
+        "4": 97,
+        "5": 125,
+        "6": 154,
+        "7": 182,
+        "8": 210,
+        "9": 238,
+        "10": 266,
+        "11": 293,
+        "12": 319,
+        "13": 346,
+        "14": 373,
+        "15": 399,
+        "16": 426,
+        "17": 453,
+        "18": 479,
+        "19": 506,
+        "20": 533,
+        "21": 559,
+        "22": 586,
+        "23": 613,
+        "24": 639,
+        "25": 666,
+        "26": 693,
+        "27": 719,
+        "28": 746,
+        "29": 773,
+        "30": 799,
+        "31": 813,
+        "32": 826,
+        "33": 839,
+        "34": 853,
+        "35": 866,
+        "36": 879,
+        "37": 893,
+        "38": 906,
+        "39": 919,
+        "40": 933,
+        "41": 944,
+        "42": 956,
+        "43": 968,
+        "44": 980,
+        "45": 993,
+        "46": 1005,
+        "47": 1017,
+        "48": 1029,
+        "49": 1042,
+        "50": 1054
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Helioptile",
+                    "href": "/pokemon/694",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/694.webp"
+                },
+                "to": {
+                    "name": "Heliolisk",
+                    "href": "/pokemon/695",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/695.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Special Item: Sun Stone"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Special Item: Sun Stone"
+        ],
+        "family": [
+            {
+                "name": "Helioptile",
+                "href": "/pokemon/694",
+                "img": "https://db.pokemongohub.net/images/official/medium/694.webp"
+            },
+            {
+                "name": "Heliolisk",
+                "href": "/pokemon/695",
+                "img": "https://db.pokemongohub.net/images/official/medium/695.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Helioptile in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Helioptile",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Helioptile's Electric and Normal-type moves, Candy, and Candy XL from catching Helioptile.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 694,
+            "height_m": 0.5,
+            "weight_kg": 6,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.88 m",
+            "description": "Helioptile's height ranges from 0.25 m to 0.88 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.875,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "The frills on either side of its head have cells that generate electricity when exposed to sunlight."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon’s electric moves."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "The sun powers this Pokémon’s electricity generation. Interruption of that process stresses Helioptile to the point of weakness."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Helioptile",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm694.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm694.icon.png"
+            },
+            {
+                "label": "Shiny Helioptile",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm694.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm694.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 694,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0694_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0694_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Helioptile sprite"
+            },
+            {
+                "pokedex_number": 694,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0694_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0694_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Helioptile sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/694_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/694_social.jpg",
+                "alt": "Helioptile"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/694_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/694_social_dark.jpg",
+                "alt": "Helioptile"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/694_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/694_social_map.jpg",
+                "alt": "Helioptile"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/694_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/694_social_map_dark.jpg",
+                "alt": "Helioptile"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Helioptile’s strengths and weaknesses?",
+            "answer": "As a Electric and Normal-type Pokémon, Helioptile is weak to Fighting and Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Helioptile in Pokémon GO?",
+            "answer": "The best moves for Helioptile in Pokémon GO are Thunder Shock and Thunderbolt. This moveset has a DPS (Damage Per Second) of 4.959 and a TDO (Total Damage Output) of 30.525."
+        },
+        {
+            "question": "How does Helioptile perform in Raids?",
+            "answer": "Helioptile's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Helioptile rank as a Electric-type attacker?",
+            "answer": "Helioptile's performance as a Electric-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Helioptile?",
+            "answer": "The following Mega Pokémon boost Helioptile: Mega Ampharos, Mega Manectric, Primal Kyogre, Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Helioptile’s maximum CP at Level 40 and Level 50?",
+            "answer": "Helioptile’s maximum CP at Level 40 is 933 CP and 1054 CP at Level 50."
+        },
+        {
+            "question": "Can Helioptile be shiny in Pokémon GO?",
+            "answer": "Helioptile can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Helioptile Dynamax in Pokémon GO?",
+            "answer": "Helioptile cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

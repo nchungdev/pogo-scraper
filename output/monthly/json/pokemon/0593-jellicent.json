@@ -1,0 +1,910 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2644,
+        "attack": 159,
+        "defense": 178,
+        "stamina": 225,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Jellicent",
+        "forms": [
+            {
+                "name": "Jellicent",
+                "href": "/pokemon/593",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/593.webp"
+            },
+            {
+                "name": "Jellicent (Female)",
+                "href": "/pokemon/593-Female",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/593_f2.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/593.webp",
+        "types": [
+            "Water",
+            "Ghost"
+        ],
+        "weather_boost": [
+            "rain",
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bubble",
+            "charged": "Shadow Ball",
+            "dps": 9.85,
+            "tdo": 212.65,
+            "boosted_weather": [
+                "rain",
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 9.85,
+                "tdo": 212.7,
+                "score": 8.83
+            },
+            {
+                "rank": 2,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 9.55,
+                "tdo": 206.2,
+                "score": 8.57
+            },
+            {
+                "rank": 3,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Surf",
+                "charged_url": "https://db.pokemongohub.net/move/284",
+                "dps": 9.03,
+                "tdo": 195.1,
+                "score": 8.1
+            },
+            {
+                "rank": 4,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Surf",
+                "charged_url": "https://db.pokemongohub.net/move/284",
+                "dps": 8.6,
+                "tdo": 185.7,
+                "score": 7.71
+            },
+            {
+                "rank": 5,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 7.81,
+                "tdo": 168.5,
+                "score": 7.0
+            },
+            {
+                "rank": 6,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 7.69,
+                "tdo": 166.1,
+                "score": 6.9
+            },
+            {
+                "rank": 7,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 7.46,
+                "tdo": 161.0,
+                "score": 6.69
+            },
+            {
+                "rank": 8,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 7.32,
+                "tdo": 158.1,
+                "score": 6.56
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bubble",
+                "type": "Water",
+                "stats": {
+                    "damage": 10,
+                    "energy": 12,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 12,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/237"
+            },
+            {
+                "name": "Hex",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 8,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 8,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/264"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ice Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/39"
+            },
+            {
+                "name": "Bubble Beam",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.6s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 25,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/53"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Surf",
+                "type": "Water",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.2s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/284"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Jellicent's has 2644 max CP (at Level 50). A Jellicent obtained from Raids can be encountered from 1267 CP to 1336 CP, or if weather boosted, in the 1584 CP to 1670 CP range. In Field and Special Research, Jellicent can be found in the 950 CP to 1002 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2644",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "950 - 1002",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1267 - 1336",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1267 - 1336",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1584 - 1670",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1584 CP - 1670 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 33,
+        "2": 103,
+        "3": 174,
+        "4": 244,
+        "5": 315,
+        "6": 386,
+        "7": 456,
+        "8": 527,
+        "9": 597,
+        "10": 668,
+        "11": 735,
+        "12": 802,
+        "13": 868,
+        "14": 935,
+        "15": 1002,
+        "16": 1069,
+        "17": 1136,
+        "18": 1202,
+        "19": 1269,
+        "20": 1336,
+        "21": 1403,
+        "22": 1470,
+        "23": 1537,
+        "24": 1603,
+        "25": 1670,
+        "26": 1737,
+        "27": 1804,
+        "28": 1871,
+        "29": 1938,
+        "30": 2004,
+        "31": 2038,
+        "32": 2071,
+        "33": 2105,
+        "34": 2138,
+        "35": 2171,
+        "36": 2205,
+        "37": 2238,
+        "38": 2272,
+        "39": 2305,
+        "40": 2338,
+        "41": 2368,
+        "42": 2398,
+        "43": 2428,
+        "44": 2458,
+        "45": 2489,
+        "46": 2519,
+        "47": 2550,
+        "48": 2581,
+        "49": 2612,
+        "50": 2644
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Frillish",
+                    "href": "/pokemon/592",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/592.webp"
+                },
+                "to": {
+                    "name": "Jellicent",
+                    "href": "/pokemon/593",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/593.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Frillish",
+                "href": "/pokemon/592",
+                "img": "https://db.pokemongohub.net/images/official/medium/592.webp"
+            },
+            {
+                "name": "Jellicent",
+                "href": "/pokemon/593",
+                "img": "https://db.pokemongohub.net/images/official/medium/593.webp"
+            },
+            {
+                "name": "Frillish (Female)",
+                "href": "/pokemon/592-Female",
+                "img": "https://db.pokemongohub.net/images/official/medium/592_f2.webp"
+            },
+            {
+                "name": "Jellicent (Female)",
+                "href": "/pokemon/593-Female",
+                "img": "https://db.pokemongohub.net/images/official/medium/593_f2.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Jellicent in the meta PvE Analysis Jellicent is quite bulky , but it lacks offensive power . As such, it's not viable for Raids but works in Gyms . 🙂 Keep in mind that male and female Jellicent may look different , but they have the same stats and moveset . 🤝 ⚔️ Raids Whether it's the Water or Ghost typing , Jellicent lacks the strength required to be considered a worthy Raid attacker . 👎 🛡️ Gyms Aside from being tanky , Jellicent’s Water/Ghost typing gives it a double resistance to Fighting and Normal types , and resistance to Bug, Fire, Ice, Poison, Steel, and Water types . These 8 type resistances plus bulk make Jellicent a strong Gym defender . 🙂 PvP Analysis Jellicent’s bulk, 8 resistances, and useful moveset make it a legitimate threat in the lower PvP Leagues . While it needs to be wary of its four weaknesses ( Dark, Electric, Ghost, and Grass ), all of which are common in PvP , Jellicent almost always makes a substantial impact in battle . 🙌 💎 Jellicent’s best moveset for PvP is Hex, Shadow Ball, and Surf/Bubble Beam . 🔵 Great League Jellicent claims several powerful victims in the Great League , including Toxapex, Annihilape, Azumarill, Clodsire, Diggersby, and Shadow Feraligatr . Shadow Ball has KO potential , and Surf can bait shields while also having decent damage output . 😁 As an alternative, you can opt for Bubble Beam instead of Surf , which only deals 25 DMG , but is cheap and guaranteed to debuff the opponent's ATK . 🫧 🟡 Ultra League Surf’s higher damage is preferred over Bubble Beam in the Ultra League , helping it beat Pokémon like Annihilape, Primeape, Poliwrath, Cresselia, Clefable, Cobalion, Skeledirge, and even Giratina Altered ! 👀 Overall, a pretty handy Pokémon that often comes in clutch. 😎 🟣 Master League Jellicent falls hard in the Master League . Please don't use it here! 🙃 Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Jellicent",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Jellicent's Water and Ghost-type moves, Candy, and Candy XL from catching Jellicent.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 593,
+            "height_m": 2.2,
+            "weight_kg": 135,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "1.08 m",
+            "xs": "1.1 m",
+            "m": "2.2 m",
+            "xl": "3.3 m",
+            "xxl": "3.41 m",
+            "description": "Jellicent's height ranges from 1.08 m to 3.41 m, with the average being 2.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 1.078,
+                "upper_m": 1.1,
+                "lower_ft": "3′06″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.1,
+                "upper_m": 2.2,
+                "lower_ft": "3′07″",
+                "upper_ft": "7′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.65,
+                "upper_m": 2.75,
+                "lower_ft": "5′05″",
+                "upper_ft": "9′00″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.75,
+                "upper_m": 3.3,
+                "lower_ft": "9′00″",
+                "upper_ft": "10′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 3.3,
+                "upper_m": 3.41,
+                "lower_ft": "10′10″",
+                "upper_ft": "11′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1.2,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "The fate of the ships and crew that wander into Jellicent’s habitat: all sunken, all lost, all vanished."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its body is mostly seawater. It’s said there’s a castle of ships Jellicent have sunk on the seafloor."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Its body is mostly seawater. It’s said there’s a castle of ships Jellicent have sunk on the seafloor."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "The fate of the ships and crew that wander into Jellicent’s habitat: all sunken, all lost, all vanished."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Jellicent is always hanging around fancy cruise ships and tankers, hoping to drag away its prey."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Fishermen are terrified of Jellicent. It’s rumored to drag them into the sea and steal their lives away."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Most of this Pokémon’s body composition is identical to sea water. It makes sunken ships its lair."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Jellicent",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm593.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm593.icon.png"
+            },
+            {
+                "label": "Shiny Jellicent",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm593.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm593.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 593,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0593_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0593_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Jellicent ♀ sprite"
+            },
+            {
+                "pokedex_number": 593,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0593_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0593_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Jellicent ♀ sprite"
+            },
+            {
+                "pokedex_number": 593,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0593_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0593_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Jellicent sprite"
+            },
+            {
+                "pokedex_number": 593,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0593_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0593_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Jellicent sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/593_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/593_social.jpg",
+                "alt": "Jellicent"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/593_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/593_social_dark.jpg",
+                "alt": "Jellicent"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/593_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/593_social_map.jpg",
+                "alt": "Jellicent"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/593_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/593_social_map_dark.jpg",
+                "alt": "Jellicent"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Jellicent’s strengths and weaknesses?",
+            "answer": "As a Water and Ghost-type Pokémon, Jellicent is weak to Dark, Electric, Ghost, and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Jellicent in Pokémon GO?",
+            "answer": "The best moves for Jellicent in Pokémon GO are Bubble and Shadow Ball. This moveset has a DPS (Damage Per Second) of 9.85 and a TDO (Total Damage Output) of 212.651."
+        },
+        {
+            "question": "How does Jellicent perform in Raids?",
+            "answer": "Jellicent's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Jellicent rank as a Water-type attacker?",
+            "answer": "Jellicent is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Jellicent rank as a Ghost-type attacker?",
+            "answer": "Jellicent is an F-Tier Ghost-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Jellicent?",
+            "answer": "The following Mega Pokémon boost Jellicent: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Jellicent’s maximum CP at Level 40 and Level 50?",
+            "answer": "Jellicent’s maximum CP at Level 40 is 2338 CP and 2644 CP at Level 50."
+        },
+        {
+            "question": "Can Jellicent be shiny in Pokémon GO?",
+            "answer": "Jellicent can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Jellicent Dynamax in Pokémon GO?",
+            "answer": "Jellicent cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

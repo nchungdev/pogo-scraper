@@ -1,0 +1,847 @@
+{
+    "overview_and_stats": {
+        "max_cp": 698,
+        "attack": 79,
+        "defense": 73,
+        "stamina": 111,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Sentret",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/161.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Scratch",
+            "charged": "Dig",
+            "dps": 3.97,
+            "tdo": 20.53,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 3.97,
+                "tdo": 20.5,
+                "score": 2.68
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Brick Break",
+                "charged_url": "https://db.pokemongohub.net/move/123",
+                "dps": 3.97,
+                "tdo": 20.5,
+                "score": 2.68
+            },
+            {
+                "rank": 3,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 3.97,
+                "tdo": 20.5,
+                "score": 2.68
+            },
+            {
+                "rank": 4,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Brick Break",
+                "charged_url": "https://db.pokemongohub.net/move/123",
+                "dps": 3.14,
+                "tdo": 16.2,
+                "score": 2.11
+            },
+            {
+                "rank": 5,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 3.02,
+                "tdo": 15.6,
+                "score": 2.03
+            },
+            {
+                "rank": 6,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 3.0,
+                "tdo": 15.5,
+                "score": 2.02
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            },
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dig",
+                "type": "Ground",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 4.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.5,
+                    "damage_window": "2.6s - 4.3s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/26"
+            },
+            {
+                "name": "Brick Break",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 40,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 40,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.7s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/123"
+            },
+            {
+                "name": "Grass Knot",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/272"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Sentret's has 698 max CP (at Level 50). A Sentret obtained from Raids can be encountered from 318 CP to 353 CP, or if weather boosted, in the 397 CP to 441 CP range. In Field and Special Research, Sentret can be found in the 238 CP to 264 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "698",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "238 - 264",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "318 - 353",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "318 - 353",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "397 - 441",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "397 CP - 441 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 8,
+        "2": 27,
+        "3": 46,
+        "4": 64,
+        "5": 83,
+        "6": 102,
+        "7": 120,
+        "8": 139,
+        "9": 158,
+        "10": 176,
+        "11": 194,
+        "12": 212,
+        "13": 229,
+        "14": 247,
+        "15": 264,
+        "16": 282,
+        "17": 300,
+        "18": 317,
+        "19": 335,
+        "20": 353,
+        "21": 370,
+        "22": 388,
+        "23": 406,
+        "24": 423,
+        "25": 441,
+        "26": 459,
+        "27": 476,
+        "28": 494,
+        "29": 512,
+        "30": 529,
+        "31": 538,
+        "32": 547,
+        "33": 556,
+        "34": 565,
+        "35": 574,
+        "36": 582,
+        "37": 591,
+        "38": 600,
+        "39": 609,
+        "40": 618,
+        "41": 626,
+        "42": 633,
+        "43": 641,
+        "44": 649,
+        "45": 657,
+        "46": 666,
+        "47": 674,
+        "48": 682,
+        "49": 690,
+        "50": 698
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Sentret",
+                    "href": "/pokemon/161",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/161.webp"
+                },
+                "to": {
+                    "name": "Furret",
+                    "href": "/pokemon/162",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/162.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Sentret",
+                "href": "/pokemon/161",
+                "img": "https://db.pokemongohub.net/images/official/medium/161.webp"
+            },
+            {
+                "name": "Furret",
+                "href": "/pokemon/162",
+                "img": "https://db.pokemongohub.net/images/official/medium/162.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Sentret in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Sentret",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Sentret's Normal-type moves, Candy, and Candy XL from catching Sentret.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 161,
+            "height_m": 0.79,
+            "weight_kg": 6,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.39 m",
+            "xs": "0.4 m",
+            "m": "0.79 m",
+            "xl": "1.19 m",
+            "xxl": "1.38 m",
+            "description": "Sentret's height ranges from 0.39 m to 1.38 m, with the average being 0.79 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.3871,
+                "upper_m": 0.395,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.395,
+                "upper_m": 0.79,
+                "lower_ft": "1′04″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.5925,
+                "upper_m": 0.9875,
+                "lower_ft": "1′11″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.9875,
+                "upper_m": 1.185,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.185,
+                "upper_m": 1.3825,
+                "lower_ft": "3′11″",
+                "upper_ft": "4′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "A very cautious POKéMON, it raises itself up using its tail to get a better view of its surroundings."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "When SENTRET sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this POKéMON becomes separated from its pack, it becomes incapable of sleep due to fear."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "They take turns standing guard when it is time to sleep. The sentry awakens the others if it senses danger. If one becomes separated, it turns sleepless with fear."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "A very cautious POKéMON, it raises itself up using its tail to get a better view of its surroundings."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "When Sentret sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this Pokémon becomes separated from its pack, it becomes incapable of sleep due to fear."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "When Sentret sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this Pokémon becomes separated from its pack, it becomes incapable of sleep due to fear."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Sentret",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm161.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm161.icon.png"
+            },
+            {
+                "label": "Shiny Sentret",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm161.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm161.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 161,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0161_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0161_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Sentret sprite"
+            },
+            {
+                "pokedex_number": 161,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0161_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0161_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Sentret sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/161_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/161_social.jpg",
+                "alt": "Sentret"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/161_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/161_social_dark.jpg",
+                "alt": "Sentret"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/161_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/161_social_map.jpg",
+                "alt": "Sentret"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/161_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/161_social_map_dark.jpg",
+                "alt": "Sentret"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Sentret’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Sentret is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Sentret in Pokémon GO?",
+            "answer": "The best moves for Sentret in Pokémon GO are Scratch and Dig. This moveset has a DPS (Damage Per Second) of 3.972 and a TDO (Total Damage Output) of 20.525."
+        },
+        {
+            "question": "How does Sentret perform in Raids?",
+            "answer": "Sentret's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Sentret rank as a Normal-type attacker?",
+            "answer": "Sentret's performance as a Normal-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Sentret?",
+            "answer": "The following Mega Pokémon boost Sentret: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Sentret’s maximum CP at Level 40 and Level 50?",
+            "answer": "Sentret’s maximum CP at Level 40 is 618 CP and 698 CP at Level 50."
+        },
+        {
+            "question": "Can Sentret be shiny in Pokémon GO?",
+            "answer": "Sentret can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Sentret Dynamax in Pokémon GO?",
+            "answer": "Sentret cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

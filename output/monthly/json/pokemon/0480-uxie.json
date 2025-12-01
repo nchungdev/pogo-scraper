@@ -1,0 +1,766 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2853,
+        "attack": 156,
+        "defense": 270,
+        "stamina": 181,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": true,
+        "title": "Uxie",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/480.webp",
+        "types": [
+            "Psychic"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Confusion",
+            "charged": "Future Sight",
+            "dps": 8.64,
+            "tdo": 225.05,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Future Sight",
+                "charged_url": "https://db.pokemongohub.net/move/275",
+                "dps": 8.64,
+                "tdo": 225.1,
+                "score": 7.89
+            },
+            {
+                "rank": 2,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Future Sight",
+                "charged_url": "https://db.pokemongohub.net/move/275",
+                "dps": 8.61,
+                "tdo": 224.1,
+                "score": 7.86
+            },
+            {
+                "rank": 3,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Thunder",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 7.65,
+                "tdo": 199.1,
+                "score": 6.98
+            },
+            {
+                "rank": 4,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Thunder",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 7.45,
+                "tdo": 193.9,
+                "score": 6.8
+            },
+            {
+                "rank": 5,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 6.92,
+                "tdo": 180.1,
+                "score": 6.31
+            },
+            {
+                "rank": 6,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 6.67,
+                "tdo": 173.6,
+                "score": 6.09
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Confusion",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 19,
+                    "energy": 14,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 14,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.5s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 16,
+                    "energy": 14
+                },
+                "url": "https://db.pokemongohub.net/move/235"
+            },
+            {
+                "name": "Extrasensory",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/274"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Thunder",
+                "type": "Electric",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/78"
+            },
+            {
+                "name": "Swift",
+                "type": "Normal",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.2s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/125"
+            },
+            {
+                "name": "Future Sight",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 115,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 115,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.2s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/275"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Uxie's has 2853 max CP (at Level 50). A Uxie obtained from Raids can be encountered from 1370 CP to 1442 CP, or if weather boosted, in the 1712 CP to 1803 CP range. In Field and Special Research, Uxie can be found in the 1027 CP to 1081 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2853",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1027 - 1081",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1370 - 1442",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1370 - 1442",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1712 - 1803",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1712 CP - 1803 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 35,
+        "2": 111,
+        "3": 188,
+        "4": 264,
+        "5": 340,
+        "6": 416,
+        "7": 492,
+        "8": 569,
+        "9": 645,
+        "10": 721,
+        "11": 793,
+        "12": 865,
+        "13": 937,
+        "14": 1009,
+        "15": 1081,
+        "16": 1153,
+        "17": 1226,
+        "18": 1298,
+        "19": 1370,
+        "20": 1442,
+        "21": 1514,
+        "22": 1586,
+        "23": 1658,
+        "24": 1730,
+        "25": 1803,
+        "26": 1875,
+        "27": 1947,
+        "28": 2019,
+        "29": 2091,
+        "30": 2163,
+        "31": 2199,
+        "32": 2235,
+        "33": 2271,
+        "34": 2307,
+        "35": 2344,
+        "36": 2380,
+        "37": 2416,
+        "38": 2452,
+        "39": 2488,
+        "40": 2524,
+        "41": 2556,
+        "42": 2588,
+        "43": 2620,
+        "44": 2653,
+        "45": 2686,
+        "46": 2719,
+        "47": 2752,
+        "48": 2786,
+        "49": 2819,
+        "50": 2853
+    },
+    "meta_analysis": "Uxie in the meta PvE Analysis Uxie has a very low Attack stat of 156, leaving it unviable for raids, especially when the Psychic type has many strong hitters. 🫠 💥 The best attackset for Uxie in PvE is Confusion and Future Sight. PvP Analysis Uxie has incredible bulk and a decent attackset but sadly, it's completely outclassed by the bulkier and more versatile Cresselia, which is not only a top Psychic type but also one of the leading Pokémon in PvP. 😶 In Uxie’s profile, it has a cheaper attackset, doesn't need a legacy attack (like Cresselia’s Grass Knot), and Thunder can trouble Steel types (which Cresselia can't). 🙂 Overall though, you'd want to pick Cresselia (deserves an Elite Charged TM, if need be). 💥 The best attackset for Uxie in PvP is Confusion, Swift and Thunder",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Uxie",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Uxie's Psychic-type moves, Candy, and Candy XL from catching Uxie.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 480,
+            "height_m": 0.3,
+            "weight_kg": 0.3,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Uxie's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 5.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.4,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "Known as “The Being of Knowledge.” It is said that it can wipe out the memory of those who see its eyes."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It is said that its emergence gave humans the intelligence to improve their quality of life."
+        },
+        {
+            "versions": [
+                "Platinum"
+            ],
+            "entry": "When UXIE flew, people gained the ability to solve problems. It was the birth of knowledge."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "According to some sources, this Pokémon provided people with the intelligence necessary to solve various problems."
+        },
+        {
+            "versions": [
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "When Uxie flew, people gained the ability to solve problems. It was the birth of knowledge."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Known as “The Being of Knowledge.” It is said that it can wipe out the memory of those who see its eyes."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It is said that its emergence gave humans the intelligence to improve their quality of life."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "A Pokémon feared but also respected for stealing away the memories of evildoers. I have found records that suggest Uxie holds dominion over knowledge."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Uxie",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm480.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm480.icon.png"
+            },
+            {
+                "label": "Shiny Uxie",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm480.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm480.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 480,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0480_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0480_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Uxie sprite"
+            },
+            {
+                "pokedex_number": 480,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0480_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0480_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Uxie sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/480_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/480_social.jpg",
+                "alt": "Uxie"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/480_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/480_social_dark.jpg",
+                "alt": "Uxie"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/480_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/480_social_map.jpg",
+                "alt": "Uxie"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/480_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/480_social_map_dark.jpg",
+                "alt": "Uxie"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Uxie’s strengths and weaknesses?",
+            "answer": "As a Psychic-type Pokémon, Uxie is weak to Bug, Dark, and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Uxie in Pokémon GO?",
+            "answer": "The best moves for Uxie in Pokémon GO are Confusion and Future Sight. This moveset has a DPS (Damage Per Second) of 8.644 and a TDO (Total Damage Output) of 225.054."
+        },
+        {
+            "question": "How does Uxie perform in Raids?",
+            "answer": "Uxie's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Uxie rank as a Psychic-type attacker?",
+            "answer": "Uxie is an F-Tier Psychic-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Uxie?",
+            "answer": "The following Mega Pokémon boost Uxie: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Uxie’s maximum CP at Level 40 and Level 50?",
+            "answer": "Uxie’s maximum CP at Level 40 is 2524 CP and 2853 CP at Level 50."
+        },
+        {
+            "question": "Can Uxie be shiny in Pokémon GO?",
+            "answer": "Uxie can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Uxie Dynamax in Pokémon GO?",
+            "answer": "Uxie cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

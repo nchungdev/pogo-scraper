@@ -1,0 +1,791 @@
+{
+    "overview_and_stats": {
+        "max_cp": 872,
+        "attack": 98,
+        "defense": 73,
+        "stamina": 121,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Purrloin",
+        "forms": [
+            {
+                "name": "Purrloin",
+                "href": "/pokemon/509",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/509.webp"
+            },
+            {
+                "name": "Shadow Purrloin",
+                "href": "/pokemon/509-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/509.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/509.webp",
+        "types": [
+            "Dark"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Sucker Punch",
+            "charged": "Night Slash",
+            "dps": 4.3,
+            "tdo": 23.98,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Night Slash",
+                "charged_url": "https://db.pokemongohub.net/move/51",
+                "dps": 4.3,
+                "tdo": 24.0,
+                "score": 2.97
+            },
+            {
+                "rank": 2,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 4.2,
+                "tdo": 23.4,
+                "score": 2.9
+            },
+            {
+                "rank": 3,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 4.18,
+                "tdo": 23.3,
+                "score": 2.88
+            },
+            {
+                "rank": 4,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 3.98,
+                "tdo": 22.2,
+                "score": 2.75
+            },
+            {
+                "rank": 5,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Night Slash",
+                "charged_url": "https://db.pokemongohub.net/move/51",
+                "dps": 3.98,
+                "tdo": 22.2,
+                "score": 2.75
+            },
+            {
+                "rank": 6,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 3.98,
+                "tdo": 22.2,
+                "score": 2.75
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Sucker Punch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/203"
+            },
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Night Slash",
+                "type": "Dark",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.1s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/51"
+            },
+            {
+                "name": "Play Rough",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/88"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Purrloin's has 872 max CP (at Level 50). A Purrloin obtained from Raids can be encountered from 401 CP to 441 CP, or if weather boosted, in the 502 CP to 551 CP range. In Field and Special Research, Purrloin can be found in the 301 CP to 330 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "872",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "301 - 330",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "401 - 441",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "401 - 441",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "502 - 551",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "502 CP - 551 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 10,
+        "2": 34,
+        "3": 57,
+        "4": 80,
+        "5": 104,
+        "6": 127,
+        "7": 150,
+        "8": 174,
+        "9": 197,
+        "10": 220,
+        "11": 242,
+        "12": 264,
+        "13": 286,
+        "14": 308,
+        "15": 330,
+        "16": 352,
+        "17": 375,
+        "18": 397,
+        "19": 419,
+        "20": 441,
+        "21": 463,
+        "22": 485,
+        "23": 507,
+        "24": 529,
+        "25": 551,
+        "26": 573,
+        "27": 595,
+        "28": 617,
+        "29": 639,
+        "30": 661,
+        "31": 672,
+        "32": 683,
+        "33": 694,
+        "34": 705,
+        "35": 716,
+        "36": 727,
+        "37": 739,
+        "38": 750,
+        "39": 761,
+        "40": 772,
+        "41": 781,
+        "42": 791,
+        "43": 801,
+        "44": 811,
+        "45": 821,
+        "46": 831,
+        "47": 842,
+        "48": 852,
+        "49": 862,
+        "50": 872
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Purrloin",
+                    "href": "/pokemon/509",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/509.webp"
+                },
+                "to": {
+                    "name": "Liepard",
+                    "href": "/pokemon/510",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/510.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Purrloin",
+                "href": "/pokemon/509",
+                "img": "https://db.pokemongohub.net/images/official/medium/509.webp"
+            },
+            {
+                "name": "Liepard",
+                "href": "/pokemon/510",
+                "img": "https://db.pokemongohub.net/images/official/medium/510.webp"
+            },
+            {
+                "name": "Shadow Purrloin",
+                "href": "/pokemon/509-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Liepard",
+                "href": "/pokemon/510-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Purrloin in the meta PvE Analysis Purrloin is a pure Dark-type Pokémon with a max CP of 872 . It is not useful for PvE , even with its best moveset of Sucker Punch and Night Slash . ⚔️ Raids Purrloin was meant for cuddling on the couch , not for raiding. 🛡️ Gyms There are much better options available. PvP Analysis Purrloin’s best PvP moveset is Sucker Punch, Night Slash, and Dark Pulse . It has some viability in Little Cup only . 🧸 Little Cup Purrloin , and especially Shadow Purrloin , can make a paw-sized impact in Little Cup. It is super spammy but lacks bulk . 🔵 Great League With a max CP of 872 , Purrloin is just a little cat who wants to sleep . 🟡 Ultra League No. 🟣 Master League No.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Purrloin",
+        "type": "Dark",
+        "intro_text": "A list of Mega Pokémon that boost Purrloin's Dark-type moves, Candy, and Candy XL from catching Purrloin.",
+        "mega_list": [
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Absol",
+                "pokemon_id": 359,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/359-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 509,
+            "height_m": 0.4,
+            "weight_kg": 10.1,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Purrloin's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 30.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "They steal from people for fun, but their victims can’t help but forgive them. Their deceptively cute act is perfect."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Their cute act is a ruse. They trick people and steal their valuables just to see the looks on their faces."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "They steal from people for fun, but their victims can’t help but forgive them. Their deceptively cute act is perfect."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Purrloin",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm509.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm509.icon.png"
+            },
+            {
+                "label": "Shiny Purrloin",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm509.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm509.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 509,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0509_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0509_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Purrloin sprite"
+            },
+            {
+                "pokedex_number": 509,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0509_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0509_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Purrloin sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/509_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/509_social.jpg",
+                "alt": "Purrloin"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/509_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/509_social_dark.jpg",
+                "alt": "Purrloin"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/509_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/509_social_map.jpg",
+                "alt": "Purrloin"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/509_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/509_social_map_dark.jpg",
+                "alt": "Purrloin"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Purrloin’s strengths and weaknesses?",
+            "answer": "As a Dark-type Pokémon, Purrloin is weak to Bug, Fairy, and Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Purrloin in Pokémon GO?",
+            "answer": "The best moves for Purrloin in Pokémon GO are Sucker Punch and Night Slash. This moveset has a DPS (Damage Per Second) of 4.3 and a TDO (Total Damage Output) of 23.985."
+        },
+        {
+            "question": "How does Purrloin perform in Raids?",
+            "answer": "Purrloin's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Purrloin rank as a Dark-type attacker?",
+            "answer": "Purrloin's performance as a Dark-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Purrloin?",
+            "answer": "The following Mega Pokémon boost Purrloin: Mega Gyarados, Mega Houndoom, Mega Tyranitar, Mega Sableye, Mega Sharpedo, and Mega Absol."
+        },
+        {
+            "question": "What is Purrloin’s maximum CP at Level 40 and Level 50?",
+            "answer": "Purrloin’s maximum CP at Level 40 is 772 CP and 872 CP at Level 50."
+        },
+        {
+            "question": "Can Purrloin be shiny in Pokémon GO?",
+            "answer": "Purrloin can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Purrloin Dynamax in Pokémon GO?",
+            "answer": "Purrloin cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

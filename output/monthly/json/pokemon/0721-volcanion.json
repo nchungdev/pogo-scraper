@@ -1,0 +1,857 @@
+{
+    "overview_and_stats": {
+        "max_cp": 4102,
+        "attack": 252,
+        "defense": 216,
+        "stamina": 190,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": false,
+        "title": "Volcanion",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/721.webp",
+        "types": [
+            "Fire",
+            "Water"
+        ],
+        "weather_boost": [
+            "sunny",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Overheat",
+            "dps": 13.62,
+            "tdo": 300.67,
+            "boosted_weather": [
+                "rain",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Overheat",
+                "charged_url": "https://db.pokemongohub.net/move/270",
+                "dps": 13.62,
+                "tdo": 300.7,
+                "score": 12.24
+            },
+            {
+                "rank": 2,
+                "fast": "Incinerate",
+                "fast_url": "https://db.pokemongohub.net/move/346",
+                "charged": "Overheat",
+                "charged_url": "https://db.pokemongohub.net/move/270",
+                "dps": 13.51,
+                "tdo": 298.2,
+                "score": 12.15
+            },
+            {
+                "rank": 3,
+                "fast": "Incinerate",
+                "fast_url": "https://db.pokemongohub.net/move/346",
+                "charged": "Hydro Pump",
+                "charged_url": "https://db.pokemongohub.net/move/107",
+                "dps": 12.89,
+                "tdo": 284.4,
+                "score": 11.58
+            },
+            {
+                "rank": 4,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Hydro Pump",
+                "charged_url": "https://db.pokemongohub.net/move/107",
+                "dps": 12.85,
+                "tdo": 283.7,
+                "score": 11.56
+            },
+            {
+                "rank": 5,
+                "fast": "Incinerate",
+                "fast_url": "https://db.pokemongohub.net/move/346",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 12.77,
+                "tdo": 281.8,
+                "score": 11.47
+            },
+            {
+                "rank": 6,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 12.46,
+                "tdo": 275.0,
+                "score": 11.2
+            },
+            {
+                "rank": 7,
+                "fast": "Incinerate",
+                "fast_url": "https://db.pokemongohub.net/move/346",
+                "charged": "Earth Power",
+                "charged_url": "https://db.pokemongohub.net/move/304",
+                "dps": 12.33,
+                "tdo": 272.1,
+                "score": 11.08
+            },
+            {
+                "rank": 8,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Earth Power",
+                "charged_url": "https://db.pokemongohub.net/move/304",
+                "dps": 12.04,
+                "tdo": 265.7,
+                "score": 10.82
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            },
+            {
+                "name": "Take Down",
+                "type": "Normal",
+                "stats": {
+                    "damage": 7,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 8,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/282"
+            },
+            {
+                "name": "Incinerate",
+                "type": "Fire",
+                "stats": {
+                    "damage": 32,
+                    "energy": 22,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 32,
+                    "energy": 22,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "0.7s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 20,
+                    "energy": 20
+                },
+                "url": "https://db.pokemongohub.net/move/346"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Sludge Bomb",
+                "type": "Poison",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/90"
+            },
+            {
+                "name": "Hydro Pump",
+                "type": "Water",
+                "stats": {
+                    "damage": 135,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 135,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.1s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/107"
+            },
+            {
+                "name": "Overheat",
+                "type": "Fire",
+                "stats": {
+                    "damage": 160,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 160,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "2.6s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/270"
+            },
+            {
+                "name": "Earth Power",
+                "type": "Ground",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/304"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Volcanion's has 4102 max CP (at Level 50). A Volcanion obtained from Raids can be encountered from 1987 CP to 2073 CP, or if weather boosted, in the 2485 CP to 2592 CP range. In Field and Special Research, Volcanion can be found in the 1491 CP to 1555 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "4102",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1491 - 1555",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1987 - 2073",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1987 - 2073",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2485 - 2592",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2485 CP - 2592 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 51,
+        "2": 160,
+        "3": 270,
+        "4": 379,
+        "5": 489,
+        "6": 599,
+        "7": 708,
+        "8": 818,
+        "9": 927,
+        "10": 1037,
+        "11": 1140,
+        "12": 1244,
+        "13": 1348,
+        "14": 1451,
+        "15": 1555,
+        "16": 1659,
+        "17": 1762,
+        "18": 1866,
+        "19": 1969,
+        "20": 2073,
+        "21": 2177,
+        "22": 2281,
+        "23": 2384,
+        "24": 2488,
+        "25": 2592,
+        "26": 2695,
+        "27": 2799,
+        "28": 2903,
+        "29": 3007,
+        "30": 3110,
+        "31": 3162,
+        "32": 3214,
+        "33": 3266,
+        "34": 3317,
+        "35": 3369,
+        "36": 3421,
+        "37": 3473,
+        "38": 3525,
+        "39": 3577,
+        "40": 3628,
+        "41": 3674,
+        "42": 3721,
+        "43": 3767,
+        "44": 3814,
+        "45": 3862,
+        "46": 3909,
+        "47": 3957,
+        "48": 4005,
+        "49": 4053,
+        "50": 4102
+    },
+    "meta_analysis": "Volcanion in the meta PvE Analysis Volcanion possesses a unique Fire/Water typing and is among the viable Mythicals in Pokémon GO PvE. High offensive and defensive stats as well as a functional moveset make it a meta relevant addition to your collection, although it is outclassed by a good number of Pokémon, making it an inferior choice overall. ⚔️ Raids Volcanion offers higher DPS as a Fire type than a Water type, although it's decent in both departments. 🔥 As a Fire type, its damage output is below Blacephalon, Reshiram, Heatran, Moltres, Blast Burn starters, Chandelure, Volcarona, and Darmanitan (not considering Megas and Shadows). 🌊 As a Water type, its damage output is below Kyogre, Hydro Cannon starters, Kingler, Crawdaunt, and Sharpedo (not considering Megas and Shadows). However, Volcanion does have a high TDO to its credit. On the flip side, maxing out a Mythical is a tedious challenge in comparison to the Blast Burn and Hydro Cannon users, where Candy farming is a breeze on their Community Day. As such, with Volcanion trailing behind cheaper and more accessible options (in terms of Candy) in power, it seems unjustified to spend your resources on Volcanion at the moment. That said, Volcanion has a signature Water-type move called Steam Eruption. If tuned well in stats (like done for Heatran), it could propel Volcanion to a higher pecking order in the Water-type meta. ♨️ 🛡️ Gyms N/A 💎 The best PvE moveset for Volcanion is: Incinerate and Overheat (Fire) Water Gun and Hydro Pump (Water) Show more Show less PvP Analysis Volcanion’s Fire/Water typing is a blessing for the Mythical. It's a great defensive combo as Fire and Water have excellent synergy: Fire takes out Water’s weakness to Grass and Water takes out Fire’s weakness to Water. This leaves only Electric, Ground, and Rock as weaknesses but Volcanion learns Earth Power in Pokémon GO, accounting for ALL its weaknesses! 🤩 That's not all as Volcanion heavily resists Fire, Ice, and Steel type damage while also resisting Bug and Fairy. No points for guessing but all except Bug are prominent types in the Master League, where Volcanion should ideally be used based on its high stats. With that being said, here's how it performs in the Master League: 🟣 Master League Volcanion breaks into the big, bad Master League with a dominant showing, flexing the defensive prowess of its Fire/Water typing. Volcanion beats numerous threats in this format, including White Kyurem, Metagross, Togekiss, Xerneas, Charm Primarina (loses to the Waterfall variant), Mewtwo, Mamoswine, Dusk Mane Necrozma, Excadrill, Enamorus Incarnate, Yveltal, Dialga regular and Origin, Melmetal, and even Zacian Crowned Sword and Zamazenta Crowned Shield! 👀 Without shields, it beats Urshifu Single Strike Style but loses Dialga Origin, Yveltal, and Excadrill. So it's best to use Volcanion as a lead in battle. This battling position also suits Incinerate the best. 🔥 You can run Sludge Bomb instead of Earth Power, helping Volcanion gain both Waterfall and Charm Primarina in its list of wins. The performance is pretty similar in unshielded faceoffs. 💎 The best PvP moveset for Volcanion is Incinerate, Overheat and Earth Power/Sludge Bomb. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Volcanion",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Volcanion's Fire and Water-type moves, Candy, and Candy XL from catching Volcanion.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 721,
+            "height_m": 1.7,
+            "weight_kg": 195,
+            "region": "Generation 6",
+            "can_be_traded": false,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.83 m",
+            "xs": "0.85 m",
+            "m": "1.7 m",
+            "xl": "2.55 m",
+            "xxl": "2.64 m",
+            "description": "Volcanion's height ranges from 0.83 m to 2.64 m, with the average being 1.7 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.833,
+                "upper_m": 0.85,
+                "lower_ft": "2′09″",
+                "upper_ft": "2′09″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.85,
+                "upper_m": 1.7,
+                "lower_ft": "2′09″",
+                "upper_ft": "5′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.275,
+                "upper_m": 2.125,
+                "lower_ft": "4′02″",
+                "upper_ft": "6′12″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.125,
+                "upper_m": 2.55,
+                "lower_ft": "6′12″",
+                "upper_ft": "8′04″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.55,
+                "upper_m": 2.635,
+                "lower_ft": "8′04″",
+                "upper_ft": "8′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 30.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It lets out billows of steam and disappears into the dense fog. It’s said to live in mountains where humans do not tread."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Volcanion",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm721.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm721.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 721,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0721_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0721_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Volcanion sprite"
+            },
+            {
+                "pokedex_number": 721,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0721_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0721_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Volcanion sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/721_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/721_social.jpg",
+                "alt": "Volcanion"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/721_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/721_social_dark.jpg",
+                "alt": "Volcanion"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/721_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/721_social_map.jpg",
+                "alt": "Volcanion"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/721_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/721_social_map_dark.jpg",
+                "alt": "Volcanion"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Volcanion’s strengths and weaknesses?",
+            "answer": "As a Fire and Water-type Pokémon, Volcanion is weak to Electric, Ground, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Volcanion in Pokémon GO?",
+            "answer": "The best moves for Volcanion in Pokémon GO are Water Gun and Overheat. This moveset has a DPS (Damage Per Second) of 13.622 and a TDO (Total Damage Output) of 300.672."
+        },
+        {
+            "question": "How does Volcanion perform in Raids?",
+            "answer": "Volcanion is not recommended for Raid use."
+        },
+        {
+            "question": "How does Volcanion rank as a Fire-type attacker?",
+            "answer": "Volcanion is a B-Tier Fire-type attacker, ranking at number #40 with limited utility in specific matchups."
+        },
+        {
+            "question": "How does Volcanion rank as a Water-type attacker?",
+            "answer": "Volcanion is a solid A-Tier Water-type attacker, ranking at number #22. It is reliable in many situations but not the absolute best."
+        },
+        {
+            "question": "What Mega Pokémon boost Volcanion?",
+            "answer": "The following Mega Pokémon boost Volcanion: Mega Houndoom, Mega Blaziken, Mega Camerupt, Primal Groudon, Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Volcanion’s maximum CP at Level 40 and Level 50?",
+            "answer": "Volcanion’s maximum CP at Level 40 is 3628 CP and 4102 CP at Level 50."
+        },
+        {
+            "question": "Can Volcanion be shiny in Pokémon GO?",
+            "answer": "Volcanion cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Volcanion Dynamax in Pokémon GO?",
+            "answer": "Volcanion cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,818 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2002,
+        "attack": 143,
+        "defense": 166,
+        "stamina": 163,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Illumise",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/314.webp",
+        "types": [
+            "Bug"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Bug Buzz",
+            "dps": 7.38,
+            "tdo": 110.8,
+            "boosted_weather": [
+                "partlyCloudy",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 7.38,
+                "tdo": 110.8,
+                "score": 6.33
+            },
+            {
+                "rank": 2,
+                "fast": "Struggle Bug",
+                "fast_url": "https://db.pokemongohub.net/move/261",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 7.3,
+                "tdo": 109.6,
+                "score": 6.26
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 6.8,
+                "tdo": 102.1,
+                "score": 5.83
+            },
+            {
+                "rank": 4,
+                "fast": "Struggle Bug",
+                "fast_url": "https://db.pokemongohub.net/move/261",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 6.74,
+                "tdo": 101.2,
+                "score": 5.78
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Silver Wind",
+                "charged_url": "https://db.pokemongohub.net/move/262",
+                "dps": 6.34,
+                "tdo": 95.3,
+                "score": 5.44
+            },
+            {
+                "rank": 6,
+                "fast": "Struggle Bug",
+                "fast_url": "https://db.pokemongohub.net/move/261",
+                "charged": "Silver Wind",
+                "charged_url": "https://db.pokemongohub.net/move/262",
+                "dps": 6.3,
+                "tdo": 94.6,
+                "score": 5.4
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Struggle Bug",
+                "type": "Bug",
+                "stats": {
+                    "damage": 15,
+                    "energy": 15,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 15,
+                    "energy": 15,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.2s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/261"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Bug Buzz",
+                "type": "Bug",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.8s - 2.9s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/49"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.1s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/86"
+            },
+            {
+                "name": "Silver Wind",
+                "type": "Bug",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/262"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Illumise's has 2002 max CP (at Level 50). A Illumise obtained from Raids can be encountered from 952 CP to 1012 CP, or if weather boosted, in the 1191 CP to 1265 CP range. In Field and Special Research, Illumise can be found in the 714 CP to 759 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2002",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "714 - 759",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "952 - 1012",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "952 - 1012",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1191 - 1265",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1191 CP - 1265 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 25,
+        "2": 78,
+        "3": 131,
+        "4": 185,
+        "5": 238,
+        "6": 292,
+        "7": 345,
+        "8": 399,
+        "9": 452,
+        "10": 506,
+        "11": 556,
+        "12": 607,
+        "13": 658,
+        "14": 708,
+        "15": 759,
+        "16": 809,
+        "17": 860,
+        "18": 910,
+        "19": 961,
+        "20": 1012,
+        "21": 1062,
+        "22": 1113,
+        "23": 1163,
+        "24": 1214,
+        "25": 1265,
+        "26": 1315,
+        "27": 1366,
+        "28": 1417,
+        "29": 1467,
+        "30": 1518,
+        "31": 1543,
+        "32": 1568,
+        "33": 1594,
+        "34": 1619,
+        "35": 1644,
+        "36": 1670,
+        "37": 1695,
+        "38": 1720,
+        "39": 1745,
+        "40": 1771,
+        "41": 1793,
+        "42": 1816,
+        "43": 1839,
+        "44": 1862,
+        "45": 1885,
+        "46": 1908,
+        "47": 1931,
+        "48": 1955,
+        "49": 1978,
+        "50": 2002
+    },
+    "meta_analysis": "Illumise in the meta PvE Analysis ⚔️ Raids Illumise is a single-stage, pure Bug-type Pokémon . It has a max CP of 2002 and a DPS of around just 8 . Unfortunately, there are many other Bug-type Pokémon that can fit the role of a raid attacker better than Illumise . PvP Analysis 🔵 Great League Illumise , with its max CP of 2002 , is obviously too weak for the Master and Ultra Leagues . It doesn’t perform particularly well in the Great League either. While its overall stat total is high , each of its three main stats is just average . Not only that, Illumise only has Charged Attacks that require more energy than the damage they output , making it ineffective. Overall, not a solid choice in any of the three main leagues .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Illumise",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Illumise's Bug-type moves, Candy, and Candy XL from catching Illumise.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 314,
+            "height_m": 0.61,
+            "weight_kg": 17.7,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.3 m",
+            "xs": "0.31 m",
+            "m": "0.61 m",
+            "xl": "0.92 m",
+            "xxl": "1.07 m",
+            "description": "Illumise's height ranges from 0.3 m to 1.07 m, with the average being 0.61 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2989,
+                "upper_m": 0.305,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′00″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.305,
+                "upper_m": 0.61,
+                "lower_ft": "1′00″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.4575,
+                "upper_m": 0.7625,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.7625,
+                "upper_m": 0.915,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.915,
+                "upper_m": 1.0675,
+                "lower_ft": "3′00″",
+                "upper_ft": "3′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "ILLUMISE attracts a swarm of VOLBEAT using a sweet fragrance. Once the VOLBEAT have gathered, this POKéMON leads the lit-up swarm in drawing geometric designs on the canvas of the night sky."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "ILLUMISE leads a flight of illuminated VOLBEAT to draw signs in the night sky. This POKéMON is said to earn greater respect from its peers by composing more complex designs in the sky."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "A nocturnal POKéMON that becomes active upon nightfall. It leads a VOLBEAT swarm to draw patterns in the night sky. Over 200 different patterns have been confirmed."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It guides VOLBEAT to draw signs in night skies. There are scientists that study the patterns it creates."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum"
+            ],
+            "entry": "With its sweet aroma, it guides VOLBEAT to draw signs with light in the night sky."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "Its fragrance attracts a swarm of VOLBEAT, so they draw over 200 patterns in the night sky."
+        },
+        {
+            "versions": [
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "With its sweet aroma, it guides Volbeat to draw signs with light in the night sky."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Its fragrance attracts a swarm of Volbeat, so they draw over 200 patterns in the night sky."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "With its sweet aroma, it guides Volbeat to draw signs with light in the night sky."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Illumise attracts a swarm of Volbeat using a sweet fragrance. Once the Volbeat have gathered, this Pokémon leads the lit-up swarm in drawing geometric designs on the canvas of the night sky."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Illumise leads a flight of illuminated Volbeat to draw signs in the night sky. This Pokémon is said to earn greater respect from its peers by composing more complex designs in the sky."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Illumise",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm314.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm314.icon.png"
+            },
+            {
+                "label": "Shiny Illumise",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm314.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm314.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 314,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0314_000_fo_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0314_000_fo_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Illumise sprite"
+            },
+            {
+                "pokedex_number": 314,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0314_000_fo_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0314_000_fo_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Illumise sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/314_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/314_social.jpg",
+                "alt": "Illumise"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/314_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/314_social_dark.jpg",
+                "alt": "Illumise"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/314_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/314_social_map.jpg",
+                "alt": "Illumise"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/314_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/314_social_map_dark.jpg",
+                "alt": "Illumise"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Illumise’s strengths and weaknesses?",
+            "answer": "As a Bug-type Pokémon, Illumise is weak to Fire, Flying, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Illumise in Pokémon GO?",
+            "answer": "The best moves for Illumise in Pokémon GO are Tackle and Bug Buzz. This moveset has a DPS (Damage Per Second) of 7.378 and a TDO (Total Damage Output) of 110.8."
+        },
+        {
+            "question": "How does Illumise perform in Raids?",
+            "answer": "Illumise's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Illumise rank as a Bug-type attacker?",
+            "answer": "Illumise is an F-Tier Bug-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Illumise?",
+            "answer": "The following Mega Pokémon boost Illumise: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, and Primal Kyogre."
+        },
+        {
+            "question": "What is Illumise’s maximum CP at Level 40 and Level 50?",
+            "answer": "Illumise’s maximum CP at Level 40 is 1771 CP and 2002 CP at Level 50."
+        },
+        {
+            "question": "Can Illumise be shiny in Pokémon GO?",
+            "answer": "Illumise can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Illumise Dynamax in Pokémon GO?",
+            "answer": "Illumise cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

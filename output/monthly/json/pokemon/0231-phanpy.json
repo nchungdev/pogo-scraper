@@ -1,0 +1,956 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1364,
+        "attack": 107,
+        "defense": 98,
+        "stamina": 207,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Phanpy",
+        "forms": [
+            {
+                "name": "Phanpy",
+                "href": "/pokemon/231",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/231.webp"
+            },
+            {
+                "name": "Shadow Phanpy",
+                "href": "/pokemon/231-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/231.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/231.webp",
+        "types": [
+            "Ground"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Bulldoze",
+            "dps": 5.18,
+            "tdo": 60.55,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 5.18,
+                "tdo": 60.6,
+                "score": 4.27
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 5.13,
+                "tdo": 60.0,
+                "score": 4.23
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 5.12,
+                "tdo": 59.9,
+                "score": 4.22
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 4.95,
+                "tdo": 57.8,
+                "score": 4.08
+            },
+            {
+                "rank": 5,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 4.71,
+                "tdo": 55.1,
+                "score": 3.88
+            },
+            {
+                "rank": 6,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 4.63,
+                "tdo": 54.1,
+                "score": 3.82
+            },
+            {
+                "rank": 7,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 4.6,
+                "tdo": 53.8,
+                "score": 3.79
+            },
+            {
+                "rank": 8,
+                "fast": "Rock Smash",
+                "fast_url": "https://db.pokemongohub.net/move/241",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 4.54,
+                "tdo": 53.0,
+                "score": 3.74
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Rock Smash",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 17,
+                    "energy": 12,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 17,
+                    "energy": 12,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/241"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Rock Slide",
+                "type": "Rock",
+                "stats": {
+                    "damage": 75,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 75,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/64"
+            },
+            {
+                "name": "Bulldoze",
+                "type": "Ground",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/95"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            },
+            {
+                "name": "Trailblaze",
+                "type": "Grass",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.2s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/392"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Phanpy's has 1364 max CP (at Level 50). A Phanpy obtained from Raids can be encountered from 639 CP to 689 CP, or if weather boosted, in the 799 CP to 862 CP range. In Field and Special Research, Phanpy can be found in the 479 CP to 517 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1364",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "479 - 517",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "639 - 689",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "639 - 689",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "799 - 862",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "799 CP - 862 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 17,
+        "2": 53,
+        "3": 89,
+        "4": 126,
+        "5": 162,
+        "6": 199,
+        "7": 235,
+        "8": 272,
+        "9": 308,
+        "10": 344,
+        "11": 379,
+        "12": 413,
+        "13": 448,
+        "14": 482,
+        "15": 517,
+        "16": 551,
+        "17": 586,
+        "18": 620,
+        "19": 655,
+        "20": 689,
+        "21": 724,
+        "22": 758,
+        "23": 793,
+        "24": 827,
+        "25": 862,
+        "26": 896,
+        "27": 931,
+        "28": 965,
+        "29": 1000,
+        "30": 1034,
+        "31": 1051,
+        "32": 1068,
+        "33": 1086,
+        "34": 1103,
+        "35": 1120,
+        "36": 1137,
+        "37": 1155,
+        "38": 1172,
+        "39": 1189,
+        "40": 1206,
+        "41": 1222,
+        "42": 1237,
+        "43": 1253,
+        "44": 1268,
+        "45": 1284,
+        "46": 1300,
+        "47": 1316,
+        "48": 1332,
+        "49": 1348,
+        "50": 1364
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Phanpy",
+                    "href": "/pokemon/231",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/231.webp"
+                },
+                "to": {
+                    "name": "Donphan",
+                    "href": "/pokemon/232",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/232.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Phanpy",
+                "href": "/pokemon/231",
+                "img": "https://db.pokemongohub.net/images/official/medium/231.webp"
+            },
+            {
+                "name": "Donphan",
+                "href": "/pokemon/232",
+                "img": "https://db.pokemongohub.net/images/official/medium/232.webp"
+            },
+            {
+                "name": "Shadow Phanpy",
+                "href": "/pokemon/231-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Donphan",
+                "href": "/pokemon/232-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Phanpy in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Phanpy",
+        "type": "Ground",
+        "intro_text": "A list of Mega Pokémon that boost Phanpy's Ground-type moves, Candy, and Candy XL from catching Phanpy.",
+        "mega_list": [
+            {
+                "name": "Mega Steelix",
+                "pokemon_id": 208,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/208-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            },
+            {
+                "name": "Mega Garchomp",
+                "pokemon_id": 445,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/445-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 231,
+            "height_m": 0.51,
+            "weight_kg": 33.5,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.26 m",
+            "m": "0.51 m",
+            "xl": "0.77 m",
+            "xxl": "1.02 m",
+            "description": "Phanpy's height ranges from 0.25 m to 1.02 m, with the average being 0.51 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2499,
+                "upper_m": 0.255,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.255,
+                "upper_m": 0.51,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3825,
+                "upper_m": 0.6375,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.6375,
+                "upper_m": 0.765,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.765,
+                "upper_m": 1.02,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It swings its long snout around play fully, but because it is so strong, that can be dan gerous."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "As a sign of af fection, it bumps with its snout. However, it is so strong, it may send you flying."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "During the desert ed morning hours, it comes ashore where it deftly uses its trunk to take a shower."
+        },
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "For its nest, PHANPY digs a vertical pit in the ground at the edge of a river. It marks the area around its nest with its trunk to let the others know that the area has been claimed."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "PHANPY uses its long nose to shower itself. When others gather around, they thoroughly douse each other with water. These POKéMON can be seen drying their soaking-wet bodies at the edge of water."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "PHANPY’s big ears serve as broad fans. When it becomes hot, it flaps the ears busily to cool down. Even the young are very strong."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "It swings its long snout around playfully, but because it is so strong, this can be dangerous."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It swings its long snout around playfully, but because it is so strong, that can be dangerous."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "For its nest, Phanpy digs a vertical pit in the ground at the edge of a river. It marks the area around its nest with its trunk to let the others know that the area has been claimed."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Phanpy uses its long nose to shower itself. When others gather around, they thoroughly douse each other with water. These Pokémon can be seen drying their soaking-wet bodies at the edge of water."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Phanpy",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm231.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm231.icon.png"
+            },
+            {
+                "label": "Shiny Phanpy",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm231.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm231.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 231,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0231_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0231_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Phanpy sprite"
+            },
+            {
+                "pokedex_number": 231,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0231_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0231_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Phanpy sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/231_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/231_social.jpg",
+                "alt": "Phanpy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/231_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/231_social_dark.jpg",
+                "alt": "Phanpy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/231_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/231_social_map.jpg",
+                "alt": "Phanpy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/231_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/231_social_map_dark.jpg",
+                "alt": "Phanpy"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Phanpy’s strengths and weaknesses?",
+            "answer": "As a Ground-type Pokémon, Phanpy is weak to Grass, Ice, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Phanpy in Pokémon GO?",
+            "answer": "The best moves for Phanpy in Pokémon GO are Tackle and Bulldoze. This moveset has a DPS (Damage Per Second) of 5.179 and a TDO (Total Damage Output) of 60.552."
+        },
+        {
+            "question": "How does Phanpy perform in Raids?",
+            "answer": "Phanpy's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Phanpy rank as a Ground-type attacker?",
+            "answer": "Phanpy is an F-Tier Ground-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Phanpy?",
+            "answer": "The following Mega Pokémon boost Phanpy: Mega Steelix, Mega Swampert, Mega Camerupt, Primal Groudon, and Mega Garchomp."
+        },
+        {
+            "question": "What is Phanpy’s maximum CP at Level 40 and Level 50?",
+            "answer": "Phanpy’s maximum CP at Level 40 is 1206 CP and 1364 CP at Level 50."
+        },
+        {
+            "question": "Can Phanpy be shiny in Pokémon GO?",
+            "answer": "Phanpy can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Phanpy Dynamax in Pokémon GO?",
+            "answer": "Phanpy cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

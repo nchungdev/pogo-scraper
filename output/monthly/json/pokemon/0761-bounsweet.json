@@ -1,0 +1,752 @@
+{
+    "overview_and_stats": {
+        "max_cp": 532,
+        "attack": 55,
+        "defense": 69,
+        "stamina": 123,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Bounsweet",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/761.webp",
+        "types": [
+            "Grass"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Razor Leaf",
+            "charged": "Draining Kiss",
+            "dps": 2.9,
+            "tdo": 15.65,
+            "boosted_weather": [
+                "sunny",
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Razor Leaf",
+                "fast_url": "https://db.pokemongohub.net/move/215",
+                "charged": "Draining Kiss",
+                "charged_url": "https://db.pokemongohub.net/move/85",
+                "dps": 2.9,
+                "tdo": 15.7,
+                "score": 1.98
+            },
+            {
+                "rank": 2,
+                "fast": "Razor Leaf",
+                "fast_url": "https://db.pokemongohub.net/move/215",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 2.9,
+                "tdo": 15.7,
+                "score": 1.98
+            },
+            {
+                "rank": 3,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Draining Kiss",
+                "charged_url": "https://db.pokemongohub.net/move/85",
+                "dps": 2.38,
+                "tdo": 12.9,
+                "score": 1.63
+            },
+            {
+                "rank": 4,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 2.38,
+                "tdo": 12.9,
+                "score": 1.63
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Razor Leaf",
+                "type": "Grass",
+                "stats": {
+                    "damage": 13,
+                    "energy": 7,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 7,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/215"
+            },
+            {
+                "name": "Charm",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 20,
+                    "energy": 11,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 20,
+                    "energy": 11,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 13,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/320"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Draining Kiss",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "0.9s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/85"
+            },
+            {
+                "name": "Energy Ball",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/273"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Bounsweet's has 532 max CP (at Level 50). A Bounsweet obtained from Raids can be encountered from 237 CP to 268 CP, or if weather boosted, in the 297 CP to 336 CP range. In Field and Special Research, Bounsweet can be found in the 178 CP to 201 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "532",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "178 - 201",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "237 - 268",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "237 - 268",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "297 - 336",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "297 CP - 336 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 6,
+        "2": 20,
+        "3": 35,
+        "4": 49,
+        "5": 63,
+        "6": 77,
+        "7": 91,
+        "8": 106,
+        "9": 120,
+        "10": 134,
+        "11": 147,
+        "12": 161,
+        "13": 174,
+        "14": 188,
+        "15": 201,
+        "16": 215,
+        "17": 228,
+        "18": 242,
+        "19": 255,
+        "20": 268,
+        "21": 282,
+        "22": 295,
+        "23": 309,
+        "24": 322,
+        "25": 336,
+        "26": 349,
+        "27": 363,
+        "28": 376,
+        "29": 390,
+        "30": 403,
+        "31": 410,
+        "32": 416,
+        "33": 423,
+        "34": 430,
+        "35": 437,
+        "36": 443,
+        "37": 450,
+        "38": 457,
+        "39": 463,
+        "40": 470,
+        "41": 476,
+        "42": 482,
+        "43": 488,
+        "44": 494,
+        "45": 500,
+        "46": 507,
+        "47": 513,
+        "48": 519,
+        "49": 525,
+        "50": 532
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Bounsweet",
+                    "href": "/pokemon/761",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/761.webp"
+                },
+                "to": {
+                    "name": "Steenee",
+                    "href": "/pokemon/762",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/762.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Steenee",
+                    "href": "/pokemon/762",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/762.webp"
+                },
+                "to": {
+                    "name": "Tsareena",
+                    "href": "/pokemon/763",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/763.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Bounsweet",
+                "href": "/pokemon/761",
+                "img": "https://db.pokemongohub.net/images/official/medium/761.webp"
+            },
+            {
+                "name": "Steenee",
+                "href": "/pokemon/762",
+                "img": "https://db.pokemongohub.net/images/official/medium/762.webp"
+            },
+            {
+                "name": "Tsareena",
+                "href": "/pokemon/763",
+                "img": "https://db.pokemongohub.net/images/official/medium/763.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Bounsweet in the meta PvE Analysis Bounsweet is a Grass type Pokémon with a max CP of 532 . It is not useful for PvE , even with its best moveset of Razor Leaf and Draining Kiss . ⚔️ Raids Too small and weak. 🛡️ Gyms There are much better options available . PvP Analysis Bounsweet’s best moveset for PvP is Razor Leaf , Energy Ball , and Draining Kiss . It is not useful for PvP . 🧸 Little Cup Bounsweet requires XL Candy to try to compete in Little Cup , which isn’t ideal, and it’s still too slow and squishy . 🔵 Great League Great League and Bounsweet aren’t meant to be . 🟡 Ultra League Far too tiny , please don’t! 🟣 Master League Bounsweet is based on a mangosteen , and if you use it in Master League , you’ll quickly find out what a mangosteen smoothie would taste like.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Bounsweet",
+        "type": "Grass",
+        "intro_text": "A list of Mega Pokémon that boost Bounsweet's Grass-type moves, Candy, and Candy XL from catching Bounsweet.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 761,
+            "height_m": 0.3,
+            "weight_kg": 3.2,
+            "region": "Generation 7",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.6 m",
+            "description": "Bounsweet's height ranges from 0.15 m to 0.6 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.6,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′12″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "A delectable aroma pours from its body. They are often swallowed whole by Toucannon lured by that wafting deliciousness."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Although it’s too sugary for human consumption, Bounsweet’s sweat can be watered down into a juice with just the right amount of sweetness."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Because of its sweet, delicious aroma, bird Pokémon are always after it, but it’s not intelligent enough to care."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It tries to resist being swallowed by a bird Pokémon by spinning the sepals on its head. It’s usually a fruitless attempt."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Its body gives off a sweet, fruity scent that is extremely appetizing to bird Pokémon."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "When under attack, it secretes a sweet and delicious sweat. The scent only calls more enemies to it."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Bounsweet",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm761.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm761.icon.png"
+            },
+            {
+                "label": "Shiny Bounsweet",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm761.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm761.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 761,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0761_000_fo_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0761_000_fo_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Bounsweet sprite"
+            },
+            {
+                "pokedex_number": 761,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0761_000_fo_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0761_000_fo_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Bounsweet sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/761_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/761_social.jpg",
+                "alt": "Bounsweet"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/761_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/761_social_dark.jpg",
+                "alt": "Bounsweet"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/761_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/761_social_map.jpg",
+                "alt": "Bounsweet"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/761_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/761_social_map_dark.jpg",
+                "alt": "Bounsweet"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Bounsweet’s strengths and weaknesses?",
+            "answer": "As a Grass-type Pokémon, Bounsweet is weak to Bug, Fire, Flying, Ice, and Poison-type moves."
+        },
+        {
+            "question": "What are the best moves for Bounsweet in Pokémon GO?",
+            "answer": "The best moves for Bounsweet in Pokémon GO are Razor Leaf and Draining Kiss. This moveset has a DPS (Damage Per Second) of 2.897 and a TDO (Total Damage Output) of 15.654."
+        },
+        {
+            "question": "How does Bounsweet perform in Raids?",
+            "answer": "Bounsweet's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Bounsweet rank as a Grass-type attacker?",
+            "answer": "Bounsweet's performance as a Grass-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Bounsweet?",
+            "answer": "The following Mega Pokémon boost Bounsweet: Mega Venusaur, Mega Sceptile, Primal Groudon, and Mega Abomasnow."
+        },
+        {
+            "question": "What is Bounsweet’s maximum CP at Level 40 and Level 50?",
+            "answer": "Bounsweet’s maximum CP at Level 40 is 470 CP and 532 CP at Level 50."
+        },
+        {
+            "question": "Can Bounsweet be shiny in Pokémon GO?",
+            "answer": "Bounsweet can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Bounsweet Dynamax in Pokémon GO?",
+            "answer": "Bounsweet cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

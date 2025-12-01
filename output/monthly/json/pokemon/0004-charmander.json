@@ -1,0 +1,1001 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1108,
+        "attack": 116,
+        "defense": 93,
+        "stamina": 118,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Charmander",
+        "forms": [
+            {
+                "name": "Charmander",
+                "href": "/pokemon/4",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/004.webp"
+            },
+            {
+                "name": "Shadow Charmander",
+                "href": "/pokemon/4-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/004.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/004.webp",
+        "types": [
+            "Fire"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Scratch",
+            "charged": "Flamethrower",
+            "dps": 4.79,
+            "tdo": 32.09,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 4.79,
+                "tdo": 32.1,
+                "score": 3.49
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Flame Burst",
+                "charged_url": "https://db.pokemongohub.net/move/102",
+                "dps": 4.76,
+                "tdo": 31.9,
+                "score": 3.47
+            },
+            {
+                "rank": 3,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 4.75,
+                "tdo": 31.8,
+                "score": 3.46
+            },
+            {
+                "rank": 4,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 4.63,
+                "tdo": 31.0,
+                "score": 3.37
+            },
+            {
+                "rank": 5,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Burst",
+                "charged_url": "https://db.pokemongohub.net/move/102",
+                "dps": 4.57,
+                "tdo": 30.6,
+                "score": 3.33
+            },
+            {
+                "rank": 6,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 4.49,
+                "tdo": 30.0,
+                "score": 3.27
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            },
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            },
+            {
+                "name": "Flame Burst",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "0.9s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/102"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Charmander's has 1108 max CP (at Level 50). A Charmander obtained from Raids can be encountered from 516 CP to 560 CP, or if weather boosted, in the 645 CP to 700 CP range. In Field and Special Research, Charmander can be found in the 387 CP to 420 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1108",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "387 - 420",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "516 - 560",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "516 - 560",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "645 - 700",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "645 CP - 700 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 43,
+        "3": 73,
+        "4": 102,
+        "5": 132,
+        "6": 161,
+        "7": 191,
+        "8": 221,
+        "9": 250,
+        "10": 280,
+        "11": 308,
+        "12": 336,
+        "13": 364,
+        "14": 392,
+        "15": 420,
+        "16": 448,
+        "17": 476,
+        "18": 504,
+        "19": 532,
+        "20": 560,
+        "21": 588,
+        "22": 616,
+        "23": 644,
+        "24": 672,
+        "25": 700,
+        "26": 728,
+        "27": 756,
+        "28": 784,
+        "29": 812,
+        "30": 840,
+        "31": 854,
+        "32": 868,
+        "33": 882,
+        "34": 896,
+        "35": 910,
+        "36": 924,
+        "37": 938,
+        "38": 952,
+        "39": 966,
+        "40": 980,
+        "41": 993,
+        "42": 1005,
+        "43": 1018,
+        "44": 1030,
+        "45": 1043,
+        "46": 1056,
+        "47": 1069,
+        "48": 1082,
+        "49": 1095,
+        "50": 1108
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Charmander",
+                    "href": "/pokemon/4",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/004.webp"
+                },
+                "to": {
+                    "name": "Charmeleon",
+                    "href": "/pokemon/5",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/005.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Charmeleon",
+                    "href": "/pokemon/5",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/005.webp"
+                },
+                "to": {
+                    "name": "Charizard",
+                    "href": "/pokemon/6",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/006.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Charizard",
+                    "href": "/pokemon/6",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/006.webp"
+                },
+                "to": {
+                    "name": "Mega Charizard X",
+                    "href": "/pokemon/6-Mega_X",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Charizard",
+                    "href": "/pokemon/6",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/006.webp"
+                },
+                "to": {
+                    "name": "Mega Charizard Y",
+                    "href": "/pokemon/6-Mega_Y",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Charmander",
+                "href": "/pokemon/4",
+                "img": "https://db.pokemongohub.net/images/official/medium/004.webp"
+            },
+            {
+                "name": "Charmeleon",
+                "href": "/pokemon/5",
+                "img": "https://db.pokemongohub.net/images/official/medium/005.webp"
+            },
+            {
+                "name": "Charizard",
+                "href": "/pokemon/6",
+                "img": "https://db.pokemongohub.net/images/official/medium/006.webp"
+            },
+            {
+                "name": "Gigantamax Charizard",
+                "href": "/pokemon/6-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/006_gmax.webp"
+            },
+            {
+                "name": "Mega Charizard X",
+                "href": "/pokemon/6-Mega_X",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Charizard Y",
+                "href": "/pokemon/6-Mega_Y",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Charmander",
+                "href": "/pokemon/4-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Charmeleon",
+                "href": "/pokemon/5-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Charizard",
+                "href": "/pokemon/6-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Charmander in the meta PvE Analysis As the base level of its evolution line, Charmander lacks the stats needed to be considered even remotely viable in PvE gameplay. ⚔️ Raids - Not useful by any means. It can earn benches with the fire on its tail though 🔥 🛡️ Gyms - It can be KO’d even by moves that it resists 😅 🔮 Dynamax Charmander can be obtained from one-star Max Battles. It costs 250 MP and gives 10,000 XP as a reward. While it can be easily beaten by any Dynamax Pokémon, use any one from the Blastoise family with a Water -type Fast Move to help it use Max Geyser 🌀 PvP Analysis 🔵 Great League - Terrible stats, keep it out! 🟡 Ultra League - Don't push it, Charmander is not meant for PvP 🙅‍♂️ 🟣 Master League - A little lizard burnt to a crisp 🎇 The Master League Pokémon say that it tastes like chicken 🤔",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Charmander",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Charmander's Fire-type moves, Candy, and Candy XL from catching Charmander.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 4,
+            "height_m": 0.6,
+            "weight_kg": 8.5,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": 15,
+        "size_info": {
+            "xxs": "0.29 m",
+            "xs": "0.3 m",
+            "m": "0.6 m",
+            "xl": "0.9 m",
+            "xxl": "1.05 m",
+            "description": "Charmander's height ranges from 0.29 m to 1.05 m, with the average being 0.6 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.294,
+                "upper_m": 0.3,
+                "lower_ft": "0′12″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.3,
+                "upper_m": 0.6,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.45,
+                "upper_m": 0.75,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.75,
+                "upper_m": 0.9,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.9,
+                "upper_m": 1.05,
+                "lower_ft": "2′11″",
+                "upper_ft": "3′05″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 29,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 10,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "The flame on its tail shows the strength of its life force. If it is weak, the flame also burns weakly."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "The flame on its tail indicates CHARMANDER's life force. If it is healthy, the flame burns brightly."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "If it's healthy, the flame on the tip of its tail will burn vigor ously, even if it gets a bit wet."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when CHARMANDER is enjoying itself. If the POKéMON becomes enraged, the flame burns fiercely."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when CHARMANDER is happy, and blazes when it is enraged."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "The flame on its tail shows the strength of its life force. If it is weak, the flame also burns weakly."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "The flame on its tail indicates CHARMANDER’s life force. If it is healthy, the flame burns brightly."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Charmander",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm4.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm4.icon.png"
+            },
+            {
+                "label": "Shiny Charmander",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm4.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm4.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 4,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0004_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0004_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Charmander sprite"
+            },
+            {
+                "pokedex_number": 4,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0004_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0004_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Charmander sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/004_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/004_social.jpg",
+                "alt": "Charmander"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/004_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/004_social_dark.jpg",
+                "alt": "Charmander"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/004_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/004_social_map.jpg",
+                "alt": "Charmander"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/004_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/004_social_map_dark.jpg",
+                "alt": "Charmander"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 4,
+            "name": "Charmander",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm4.cJAN_2020_NOEVOLVE.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm4.cJAN_2020_NOEVOLVE.icon.png",
+            "category": "Jan 2020"
+        },
+        {
+            "pokedex_number": 4,
+            "name": "Shiny Charmander",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm4.cJAN_2020_NOEVOLVE.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm4.cJAN_2020_NOEVOLVE.s.icon.png",
+            "category": "Jan 2020"
+        },
+        {
+            "pokedex_number": 4,
+            "name": "Charmander",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm4.cSPRING_2020_NOEVOLVE.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm4.cSPRING_2020_NOEVOLVE.icon.png",
+            "category": "Spring 2020"
+        },
+        {
+            "pokedex_number": 4,
+            "name": "Shiny Charmander",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm4.cSPRING_2020_NOEVOLVE.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm4.cSPRING_2020_NOEVOLVE.s.icon.png",
+            "category": "Spring 2020"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Charmander’s strengths and weaknesses?",
+            "answer": "As a Fire-type Pokémon, Charmander is weak to Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Charmander in Pokémon GO?",
+            "answer": "The best moves for Charmander in Pokémon GO are Scratch and Flamethrower. This moveset has a DPS (Damage Per Second) of 4.792 and a TDO (Total Damage Output) of 32.085."
+        },
+        {
+            "question": "How does Charmander perform in Raids?",
+            "answer": "Charmander's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Charmander rank as a Fire-type attacker?",
+            "answer": "Charmander's performance as a Fire-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Charmander?",
+            "answer": "The following Mega Pokémon boost Charmander: Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Charmander’s maximum CP at Level 40 and Level 50?",
+            "answer": "Charmander’s maximum CP at Level 40 is 980 CP and 1108 CP at Level 50."
+        },
+        {
+            "question": "Can Charmander be shiny in Pokémon GO?",
+            "answer": "Charmander can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Charmander Dynamax in Pokémon GO?",
+            "answer": "Charmander can Dynamax in Pokémon GO."
+        }
+    ]
+}

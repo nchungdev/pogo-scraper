@@ -1,0 +1,825 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1192,
+        "attack": 132,
+        "defense": 67,
+        "stamina": 146,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Buizel",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/418.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Aqua Jet",
+            "dps": 5.13,
+            "tdo": 31.58,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 5.13,
+                "tdo": 31.6,
+                "score": 3.65
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 5.04,
+                "tdo": 31.0,
+                "score": 3.59
+            },
+            {
+                "rank": 3,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 4.98,
+                "tdo": 30.6,
+                "score": 3.54
+            },
+            {
+                "rank": 4,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 4.38,
+                "tdo": 27.0,
+                "score": 3.12
+            },
+            {
+                "rank": 5,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.31,
+                "tdo": 26.5,
+                "score": 3.07
+            },
+            {
+                "rank": 6,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 4.14,
+                "tdo": 25.5,
+                "score": 2.95
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aqua Jet",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/57"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Swift",
+                "type": "Normal",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.2s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/125"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Buizel's has 1192 max CP (at Level 50). A Buizel obtained from Raids can be encountered from 555 CP to 602 CP, or if weather boosted, in the 694 CP to 753 CP range. In Field and Special Research, Buizel can be found in the 416 CP to 452 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1192",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "416 - 452",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "555 - 602",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "555 - 602",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "694 - 753",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "694 CP - 753 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 46,
+        "3": 78,
+        "4": 110,
+        "5": 142,
+        "6": 174,
+        "7": 205,
+        "8": 237,
+        "9": 269,
+        "10": 301,
+        "11": 331,
+        "12": 361,
+        "13": 391,
+        "14": 422,
+        "15": 452,
+        "16": 482,
+        "17": 512,
+        "18": 542,
+        "19": 572,
+        "20": 602,
+        "21": 632,
+        "22": 663,
+        "23": 693,
+        "24": 723,
+        "25": 753,
+        "26": 783,
+        "27": 813,
+        "28": 843,
+        "29": 874,
+        "30": 904,
+        "31": 919,
+        "32": 934,
+        "33": 949,
+        "34": 964,
+        "35": 979,
+        "36": 994,
+        "37": 1009,
+        "38": 1024,
+        "39": 1039,
+        "40": 1054,
+        "41": 1068,
+        "42": 1081,
+        "43": 1095,
+        "44": 1108,
+        "45": 1122,
+        "46": 1136,
+        "47": 1150,
+        "48": 1164,
+        "49": 1178,
+        "50": 1192
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Buizel",
+                    "href": "/pokemon/418",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/418.webp"
+                },
+                "to": {
+                    "name": "Floatzel",
+                    "href": "/pokemon/419",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/419.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Buizel",
+                "href": "/pokemon/418",
+                "img": "https://db.pokemongohub.net/images/official/medium/418.webp"
+            },
+            {
+                "name": "Floatzel",
+                "href": "/pokemon/419",
+                "img": "https://db.pokemongohub.net/images/official/medium/419.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Buizel in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Buizel",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Buizel's Water-type moves, Candy, and Candy XL from catching Buizel.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 418,
+            "height_m": 0.7,
+            "weight_kg": 29.5,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.34 m",
+            "xs": "0.35 m",
+            "m": "0.7 m",
+            "xl": "1.05 m",
+            "xxl": "1.23 m",
+            "description": "Buizel's height ranges from 0.34 m to 1.23 m, with the average being 0.7 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.343,
+                "upper_m": 0.35,
+                "lower_ft": "1′02″",
+                "upper_ft": "1′02″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.35,
+                "upper_m": 0.7,
+                "lower_ft": "1′02″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.525,
+                "upper_m": 0.875,
+                "lower_ft": "1′09″",
+                "upper_ft": "2′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.875,
+                "upper_m": 1.05,
+                "lower_ft": "2′10″",
+                "upper_ft": "3′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.05,
+                "upper_m": 1.225,
+                "lower_ft": "3′05″",
+                "upper_ft": "4′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It has a flotation sac that is like an inflatable collar. It floats on water with its head out."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It inflates its flotation sac, keeping its face above water in order to watch for prey movement."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "It moves freely in the water by spinning its forked tail for propulsion. The resemblance to the screw of a steamboat is coincidental."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Buizel",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm418.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm418.icon.png"
+            },
+            {
+                "label": "Regular Buizel♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm418.g2.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm418.g2.icon.png"
+            },
+            {
+                "label": "Shiny Buizel",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm418.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm418.s.icon.png"
+            },
+            {
+                "label": "Shiny Buizel♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm418.g2.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm418.g2.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 418,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0418_000_fd_n_00000000_b_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0418_000_fd_n_00000000_b_n.png",
+                "alt": "Pokémon HOME Buizel ♀ sprite"
+            },
+            {
+                "pokedex_number": 418,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0418_000_fd_n_00000000_b_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0418_000_fd_n_00000000_b_n.png",
+                "alt": "Pokémon HOME Shiny Buizel ♀ sprite"
+            },
+            {
+                "pokedex_number": 418,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0418_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0418_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Buizel ♀ sprite"
+            },
+            {
+                "pokedex_number": 418,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0418_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0418_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Buizel ♀ sprite"
+            },
+            {
+                "pokedex_number": 418,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0418_000_md_n_00000000_b_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0418_000_md_n_00000000_b_n.png",
+                "alt": "Pokémon HOME Buizel sprite"
+            },
+            {
+                "pokedex_number": 418,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0418_000_md_n_00000000_b_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0418_000_md_n_00000000_b_n.png",
+                "alt": "Pokémon HOME Shiny Buizel sprite"
+            },
+            {
+                "pokedex_number": 418,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0418_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0418_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Buizel sprite"
+            },
+            {
+                "pokedex_number": 418,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0418_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0418_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Buizel sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/418_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/418_social.jpg",
+                "alt": "Buizel"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/418_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/418_social_dark.jpg",
+                "alt": "Buizel"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/418_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/418_social_map.jpg",
+                "alt": "Buizel"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/418_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/418_social_map_dark.jpg",
+                "alt": "Buizel"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Buizel’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Buizel is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Buizel in Pokémon GO?",
+            "answer": "The best moves for Buizel in Pokémon GO are Water Gun and Aqua Jet. This moveset has a DPS (Damage Per Second) of 5.132 and a TDO (Total Damage Output) of 31.579."
+        },
+        {
+            "question": "How does Buizel perform in Raids?",
+            "answer": "Buizel's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Buizel rank as a Water-type attacker?",
+            "answer": "Buizel's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Buizel?",
+            "answer": "The following Mega Pokémon boost Buizel: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Buizel’s maximum CP at Level 40 and Level 50?",
+            "answer": "Buizel’s maximum CP at Level 40 is 1054 CP and 1192 CP at Level 50."
+        },
+        {
+            "question": "Can Buizel be shiny in Pokémon GO?",
+            "answer": "Buizel can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Buizel Dynamax in Pokémon GO?",
+            "answer": "Buizel cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

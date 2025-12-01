@@ -1,0 +1,689 @@
+{
+    "overview_and_stats": {
+        "max_cp": 4404,
+        "attack": 246,
+        "defense": 223,
+        "stamina": 225,
+        "buddy_distance": 20,
+        "released": false,
+        "shiny_released": false,
+        "title": "Glastrier",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/896.webp",
+        "types": [
+            "Ice"
+        ],
+        "weather_boost": [
+            "snow"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Avalanche",
+            "dps": 13.11,
+            "tdo": 349.07,
+            "boosted_weather": [
+                "partlyCloudy",
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Avalanche",
+                "charged_url": "https://db.pokemongohub.net/move/254",
+                "dps": 13.11,
+                "tdo": 349.1,
+                "score": 12.0
+            },
+            {
+                "rank": 2,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Avalanche",
+                "charged_url": "https://db.pokemongohub.net/move/254",
+                "dps": 10.85,
+                "tdo": 288.8,
+                "score": 9.92
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 10.45,
+                "tdo": 278.1,
+                "score": 9.56
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 9.78,
+                "tdo": 260.3,
+                "score": 8.94
+            },
+            {
+                "rank": 5,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 9.15,
+                "tdo": 243.6,
+                "score": 8.37
+            },
+            {
+                "rank": 6,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 8.16,
+                "tdo": 217.1,
+                "score": 7.46
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Take Down",
+                "type": "Normal",
+                "stats": {
+                    "damage": 7,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 8,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/282"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Bulldoze",
+                "type": "Ground",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/95"
+            },
+            {
+                "name": "Icy Wind",
+                "type": "Ice",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.2s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/111"
+            },
+            {
+                "name": "Avalanche",
+                "type": "Ice",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.5s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/254"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Glastrier's has 4404 max CP (at Level 50). A Glastrier obtained from Raids can be encountered from 2137 CP to 2226 CP, or if weather boosted, in the 2672 CP to 2782 CP range. In Field and Special Research, Glastrier can be found in the 1603 CP to 1669 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "4404",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1603 - 1669",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "2137 - 2226",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2137 - 2226",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2672 - 2782",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2672 CP - 2782 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 55,
+        "2": 172,
+        "3": 290,
+        "4": 407,
+        "5": 525,
+        "6": 643,
+        "7": 760,
+        "8": 878,
+        "9": 995,
+        "10": 1113,
+        "11": 1224,
+        "12": 1336,
+        "13": 1447,
+        "14": 1558,
+        "15": 1669,
+        "16": 1781,
+        "17": 1892,
+        "18": 2003,
+        "19": 2114,
+        "20": 2226,
+        "21": 2337,
+        "22": 2448,
+        "23": 2560,
+        "24": 2671,
+        "25": 2782,
+        "26": 2894,
+        "27": 3005,
+        "28": 3116,
+        "29": 3228,
+        "30": 3339,
+        "31": 3395,
+        "32": 3450,
+        "33": 3506,
+        "34": 3562,
+        "35": 3617,
+        "36": 3673,
+        "37": 3729,
+        "38": 3784,
+        "39": 3840,
+        "40": 3895,
+        "41": 3945,
+        "42": 3995,
+        "43": 4045,
+        "44": 4095,
+        "45": 4146,
+        "46": 4197,
+        "47": 4248,
+        "48": 4300,
+        "49": 4352,
+        "50": 4404
+    },
+    "meta_analysis": "Glastrier in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Glastrier",
+        "type": "Ice",
+        "intro_text": "A list of Mega Pokémon that boost Glastrier's Ice-type moves, Candy, and Candy XL from catching Glastrier.",
+        "mega_list": [
+            {
+                "name": "Mega Glalie",
+                "pokemon_id": 362,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/362-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 896,
+            "height_m": 2.2,
+            "weight_kg": 800,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "1.08 m",
+            "xs": "1.1 m",
+            "m": "2.2 m",
+            "xl": "3.3 m",
+            "xxl": "3.41 m",
+            "description": "Glastrier's height ranges from 1.08 m to 3.41 m, with the average being 2.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 1.078,
+                "upper_m": 1.1,
+                "lower_ft": "3′06″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.1,
+                "upper_m": 2.2,
+                "lower_ft": "3′07″",
+                "upper_ft": "7′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.65,
+                "upper_m": 2.75,
+                "lower_ft": "5′05″",
+                "upper_ft": "9′00″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.75,
+                "upper_m": 3.3,
+                "lower_ft": "9′00″",
+                "upper_ft": "10′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 3.3,
+                "upper_m": 3.41,
+                "lower_ft": "10′10″",
+                "upper_ft": "11′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 30.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Glastrier emits intense cold from its hooves. It’s also a belligerent Pokémon—anything it wants, it takes by force."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Glastrier has tremendous physical strength, and the mask of ice covering its face is 100 times harder than diamond."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 896,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0896_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0896_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Glastrier sprite"
+            },
+            {
+                "pokedex_number": 896,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0896_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0896_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Glastrier sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/896_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/896_social.jpg",
+                "alt": "Glastrier"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/896_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/896_social_dark.jpg",
+                "alt": "Glastrier"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/896_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/896_social_map.jpg",
+                "alt": "Glastrier"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/896_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/896_social_map_dark.jpg",
+                "alt": "Glastrier"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Glastrier’s strengths and weaknesses?",
+            "answer": "As a Ice-type Pokémon, Glastrier is weak to Fighting, Fire, Rock, and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Glastrier in Pokémon GO?",
+            "answer": "The best moves for Glastrier in Pokémon GO are Tackle and Avalanche. This moveset has a DPS (Damage Per Second) of 13.111 and a TDO (Total Damage Output) of 349.075."
+        },
+        {
+            "question": "How does Glastrier perform in Raids?",
+            "answer": "Glastrier's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Glastrier rank as a Ice-type attacker?",
+            "answer": "Glastrier's performance as a Ice-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Glastrier?",
+            "answer": "The following Mega Pokémon boost Glastrier: Mega Glalie and Mega Abomasnow."
+        },
+        {
+            "question": "What is Glastrier’s maximum CP at Level 40 and Level 50?",
+            "answer": "Glastrier’s maximum CP at Level 40 is 3895 CP and 4404 CP at Level 50."
+        },
+        {
+            "question": "Can Glastrier be shiny in Pokémon GO?",
+            "answer": "Glastrier cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Glastrier Dynamax in Pokémon GO?",
+            "answer": "Glastrier cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

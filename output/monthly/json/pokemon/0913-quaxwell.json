@@ -1,0 +1,781 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2007,
+        "attack": 162,
+        "defense": 123,
+        "stamina": 172,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Quaxwell",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/913.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Liquidation",
+            "dps": 8.26,
+            "tdo": 99.31,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Liquidation",
+                "charged_url": "https://db.pokemongohub.net/move/383",
+                "dps": 8.26,
+                "tdo": 99.3,
+                "score": 6.84
+            },
+            {
+                "rank": 2,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Liquidation",
+                "charged_url": "https://db.pokemongohub.net/move/383",
+                "dps": 7.68,
+                "tdo": 92.3,
+                "score": 6.36
+            },
+            {
+                "rank": 3,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 7.01,
+                "tdo": 84.3,
+                "score": 5.8
+            },
+            {
+                "rank": 4,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 6.94,
+                "tdo": 83.5,
+                "score": 5.75
+            },
+            {
+                "rank": 5,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 6.34,
+                "tdo": 76.3,
+                "score": 5.25
+            },
+            {
+                "rank": 6,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 6.27,
+                "tdo": 75.5,
+                "score": 5.2
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Wing Attack",
+                "type": "Flying",
+                "stats": {
+                    "damage": 10,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/210"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Aqua Jet",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/57"
+            },
+            {
+                "name": "Liquidation",
+                "type": "Water",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/383"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Quaxwell's has 2007 max CP (at Level 50). A Quaxwell obtained from Raids can be encountered from 955 CP to 1014 CP, or if weather boosted, in the 1193 CP to 1268 CP range. In Field and Special Research, Quaxwell can be found in the 716 CP to 761 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2007",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "716 - 761",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "955 - 1014",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "955 - 1014",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1193 - 1268",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1193 CP - 1268 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 25,
+        "2": 78,
+        "3": 132,
+        "4": 185,
+        "5": 239,
+        "6": 293,
+        "7": 346,
+        "8": 400,
+        "9": 453,
+        "10": 507,
+        "11": 558,
+        "12": 609,
+        "13": 659,
+        "14": 710,
+        "15": 761,
+        "16": 811,
+        "17": 862,
+        "18": 913,
+        "19": 964,
+        "20": 1014,
+        "21": 1065,
+        "22": 1116,
+        "23": 1167,
+        "24": 1217,
+        "25": 1268,
+        "26": 1319,
+        "27": 1370,
+        "28": 1420,
+        "29": 1471,
+        "30": 1522,
+        "31": 1547,
+        "32": 1573,
+        "33": 1598,
+        "34": 1623,
+        "35": 1649,
+        "36": 1674,
+        "37": 1699,
+        "38": 1725,
+        "39": 1750,
+        "40": 1775,
+        "41": 1798,
+        "42": 1821,
+        "43": 1843,
+        "44": 1866,
+        "45": 1890,
+        "46": 1913,
+        "47": 1936,
+        "48": 1960,
+        "49": 1983,
+        "50": 2007
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Quaxly",
+                    "href": "/pokemon/912",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/912.webp"
+                },
+                "to": {
+                    "name": "Quaxwell",
+                    "href": "/pokemon/913",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/913.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Quaxwell",
+                    "href": "/pokemon/913",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/913.webp"
+                },
+                "to": {
+                    "name": "Quaquaval",
+                    "href": "/pokemon/914",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/914.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Quaxly",
+                "href": "/pokemon/912",
+                "img": "https://db.pokemongohub.net/images/official/medium/912.webp"
+            },
+            {
+                "name": "Quaxwell",
+                "href": "/pokemon/913",
+                "img": "https://db.pokemongohub.net/images/official/medium/913.webp"
+            },
+            {
+                "name": "Quaquaval",
+                "href": "/pokemon/914",
+                "img": "https://db.pokemongohub.net/images/official/medium/914.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Quaxwell in the meta PvE Analysis Quaxwell is the middle stage of the water-type starter from Paldea. There’s no reason to use it as a raid attacker over a fully evolved Pokémon. PvP Analysis 🔵 Great League With a max CP of 2007, Quaxwell is only really usable in the Great League. Of course, usable doesn’t mean viable, as Quaxwell has next to nothing going for it to use in the Great League. 🟡 Ultra League N/A 🟣 Master League N/A",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Quaxwell",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Quaxwell's Water-type moves, Candy, and Candy XL from catching Quaxwell.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 913,
+            "height_m": 1.2,
+            "weight_kg": 21.5,
+            "region": "Generation 9",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.59 m",
+            "xs": "0.6 m",
+            "m": "1.2 m",
+            "xl": "1.8 m",
+            "xxl": "1.86 m",
+            "description": "Quaxwell's height ranges from 0.59 m to 1.86 m, with the average being 1.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.588,
+                "upper_m": 0.6,
+                "lower_ft": "1′11″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.6,
+                "upper_m": 1.2,
+                "lower_ft": "1′12″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.9,
+                "upper_m": 1.5,
+                "lower_ft": "2′11″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.5,
+                "upper_m": 1.8,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.8,
+                "upper_m": 1.86,
+                "lower_ft": "5′11″",
+                "upper_ft": "6′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 2,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Scarlet"
+            ],
+            "entry": "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully."
+        },
+        {
+            "versions": [
+                "Violet"
+            ],
+            "entry": "The hardworking Quaxwell observes people and Pokémon from various regions and incorporates their movements into its own dance routines."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Quaxwell",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm913.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm913.icon.png"
+            },
+            {
+                "label": "Shiny Quaxwell",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm913.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm913.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 913,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0913_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0913_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Quaxwell sprite"
+            },
+            {
+                "pokedex_number": 913,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0913_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0913_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Quaxwell sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/913_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/913_social.jpg",
+                "alt": "Quaxwell"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/913_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/913_social_dark.jpg",
+                "alt": "Quaxwell"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/913_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/913_social_map.jpg",
+                "alt": "Quaxwell"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/913_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/913_social_map_dark.jpg",
+                "alt": "Quaxwell"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Quaxwell’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Quaxwell is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Quaxwell in Pokémon GO?",
+            "answer": "The best moves for Quaxwell in Pokémon GO are Water Gun and Liquidation. This moveset has a DPS (Damage Per Second) of 8.256 and a TDO (Total Damage Output) of 99.306."
+        },
+        {
+            "question": "How does Quaxwell perform in Raids?",
+            "answer": "Quaxwell's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Quaxwell rank as a Water-type attacker?",
+            "answer": "Quaxwell is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Quaxwell?",
+            "answer": "The following Mega Pokémon boost Quaxwell: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Quaxwell’s maximum CP at Level 40 and Level 50?",
+            "answer": "Quaxwell’s maximum CP at Level 40 is 1775 CP and 2007 CP at Level 50."
+        },
+        {
+            "question": "Can Quaxwell be shiny in Pokémon GO?",
+            "answer": "Quaxwell can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Quaxwell Dynamax in Pokémon GO?",
+            "answer": "Quaxwell cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

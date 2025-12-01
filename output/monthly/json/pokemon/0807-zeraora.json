@@ -1,0 +1,707 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3865,
+        "attack": 252,
+        "defense": 177,
+        "stamina": 204,
+        "buddy_distance": 20,
+        "released": false,
+        "shiny_released": false,
+        "title": "Zeraora",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/807.webp",
+        "types": [
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Volt Switch",
+            "charged": "Wild Charge",
+            "dps": 14.45,
+            "tdo": 283.17,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Volt Switch",
+                "fast_url": "https://db.pokemongohub.net/move/250",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 14.45,
+                "tdo": 283.2,
+                "score": 12.83
+            },
+            {
+                "rank": 2,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 14.32,
+                "tdo": 280.6,
+                "score": 12.7
+            },
+            {
+                "rank": 3,
+                "fast": "Volt Switch",
+                "fast_url": "https://db.pokemongohub.net/move/250",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 12.99,
+                "tdo": 254.6,
+                "score": 11.53
+            },
+            {
+                "rank": 4,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 12.96,
+                "tdo": 254.0,
+                "score": 11.5
+            },
+            {
+                "rank": 5,
+                "fast": "Volt Switch",
+                "fast_url": "https://db.pokemongohub.net/move/250",
+                "charged": "Thunder Punch",
+                "charged_url": "https://db.pokemongohub.net/move/77",
+                "dps": 11.95,
+                "tdo": 234.2,
+                "score": 10.6
+            },
+            {
+                "rank": 6,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Thunder Punch",
+                "charged_url": "https://db.pokemongohub.net/move/77",
+                "dps": 11.92,
+                "tdo": 233.6,
+                "score": 10.57
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Spark",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/206"
+            },
+            {
+                "name": "Volt Switch",
+                "type": "Electric",
+                "stats": {
+                    "damage": 13,
+                    "energy": 20,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 20,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 14,
+                    "energy": 16
+                },
+                "url": "https://db.pokemongohub.net/move/250"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Discharge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.1s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/35"
+            },
+            {
+                "name": "Thunder Punch",
+                "type": "Electric",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.9s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/77"
+            },
+            {
+                "name": "Wild Charge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/251"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Zeraora's has 3865 max CP (at Level 50). A Zeraora obtained from Raids can be encountered from 1870 CP to 1953 CP, or if weather boosted, in the 2338 CP to 2442 CP range. In Field and Special Research, Zeraora can be found in the 1403 CP to 1465 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3865",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1403 - 1465",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1870 - 1953",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1870 - 1953",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2338 - 2442",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2338 CP - 2442 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 48,
+        "2": 151,
+        "3": 254,
+        "4": 358,
+        "5": 461,
+        "6": 564,
+        "7": 667,
+        "8": 770,
+        "9": 874,
+        "10": 977,
+        "11": 1074,
+        "12": 1172,
+        "13": 1270,
+        "14": 1367,
+        "15": 1465,
+        "16": 1563,
+        "17": 1660,
+        "18": 1758,
+        "19": 1856,
+        "20": 1953,
+        "21": 2051,
+        "22": 2149,
+        "23": 2247,
+        "24": 2344,
+        "25": 2442,
+        "26": 2540,
+        "27": 2638,
+        "28": 2735,
+        "29": 2833,
+        "30": 2931,
+        "31": 2980,
+        "32": 3028,
+        "33": 3077,
+        "34": 3126,
+        "35": 3175,
+        "36": 3224,
+        "37": 3273,
+        "38": 3321,
+        "39": 3370,
+        "40": 3419,
+        "41": 3462,
+        "42": 3506,
+        "43": 3550,
+        "44": 3594,
+        "45": 3639,
+        "46": 3684,
+        "47": 3729,
+        "48": 3774,
+        "49": 3820,
+        "50": 3865
+    },
+    "meta_analysis": "Zeraora in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Zeraora",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Zeraora's Electric-type moves, Candy, and Candy XL from catching Zeraora.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 807,
+            "height_m": 1.5,
+            "weight_kg": 44.5,
+            "region": "Generation 7",
+            "can_be_traded": false,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.74 m",
+            "xs": "0.75 m",
+            "m": "1.5 m",
+            "xl": "2.25 m",
+            "xxl": "2.33 m",
+            "description": "Zeraora's height ranges from 0.74 m to 2.33 m, with the average being 1.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.735,
+                "upper_m": 0.75,
+                "lower_ft": "2′05″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.75,
+                "upper_m": 1.5,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.125,
+                "upper_m": 1.875,
+                "lower_ft": "3′08″",
+                "upper_ft": "6′02″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.875,
+                "upper_m": 2.25,
+                "lower_ft": "6′02″",
+                "upper_ft": "7′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.25,
+                "upper_m": 2.325,
+                "lower_ft": "7′05″",
+                "upper_ft": "7′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they’ll be electrocuted by the flying sparks."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It runs as fast as lightning strikes, shredding its opponents with its high-voltage claws."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Electricity sparks from the pads on its limbs. Wherever Zeraora runs, lightning flashes and thunder echoes."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 807,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0807_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0807_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Zeraora sprite"
+            },
+            {
+                "pokedex_number": 807,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0807_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0807_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Zeraora sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/807_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/807_social.jpg",
+                "alt": "Zeraora"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/807_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/807_social_dark.jpg",
+                "alt": "Zeraora"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/807_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/807_social_map.jpg",
+                "alt": "Zeraora"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/807_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/807_social_map_dark.jpg",
+                "alt": "Zeraora"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Zeraora’s strengths and weaknesses?",
+            "answer": "As a Electric-type Pokémon, Zeraora is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Zeraora in Pokémon GO?",
+            "answer": "The best moves for Zeraora in Pokémon GO are Volt Switch and Wild Charge. This moveset has a DPS (Damage Per Second) of 14.448 and a TDO (Total Damage Output) of 283.167."
+        },
+        {
+            "question": "How does Zeraora perform in Raids?",
+            "answer": "Zeraora's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Zeraora rank as a Electric-type attacker?",
+            "answer": "Zeraora's performance as a Electric-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Zeraora?",
+            "answer": "The following Mega Pokémon boost Zeraora: Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Zeraora’s maximum CP at Level 40 and Level 50?",
+            "answer": "Zeraora’s maximum CP at Level 40 is 3419 CP and 3865 CP at Level 50."
+        },
+        {
+            "question": "Can Zeraora be shiny in Pokémon GO?",
+            "answer": "Zeraora cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Zeraora Dynamax in Pokémon GO?",
+            "answer": "Zeraora cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,740 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1030,
+        "attack": 104,
+        "defense": 73,
+        "stamina": 156,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": false,
+        "title": "Tadbulb",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/938.webp",
+        "types": [
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Thunder Shock",
+            "charged": "Discharge",
+            "dps": 5.08,
+            "tdo": 35.62,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 5.08,
+                "tdo": 35.6,
+                "score": 3.75
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 4.63,
+                "tdo": 32.4,
+                "score": 3.41
+            },
+            {
+                "rank": 3,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Parabolic Charge",
+                "charged_url": "https://db.pokemongohub.net/move/75",
+                "dps": 4.49,
+                "tdo": 31.5,
+                "score": 3.31
+            },
+            {
+                "rank": 4,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Zap Cannon",
+                "charged_url": "https://db.pokemongohub.net/move/252",
+                "dps": 4.36,
+                "tdo": 30.6,
+                "score": 3.21
+            },
+            {
+                "rank": 5,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Parabolic Charge",
+                "charged_url": "https://db.pokemongohub.net/move/75",
+                "dps": 4.16,
+                "tdo": 29.2,
+                "score": 3.06
+            },
+            {
+                "rank": 6,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Zap Cannon",
+                "charged_url": "https://db.pokemongohub.net/move/252",
+                "dps": 3.66,
+                "tdo": 25.6,
+                "score": 2.69
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Thunder Shock",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/205"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Discharge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.1s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/35"
+            },
+            {
+                "name": "Parabolic Charge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.6s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/75"
+            },
+            {
+                "name": "Zap Cannon",
+                "type": "Electric",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.8s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/252"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Tadbulb's has 1030 max CP (at Level 50). A Tadbulb obtained from Raids can be encountered from 477 CP to 520 CP, or if weather boosted, in the 596 CP to 651 CP range. In Field and Special Research, Tadbulb can be found in the 358 CP to 390 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1030",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "358 - 390",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "477 - 520",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "477 - 520",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "596 - 651",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "596 CP - 651 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 12,
+        "2": 40,
+        "3": 67,
+        "4": 95,
+        "5": 122,
+        "6": 150,
+        "7": 178,
+        "8": 205,
+        "9": 233,
+        "10": 260,
+        "11": 286,
+        "12": 312,
+        "13": 338,
+        "14": 364,
+        "15": 390,
+        "16": 416,
+        "17": 442,
+        "18": 468,
+        "19": 494,
+        "20": 520,
+        "21": 547,
+        "22": 573,
+        "23": 599,
+        "24": 625,
+        "25": 651,
+        "26": 677,
+        "27": 703,
+        "28": 729,
+        "29": 755,
+        "30": 781,
+        "31": 794,
+        "32": 807,
+        "33": 820,
+        "34": 833,
+        "35": 846,
+        "36": 859,
+        "37": 872,
+        "38": 885,
+        "39": 898,
+        "40": 911,
+        "41": 923,
+        "42": 934,
+        "43": 946,
+        "44": 958,
+        "45": 970,
+        "46": 982,
+        "47": 994,
+        "48": 1006,
+        "49": 1018,
+        "50": 1030
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Tadbulb",
+                    "href": "/pokemon/938",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/938.webp"
+                },
+                "to": {
+                    "name": "Bellibolt",
+                    "href": "/pokemon/939",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/939.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Tadbulb",
+                "href": "/pokemon/938",
+                "img": "https://db.pokemongohub.net/images/official/medium/938.webp"
+            },
+            {
+                "name": "Bellibolt",
+                "href": "/pokemon/939",
+                "img": "https://db.pokemongohub.net/images/official/medium/939.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Tadbulb in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Tadbulb",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Tadbulb's Electric-type moves, Candy, and Candy XL from catching Tadbulb.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 938,
+            "height_m": 0.3,
+            "weight_kg": 0.4,
+            "region": "Generation 9",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.47 m",
+            "description": "Tadbulb's height ranges from 0.15 m to 0.47 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.465,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Scarlet"
+            ],
+            "entry": "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies."
+        },
+        {
+            "versions": [
+                "Violet"
+            ],
+            "entry": "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Tadbulb",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm938.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm938.icon.png"
+            },
+            {
+                "label": "Shiny Tadbulb",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm938.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm938.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 938,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0938_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0938_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Tadbulb sprite"
+            },
+            {
+                "pokedex_number": 938,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0938_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0938_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Tadbulb sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/938_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/938_social.jpg",
+                "alt": "Tadbulb"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/938_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/938_social_dark.jpg",
+                "alt": "Tadbulb"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/938_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/938_social_map.jpg",
+                "alt": "Tadbulb"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/938_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/938_social_map_dark.jpg",
+                "alt": "Tadbulb"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Tadbulb’s strengths and weaknesses?",
+            "answer": "As a Electric-type Pokémon, Tadbulb is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Tadbulb in Pokémon GO?",
+            "answer": "The best moves for Tadbulb in Pokémon GO are Thunder Shock and Discharge. This moveset has a DPS (Damage Per Second) of 5.078 and a TDO (Total Damage Output) of 35.618."
+        },
+        {
+            "question": "How does Tadbulb perform in Raids?",
+            "answer": "Tadbulb's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Tadbulb rank as a Electric-type attacker?",
+            "answer": "Tadbulb's performance as a Electric-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Tadbulb?",
+            "answer": "The following Mega Pokémon boost Tadbulb: Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Tadbulb’s maximum CP at Level 40 and Level 50?",
+            "answer": "Tadbulb’s maximum CP at Level 40 is 911 CP and 1030 CP at Level 50."
+        },
+        {
+            "question": "Can Tadbulb be shiny in Pokémon GO?",
+            "answer": "Tadbulb cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Tadbulb Dynamax in Pokémon GO?",
+            "answer": "Tadbulb cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

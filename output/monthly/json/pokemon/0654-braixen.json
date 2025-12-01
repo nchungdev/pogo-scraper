@@ -1,0 +1,777 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2049,
+        "attack": 171,
+        "defense": 130,
+        "stamina": 153,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Braixen",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/654.webp",
+        "types": [
+            "Fire"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Ember",
+            "charged": "Flamethrower",
+            "dps": 8.08,
+            "tdo": 91.79,
+            "boosted_weather": [
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 8.08,
+                "tdo": 91.8,
+                "score": 6.63
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 8.07,
+                "tdo": 91.7,
+                "score": 6.62
+            },
+            {
+                "rank": 3,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 7.4,
+                "tdo": 84.0,
+                "score": 6.06
+            },
+            {
+                "rank": 4,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 7.28,
+                "tdo": 82.6,
+                "score": 5.97
+            },
+            {
+                "rank": 5,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 7.23,
+                "tdo": 82.1,
+                "score": 5.93
+            },
+            {
+                "rank": 6,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 7.11,
+                "tdo": 80.8,
+                "score": 5.83
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            },
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Psyshock",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/60"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Braixen's has 2049 max CP (at Level 50). A Braixen obtained from Raids can be encountered from 975 CP to 1036 CP, or if weather boosted, in the 1219 CP to 1295 CP range. In Field and Special Research, Braixen can be found in the 731 CP to 777 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2049",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "731 - 777",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "975 - 1036",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "975 - 1036",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1219 - 1295",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1219 CP - 1295 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 25,
+        "2": 80,
+        "3": 135,
+        "4": 189,
+        "5": 244,
+        "6": 299,
+        "7": 354,
+        "8": 408,
+        "9": 463,
+        "10": 518,
+        "11": 569,
+        "12": 621,
+        "13": 673,
+        "14": 725,
+        "15": 777,
+        "16": 828,
+        "17": 880,
+        "18": 932,
+        "19": 984,
+        "20": 1036,
+        "21": 1087,
+        "22": 1139,
+        "23": 1191,
+        "24": 1243,
+        "25": 1295,
+        "26": 1346,
+        "27": 1398,
+        "28": 1450,
+        "29": 1502,
+        "30": 1554,
+        "31": 1580,
+        "32": 1606,
+        "33": 1631,
+        "34": 1657,
+        "35": 1683,
+        "36": 1709,
+        "37": 1735,
+        "38": 1761,
+        "39": 1787,
+        "40": 1813,
+        "41": 1836,
+        "42": 1859,
+        "43": 1882,
+        "44": 1906,
+        "45": 1929,
+        "46": 1953,
+        "47": 1977,
+        "48": 2001,
+        "49": 2025,
+        "50": 2049
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Fennekin",
+                    "href": "/pokemon/653",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/653.webp"
+                },
+                "to": {
+                    "name": "Braixen",
+                    "href": "/pokemon/654",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/654.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Braixen",
+                    "href": "/pokemon/654",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/654.webp"
+                },
+                "to": {
+                    "name": "Delphox",
+                    "href": "/pokemon/655",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/655.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Fennekin",
+                "href": "/pokemon/653",
+                "img": "https://db.pokemongohub.net/images/official/medium/653.webp"
+            },
+            {
+                "name": "Braixen",
+                "href": "/pokemon/654",
+                "img": "https://db.pokemongohub.net/images/official/medium/654.webp"
+            },
+            {
+                "name": "Delphox",
+                "href": "/pokemon/655",
+                "img": "https://db.pokemongohub.net/images/official/medium/655.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Braixen in the meta PvE Analysis ⚔️ Raids Live and let live. Braixen ain’t made for raids, folks! 🫡 🛡️ Gyms Spoiler alert: Braixen’s evolution, Delphox , isn’t a good Gym defender , so what do you expect from Braixen? 🤔 PvP Analysis 🔵 Great League Braixen is a Fire type , but it runs cold in PvP . 🥶 🟡 Ultra League Cold, cruel defeat. 🥶🥶 🟣 Master League Unimaginable defeat you can’t get over. 💀",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Braixen",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Braixen's Fire-type moves, Candy, and Candy XL from catching Braixen.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 654,
+            "height_m": 1,
+            "weight_kg": 14.5,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "1.75 m",
+            "description": "Braixen's height ranges from 0.49 m to 1.75 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 1.75,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Braixen",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm654.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm654.icon.png"
+            },
+            {
+                "label": "Shiny Braixen",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm654.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm654.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 654,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0654_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0654_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Braixen sprite"
+            },
+            {
+                "pokedex_number": 654,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0654_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0654_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Braixen sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/654_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/654_social.jpg",
+                "alt": "Braixen"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/654_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/654_social_dark.jpg",
+                "alt": "Braixen"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/654_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/654_social_map.jpg",
+                "alt": "Braixen"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/654_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/654_social_map_dark.jpg",
+                "alt": "Braixen"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Braixen’s strengths and weaknesses?",
+            "answer": "As a Fire-type Pokémon, Braixen is weak to Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Braixen in Pokémon GO?",
+            "answer": "The best moves for Braixen in Pokémon GO are Ember and Flamethrower. This moveset has a DPS (Damage Per Second) of 8.084 and a TDO (Total Damage Output) of 91.791."
+        },
+        {
+            "question": "How does Braixen perform in Raids?",
+            "answer": "Braixen's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Braixen rank as a Fire-type attacker?",
+            "answer": "Braixen is an F-Tier Fire-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Braixen?",
+            "answer": "The following Mega Pokémon boost Braixen: Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Braixen’s maximum CP at Level 40 and Level 50?",
+            "answer": "Braixen’s maximum CP at Level 40 is 1813 CP and 2049 CP at Level 50."
+        },
+        {
+            "question": "Can Braixen be shiny in Pokémon GO?",
+            "answer": "Braixen can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Braixen Dynamax in Pokémon GO?",
+            "answer": "Braixen cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

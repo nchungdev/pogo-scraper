@@ -1,0 +1,909 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1308,
+        "attack": 137,
+        "defense": 112,
+        "stamina": 102,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Staryu",
+        "forms": [
+            {
+                "name": "Staryu",
+                "href": "/pokemon/120",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/120.webp"
+            },
+            {
+                "name": "Shadow Staryu",
+                "href": "/pokemon/120-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/120.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/120.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Bubble Beam",
+            "dps": 5.89,
+            "tdo": 40.82,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 5.89,
+                "tdo": 40.8,
+                "score": 4.33
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Power Gem",
+                "charged_url": "https://db.pokemongohub.net/move/65",
+                "dps": 5.66,
+                "tdo": 39.2,
+                "score": 4.16
+            },
+            {
+                "rank": 3,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 5.39,
+                "tdo": 37.3,
+                "score": 3.96
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 5.37,
+                "tdo": 37.2,
+                "score": 3.94
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Power Gem",
+                "charged_url": "https://db.pokemongohub.net/move/65",
+                "dps": 5.1,
+                "tdo": 35.3,
+                "score": 3.75
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 4.83,
+                "tdo": 33.5,
+                "score": 3.55
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Bubble Beam",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.6s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 25,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/53"
+            },
+            {
+                "name": "Power Gem",
+                "type": "Rock",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 85,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/65"
+            },
+            {
+                "name": "Swift",
+                "type": "Normal",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.2s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/125"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Staryu's has 1308 max CP (at Level 50). A Staryu obtained from Raids can be encountered from 613 CP to 661 CP, or if weather boosted, in the 766 CP to 826 CP range. In Field and Special Research, Staryu can be found in the 459 CP to 495 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1308",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "459 - 495",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "613 - 661",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "613 - 661",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "766 - 826",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "766 CP - 826 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 16,
+        "2": 51,
+        "3": 86,
+        "4": 121,
+        "5": 156,
+        "6": 191,
+        "7": 225,
+        "8": 260,
+        "9": 295,
+        "10": 330,
+        "11": 363,
+        "12": 396,
+        "13": 429,
+        "14": 462,
+        "15": 495,
+        "16": 529,
+        "17": 562,
+        "18": 595,
+        "19": 628,
+        "20": 661,
+        "21": 694,
+        "22": 727,
+        "23": 760,
+        "24": 793,
+        "25": 826,
+        "26": 859,
+        "27": 892,
+        "28": 925,
+        "29": 958,
+        "30": 991,
+        "31": 1008,
+        "32": 1025,
+        "33": 1041,
+        "34": 1058,
+        "35": 1074,
+        "36": 1091,
+        "37": 1107,
+        "38": 1124,
+        "39": 1140,
+        "40": 1157,
+        "41": 1171,
+        "42": 1186,
+        "43": 1201,
+        "44": 1216,
+        "45": 1231,
+        "46": 1246,
+        "47": 1262,
+        "48": 1277,
+        "49": 1292,
+        "50": 1308
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Staryu",
+                    "href": "/pokemon/120",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/120.webp"
+                },
+                "to": {
+                    "name": "Starmie",
+                    "href": "/pokemon/121",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/121.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Staryu",
+                "href": "/pokemon/120",
+                "img": "https://db.pokemongohub.net/images/official/medium/120.webp"
+            },
+            {
+                "name": "Starmie",
+                "href": "/pokemon/121",
+                "img": "https://db.pokemongohub.net/images/official/medium/121.webp"
+            },
+            {
+                "name": "Shadow Staryu",
+                "href": "/pokemon/120-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Starmie",
+                "href": "/pokemon/121-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Staryu in the meta PvE Analysis Staryu not only has disappointing stats but also a bad PvE moveset, rendering it useless in Raids and Gyms. PvP Analysis 🧸 Little Cup Staryu needs the Legacy Fast Move, Quick Attack, to be somewhat viable in the Little Cup. While not among the strongest, Quick Attack’s great energy gains help Staryu use Swift and Power Gem quickly to beat Vullaby, Seel, Ducklett, and Igglybuff. However, this limited coverage makes it falter against the rest of the meta. Staryu is not viable for any other PvP League. 💎 The best PvP moves for Staryu are Quick Attack, Swift and Power Gem. 🌟 Note: Quick Attack is no longer available in Staryu’s movepool, making it unobtainable even via Elite Fast TMs.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Staryu",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Staryu's Water-type moves, Candy, and Candy XL from catching Staryu.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 120,
+            "height_m": 0.8,
+            "weight_kg": 34.5,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 750
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.39 m",
+            "xs": "0.4 m",
+            "m": "0.8 m",
+            "xl": "1.2 m",
+            "xxl": "1.4 m",
+            "description": "Staryu's height ranges from 0.39 m to 1.4 m, with the average being 0.8 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.392,
+                "upper_m": 0.4,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.4,
+                "upper_m": 0.8,
+                "lower_ft": "1′04″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.6,
+                "upper_m": 1,
+                "lower_ft": "1′12″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1,
+                "upper_m": 1.2,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.2,
+                "upper_m": 1.4,
+                "lower_ft": "3′11″",
+                "upper_ft": "4′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "An enigmatic POKéMON that can effortlessly regenerate any appendage it loses in battle."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "As long as the center section is unharmed, it can grow back fully even if it is chopped to bits."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "At night, the cen ter of its body slowly flickers with the same rhythm as a human heartbeat."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "Even if its body is torn, it can regenerate as long as the glowing central core re mains intact."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "When the stars twinkle at night, it floats up from the sea floor, and its body's center core flickers."
+        },
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "STARYU’s center section has an organ called the core that shines bright red. If you go to a beach toward the end of summer, the glowing cores of these POKéMON look like the stars in the sky."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "STARYU apparently communicates with the stars in the night sky by flashing the red core at the center of its body. If parts of its body are torn, this POKéMON simply regenerates the missing pieces and limbs."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It gathers with others in the night and makes its red core glow on and off with the twinkling stars. It can regenerate limbs if they are severed from its body."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It appears in large numbers by seashores. At night, its central core flashes with a red light."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "An enigmatic POKéMON that can effortlessly regenerate any appendage it loses in battle."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "If its body is torn, it can grow back if the red core remains. The core flashes at midnight."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "At night, the middle of its body slowly flickers with the same rhythm as a human heartbeat."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "Even if its body is torn, it can regenerate as long as the glowing central core remains intact."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "As long as its red core remains, it can regenerate its body instantly, even if it’s torn apart."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Even if its body is torn, it can regenerate as long as the glowing central core remains intact."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It appears in large numbers by seashores. At night, its central core flashes with a red light."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Staryu’s center section has an organ called the core that shines bright red. If you go to a beach toward the end of summer, the glowing cores of these Pokémon look like the stars in the sky."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Staryu apparently communicates with the stars in the night sky by flashing the red core at the center of its body. If parts of its body are torn, this Pokémon simply regenerates the missing pieces and limbs."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Large numbers of these Pokémon make their home at the seaside. At night, a strange red glow radiates from the center of their bodies."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "This Pokémon gets nibbled on by Lumineon and others. Thanks to its red core, it regenerates fast, so it’s unconcerned by their snack attacks."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "In many places, there are folktales of stardust falling into the ocean and becoming Staryu."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "No number of injuries can bother Staryu. Its amazing regenerative powers return it to its previous state in half a day!"
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "As long as the center section is unharmed, this Pokémon can grow back fully even if it is chopped to bits."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "If you visit a beach at the end of summer, you’ll be able to see groups of Staryu lighting up in a steady rhythm."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Fish Pokémon nibble at it, but Staryu isn’t bothered. Its body regenerates quickly, even if part of it is completely torn off."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Staryu",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm120.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm120.icon.png"
+            },
+            {
+                "label": "Shiny Staryu",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm120.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm120.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 120,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0120_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0120_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Staryu sprite"
+            },
+            {
+                "pokedex_number": 120,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0120_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0120_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Staryu sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/120_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/120_social.jpg",
+                "alt": "Staryu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/120_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/120_social_dark.jpg",
+                "alt": "Staryu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/120_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/120_social_map.jpg",
+                "alt": "Staryu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/120_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/120_social_map_dark.jpg",
+                "alt": "Staryu"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Staryu’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Staryu is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Staryu in Pokémon GO?",
+            "answer": "The best moves for Staryu in Pokémon GO are Water Gun and Bubble Beam. This moveset has a DPS (Damage Per Second) of 5.893 and a TDO (Total Damage Output) of 40.817."
+        },
+        {
+            "question": "How does Staryu perform in Raids?",
+            "answer": "Staryu's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Staryu rank as a Water-type attacker?",
+            "answer": "Staryu is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Staryu?",
+            "answer": "The following Mega Pokémon boost Staryu: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Staryu’s maximum CP at Level 40 and Level 50?",
+            "answer": "Staryu’s maximum CP at Level 40 is 1157 CP and 1308 CP at Level 50."
+        },
+        {
+            "question": "Can Staryu be shiny in Pokémon GO?",
+            "answer": "Staryu can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Staryu Dynamax in Pokémon GO?",
+            "answer": "Staryu cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

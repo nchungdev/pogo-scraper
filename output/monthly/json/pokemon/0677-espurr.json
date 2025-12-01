@@ -1,0 +1,811 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1424,
+        "attack": 120,
+        "defense": 114,
+        "stamina": 158,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Espurr",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/677.webp",
+        "types": [
+            "Psychic"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Confusion",
+            "charged": "Psychic",
+            "dps": 6.7,
+            "tdo": 69.64,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 6.7,
+                "tdo": 69.6,
+                "score": 5.4
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 6.36,
+                "tdo": 66.2,
+                "score": 5.13
+            },
+            {
+                "rank": 3,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 6.25,
+                "tdo": 65.0,
+                "score": 5.04
+            },
+            {
+                "rank": 4,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 5.99,
+                "tdo": 62.3,
+                "score": 4.83
+            },
+            {
+                "rank": 5,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 5.49,
+                "tdo": 57.1,
+                "score": 4.43
+            },
+            {
+                "rank": 6,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 5.26,
+                "tdo": 54.7,
+                "score": 4.24
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            },
+            {
+                "name": "Confusion",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 19,
+                    "energy": 14,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 14,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.5s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 16,
+                    "energy": 14
+                },
+                "url": "https://db.pokemongohub.net/move/235"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Psyshock",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/60"
+            },
+            {
+                "name": "Psychic",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/108"
+            },
+            {
+                "name": "Energy Ball",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/273"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Espurr's has 1424 max CP (at Level 50). A Espurr obtained from Raids can be encountered from 669 CP to 719 CP, or if weather boosted, in the 837 CP to 899 CP range. In Field and Special Research, Espurr can be found in the 502 CP to 539 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1424",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "502 - 539",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "669 - 719",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "669 - 719",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "837 - 899",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "837 CP - 899 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 17,
+        "2": 55,
+        "3": 93,
+        "4": 131,
+        "5": 169,
+        "6": 207,
+        "7": 245,
+        "8": 283,
+        "9": 321,
+        "10": 360,
+        "11": 395,
+        "12": 431,
+        "13": 467,
+        "14": 503,
+        "15": 539,
+        "16": 575,
+        "17": 611,
+        "18": 647,
+        "19": 683,
+        "20": 719,
+        "21": 755,
+        "22": 791,
+        "23": 827,
+        "24": 863,
+        "25": 899,
+        "26": 935,
+        "27": 971,
+        "28": 1007,
+        "29": 1043,
+        "30": 1079,
+        "31": 1097,
+        "32": 1115,
+        "33": 1133,
+        "34": 1151,
+        "35": 1169,
+        "36": 1187,
+        "37": 1205,
+        "38": 1223,
+        "39": 1241,
+        "40": 1259,
+        "41": 1275,
+        "42": 1291,
+        "43": 1307,
+        "44": 1324,
+        "45": 1340,
+        "46": 1357,
+        "47": 1373,
+        "48": 1390,
+        "49": 1407,
+        "50": 1424
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Espurr",
+                    "href": "/pokemon/677",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/677.webp"
+                },
+                "to": {
+                    "name": "Meowstic",
+                    "href": "/pokemon/678",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/678.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Male required"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Espurr",
+                    "href": "/pokemon/677",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/677.webp"
+                },
+                "to": {
+                    "name": "Meowstic (Female)",
+                    "href": "/pokemon/678-Female",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/678_f2.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Female required"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Male required"
+        ],
+        "family": [
+            {
+                "name": "Espurr",
+                "href": "/pokemon/677",
+                "img": "https://db.pokemongohub.net/images/official/medium/677.webp"
+            },
+            {
+                "name": "Meowstic",
+                "href": "/pokemon/678",
+                "img": "https://db.pokemongohub.net/images/official/medium/678.webp"
+            },
+            {
+                "name": "Meowstic (Female)",
+                "href": "/pokemon/678-Female",
+                "img": "https://db.pokemongohub.net/images/official/medium/678_f2.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Espurr in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Espurr",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Espurr's Psychic-type moves, Candy, and Candy XL from catching Espurr.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 677,
+            "height_m": 0.3,
+            "weight_kg": 3.5,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Espurr's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 2,
+            "attack_probability": 5.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 30.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 2,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Though Espurr’s expression never changes, behind that blank stare is an intense struggle to contain its devastating psychic power."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "There’s enough psychic power in Espurr to send a wrestler flying, but because this power can’t be controlled, Espurr finds it troublesome."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Espurr",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm677.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm677.icon.png"
+            },
+            {
+                "label": "Shiny Espurr",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm677.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm677.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 677,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0677_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0677_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Espurr sprite"
+            },
+            {
+                "pokedex_number": 677,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0677_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0677_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Espurr sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/677_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/677_social.jpg",
+                "alt": "Espurr"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/677_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/677_social_dark.jpg",
+                "alt": "Espurr"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/677_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/677_social_map.jpg",
+                "alt": "Espurr"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/677_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/677_social_map_dark.jpg",
+                "alt": "Espurr"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Espurr’s strengths and weaknesses?",
+            "answer": "As a Psychic-type Pokémon, Espurr is weak to Bug, Dark, and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Espurr in Pokémon GO?",
+            "answer": "The best moves for Espurr in Pokémon GO are Confusion and Psychic. This moveset has a DPS (Damage Per Second) of 6.695 and a TDO (Total Damage Output) of 69.643."
+        },
+        {
+            "question": "How does Espurr perform in Raids?",
+            "answer": "Espurr's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Espurr rank as a Psychic-type attacker?",
+            "answer": "Espurr is an F-Tier Psychic-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Espurr?",
+            "answer": "The following Mega Pokémon boost Espurr: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Espurr’s maximum CP at Level 40 and Level 50?",
+            "answer": "Espurr’s maximum CP at Level 40 is 1259 CP and 1424 CP at Level 50."
+        },
+        {
+            "question": "Can Espurr be shiny in Pokémon GO?",
+            "answer": "Espurr can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Espurr Dynamax in Pokémon GO?",
+            "answer": "Espurr cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,981 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2296,
+        "attack": 172,
+        "defense": 155,
+        "stamina": 163,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Shelgon",
+        "forms": [
+            {
+                "name": "Shelgon",
+                "href": "/pokemon/372",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/372.webp"
+            },
+            {
+                "name": "Shadow Shelgon",
+                "href": "/pokemon/372-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/372.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/372.webp",
+        "types": [
+            "Dragon"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Dragon Breath",
+            "charged": "Dragon Pulse",
+            "dps": 9.03,
+            "tdo": 127.32,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 9.03,
+                "tdo": 127.3,
+                "score": 7.67
+            },
+            {
+                "rank": 2,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 8.53,
+                "tdo": 120.3,
+                "score": 7.25
+            },
+            {
+                "rank": 3,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 7.91,
+                "tdo": 111.6,
+                "score": 6.72
+            },
+            {
+                "rank": 4,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 7.88,
+                "tdo": 111.2,
+                "score": 6.7
+            },
+            {
+                "rank": 5,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Twister",
+                "charged_url": "https://db.pokemongohub.net/move/80",
+                "dps": 7.57,
+                "tdo": 106.8,
+                "score": 6.43
+            },
+            {
+                "rank": 6,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 7.12,
+                "tdo": 100.4,
+                "score": 6.05
+            },
+            {
+                "rank": 7,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 6.81,
+                "tdo": 96.0,
+                "score": 5.79
+            },
+            {
+                "rank": 8,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Twister",
+                "charged_url": "https://db.pokemongohub.net/move/80",
+                "dps": 6.47,
+                "tdo": 91.3,
+                "score": 5.5
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Dragon Breath",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/204"
+            },
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Twister",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/80"
+            },
+            {
+                "name": "Dragon Pulse",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.0s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/82"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Shelgon's has 2296 max CP (at Level 50). A Shelgon obtained from Raids can be encountered from 1097 CP to 1160 CP, or if weather boosted, in the 1371 CP to 1451 CP range. In Field and Special Research, Shelgon can be found in the 823 CP to 870 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2296",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "823 - 870",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1097 - 1160",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1097 - 1160",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1371 - 1451",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1371 CP - 1451 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 28,
+        "2": 90,
+        "3": 151,
+        "4": 212,
+        "5": 274,
+        "6": 335,
+        "7": 396,
+        "8": 458,
+        "9": 519,
+        "10": 580,
+        "11": 638,
+        "12": 696,
+        "13": 754,
+        "14": 812,
+        "15": 870,
+        "16": 928,
+        "17": 986,
+        "18": 1044,
+        "19": 1102,
+        "20": 1160,
+        "21": 1218,
+        "22": 1277,
+        "23": 1335,
+        "24": 1393,
+        "25": 1451,
+        "26": 1509,
+        "27": 1567,
+        "28": 1625,
+        "29": 1683,
+        "30": 1741,
+        "31": 1770,
+        "32": 1799,
+        "33": 1828,
+        "34": 1857,
+        "35": 1886,
+        "36": 1915,
+        "37": 1944,
+        "38": 1973,
+        "39": 2002,
+        "40": 2031,
+        "41": 2057,
+        "42": 2083,
+        "43": 2109,
+        "44": 2135,
+        "45": 2162,
+        "46": 2188,
+        "47": 2215,
+        "48": 2242,
+        "49": 2269,
+        "50": 2296
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Bagon",
+                    "href": "/pokemon/371",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/371.webp"
+                },
+                "to": {
+                    "name": "Shelgon",
+                    "href": "/pokemon/372",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/372.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Shelgon",
+                    "href": "/pokemon/372",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/372.webp"
+                },
+                "to": {
+                    "name": "Salamence",
+                    "href": "/pokemon/373",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/373.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Salamence",
+                    "href": "/pokemon/373",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/373.webp"
+                },
+                "to": {
+                    "name": "Mega Salamence",
+                    "href": "/pokemon/373-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "300 / 60 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Bagon",
+                "href": "/pokemon/371",
+                "img": "https://db.pokemongohub.net/images/official/medium/371.webp"
+            },
+            {
+                "name": "Shelgon",
+                "href": "/pokemon/372",
+                "img": "https://db.pokemongohub.net/images/official/medium/372.webp"
+            },
+            {
+                "name": "Salamence",
+                "href": "/pokemon/373",
+                "img": "https://db.pokemongohub.net/images/official/medium/373.webp"
+            },
+            {
+                "name": "Mega Salamence",
+                "href": "/pokemon/373-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Bagon",
+                "href": "/pokemon/371-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Shelgon",
+                "href": "/pokemon/372-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Salamence",
+                "href": "/pokemon/373-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Shelgon in the meta PvE Analysis The weird cocoon dragon Shelgon lacks the stats to fight it out in PvP . So, don’t disturb Shelgon … it’s undergoing a transformation into something glorious! 👀 ⚔️ Raids Press ‘Evolve’ and experience the magic . 🐲 🛡️ Gyms Being stuck inside a shell isn’t going to save Shelgon from the onslaught of strong Gym attackers . 😁 PvP Analysis 🔵 Great League Shelgon can last a while under shields , thanks to Dragon Breath , one of the best Fast Moves in PvP . However, that’s all there is to Shelgon , as its Charged Moves are very underwhelming . 😶 🟡 Ultra League Shelgon lacks the firepower to make a mark in the Ultra League and is absolutely thrashed by the competition. Not worth running it here . 🥱 🟣 Master League Shelgon enters the Master League . Shelgon starts screaming. You can’t see it because its mouth is hidden, but rest assured, it’s screaming in terror . 😳",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Shelgon",
+        "type": "Dragon",
+        "intro_text": "A list of Mega Pokémon that boost Shelgon's Dragon-type moves, Candy, and Candy XL from catching Shelgon.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Altaria",
+                "pokemon_id": 334,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/334-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Salamence",
+                "pokemon_id": 373,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/373-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Garchomp",
+                "pokemon_id": 445,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/445-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 372,
+            "height_m": 1.09,
+            "weight_kg": 110.5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": 25,
+        "size_info": {
+            "xxs": "0.53 m",
+            "xs": "0.55 m",
+            "m": "1.09 m",
+            "xl": "1.64 m",
+            "xxl": "1.91 m",
+            "description": "Shelgon's height ranges from 0.53 m to 1.91 m, with the average being 1.09 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.5341,
+                "upper_m": 0.545,
+                "lower_ft": "1′09″",
+                "upper_ft": "1′09″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.545,
+                "upper_m": 1.09,
+                "lower_ft": "1′09″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.8175,
+                "upper_m": 1.3625,
+                "lower_ft": "2′08″",
+                "upper_ft": "4′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.3625,
+                "upper_m": 1.635,
+                "lower_ft": "4′06″",
+                "upper_ft": "5′04″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.635,
+                "upper_m": 1.9075,
+                "lower_ft": "5′04″",
+                "upper_ft": "6′03″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 30.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 5.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "Inside SHELGON’s armor-like shell, cells are in the midst of transformation to create an entirely new body. This POKéMON’s shell is extremely heavy, making its movements sluggish."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "Covering SHELGON’s body are outgrowths much like bones. The shell is very hard and bounces off enemy attacks. When awaiting evolution, this POKéMON hides away in a cavern."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It hardly eats while it awaits evolution. It becomes hardier by enduring hunger. Its shell peels off the instant it begins to evolve."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It surrounds its body in an iron-hard shell to accumulate enough power to evolve."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Inside Shelgon’s armor-like shell, cells are in the midst of transformation to create an entirely new body. This Pokémon’s shell is extremely heavy, making its movements sluggish."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Covering Shelgon’s body are outgrowths much like bones. The shell is very hard and bounces off enemy attacks. When awaiting evolution, this Pokémon hides away in a cavern."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "The cells within its shell transform with explosive speed, preparing it for evolution."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "They lurk deep within caves—motionless, neither eating nor drinking. Why they don’t die is not known."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "The cells within its body are changing at a bewildering pace. Its hard shell is made from the same substance as bone."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Shelgon lives deep within caves. It stays shut up in its hard shell, dreaming of the day it will be able to fly."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This Pokémon has covered its body in a hard shell that has the same composition as bone. Shelgon stores energy for evolution."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Shelgon ignores its hunger entirely, never eating any food. Apparently, Shelgon will evolve once all its energy stores are used up."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Shelgon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm372.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm372.icon.png"
+            },
+            {
+                "label": "Shiny Shelgon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm372.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm372.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 372,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0372_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0372_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Shelgon sprite"
+            },
+            {
+                "pokedex_number": 372,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0372_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0372_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Shelgon sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/372_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/372_social.jpg",
+                "alt": "Shelgon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/372_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/372_social_dark.jpg",
+                "alt": "Shelgon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/372_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/372_social_map.jpg",
+                "alt": "Shelgon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/372_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/372_social_map_dark.jpg",
+                "alt": "Shelgon"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Shelgon’s strengths and weaknesses?",
+            "answer": "As a Dragon-type Pokémon, Shelgon is weak to Dragon, Fairy, and Ice-type moves."
+        },
+        {
+            "question": "What are the best moves for Shelgon in Pokémon GO?",
+            "answer": "The best moves for Shelgon in Pokémon GO are Dragon Breath and Dragon Pulse. This moveset has a DPS (Damage Per Second) of 9.027 and a TDO (Total Damage Output) of 127.321."
+        },
+        {
+            "question": "How does Shelgon perform in Raids?",
+            "answer": "Shelgon's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Shelgon rank as a Dragon-type attacker?",
+            "answer": "Shelgon is an F-Tier Dragon-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Shelgon?",
+            "answer": "The following Mega Pokémon boost Shelgon: Mega Ampharos, Mega Sceptile, Mega Altaria, Mega Salamence, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Garchomp."
+        },
+        {
+            "question": "What is Shelgon’s maximum CP at Level 40 and Level 50?",
+            "answer": "Shelgon’s maximum CP at Level 40 is 2031 CP and 2296 CP at Level 50."
+        },
+        {
+            "question": "Can Shelgon be shiny in Pokémon GO?",
+            "answer": "Shelgon can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Shelgon Dynamax in Pokémon GO?",
+            "answer": "Shelgon cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

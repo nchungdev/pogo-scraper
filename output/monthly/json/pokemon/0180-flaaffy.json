@@ -1,0 +1,983 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1720,
+        "attack": 145,
+        "defense": 109,
+        "stamina": 172,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Flaaffy",
+        "forms": [
+            {
+                "name": "Flaaffy",
+                "href": "/pokemon/180",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/180.webp"
+            },
+            {
+                "name": "Shadow Flaaffy",
+                "href": "/pokemon/180-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/180.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/180.webp",
+        "types": [
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Discharge",
+            "dps": 7.25,
+            "tdo": 78.4,
+            "boosted_weather": [
+                "partlyCloudy",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 7.25,
+                "tdo": 78.4,
+                "score": 5.89
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 7.2,
+                "tdo": 77.8,
+                "score": 5.85
+            },
+            {
+                "rank": 3,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 7.18,
+                "tdo": 77.6,
+                "score": 5.83
+            },
+            {
+                "rank": 4,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 7.17,
+                "tdo": 77.5,
+                "score": 5.83
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 6.31,
+                "tdo": 68.2,
+                "score": 5.12
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Power Gem",
+                "charged_url": "https://db.pokemongohub.net/move/65",
+                "dps": 6.17,
+                "tdo": 66.6,
+                "score": 5.01
+            },
+            {
+                "rank": 7,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 6.06,
+                "tdo": 65.4,
+                "score": 4.92
+            },
+            {
+                "rank": 8,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Power Gem",
+                "charged_url": "https://db.pokemongohub.net/move/65",
+                "dps": 5.9,
+                "tdo": 63.8,
+                "score": 4.79
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Charge Beam",
+                "type": "Electric",
+                "stats": {
+                    "damage": 7,
+                    "energy": 14,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 14,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/249"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Discharge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.1s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/35"
+            },
+            {
+                "name": "Power Gem",
+                "type": "Rock",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 85,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/65"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            },
+            {
+                "name": "Trailblaze",
+                "type": "Grass",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.2s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/392"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Flaaffy's has 1720 max CP (at Level 50). A Flaaffy obtained from Raids can be encountered from 814 CP to 869 CP, or if weather boosted, in the 1017 CP to 1086 CP range. In Field and Special Research, Flaaffy can be found in the 610 CP to 652 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1720",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "610 - 652",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "814 - 869",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "814 - 869",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1017 - 1086",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1017 CP - 1086 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 21,
+        "2": 67,
+        "3": 113,
+        "4": 159,
+        "5": 205,
+        "6": 251,
+        "7": 297,
+        "8": 343,
+        "9": 388,
+        "10": 434,
+        "11": 478,
+        "12": 521,
+        "13": 565,
+        "14": 608,
+        "15": 652,
+        "16": 695,
+        "17": 739,
+        "18": 782,
+        "19": 826,
+        "20": 869,
+        "21": 913,
+        "22": 956,
+        "23": 999,
+        "24": 1043,
+        "25": 1086,
+        "26": 1130,
+        "27": 1173,
+        "28": 1217,
+        "29": 1260,
+        "30": 1304,
+        "31": 1326,
+        "32": 1347,
+        "33": 1369,
+        "34": 1391,
+        "35": 1413,
+        "36": 1434,
+        "37": 1456,
+        "38": 1478,
+        "39": 1499,
+        "40": 1521,
+        "41": 1541,
+        "42": 1560,
+        "43": 1580,
+        "44": 1599,
+        "45": 1619,
+        "46": 1639,
+        "47": 1659,
+        "48": 1679,
+        "49": 1699,
+        "50": 1720
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Mareep",
+                    "href": "/pokemon/179",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/179.webp"
+                },
+                "to": {
+                    "name": "Flaaffy",
+                    "href": "/pokemon/180",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/180.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Flaaffy",
+                    "href": "/pokemon/180",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/180.webp"
+                },
+                "to": {
+                    "name": "Ampharos",
+                    "href": "/pokemon/181",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/181.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Ampharos",
+                    "href": "/pokemon/181",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/181.webp"
+                },
+                "to": {
+                    "name": "Mega Ampharos",
+                    "href": "/pokemon/181-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Mareep",
+                "href": "/pokemon/179",
+                "img": "https://db.pokemongohub.net/images/official/medium/179.webp"
+            },
+            {
+                "name": "Flaaffy",
+                "href": "/pokemon/180",
+                "img": "https://db.pokemongohub.net/images/official/medium/180.webp"
+            },
+            {
+                "name": "Ampharos",
+                "href": "/pokemon/181",
+                "img": "https://db.pokemongohub.net/images/official/medium/181.webp"
+            },
+            {
+                "name": "Mega Ampharos",
+                "href": "/pokemon/181-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Mareep",
+                "href": "/pokemon/179-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Flaaffy",
+                "href": "/pokemon/180-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Ampharos",
+                "href": "/pokemon/181-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Flaaffy in the meta PvE Analysis Flaaffy looks like cotton candy , and to be fair, this Pokémon is better off in a carnival since battles aren't its cup of tea 🎡. ⚔️ Raids - Too weak to justify usage in Raid battles . 🛡️ Gyms - Low bulk makes Flaaffy a poor Gym defender , even though it's only weak to Ground-type attacks . PvP Analysis 🔵 Great League - Flaaffy can muster only a single win (against Charjabug ) in the Great League . That's how bad it is! 😬 🟡 Ultra League - With a max CP of only 1720, Flaaffy just isn't charged up for the Ultra League 🔋. 🟣 Master League - Flaaffy gets annihilated in the Master League , where it can't even stand up to opponents weak to Electric-type moves 😶‍🌫️.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Flaaffy",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Flaaffy's Electric-type moves, Candy, and Candy XL from catching Flaaffy.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 180,
+            "height_m": 0.79,
+            "weight_kg": 13.3,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": 25,
+        "size_info": {
+            "xxs": "0.39 m",
+            "xs": "0.4 m",
+            "m": "0.79 m",
+            "xl": "1.19 m",
+            "xxl": "1.38 m",
+            "description": "Flaaffy's height ranges from 0.39 m to 1.38 m, with the average being 0.79 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.3871,
+                "upper_m": 0.395,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.395,
+                "upper_m": 0.79,
+                "lower_ft": "1′04″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.5925,
+                "upper_m": 0.9875,
+                "lower_ft": "1′11″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.9875,
+                "upper_m": 1.185,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.185,
+                "upper_m": 1.3825,
+                "lower_ft": "3′11″",
+                "upper_ft": "4′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "As a result of storing too much electricity, it developed patches where even downy wool won't grow."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "Its fluffy fleece easily stores electricity. Its rubbery hide keeps it from being electrocuted."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "Because of its rubbery, electric ity-resistant skin, it can store lots of electric ity in its fur."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "FLAAFFY’s wool quality changes so that it can generate a high amount of static electricity with a small amount of wool. The bare and slick parts of its hide are shielded against electricity."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "Its fleece quality changes to generate strong static electricity with a small amount of wool. The bare, slick parts of its hide are shielded against electricity."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "Its fluffy fleece easily stores electricity. Its rubbery hide keeps it from being electrocuted."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "As a result of storing too much electricity, it developed patches where even downy wool won’t grow."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "As a result of storing too much electricity, it developed patches where even downy wool won’t grow."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "Its fluffy fleece easily stores electricity. Its rubbery hide keeps it from being electrocuted."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Not even downy wool will grow on its rubbery, nonconductive patches of skin that prevent electrical shock."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Its fluffy fleece easily stores electricity. Its rubbery hide keeps it from being electrocuted."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Flaaffy’s wool quality changes so that it can generate a high amount of static electricity with a small amount of wool. The bare and slick parts of its hide are shielded against electricity."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Flaaffy’s wool quality changes so that it can generate a high amount of static electricity with a small amount of wool. The bare and slick parts of its hide are shielded against electricity."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "In the places on its body where fleece doesn’t grow, its skin is rubbery and doesn’t conduct electricity. Those spots are safe to touch."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Flaaffy",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm180.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm180.icon.png"
+            },
+            {
+                "label": "Shiny Flaaffy",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm180.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm180.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 180,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0180_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0180_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Flaaffy sprite"
+            },
+            {
+                "pokedex_number": 180,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0180_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0180_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Flaaffy sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/180_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/180_social.jpg",
+                "alt": "Flaaffy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/180_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/180_social_dark.jpg",
+                "alt": "Flaaffy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/180_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/180_social_map.jpg",
+                "alt": "Flaaffy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/180_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/180_social_map_dark.jpg",
+                "alt": "Flaaffy"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Flaaffy’s strengths and weaknesses?",
+            "answer": "As a Electric-type Pokémon, Flaaffy is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Flaaffy in Pokémon GO?",
+            "answer": "The best moves for Flaaffy in Pokémon GO are Tackle and Discharge. This moveset has a DPS (Damage Per Second) of 7.254 and a TDO (Total Damage Output) of 78.401."
+        },
+        {
+            "question": "How does Flaaffy perform in Raids?",
+            "answer": "Flaaffy's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Flaaffy rank as a Electric-type attacker?",
+            "answer": "Flaaffy is an F-Tier Electric-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Flaaffy?",
+            "answer": "The following Mega Pokémon boost Flaaffy: Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Flaaffy’s maximum CP at Level 40 and Level 50?",
+            "answer": "Flaaffy’s maximum CP at Level 40 is 1521 CP and 1720 CP at Level 50."
+        },
+        {
+            "question": "Can Flaaffy be shiny in Pokémon GO?",
+            "answer": "Flaaffy can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Flaaffy Dynamax in Pokémon GO?",
+            "answer": "Flaaffy cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

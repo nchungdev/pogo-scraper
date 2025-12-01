@@ -1,0 +1,809 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3993,
+        "attack": 266,
+        "defense": 170,
+        "stamina": 204,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": false,
+        "title": "Dragapult",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/887.webp",
+        "types": [
+            "Dragon",
+            "Ghost"
+        ],
+        "weather_boost": [
+            "windy",
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Dragon Tail",
+            "charged": "Breaking Swipe",
+            "dps": 16.12,
+            "tdo": 304.33,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Breaking Swipe",
+                "charged_url": "https://db.pokemongohub.net/move/379",
+                "dps": 16.12,
+                "tdo": 304.3,
+                "score": 14.25
+            },
+            {
+                "rank": 2,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 15.93,
+                "tdo": 300.7,
+                "score": 14.07
+            },
+            {
+                "rank": 3,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Outrage",
+                "charged_url": "https://db.pokemongohub.net/move/277",
+                "dps": 15.05,
+                "tdo": 284.3,
+                "score": 13.31
+            },
+            {
+                "rank": 4,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 14.6,
+                "tdo": 275.6,
+                "score": 12.9
+            },
+            {
+                "rank": 5,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Breaking Swipe",
+                "charged_url": "https://db.pokemongohub.net/move/379",
+                "dps": 14.4,
+                "tdo": 271.9,
+                "score": 12.72
+            },
+            {
+                "rank": 6,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 14.2,
+                "tdo": 268.1,
+                "score": 12.54
+            },
+            {
+                "rank": 7,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Outrage",
+                "charged_url": "https://db.pokemongohub.net/move/277",
+                "dps": 13.69,
+                "tdo": 258.6,
+                "score": 12.1
+            },
+            {
+                "rank": 8,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 12.51,
+                "tdo": 236.2,
+                "score": 11.05
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Dragon Tail",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 14,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 14,
+                    "energy": 8,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 12
+                },
+                "url": "https://db.pokemongohub.net/move/253"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Dragon Pulse",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.0s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/82"
+            },
+            {
+                "name": "Outrage",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 110,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 110,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "2.6s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/277"
+            },
+            {
+                "name": "Breaking Swipe",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/379"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Dragapult's has 3993 max CP (at Level 50). A Dragapult obtained from Raids can be encountered from 1933 CP to 2018 CP, or if weather boosted, in the 2416 CP to 2523 CP range. In Field and Special Research, Dragapult can be found in the 1450 CP to 1514 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3993",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1450 - 1514",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1933 - 2018",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1933 - 2018",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2416 - 2523",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2416 CP - 2523 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 49,
+        "2": 156,
+        "3": 263,
+        "4": 369,
+        "5": 476,
+        "6": 583,
+        "7": 689,
+        "8": 796,
+        "9": 903,
+        "10": 1009,
+        "11": 1110,
+        "12": 1211,
+        "13": 1312,
+        "14": 1413,
+        "15": 1514,
+        "16": 1615,
+        "17": 1715,
+        "18": 1816,
+        "19": 1917,
+        "20": 2018,
+        "21": 2119,
+        "22": 2220,
+        "23": 2321,
+        "24": 2422,
+        "25": 2523,
+        "26": 2624,
+        "27": 2725,
+        "28": 2826,
+        "29": 2927,
+        "30": 3028,
+        "31": 3078,
+        "32": 3129,
+        "33": 3179,
+        "34": 3229,
+        "35": 3280,
+        "36": 3330,
+        "37": 3381,
+        "38": 3431,
+        "39": 3482,
+        "40": 3532,
+        "41": 3577,
+        "42": 3622,
+        "43": 3668,
+        "44": 3713,
+        "45": 3759,
+        "46": 3805,
+        "47": 3852,
+        "48": 3899,
+        "49": 3946,
+        "50": 3993
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Dreepy",
+                    "href": "/pokemon/885",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/885.webp"
+                },
+                "to": {
+                    "name": "Drakloak",
+                    "href": "/pokemon/886",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/886.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Drakloak",
+                    "href": "/pokemon/886",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/886.webp"
+                },
+                "to": {
+                    "name": "Dragapult",
+                    "href": "/pokemon/887",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/887.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Dreepy",
+                "href": "/pokemon/885",
+                "img": "https://db.pokemongohub.net/images/official/medium/885.webp"
+            },
+            {
+                "name": "Drakloak",
+                "href": "/pokemon/886",
+                "img": "https://db.pokemongohub.net/images/official/medium/886.webp"
+            },
+            {
+                "name": "Dragapult",
+                "href": "/pokemon/887",
+                "img": "https://db.pokemongohub.net/images/official/medium/887.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Dragapult in the meta PvE Analysis When not considering Megas and Shadows, the Pseudo Legendary of Gen 8, Dragapult, is a top-notch Pokémon boasting high DPS but relatively low TDO due to its fragility. It can gain its signature move, Dragon Darts, from its eventual Community Day, possibly elevating it as a Dragon-type attacker. 🐲 ⚔️ Raids With just a single Fast TM and both Charged Attacks unlocked, Dragapult can double duty as a Dragon and Ghost type attacker. While its damage output is impressive, dodging is absolutely necessary to derive the most out of this Pseudo Legendary given how frail it is. A fine attacker to join Megas and Shadows. 🛡️ Gyms Low bulk makes Dragapult an easy target for Gym attackers. Also, it has five weaknesses: Dark, Dragon, Fairy, Ghost, and Ice; giving the Gym attacker lots of options. 💎 The best PvE moves for Dragapult are: Dragon Tail and Breaking Swipe (Dragon) Astonish and Shadow Ball (Ghost) Show more Show less PvP Analysis Before the moveset rebalance of GBL Season 24, Dragapult brought a lot of spice thanks to Breaking Swipe and Shadow Ball. The former was a 35 energy move and gave the frail Dragapult much-needed offense at low energy. Now, with Breaking Swipe nerfed hard to 50 energy, Dragapult is in a tough spot. Perhaps, Dragon Darts or a new move in a future moveset update would give it much room to breathe in PvP? Only time will tell. Until then, fellow Pseudo Legendary Dragons are better PvP picks. 💎 The best PvP moves for Dragapult are Dragon Tail, Breaking Swipe and Shadow Ball.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Dragapult",
+        "type": "Dragon",
+        "intro_text": "A list of Mega Pokémon that boost Dragapult's Dragon and Ghost-type moves, Candy, and Candy XL from catching Dragapult.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Altaria",
+                "pokemon_id": 334,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/334-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Salamence",
+                "pokemon_id": 373,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/373-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Garchomp",
+                "pokemon_id": 445,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/445-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 887,
+            "height_m": 3,
+            "weight_kg": 50,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 10,
+            "stardust": 800
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "1.47 m",
+            "xs": "1.5 m",
+            "m": "3 m",
+            "xl": "4.5 m",
+            "xxl": "5.25 m",
+            "description": "Dragapult's height ranges from 1.47 m to 5.25 m, with the average being 3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 1.47,
+                "upper_m": 1.5,
+                "lower_ft": "4′10″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.5,
+                "upper_m": 3,
+                "lower_ft": "4′11″",
+                "upper_ft": "9′10″"
+            },
+            {
+                "size": "M",
+                "lower_m": 2.25,
+                "upper_m": 3.75,
+                "lower_ft": "7′05″",
+                "upper_ft": "12′04″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 3.75,
+                "upper_m": 4.5,
+                "lower_ft": "12′04″",
+                "upper_ft": "14′09″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 4.5,
+                "upper_m": 5.25,
+                "lower_ft": "14′09″",
+                "upper_ft": "17′03″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 30.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Apparently the Dreepy inside Dragapult’s horns eagerly look forward to being launched out at Mach speeds."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Dragapult",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm887.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm887.icon.png"
+            },
+            {
+                "label": "Shiny Dragapult",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm887.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm887.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 887,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0887_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0887_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Dragapult sprite"
+            },
+            {
+                "pokedex_number": 887,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0887_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0887_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Dragapult sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/887_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/887_social.jpg",
+                "alt": "Dragapult"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/887_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/887_social_dark.jpg",
+                "alt": "Dragapult"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/887_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/887_social_map.jpg",
+                "alt": "Dragapult"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/887_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/887_social_map_dark.jpg",
+                "alt": "Dragapult"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Dragapult’s strengths and weaknesses?",
+            "answer": "As a Dragon and Ghost-type Pokémon, Dragapult is weak to Dark, Dragon, Fairy, Ghost, and Ice-type moves."
+        },
+        {
+            "question": "What are the best moves for Dragapult in Pokémon GO?",
+            "answer": "The best moves for Dragapult in Pokémon GO are Dragon Tail and Breaking Swipe. This moveset has a DPS (Damage Per Second) of 16.115 and a TDO (Total Damage Output) of 304.325."
+        },
+        {
+            "question": "How does Dragapult perform in Raids?",
+            "answer": "Dragapult has niche use in Raid, but is outclassed by other attackers. Ranks #148 as a Raid attacker."
+        },
+        {
+            "question": "How does Dragapult rank as a Dragon-type attacker?",
+            "answer": "Dragapult is a solid A-Tier Dragon-type attacker, ranking at number #24. It is reliable in many situations but not the absolute best."
+        },
+        {
+            "question": "How does Dragapult rank as a Ghost-type attacker?",
+            "answer": "Dragapult is an A+ Tier Ghost-type attacker, ranking at number #11 and performing very well in most scenarios and a great choice for trainers."
+        },
+        {
+            "question": "What Mega Pokémon boost Dragapult?",
+            "answer": "The following Mega Pokémon boost Dragapult: Mega Ampharos, Mega Sceptile, Mega Altaria, Mega Salamence, Mega Latias, Mega Latios, Mega Rayquaza, Mega Garchomp, Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Dragapult’s maximum CP at Level 40 and Level 50?",
+            "answer": "Dragapult’s maximum CP at Level 40 is 3532 CP and 3993 CP at Level 50."
+        },
+        {
+            "question": "Can Dragapult be shiny in Pokémon GO?",
+            "answer": "Dragapult cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Dragapult Dynamax in Pokémon GO?",
+            "answer": "Dragapult cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

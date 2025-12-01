@@ -1,0 +1,974 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2999,
+        "attack": 180,
+        "defense": 194,
+        "stamina": 212,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Obstagoon",
+        "forms": [
+            {
+                "name": "Obstagoon",
+                "href": "/pokemon/862",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/862.webp"
+            },
+            {
+                "name": "Shadow Obstagoon",
+                "href": "/pokemon/862-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/862.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/862.webp",
+        "types": [
+            "Dark",
+            "Normal"
+        ],
+        "weather_boost": [
+            "fog",
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Lick",
+            "charged": "Hyper Beam",
+            "dps": 9.79,
+            "tdo": 216.46,
+            "boosted_weather": [
+                "fog",
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 9.79,
+                "tdo": 216.5,
+                "score": 8.8
+            },
+            {
+                "rank": 2,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 9.48,
+                "tdo": 209.6,
+                "score": 8.52
+            },
+            {
+                "rank": 3,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Gunk Shot",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 8.78,
+                "tdo": 194.1,
+                "score": 7.89
+            },
+            {
+                "rank": 4,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Gunk Shot",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 8.66,
+                "tdo": 191.5,
+                "score": 7.78
+            },
+            {
+                "rank": 5,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Night Slash",
+                "charged_url": "https://db.pokemongohub.net/move/51",
+                "dps": 8.43,
+                "tdo": 186.5,
+                "score": 7.58
+            },
+            {
+                "rank": 6,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Night Slash",
+                "charged_url": "https://db.pokemongohub.net/move/51",
+                "dps": 8.39,
+                "tdo": 185.5,
+                "score": 7.54
+            },
+            {
+                "rank": 7,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Cross Chop",
+                "charged_url": "https://db.pokemongohub.net/move/28",
+                "dps": 8.11,
+                "tdo": 179.3,
+                "score": 7.29
+            },
+            {
+                "rank": 8,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Cross Chop",
+                "charged_url": "https://db.pokemongohub.net/move/28",
+                "dps": 7.99,
+                "tdo": 176.8,
+                "score": 7.18
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Lick",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/212"
+            },
+            {
+                "name": "Counter",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/243"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Hyper Beam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 150,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 150,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.5s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/14"
+            },
+            {
+                "name": "Cross Chop",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 50,
+                    "energy": 50,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/28"
+            },
+            {
+                "name": "Night Slash",
+                "type": "Dark",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.1s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/51"
+            },
+            {
+                "name": "Gunk Shot",
+                "type": "Poison",
+                "stats": {
+                    "damage": 130,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 130,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.6s - 2.6s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/92"
+            },
+            {
+                "name": "Obstruct *",
+                "type": "Dark",
+                "stats": {
+                    "damage": 20,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 20,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.3s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 15,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/370"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Obstagoon's has 2999 max CP (at Level 50). A Obstagoon obtained from Raids can be encountered from 1443 CP to 1515 CP, or if weather boosted, in the 1803 CP to 1894 CP range. In Field and Special Research, Obstagoon can be found in the 1082 CP to 1137 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2999",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1082 - 1137",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1443 - 1515",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1443 - 1515",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1803 - 1894",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1803 CP - 1894 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 37,
+        "2": 117,
+        "3": 197,
+        "4": 277,
+        "5": 357,
+        "6": 437,
+        "7": 517,
+        "8": 598,
+        "9": 678,
+        "10": 758,
+        "11": 833,
+        "12": 909,
+        "13": 985,
+        "14": 1061,
+        "15": 1137,
+        "16": 1212,
+        "17": 1288,
+        "18": 1364,
+        "19": 1440,
+        "20": 1515,
+        "21": 1591,
+        "22": 1667,
+        "23": 1743,
+        "24": 1819,
+        "25": 1894,
+        "26": 1970,
+        "27": 2046,
+        "28": 2122,
+        "29": 2198,
+        "30": 2273,
+        "31": 2311,
+        "32": 2349,
+        "33": 2387,
+        "34": 2425,
+        "35": 2463,
+        "36": 2501,
+        "37": 2539,
+        "38": 2577,
+        "39": 2614,
+        "40": 2652,
+        "41": 2686,
+        "42": 2720,
+        "43": 2754,
+        "44": 2788,
+        "45": 2823,
+        "46": 2858,
+        "47": 2892,
+        "48": 2928,
+        "49": 2963,
+        "50": 2999
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Galarian Zigzagoon",
+                    "href": "/pokemon/263-Galarian",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/263_galar.webp"
+                },
+                "to": {
+                    "name": "Galarian Linoone",
+                    "href": "/pokemon/264-Galarian",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/264_galar.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Galarian Linoone",
+                    "href": "/pokemon/264-Galarian",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/264_galar.webp"
+                },
+                "to": {
+                    "name": "Obstagoon",
+                    "href": "/pokemon/862",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/862.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Zigzagoon",
+                "href": "/pokemon/263",
+                "img": "https://db.pokemongohub.net/images/official/medium/263.webp"
+            },
+            {
+                "name": "Linoone",
+                "href": "/pokemon/264",
+                "img": "https://db.pokemongohub.net/images/official/medium/264.webp"
+            },
+            {
+                "name": "Obstagoon",
+                "href": "/pokemon/862",
+                "img": "https://db.pokemongohub.net/images/official/medium/862.webp"
+            },
+            {
+                "name": "Galarian Zigzagoon",
+                "href": "/pokemon/263-Galarian",
+                "img": "https://db.pokemongohub.net/images/official/medium/263_galar.webp"
+            },
+            {
+                "name": "Galarian Linoone",
+                "href": "/pokemon/264-Galarian",
+                "img": "https://db.pokemongohub.net/images/official/medium/264_galar.webp"
+            },
+            {
+                "name": "Galarian Shadow Zigzagoon",
+                "href": "/pokemon/263-Galarian_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Galarian Shadow Linoone",
+                "href": "/pokemon/264-Galarian_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Zigzagoon",
+                "href": "/pokemon/263-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Linoone",
+                "href": "/pokemon/264-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Obstagoon",
+                "href": "/pokemon/862-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Obstagoon in the meta PvE Analysis ⚔️ Raids – Obstagoon lacks a viable Dark or Normal-type moveset to be considered a worthwhile Raid attacker. 🛡️ Gyms – Obstagoon is an A-Tier Gym defender, although it will fold quickly against a strong Fighting-type . PvP Analysis Preferred Moveset – Counter , Night Slash , and Obstruct * / Cross Chop / Hyper Beam / Gunk Shot 🔵 Great League – Obstagoon is a decent pick for the Great League, though it has lost popularity in recent seasons due to meta shifts and the nerf to Counter 's energy generation. It performs better in limited metas, where its typing provides strong resistances to Ghost , Dark , and Psychic types. The shadow form performs similarly, as the extra damage output is not enough to significantly improve its matchups in the meta. Note: Night Slash is mandatory, and depending on your willingness to use shields, Obstruct as a secondary move can enhance Obstagoon 's win-loss matchups if it successfully baits shields. However, landing a massive Gunk Shot or Hyper Beam is always a fun option! 🟡 Ultra League – Obstagoon has traditionally been well-suited to the Ultra League, thanks to its useful typing, decent bulk, and previously spammy moveset. However, the nerf to Counter and a meta shift favoring Poison-types have significantly impacted its viability. As in the Great League, the shadow form doesn’t provide substantial improvements, and Obstruct remains the best secondary move (on paper) if you can successfully bait shields. 🟣 Master League – Obstagoon is more of a “meme” pick in the Master League, where its limited combat power and resistances restrict its utility, except for completely walling Giratina-Origin ! Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Obstagoon",
+        "type": "Dark",
+        "intro_text": "A list of Mega Pokémon that boost Obstagoon's Dark and Normal-type moves, Candy, and Candy XL from catching Obstagoon.",
+        "mega_list": [
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Absol",
+                "pokemon_id": 359,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/359-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 862,
+            "height_m": 1.6,
+            "weight_kg": 46,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 10,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.78 m",
+            "xs": "0.8 m",
+            "m": "1.6 m",
+            "xl": "2.4 m",
+            "xxl": "2.48 m",
+            "description": "Obstagoon's height ranges from 0.78 m to 2.48 m, with the average being 1.6 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.784,
+                "upper_m": 0.8,
+                "lower_ft": "2′07″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.8,
+                "upper_m": 1.6,
+                "lower_ft": "2′07″",
+                "upper_ft": "5′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.2,
+                "upper_m": 2,
+                "lower_ft": "3′11″",
+                "upper_ft": "6′07″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2,
+                "upper_m": 2.4,
+                "lower_ft": "6′07″",
+                "upper_ft": "7′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.4,
+                "upper_m": 2.48,
+                "lower_ft": "7′10″",
+                "upper_ft": "8′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 30.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Its voice is staggering in volume. Obstagoon has a tendency to take on a threatening posture and shout—this move is known as Obstruct."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Obstagoon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm862.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm862.icon.png"
+            },
+            {
+                "label": "Shiny Obstagoon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm862.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm862.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 862,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0862_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0862_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Obstagoon sprite"
+            },
+            {
+                "pokedex_number": 862,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0862_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0862_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Obstagoon sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/862_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/862_social.jpg",
+                "alt": "Obstagoon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/862_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/862_social_dark.jpg",
+                "alt": "Obstagoon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/862_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/862_social_map.jpg",
+                "alt": "Obstagoon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/862_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/862_social_map_dark.jpg",
+                "alt": "Obstagoon"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Obstagoon’s strengths and weaknesses?",
+            "answer": "As a Dark and Normal-type Pokémon, Obstagoon is especially weak against Fighting-type moves, and weak against Bug and Fairy-type moves."
+        },
+        {
+            "question": "What are the best moves for Obstagoon in Pokémon GO?",
+            "answer": "The best moves for Obstagoon in Pokémon GO are Lick and Hyper Beam. This moveset has a DPS (Damage Per Second) of 9.789 and a TDO (Total Damage Output) of 216.457."
+        },
+        {
+            "question": "How does Obstagoon perform in Raids?",
+            "answer": "Obstagoon's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Obstagoon rank as a Dark-type attacker?",
+            "answer": "Obstagoon is an F-Tier Dark-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Obstagoon rank as a Normal-type attacker?",
+            "answer": "Obstagoon is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Obstagoon?",
+            "answer": "The following Mega Pokémon boost Obstagoon: Mega Gyarados, Mega Houndoom, Mega Tyranitar, Mega Sableye, Mega Sharpedo, Mega Absol, Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Obstagoon’s maximum CP at Level 40 and Level 50?",
+            "answer": "Obstagoon’s maximum CP at Level 40 is 2652 CP and 2999 CP at Level 50."
+        },
+        {
+            "question": "Can Obstagoon be shiny in Pokémon GO?",
+            "answer": "Obstagoon can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Obstagoon Dynamax in Pokémon GO?",
+            "answer": "Obstagoon cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

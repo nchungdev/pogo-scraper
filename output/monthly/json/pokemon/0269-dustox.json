@@ -1,0 +1,933 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1384,
+        "attack": 98,
+        "defense": 162,
+        "stamina": 155,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Dustox",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/269.webp",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "weather_boost": [
+            "rain",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Confusion",
+            "charged": "Sludge Bomb",
+            "dps": 5.54,
+            "tdo": 77.77,
+            "boosted_weather": [
+                "windy",
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 5.54,
+                "tdo": 77.8,
+                "score": 4.71
+            },
+            {
+                "rank": 2,
+                "fast": "Struggle Bug",
+                "fast_url": "https://db.pokemongohub.net/move/261",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 5.53,
+                "tdo": 77.6,
+                "score": 4.7
+            },
+            {
+                "rank": 3,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 5.26,
+                "tdo": 73.7,
+                "score": 4.46
+            },
+            {
+                "rank": 4,
+                "fast": "Struggle Bug",
+                "fast_url": "https://db.pokemongohub.net/move/261",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 5.23,
+                "tdo": 73.4,
+                "score": 4.44
+            },
+            {
+                "rank": 5,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Silver Wind",
+                "charged_url": "https://db.pokemongohub.net/move/262",
+                "dps": 4.58,
+                "tdo": 64.3,
+                "score": 3.89
+            },
+            {
+                "rank": 6,
+                "fast": "Struggle Bug",
+                "fast_url": "https://db.pokemongohub.net/move/261",
+                "charged": "Silver Wind",
+                "charged_url": "https://db.pokemongohub.net/move/262",
+                "dps": 4.54,
+                "tdo": 63.6,
+                "score": 3.85
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Confusion",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 19,
+                    "energy": 14,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 14,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.5s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 16,
+                    "energy": 14
+                },
+                "url": "https://db.pokemongohub.net/move/235"
+            },
+            {
+                "name": "Struggle Bug",
+                "type": "Bug",
+                "stats": {
+                    "damage": 15,
+                    "energy": 15,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 15,
+                    "energy": 15,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.2s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/261"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Bug Buzz",
+                "type": "Bug",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.8s - 2.9s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/49"
+            },
+            {
+                "name": "Sludge Bomb",
+                "type": "Poison",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/90"
+            },
+            {
+                "name": "Silver Wind",
+                "type": "Bug",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/262"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Dustox's has 1384 max CP (at Level 50). A Dustox obtained from Raids can be encountered from 649 CP to 699 CP, or if weather boosted, in the 811 CP to 874 CP range. In Field and Special Research, Dustox can be found in the 487 CP to 524 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1384",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "487 - 524",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "649 - 699",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "649 - 699",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "811 - 874",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "811 CP - 874 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 17,
+        "2": 54,
+        "3": 91,
+        "4": 128,
+        "5": 165,
+        "6": 202,
+        "7": 239,
+        "8": 275,
+        "9": 312,
+        "10": 349,
+        "11": 384,
+        "12": 419,
+        "13": 454,
+        "14": 489,
+        "15": 524,
+        "16": 559,
+        "17": 594,
+        "18": 629,
+        "19": 664,
+        "20": 699,
+        "21": 734,
+        "22": 769,
+        "23": 804,
+        "24": 839,
+        "25": 874,
+        "26": 909,
+        "27": 944,
+        "28": 979,
+        "29": 1014,
+        "30": 1049,
+        "31": 1066,
+        "32": 1084,
+        "33": 1101,
+        "34": 1119,
+        "35": 1136,
+        "36": 1154,
+        "37": 1171,
+        "38": 1189,
+        "39": 1206,
+        "40": 1224,
+        "41": 1239,
+        "42": 1255,
+        "43": 1271,
+        "44": 1287,
+        "45": 1302,
+        "46": 1318,
+        "47": 1335,
+        "48": 1351,
+        "49": 1367,
+        "50": 1384
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Wurmple",
+                    "href": "/pokemon/265",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/265.webp"
+                },
+                "to": {
+                    "name": "Cascoon",
+                    "href": "/pokemon/268",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/268.webp"
+                },
+                "requirements": [
+                    "12 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Cascoon",
+                    "href": "/pokemon/268",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/268.webp"
+                },
+                "to": {
+                    "name": "Dustox",
+                    "href": "/pokemon/269",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/269.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "12 Candy"
+        ],
+        "family": [
+            {
+                "name": "Wurmple",
+                "href": "/pokemon/265",
+                "img": "https://db.pokemongohub.net/images/official/medium/265.webp"
+            },
+            {
+                "name": "Silcoon",
+                "href": "/pokemon/266",
+                "img": "https://db.pokemongohub.net/images/official/medium/266.webp"
+            },
+            {
+                "name": "Beautifly",
+                "href": "/pokemon/267",
+                "img": "https://db.pokemongohub.net/images/official/medium/267.webp"
+            },
+            {
+                "name": "Cascoon",
+                "href": "/pokemon/268",
+                "img": "https://db.pokemongohub.net/images/official/medium/268.webp"
+            },
+            {
+                "name": "Dustox",
+                "href": "/pokemon/269",
+                "img": "https://db.pokemongohub.net/images/official/medium/269.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Dustox in the meta PvE Analysis Dustox is a Bug- and Poison-type Pokémon with a max CP of 1384 . It is not useful for PvE , even with its best moveset of Infestation and Bug Buzz . ⚔️ Raids With a max CP of only 1384 , and many better Bug- and Poison-type options , Dustox is not a Pokémon you should be using for raids . 🛡️ Gyms There are much better options available. PvP Analysis Dustox’s best moveset for PvP is Confusion, Sludge Bomb, and Silver Wind , but sadly, it is not a particularly useful PvP Pokémon . 🔵 Great League Dustox maxes out at 1384 CP , so it requires XL Candy investment and is still on the small side for Great League. Technically, it ranks better than its counterpart Beautifly due to better defensive stats , but it still isn’t particularly usable . 🟡 Ultra League Far too small for Ultra League. 🟣 Master League Like a moth to the flame, a moth to Master League isn’t a good option either.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Dustox",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Dustox's Bug and Poison-type moves, Candy, and Candy XL from catching Dustox.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 269,
+            "height_m": 1.19,
+            "weight_kg": 31.6,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 10,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.58 m",
+            "xs": "0.6 m",
+            "m": "1.19 m",
+            "xl": "1.79 m",
+            "xxl": "2.08 m",
+            "description": "Dustox's height ranges from 0.58 m to 2.08 m, with the average being 1.19 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.5831,
+                "upper_m": 0.595,
+                "lower_ft": "1′11″",
+                "upper_ft": "1′11″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.595,
+                "upper_m": 1.19,
+                "lower_ft": "1′11″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.8925,
+                "upper_m": 1.4875,
+                "lower_ft": "2′11″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.4875,
+                "upper_m": 1.785,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.785,
+                "upper_m": 2.0825,
+                "lower_ft": "5′10″",
+                "upper_ft": "6′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 30.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "DUSTOX is instinctively drawn to light. Swarms of this POKéMON are attracted by the bright lights of cities, where they wreak havoc by stripping the leaves off roadside trees for food."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "When DUSTOX flaps its wings, a fine dust is scattered all over. This dust is actually a powerful poison that will even make a pro wrestler sick. This POKéMON searches for food using its antennae like radar."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It is a nocturnal POKéMON that flies from fields and mountains to the attraction of streetlights at night. It looses highly toxic powder from its wings."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It scatters horribly toxic dust when it senses danger. They tend to gather in the glow of streetlamps at night."
+        },
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "A nocturnal Pokémon. Drawn by streetlights, they messily eat the leaves of trees lining boulevards."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It violently flutters its wings to scatter toxic dust when attacked. It becomes active after sunset."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Toxic powder is scattered with each flap. At night, it is known to strip leaves off trees lining boulevards."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It scatters its fine dust all over when it is attacked. It is a nocturnal Pokémon."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "A nocturnal Pokémon. Drawn by streetlights, they messily eat the leaves of trees lining boulevards."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It violently flutters its wings to scatter toxic dust when attacked. It becomes active after sunset."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Dustox is instinctively drawn to light. Swarms of this Pokémon are attracted by the bright lights of cities, where they wreak havoc by stripping the leaves off roadside trees for food."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "When Dustox flaps its wings, a fine dust is scattered all over. This dust is actually a powerful poison that will even make a pro wrestler sick. This Pokémon searches for food using its antennae like radar."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Tends to be drawn to bonfires on dark nights. Difficult to chase away from settlements because of the way it scatters highly toxic scales."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Dustox",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm269.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm269.icon.png"
+            },
+            {
+                "label": "Regular Dustox♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm269.g2.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm269.g2.icon.png"
+            },
+            {
+                "label": "Shiny Dustox",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm269.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm269.s.icon.png"
+            },
+            {
+                "label": "Shiny Dustox♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm269.g2.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm269.g2.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 269,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0269_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0269_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Dustox ♀ sprite"
+            },
+            {
+                "pokedex_number": 269,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0269_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0269_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Dustox ♀ sprite"
+            },
+            {
+                "pokedex_number": 269,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0269_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0269_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Dustox sprite"
+            },
+            {
+                "pokedex_number": 269,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0269_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0269_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Dustox sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/269_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/269_social.jpg",
+                "alt": "Dustox"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/269_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/269_social_dark.jpg",
+                "alt": "Dustox"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/269_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/269_social_map.jpg",
+                "alt": "Dustox"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/269_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/269_social_map_dark.jpg",
+                "alt": "Dustox"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Dustox’s strengths and weaknesses?",
+            "answer": "As a Bug and Poison-type Pokémon, Dustox is weak to Fire, Flying, Psychic, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Dustox in Pokémon GO?",
+            "answer": "The best moves for Dustox in Pokémon GO are Confusion and Sludge Bomb. This moveset has a DPS (Damage Per Second) of 5.545 and a TDO (Total Damage Output) of 77.766."
+        },
+        {
+            "question": "How does Dustox perform in Raids?",
+            "answer": "Dustox's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Dustox rank as a Bug-type attacker?",
+            "answer": "Dustox is an F-Tier Bug-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Dustox rank as a Poison-type attacker?",
+            "answer": "Dustox is an F-Tier Poison-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Dustox?",
+            "answer": "The following Mega Pokémon boost Dustox: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, Primal Kyogre, Mega Venusaur, Mega Beedrill, and Mega Gengar."
+        },
+        {
+            "question": "What is Dustox’s maximum CP at Level 40 and Level 50?",
+            "answer": "Dustox’s maximum CP at Level 40 is 1224 CP and 1384 CP at Level 50."
+        },
+        {
+            "question": "Can Dustox be shiny in Pokémon GO?",
+            "answer": "Dustox can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Dustox Dynamax in Pokémon GO?",
+            "answer": "Dustox cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

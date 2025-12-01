@@ -1,0 +1,792 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1110,
+        "attack": 95,
+        "defense": 141,
+        "stamina": 116,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Yamask",
+        "forms": [
+            {
+                "name": "Yamask",
+                "href": "/pokemon/562",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/562.webp"
+            },
+            {
+                "name": "Galarian Yamask",
+                "href": "/pokemon/562-Galarian",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/562_galar.webp"
+            },
+            {
+                "name": "Galarian Shadow Yamask",
+                "href": "/pokemon/562-Galarian_Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/562_galar.webp"
+            },
+            {
+                "name": "Shadow Yamask",
+                "href": "/pokemon/562-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/562.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/562.webp",
+        "types": [
+            "Ghost"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Astonish",
+            "charged": "Shadow Ball",
+            "dps": 5.03,
+            "tdo": 47.89,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 5.03,
+                "tdo": 47.9,
+                "score": 3.98
+            },
+            {
+                "rank": 2,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 4.81,
+                "tdo": 45.8,
+                "score": 3.81
+            },
+            {
+                "rank": 3,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Ominous Wind",
+                "charged_url": "https://db.pokemongohub.net/move/69",
+                "dps": 4.27,
+                "tdo": 40.7,
+                "score": 3.39
+            },
+            {
+                "rank": 4,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Ominous Wind",
+                "charged_url": "https://db.pokemongohub.net/move/69",
+                "dps": 4.24,
+                "tdo": 40.3,
+                "score": 3.36
+            },
+            {
+                "rank": 5,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 4.01,
+                "tdo": 38.2,
+                "score": 3.18
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 3.92,
+                "tdo": 37.4,
+                "score": 3.11
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Zen Headbutt",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 9,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/234"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Ominous Wind",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/69"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Yamask's has 1110 max CP (at Level 50). A Yamask obtained from Raids can be encountered from 516 CP to 561 CP, or if weather boosted, in the 646 CP to 701 CP range. In Field and Special Research, Yamask can be found in the 387 CP to 420 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1110",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "387 - 420",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "516 - 561",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "516 - 561",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "646 - 701",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "646 CP - 701 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 43,
+        "3": 73,
+        "4": 102,
+        "5": 132,
+        "6": 162,
+        "7": 191,
+        "8": 221,
+        "9": 251,
+        "10": 280,
+        "11": 308,
+        "12": 336,
+        "13": 364,
+        "14": 392,
+        "15": 420,
+        "16": 449,
+        "17": 477,
+        "18": 505,
+        "19": 533,
+        "20": 561,
+        "21": 589,
+        "22": 617,
+        "23": 645,
+        "24": 673,
+        "25": 701,
+        "26": 729,
+        "27": 757,
+        "28": 785,
+        "29": 813,
+        "30": 841,
+        "31": 855,
+        "32": 869,
+        "33": 883,
+        "34": 897,
+        "35": 912,
+        "36": 926,
+        "37": 940,
+        "38": 954,
+        "39": 968,
+        "40": 982,
+        "41": 994,
+        "42": 1007,
+        "43": 1019,
+        "44": 1032,
+        "45": 1045,
+        "46": 1058,
+        "47": 1071,
+        "48": 1084,
+        "49": 1097,
+        "50": 1110
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Yamask",
+                    "href": "/pokemon/562",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/562.webp"
+                },
+                "to": {
+                    "name": "Cofagrigus",
+                    "href": "/pokemon/563",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/563.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Yamask",
+                "href": "/pokemon/562",
+                "img": "https://db.pokemongohub.net/images/official/medium/562.webp"
+            },
+            {
+                "name": "Cofagrigus",
+                "href": "/pokemon/563",
+                "img": "https://db.pokemongohub.net/images/official/medium/563.webp"
+            },
+            {
+                "name": "Runerigus",
+                "href": "/pokemon/867",
+                "img": "https://db.pokemongohub.net/images/official/medium/867.webp"
+            },
+            {
+                "name": "Galarian Yamask",
+                "href": "/pokemon/562-Galarian",
+                "img": "https://db.pokemongohub.net/images/official/medium/562_galar.webp"
+            },
+            {
+                "name": "Galarian Shadow Yamask",
+                "href": "/pokemon/562-Galarian_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Yamask",
+                "href": "/pokemon/562-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Cofagrigus",
+                "href": "/pokemon/563-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Runerigus",
+                "href": "/pokemon/867-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Yamask in the meta PvE Analysis ⚔️ Raids This spirit Pokémon will perform true to its name, disappearing from the field as quickly as it came . 🛡️ Gyms Shiny flex only. 🔮 Dynamax Yamask is not currently available to Dynamax . PvP Analysis Preferred Moveset – Astonish , Shadow Ball , and Ominous Wind / Dark Pulse 🧸 Little League Yamask sports a mono-Ghost typing , decent stat product , and a strong moveset (though lacking coverage). In the right meta, Yamask will be a very decent pick—though the investment may be short-lived given the scarcity of Little Cup formats in the GO Battle League rotation. 🔵 Great League NA 🟡 Ultra League NA 🟣 Master League NA",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Yamask",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Yamask's Ghost-type moves, Candy, and Candy XL from catching Yamask.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 562,
+            "height_m": 0.5,
+            "weight_kg": 1.5,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.88 m",
+            "description": "Yamask's height ranges from 0.25 m to 0.88 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.875,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_PSYCHIC",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "These Pokémon arose from the spirits of people interred in graves in past ages. Each retains memories of its former life."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "These Pokémon arose from the spirits of people interred in graves. Each retains memories of its former life."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "These Pokémon arose from the spirits of people interred in graves. Each retains memories of its former life."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It wanders through ruins by night, carrying a mask that’s said to have been the face it had when it was still human."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "The spirit of a person from a bygone age became this Pokémon. It rambles through ruins, searching for someone who knows its face."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Yamask",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm562.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm562.icon.png"
+            },
+            {
+                "label": "Shiny Yamask",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm562.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm562.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 562,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0562_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0562_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Yamask sprite"
+            },
+            {
+                "pokedex_number": 562,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0562_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0562_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Yamask sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/562_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/562_social.jpg",
+                "alt": "Yamask"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/562_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/562_social_dark.jpg",
+                "alt": "Yamask"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/562_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/562_social_map.jpg",
+                "alt": "Yamask"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/562_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/562_social_map_dark.jpg",
+                "alt": "Yamask"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Yamask’s strengths and weaknesses?",
+            "answer": "As a Ghost-type Pokémon, Yamask is weak to Dark and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Yamask in Pokémon GO?",
+            "answer": "The best moves for Yamask in Pokémon GO are Astonish and Shadow Ball. This moveset has a DPS (Damage Per Second) of 5.027 and a TDO (Total Damage Output) of 47.886."
+        },
+        {
+            "question": "How does Yamask perform in Raids?",
+            "answer": "Yamask's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Yamask rank as a Ghost-type attacker?",
+            "answer": "Yamask's performance as a Ghost-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Yamask?",
+            "answer": "The following Mega Pokémon boost Yamask: Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Yamask’s maximum CP at Level 40 and Level 50?",
+            "answer": "Yamask’s maximum CP at Level 40 is 982 CP and 1110 CP at Level 50."
+        },
+        {
+            "question": "Can Yamask be shiny in Pokémon GO?",
+            "answer": "Yamask can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Yamask Dynamax in Pokémon GO?",
+            "answer": "Yamask cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

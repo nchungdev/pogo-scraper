@@ -1,0 +1,901 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3381,
+        "attack": 220,
+        "defense": 158,
+        "stamina": 225,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": false,
+        "title": "Centiskorch",
+        "forms": [
+            {
+                "name": "Centiskorch",
+                "href": "/pokemon/851",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/851.webp"
+            },
+            {
+                "name": "Gigantamax Centiskorch",
+                "href": "/pokemon/851-Gigantamax",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/851_gmax.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/851.webp",
+        "types": [
+            "Fire",
+            "Bug"
+        ],
+        "weather_boost": [
+            "sunny",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bug Bite",
+            "charged": "Bug Buzz",
+            "dps": 12.11,
+            "tdo": 234.31,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 12.11,
+                "tdo": 234.3,
+                "score": 10.72
+            },
+            {
+                "rank": 2,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 11.4,
+                "tdo": 220.6,
+                "score": 10.1
+            },
+            {
+                "rank": 3,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Heat Wave",
+                "charged_url": "https://db.pokemongohub.net/move/42",
+                "dps": 10.44,
+                "tdo": 202.0,
+                "score": 9.25
+            },
+            {
+                "rank": 4,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Lunge",
+                "charged_url": "https://db.pokemongohub.net/move/306",
+                "dps": 9.76,
+                "tdo": 189.0,
+                "score": 8.65
+            },
+            {
+                "rank": 5,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 9.66,
+                "tdo": 187.0,
+                "score": 8.56
+            },
+            {
+                "rank": 6,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Heat Wave",
+                "charged_url": "https://db.pokemongohub.net/move/42",
+                "dps": 9.55,
+                "tdo": 184.9,
+                "score": 8.46
+            },
+            {
+                "rank": 7,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Lunge",
+                "charged_url": "https://db.pokemongohub.net/move/306",
+                "dps": 9.35,
+                "tdo": 181.0,
+                "score": 8.28
+            },
+            {
+                "rank": 8,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 9.26,
+                "tdo": 179.2,
+                "score": 8.2
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bug Bite",
+                "type": "Bug",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/201"
+            },
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Heat Wave",
+                "type": "Fire",
+                "stats": {
+                    "damage": 95,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.7s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 95,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/42"
+            },
+            {
+                "name": "Bug Buzz",
+                "type": "Bug",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.8s - 2.9s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/49"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            },
+            {
+                "name": "Lunge",
+                "type": "Bug",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/306"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Centiskorch's has 3381 max CP (at Level 50). A Centiskorch obtained from Raids can be encountered from 1630 CP to 1708 CP, or if weather boosted, in the 2038 CP to 2136 CP range. In Field and Special Research, Centiskorch can be found in the 1223 CP to 1281 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3381",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1223 - 1281",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1630 - 1708",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1630 - 1708",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2038 - 2136",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2038 CP - 2136 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 42,
+        "2": 132,
+        "3": 222,
+        "4": 313,
+        "5": 403,
+        "6": 493,
+        "7": 583,
+        "8": 674,
+        "9": 764,
+        "10": 854,
+        "11": 940,
+        "12": 1025,
+        "13": 1111,
+        "14": 1196,
+        "15": 1281,
+        "16": 1367,
+        "17": 1452,
+        "18": 1538,
+        "19": 1623,
+        "20": 1708,
+        "21": 1794,
+        "22": 1879,
+        "23": 1965,
+        "24": 2050,
+        "25": 2136,
+        "26": 2221,
+        "27": 2307,
+        "28": 2392,
+        "29": 2478,
+        "30": 2563,
+        "31": 2606,
+        "32": 2649,
+        "33": 2691,
+        "34": 2734,
+        "35": 2777,
+        "36": 2819,
+        "37": 2862,
+        "38": 2905,
+        "39": 2948,
+        "40": 2990,
+        "41": 3028,
+        "42": 3066,
+        "43": 3105,
+        "44": 3144,
+        "45": 3182,
+        "46": 3222,
+        "47": 3261,
+        "48": 3301,
+        "49": 3341,
+        "50": 3381
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Sizzlipede",
+                    "href": "/pokemon/850",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/850.webp"
+                },
+                "to": {
+                    "name": "Centiskorch",
+                    "href": "/pokemon/851",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/851.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Sizzlipede",
+                "href": "/pokemon/850",
+                "img": "https://db.pokemongohub.net/images/official/medium/850.webp"
+            },
+            {
+                "name": "Centiskorch",
+                "href": "/pokemon/851",
+                "img": "https://db.pokemongohub.net/images/official/medium/851.webp"
+            },
+            {
+                "name": "Gigantamax Centiskorch",
+                "href": "/pokemon/851-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/851_gmax.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Centiskorch in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Centiskorch",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Centiskorch's Fire and Bug-type moves, Candy, and Candy XL from catching Centiskorch.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 851,
+            "height_m": 3,
+            "weight_kg": 120,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "1.47 m",
+            "xs": "1.5 m",
+            "m": "3 m",
+            "xl": "4.5 m",
+            "xxl": "4.65 m",
+            "description": "Centiskorch's height ranges from 1.47 m to 4.65 m, with the average being 3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 1.47,
+                "upper_m": 1.5,
+                "lower_ft": "4′10″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.5,
+                "upper_m": 3,
+                "lower_ft": "4′11″",
+                "upper_ft": "9′10″"
+            },
+            {
+                "size": "M",
+                "lower_m": 2.25,
+                "upper_m": 3.75,
+                "lower_ft": "7′05″",
+                "upper_ft": "12′04″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 3.75,
+                "upper_m": 4.5,
+                "lower_ft": "12′04″",
+                "upper_ft": "14′09″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 4.5,
+                "upper_m": 4.65,
+                "lower_ft": "14′09″",
+                "upper_ft": "15′03″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Centiskorch",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm851.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm851.icon.png"
+            },
+            {
+                "label": "Shiny Centiskorch",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm851.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm851.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 851,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0851_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0851_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Centiskorch sprite"
+            },
+            {
+                "pokedex_number": 851,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0851_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0851_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Centiskorch sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/851_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/851_social.jpg",
+                "alt": "Centiskorch"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/851_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/851_social_dark.jpg",
+                "alt": "Centiskorch"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/851_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/851_social_map.jpg",
+                "alt": "Centiskorch"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/851_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/851_social_map_dark.jpg",
+                "alt": "Centiskorch"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Centiskorch’s strengths and weaknesses?",
+            "answer": "As a Fire and Bug-type Pokémon, Centiskorch is especially weak against Rock-type moves, and weak against Flying and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Centiskorch in Pokémon GO?",
+            "answer": "The best moves for Centiskorch in Pokémon GO are Bug Bite and Bug Buzz. This moveset has a DPS (Damage Per Second) of 12.108 and a TDO (Total Damage Output) of 234.311."
+        },
+        {
+            "question": "How does Centiskorch perform in Raids?",
+            "answer": "Centiskorch's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Centiskorch rank as a Fire-type attacker?",
+            "answer": "Centiskorch is an F-Tier Fire-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Centiskorch rank as a Bug-type attacker?",
+            "answer": "Centiskorch is a solid A-Tier Bug-type attacker, ranking at number #26. It is reliable in many situations but not the absolute best."
+        },
+        {
+            "question": "What Mega Pokémon boost Centiskorch?",
+            "answer": "The following Mega Pokémon boost Centiskorch: Mega Houndoom, Mega Blaziken, Mega Camerupt, Primal Groudon, Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, and Primal Kyogre."
+        },
+        {
+            "question": "What is Centiskorch’s maximum CP at Level 40 and Level 50?",
+            "answer": "Centiskorch’s maximum CP at Level 40 is 2990 CP and 3381 CP at Level 50."
+        },
+        {
+            "question": "Can Centiskorch be shiny in Pokémon GO?",
+            "answer": "Centiskorch cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Centiskorch Dynamax in Pokémon GO?",
+            "answer": "Centiskorch cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

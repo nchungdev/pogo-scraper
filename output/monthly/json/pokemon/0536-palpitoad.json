@@ -1,0 +1,841 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1574,
+        "attack": 128,
+        "defense": 109,
+        "stamina": 181,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Palpitoad",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/536.webp",
+        "types": [
+            "Water",
+            "Ground"
+        ],
+        "weather_boost": [
+            "rain",
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bubble",
+            "charged": "Earth Power",
+            "dps": 7.01,
+            "tdo": 79.36,
+            "boosted_weather": [
+                "rain",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Earth Power",
+                "charged_url": "https://db.pokemongohub.net/move/304",
+                "dps": 7.01,
+                "tdo": 79.4,
+                "score": 5.74
+            },
+            {
+                "rank": 2,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Earth Power",
+                "charged_url": "https://db.pokemongohub.net/move/304",
+                "dps": 6.93,
+                "tdo": 78.5,
+                "score": 5.68
+            },
+            {
+                "rank": 3,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 5.8,
+                "tdo": 65.7,
+                "score": 4.76
+            },
+            {
+                "rank": 4,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 5.69,
+                "tdo": 64.4,
+                "score": 4.66
+            },
+            {
+                "rank": 5,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Sludge Wave",
+                "charged_url": "https://db.pokemongohub.net/move/91",
+                "dps": 5.52,
+                "tdo": 62.6,
+                "score": 4.53
+            },
+            {
+                "rank": 6,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Sludge Wave",
+                "charged_url": "https://db.pokemongohub.net/move/91",
+                "dps": 5.39,
+                "tdo": 61.0,
+                "score": 4.41
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Mud Shot",
+                "type": "Ground",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/216"
+            },
+            {
+                "name": "Bubble",
+                "type": "Water",
+                "stats": {
+                    "damage": 10,
+                    "energy": 12,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 12,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/237"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Sludge Wave",
+                "type": "Poison",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.8s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/91"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Earth Power",
+                "type": "Ground",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/304"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Palpitoad's has 1574 max CP (at Level 50). A Palpitoad obtained from Raids can be encountered from 742 CP to 795 CP, or if weather boosted, in the 928 CP to 994 CP range. In Field and Special Research, Palpitoad can be found in the 556 CP to 596 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1574",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "556 - 596",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "742 - 795",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "742 - 795",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "928 - 994",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "928 CP - 994 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 19,
+        "2": 61,
+        "3": 103,
+        "4": 145,
+        "5": 187,
+        "6": 229,
+        "7": 271,
+        "8": 313,
+        "9": 355,
+        "10": 397,
+        "11": 437,
+        "12": 477,
+        "13": 517,
+        "14": 557,
+        "15": 596,
+        "16": 636,
+        "17": 676,
+        "18": 716,
+        "19": 755,
+        "20": 795,
+        "21": 835,
+        "22": 875,
+        "23": 914,
+        "24": 954,
+        "25": 994,
+        "26": 1034,
+        "27": 1074,
+        "28": 1113,
+        "29": 1153,
+        "30": 1193,
+        "31": 1213,
+        "32": 1233,
+        "33": 1253,
+        "34": 1273,
+        "35": 1292,
+        "36": 1312,
+        "37": 1332,
+        "38": 1352,
+        "39": 1372,
+        "40": 1392,
+        "41": 1410,
+        "42": 1427,
+        "43": 1445,
+        "44": 1463,
+        "45": 1481,
+        "46": 1500,
+        "47": 1518,
+        "48": 1536,
+        "49": 1555,
+        "50": 1574
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Tympole",
+                    "href": "/pokemon/535",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/535.webp"
+                },
+                "to": {
+                    "name": "Palpitoad",
+                    "href": "/pokemon/536",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/536.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Palpitoad",
+                    "href": "/pokemon/536",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/536.webp"
+                },
+                "to": {
+                    "name": "Seismitoad",
+                    "href": "/pokemon/537",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/537.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Tympole",
+                "href": "/pokemon/535",
+                "img": "https://db.pokemongohub.net/images/official/medium/535.webp"
+            },
+            {
+                "name": "Palpitoad",
+                "href": "/pokemon/536",
+                "img": "https://db.pokemongohub.net/images/official/medium/536.webp"
+            },
+            {
+                "name": "Seismitoad",
+                "href": "/pokemon/537",
+                "img": "https://db.pokemongohub.net/images/official/medium/537.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Palpitoad in the meta PvE Analysis ⚔️ Raids Seeing a Palpitoad in a raid will leave your raid partners wondering why you’re leaving them to do all the heavy lifting! 🛡️ Gyms Shiny flex only . 🔮 Dynamax Palpitoad is not currently available to Dynamax . PvP Analysis Preferred Moveset – Mud Shot / Bubble , Water Pulse & Earth Power 🔵 Great League Palpitoad’s slow moveset makes it one of the less useful Mudboys in Great League at present. Its slowness makes it difficult to apply shield pressure , and its wins are typically only against Pokémon that apply no fast move pressure in return . A move rebalance is required for Palpitoad to find success in the open meta. 🟡 Ultra League NA 🟣 Master League NA",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Palpitoad",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Palpitoad's Water and Ground-type moves, Candy, and Candy XL from catching Palpitoad.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 536,
+            "height_m": 0.8,
+            "weight_kg": 17,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.39 m",
+            "xs": "0.4 m",
+            "m": "0.8 m",
+            "xl": "1.2 m",
+            "xxl": "1.24 m",
+            "description": "Palpitoad's height ranges from 0.39 m to 1.24 m, with the average being 0.8 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.392,
+                "upper_m": 0.4,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.4,
+                "upper_m": 0.8,
+                "lower_ft": "1′04″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.6,
+                "upper_m": 1,
+                "lower_ft": "1′12″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1,
+                "upper_m": 1.2,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.2,
+                "upper_m": 1.24,
+                "lower_ft": "3′11″",
+                "upper_ft": "4′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "It lives in the water and on land. It uses its long, sticky tongue to capture prey."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It weakens its prey with sound waves intense enough to cause headaches, then entangles them with its sticky tongue."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Palpitoad",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm536.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm536.icon.png"
+            },
+            {
+                "label": "Shiny Palpitoad",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm536.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm536.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 536,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0536_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0536_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Palpitoad sprite"
+            },
+            {
+                "pokedex_number": 536,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0536_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0536_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Palpitoad sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/536_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/536_social.jpg",
+                "alt": "Palpitoad"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/536_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/536_social_dark.jpg",
+                "alt": "Palpitoad"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/536_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/536_social_map.jpg",
+                "alt": "Palpitoad"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/536_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/536_social_map_dark.jpg",
+                "alt": "Palpitoad"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Palpitoad’s strengths and weaknesses?",
+            "answer": "As a Water and Ground-type Pokémon, Palpitoad is especially weak against Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Palpitoad in Pokémon GO?",
+            "answer": "The best moves for Palpitoad in Pokémon GO are Bubble and Earth Power. This moveset has a DPS (Damage Per Second) of 7.006 and a TDO (Total Damage Output) of 79.364."
+        },
+        {
+            "question": "How does Palpitoad perform in Raids?",
+            "answer": "Palpitoad's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Palpitoad rank as a Water-type attacker?",
+            "answer": "Palpitoad is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Palpitoad rank as a Ground-type attacker?",
+            "answer": "Palpitoad is an F-Tier Ground-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Palpitoad?",
+            "answer": "The following Mega Pokémon boost Palpitoad: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Steelix, Mega Swampert, Mega Camerupt, Primal Groudon, and Mega Garchomp."
+        },
+        {
+            "question": "What is Palpitoad’s maximum CP at Level 40 and Level 50?",
+            "answer": "Palpitoad’s maximum CP at Level 40 is 1392 CP and 1574 CP at Level 50."
+        },
+        {
+            "question": "Can Palpitoad be shiny in Pokémon GO?",
+            "answer": "Palpitoad can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Palpitoad Dynamax in Pokémon GO?",
+            "answer": "Palpitoad cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

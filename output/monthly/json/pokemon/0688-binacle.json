@@ -1,0 +1,784 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1069,
+        "attack": 96,
+        "defense": 120,
+        "stamina": 123,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Binacle",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/688.webp",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Scratch",
+            "charged": "Ancient Power",
+            "dps": 4.62,
+            "tdo": 40.1,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 4.62,
+                "tdo": 40.1,
+                "score": 3.59
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Cross Chop",
+                "charged_url": "https://db.pokemongohub.net/move/28",
+                "dps": 4.46,
+                "tdo": 38.7,
+                "score": 3.46
+            },
+            {
+                "rank": 3,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 4.33,
+                "tdo": 37.6,
+                "score": 3.36
+            },
+            {
+                "rank": 4,
+                "fast": "Mud-Slap",
+                "fast_url": "https://db.pokemongohub.net/move/233",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 4.27,
+                "tdo": 37.1,
+                "score": 3.32
+            },
+            {
+                "rank": 5,
+                "fast": "Mud-Slap",
+                "fast_url": "https://db.pokemongohub.net/move/233",
+                "charged": "Cross Chop",
+                "charged_url": "https://db.pokemongohub.net/move/28",
+                "dps": 4.02,
+                "tdo": 34.9,
+                "score": 3.12
+            },
+            {
+                "rank": 6,
+                "fast": "Mud-Slap",
+                "fast_url": "https://db.pokemongohub.net/move/233",
+                "charged": "Dig",
+                "charged_url": "https://db.pokemongohub.net/move/26",
+                "dps": 3.95,
+                "tdo": 34.3,
+                "score": 3.07
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            },
+            {
+                "name": "Mud-Slap",
+                "type": "Ground",
+                "stats": {
+                    "damage": 19,
+                    "energy": 13,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 13,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.3s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/233"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dig",
+                "type": "Ground",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 4.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.5,
+                    "damage_window": "2.6s - 4.3s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/26"
+            },
+            {
+                "name": "Cross Chop",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 50,
+                    "energy": 50,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/28"
+            },
+            {
+                "name": "Ancient Power",
+                "type": "Rock",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.9s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/62"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Binacle's has 1069 max CP (at Level 50). A Binacle obtained from Raids can be encountered from 497 CP to 540 CP, or if weather boosted, in the 621 CP to 675 CP range. In Field and Special Research, Binacle can be found in the 373 CP to 405 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1069",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "373 - 405",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "497 - 540",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "497 - 540",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "621 - 675",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "621 CP - 675 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 41,
+        "3": 70,
+        "4": 99,
+        "5": 127,
+        "6": 156,
+        "7": 184,
+        "8": 213,
+        "9": 241,
+        "10": 270,
+        "11": 297,
+        "12": 324,
+        "13": 351,
+        "14": 378,
+        "15": 405,
+        "16": 432,
+        "17": 459,
+        "18": 486,
+        "19": 513,
+        "20": 540,
+        "21": 567,
+        "22": 594,
+        "23": 621,
+        "24": 648,
+        "25": 675,
+        "26": 702,
+        "27": 730,
+        "28": 757,
+        "29": 784,
+        "30": 811,
+        "31": 824,
+        "32": 838,
+        "33": 851,
+        "34": 865,
+        "35": 878,
+        "36": 892,
+        "37": 905,
+        "38": 919,
+        "39": 932,
+        "40": 946,
+        "41": 958,
+        "42": 970,
+        "43": 982,
+        "44": 994,
+        "45": 1007,
+        "46": 1019,
+        "47": 1031,
+        "48": 1044,
+        "49": 1057,
+        "50": 1069
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Binacle",
+                    "href": "/pokemon/688",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/688.webp"
+                },
+                "to": {
+                    "name": "Barbaracle",
+                    "href": "/pokemon/689",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/689.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Binacle",
+                "href": "/pokemon/688",
+                "img": "https://db.pokemongohub.net/images/official/medium/688.webp"
+            },
+            {
+                "name": "Barbaracle",
+                "href": "/pokemon/689",
+                "img": "https://db.pokemongohub.net/images/official/medium/689.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Binacle in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Binacle",
+        "type": "Rock",
+        "intro_text": "A list of Mega Pokémon that boost Binacle's Rock and Water-type moves, Candy, and Candy XL from catching Binacle.",
+        "mega_list": [
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 688,
+            "height_m": 0.5,
+            "weight_kg": 31,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.88 m",
+            "description": "Binacle's height ranges from 0.25 m to 0.88 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.875,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 25.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 0.0,
+            "dodge_duration_s": 0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Two Binacle live together on one rock. When they fight, one of them will move to a different rock."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "After two Binacle find a suitably sized rock, they adhere themselves to it and live together. They cooperate to gather food during high tide."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "If the two don’t work well together, both their offense and defense fall apart. Without good teamwork, they won’t survive."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Binacle",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm688.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm688.icon.png"
+            },
+            {
+                "label": "Shiny Binacle",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm688.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm688.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 688,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0688_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0688_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Binacle sprite"
+            },
+            {
+                "pokedex_number": 688,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0688_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0688_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Binacle sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/688_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/688_social.jpg",
+                "alt": "Binacle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/688_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/688_social_dark.jpg",
+                "alt": "Binacle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/688_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/688_social_map.jpg",
+                "alt": "Binacle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/688_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/688_social_map_dark.jpg",
+                "alt": "Binacle"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Binacle’s strengths and weaknesses?",
+            "answer": "As a Rock and Water-type Pokémon, Binacle is especially weak against Grass-type moves, and weak against Electric, Fighting, and Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Binacle in Pokémon GO?",
+            "answer": "The best moves for Binacle in Pokémon GO are Scratch and Ancient Power. This moveset has a DPS (Damage Per Second) of 4.618 and a TDO (Total Damage Output) of 40.1."
+        },
+        {
+            "question": "How does Binacle perform in Raids?",
+            "answer": "Binacle's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Binacle rank as a Rock-type attacker?",
+            "answer": "Binacle's performance as a Rock-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Binacle?",
+            "answer": "The following Mega Pokémon boost Binacle: Mega Aerodactyl, Mega Tyranitar, Mega Diancie, Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Binacle’s maximum CP at Level 40 and Level 50?",
+            "answer": "Binacle’s maximum CP at Level 40 is 946 CP and 1069 CP at Level 50."
+        },
+        {
+            "question": "Can Binacle be shiny in Pokémon GO?",
+            "answer": "Binacle can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Binacle Dynamax in Pokémon GO?",
+            "answer": "Binacle cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

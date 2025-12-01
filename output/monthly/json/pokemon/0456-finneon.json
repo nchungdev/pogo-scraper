@@ -1,0 +1,857 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1098,
+        "attack": 96,
+        "defense": 116,
+        "stamina": 135,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Finneon",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/456.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Pound",
+            "charged": "Ice Beam",
+            "dps": 4.78,
+            "tdo": 43.76,
+            "boosted_weather": [
+                "partlyCloudy",
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 4.78,
+                "tdo": 43.8,
+                "score": 3.75
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 4.78,
+                "tdo": 43.8,
+                "score": 3.75
+            },
+            {
+                "rank": 3,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.63,
+                "tdo": 42.4,
+                "score": 3.64
+            },
+            {
+                "rank": 4,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.63,
+                "tdo": 42.4,
+                "score": 3.64
+            },
+            {
+                "rank": 5,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Silver Wind",
+                "charged_url": "https://db.pokemongohub.net/move/262",
+                "dps": 4.24,
+                "tdo": 38.8,
+                "score": 3.33
+            },
+            {
+                "rank": 6,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Silver Wind",
+                "charged_url": "https://db.pokemongohub.net/move/262",
+                "dps": 4.24,
+                "tdo": 38.8,
+                "score": 3.33
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Pound",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.4s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/222"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ice Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/39"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Silver Wind",
+                "type": "Bug",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/262"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Finneon's has 1098 max CP (at Level 50). A Finneon obtained from Raids can be encountered from 511 CP to 555 CP, or if weather boosted, in the 639 CP to 694 CP range. In Field and Special Research, Finneon can be found in the 383 CP to 416 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1098",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "383 - 416",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "511 - 555",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "511 - 555",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "639 - 694",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "639 CP - 694 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 43,
+        "3": 72,
+        "4": 101,
+        "5": 131,
+        "6": 160,
+        "7": 189,
+        "8": 219,
+        "9": 248,
+        "10": 277,
+        "11": 305,
+        "12": 333,
+        "13": 361,
+        "14": 388,
+        "15": 416,
+        "16": 444,
+        "17": 472,
+        "18": 499,
+        "19": 527,
+        "20": 555,
+        "21": 583,
+        "22": 610,
+        "23": 638,
+        "24": 666,
+        "25": 694,
+        "26": 721,
+        "27": 749,
+        "28": 777,
+        "29": 805,
+        "30": 833,
+        "31": 846,
+        "32": 860,
+        "33": 874,
+        "34": 888,
+        "35": 902,
+        "36": 916,
+        "37": 930,
+        "38": 944,
+        "39": 957,
+        "40": 971,
+        "41": 984,
+        "42": 996,
+        "43": 1009,
+        "44": 1021,
+        "45": 1034,
+        "46": 1047,
+        "47": 1059,
+        "48": 1072,
+        "49": 1085,
+        "50": 1098
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Finneon",
+                    "href": "/pokemon/456",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/456.webp"
+                },
+                "to": {
+                    "name": "Lumineon",
+                    "href": "/pokemon/457",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/457.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Finneon",
+                "href": "/pokemon/456",
+                "img": "https://db.pokemongohub.net/images/official/medium/456.webp"
+            },
+            {
+                "name": "Lumineon",
+                "href": "/pokemon/457",
+                "img": "https://db.pokemongohub.net/images/official/medium/457.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Finneon in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Finneon",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Finneon's Water-type moves, Candy, and Candy XL from catching Finneon.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 456,
+            "height_m": 0.4,
+            "weight_kg": 7,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.8 m",
+            "description": "Finneon's height ranges from 0.2 m to 0.8 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.8,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 10.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.2,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "The way its two tail fins flutter while it swims has earned it the nickname “BEAUTIFLY of the Sea.”"
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "The line running down its side can store sunlight. It shines vividly at night."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "Swimming and fluttering its two tail fins, it looks like a BEAUTIFLY. At night, the patterns on its tail fins softly shine."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "The line running down its side can store sunlight. It shines vividly at night."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It absorbs sunlight with the pink areas of its skin, which then shine. This appears to be a form of camouflage."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Its double tail fins propel its energetic jumps. When it breaks the surface of the sea, Wingull swoop down to grab it on the fly."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "When night falls, their pink patterns begin to shine. They’re popular with divers, so there are resorts that feed them to keep them close."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It lures in prey with its shining tail fins. It stays near the surface during the day and moves to the depths when night falls."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "What a gorgeous sight this Pokémon is as it swims with its long, pink-painted caudal fins fluttering behind it. Finneon's beautiful appearance has led to its nickname: ”finery fish.”"
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Finneon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm456.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm456.icon.png"
+            },
+            {
+                "label": "Regular Finneon♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm456.g2.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm456.g2.icon.png"
+            },
+            {
+                "label": "Shiny Finneon",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm456.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm456.s.icon.png"
+            },
+            {
+                "label": "Shiny Finneon♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm456.g2.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm456.g2.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 456,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0456_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0456_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Finneon ♀ sprite"
+            },
+            {
+                "pokedex_number": 456,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0456_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0456_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Finneon ♀ sprite"
+            },
+            {
+                "pokedex_number": 456,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0456_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0456_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Finneon sprite"
+            },
+            {
+                "pokedex_number": 456,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0456_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0456_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Finneon sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/456_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/456_social.jpg",
+                "alt": "Finneon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/456_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/456_social_dark.jpg",
+                "alt": "Finneon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/456_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/456_social_map.jpg",
+                "alt": "Finneon"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/456_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/456_social_map_dark.jpg",
+                "alt": "Finneon"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Finneon’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Finneon is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Finneon in Pokémon GO?",
+            "answer": "The best moves for Finneon in Pokémon GO are Pound and Ice Beam. This moveset has a DPS (Damage Per Second) of 4.777 and a TDO (Total Damage Output) of 43.756."
+        },
+        {
+            "question": "How does Finneon perform in Raids?",
+            "answer": "Finneon's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Finneon rank as a Water-type attacker?",
+            "answer": "Finneon's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Finneon?",
+            "answer": "The following Mega Pokémon boost Finneon: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Finneon’s maximum CP at Level 40 and Level 50?",
+            "answer": "Finneon’s maximum CP at Level 40 is 971 CP and 1098 CP at Level 50."
+        },
+        {
+            "question": "Can Finneon be shiny in Pokémon GO?",
+            "answer": "Finneon can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Finneon Dynamax in Pokémon GO?",
+            "answer": "Finneon cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

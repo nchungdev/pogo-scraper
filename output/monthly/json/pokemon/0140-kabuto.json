@@ -1,0 +1,896 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1549,
+        "attack": 148,
+        "defense": 140,
+        "stamina": 102,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Kabuto",
+        "forms": [
+            {
+                "name": "Kabuto",
+                "href": "/pokemon/140",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/140.webp"
+            },
+            {
+                "name": "Shadow Kabuto",
+                "href": "/pokemon/140-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/140.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/140.webp",
+        "types": [
+            "Rock",
+            "Water"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Scratch",
+            "charged": "Ancient Power",
+            "dps": 6.41,
+            "tdo": 54.16,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 6.41,
+                "tdo": 54.2,
+                "score": 4.95
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 6.08,
+                "tdo": 51.4,
+                "score": 4.69
+            },
+            {
+                "rank": 3,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 6.03,
+                "tdo": 50.9,
+                "score": 4.65
+            },
+            {
+                "rank": 4,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 6.0,
+                "tdo": 50.7,
+                "score": 4.63
+            },
+            {
+                "rank": 5,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 5.53,
+                "tdo": 46.7,
+                "score": 4.27
+            },
+            {
+                "rank": 6,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 5.4,
+                "tdo": 45.6,
+                "score": 4.17
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Mud Shot",
+                "type": "Ground",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/216"
+            },
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aqua Jet",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/57"
+            },
+            {
+                "name": "Ancient Power",
+                "type": "Rock",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.9s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/62"
+            },
+            {
+                "name": "Rock Tomb",
+                "type": "Rock",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/63"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Kabuto's has 1549 max CP (at Level 50). A Kabuto obtained from Raids can be encountered from 730 CP to 783 CP, or if weather boosted, in the 913 CP to 979 CP range. In Field and Special Research, Kabuto can be found in the 548 CP to 587 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1549",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "548 - 587",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "730 - 783",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "730 - 783",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "913 - 979",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "913 CP - 979 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 19,
+        "2": 60,
+        "3": 102,
+        "4": 143,
+        "5": 184,
+        "6": 226,
+        "7": 267,
+        "8": 309,
+        "9": 350,
+        "10": 391,
+        "11": 430,
+        "12": 470,
+        "13": 509,
+        "14": 548,
+        "15": 587,
+        "16": 626,
+        "17": 665,
+        "18": 705,
+        "19": 744,
+        "20": 783,
+        "21": 822,
+        "22": 861,
+        "23": 900,
+        "24": 940,
+        "25": 979,
+        "26": 1018,
+        "27": 1057,
+        "28": 1096,
+        "29": 1136,
+        "30": 1175,
+        "31": 1194,
+        "32": 1214,
+        "33": 1233,
+        "34": 1253,
+        "35": 1273,
+        "36": 1292,
+        "37": 1312,
+        "38": 1331,
+        "39": 1351,
+        "40": 1370,
+        "41": 1388,
+        "42": 1405,
+        "43": 1423,
+        "44": 1441,
+        "45": 1459,
+        "46": 1477,
+        "47": 1495,
+        "48": 1513,
+        "49": 1531,
+        "50": 1549
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Kabuto",
+                    "href": "/pokemon/140",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/140.webp"
+                },
+                "to": {
+                    "name": "Kabutops",
+                    "href": "/pokemon/141",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/141.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Kabuto",
+                "href": "/pokemon/140",
+                "img": "https://db.pokemongohub.net/images/official/medium/140.webp"
+            },
+            {
+                "name": "Kabutops",
+                "href": "/pokemon/141",
+                "img": "https://db.pokemongohub.net/images/official/medium/141.webp"
+            },
+            {
+                "name": "Shadow Kabuto",
+                "href": "/pokemon/140-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Kabutops",
+                "href": "/pokemon/141-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Kabuto in the meta PvE Analysis ⚔️ Raids As a Rock- and Water-type Pokémon, Kabuto struggles to perform well in either category due to its limited moveset . It only has Normal and Ground-type fast moves , and its only Water-type charged move is the weak Aqua Jet , leaving it at a disadvantage before even considering its stats . If you're looking to use Fossil Pokémon in raids , your best bet is Rampardos for Rock-types and Omastar for Water-types instead. 🛡️ Gyms Base form Pokémon generally struggle as Gym defenders, and Kabuto is no exception . With weaknesses to Ground and Fighting (two of the most common attacking types in Gyms ) and a double weakness to Grass , Kabuto won’t last long enough to earn coins . Show more Show less PvP Analysis 🧸 Little Cup Kabuto shares many similarities with Omanyte but ranks slightly higher in this League. Despite major losses to Jumpluff and Fletchling , it does pick up close wins against both forms of Diggersby and Paldean Wooper . The optimal moveset for Little Cup is Mud Shot, Ancient Power, and Aqua Jet . 🔵 Great League Kabuto ranks surprisingly high in Great League compared to its evolution and the Omanyte line , though not high enough to be a viable option . Its key losses outweigh its wins , making Quagsire or Swampert much better choices. Its best moveset remains the same as in Little Cup , but to reach the CP range needed , Kabuto must be nearly maxed out with XL Candy . 🟡 Ultra League With a max CP of 1549 , Kabuto is simply not a viable choice for Ultra League. 🟣 Master League Not a viable battler . Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Kabuto",
+        "type": "Rock",
+        "intro_text": "A list of Mega Pokémon that boost Kabuto's Rock and Water-type moves, Candy, and Candy XL from catching Kabuto.",
+        "mega_list": [
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 140,
+            "height_m": 0.5,
+            "weight_kg": 11.5,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "1 m",
+            "description": "Kabuto's height ranges from 0.25 m to 1 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 1,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′03″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 8,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 23,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "A POKéMON that was resurrected from a fossil found in what was once the ocean floor eons ago."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "A POKéMON that was recovered from a fossil. It uses the eyes on its back while hiding on the sea floor."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "On rare occasions, some have been found as fossils which they became while hiding on the ocean floor."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "This POKéMON lived in ancient times. On rare occasions, it has been discovered as a living fossil."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "Three hundred million years ago, it hid on the sea floor. It also has eyes on its back that glow."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "KABUTO is a POKéMON that has been regenerated from a fossil. However, in extremely rare cases, living examples have been discovered. The POKéMON has not changed at all for 300 million years."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It is a POKéMON that has been regenerated from a fossil. However, in rare cases, living examples have been discovered. KABUTO have not changed for 300 million years."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "This POKéMON was regenerated from the fossil of an ancient creature. It protects itself with a hard shell."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "A POKéMON that was regenerated from a fossil found in what was once the ocean floor long ago."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "On rare occasions, some have been found as fossils which they became while hiding on the ocean floor."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "This Pokémon lived in ancient times. On rare occasions, it has been discovered as a living fossil."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "This Pokémon was regenerated from the fossil of an ancient creature. It protects itself with a hard shell."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Kabuto is a Pokémon that has been regenerated from a fossil. However, in extremely rare cases, living examples have been discovered. The Pokémon has not changed at all for 300 million years."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Kabuto is a Pokémon that has been regenerated from a fossil. However, in extremely rare cases, living examples have been discovered. The Pokémon has not changed at all for 300 million years."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "This Pokémon thrived 300 million years ago. It’s said that living specimens can still be seen in a certain region—a rare sight."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "This Pokémon became extinct everywhere, except in a few areas. It protects itself with its hard shell."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "A Pokémon that was recovered from a fossil. It used the eyes on its back while hiding on the seafloor."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This species is almost entirely extinct. Kabuto molt every three days, making their shells harder and harder."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "While some say this species has gone extinct, Kabuto sightings are apparently fairly common in some places."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Kabuto",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm140.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm140.icon.png"
+            },
+            {
+                "label": "Shiny Kabuto",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm140.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm140.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 140,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0140_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0140_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Kabuto sprite"
+            },
+            {
+                "pokedex_number": 140,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0140_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0140_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Kabuto sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/140_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/140_social.jpg",
+                "alt": "Kabuto"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/140_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/140_social_dark.jpg",
+                "alt": "Kabuto"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/140_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/140_social_map.jpg",
+                "alt": "Kabuto"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/140_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/140_social_map_dark.jpg",
+                "alt": "Kabuto"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Kabuto’s strengths and weaknesses?",
+            "answer": "As a Rock and Water-type Pokémon, Kabuto is especially weak against Grass-type moves, and weak against Electric, Fighting, and Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Kabuto in Pokémon GO?",
+            "answer": "The best moves for Kabuto in Pokémon GO are Scratch and Ancient Power. This moveset has a DPS (Damage Per Second) of 6.407 and a TDO (Total Damage Output) of 54.159."
+        },
+        {
+            "question": "How does Kabuto perform in Raids?",
+            "answer": "Kabuto's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Kabuto rank as a Rock-type attacker?",
+            "answer": "Kabuto is an F-Tier Rock-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Kabuto rank as a Water-type attacker?",
+            "answer": "Kabuto is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Kabuto?",
+            "answer": "The following Mega Pokémon boost Kabuto: Mega Aerodactyl, Mega Tyranitar, Mega Diancie, Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Kabuto’s maximum CP at Level 40 and Level 50?",
+            "answer": "Kabuto’s maximum CP at Level 40 is 1370 CP and 1549 CP at Level 50."
+        },
+        {
+            "question": "Can Kabuto be shiny in Pokémon GO?",
+            "answer": "Kabuto can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Kabuto Dynamax in Pokémon GO?",
+            "answer": "Kabuto can Dynamax in Pokémon GO."
+        }
+    ]
+}

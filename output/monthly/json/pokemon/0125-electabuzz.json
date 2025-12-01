@@ -1,0 +1,968 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2639,
+        "attack": 198,
+        "defense": 158,
+        "stamina": 163,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Electabuzz",
+        "forms": [
+            {
+                "name": "Electabuzz",
+                "href": "/pokemon/125",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/125.webp"
+            },
+            {
+                "name": "Shadow Electabuzz",
+                "href": "/pokemon/125-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/125.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/125.webp",
+        "types": [
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Thunder Shock",
+            "charged": "Thunderbolt",
+            "dps": 10.68,
+            "tdo": 153.33,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 10.68,
+                "tdo": 153.3,
+                "score": 9.1
+            },
+            {
+                "rank": 2,
+                "fast": "Low Kick",
+                "fast_url": "https://db.pokemongohub.net/move/207",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 9.84,
+                "tdo": 141.2,
+                "score": 8.38
+            },
+            {
+                "rank": 3,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Thunder Punch",
+                "charged_url": "https://db.pokemongohub.net/move/77",
+                "dps": 9.68,
+                "tdo": 138.9,
+                "score": 8.25
+            },
+            {
+                "rank": 4,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Thunder",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 9.27,
+                "tdo": 133.0,
+                "score": 7.89
+            },
+            {
+                "rank": 5,
+                "fast": "Low Kick",
+                "fast_url": "https://db.pokemongohub.net/move/207",
+                "charged": "Thunder Punch",
+                "charged_url": "https://db.pokemongohub.net/move/77",
+                "dps": 9.12,
+                "tdo": 130.9,
+                "score": 7.77
+            },
+            {
+                "rank": 6,
+                "fast": "Low Kick",
+                "fast_url": "https://db.pokemongohub.net/move/207",
+                "charged": "Thunder",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 8.43,
+                "tdo": 121.0,
+                "score": 7.18
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Thunder Shock",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/205"
+            },
+            {
+                "name": "Low Kick",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/207"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Thunder Punch",
+                "type": "Electric",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.9s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/77"
+            },
+            {
+                "name": "Thunder",
+                "type": "Electric",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/78"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Electabuzz's has 2639 max CP (at Level 50). A Electabuzz obtained from Raids can be encountered from 1265 CP to 1333 CP, or if weather boosted, in the 1582 CP to 1667 CP range. In Field and Special Research, Electabuzz can be found in the 949 CP to 1000 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2639",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "949 - 1000",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1265 - 1333",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1265 - 1333",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1582 - 1667",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1582 CP - 1667 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 33,
+        "2": 103,
+        "3": 173,
+        "4": 244,
+        "5": 314,
+        "6": 385,
+        "7": 455,
+        "8": 526,
+        "9": 596,
+        "10": 667,
+        "11": 733,
+        "12": 800,
+        "13": 867,
+        "14": 933,
+        "15": 1000,
+        "16": 1067,
+        "17": 1133,
+        "18": 1200,
+        "19": 1267,
+        "20": 1333,
+        "21": 1400,
+        "22": 1467,
+        "23": 1534,
+        "24": 1600,
+        "25": 1667,
+        "26": 1734,
+        "27": 1800,
+        "28": 1867,
+        "29": 1934,
+        "30": 2001,
+        "31": 2034,
+        "32": 2067,
+        "33": 2101,
+        "34": 2134,
+        "35": 2167,
+        "36": 2201,
+        "37": 2234,
+        "38": 2267,
+        "39": 2301,
+        "40": 2334,
+        "41": 2364,
+        "42": 2393,
+        "43": 2423,
+        "44": 2454,
+        "45": 2484,
+        "46": 2515,
+        "47": 2545,
+        "48": 2576,
+        "49": 2607,
+        "50": 2639
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Elekid",
+                    "href": "/pokemon/239",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/239.webp"
+                },
+                "to": {
+                    "name": "Electabuzz",
+                    "href": "/pokemon/125",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/125.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Electabuzz",
+                    "href": "/pokemon/125",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/125.webp"
+                },
+                "to": {
+                    "name": "Electivire",
+                    "href": "/pokemon/466",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/466.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Special Item: Sinnoh Stone"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Electabuzz",
+                "href": "/pokemon/125",
+                "img": "https://db.pokemongohub.net/images/official/medium/125.webp"
+            },
+            {
+                "name": "Elekid",
+                "href": "/pokemon/239",
+                "img": "https://db.pokemongohub.net/images/official/medium/239.webp"
+            },
+            {
+                "name": "Electivire",
+                "href": "/pokemon/466",
+                "img": "https://db.pokemongohub.net/images/official/medium/466.webp"
+            },
+            {
+                "name": "Shadow Electabuzz",
+                "href": "/pokemon/125-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Electivire",
+                "href": "/pokemon/466-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Electabuzz in the meta PvE Analysis Electabuzz has a good moveset but average stats that fail to cement it as a viable Pokémon in PvE. 👎 ⚔️ Raids Electabuzz is completely outclassed by a host of Electric-type Pokémon that also includes its own evolution, Electivire. ⚡ 🛡️ Gyms With low bulk, Electabuzz struggles even against neutral damage. It's not a Gym defender at all! 💎 The best moves for Electabuzz in PvE are Thunder Shock and Thunderbolt. PvP Analysis With absolutely no coverage beyond its Electric type moves that are restricted by its low stats, Electabuzz is terrible in PvP. Don't even think of running it in this meta. 🙅‍♀️🙅‍♂️",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Electabuzz",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Electabuzz's Electric-type moves, Candy, and Candy XL from catching Electabuzz.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 125,
+            "height_m": 1.1,
+            "weight_kg": 30,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.54 m",
+            "xs": "0.55 m",
+            "m": "1.1 m",
+            "xl": "1.65 m",
+            "xxl": "1.93 m",
+            "description": "Electabuzz's height ranges from 0.54 m to 1.93 m, with the average being 1.1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.539,
+                "upper_m": 0.55,
+                "lower_ft": "1′09″",
+                "upper_ft": "1′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.55,
+                "upper_m": 1.1,
+                "lower_ft": "1′10″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.825,
+                "upper_m": 1.375,
+                "lower_ft": "2′08″",
+                "upper_ft": "4′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.375,
+                "upper_m": 1.65,
+                "lower_ft": "4′06″",
+                "upper_ft": "5′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.65,
+                "upper_m": 1.925,
+                "lower_ft": "5′05″",
+                "upper_ft": "6′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 6,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 17,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "Normally found near power plants, they can wander away and cause major blackouts in cities."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "If a major power outage occurs, it is certain that this POKéMON has eaten electricity at a power plant."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "Electricity runs across the surface of its body. In darkness, its en tire body glows a whitish-blue."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "Its body constant ly discharges electricity. Get ting close to it will make your hair stand on end."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "When two ELECTABUZZ touch, they control the electric currents to communicate their feelings."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "When a storm arrives, gangs of this POKéMON compete with each other to scale heights that are likely to be stricken by lightning bolts. Some towns use ELECTABUZZ in place of lightning rods."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "When a storm approaches, it competes with others to scale heights that are likely to be stricken by lightning. Some towns use ELECTABUZZ in place of lightning rods."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It loves to feed on strong electricity. It occasionally appears around large power plants and so on."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Normally found near power plants, they can wander away and cause major blackouts in cities."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl"
+            ],
+            "entry": "Half of all blackouts occur when this Pokémon appears at power plants and eats electricity."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It windmills its arms to slightly boost its punches. Foes have been known to escape in the meantime."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "Electricity runs across the surface of its body. In darkness, its entire body glows a whitish-blue."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "Its body constantly discharges electricity. Getting close to it will make your hair stand on end."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Research is progressing on storing lightning in Electabuzz so this energy can be used at any time."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Electricity runs across the surface of its body. In darkness, its entire body glows a whitish blue."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It loves to feed on strong electricity. It occasionally appears around large power plants and so on."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "When a storm arrives, gangs of this Pokémon compete with each other to scale heights that are likely to be stricken by lightning bolts. Some towns use Electabuzz in place of lightning rods."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Half of all sudden blackouts are caused by Electabuzz gathering at electric power plants and gobbling up electricity."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Electricity leaks from it in amounts far greater than the amount of electricity it eats."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Electricity permeates its body. It swings its arms round and round to charge up electricity before unleashing a punch."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "While it’s often blamed for power outages, the truth is the cause of outages is more often an error on the part of the electric company."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "If a major power outage occurs, it is certain that this Pokémon has eaten electricity at a power plant."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "With the coming of a storm, many of these Pokémon will gather under tall trees and sit there waiting for lightning to strike."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Feeds on electrical energy. During sudden showers beneath looming thunderclouds, one can observe Electabuzz scaling tall trees, where the Pokémon will then wait for lightning to strike."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Electabuzz",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm125.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm125.icon.png"
+            },
+            {
+                "label": "Shiny Electabuzz",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm125.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm125.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 125,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0125_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0125_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Electabuzz sprite"
+            },
+            {
+                "pokedex_number": 125,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0125_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0125_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Electabuzz sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/125_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/125_social.jpg",
+                "alt": "Electabuzz"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/125_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/125_social_dark.jpg",
+                "alt": "Electabuzz"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/125_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/125_social_map.jpg",
+                "alt": "Electabuzz"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/125_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/125_social_map_dark.jpg",
+                "alt": "Electabuzz"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 125,
+            "name": "Electabuzz",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm125.cSPRING_2023_INSTINCT.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm125.cSPRING_2023_INSTINCT.icon.png",
+            "category": "Spring 2023 Instinct"
+        },
+        {
+            "pokedex_number": 125,
+            "name": "Shiny Electabuzz",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm125.cSPRING_2023_INSTINCT.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm125.cSPRING_2023_INSTINCT.s.icon.png",
+            "category": "Spring 2023 Instinct"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Electabuzz’s strengths and weaknesses?",
+            "answer": "As a Electric-type Pokémon, Electabuzz is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Electabuzz in Pokémon GO?",
+            "answer": "The best moves for Electabuzz in Pokémon GO are Thunder Shock and Thunderbolt. This moveset has a DPS (Damage Per Second) of 10.683 and a TDO (Total Damage Output) of 153.331."
+        },
+        {
+            "question": "How does Electabuzz perform in Raids?",
+            "answer": "Electabuzz's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Electabuzz rank as a Electric-type attacker?",
+            "answer": "Electabuzz is an F-Tier Electric-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Electabuzz?",
+            "answer": "The following Mega Pokémon boost Electabuzz: Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Electabuzz’s maximum CP at Level 40 and Level 50?",
+            "answer": "Electabuzz’s maximum CP at Level 40 is 2334 CP and 2639 CP at Level 50."
+        },
+        {
+            "question": "Can Electabuzz be shiny in Pokémon GO?",
+            "answer": "Electabuzz can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Electabuzz Dynamax in Pokémon GO?",
+            "answer": "Electabuzz cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

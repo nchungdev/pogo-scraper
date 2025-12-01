@@ -1,0 +1,667 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1123,
+        "attack": 114,
+        "defense": 85,
+        "stamina": 137,
+        "buddy_distance": 3,
+        "released": false,
+        "shiny_released": false,
+        "title": "Chewtle",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/833.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Surf",
+            "dps": 5.32,
+            "tdo": 37.66,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Surf",
+                "charged_url": "https://db.pokemongohub.net/move/284",
+                "dps": 5.32,
+                "tdo": 37.7,
+                "score": 3.93
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 4.99,
+                "tdo": 35.4,
+                "score": 3.69
+            },
+            {
+                "rank": 3,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Surf",
+                "charged_url": "https://db.pokemongohub.net/move/284",
+                "dps": 4.92,
+                "tdo": 34.8,
+                "score": 3.63
+            },
+            {
+                "rank": 4,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 4.81,
+                "tdo": 34.1,
+                "score": 3.56
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            },
+            {
+                "name": "Surf",
+                "type": "Water",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.2s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/284"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Chewtle's has 1123 max CP (at Level 50). A Chewtle obtained from Raids can be encountered from 522 CP to 567 CP, or if weather boosted, in the 653 CP to 709 CP range. In Field and Special Research, Chewtle can be found in the 392 CP to 425 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1123",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "392 - 425",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "522 - 567",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "522 - 567",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "653 - 709",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "653 CP - 709 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 44,
+        "3": 74,
+        "4": 104,
+        "5": 133,
+        "6": 163,
+        "7": 193,
+        "8": 223,
+        "9": 253,
+        "10": 283,
+        "11": 312,
+        "12": 340,
+        "13": 369,
+        "14": 397,
+        "15": 425,
+        "16": 454,
+        "17": 482,
+        "18": 510,
+        "19": 539,
+        "20": 567,
+        "21": 595,
+        "22": 624,
+        "23": 652,
+        "24": 681,
+        "25": 709,
+        "26": 737,
+        "27": 766,
+        "28": 794,
+        "29": 823,
+        "30": 851,
+        "31": 865,
+        "32": 879,
+        "33": 894,
+        "34": 908,
+        "35": 922,
+        "36": 936,
+        "37": 950,
+        "38": 964,
+        "39": 979,
+        "40": 993,
+        "41": 1005,
+        "42": 1018,
+        "43": 1031,
+        "44": 1044,
+        "45": 1057,
+        "46": 1070,
+        "47": 1083,
+        "48": 1096,
+        "49": 1109,
+        "50": 1123
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Chewtle",
+                    "href": "/pokemon/833",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/833.webp"
+                },
+                "to": {
+                    "name": "Drednaw",
+                    "href": "/pokemon/834",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/834.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Chewtle",
+                "href": "/pokemon/833",
+                "img": "https://db.pokemongohub.net/images/official/medium/833.webp"
+            },
+            {
+                "name": "Drednaw",
+                "href": "/pokemon/834",
+                "img": "https://db.pokemongohub.net/images/official/medium/834.webp"
+            },
+            {
+                "name": "Gigantamax Drednaw",
+                "href": "/pokemon/834-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/834_gmax.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Chewtle in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Chewtle",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Chewtle's Water-type moves, Candy, and Candy XL from catching Chewtle.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 833,
+            "height_m": 0.3,
+            "weight_kg": 8.5,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Chewtle's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Apparently the itch of its teething impels it to snap its jaws at anything in front of it."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 833,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0833_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0833_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Chewtle sprite"
+            },
+            {
+                "pokedex_number": 833,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0833_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0833_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Chewtle sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/833_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/833_social.jpg",
+                "alt": "Chewtle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/833_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/833_social_dark.jpg",
+                "alt": "Chewtle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/833_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/833_social_map.jpg",
+                "alt": "Chewtle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/833_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/833_social_map_dark.jpg",
+                "alt": "Chewtle"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Chewtle’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Chewtle is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Chewtle in Pokémon GO?",
+            "answer": "The best moves for Chewtle in Pokémon GO are Water Gun and Surf. This moveset has a DPS (Damage Per Second) of 5.316 and a TDO (Total Damage Output) of 37.664."
+        },
+        {
+            "question": "How does Chewtle perform in Raids?",
+            "answer": "Chewtle's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Chewtle rank as a Water-type attacker?",
+            "answer": "Chewtle's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Chewtle?",
+            "answer": "The following Mega Pokémon boost Chewtle: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Chewtle’s maximum CP at Level 40 and Level 50?",
+            "answer": "Chewtle’s maximum CP at Level 40 is 993 CP and 1123 CP at Level 50."
+        },
+        {
+            "question": "Can Chewtle be shiny in Pokémon GO?",
+            "answer": "Chewtle cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Chewtle Dynamax in Pokémon GO?",
+            "answer": "Chewtle cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

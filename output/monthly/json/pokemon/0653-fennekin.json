@@ -1,0 +1,778 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1162,
+        "attack": 116,
+        "defense": 102,
+        "stamina": 120,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Fennekin",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/653.webp",
+        "types": [
+            "Fire"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Scratch",
+            "charged": "Flamethrower",
+            "dps": 5.09,
+            "tdo": 37.47,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 5.09,
+                "tdo": 37.5,
+                "score": 3.8
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 4.97,
+                "tdo": 36.6,
+                "score": 3.71
+            },
+            {
+                "rank": 3,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 4.94,
+                "tdo": 36.4,
+                "score": 3.69
+            },
+            {
+                "rank": 4,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 4.89,
+                "tdo": 36.0,
+                "score": 3.65
+            },
+            {
+                "rank": 5,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 4.73,
+                "tdo": 34.8,
+                "score": 3.53
+            },
+            {
+                "rank": 6,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 4.65,
+                "tdo": 34.2,
+                "score": 3.47
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            },
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Psyshock",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/60"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Fennekin's has 1162 max CP (at Level 50). A Fennekin obtained from Raids can be encountered from 542 CP to 587 CP, or if weather boosted, in the 678 CP to 734 CP range. In Field and Special Research, Fennekin can be found in the 406 CP to 440 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1162",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "406 - 440",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "542 - 587",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "542 - 587",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "678 - 734",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "678 CP - 734 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 45,
+        "3": 76,
+        "4": 107,
+        "5": 138,
+        "6": 169,
+        "7": 200,
+        "8": 231,
+        "9": 262,
+        "10": 293,
+        "11": 323,
+        "12": 352,
+        "13": 381,
+        "14": 411,
+        "15": 440,
+        "16": 470,
+        "17": 499,
+        "18": 528,
+        "19": 558,
+        "20": 587,
+        "21": 616,
+        "22": 646,
+        "23": 675,
+        "24": 705,
+        "25": 734,
+        "26": 763,
+        "27": 793,
+        "28": 822,
+        "29": 852,
+        "30": 881,
+        "31": 896,
+        "32": 910,
+        "33": 925,
+        "34": 940,
+        "35": 954,
+        "36": 969,
+        "37": 984,
+        "38": 998,
+        "39": 1013,
+        "40": 1028,
+        "41": 1041,
+        "42": 1054,
+        "43": 1067,
+        "44": 1080,
+        "45": 1094,
+        "46": 1107,
+        "47": 1121,
+        "48": 1135,
+        "49": 1148,
+        "50": 1162
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Fennekin",
+                    "href": "/pokemon/653",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/653.webp"
+                },
+                "to": {
+                    "name": "Braixen",
+                    "href": "/pokemon/654",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/654.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Braixen",
+                    "href": "/pokemon/654",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/654.webp"
+                },
+                "to": {
+                    "name": "Delphox",
+                    "href": "/pokemon/655",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/655.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Fennekin",
+                "href": "/pokemon/653",
+                "img": "https://db.pokemongohub.net/images/official/medium/653.webp"
+            },
+            {
+                "name": "Braixen",
+                "href": "/pokemon/654",
+                "img": "https://db.pokemongohub.net/images/official/medium/654.webp"
+            },
+            {
+                "name": "Delphox",
+                "href": "/pokemon/655",
+                "img": "https://db.pokemongohub.net/images/official/medium/655.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Fennekin in the meta PvE Analysis What does the fox say? 🎵🎶 “Don’t use me in PvE.” 😛 ⚔️ Raids Fennekin sang , “And I set fire to the raid,” and then it woke up from its sweet dream . Hush! Go back to sleep, Fennekin. Leave the raids to the adults. 😄 🛡️ Gyms A Fennekin walked into a Gym and soon limped out of the same Gym. 😶 PvP Analysis 🧸 Little Cup Fennekin has potential because of workable stats , but its moves don’t back it up . 😐 🔵 Great League Nope. 🟡 Ultra League Nope (x2). 🟣 Master League Nope (x3).",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Fennekin",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Fennekin's Fire-type moves, Candy, and Candy XL from catching Fennekin.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 653,
+            "height_m": 0.4,
+            "weight_kg": 9.4,
+            "region": "Generation 6",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Fennekin's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Fennekin",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm653.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm653.icon.png"
+            },
+            {
+                "label": "Shiny Fennekin",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm653.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm653.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 653,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0653_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0653_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Fennekin sprite"
+            },
+            {
+                "pokedex_number": 653,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0653_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0653_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Fennekin sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/653_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/653_social.jpg",
+                "alt": "Fennekin"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/653_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/653_social_dark.jpg",
+                "alt": "Fennekin"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/653_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/653_social_map.jpg",
+                "alt": "Fennekin"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/653_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/653_social_map_dark.jpg",
+                "alt": "Fennekin"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Fennekin’s strengths and weaknesses?",
+            "answer": "As a Fire-type Pokémon, Fennekin is weak to Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Fennekin in Pokémon GO?",
+            "answer": "The best moves for Fennekin in Pokémon GO are Scratch and Flamethrower. This moveset has a DPS (Damage Per Second) of 5.09 and a TDO (Total Damage Output) of 37.474."
+        },
+        {
+            "question": "How does Fennekin perform in Raids?",
+            "answer": "Fennekin's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Fennekin rank as a Fire-type attacker?",
+            "answer": "Fennekin's performance as a Fire-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Fennekin?",
+            "answer": "The following Mega Pokémon boost Fennekin: Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Fennekin’s maximum CP at Level 40 and Level 50?",
+            "answer": "Fennekin’s maximum CP at Level 40 is 1028 CP and 1162 CP at Level 50."
+        },
+        {
+            "question": "Can Fennekin be shiny in Pokémon GO?",
+            "answer": "Fennekin can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Fennekin Dynamax in Pokémon GO?",
+            "answer": "Fennekin cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

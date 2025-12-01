@@ -1,0 +1,977 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3773,
+        "attack": 243,
+        "defense": 158,
+        "stamina": 233,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Conkeldurr",
+        "forms": [
+            {
+                "name": "Conkeldurr",
+                "href": "/pokemon/534",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/534.webp"
+            },
+            {
+                "name": "Shadow Conkeldurr",
+                "href": "/pokemon/534-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/534.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/534.webp",
+        "types": [
+            "Fighting"
+        ],
+        "weather_boost": [
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Counter",
+            "charged": "Dynamic Punch",
+            "dps": 14.29,
+            "tdo": 285.85,
+            "boosted_weather": [
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Dynamic Punch",
+                "charged_url": "https://db.pokemongohub.net/move/246",
+                "dps": 14.29,
+                "tdo": 285.8,
+                "score": 12.71
+            },
+            {
+                "rank": 2,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Focus Blast",
+                "charged_url": "https://db.pokemongohub.net/move/247",
+                "dps": 13.52,
+                "tdo": 270.4,
+                "score": 12.03
+            },
+            {
+                "rank": 3,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Dynamic Punch",
+                "charged_url": "https://db.pokemongohub.net/move/246",
+                "dps": 13.34,
+                "tdo": 266.8,
+                "score": 11.87
+            },
+            {
+                "rank": 4,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Brutal Swing *",
+                "charged_url": "https://db.pokemongohub.net/move/367",
+                "dps": 13.25,
+                "tdo": 265.0,
+                "score": 11.79
+            },
+            {
+                "rank": 5,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Brutal Swing *",
+                "charged_url": "https://db.pokemongohub.net/move/367",
+                "dps": 12.4,
+                "tdo": 248.0,
+                "score": 11.02
+            },
+            {
+                "rank": 6,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Focus Blast",
+                "charged_url": "https://db.pokemongohub.net/move/247",
+                "dps": 12.39,
+                "tdo": 247.8,
+                "score": 11.02
+            },
+            {
+                "rank": 7,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Stone Edge",
+                "charged_url": "https://db.pokemongohub.net/move/32",
+                "dps": 11.94,
+                "tdo": 238.8,
+                "score": 10.62
+            },
+            {
+                "rank": 8,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Stone Edge",
+                "charged_url": "https://db.pokemongohub.net/move/32",
+                "dps": 10.73,
+                "tdo": 214.6,
+                "score": 9.55
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Poison Jab",
+                "type": "Poison",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.4s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/224"
+            },
+            {
+                "name": "Counter",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/243"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Stone Edge",
+                "type": "Rock",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "0.9s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/32"
+            },
+            {
+                "name": "Dynamic Punch",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.0s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/246"
+            },
+            {
+                "name": "Focus Blast",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "3.0s - 3.5s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/247"
+            },
+            {
+                "name": "Brutal Swing *",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/367"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Conkeldurr's has 3773 max CP (at Level 50). A Conkeldurr obtained from Raids can be encountered from 1824 CP to 1907 CP, or if weather boosted, in the 2280 CP to 2384 CP range. In Field and Special Research, Conkeldurr can be found in the 1368 CP to 1430 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3773",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1368 - 1430",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1824 - 1907",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1824 - 1907",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2280 - 2384",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2280 CP - 2384 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 47,
+        "2": 147,
+        "3": 248,
+        "4": 349,
+        "5": 450,
+        "6": 550,
+        "7": 651,
+        "8": 752,
+        "9": 853,
+        "10": 953,
+        "11": 1049,
+        "12": 1144,
+        "13": 1239,
+        "14": 1335,
+        "15": 1430,
+        "16": 1525,
+        "17": 1621,
+        "18": 1716,
+        "19": 1811,
+        "20": 1907,
+        "21": 2002,
+        "22": 2097,
+        "23": 2193,
+        "24": 2288,
+        "25": 2384,
+        "26": 2479,
+        "27": 2574,
+        "28": 2670,
+        "29": 2765,
+        "30": 2861,
+        "31": 2908,
+        "32": 2956,
+        "33": 3004,
+        "34": 3051,
+        "35": 3099,
+        "36": 3147,
+        "37": 3194,
+        "38": 3242,
+        "39": 3290,
+        "40": 3337,
+        "41": 3380,
+        "42": 3422,
+        "43": 3465,
+        "44": 3508,
+        "45": 3552,
+        "46": 3595,
+        "47": 3639,
+        "48": 3684,
+        "49": 3728,
+        "50": 3773
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Timburr",
+                    "href": "/pokemon/532",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/532.webp"
+                },
+                "to": {
+                    "name": "Gurdurr",
+                    "href": "/pokemon/533",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/533.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Gurdurr",
+                    "href": "/pokemon/533",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/533.webp"
+                },
+                "to": {
+                    "name": "Conkeldurr",
+                    "href": "/pokemon/534",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/534.webp"
+                },
+                "requirements": [
+                    "200 Candy",
+                    "0 Candy if traded"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Timburr",
+                "href": "/pokemon/532",
+                "img": "https://db.pokemongohub.net/images/official/medium/532.webp"
+            },
+            {
+                "name": "Gurdurr",
+                "href": "/pokemon/533",
+                "img": "https://db.pokemongohub.net/images/official/medium/533.webp"
+            },
+            {
+                "name": "Conkeldurr",
+                "href": "/pokemon/534",
+                "img": "https://db.pokemongohub.net/images/official/medium/534.webp"
+            },
+            {
+                "name": "Shadow Timburr",
+                "href": "/pokemon/532-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Gurdurr",
+                "href": "/pokemon/533-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Conkeldurr",
+                "href": "/pokemon/534-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Conkeldurr in the meta PvE Analysis Minus the obvious power levels of Mega Evolutions and Shadow Pokémon , Conkeldurr is one of the best Fighting-type Pokémon to use in PvE battles . 🥊 ⚔️ Raids Mega Lucario , Shadow Machamp , Terrakion , and Conkeldurr (including Shadow): A Fighting-type group that goes bonkers in dealing damage . 💥 🛡️ Gyms With low DEF and high HP , Conkeldurr is just an average Gym defender . ☹️ PvP Analysis 🔵 Great League Without a cheap Charged attack and stats not suited for the Great League, Conkeldurr fails in this platform. 😢 🟡 Ultra League Conkeldurr is a bulkier and stronger Machamp , but with inferior moves , making Machamp the better choice by all means. 💪 And let’s not forget the nerf to Counter. 🫢 🟣 Master League Conkeldurr is a volatile Pokémon in the Master League. It has fallen from grace since the Counter nerf , but still takes the fight to Steel Pokémon , including Dialga as its Origin Forme . 💫 It beats what it’s supposed to and doesn’t perform beyond that. 😇",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Conkeldurr",
+        "type": "Fighting",
+        "intro_text": "A list of Mega Pokémon that boost Conkeldurr's Fighting-type moves, Candy, and Candy XL from catching Conkeldurr.",
+        "mega_list": [
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lucario",
+                "pokemon_id": 448,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/448-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 534,
+            "height_m": 1.4,
+            "weight_kg": 87,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 10,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.69 m",
+            "xs": "0.7 m",
+            "m": "1.4 m",
+            "xl": "2.1 m",
+            "xxl": "2.17 m",
+            "description": "Conkeldurr's height ranges from 0.69 m to 2.17 m, with the average being 1.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.686,
+                "upper_m": 0.7,
+                "lower_ft": "2′03″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.7,
+                "upper_m": 1.4,
+                "lower_ft": "2′04″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.05,
+                "upper_m": 1.75,
+                "lower_ft": "3′05″",
+                "upper_ft": "5′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.75,
+                "upper_m": 2.1,
+                "lower_ft": "5′09″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.1,
+                "upper_m": 2.17,
+                "lower_ft": "6′11″",
+                "upper_ft": "7′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "They use concrete pillars as walking canes. They know moves that enable them to swing the pillars freely in battle."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Rather than rely on force, they master moves that utilize the centrifugal force of spinning concrete."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It is thought that Conkeldurr taught humans how to make concrete more than 2,000 years ago."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Rather than rely on force, they master moves that utilize the centrifugal force of spinning concrete."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Concrete mixed by Conkeldurr is much more durable than normal concrete, even when the compositions of the two materials are the same."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "When going all out, this Pokémon throws aside its concrete pillars and leaps at opponents to pummel them with its fists."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Conkeldurr",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm534.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm534.icon.png"
+            },
+            {
+                "label": "Shiny Conkeldurr",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm534.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm534.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 534,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0534_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0534_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Conkeldurr sprite"
+            },
+            {
+                "pokedex_number": 534,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0534_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0534_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Conkeldurr sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/534_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/534_social.jpg",
+                "alt": "Conkeldurr"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/534_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/534_social_dark.jpg",
+                "alt": "Conkeldurr"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/534_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/534_social_map.jpg",
+                "alt": "Conkeldurr"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/534_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/534_social_map_dark.jpg",
+                "alt": "Conkeldurr"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Conkeldurr’s strengths and weaknesses?",
+            "answer": "As a Fighting-type Pokémon, Conkeldurr is weak to Fairy, Flying, and Psychic-type moves."
+        },
+        {
+            "question": "What are the best moves for Conkeldurr in Pokémon GO?",
+            "answer": "The best moves for Conkeldurr in Pokémon GO are Counter and Dynamic Punch. This moveset has a DPS (Damage Per Second) of 14.294 and a TDO (Total Damage Output) of 285.846."
+        },
+        {
+            "question": "How does Conkeldurr perform in Raids?",
+            "answer": "Conkeldurr can be useful in specific Raid matchups but has limited effectiveness. Ranks #174 as a Raid attacker."
+        },
+        {
+            "question": "How does Conkeldurr rank as a Fighting-type attacker?",
+            "answer": "Conkeldurr is an A+ Tier Fighting-type attacker, ranking at number #20 and performing very well in most scenarios and a great choice for trainers."
+        },
+        {
+            "question": "What Mega Pokémon boost Conkeldurr?",
+            "answer": "The following Mega Pokémon boost Conkeldurr: Mega Heracross, Mega Blaziken, Mega Medicham, Mega Lopunny, Mega Lucario, and Mega Gallade."
+        },
+        {
+            "question": "What is Conkeldurr’s maximum CP at Level 40 and Level 50?",
+            "answer": "Conkeldurr’s maximum CP at Level 40 is 3337 CP and 3773 CP at Level 50."
+        },
+        {
+            "question": "Can Conkeldurr be shiny in Pokémon GO?",
+            "answer": "Conkeldurr can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Conkeldurr Dynamax in Pokémon GO?",
+            "answer": "Conkeldurr cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

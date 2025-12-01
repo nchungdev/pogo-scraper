@@ -1,0 +1,925 @@
+{
+    "overview_and_stats": {
+        "max_cp": 4329,
+        "attack": 254,
+        "defense": 236,
+        "stamina": 192,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": false,
+        "title": "Zacian",
+        "forms": [
+            {
+                "name": "Crowned Sword Zacian",
+                "href": "/pokemon/888-Crowned_Sword",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/888_f2.webp"
+            },
+            {
+                "name": "Zacian (Hero of Many Battles)",
+                "href": "/pokemon/888-Hero",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/888.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/888.webp",
+        "types": [
+            "Fairy",
+            "Steel"
+        ],
+        "weather_boost": [
+            "cloudy",
+            "snow"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Metal Claw",
+            "charged": "Play Rough",
+            "dps": 14.43,
+            "tdo": 349.54,
+            "boosted_weather": [
+                "snow",
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Metal Claw",
+                "fast_url": "https://db.pokemongohub.net/move/228",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 14.43,
+                "tdo": 349.5,
+                "score": 13.09
+            },
+            {
+                "rank": 2,
+                "fast": "Metal Claw",
+                "fast_url": "https://db.pokemongohub.net/move/228",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 13.9,
+                "tdo": 336.6,
+                "score": 12.61
+            },
+            {
+                "rank": 3,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 13.74,
+                "tdo": 332.7,
+                "score": 12.46
+            },
+            {
+                "rank": 4,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 13.42,
+                "tdo": 325.1,
+                "score": 12.17
+            },
+            {
+                "rank": 5,
+                "fast": "Fire Fang",
+                "fast_url": "https://db.pokemongohub.net/move/240",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 13.31,
+                "tdo": 322.3,
+                "score": 12.07
+            },
+            {
+                "rank": 6,
+                "fast": "Metal Claw",
+                "fast_url": "https://db.pokemongohub.net/move/228",
+                "charged": "Iron Head",
+                "charged_url": "https://db.pokemongohub.net/move/74",
+                "dps": 13.29,
+                "tdo": 321.8,
+                "score": 12.05
+            },
+            {
+                "rank": 7,
+                "fast": "Snarl",
+                "fast_url": "https://db.pokemongohub.net/move/278",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 13.07,
+                "tdo": 316.6,
+                "score": 11.86
+            },
+            {
+                "rank": 8,
+                "fast": "Fire Fang",
+                "fast_url": "https://db.pokemongohub.net/move/240",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 12.73,
+                "tdo": 308.3,
+                "score": 11.54
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            },
+            {
+                "name": "Metal Claw",
+                "type": "Steel",
+                "stats": {
+                    "damage": 6,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 5,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.4s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/228"
+            },
+            {
+                "name": "Fire Fang",
+                "type": "Fire",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.7s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/240"
+            },
+            {
+                "name": "Snarl",
+                "type": "Dark",
+                "stats": {
+                    "damage": 11,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/278"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Iron Head",
+                "type": "Steel",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.4s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/74"
+            },
+            {
+                "name": "Play Rough",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/88"
+            },
+            {
+                "name": "Close Combat",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.2s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/245"
+            },
+            {
+                "name": "Wild Charge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/251"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Zacian's has 4329 max CP (at Level 50). A Zacian obtained from Raids can be encountered from 2100 CP to 2188 CP, or if weather boosted, in the 2625 CP to 2735 CP range. In Field and Special Research, Zacian can be found in the 1575 CP to 1641 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "4329",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1575 - 1641",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "2100 - 2188",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2100 - 2188",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2625 - 2735",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2625 CP - 2735 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 54,
+        "2": 169,
+        "3": 285,
+        "4": 400,
+        "5": 516,
+        "6": 632,
+        "7": 747,
+        "8": 863,
+        "9": 978,
+        "10": 1094,
+        "11": 1203,
+        "12": 1313,
+        "13": 1422,
+        "14": 1532,
+        "15": 1641,
+        "16": 1750,
+        "17": 1860,
+        "18": 1969,
+        "19": 2078,
+        "20": 2188,
+        "21": 2297,
+        "22": 2407,
+        "23": 2516,
+        "24": 2626,
+        "25": 2735,
+        "26": 2844,
+        "27": 2954,
+        "28": 3063,
+        "29": 3173,
+        "30": 3282,
+        "31": 3337,
+        "32": 3392,
+        "33": 3446,
+        "34": 3501,
+        "35": 3556,
+        "36": 3610,
+        "37": 3665,
+        "38": 3720,
+        "39": 3774,
+        "40": 3829,
+        "41": 3878,
+        "42": 3927,
+        "43": 3976,
+        "44": 4025,
+        "45": 4075,
+        "46": 4125,
+        "47": 4176,
+        "48": 4227,
+        "49": 4278,
+        "50": 4329
+    },
+    "meta_analysis": "Zacian in the meta PvE Analysis Zacian is a Fairy-type legendary, one of the two cover legendaries from Pokémon Sword/Shield . Blessed with a versatile moveset, Zacian has utility in both the PvE and PvP forms of the game. ⚔️ Raids – Although Zacian does not currently have a Fairy-type fast move, it is still the #4 ranked Fairy-type raid attacker in the game, making it a solid investment. While Fairy-types don't have the strongest utility on the PvE side of the game, it is useful against the many Dragon-type legendaries and can form part of your Fairy raid team. 🛡️ Gyms – Zacian is unable to participate in Gym defense . PvP Analysis Preferred Moveset – Quick Attack , Close Combat / Wild Charge & Play Rough 🔵 Great League – Zacian's CP is too high to participate in the Great League , even at Research Levels. 🟡 Ultra League – Zacian's performance is overall poor in the Ultra League . Although it can draw out shields from its opponents with access to the hard-hitting moves Wild Charge and Close Combat , in all even shield scenarios, it has a poor win-loss record. Its bulk is also far worse than Fairy contemporaries such as Clefable and Galarian Weezing , which are much safer investments in the Ultra League . 🟣 Master League – The Master League is where Zacian begins to shine. It has excellent play as a swiss army knife that can hit most of the meta for at least neutral or super effective damage. A Fairy that can hit both Dragon and Steel types for super effective damage is highly valuable and gives Zacian a lot of flexibility in terms of game style. It can be effective particularly as a safe swap, allowing players to gain either shield or switch advantage. Definitely a worthwhile investment for the Master League ! Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Zacian",
+        "type": "Fairy",
+        "intro_text": "A list of Mega Pokémon that boost Zacian's Fairy and Steel-type moves, Candy, and Candy XL from catching Zacian.",
+        "mega_list": [
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Mawile",
+                "pokemon_id": 303,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/303-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Altaria",
+                "pokemon_id": 334,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/334-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 888,
+            "height_m": 2.8,
+            "weight_kg": 110,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "1.37 m",
+            "xs": "1.4 m",
+            "m": "2.8 m",
+            "xl": "4.2 m",
+            "xxl": "4.34 m",
+            "description": "Zacian's height ranges from 1.37 m to 4.34 m, with the average being 2.8 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 1.372,
+                "upper_m": 1.4,
+                "lower_ft": "4′06″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.4,
+                "upper_m": 2.8,
+                "lower_ft": "4′07″",
+                "upper_ft": "9′02″"
+            },
+            {
+                "size": "M",
+                "lower_m": 2.1,
+                "upper_m": 3.5,
+                "lower_ft": "6′11″",
+                "upper_ft": "11′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 3.5,
+                "upper_m": 4.2,
+                "lower_ft": "11′06″",
+                "upper_ft": "13′09″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 4.2,
+                "upper_m": 4.34,
+                "lower_ft": "13′09″",
+                "upper_ft": "14′03″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This Pokémon has slumbered for many years. Some say it’s Zamazenta’s elder sister—others say the two Pokémon are rivals."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Zacian",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm888.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm888.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 888,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0888_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0888_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Zacian sprite"
+            },
+            {
+                "pokedex_number": 888,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0888_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0888_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Zacian sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/888_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/888_social.jpg",
+                "alt": "Zacian"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/888_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/888_social_dark.jpg",
+                "alt": "Zacian"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/888_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/888_social_map.jpg",
+                "alt": "Zacian"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/888_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/888_social_map_dark.jpg",
+                "alt": "Zacian"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Zacian’s strengths and weaknesses?",
+            "answer": "As a Fairy and Steel-type Pokémon, Zacian is weak to Fire and Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Zacian in Pokémon GO?",
+            "answer": "The best moves for Zacian in Pokémon GO are Metal Claw and Play Rough. This moveset has a DPS (Damage Per Second) of 14.434 and a TDO (Total Damage Output) of 349.544."
+        },
+        {
+            "question": "How does Zacian perform in Raids?",
+            "answer": "Zacian's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Zacian rank as a Fairy-type attacker?",
+            "answer": "Zacian's performance as a Fairy-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Zacian?",
+            "answer": "The following Mega Pokémon boost Zacian: Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, Mega Diancie, Mega Steelix, Mega Scizor, Mega Mawile, Mega Aggron, Mega Metagross, and Mega Lucario."
+        },
+        {
+            "question": "What is Zacian’s maximum CP at Level 40 and Level 50?",
+            "answer": "Zacian’s maximum CP at Level 40 is 3829 CP and 4329 CP at Level 50."
+        },
+        {
+            "question": "Can Zacian be shiny in Pokémon GO?",
+            "answer": "Zacian cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Zacian Dynamax in Pokémon GO?",
+            "answer": "Zacian cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

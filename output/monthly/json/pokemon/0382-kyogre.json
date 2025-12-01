@@ -1,0 +1,893 @@
+{
+    "overview_and_stats": {
+        "max_cp": 4652,
+        "attack": 270,
+        "defense": 228,
+        "stamina": 205,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": true,
+        "title": "Kyogre",
+        "forms": [
+            {
+                "name": "Kyogre",
+                "href": "/pokemon/382",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/382.webp"
+            },
+            {
+                "name": "Primal Kyogre",
+                "href": "/pokemon/382-Primal",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/382_f2.webp"
+            },
+            {
+                "name": "Shadow Kyogre",
+                "href": "/pokemon/382-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/382.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/382.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Waterfall",
+            "charged": "Origin Pulse",
+            "dps": 14.96,
+            "tdo": 372.74,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Waterfall",
+                "fast_url": "https://db.pokemongohub.net/move/283",
+                "charged": "Origin Pulse *",
+                "charged_url": "https://db.pokemongohub.net/move/289",
+                "dps": 14.96,
+                "tdo": 372.7,
+                "score": 13.61
+            },
+            {
+                "rank": 2,
+                "fast": "Waterfall",
+                "fast_url": "https://db.pokemongohub.net/move/283",
+                "charged": "Surf",
+                "charged_url": "https://db.pokemongohub.net/move/284",
+                "dps": 14.31,
+                "tdo": 356.6,
+                "score": 13.02
+            },
+            {
+                "rank": 3,
+                "fast": "Waterfall",
+                "fast_url": "https://db.pokemongohub.net/move/283",
+                "charged": "Hydro Pump",
+                "charged_url": "https://db.pokemongohub.net/move/107",
+                "dps": 13.93,
+                "tdo": 347.1,
+                "score": 12.66
+            },
+            {
+                "rank": 4,
+                "fast": "Waterfall",
+                "fast_url": "https://db.pokemongohub.net/move/283",
+                "charged": "Blizzard",
+                "charged_url": "https://db.pokemongohub.net/move/40",
+                "dps": 13.18,
+                "tdo": 328.4,
+                "score": 11.99
+            },
+            {
+                "rank": 5,
+                "fast": "Waterfall",
+                "fast_url": "https://db.pokemongohub.net/move/283",
+                "charged": "Thunder",
+                "charged_url": "https://db.pokemongohub.net/move/78",
+                "dps": 12.46,
+                "tdo": 310.5,
+                "score": 11.33
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Waterfall",
+                "type": "Water",
+                "stats": {
+                    "damage": 13,
+                    "energy": 7,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/283"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Blizzard",
+                "type": "Ice",
+                "stats": {
+                    "damage": 130,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 130,
+                    "energy": 100,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 140,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/40"
+            },
+            {
+                "name": "Thunder",
+                "type": "Electric",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/78"
+            },
+            {
+                "name": "Hydro Pump",
+                "type": "Water",
+                "stats": {
+                    "damage": 135,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 135,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.1s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/107"
+            },
+            {
+                "name": "Surf",
+                "type": "Water",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.2s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/284"
+            },
+            {
+                "name": "Origin Pulse *",
+                "type": "Water",
+                "stats": {
+                    "damage": 120,
+                    "energy": 100,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 120,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.2s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/289"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Kyogre's has 4652 max CP (at Level 50). A Kyogre obtained from Raids can be encountered from 2260 CP to 2351 CP, or if weather boosted, in the 2825 CP to 2939 CP range. In Field and Special Research, Kyogre can be found in the 1695 CP to 1764 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "4652",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1695 - 1764",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "2260 - 2351",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2260 - 2351",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2825 - 2939",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2825 CP - 2939 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 58,
+        "2": 182,
+        "3": 306,
+        "4": 430,
+        "5": 555,
+        "6": 679,
+        "7": 803,
+        "8": 927,
+        "9": 1052,
+        "10": 1176,
+        "11": 1293,
+        "12": 1411,
+        "13": 1528,
+        "14": 1646,
+        "15": 1764,
+        "16": 1881,
+        "17": 1999,
+        "18": 2116,
+        "19": 2234,
+        "20": 2351,
+        "21": 2469,
+        "22": 2586,
+        "23": 2704,
+        "24": 2822,
+        "25": 2939,
+        "26": 3057,
+        "27": 3175,
+        "28": 3292,
+        "29": 3410,
+        "30": 3527,
+        "31": 3586,
+        "32": 3645,
+        "33": 3704,
+        "34": 3763,
+        "35": 3821,
+        "36": 3880,
+        "37": 3939,
+        "38": 3998,
+        "39": 4056,
+        "40": 4115,
+        "41": 4167,
+        "42": 4220,
+        "43": 4273,
+        "44": 4326,
+        "45": 4380,
+        "46": 4434,
+        "47": 4488,
+        "48": 4542,
+        "49": 4597,
+        "50": 4652
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Kyogre",
+                    "href": "/pokemon/382",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/382.webp"
+                },
+                "to": {
+                    "name": "Primal Kyogre",
+                    "href": "/pokemon/382-Primal",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/382_f2.webp"
+                },
+                "requirements": [
+                    "400 / 80 Primal Energy"
+                ]
+            }
+        ],
+        "details": [
+            "400 / 80 Primal Energy"
+        ],
+        "family": [
+            {
+                "name": "Kyogre",
+                "href": "/pokemon/382",
+                "img": "https://db.pokemongohub.net/images/official/medium/382.webp"
+            },
+            {
+                "name": "Primal Kyogre",
+                "href": "/pokemon/382-Primal",
+                "img": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            },
+            {
+                "name": "Shadow Kyogre",
+                "href": "/pokemon/382-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Kyogre in the meta PvE Analysis Although normal Kyogre is significantly weaker than Shadow Kyogre , and especially Primal Kyogre , it is one of the strongest Water-type attackers, especially if you caught a Kyogre with Origin Pulse , which was available during select events. Waterfall and Origin Pulse are Kyogre's strongest moves, and it is well worth spending an Elite Charged TM to get Origin Pulse . Kyogre's second-best charge move is Surf , but there are better attackers out there: Mega Swampert and Mega Gyarados both perform better than Kyogre with Surf . PvP Analysis Kyogre is a Pokémon you will most likely encounter in the Master League , somewhat less often in the Ultra League . Despite its formidable stats, Kyogre is not a great Pokémon for PvP. We recommend these moves for Kyogre , regardless of which league you plan to fight in: Waterfall , Thunder , and Origin Pulse . Great League – Kyogre is not eligible to participate in the Great League . Ultra League – Kyogre is not good in the Ultra League , regardless of which moveset it has. Master League – Origin Pulse Kyogre is perfectly viable in the Master League , but it can't perform well without Thunder . Thunder is mandatory in order to have decent type coverage, and it allows Kyogre to rank in the top 60 best ML fighters. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Kyogre",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Kyogre's Water-type moves, Candy, and Candy XL from catching Kyogre.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 382,
+            "height_m": 4.5,
+            "weight_kg": 352,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": 100,
+        "size_info": {
+            "xxs": "2.21 m",
+            "xs": "2.25 m",
+            "m": "4.5 m",
+            "xl": "6.75 m",
+            "xxl": "6.98 m",
+            "description": "Kyogre's height ranges from 2.21 m to 6.98 m, with the average being 4.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 2.205,
+                "upper_m": 2.25,
+                "lower_ft": "7′03″",
+                "upper_ft": "7′05″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 2.25,
+                "upper_m": 4.5,
+                "lower_ft": "7′05″",
+                "upper_ft": "14′09″"
+            },
+            {
+                "size": "M",
+                "lower_m": 3.375,
+                "upper_m": 5.625,
+                "lower_ft": "11′01″",
+                "upper_ft": "18′05″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 5.625,
+                "upper_m": 6.75,
+                "lower_ft": "18′05″",
+                "upper_ft": "22′02″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 6.75,
+                "upper_m": 6.975,
+                "lower_ft": "22′02″",
+                "upper_ft": "22′11″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "KYOGRE has the power to create massive rain clouds that cover the entire sky and bring about torrential downpours. This POKéMON saved people who were suffering from droughts."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "KYOGRE is named in mythology as the POKéMON that expanded the sea by covering the land with torrential rains and towering tidal waves. It took to sleep after a cataclysmic battle with GROUDON."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "KYOGRE has appeared in mythology as the creator of the sea. After long years of feuding with GROUDON, it took to sleep at the bottom of the sea."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "This POKéMON is said to have expanded the sea by bringing heavy rains. It has the power to control water."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "This POKéMON is said to have expanded the sea by bringing heavy rains. It has the power to control water."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "A mythical Pokémon said to have swelled the seas with rain and tidal waves. It battled with GROUDON."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "A mythical Pokémon said to have swelled the seas with rain and tidal waves. It battled with Groudon."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Through Primal Reversion and with nature’s full power, it will take back its true form. It can summon storms that cause the sea levels to rise."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Kyogre is said to be the personification of the sea itself. Legends tell of its many clashes against Groudon, as each sought to gain the power of nature."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Kyogre",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm382.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm382.icon.png"
+            },
+            {
+                "label": "Shiny Kyogre",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm382.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm382.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 382,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0382_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0382_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Kyogre sprite"
+            },
+            {
+                "pokedex_number": 382,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0382_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0382_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Kyogre sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/382_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/382_social.jpg",
+                "alt": "Kyogre"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/382_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/382_social_dark.jpg",
+                "alt": "Kyogre"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/382_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/382_social_map.jpg",
+                "alt": "Kyogre"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/382_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/382_social_map_dark.jpg",
+                "alt": "Kyogre"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Kyogre’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Kyogre is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Kyogre in Pokémon GO?",
+            "answer": "The best moves for Kyogre in Pokémon GO are Waterfall and Origin Pulse. This moveset has a DPS (Damage Per Second) of 14.959 and a TDO (Total Damage Output) of 372.737."
+        },
+        {
+            "question": "How does Kyogre perform in Raids?",
+            "answer": "Kyogre has niche use in Raid, but is outclassed by other attackers. Ranks #141 as a Raid attacker."
+        },
+        {
+            "question": "How does Kyogre rank as a Water-type attacker?",
+            "answer": "Kyogre is an S-Tier Water-type attacker, ranking at number #7 and providing exceptional value due to its strong stats and effective moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Kyogre?",
+            "answer": "The following Mega Pokémon boost Kyogre: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Kyogre’s maximum CP at Level 40 and Level 50?",
+            "answer": "Kyogre’s maximum CP at Level 40 is 4115 CP and 4652 CP at Level 50."
+        },
+        {
+            "question": "Can Kyogre be shiny in Pokémon GO?",
+            "answer": "Kyogre can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Kyogre Dynamax in Pokémon GO?",
+            "answer": "Kyogre cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

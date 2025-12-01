@@ -1,0 +1,826 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1156,
+        "attack": 110,
+        "defense": 98,
+        "stamina": 137,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Joltik",
+        "forms": [
+            {
+                "name": "Joltik",
+                "href": "/pokemon/595",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/595.webp"
+            },
+            {
+                "name": "Shadow Joltik",
+                "href": "/pokemon/595-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/595.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/595.webp",
+        "types": [
+            "Bug",
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Sucker Punch",
+            "charged": "Discharge",
+            "dps": 5.52,
+            "tdo": 44.17,
+            "boosted_weather": [
+                "fog",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 5.52,
+                "tdo": 44.2,
+                "score": 4.2
+            },
+            {
+                "rank": 2,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 5.34,
+                "tdo": 42.7,
+                "score": 4.07
+            },
+            {
+                "rank": 3,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 5.08,
+                "tdo": 40.7,
+                "score": 3.87
+            },
+            {
+                "rank": 4,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Bug Buzz",
+                "charged_url": "https://db.pokemongohub.net/move/49",
+                "dps": 4.88,
+                "tdo": 39.1,
+                "score": 3.72
+            },
+            {
+                "rank": 5,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Cross Poison",
+                "charged_url": "https://db.pokemongohub.net/move/89",
+                "dps": 4.77,
+                "tdo": 38.2,
+                "score": 3.63
+            },
+            {
+                "rank": 6,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Cross Poison",
+                "charged_url": "https://db.pokemongohub.net/move/89",
+                "dps": 4.21,
+                "tdo": 33.7,
+                "score": 3.2
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Sucker Punch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/203"
+            },
+            {
+                "name": "Charge Beam",
+                "type": "Electric",
+                "stats": {
+                    "damage": 7,
+                    "energy": 14,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 14,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/249"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Discharge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.1s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/35"
+            },
+            {
+                "name": "Bug Buzz",
+                "type": "Bug",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.8s - 2.9s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/49"
+            },
+            {
+                "name": "Cross Poison",
+                "type": "Poison",
+                "stats": {
+                    "damage": 40,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 40,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/89"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Joltik's has 1156 max CP (at Level 50). A Joltik obtained from Raids can be encountered from 539 CP to 584 CP, or if weather boosted, in the 674 CP to 730 CP range. In Field and Special Research, Joltik can be found in the 404 CP to 438 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1156",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "404 - 438",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "539 - 584",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "539 - 584",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "674 - 730",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "674 CP - 730 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 14,
+        "2": 45,
+        "3": 76,
+        "4": 107,
+        "5": 138,
+        "6": 168,
+        "7": 199,
+        "8": 230,
+        "9": 261,
+        "10": 292,
+        "11": 321,
+        "12": 350,
+        "13": 380,
+        "14": 409,
+        "15": 438,
+        "16": 467,
+        "17": 496,
+        "18": 526,
+        "19": 555,
+        "20": 584,
+        "21": 613,
+        "22": 643,
+        "23": 672,
+        "24": 701,
+        "25": 730,
+        "26": 760,
+        "27": 789,
+        "28": 818,
+        "29": 847,
+        "30": 877,
+        "31": 891,
+        "32": 906,
+        "33": 920,
+        "34": 935,
+        "35": 950,
+        "36": 964,
+        "37": 979,
+        "38": 993,
+        "39": 1008,
+        "40": 1023,
+        "41": 1036,
+        "42": 1049,
+        "43": 1062,
+        "44": 1075,
+        "45": 1088,
+        "46": 1102,
+        "47": 1115,
+        "48": 1129,
+        "49": 1143,
+        "50": 1156
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Joltik",
+                    "href": "/pokemon/595",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/595.webp"
+                },
+                "to": {
+                    "name": "Galvantula",
+                    "href": "/pokemon/596",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/596.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Joltik",
+                "href": "/pokemon/595",
+                "img": "https://db.pokemongohub.net/images/official/medium/595.webp"
+            },
+            {
+                "name": "Galvantula",
+                "href": "/pokemon/596",
+                "img": "https://db.pokemongohub.net/images/official/medium/596.webp"
+            },
+            {
+                "name": "Shadow Joltik",
+                "href": "/pokemon/595-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Galvantula",
+                "href": "/pokemon/596-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Joltik in the meta PvE Analysis ⚔️ Raids – Joltik is an itty-bitty under-evolved little fella with a max CP of 1156 . Needless to say, Joltik is not a viable Pokémon for raids . 🔮 Dynamax – N/A PvP Analysis With a maximum CP of 1156 , Joltik is not strong enough for the three open PvP leagues . Even in the 500 CP Little Cup format, Joltik has not seen much success so far. As such, even though certain unevolved Pokémon can do well in PvP , Joltik so far has not been one of them. 🔵 Great League – N/A 🟡 Ultra League – N/A 🟣 Master League – N/A",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Joltik",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Joltik's Bug and Electric-type moves, Candy, and Candy XL from catching Joltik.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 595,
+            "height_m": 0.1,
+            "weight_kg": 0.6,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.05 m",
+            "xs": "0.05 m",
+            "m": "0.1 m",
+            "xl": "0.15 m",
+            "xxl": "0.16 m",
+            "description": "Joltik's height ranges from 0.05 m to 0.16 m, with the average being 0.1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.049,
+                "upper_m": 0.05,
+                "lower_ft": "0′02″",
+                "upper_ft": "0′02″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.05,
+                "upper_m": 0.1,
+                "lower_ft": "0′02″",
+                "upper_ft": "0′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.075,
+                "upper_m": 0.125,
+                "lower_ft": "0′03″",
+                "upper_ft": "0′05″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.125,
+                "upper_m": 0.15,
+                "lower_ft": "0′05″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.15,
+                "upper_m": 0.155,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Joltik that live in cities have learned a technique for sucking electricity from the outlets in houses."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Since it can’t generate its own electricity, it sticks onto large-bodied Pokémon and absorbs static electricity."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Since it can’t generate its own electricity, it sticks onto large-bodied Pokémon and absorbs static electricity."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Joltik can be found clinging to other Pokémon. It’s soaking up static electricity because it can’t produce a charge on its own."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Joltik latch on to other Pokémon and suck out static electricity. They’re often found sticking to Yamper’s hindquarters."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Joltik",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm595.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm595.icon.png"
+            },
+            {
+                "label": "Shiny Joltik",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm595.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm595.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 595,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0595_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0595_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Joltik sprite"
+            },
+            {
+                "pokedex_number": 595,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0595_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0595_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Joltik sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/595_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/595_social.jpg",
+                "alt": "Joltik"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/595_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/595_social_dark.jpg",
+                "alt": "Joltik"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/595_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/595_social_map.jpg",
+                "alt": "Joltik"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/595_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/595_social_map_dark.jpg",
+                "alt": "Joltik"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Joltik’s strengths and weaknesses?",
+            "answer": "As a Bug and Electric-type Pokémon, Joltik is weak to Fire and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Joltik in Pokémon GO?",
+            "answer": "The best moves for Joltik in Pokémon GO are Sucker Punch and Discharge. This moveset has a DPS (Damage Per Second) of 5.517 and a TDO (Total Damage Output) of 44.169."
+        },
+        {
+            "question": "How does Joltik perform in Raids?",
+            "answer": "Joltik's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Joltik rank as a Bug-type attacker?",
+            "answer": "Joltik's performance as a Bug-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Joltik?",
+            "answer": "The following Mega Pokémon boost Joltik: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, Primal Kyogre, Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Joltik’s maximum CP at Level 40 and Level 50?",
+            "answer": "Joltik’s maximum CP at Level 40 is 1023 CP and 1156 CP at Level 50."
+        },
+        {
+            "question": "Can Joltik be shiny in Pokémon GO?",
+            "answer": "Joltik can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Joltik Dynamax in Pokémon GO?",
+            "answer": "Joltik cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

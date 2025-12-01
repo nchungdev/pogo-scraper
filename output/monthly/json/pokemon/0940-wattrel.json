@@ -1,0 +1,731 @@
+{
+    "overview_and_stats": {
+        "max_cp": 933,
+        "attack": 105,
+        "defense": 75,
+        "stamina": 120,
+        "buddy_distance": 1,
+        "released": false,
+        "shiny_released": false,
+        "title": "Wattrel",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/940.webp",
+        "types": [
+            "Electric",
+            "Flying"
+        ],
+        "weather_boost": [
+            "rain",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Thunder Shock",
+            "charged": "Thunderbolt",
+            "dps": 4.31,
+            "tdo": 24.39,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 4.31,
+                "tdo": 24.4,
+                "score": 2.99
+            },
+            {
+                "rank": 2,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 4.25,
+                "tdo": 24.1,
+                "score": 2.95
+            },
+            {
+                "rank": 3,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 3.83,
+                "tdo": 21.7,
+                "score": 2.66
+            },
+            {
+                "rank": 4,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 3.66,
+                "tdo": 20.7,
+                "score": 2.54
+            },
+            {
+                "rank": 5,
+                "fast": "Peck",
+                "fast_url": "https://db.pokemongohub.net/move/211",
+                "charged": "Acrobatics",
+                "charged_url": "https://db.pokemongohub.net/move/364",
+                "dps": 3.66,
+                "tdo": 20.7,
+                "score": 2.54
+            },
+            {
+                "rank": 6,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Acrobatics",
+                "charged_url": "https://db.pokemongohub.net/move/364",
+                "dps": 3.53,
+                "tdo": 20.0,
+                "score": 2.45
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Thunder Shock",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/205"
+            },
+            {
+                "name": "Peck",
+                "type": "Flying",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/211"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            },
+            {
+                "name": "Acrobatics",
+                "type": "Flying",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "0.6s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/364"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Wattrel's has 933 max CP (at Level 50). A Wattrel obtained from Raids can be encountered from 431 CP to 472 CP, or if weather boosted, in the 539 CP to 590 CP range. In Field and Special Research, Wattrel can be found in the 323 CP to 354 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "933",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "323 - 354",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "431 - 472",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "431 - 472",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "539 - 590",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "539 CP - 590 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 11,
+        "2": 36,
+        "3": 61,
+        "4": 86,
+        "5": 111,
+        "6": 136,
+        "7": 161,
+        "8": 186,
+        "9": 211,
+        "10": 236,
+        "11": 259,
+        "12": 283,
+        "13": 306,
+        "14": 330,
+        "15": 354,
+        "16": 377,
+        "17": 401,
+        "18": 424,
+        "19": 448,
+        "20": 472,
+        "21": 495,
+        "22": 519,
+        "23": 542,
+        "24": 566,
+        "25": 590,
+        "26": 613,
+        "27": 637,
+        "28": 660,
+        "29": 684,
+        "30": 708,
+        "31": 719,
+        "32": 731,
+        "33": 743,
+        "34": 755,
+        "35": 767,
+        "36": 778,
+        "37": 790,
+        "38": 802,
+        "39": 814,
+        "40": 826,
+        "41": 836,
+        "42": 847,
+        "43": 857,
+        "44": 868,
+        "45": 879,
+        "46": 890,
+        "47": 900,
+        "48": 911,
+        "49": 922,
+        "50": 933
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Wattrel",
+                    "href": "/pokemon/940",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/940.webp"
+                },
+                "to": {
+                    "name": "Kilowattrel",
+                    "href": "/pokemon/941",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/941.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Wattrel",
+                "href": "/pokemon/940",
+                "img": "https://db.pokemongohub.net/images/official/medium/940.webp"
+            },
+            {
+                "name": "Kilowattrel",
+                "href": "/pokemon/941",
+                "img": "https://db.pokemongohub.net/images/official/medium/941.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Wattrel in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Wattrel",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Wattrel's Electric and Flying-type moves, Candy, and Candy XL from catching Wattrel.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 940,
+            "height_m": 0.4,
+            "weight_kg": 3.6,
+            "region": "Generation 9",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Wattrel's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Scarlet"
+            ],
+            "entry": "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them."
+        },
+        {
+            "versions": [
+                "Violet"
+            ],
+            "entry": "These Pokémon make their nests on coastal cliffs. The nests have a strange, crackling texture, and they’re a popular delicacy."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 940,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0940_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0940_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Wattrel sprite"
+            },
+            {
+                "pokedex_number": 940,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0940_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0940_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Wattrel sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/940_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/940_social.jpg",
+                "alt": "Wattrel"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/940_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/940_social_dark.jpg",
+                "alt": "Wattrel"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/940_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/940_social_map.jpg",
+                "alt": "Wattrel"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/940_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/940_social_map_dark.jpg",
+                "alt": "Wattrel"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Wattrel’s strengths and weaknesses?",
+            "answer": "As a Electric and Flying-type Pokémon, Wattrel is weak to Ice and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Wattrel in Pokémon GO?",
+            "answer": "The best moves for Wattrel in Pokémon GO are Thunder Shock and Thunderbolt. This moveset has a DPS (Damage Per Second) of 4.308 and a TDO (Total Damage Output) of 24.395."
+        },
+        {
+            "question": "How does Wattrel perform in Raids?",
+            "answer": "Wattrel's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Wattrel rank as a Electric-type attacker?",
+            "answer": "Wattrel's performance as a Electric-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Wattrel?",
+            "answer": "The following Mega Pokémon boost Wattrel: Mega Ampharos, Mega Manectric, Primal Kyogre, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Wattrel’s maximum CP at Level 40 and Level 50?",
+            "answer": "Wattrel’s maximum CP at Level 40 is 826 CP and 933 CP at Level 50."
+        },
+        {
+            "question": "Can Wattrel be shiny in Pokémon GO?",
+            "answer": "Wattrel cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Wattrel Dynamax in Pokémon GO?",
+            "answer": "Wattrel cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

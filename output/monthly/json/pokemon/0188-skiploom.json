@@ -1,0 +1,906 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1103,
+        "attack": 91,
+        "defense": 120,
+        "stamina": 146,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Skiploom",
+        "forms": [
+            {
+                "name": "Skiploom",
+                "href": "/pokemon/188",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/188.webp"
+            },
+            {
+                "name": "Shadow Skiploom",
+                "href": "/pokemon/188-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/188.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/188.webp",
+        "types": [
+            "Grass",
+            "Flying"
+        ],
+        "weather_boost": [
+            "sunny",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Grass Knot",
+            "dps": 5.21,
+            "tdo": 52.8,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 5.21,
+                "tdo": 52.8,
+                "score": 4.18
+            },
+            {
+                "rank": 2,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 5.0,
+                "tdo": 50.7,
+                "score": 4.01
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 4.49,
+                "tdo": 45.5,
+                "score": 3.6
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 4.45,
+                "tdo": 45.0,
+                "score": 3.57
+            },
+            {
+                "rank": 5,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 4.17,
+                "tdo": 42.2,
+                "score": 3.34
+            },
+            {
+                "rank": 6,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 4.12,
+                "tdo": 41.8,
+                "score": 3.31
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Bullet Seed",
+                "type": "Grass",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/271"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dazzling Gleam",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.1s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/86"
+            },
+            {
+                "name": "Grass Knot",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/272"
+            },
+            {
+                "name": "Energy Ball",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/273"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Skiploom's has 1103 max CP (at Level 50). A Skiploom obtained from Raids can be encountered from 513 CP to 557 CP, or if weather boosted, in the 641 CP to 697 CP range. In Field and Special Research, Skiploom can be found in the 385 CP to 418 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1103",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "385 - 418",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "513 - 557",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "513 - 557",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "641 - 697",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "641 CP - 697 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 43,
+        "3": 72,
+        "4": 102,
+        "5": 131,
+        "6": 161,
+        "7": 190,
+        "8": 220,
+        "9": 249,
+        "10": 278,
+        "11": 306,
+        "12": 334,
+        "13": 362,
+        "14": 390,
+        "15": 418,
+        "16": 446,
+        "17": 474,
+        "18": 501,
+        "19": 529,
+        "20": 557,
+        "21": 585,
+        "22": 613,
+        "23": 641,
+        "24": 669,
+        "25": 697,
+        "26": 725,
+        "27": 752,
+        "28": 780,
+        "29": 808,
+        "30": 836,
+        "31": 850,
+        "32": 864,
+        "33": 878,
+        "34": 892,
+        "35": 906,
+        "36": 920,
+        "37": 934,
+        "38": 948,
+        "39": 962,
+        "40": 976,
+        "41": 988,
+        "42": 1000,
+        "43": 1013,
+        "44": 1026,
+        "45": 1038,
+        "46": 1051,
+        "47": 1064,
+        "48": 1077,
+        "49": 1090,
+        "50": 1103
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Hoppip",
+                    "href": "/pokemon/187",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/187.webp"
+                },
+                "to": {
+                    "name": "Skiploom",
+                    "href": "/pokemon/188",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/188.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Skiploom",
+                    "href": "/pokemon/188",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/188.webp"
+                },
+                "to": {
+                    "name": "Jumpluff",
+                    "href": "/pokemon/189",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/189.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Hoppip",
+                "href": "/pokemon/187",
+                "img": "https://db.pokemongohub.net/images/official/medium/187.webp"
+            },
+            {
+                "name": "Skiploom",
+                "href": "/pokemon/188",
+                "img": "https://db.pokemongohub.net/images/official/medium/188.webp"
+            },
+            {
+                "name": "Jumpluff",
+                "href": "/pokemon/189",
+                "img": "https://db.pokemongohub.net/images/official/medium/189.webp"
+            },
+            {
+                "name": "Shadow Hoppip",
+                "href": "/pokemon/187-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Skiploom",
+                "href": "/pokemon/188-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Jumpluff",
+                "href": "/pokemon/189-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Skiploom in the meta PvE Analysis ⚔️ Raids – With no changes to its moveset from its pre-evolution Hoppip , Skiploom only brings a Grass-type moveset into Raid battles. There are countless other Grass-type Pokémon that perform far better and are much wiser investments, especially the Grass-type starters and their evolutions. 🛡️ Gyms – Skiploom has no real place defending Gyms, even with Defense and Stamina as its best stats! PvP Analysis 🧸 Little League – Skiploom finds itself in an awkward position where it performs worse than its pre-evolution. Since Hoppip requires powering up to a higher level, its Attack stat can be put to better use in the Little League. Unfortunately, the same cannot be said for Skiploom , so we recommend not evolving it for PvP. 🔵 Great League – Skiploom maxes out at 1103 CP, which is far too low to make it a viable choice for the Great League. 🟡 Ultra League – Did you know the flower on Skiploom ’s head closes in cold regions, meaning it needs to float to warmer climates to photosynthesize? This fun fact has nothing to do with PvP, but Skiploom has no use here either. 🟣 Master League – Definitely not a place for Skiploom , unless you’re looking for a one-hit knockout (OHKO). Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Skiploom",
+        "type": "Grass",
+        "intro_text": "A list of Mega Pokémon that boost Skiploom's Grass and Flying-type moves, Candy, and Candy XL from catching Skiploom.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 188,
+            "height_m": 0.61,
+            "weight_kg": 1,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.3 m",
+            "xs": "0.31 m",
+            "m": "0.61 m",
+            "xl": "0.92 m",
+            "xxl": "1.07 m",
+            "description": "Skiploom's height ranges from 0.3 m to 1.07 m, with the average being 0.61 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2989,
+                "upper_m": 0.305,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′00″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.305,
+                "upper_m": 0.61,
+                "lower_ft": "1′00″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.4575,
+                "upper_m": 0.7625,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.7625,
+                "upper_m": 0.915,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.915,
+                "upper_m": 1.0675,
+                "lower_ft": "3′00″",
+                "upper_ft": "3′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.7,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "The bloom on top of its head opens and closes as the temperature fluc tuates up and down."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "As soon as it rains, it closes its flower and hides in the shade of a tree to avoid getting wet."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "SKIPLOOM’s flower blossoms when the temperature rises above 64 degrees F. How much the flower opens depends on the temperature. For that reason, this POKéMON is sometimes used as a thermometer."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It blossoms when the temperature rises above 64 degrees F. Because its flower’s blooming changes with the temperature, it is sometimes used as a thermometer."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "The bloom on top of its head opens and closes as the temperature fluctuates up and down."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It blooms when the weather warms. It floats in the sky to soak up as much sunlight as possible."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "The bloom on top of its head opens and closes as the temperature fluctuates up and down."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "The bloom on top of its head opens and closes as the temperature fluctuates up and down."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Skiploom’s flower blossoms when the temperature rises above 64 degrees Fahrenheit. How much the flower opens depends on the temperature. For that reason, this Pokémon is sometimes used as a thermometer."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Skiploom",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm188.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm188.icon.png"
+            },
+            {
+                "label": "Shiny Skiploom",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm188.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm188.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 188,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0188_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0188_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Skiploom sprite"
+            },
+            {
+                "pokedex_number": 188,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0188_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0188_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Skiploom sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/188_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/188_social.jpg",
+                "alt": "Skiploom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/188_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/188_social_dark.jpg",
+                "alt": "Skiploom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/188_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/188_social_map.jpg",
+                "alt": "Skiploom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/188_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/188_social_map_dark.jpg",
+                "alt": "Skiploom"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Skiploom’s strengths and weaknesses?",
+            "answer": "As a Grass and Flying-type Pokémon, Skiploom is especially weak against Ice-type moves, and weak against Fire, Flying, Poison, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Skiploom in Pokémon GO?",
+            "answer": "The best moves for Skiploom in Pokémon GO are Tackle and Grass Knot. This moveset has a DPS (Damage Per Second) of 5.212 and a TDO (Total Damage Output) of 52.804."
+        },
+        {
+            "question": "How does Skiploom perform in Raids?",
+            "answer": "Skiploom's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Skiploom rank as a Grass-type attacker?",
+            "answer": "Skiploom's performance as a Grass-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Skiploom?",
+            "answer": "The following Mega Pokémon boost Skiploom: Mega Venusaur, Mega Sceptile, Primal Groudon, Mega Abomasnow, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Skiploom’s maximum CP at Level 40 and Level 50?",
+            "answer": "Skiploom’s maximum CP at Level 40 is 976 CP and 1103 CP at Level 50."
+        },
+        {
+            "question": "Can Skiploom be shiny in Pokémon GO?",
+            "answer": "Skiploom can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Skiploom Dynamax in Pokémon GO?",
+            "answer": "Skiploom cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

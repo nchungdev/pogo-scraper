@@ -1,0 +1,880 @@
+{
+    "overview_and_stats": {
+        "max_cp": 799,
+        "attack": 83,
+        "defense": 99,
+        "stamina": 102,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Venipede",
+        "forms": [
+            {
+                "name": "Venipede",
+                "href": "/pokemon/543",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/543.webp"
+            },
+            {
+                "name": "Shadow Venipede",
+                "href": "/pokemon/543-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/543.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/543.webp",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "weather_boost": [
+            "rain",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bug Bite",
+            "charged": "Sludge Bomb",
+            "dps": 4.34,
+            "tdo": 27.0,
+            "boosted_weather": [
+                "rain",
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 4.34,
+                "tdo": 27.0,
+                "score": 3.1
+            },
+            {
+                "rank": 2,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Signal Beam",
+                "charged_url": "https://db.pokemongohub.net/move/99",
+                "dps": 4.06,
+                "tdo": 25.2,
+                "score": 2.9
+            },
+            {
+                "rank": 3,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 3.9,
+                "tdo": 24.2,
+                "score": 2.78
+            },
+            {
+                "rank": 4,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Gyro Ball",
+                "charged_url": "https://db.pokemongohub.net/move/267",
+                "dps": 3.89,
+                "tdo": 24.2,
+                "score": 2.77
+            },
+            {
+                "rank": 5,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Signal Beam",
+                "charged_url": "https://db.pokemongohub.net/move/99",
+                "dps": 3.63,
+                "tdo": 22.5,
+                "score": 2.59
+            },
+            {
+                "rank": 6,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Gyro Ball",
+                "charged_url": "https://db.pokemongohub.net/move/267",
+                "dps": 3.46,
+                "tdo": 21.5,
+                "score": 2.47
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bug Bite",
+                "type": "Bug",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/201"
+            },
+            {
+                "name": "Poison Sting",
+                "type": "Poison",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/236"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Sludge Bomb",
+                "type": "Poison",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/90"
+            },
+            {
+                "name": "Signal Beam",
+                "type": "Bug",
+                "stats": {
+                    "damage": 75,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 75,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.9s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/99"
+            },
+            {
+                "name": "Gyro Ball",
+                "type": "Steel",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "3.2s - 3.5s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/267"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Venipede's has 799 max CP (at Level 50). A Venipede obtained from Raids can be encountered from 366 CP to 403 CP, or if weather boosted, in the 458 CP to 504 CP range. In Field and Special Research, Venipede can be found in the 275 CP to 302 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "799",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "275 - 302",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "366 - 403",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "366 - 403",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "458 - 504",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "458 CP - 504 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 10,
+        "2": 31,
+        "3": 52,
+        "4": 74,
+        "5": 95,
+        "6": 116,
+        "7": 138,
+        "8": 159,
+        "9": 180,
+        "10": 202,
+        "11": 222,
+        "12": 242,
+        "13": 262,
+        "14": 282,
+        "15": 302,
+        "16": 323,
+        "17": 343,
+        "18": 363,
+        "19": 383,
+        "20": 403,
+        "21": 424,
+        "22": 444,
+        "23": 464,
+        "24": 484,
+        "25": 504,
+        "26": 525,
+        "27": 545,
+        "28": 565,
+        "29": 585,
+        "30": 605,
+        "31": 616,
+        "32": 626,
+        "33": 636,
+        "34": 646,
+        "35": 656,
+        "36": 666,
+        "37": 676,
+        "38": 686,
+        "39": 696,
+        "40": 706,
+        "41": 715,
+        "42": 724,
+        "43": 733,
+        "44": 743,
+        "45": 752,
+        "46": 761,
+        "47": 770,
+        "48": 780,
+        "49": 789,
+        "50": 799
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Venipede",
+                    "href": "/pokemon/543",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/543.webp"
+                },
+                "to": {
+                    "name": "Whirlipede",
+                    "href": "/pokemon/544",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/544.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Whirlipede",
+                    "href": "/pokemon/544",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/544.webp"
+                },
+                "to": {
+                    "name": "Scolipede",
+                    "href": "/pokemon/545",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/545.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Venipede",
+                "href": "/pokemon/543",
+                "img": "https://db.pokemongohub.net/images/official/medium/543.webp"
+            },
+            {
+                "name": "Whirlipede",
+                "href": "/pokemon/544",
+                "img": "https://db.pokemongohub.net/images/official/medium/544.webp"
+            },
+            {
+                "name": "Scolipede",
+                "href": "/pokemon/545",
+                "img": "https://db.pokemongohub.net/images/official/medium/545.webp"
+            },
+            {
+                "name": "Shadow Venipede",
+                "href": "/pokemon/543-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Whirlipede",
+                "href": "/pokemon/544-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Scolipede",
+                "href": "/pokemon/545-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Venipede in the meta PvE Analysis ⚔️ Raids This miniature centipede has nothing to boast about with its stats, making it completely useless in raid battles. If you want to bring a Bug/Poison-type , bring Beedrill . 🛡️ Gyms The phrase \"Squashed like a bug\" comes to mind. PvP Analysis 🧸 Little League We couldn't find anything positive to review about Venipede for Little League . It resists its own typing, so even in a themed cup with limited options, there are far better choices available. 🔵 Great League Maxing out at a lowly 799 CP, Venipede can barely get over half the CP needed to even be thought of as viable. And given its poor ranking in Little League , it wouldn’t make an impact even if it had higher CP. 🟡 Ultra League Things only get worse when Venipede faces Pokémon with nearly four times its max CP! 🟣 Master League Once again, \"Squashed like a bug\" comes to mind.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Venipede",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Venipede's Bug and Poison-type moves, Candy, and Candy XL from catching Venipede.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 543,
+            "height_m": 0.4,
+            "weight_kg": 5.3,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Venipede's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Using the feelers on its head and tail, it picks up vibrations in the air to determine its prey’s location and state."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Venipede and Sizzlipede are similar species, but when the two meet, a huge fight ensues."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Its fangs are highly venomous. If this Pokémon finds prey it thinks it can eat, it leaps for them without any thought of how things might turn out."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Venipede",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm543.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm543.icon.png"
+            },
+            {
+                "label": "Shiny Venipede",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm543.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm543.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 543,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0543_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0543_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Venipede sprite"
+            },
+            {
+                "pokedex_number": 543,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0543_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0543_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Venipede sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/543_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/543_social.jpg",
+                "alt": "Venipede"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/543_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/543_social_dark.jpg",
+                "alt": "Venipede"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/543_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/543_social_map.jpg",
+                "alt": "Venipede"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/543_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/543_social_map_dark.jpg",
+                "alt": "Venipede"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Venipede’s strengths and weaknesses?",
+            "answer": "As a Bug and Poison-type Pokémon, Venipede is weak to Fire, Flying, Psychic, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Venipede in Pokémon GO?",
+            "answer": "The best moves for Venipede in Pokémon GO are Bug Bite and Sludge Bomb. This moveset has a DPS (Damage Per Second) of 4.343 and a TDO (Total Damage Output) of 27."
+        },
+        {
+            "question": "How does Venipede perform in Raids?",
+            "answer": "Venipede's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Venipede rank as a Bug-type attacker?",
+            "answer": "Venipede's performance as a Bug-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Venipede?",
+            "answer": "The following Mega Pokémon boost Venipede: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, Primal Kyogre, Mega Venusaur, Mega Beedrill, and Mega Gengar."
+        },
+        {
+            "question": "What is Venipede’s maximum CP at Level 40 and Level 50?",
+            "answer": "Venipede’s maximum CP at Level 40 is 706 CP and 799 CP at Level 50."
+        },
+        {
+            "question": "Can Venipede be shiny in Pokémon GO?",
+            "answer": "Venipede can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Venipede Dynamax in Pokémon GO?",
+            "answer": "Venipede cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

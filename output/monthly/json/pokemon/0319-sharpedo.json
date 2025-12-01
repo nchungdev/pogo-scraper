@@ -1,0 +1,901 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2466,
+        "attack": 243,
+        "defense": 83,
+        "stamina": 172,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Sharpedo",
+        "forms": [
+            {
+                "name": "Sharpedo",
+                "href": "/pokemon/319",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/319.webp"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "href": "/pokemon/319-Mega",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/319_f2.webp"
+            },
+            {
+                "name": "Shadow Sharpedo",
+                "href": "/pokemon/319-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/319.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/319.webp",
+        "types": [
+            "Water",
+            "Dark"
+        ],
+        "weather_boost": [
+            "rain",
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bite",
+            "charged": "Crunch",
+            "dps": 10.87,
+            "tdo": 92.82,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 10.87,
+                "tdo": 92.8,
+                "score": 8.41
+            },
+            {
+                "rank": 2,
+                "fast": "Waterfall",
+                "fast_url": "https://db.pokemongohub.net/move/283",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 10.72,
+                "tdo": 91.6,
+                "score": 8.3
+            },
+            {
+                "rank": 3,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Hydro Pump",
+                "charged_url": "https://db.pokemongohub.net/move/107",
+                "dps": 9.96,
+                "tdo": 85.1,
+                "score": 7.71
+            },
+            {
+                "rank": 4,
+                "fast": "Waterfall",
+                "fast_url": "https://db.pokemongohub.net/move/283",
+                "charged": "Poison Fang",
+                "charged_url": "https://db.pokemongohub.net/move/50",
+                "dps": 9.7,
+                "tdo": 82.8,
+                "score": 7.5
+            },
+            {
+                "rank": 5,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Poison Fang",
+                "charged_url": "https://db.pokemongohub.net/move/50",
+                "dps": 9.63,
+                "tdo": 82.2,
+                "score": 7.45
+            },
+            {
+                "rank": 6,
+                "fast": "Waterfall",
+                "fast_url": "https://db.pokemongohub.net/move/283",
+                "charged": "Hydro Pump",
+                "charged_url": "https://db.pokemongohub.net/move/107",
+                "dps": 9.6,
+                "tdo": 82.0,
+                "score": 7.43
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Waterfall",
+                "type": "Water",
+                "stats": {
+                    "damage": 13,
+                    "energy": 7,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/283"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Poison Fang",
+                "type": "Poison",
+                "stats": {
+                    "damage": 30,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 30,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.7s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/50"
+            },
+            {
+                "name": "Hydro Pump",
+                "type": "Water",
+                "stats": {
+                    "damage": 135,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 135,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.1s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/107"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Sharpedo's has 2466 max CP (at Level 50). A Sharpedo obtained from Raids can be encountered from 1174 CP to 1246 CP, or if weather boosted, in the 1468 CP to 1558 CP range. In Field and Special Research, Sharpedo can be found in the 881 CP to 934 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2466",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "881 - 934",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1174 - 1246",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1174 - 1246",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1468 - 1558",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1468 CP - 1558 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 30,
+        "2": 96,
+        "3": 162,
+        "4": 228,
+        "5": 294,
+        "6": 360,
+        "7": 425,
+        "8": 491,
+        "9": 557,
+        "10": 623,
+        "11": 685,
+        "12": 748,
+        "13": 810,
+        "14": 872,
+        "15": 934,
+        "16": 997,
+        "17": 1059,
+        "18": 1121,
+        "19": 1184,
+        "20": 1246,
+        "21": 1308,
+        "22": 1371,
+        "23": 1433,
+        "24": 1495,
+        "25": 1558,
+        "26": 1620,
+        "27": 1682,
+        "28": 1745,
+        "29": 1807,
+        "30": 1869,
+        "31": 1901,
+        "32": 1932,
+        "33": 1963,
+        "34": 1994,
+        "35": 2025,
+        "36": 2056,
+        "37": 2087,
+        "38": 2119,
+        "39": 2150,
+        "40": 2181,
+        "41": 2209,
+        "42": 2236,
+        "43": 2265,
+        "44": 2293,
+        "45": 2321,
+        "46": 2350,
+        "47": 2378,
+        "48": 2407,
+        "49": 2436,
+        "50": 2466
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Carvanha",
+                    "href": "/pokemon/318",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/318.webp"
+                },
+                "to": {
+                    "name": "Sharpedo",
+                    "href": "/pokemon/319",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/319.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Sharpedo",
+                    "href": "/pokemon/319",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/319.webp"
+                },
+                "to": {
+                    "name": "Mega Sharpedo",
+                    "href": "/pokemon/319-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Carvanha",
+                "href": "/pokemon/318",
+                "img": "https://db.pokemongohub.net/images/official/medium/318.webp"
+            },
+            {
+                "name": "Sharpedo",
+                "href": "/pokemon/319",
+                "img": "https://db.pokemongohub.net/images/official/medium/319.webp"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "href": "/pokemon/319-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Carvanha",
+                "href": "/pokemon/318-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Sharpedo",
+                "href": "/pokemon/319-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Sharpedo in the meta PvE Analysis This fearsome shark Pokémon has the Jaws , the looks , and even a formidable 243 ATK to scare off anyone! 🦈 But, it also has only 83 DEF . That’s it, end of story . Fin . Roll credits . 🎥 ⚔️ Raids – Two or three Fast attacks and it’s a wrap ! Don’t use it unless you’re desperate 😬. 🛡️ Gyms – This shark is prey here 😵. PvP Analysis Its high ATK and damaging Fast Moves like Bite and Waterfall help it tear down opponents when shields are up . Don’t expect it to last , though 😮‍💨. 🔵 Great League – A few niche matchups that don’t even matter much . 🟡 Ultra League – Some Fast Move damage shenanigans if maxed out to level 50 , but then it gets hunted 🎣. 🟣 Master League – The shark dragon Garchomp exists in the Master League , and there’s no room for another 🐲.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Sharpedo",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Sharpedo's Water and Dark-type moves, Candy, and Candy XL from catching Sharpedo.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 319,
+            "height_m": 1.8,
+            "weight_kg": 88.8,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": 15,
+        "size_info": {
+            "xxs": "0.88 m",
+            "xs": "0.9 m",
+            "m": "1.8 m",
+            "xl": "2.7 m",
+            "xxl": "3.6 m",
+            "description": "Sharpedo's height ranges from 0.88 m to 3.6 m, with the average being 1.8 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.882,
+                "upper_m": 0.9,
+                "lower_ft": "2′11″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.9,
+                "upper_m": 1.8,
+                "lower_ft": "2′11″",
+                "upper_ft": "5′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.35,
+                "upper_m": 2.25,
+                "lower_ft": "4′05″",
+                "upper_ft": "7′05″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.25,
+                "upper_m": 2.7,
+                "lower_ft": "7′05″",
+                "upper_ft": "8′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.7,
+                "upper_m": 3.6,
+                "lower_ft": "8′10″",
+                "upper_ft": "11′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 50.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "Nicknamed “the bully of the sea,” SHARPEDO is widely feared. Its cruel fangs grow back immediately if they snap off. Just one of these POKéMON can thoroughly tear apart a supertanker."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "SHARPEDO can swim at speeds of up to 75 mph by jetting seawater out of its backside. This POKéMON’s drawback is its inability to swim long distances."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "The vicious and sly gangster of the sea. Its skin is specially textured to minimize drag in water. Its speed tops out at over 75 miles per hour."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "The ruffian of the seas, it has fangs that crunch through iron. It swims by jetting water from its rear."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its fangs rip through sheet iron. It swims at 75 mph and is known as “The Bully of the Sea.”"
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It can swim at speeds of 75 mph by jetting seawater through its body. It is the bandit of the sea."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Its fangs rip through sheet iron. It swims at 75 mph and is known as “The Bully of the Sea.”"
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It can swim at speeds of 75 mph by jetting seawater through its body. It is the bandit of the sea."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Nicknamed “the bully of the sea,” Sharpedo is widely feared. Its cruel fangs grow back immediately if they snap off. Just one of these Pokémon can thoroughly tear apart a supertanker."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Sharpedo can swim at speeds of up to 75 mph by jetting seawater out of its backside. This Pokémon’s drawback is its inability to swim long distances."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It pursues its prey at speeds of 75 mph and finishes them off with fangs that can crush iron. It is known as the bully of the sea."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It has a sad history. In the past, its dorsal fin was a treasured foodstuff, so this Pokémon became a victim of overfishing."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "People believe that carrying one of its discarded fangs will prevent mishaps at sea, so the fangs are made into accessories."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It drinks in seawater and jets it from its rear to propel itself. It’s very sensitive to the scent of blood."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "As soon as it catches the scent of prey, Sharpedo will jet seawater from its backside, hurtling toward the target to attack at 75 mph."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This Pokémon is known as the Bully of the Sea. Any ship entering the waters Sharpedo calls home will be attacked—no exceptions."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Sharpedo",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm319.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm319.icon.png"
+            },
+            {
+                "label": "Shiny Sharpedo",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm319.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm319.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 319,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0319_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0319_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Sharpedo sprite"
+            },
+            {
+                "pokedex_number": 319,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0319_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0319_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Sharpedo sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/319_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/319_social.jpg",
+                "alt": "Sharpedo"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/319_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/319_social_dark.jpg",
+                "alt": "Sharpedo"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/319_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/319_social_map.jpg",
+                "alt": "Sharpedo"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/319_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/319_social_map_dark.jpg",
+                "alt": "Sharpedo"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Sharpedo’s strengths and weaknesses?",
+            "answer": "As a Water and Dark-type Pokémon, Sharpedo is weak to Bug, Electric, Fairy, Fighting, and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Sharpedo in Pokémon GO?",
+            "answer": "The best moves for Sharpedo in Pokémon GO are Bite and Crunch. This moveset has a DPS (Damage Per Second) of 10.866 and a TDO (Total Damage Output) of 92.817."
+        },
+        {
+            "question": "How does Sharpedo perform in Raids?",
+            "answer": "Sharpedo's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Sharpedo rank as a Water-type attacker?",
+            "answer": "Sharpedo is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Sharpedo rank as a Dark-type attacker?",
+            "answer": "Sharpedo is an F-Tier Dark-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Sharpedo?",
+            "answer": "The following Mega Pokémon boost Sharpedo: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Gyarados, Mega Houndoom, Mega Tyranitar, Mega Sableye, Mega Sharpedo, and Mega Absol."
+        },
+        {
+            "question": "What is Sharpedo’s maximum CP at Level 40 and Level 50?",
+            "answer": "Sharpedo’s maximum CP at Level 40 is 2181 CP and 2466 CP at Level 50."
+        },
+        {
+            "question": "Can Sharpedo be shiny in Pokémon GO?",
+            "answer": "Sharpedo can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Sharpedo Dynamax in Pokémon GO?",
+            "answer": "Sharpedo cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

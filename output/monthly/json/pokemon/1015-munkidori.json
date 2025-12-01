@@ -1,0 +1,680 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3321,
+        "attack": 238,
+        "defense": 157,
+        "stamina": 186,
+        "buddy_distance": 20,
+        "released": false,
+        "shiny_released": false,
+        "title": "Munkidori",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/1015.webp",
+        "types": [
+            "Poison",
+            "Psychic"
+        ],
+        "weather_boost": [
+            "cloudy",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Poison Jab",
+            "charged": "Sludge Bomb",
+            "dps": 13.62,
+            "tdo": 219.47,
+            "boosted_weather": [
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 13.62,
+                "tdo": 219.5,
+                "score": 11.8
+            },
+            {
+                "rank": 2,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 13.61,
+                "tdo": 219.4,
+                "score": 11.8
+            },
+            {
+                "rank": 3,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 13.4,
+                "tdo": 215.9,
+                "score": 11.6
+            },
+            {
+                "rank": 4,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 13.39,
+                "tdo": 215.8,
+                "score": 11.6
+            },
+            {
+                "rank": 5,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Future Sight",
+                "charged_url": "https://db.pokemongohub.net/move/275",
+                "dps": 12.53,
+                "tdo": 201.9,
+                "score": 10.85
+            },
+            {
+                "rank": 6,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Future Sight",
+                "charged_url": "https://db.pokemongohub.net/move/275",
+                "dps": 12.19,
+                "tdo": 196.4,
+                "score": 10.56
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Poison Jab",
+                "type": "Poison",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.4s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/224"
+            },
+            {
+                "name": "Confusion",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 19,
+                    "energy": 14,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 14,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.5s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 16,
+                    "energy": 14
+                },
+                "url": "https://db.pokemongohub.net/move/235"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Sludge Bomb",
+                "type": "Poison",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/90"
+            },
+            {
+                "name": "Psychic",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/108"
+            },
+            {
+                "name": "Future Sight",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 115,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 115,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.2s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/275"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Munkidori's has 3321 max CP (at Level 50). A Munkidori obtained from Raids can be encountered from 1601 CP to 1678 CP, or if weather boosted, in the 2001 CP to 2098 CP range. In Field and Special Research, Munkidori can be found in the 1201 CP to 1259 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3321",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1201 - 1259",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1601 - 1678",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1601 - 1678",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2001 - 2098",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2001 CP - 2098 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 41,
+        "2": 130,
+        "3": 218,
+        "4": 307,
+        "5": 396,
+        "6": 484,
+        "7": 573,
+        "8": 662,
+        "9": 751,
+        "10": 839,
+        "11": 923,
+        "12": 1007,
+        "13": 1091,
+        "14": 1175,
+        "15": 1259,
+        "16": 1343,
+        "17": 1427,
+        "18": 1511,
+        "19": 1594,
+        "20": 1678,
+        "21": 1762,
+        "22": 1846,
+        "23": 1930,
+        "24": 2014,
+        "25": 2098,
+        "26": 2182,
+        "27": 2266,
+        "28": 2350,
+        "29": 2434,
+        "30": 2518,
+        "31": 2560,
+        "32": 2602,
+        "33": 2644,
+        "34": 2686,
+        "35": 2728,
+        "36": 2770,
+        "37": 2812,
+        "38": 2854,
+        "39": 2896,
+        "40": 2938,
+        "41": 2975,
+        "42": 3012,
+        "43": 3050,
+        "44": 3088,
+        "45": 3126,
+        "46": 3165,
+        "47": 3204,
+        "48": 3243,
+        "49": 3282,
+        "50": 3321
+    },
+    "meta_analysis": "Munkidori in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Munkidori",
+        "type": "Poison",
+        "intro_text": "A list of Mega Pokémon that boost Munkidori's Poison and Psychic-type moves, Candy, and Candy XL from catching Munkidori.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 1015,
+            "height_m": 1,
+            "weight_kg": 12.2,
+            "region": "Generation 9",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "1.55 m",
+            "description": "Munkidori's height ranges from 0.49 m to 1.55 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 1.55,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 0.0,
+            "attack_timer": 0,
+            "dodge_probability": 0.0,
+            "dodge_duration_s": 0,
+            "dodge_distance": 0,
+            "min_action_frequency": 0,
+            "max_action_frequency": 0
+        }
+    },
+    "pokedex": [],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 1015,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_1015_000_mo_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_1015_000_mo_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Munkidori sprite"
+            },
+            {
+                "pokedex_number": 1015,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_1015_000_mo_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_1015_000_mo_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Munkidori sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/1015_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/1015_social.jpg",
+                "alt": "Munkidori"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/1015_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/1015_social_dark.jpg",
+                "alt": "Munkidori"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/1015_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/1015_social_map.jpg",
+                "alt": "Munkidori"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/1015_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/1015_social_map_dark.jpg",
+                "alt": "Munkidori"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Munkidori’s strengths and weaknesses?",
+            "answer": "As a Poison and Psychic-type Pokémon, Munkidori is weak to Dark, Ghost, and Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Munkidori in Pokémon GO?",
+            "answer": "The best moves for Munkidori in Pokémon GO are Poison Jab and Sludge Bomb. This moveset has a DPS (Damage Per Second) of 13.62 and a TDO (Total Damage Output) of 219.473."
+        },
+        {
+            "question": "How does Munkidori perform in Raids?",
+            "answer": "Munkidori's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Munkidori rank as a Poison-type attacker?",
+            "answer": "Munkidori's performance as a Poison-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Munkidori?",
+            "answer": "The following Mega Pokémon boost Munkidori: Mega Venusaur, Mega Beedrill, Mega Gengar, Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Munkidori’s maximum CP at Level 40 and Level 50?",
+            "answer": "Munkidori’s maximum CP at Level 40 is 2938 CP and 3321 CP at Level 50."
+        },
+        {
+            "question": "Can Munkidori be shiny in Pokémon GO?",
+            "answer": "Munkidori cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Munkidori Dynamax in Pokémon GO?",
+            "answer": "Munkidori cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,805 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1294,
+        "attack": 111,
+        "defense": 92,
+        "stamina": 183,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Munna",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/517.webp",
+        "types": [
+            "Psychic"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Zen Headbutt",
+            "charged": "Psyshock",
+            "dps": 5.56,
+            "tdo": 54.94,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 5.56,
+                "tdo": 54.9,
+                "score": 4.44
+            },
+            {
+                "rank": 2,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 5.31,
+                "tdo": 52.5,
+                "score": 4.24
+            },
+            {
+                "rank": 3,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 5.08,
+                "tdo": 50.2,
+                "score": 4.06
+            },
+            {
+                "rank": 4,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Psybeam",
+                "charged_url": "https://db.pokemongohub.net/move/30",
+                "dps": 5.02,
+                "tdo": 49.6,
+                "score": 4.01
+            },
+            {
+                "rank": 5,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 4.76,
+                "tdo": 47.0,
+                "score": 3.8
+            },
+            {
+                "rank": 6,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Psybeam",
+                "charged_url": "https://db.pokemongohub.net/move/30",
+                "dps": 4.31,
+                "tdo": 42.6,
+                "score": 3.44
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Zen Headbutt",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 9,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/234"
+            },
+            {
+                "name": "Charge Beam",
+                "type": "Electric",
+                "stats": {
+                    "damage": 7,
+                    "energy": 14,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 14,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/249"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Psybeam",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/30"
+            },
+            {
+                "name": "Psyshock",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/60"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.1s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/86"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Munna's has 1294 max CP (at Level 50). A Munna obtained from Raids can be encountered from 605 CP to 654 CP, or if weather boosted, in the 757 CP to 818 CP range. In Field and Special Research, Munna can be found in the 454 CP to 490 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1294",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "454 - 490",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "605 - 654",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "605 - 654",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "757 - 818",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "757 CP - 818 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 16,
+        "2": 50,
+        "3": 85,
+        "4": 119,
+        "5": 154,
+        "6": 189,
+        "7": 223,
+        "8": 258,
+        "9": 292,
+        "10": 327,
+        "11": 360,
+        "12": 392,
+        "13": 425,
+        "14": 458,
+        "15": 490,
+        "16": 523,
+        "17": 556,
+        "18": 589,
+        "19": 621,
+        "20": 654,
+        "21": 687,
+        "22": 719,
+        "23": 752,
+        "24": 785,
+        "25": 818,
+        "26": 850,
+        "27": 883,
+        "28": 916,
+        "29": 949,
+        "30": 981,
+        "31": 998,
+        "32": 1014,
+        "33": 1030,
+        "34": 1047,
+        "35": 1063,
+        "36": 1080,
+        "37": 1096,
+        "38": 1112,
+        "39": 1129,
+        "40": 1145,
+        "41": 1159,
+        "42": 1174,
+        "43": 1189,
+        "44": 1204,
+        "45": 1219,
+        "46": 1234,
+        "47": 1249,
+        "48": 1264,
+        "49": 1279,
+        "50": 1294
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Munna",
+                    "href": "/pokemon/517",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/517.webp"
+                },
+                "to": {
+                    "name": "Musharna",
+                    "href": "/pokemon/518",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/518.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Special Item: Unova Stone"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Special Item: Unova Stone"
+        ],
+        "family": [
+            {
+                "name": "Munna",
+                "href": "/pokemon/517",
+                "img": "https://db.pokemongohub.net/images/official/medium/517.webp"
+            },
+            {
+                "name": "Musharna",
+                "href": "/pokemon/518",
+                "img": "https://db.pokemongohub.net/images/official/medium/518.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Munna in the meta PvE Analysis Munna is a pure Psychic-type Pokémon with a max CP of 1294 . It is not useful for PvE , even with its best moveset of Zen Headbutt and Psyshock . ⚔️ Raids Too small and weak. 🛡️ Gyms There are much better options available. PvP Analysis Munna’s best moveset for PvP is Charge Beam , Psyshock , and Dazzling Gleam , but it is sadly not a particularly useful PvP Pokémon . 🧸 Little Cup While Munna is allowed in Little Cup , it does not rank well, and there are far better Psychic-type options available. 🔵 Great League At 1294 CP at level 50, Munna is too small for the Great League . 🟡 Ultra League Munna is too sleepy for the Ultra League . 🟣 Master League Munna will eat your dreams if you use it in the Master League .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Munna",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Munna's Psychic-type moves, Candy, and Candy XL from catching Munna.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 517,
+            "height_m": 0.6,
+            "weight_kg": 23.3,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.29 m",
+            "xs": "0.3 m",
+            "m": "0.6 m",
+            "xl": "0.9 m",
+            "xxl": "1.05 m",
+            "description": "Munna's height ranges from 0.29 m to 1.05 m, with the average being 0.6 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.294,
+                "upper_m": 0.3,
+                "lower_ft": "0′12″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.3,
+                "upper_m": 0.6,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.45,
+                "upper_m": 0.75,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.75,
+                "upper_m": 0.9,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.9,
+                "upper_m": 1.05,
+                "lower_ft": "2′11″",
+                "upper_ft": "3′05″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.75,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "This Pokémon appears before people and Pokémon who are having nightmares and eats those dreams."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "This Pokémon appears before people and Pokémon who are having nightmares and eats those dreams."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Late at night, it appears beside people’s pillows. As it feeds on dreams, the patterns on its body give off a faint glow."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It eats dreams and releases mist. The mist is pink when it’s eating a good dream, and black when it’s eating a nightmare."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Munna",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm517.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm517.icon.png"
+            },
+            {
+                "label": "Shiny Munna",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm517.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm517.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 517,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0517_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0517_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Munna sprite"
+            },
+            {
+                "pokedex_number": 517,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0517_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0517_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Munna sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/517_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/517_social.jpg",
+                "alt": "Munna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/517_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/517_social_dark.jpg",
+                "alt": "Munna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/517_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/517_social_map.jpg",
+                "alt": "Munna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/517_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/517_social_map_dark.jpg",
+                "alt": "Munna"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Munna’s strengths and weaknesses?",
+            "answer": "As a Psychic-type Pokémon, Munna is weak to Bug, Dark, and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Munna in Pokémon GO?",
+            "answer": "The best moves for Munna in Pokémon GO are Zen Headbutt and Psyshock. This moveset has a DPS (Damage Per Second) of 5.563 and a TDO (Total Damage Output) of 54.938."
+        },
+        {
+            "question": "How does Munna perform in Raids?",
+            "answer": "Munna's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Munna rank as a Psychic-type attacker?",
+            "answer": "Munna is an F-Tier Psychic-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Munna?",
+            "answer": "The following Mega Pokémon boost Munna: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Munna’s maximum CP at Level 40 and Level 50?",
+            "answer": "Munna’s maximum CP at Level 40 is 1145 CP and 1294 CP at Level 50."
+        },
+        {
+            "question": "Can Munna be shiny in Pokémon GO?",
+            "answer": "Munna can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Munna Dynamax in Pokémon GO?",
+            "answer": "Munna cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

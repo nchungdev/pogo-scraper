@@ -1,0 +1,972 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2225,
+        "attack": 159,
+        "defense": 145,
+        "stamina": 190,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Vigoroth",
+        "forms": [
+            {
+                "name": "Vigoroth",
+                "href": "/pokemon/288",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/288.webp"
+            },
+            {
+                "name": "Shadow Vigoroth",
+                "href": "/pokemon/288-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/288.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/288.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Scratch",
+            "charged": "Body Slam",
+            "dps": 8.43,
+            "tdo": 128.86,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 8.43,
+                "tdo": 128.9,
+                "score": 7.25
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 8.07,
+                "tdo": 123.4,
+                "score": 6.94
+            },
+            {
+                "rank": 3,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 7.89,
+                "tdo": 120.6,
+                "score": 6.78
+            },
+            {
+                "rank": 4,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Brick Break",
+                "charged_url": "https://db.pokemongohub.net/move/123",
+                "dps": 7.72,
+                "tdo": 118.0,
+                "score": 6.63
+            },
+            {
+                "rank": 5,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Rock Slide",
+                "charged_url": "https://db.pokemongohub.net/move/64",
+                "dps": 7.46,
+                "tdo": 114.1,
+                "score": 6.41
+            },
+            {
+                "rank": 6,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 7.41,
+                "tdo": 113.2,
+                "score": 6.37
+            },
+            {
+                "rank": 7,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Brick Break",
+                "charged_url": "https://db.pokemongohub.net/move/123",
+                "dps": 7.08,
+                "tdo": 108.3,
+                "score": 6.09
+            },
+            {
+                "rank": 8,
+                "fast": "Counter",
+                "fast_url": "https://db.pokemongohub.net/move/243",
+                "charged": "Bulldoze",
+                "charged_url": "https://db.pokemongohub.net/move/95",
+                "dps": 6.83,
+                "tdo": 104.5,
+                "score": 5.88
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            },
+            {
+                "name": "Counter",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/243"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Rock Slide",
+                "type": "Rock",
+                "stats": {
+                    "damage": 75,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 75,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/64"
+            },
+            {
+                "name": "Bulldoze",
+                "type": "Ground",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/95"
+            },
+            {
+                "name": "Brick Break",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 40,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 40,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.7s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/123"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Vigoroth's has 2225 max CP (at Level 50). A Vigoroth obtained from Raids can be encountered from 1061 CP to 1124 CP, or if weather boosted, in the 1327 CP to 1405 CP range. In Field and Special Research, Vigoroth can be found in the 796 CP to 843 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2225",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "796 - 843",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1061 - 1124",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1061 - 1124",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1327 - 1405",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1327 CP - 1405 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 27,
+        "2": 87,
+        "3": 146,
+        "4": 206,
+        "5": 265,
+        "6": 324,
+        "7": 384,
+        "8": 443,
+        "9": 503,
+        "10": 562,
+        "11": 618,
+        "12": 674,
+        "13": 731,
+        "14": 787,
+        "15": 843,
+        "16": 899,
+        "17": 956,
+        "18": 1012,
+        "19": 1068,
+        "20": 1124,
+        "21": 1180,
+        "22": 1237,
+        "23": 1293,
+        "24": 1349,
+        "25": 1405,
+        "26": 1462,
+        "27": 1518,
+        "28": 1574,
+        "29": 1630,
+        "30": 1687,
+        "31": 1715,
+        "32": 1743,
+        "33": 1771,
+        "34": 1799,
+        "35": 1827,
+        "36": 1855,
+        "37": 1883,
+        "38": 1911,
+        "39": 1940,
+        "40": 1968,
+        "41": 1993,
+        "42": 2018,
+        "43": 2043,
+        "44": 2069,
+        "45": 2094,
+        "46": 2120,
+        "47": 2146,
+        "48": 2172,
+        "49": 2198,
+        "50": 2225
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Slakoth",
+                    "href": "/pokemon/287",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/287.webp"
+                },
+                "to": {
+                    "name": "Vigoroth",
+                    "href": "/pokemon/288",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/288.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Vigoroth",
+                    "href": "/pokemon/288",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/288.webp"
+                },
+                "to": {
+                    "name": "Slaking",
+                    "href": "/pokemon/289",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/289.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Slakoth",
+                "href": "/pokemon/287",
+                "img": "https://db.pokemongohub.net/images/official/medium/287.webp"
+            },
+            {
+                "name": "Vigoroth",
+                "href": "/pokemon/288",
+                "img": "https://db.pokemongohub.net/images/official/medium/288.webp"
+            },
+            {
+                "name": "Slaking",
+                "href": "/pokemon/289",
+                "img": "https://db.pokemongohub.net/images/official/medium/289.webp"
+            },
+            {
+                "name": "Shadow Slakoth",
+                "href": "/pokemon/287-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Vigoroth",
+                "href": "/pokemon/288-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Slaking",
+                "href": "/pokemon/289-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Vigoroth in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Vigoroth",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Vigoroth's Normal-type moves, Candy, and Candy XL from catching Vigoroth.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 288,
+            "height_m": 1.4,
+            "weight_kg": 46.5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.69 m",
+            "xs": "0.7 m",
+            "m": "1.4 m",
+            "xl": "2.1 m",
+            "xxl": "2.17 m",
+            "description": "Vigoroth's height ranges from 0.69 m to 2.17 m, with the average being 1.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.686,
+                "upper_m": 0.7,
+                "lower_ft": "2′03″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.7,
+                "upper_m": 1.4,
+                "lower_ft": "2′04″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.05,
+                "upper_m": 1.75,
+                "lower_ft": "3′05″",
+                "upper_ft": "5′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.75,
+                "upper_m": 2.1,
+                "lower_ft": "5′09″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.1,
+                "upper_m": 2.17,
+                "lower_ft": "6′11″",
+                "upper_ft": "7′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 70.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "VIGOROTH is always itching and agitated to go on a wild rampage. It simply can’t tolerate sitting still for even a minute. This POKéMON’s stress level rises if it can’t be moving constantly."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "VIGOROTH is simply incapable of remaining still. Even when it tries to sleep, the blood in its veins grows agitated, compelling this POKéMON to run wild throughout the jungle before it can settle down."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It can’t keep still because its blood boils with energy. It runs through the fields and mountains all day to calm itself. If it doesn’t, it can’t sleep at night."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It is always hungry because it won’t stop rampaging. Even while it is eating, it can’t keep still."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "Its heart beats at a tenfold tempo, so it cannot sit still for even a moment."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its heartbeat is fast and its blood so agitated that it can’t sit still for one second."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Its heartbeat is fast and its blood so agitated that it can’t sit still for one second."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Vigoroth is always itching and agitated to go on a wild rampage. It simply can’t tolerate sitting still for even a minute. This Pokémon’s stress level rises if it can’t be moving constantly."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Vigoroth is simply incapable of remaining still. Even when it tries to sleep, the blood in its veins grows agitated, compelling this Pokémon to run wild throughout the jungle before it can settle down."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Vigoroth",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm288.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm288.icon.png"
+            },
+            {
+                "label": "Shiny Vigoroth",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm288.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm288.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 288,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0288_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0288_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Vigoroth sprite"
+            },
+            {
+                "pokedex_number": 288,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0288_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0288_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Vigoroth sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/288_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/288_social.jpg",
+                "alt": "Vigoroth"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/288_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/288_social_dark.jpg",
+                "alt": "Vigoroth"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/288_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/288_social_map.jpg",
+                "alt": "Vigoroth"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/288_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/288_social_map_dark.jpg",
+                "alt": "Vigoroth"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 288,
+            "name": "Vigoroth",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm288.cSUMMER_2024.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm288.cSUMMER_2024.icon.png",
+            "category": "Summer 2024"
+        },
+        {
+            "pokedex_number": 288,
+            "name": "Shiny Vigoroth",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm288.cSUMMER_2024.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm288.cSUMMER_2024.s.icon.png",
+            "category": "Summer 2024"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Vigoroth’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Vigoroth is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Vigoroth in Pokémon GO?",
+            "answer": "The best moves for Vigoroth in Pokémon GO are Scratch and Body Slam. This moveset has a DPS (Damage Per Second) of 8.429 and a TDO (Total Damage Output) of 128.861."
+        },
+        {
+            "question": "How does Vigoroth perform in Raids?",
+            "answer": "Vigoroth's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Vigoroth rank as a Normal-type attacker?",
+            "answer": "Vigoroth is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Vigoroth?",
+            "answer": "The following Mega Pokémon boost Vigoroth: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Vigoroth’s maximum CP at Level 40 and Level 50?",
+            "answer": "Vigoroth’s maximum CP at Level 40 is 1968 CP and 2225 CP at Level 50."
+        },
+        {
+            "question": "Can Vigoroth be shiny in Pokémon GO?",
+            "answer": "Vigoroth can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Vigoroth Dynamax in Pokémon GO?",
+            "answer": "Vigoroth cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,773 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1461,
+        "attack": 105,
+        "defense": 160,
+        "stamina": 155,
+        "buddy_distance": 5,
+        "released": false,
+        "shiny_released": false,
+        "title": "Naclstack",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/933.webp",
+        "types": [
+            "Rock"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Smack Down",
+            "charged": "Rock Blast",
+            "dps": 5.72,
+            "tdo": 79.31,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Rock Blast",
+                "charged_url": "https://db.pokemongohub.net/move/259",
+                "dps": 5.72,
+                "tdo": 79.3,
+                "score": 4.85
+            },
+            {
+                "rank": 2,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 5.44,
+                "tdo": 75.4,
+                "score": 4.61
+            },
+            {
+                "rank": 3,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Rock Blast",
+                "charged_url": "https://db.pokemongohub.net/move/259",
+                "dps": 5.3,
+                "tdo": 73.5,
+                "score": 4.49
+            },
+            {
+                "rank": 4,
+                "fast": "Smack Down",
+                "fast_url": "https://db.pokemongohub.net/move/297",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 5.3,
+                "tdo": 73.4,
+                "score": 4.49
+            },
+            {
+                "rank": 5,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 5.05,
+                "tdo": 70.0,
+                "score": 4.28
+            },
+            {
+                "rank": 6,
+                "fast": "Mud Shot",
+                "fast_url": "https://db.pokemongohub.net/move/216",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 4.71,
+                "tdo": 65.4,
+                "score": 4.0
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Mud Shot",
+                "type": "Ground",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/216"
+            },
+            {
+                "name": "Smack Down",
+                "type": "Rock",
+                "stats": {
+                    "damage": 13,
+                    "energy": 7,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 7,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/297"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ancient Power",
+                "type": "Rock",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.9s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/62"
+            },
+            {
+                "name": "Rock Tomb",
+                "type": "Rock",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/63"
+            },
+            {
+                "name": "Rock Blast",
+                "type": "Rock",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.5s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/259"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Naclstack's has 1461 max CP (at Level 50). A Naclstack obtained from Raids can be encountered from 687 CP to 738 CP, or if weather boosted, in the 859 CP to 923 CP range. In Field and Special Research, Naclstack can be found in the 515 CP to 554 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1461",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "515 - 554",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "687 - 738",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "687 - 738",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "859 - 923",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "859 CP - 923 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 18,
+        "2": 57,
+        "3": 96,
+        "4": 135,
+        "5": 174,
+        "6": 213,
+        "7": 252,
+        "8": 291,
+        "9": 330,
+        "10": 369,
+        "11": 406,
+        "12": 443,
+        "13": 480,
+        "14": 517,
+        "15": 554,
+        "16": 590,
+        "17": 627,
+        "18": 664,
+        "19": 701,
+        "20": 738,
+        "21": 775,
+        "22": 812,
+        "23": 849,
+        "24": 886,
+        "25": 923,
+        "26": 960,
+        "27": 997,
+        "28": 1034,
+        "29": 1071,
+        "30": 1108,
+        "31": 1126,
+        "32": 1145,
+        "33": 1163,
+        "34": 1181,
+        "35": 1200,
+        "36": 1218,
+        "37": 1237,
+        "38": 1255,
+        "39": 1274,
+        "40": 1292,
+        "41": 1309,
+        "42": 1325,
+        "43": 1342,
+        "44": 1358,
+        "45": 1375,
+        "46": 1392,
+        "47": 1409,
+        "48": 1426,
+        "49": 1444,
+        "50": 1461
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Nacli",
+                    "href": "/pokemon/932",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/932.webp"
+                },
+                "to": {
+                    "name": "Naclstack",
+                    "href": "/pokemon/933",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/933.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Naclstack",
+                    "href": "/pokemon/933",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/933.webp"
+                },
+                "to": {
+                    "name": "Garganacl",
+                    "href": "/pokemon/934",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/934.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Nacli",
+                "href": "/pokemon/932",
+                "img": "https://db.pokemongohub.net/images/official/medium/932.webp"
+            },
+            {
+                "name": "Naclstack",
+                "href": "/pokemon/933",
+                "img": "https://db.pokemongohub.net/images/official/medium/933.webp"
+            },
+            {
+                "name": "Garganacl",
+                "href": "/pokemon/934",
+                "img": "https://db.pokemongohub.net/images/official/medium/934.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Naclstack in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Naclstack",
+        "type": "Rock",
+        "intro_text": "A list of Mega Pokémon that boost Naclstack's Rock-type moves, Candy, and Candy XL from catching Naclstack.",
+        "mega_list": [
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 933,
+            "height_m": 0.6,
+            "weight_kg": 105,
+            "region": "Generation 9",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.29 m",
+            "xs": "0.3 m",
+            "m": "0.6 m",
+            "xl": "0.9 m",
+            "xxl": "1.2 m",
+            "description": "Naclstack's height ranges from 0.29 m to 1.2 m, with the average being 0.6 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.294,
+                "upper_m": 0.3,
+                "lower_ft": "0′12″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.3,
+                "upper_m": 0.6,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.45,
+                "upper_m": 0.75,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.75,
+                "upper_m": 0.9,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.9,
+                "upper_m": 1.2,
+                "lower_ft": "2′11″",
+                "upper_ft": "3′11″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Scarlet"
+            ],
+            "entry": "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey’s body."
+        },
+        {
+            "versions": [
+                "Violet"
+            ],
+            "entry": "It compresses rock salt inside its body and shoots out hardened salt pellets with enough force to perforate an iron sheet."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 933,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0933_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0933_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Naclstack sprite"
+            },
+            {
+                "pokedex_number": 933,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0933_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0933_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Naclstack sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/933_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/933_social.jpg",
+                "alt": "Naclstack"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/933_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/933_social_dark.jpg",
+                "alt": "Naclstack"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/933_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/933_social_map.jpg",
+                "alt": "Naclstack"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/933_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/933_social_map_dark.jpg",
+                "alt": "Naclstack"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Naclstack’s strengths and weaknesses?",
+            "answer": "As a Rock-type Pokémon, Naclstack is weak to Fighting, Grass, Ground, Steel, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Naclstack in Pokémon GO?",
+            "answer": "The best moves for Naclstack in Pokémon GO are Smack Down and Rock Blast. This moveset has a DPS (Damage Per Second) of 5.719 and a TDO (Total Damage Output) of 79.306."
+        },
+        {
+            "question": "How does Naclstack perform in Raids?",
+            "answer": "Naclstack's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Naclstack rank as a Rock-type attacker?",
+            "answer": "Naclstack's performance as a Rock-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Naclstack?",
+            "answer": "The following Mega Pokémon boost Naclstack: Mega Aerodactyl, Mega Tyranitar, and Mega Diancie."
+        },
+        {
+            "question": "What is Naclstack’s maximum CP at Level 40 and Level 50?",
+            "answer": "Naclstack’s maximum CP at Level 40 is 1292 CP and 1461 CP at Level 50."
+        },
+        {
+            "question": "Can Naclstack be shiny in Pokémon GO?",
+            "answer": "Naclstack cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Naclstack Dynamax in Pokémon GO?",
+            "answer": "Naclstack cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

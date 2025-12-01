@@ -1,0 +1,951 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2962,
+        "attack": 198,
+        "defense": 183,
+        "stamina": 181,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Tauros",
+        "forms": [
+            {
+                "name": "Tauros",
+                "href": "/pokemon/128",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/128.webp"
+            },
+            {
+                "name": "Paldean Tauros (Aqua Breed)",
+                "href": "/pokemon/128-Paldean_Aqua_Breed",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/128_f4.webp"
+            },
+            {
+                "name": "Paldean Tauros (Blaze Breed)",
+                "href": "/pokemon/128-Paldean_Blaze_Breed",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/128_f3.webp"
+            },
+            {
+                "name": "Paldean Tauros (Combat Breed)",
+                "href": "/pokemon/128-Paldean_Combat_Breed",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/128_f2.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/128.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Earthquake",
+            "dps": 9.51,
+            "tdo": 172.08,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Earthquake",
+                "charged_url": "https://db.pokemongohub.net/move/31",
+                "dps": 9.51,
+                "tdo": 172.1,
+                "score": 8.36
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 9.31,
+                "tdo": 168.4,
+                "score": 8.19
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Horn Attack",
+                "charged_url": "https://db.pokemongohub.net/move/126",
+                "dps": 9.25,
+                "tdo": 167.3,
+                "score": 8.13
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Iron Head",
+                "charged_url": "https://db.pokemongohub.net/move/74",
+                "dps": 8.95,
+                "tdo": 162.0,
+                "score": 7.87
+            },
+            {
+                "rank": 5,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Horn Attack",
+                "charged_url": "https://db.pokemongohub.net/move/126",
+                "dps": 8.5,
+                "tdo": 153.7,
+                "score": 7.47
+            },
+            {
+                "rank": 6,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Earthquake",
+                "charged_url": "https://db.pokemongohub.net/move/31",
+                "dps": 8.43,
+                "tdo": 152.5,
+                "score": 7.41
+            },
+            {
+                "rank": 7,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Trailblaze",
+                "charged_url": "https://db.pokemongohub.net/move/392",
+                "dps": 8.41,
+                "tdo": 152.1,
+                "score": 7.39
+            },
+            {
+                "rank": 8,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Iron Head",
+                "charged_url": "https://db.pokemongohub.net/move/74",
+                "dps": 8.08,
+                "tdo": 146.1,
+                "score": 7.1
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Zen Headbutt",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 9,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/234"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Earthquake",
+                "type": "Ground",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.4s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/31"
+            },
+            {
+                "name": "Iron Head",
+                "type": "Steel",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.4s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/74"
+            },
+            {
+                "name": "Horn Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "0.9s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/126"
+            },
+            {
+                "name": "Trailblaze",
+                "type": "Grass",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.2s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/392"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Tauros's has 2962 max CP (at Level 50). A Tauros obtained from Raids can be encountered from 1425 CP to 1497 CP, or if weather boosted, in the 1781 CP to 1872 CP range. In Field and Special Research, Tauros can be found in the 1069 CP to 1123 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2962",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1069 - 1123",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1425 - 1497",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1425 - 1497",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1781 - 1872",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1781 CP - 1872 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 37,
+        "2": 116,
+        "3": 195,
+        "4": 274,
+        "5": 353,
+        "6": 432,
+        "7": 511,
+        "8": 590,
+        "9": 669,
+        "10": 749,
+        "11": 823,
+        "12": 898,
+        "13": 973,
+        "14": 1048,
+        "15": 1123,
+        "16": 1198,
+        "17": 1272,
+        "18": 1347,
+        "19": 1422,
+        "20": 1497,
+        "21": 1572,
+        "22": 1647,
+        "23": 1722,
+        "24": 1797,
+        "25": 1872,
+        "26": 1946,
+        "27": 2021,
+        "28": 2096,
+        "29": 2171,
+        "30": 2246,
+        "31": 2283,
+        "32": 2321,
+        "33": 2358,
+        "34": 2396,
+        "35": 2433,
+        "36": 2471,
+        "37": 2508,
+        "38": 2545,
+        "39": 2583,
+        "40": 2620,
+        "41": 2654,
+        "42": 2687,
+        "43": 2721,
+        "44": 2755,
+        "45": 2789,
+        "46": 2823,
+        "47": 2858,
+        "48": 2892,
+        "49": 2927,
+        "50": 2962
+    },
+    "meta_analysis": "Tauros in the meta PvE Analysis Tauros is a standalone Pokémon with no evolutions with just average stats. It's difficult for Normal types to make a mark in the PvE meta unless they have high stats to carve a niche for themselves (Blissey) and/or powerful moves that let them do high neutral damage (Regigigas with Crush Grip). Unfortunately, Tauros does nothing in that regard and is just a collectible, although a valuable one due to its regional status and limited global availability. ⚔️ Raids Ideally, you shouldn't be using Normal types in Raid battles due to their inability to deal super-effective damage. Tauros has neither the stats nor the moves to be even functional in Tier 3 Raids. 🛡️ Gyms Mediocre bulk doesn't do Tauros any favors. Just use Blissey, Snorlax, or Slaking instead. ✅ Show more Show less PvP Analysis Tauros has a high energy generation Fast Move in Tackle that syncs well with Horn Attack to spam hits and force the opponent to use shields. Add Trailblaze to the mix, and you can even get a guaranteed ATK buff on each use. That said, Tauros lacks raw power that would have helped it score KOs, and also has mediocre bulk, not helping its cause either. In fact, by the time you attempt to spam Trailblaze or Horn Attack, Tauros’ own HP cuts down to size, forcing you to switch or let it get KO’d for your next Pokémon. Not recommended for PvP usage. ❌ 💎 The best PvP moves for Tauros are Quick Attack, Horn Attack and Trailblaze.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Tauros",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Tauros's Normal-type moves, Candy, and Candy XL from catching Tauros.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 128,
+            "height_m": 1.4,
+            "weight_kg": 88.4,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.69 m",
+            "xs": "0.7 m",
+            "m": "1.4 m",
+            "xl": "2.1 m",
+            "xxl": "2.45 m",
+            "description": "Tauros's height ranges from 0.69 m to 2.45 m, with the average being 1.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.686,
+                "upper_m": 0.7,
+                "lower_ft": "2′03″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.7,
+                "upper_m": 1.4,
+                "lower_ft": "2′04″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.05,
+                "upper_m": 1.75,
+                "lower_ft": "3′05″",
+                "upper_ft": "5′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.75,
+                "upper_m": 2.1,
+                "lower_ft": "5′09″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.1,
+                "upper_m": 2.45,
+                "lower_ft": "6′11″",
+                "upper_ft": "8′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 4,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 11,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "When it targets an enemy, it charges furiously while whipping its body with its long tails."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "A rowdy POKéMON with a lot of stamina. Once running, it won't stop until it hits something."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "They fight each other by locking horns. The herd's protector takes pride in its bat tle-scarred horns."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "After heightening its will to fight by whipping itself with its three tails, it charges at full speed."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "These violent POKéMON fight with other mem bers of their herd in order to prove their strength."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "This POKéMON is not satisfied unless it is rampaging at all times. If there is no opponent for TAUROS to battle, it will charge at thick trees and knock them down to calm itself."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It is not satisfied unless it is rampaging at all times. If there is no opponent for TAUROS to battle, it will charge at thick trees and knock them down to calm itself."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "When it is about to TACKLE, it whips its body repeatedly with its three long tails."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "When it targets an enemy, it charges furiously while whipping its body with its long tails."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "They fight each other by locking horns. The herd’s protector takes pride in its battle-scarred horns."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "After heightening its will to fight by whipping itself with its three tails, it charges at full speed."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "After heightening its will to fight by whipping itself with its three tails, it charges at full speed."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "When it is about to tackle, it whips its body repeatedly with its three long tails."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "This Pokémon is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Historically, people in areas all over the world have ridden Tauros, but the practice is said to have started in Alola."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Although it’s known to be a fierce Pokémon, Tauros in the Alola region are said to possess a measure of calmness."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "The climate seems to be related to the reason Tauros in Alola are a little calmer than those in other regions."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "A rowdy Pokémon with a lot of stamina. Once running, it won’t stop until it hits something."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "When Tauros begins whipping itself with its tails, it’s a warning that the Pokémon is about to charge with astounding speed."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "The Tauros of the Galar region are volatile in nature, and they won’t allow people to ride on their backs."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Tauros",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm128.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm128.icon.png"
+            },
+            {
+                "label": "Shiny Tauros",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm128.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm128.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 128,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0128_000_mo_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0128_000_mo_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Tauros sprite"
+            },
+            {
+                "pokedex_number": 128,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0128_000_mo_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0128_000_mo_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Tauros sprite"
+            },
+            {
+                "pokedex_number": 128,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0128_003_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0128_003_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Tauros sprite"
+            },
+            {
+                "pokedex_number": 128,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0128_003_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0128_003_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Tauros sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/128_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/128_social.jpg",
+                "alt": "Tauros"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/128_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/128_social_dark.jpg",
+                "alt": "Tauros"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/128_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/128_social_map.jpg",
+                "alt": "Tauros"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/128_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/128_social_map_dark.jpg",
+                "alt": "Tauros"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Tauros’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Tauros is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Tauros in Pokémon GO?",
+            "answer": "The best moves for Tauros in Pokémon GO are Tackle and Earthquake. This moveset has a DPS (Damage Per Second) of 9.513 and a TDO (Total Damage Output) of 172.078."
+        },
+        {
+            "question": "How does Tauros perform in Raids?",
+            "answer": "Tauros's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Tauros rank as a Normal-type attacker?",
+            "answer": "Tauros is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Tauros?",
+            "answer": "The following Mega Pokémon boost Tauros: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Tauros’s maximum CP at Level 40 and Level 50?",
+            "answer": "Tauros’s maximum CP at Level 40 is 2620 CP and 2962 CP at Level 50."
+        },
+        {
+            "question": "Can Tauros be shiny in Pokémon GO?",
+            "answer": "Tauros can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Tauros Dynamax in Pokémon GO?",
+            "answer": "Tauros cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,847 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2858,
+        "attack": 162,
+        "defense": 203,
+        "stamina": 225,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Relicanth",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/369.webp",
+        "types": [
+            "Water",
+            "Rock"
+        ],
+        "weather_boost": [
+            "rain",
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Hydro Pump",
+            "dps": 8.95,
+            "tdo": 218.16,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Hydro Pump",
+                "charged_url": "https://db.pokemongohub.net/move/107",
+                "dps": 8.95,
+                "tdo": 218.2,
+                "score": 8.12
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Aqua Tail",
+                "charged_url": "https://db.pokemongohub.net/move/58",
+                "dps": 8.42,
+                "tdo": 205.4,
+                "score": 7.64
+            },
+            {
+                "rank": 3,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 7.96,
+                "tdo": 194.1,
+                "score": 7.22
+            },
+            {
+                "rank": 4,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Hydro Pump",
+                "charged_url": "https://db.pokemongohub.net/move/107",
+                "dps": 7.96,
+                "tdo": 194.1,
+                "score": 7.22
+            },
+            {
+                "rank": 5,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Aqua Tail",
+                "charged_url": "https://db.pokemongohub.net/move/58",
+                "dps": 7.75,
+                "tdo": 189.0,
+                "score": 7.03
+            },
+            {
+                "rank": 6,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 7.48,
+                "tdo": 182.5,
+                "score": 6.79
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            },
+            {
+                "name": "Zen Headbutt",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 9,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/234"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aqua Tail",
+                "type": "Water",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/58"
+            },
+            {
+                "name": "Ancient Power",
+                "type": "Rock",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.9s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/62"
+            },
+            {
+                "name": "Hydro Pump",
+                "type": "Water",
+                "stats": {
+                    "damage": 135,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 135,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.1s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/107"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Relicanth's has 2858 max CP (at Level 50). A Relicanth obtained from Raids can be encountered from 1373 CP to 1444 CP, or if weather boosted, in the 1716 CP to 1806 CP range. In Field and Special Research, Relicanth can be found in the 1030 CP to 1083 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2858",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1030 - 1083",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1373 - 1444",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1373 - 1444",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1716 - 1806",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1716 CP - 1806 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 35,
+        "2": 112,
+        "3": 188,
+        "4": 264,
+        "5": 341,
+        "6": 417,
+        "7": 493,
+        "8": 570,
+        "9": 646,
+        "10": 722,
+        "11": 794,
+        "12": 867,
+        "13": 939,
+        "14": 1011,
+        "15": 1083,
+        "16": 1156,
+        "17": 1228,
+        "18": 1300,
+        "19": 1372,
+        "20": 1444,
+        "21": 1517,
+        "22": 1589,
+        "23": 1661,
+        "24": 1733,
+        "25": 1806,
+        "26": 1878,
+        "27": 1950,
+        "28": 2023,
+        "29": 2095,
+        "30": 2167,
+        "31": 2203,
+        "32": 2239,
+        "33": 2275,
+        "34": 2312,
+        "35": 2348,
+        "36": 2384,
+        "37": 2420,
+        "38": 2456,
+        "39": 2492,
+        "40": 2528,
+        "41": 2560,
+        "42": 2593,
+        "43": 2625,
+        "44": 2658,
+        "45": 2691,
+        "46": 2724,
+        "47": 2757,
+        "48": 2791,
+        "49": 2824,
+        "50": 2858
+    },
+    "meta_analysis": "Relicanth in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Relicanth",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Relicanth's Water and Rock-type moves, Candy, and Candy XL from catching Relicanth.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 369,
+            "height_m": 0.99,
+            "weight_kg": 23.4,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "0.99 m",
+            "xl": "1.49 m",
+            "xxl": "1.98 m",
+            "description": "Relicanth's height ranges from 0.49 m to 1.98 m, with the average being 0.99 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.4851,
+                "upper_m": 0.495,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′07″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.495,
+                "upper_m": 0.99,
+                "lower_ft": "1′07″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.7425,
+                "upper_m": 1.2375,
+                "lower_ft": "2′05″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.2375,
+                "upper_m": 1.485,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.485,
+                "upper_m": 1.98,
+                "lower_ft": "4′10″",
+                "upper_ft": "6′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 5.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 5.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "RELICANTH is a POKéMON species that existed for a hundred million years without ever changing its form. This ancient POKéMON feeds on microscopic organisms with its toothless mouth."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "RELICANTH is a rare species that was discovered in deep-sea explorations. This POKéMON’s body withstands the enormous water pressure of the ocean depths. Its body is covered in tough scales that are like craggy rocks."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "A POKéMON that was once believed to have been extinct. The species has not changed its form for 100 million years. It walks on the seafloor using its pectoral fins."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It has remained unchanged for 100 million years. It was discovered during a deep-sea exploration."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "Discovered by chance during deep-sea explorations, it has not changed since ancient times."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It has remained unchanged for 100 million years. It was discovered during a deep-sea exploration."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "A rare Pokémon discovered during a deep-sea exploration. It has not changed in over 100 million years."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Relicanth is a Pokémon species that existed for a hundred million years without ever changing its form. This ancient Pokémon feeds on microscopic organisms with its toothless mouth."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Relicanth is a rare species that was discovered in deep-sea explorations. This Pokémon’s body withstands the enormous water pressure of the ocean depths. Its body is covered in tough scales that are like craggy rocks."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Its form has remained the same for one hundred million years. Its body is filled with fat, so it can withstand the water pressure of the deep sea."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It was fortuitously discovered during a deep sea expedition. Its teeth have atrophied, so it now survives on microscopic organisms it sucks up."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Thought to have gone extinct, Relicanth was given a name that is a variation of the name of the person who discovered it."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "The reason it hasn’t changed at all in a hundred million years is that it’s apparently already a perfect life-form."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Rock-hard scales and oil-filled swim bladders allow this Pokémon to survive the intense water pressure of the deep sea."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This Pokémon was discovered during deep-sea exploration. Its appearance hasn’t changed in 100,000,000 years, so it’s called a living fossil."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Relicanth",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm369.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm369.icon.png"
+            },
+            {
+                "label": "Regular Relicanth♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm369.g2.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm369.g2.icon.png"
+            },
+            {
+                "label": "Shiny Relicanth",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm369.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm369.s.icon.png"
+            },
+            {
+                "label": "Shiny Relicanth♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm369.g2.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm369.g2.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 369,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0369_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0369_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Relicanth ♀ sprite"
+            },
+            {
+                "pokedex_number": 369,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0369_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0369_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Relicanth ♀ sprite"
+            },
+            {
+                "pokedex_number": 369,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0369_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0369_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Relicanth sprite"
+            },
+            {
+                "pokedex_number": 369,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0369_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0369_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Relicanth sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/369_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/369_social.jpg",
+                "alt": "Relicanth"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/369_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/369_social_dark.jpg",
+                "alt": "Relicanth"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/369_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/369_social_map.jpg",
+                "alt": "Relicanth"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/369_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/369_social_map_dark.jpg",
+                "alt": "Relicanth"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Relicanth’s strengths and weaknesses?",
+            "answer": "As a Water and Rock-type Pokémon, Relicanth is especially weak against Grass-type moves, and weak against Electric, Fighting, and Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Relicanth in Pokémon GO?",
+            "answer": "The best moves for Relicanth in Pokémon GO are Water Gun and Hydro Pump. This moveset has a DPS (Damage Per Second) of 8.946 and a TDO (Total Damage Output) of 218.157."
+        },
+        {
+            "question": "How does Relicanth perform in Raids?",
+            "answer": "Relicanth's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Relicanth rank as a Water-type attacker?",
+            "answer": "Relicanth is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Relicanth rank as a Rock-type attacker?",
+            "answer": "Relicanth is an F-Tier Rock-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Relicanth?",
+            "answer": "The following Mega Pokémon boost Relicanth: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Aerodactyl, Mega Tyranitar, and Mega Diancie."
+        },
+        {
+            "question": "What is Relicanth’s maximum CP at Level 40 and Level 50?",
+            "answer": "Relicanth’s maximum CP at Level 40 is 2528 CP and 2858 CP at Level 50."
+        },
+        {
+            "question": "Can Relicanth be shiny in Pokémon GO?",
+            "answer": "Relicanth can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Relicanth Dynamax in Pokémon GO?",
+            "answer": "Relicanth cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

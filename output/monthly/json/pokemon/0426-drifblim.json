@@ -1,0 +1,915 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2693,
+        "attack": 180,
+        "defense": 102,
+        "stamina": 312,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Drifblim",
+        "forms": [
+            {
+                "name": "Drifblim",
+                "href": "/pokemon/426",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/426.webp"
+            },
+            {
+                "name": "Shadow Drifblim",
+                "href": "/pokemon/426-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/426.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/426.webp",
+        "types": [
+            "Ghost",
+            "Flying"
+        ],
+        "weather_boost": [
+            "fog",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Hex",
+            "charged": "Shadow Ball",
+            "dps": 11.0,
+            "tdo": 196.08,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 11.0,
+                "tdo": 196.1,
+                "score": 9.65
+            },
+            {
+                "rank": 2,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 10.74,
+                "tdo": 191.5,
+                "score": 9.42
+            },
+            {
+                "rank": 3,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Mystical Fire",
+                "charged_url": "https://db.pokemongohub.net/move/382",
+                "dps": 9.04,
+                "tdo": 161.3,
+                "score": 7.93
+            },
+            {
+                "rank": 4,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Mystical Fire",
+                "charged_url": "https://db.pokemongohub.net/move/382",
+                "dps": 8.8,
+                "tdo": 156.9,
+                "score": 7.72
+            },
+            {
+                "rank": 5,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Ominous Wind",
+                "charged_url": "https://db.pokemongohub.net/move/69",
+                "dps": 8.67,
+                "tdo": 154.5,
+                "score": 7.6
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Ominous Wind",
+                "charged_url": "https://db.pokemongohub.net/move/69",
+                "dps": 8.45,
+                "tdo": 150.7,
+                "score": 7.42
+            },
+            {
+                "rank": 7,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 7.0,
+                "tdo": 124.9,
+                "score": 6.14
+            },
+            {
+                "rank": 8,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 6.84,
+                "tdo": 122.0,
+                "score": 6.0
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            },
+            {
+                "name": "Hex",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 8,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 8,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/264"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ominous Wind",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/69"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Icy Wind",
+                "type": "Ice",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.2s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/111"
+            },
+            {
+                "name": "Mystical Fire",
+                "type": "Fire",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/382"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Drifblim's has 2693 max CP (at Level 50). A Drifblim obtained from Raids can be encountered from 1287 CP to 1361 CP, or if weather boosted, in the 1609 CP to 1701 CP range. In Field and Special Research, Drifblim can be found in the 965 CP to 1021 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2693",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "965 - 1021",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1287 - 1361",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1287 - 1361",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1609 - 1701",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1609 CP - 1701 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 33,
+        "2": 105,
+        "3": 177,
+        "4": 249,
+        "5": 321,
+        "6": 393,
+        "7": 465,
+        "8": 537,
+        "9": 608,
+        "10": 680,
+        "11": 748,
+        "12": 816,
+        "13": 884,
+        "14": 953,
+        "15": 1021,
+        "16": 1089,
+        "17": 1157,
+        "18": 1225,
+        "19": 1293,
+        "20": 1361,
+        "21": 1429,
+        "22": 1497,
+        "23": 1565,
+        "24": 1633,
+        "25": 1701,
+        "26": 1769,
+        "27": 1837,
+        "28": 1905,
+        "29": 1973,
+        "30": 2042,
+        "31": 2076,
+        "32": 2110,
+        "33": 2144,
+        "34": 2178,
+        "35": 2212,
+        "36": 2246,
+        "37": 2280,
+        "38": 2314,
+        "39": 2348,
+        "40": 2382,
+        "41": 2412,
+        "42": 2442,
+        "43": 2473,
+        "44": 2504,
+        "45": 2535,
+        "46": 2566,
+        "47": 2597,
+        "48": 2629,
+        "49": 2661,
+        "50": 2693
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Drifloon",
+                    "href": "/pokemon/425",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/425.webp"
+                },
+                "to": {
+                    "name": "Drifblim",
+                    "href": "/pokemon/426",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/426.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Drifloon",
+                "href": "/pokemon/425",
+                "img": "https://db.pokemongohub.net/images/official/medium/425.webp"
+            },
+            {
+                "name": "Drifblim",
+                "href": "/pokemon/426",
+                "img": "https://db.pokemongohub.net/images/official/medium/426.webp"
+            },
+            {
+                "name": "Shadow Drifloon",
+                "href": "/pokemon/425-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Drifblim",
+                "href": "/pokemon/426-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Drifblim in the meta PvE Analysis Drifblim doesn't have enough attacking power to pull its weight in the PvP meta , but it has a jaw-dropping 312 HP stat to boot 😧 ⚔️ Raids - It'll just waste many seconds on the Raid timer without doing considerable damage 🙄 🛡️ Gyms - Its insane HP but less than impressive DEF make it an appreciable Gym defender . It particularly excels against Fighting-type attackers due to a superb triple resistance against them ⭐ PvP Analysis Astonish buffed to new heights gives Drifblim fresh pastures in the lower PvP Leagues , and to remarkable success! 😎 🔵 Great League - Drifblim is a fine choice in the Great League , where it grabs numerous wins against some of this format’s biggest threats ✌️ However, this is nothing compared to what it's capable of when you power it up even further 👀 🟡 Ultra League - Drifblim literally haunts the Ultra League , striking fear among most Pokémon thanks to its moveset and coverage ⭐ It takes out the best of the lot, including Cobalion , Virizion , Cresselia , Giratina Altered , Clefable , Malamar , Ampharos , and Talonflame 😏 🟣 Master League - Drifblim runs out of fuel for the Master League 📉 Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Drifblim",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Drifblim's Ghost and Flying-type moves, Candy, and Candy XL from catching Drifblim.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 426,
+            "height_m": 1.2,
+            "weight_kg": 15,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.59 m",
+            "xs": "0.6 m",
+            "m": "1.2 m",
+            "xl": "1.8 m",
+            "xxl": "2.4 m",
+            "description": "Drifblim's height ranges from 0.59 m to 2.4 m, with the average being 1.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.588,
+                "upper_m": 0.6,
+                "lower_ft": "1′11″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.6,
+                "upper_m": 1.2,
+                "lower_ft": "1′12″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.9,
+                "upper_m": 1.5,
+                "lower_ft": "2′11″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.5,
+                "upper_m": 1.8,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.8,
+                "upper_m": 2.4,
+                "lower_ft": "5′11″",
+                "upper_ft": "7′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 5.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 30.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It’s drowzy in daytime, but flies off in the evening in big groups. No one knows where they go."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It carries people and Pokémon when it flies. But since it only drifts, it can end up anywhere."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It can generate and release gas within its body. That’s how it can control the altitude of its drift."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "They carry people and Pokémon, but the wind can catch them, so there can’t be a fixed destination."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It carries people and Pokémon when it flies. But since it only drifts, it can end up anywhere."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It’s drowsy in daytime, but flies off in the evening in big groups. No one knows where they go."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "There was once an incident in which a man took a trip riding a Drifblim, only to go missing."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Even while under careful observation, large flocks of Drifblim flying at dusk will inexplicably disappear from view."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "There’s a rumor that if you catch a Drifblim floating on the wind at dusk, you’ll be carried away to the afterlife."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "The raw material for the gas inside its body is souls. When its body starts to deflate, it’s thought to carry away people and Pokémon."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Some say this Pokémon is a collection of souls burdened with regrets, silently drifting through the dusk."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It grabs people and Pokémon and carries them off somewhere. Where do they go? Nobody knows."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "It drifts along at dusk, perfectly silent. Its transient, melancholy aspect touches some people deeply—every so often, one will come upon a song or poem devoted to Drifblim."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Drifblim",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm426.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm426.icon.png"
+            },
+            {
+                "label": "Shiny Drifblim",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm426.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm426.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 426,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0426_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0426_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Drifblim sprite"
+            },
+            {
+                "pokedex_number": 426,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0426_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0426_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Drifblim sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/426_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/426_social.jpg",
+                "alt": "Drifblim"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/426_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/426_social_dark.jpg",
+                "alt": "Drifblim"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/426_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/426_social_map.jpg",
+                "alt": "Drifblim"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/426_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/426_social_map_dark.jpg",
+                "alt": "Drifblim"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 426,
+            "name": "Drifblim",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm426.cHALLOWEEN_2021_NOEVOLVE.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm426.cHALLOWEEN_2021_NOEVOLVE.icon.png",
+            "category": "Halloween 2021"
+        },
+        {
+            "pokedex_number": 426,
+            "name": "Shiny Drifblim",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm426.cHALLOWEEN_2021_NOEVOLVE.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm426.cHALLOWEEN_2021_NOEVOLVE.s.icon.png",
+            "category": "Halloween 2021"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Drifblim’s strengths and weaknesses?",
+            "answer": "As a Ghost and Flying-type Pokémon, Drifblim is weak to Dark, Electric, Ghost, Ice, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Drifblim in Pokémon GO?",
+            "answer": "The best moves for Drifblim in Pokémon GO are Hex and Shadow Ball. This moveset has a DPS (Damage Per Second) of 10.996 and a TDO (Total Damage Output) of 196.08."
+        },
+        {
+            "question": "How does Drifblim perform in Raids?",
+            "answer": "Drifblim's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Drifblim rank as a Ghost-type attacker?",
+            "answer": "Drifblim is an F-Tier Ghost-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Drifblim?",
+            "answer": "The following Mega Pokémon boost Drifblim: Mega Gengar, Mega Sableye, Mega Banette, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Drifblim’s maximum CP at Level 40 and Level 50?",
+            "answer": "Drifblim’s maximum CP at Level 40 is 2382 CP and 2693 CP at Level 50."
+        },
+        {
+            "question": "Can Drifblim be shiny in Pokémon GO?",
+            "answer": "Drifblim can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Drifblim Dynamax in Pokémon GO?",
+            "answer": "Drifblim cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

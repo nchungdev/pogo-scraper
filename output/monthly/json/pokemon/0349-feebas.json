@@ -1,0 +1,722 @@
+{
+    "overview_and_stats": {
+        "max_cp": 310,
+        "attack": 29,
+        "defense": 85,
+        "stamina": 85,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Feebas",
+        "forms": [
+            {
+                "name": "Feebas",
+                "href": "/pokemon/349",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/349.webp"
+            },
+            {
+                "name": "Shadow Feebas",
+                "href": "/pokemon/349-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/349.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/349.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Mirror Coat",
+            "dps": 1.97,
+            "tdo": 9.16,
+            "boosted_weather": [
+                "partlyCloudy",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Mirror Coat",
+                "charged_url": "https://db.pokemongohub.net/move/276",
+                "dps": 1.97,
+                "tdo": 9.2,
+                "score": 1.28
+            },
+            {
+                "rank": 2,
+                "fast": "Splash",
+                "fast_url": "https://db.pokemongohub.net/move/231",
+                "charged": "Mirror Coat",
+                "charged_url": "https://db.pokemongohub.net/move/276",
+                "dps": 0.33,
+                "tdo": 1.6,
+                "score": 0.22
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Splash",
+                "type": "Water",
+                "stats": {
+                    "damage": 0,
+                    "energy": 17,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 0,
+                    "energy": 17,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 0,
+                    "energy": 12
+                },
+                "url": "https://db.pokemongohub.net/move/231"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Mirror Coat",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.2s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/276"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Feebas's has 310 max CP (at Level 50). A Feebas obtained from Raids can be encountered from 132 CP to 157 CP, or if weather boosted, in the 165 CP to 196 CP range. In Field and Special Research, Feebas can be found in the 99 CP to 117 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "310",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "99 - 117",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "132 - 157",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "132 - 157",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "165 - 196",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "165 CP - 196 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 3,
+        "2": 12,
+        "3": 20,
+        "4": 28,
+        "5": 37,
+        "6": 45,
+        "7": 53,
+        "8": 61,
+        "9": 70,
+        "10": 78,
+        "11": 86,
+        "12": 94,
+        "13": 102,
+        "14": 109,
+        "15": 117,
+        "16": 125,
+        "17": 133,
+        "18": 141,
+        "19": 149,
+        "20": 157,
+        "21": 164,
+        "22": 172,
+        "23": 180,
+        "24": 188,
+        "25": 196,
+        "26": 204,
+        "27": 212,
+        "28": 219,
+        "29": 227,
+        "30": 235,
+        "31": 239,
+        "32": 243,
+        "33": 247,
+        "34": 251,
+        "35": 255,
+        "36": 259,
+        "37": 263,
+        "38": 266,
+        "39": 270,
+        "40": 274,
+        "41": 278,
+        "42": 281,
+        "43": 285,
+        "44": 288,
+        "45": 292,
+        "46": 296,
+        "47": 299,
+        "48": 303,
+        "49": 306,
+        "50": 310
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Feebas",
+                    "href": "/pokemon/349",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/349.webp"
+                },
+                "to": {
+                    "name": "Milotic",
+                    "href": "/pokemon/350",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/350.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Walk 20 km with your buddy"
+                ]
+            }
+        ],
+        "details": [
+            "100 Candy",
+            "Walk 20 km with your buddy"
+        ],
+        "family": [
+            {
+                "name": "Feebas",
+                "href": "/pokemon/349",
+                "img": "https://db.pokemongohub.net/images/official/medium/349.webp"
+            },
+            {
+                "name": "Milotic",
+                "href": "/pokemon/350",
+                "img": "https://db.pokemongohub.net/images/official/medium/350.webp"
+            },
+            {
+                "name": "Shadow Feebas",
+                "href": "/pokemon/349-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Milotic",
+                "href": "/pokemon/350-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Feebas in the meta PvE Analysis An ATK stat of 29, pathetic bulk, and access to terrible moves make Feebas one of the worst Pokémon in the game. PvP Analysis 29 ATK. 84 DEF and HP. Tackle, Splash, Mirror Coat. Don't ever use Feebas in PvP.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Feebas",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Feebas's Water-type moves, Candy, and Candy XL from catching Feebas.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 349,
+            "height_m": 0.61,
+            "weight_kg": 7.4,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.3 m",
+            "xs": "0.31 m",
+            "m": "0.61 m",
+            "xl": "0.92 m",
+            "xxl": "1.22 m",
+            "description": "Feebas's height ranges from 0.3 m to 1.22 m, with the average being 0.61 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2989,
+                "upper_m": 0.305,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′00″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.305,
+                "upper_m": 0.61,
+                "lower_ft": "1′00″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.4575,
+                "upper_m": 0.7625,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.7625,
+                "upper_m": 0.915,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.915,
+                "upper_m": 1.22,
+                "lower_ft": "3′00″",
+                "upper_ft": "4′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 10.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.4,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "FEEBAS’s fins are ragged and tattered from the start of its life. Because of its shoddy appearance, this POKéMON is largely ignored. It is capable of living in both the sea and in rivers."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "While FEEBAS’s body is in tatters, it has a hardy and tenacious life force that enables it to live anywhere. However, this POKéMON is also slow and dimwitted, making it an easy catch."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "FEEBAS live in ponds that are heavily infested with weeds. Because of its hopelessly shabby appearance, it seems as if few TRAINERS raise it."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "Ridiculed for its shabby appearance, it is ignored by researchers. It lives in ponds choked with weeds."
+        },
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "It is famous for its shabby appearance. While populous, they tend to cluster in set locations."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It eats anything, so it can even live in polluted streams and lakes. No one pays any attention to it."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It is the shabbiest Pokémon of all. It forms in schools and lives at the bottom of rivers."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It eats anything, so it can even live in polluted streams and lakes. No one pays any attention to it."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It is the shabbiest Pokémon of all. It forms in schools and lives at the bottom of rivers."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Feebas’s fins are ragged and tattered from the start of its life. Because of its shoddy appearance, this Pokémon is largely ignored. It is capable of living in both the sea and in rivers."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "While Feebas’s body is in tatters, it has a hardy and tenacious life force that enables it to live anywhere. However, this Pokémon is also slow and dimwitted, making it an easy catch."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "A tough Pokémon that is perfectly fine even in dirty water. However, due to its ragged, shabby appearance, it isn’t popular."
+        },
+        {
+            "versions": [
+                "Moon",
+                "Sword"
+            ],
+            "entry": "Although unattractive and unpopular, this Pokémon’s marvelous vitality has made it a subject of research."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "They look ragged, so no one catches them. They look like they’d taste bad, so predators won’t eat them. And their numbers continue to grow."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Because of its wretched appearance, most people pay it no attention, but there are some who collect Feebas—and Feebas alone!"
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Feebas",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm349.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm349.icon.png"
+            },
+            {
+                "label": "Shiny Feebas",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm349.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm349.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 349,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0349_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0349_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Feebas sprite"
+            },
+            {
+                "pokedex_number": 349,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0349_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0349_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Feebas sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/349_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/349_social.jpg",
+                "alt": "Feebas"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/349_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/349_social_dark.jpg",
+                "alt": "Feebas"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/349_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/349_social_map.jpg",
+                "alt": "Feebas"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/349_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/349_social_map_dark.jpg",
+                "alt": "Feebas"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Feebas’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Feebas is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Feebas in Pokémon GO?",
+            "answer": "The best moves for Feebas in Pokémon GO are Tackle and Mirror Coat. This moveset has a DPS (Damage Per Second) of 1.966 and a TDO (Total Damage Output) of 9.163."
+        },
+        {
+            "question": "How does Feebas perform in Raids?",
+            "answer": "Feebas's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Feebas rank as a Water-type attacker?",
+            "answer": "Feebas's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Feebas?",
+            "answer": "The following Mega Pokémon boost Feebas: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Feebas’s maximum CP at Level 40 and Level 50?",
+            "answer": "Feebas’s maximum CP at Level 40 is 274 CP and 310 CP at Level 50."
+        },
+        {
+            "question": "Can Feebas be shiny in Pokémon GO?",
+            "answer": "Feebas can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Feebas Dynamax in Pokémon GO?",
+            "answer": "Feebas cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,981 @@
+{
+    "overview_and_stats": {
+        "max_cp": 535,
+        "attack": 77,
+        "defense": 53,
+        "stamina": 85,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Pichu",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/172.webp",
+        "types": [
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Thunder Shock",
+            "charged": "Thunder Punch",
+            "dps": 2.94,
+            "tdo": 9.31,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Thunder Punch",
+                "charged_url": "https://db.pokemongohub.net/move/77",
+                "dps": 2.94,
+                "tdo": 9.3,
+                "score": 1.64
+            },
+            {
+                "rank": 2,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 2.94,
+                "tdo": 9.3,
+                "score": 1.64
+            },
+            {
+                "rank": 3,
+                "fast": "Thunder Shock",
+                "fast_url": "https://db.pokemongohub.net/move/205",
+                "charged": "Disarming Voice",
+                "charged_url": "https://db.pokemongohub.net/move/84",
+                "dps": 2.94,
+                "tdo": 9.3,
+                "score": 1.64
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Thunder Shock",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/205"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Thunder Punch",
+                "type": "Electric",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.9s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/77"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            },
+            {
+                "name": "Disarming Voice",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.3s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/84"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Pichu's has 535 max CP (at Level 50). A Pichu obtained from Raids can be encountered from 240 CP to 270 CP, or if weather boosted, in the 300 CP to 338 CP range. In Field and Special Research, Pichu can be found in the 180 CP to 203 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "535",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "180 - 203",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "240 - 270",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "240 - 270",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "300 - 338",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "300 CP - 338 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 6,
+        "2": 21,
+        "3": 35,
+        "4": 49,
+        "5": 63,
+        "6": 78,
+        "7": 92,
+        "8": 106,
+        "9": 121,
+        "10": 135,
+        "11": 148,
+        "12": 162,
+        "13": 176,
+        "14": 189,
+        "15": 203,
+        "16": 216,
+        "17": 230,
+        "18": 243,
+        "19": 257,
+        "20": 270,
+        "21": 284,
+        "22": 297,
+        "23": 311,
+        "24": 324,
+        "25": 338,
+        "26": 352,
+        "27": 365,
+        "28": 379,
+        "29": 392,
+        "30": 406,
+        "31": 412,
+        "32": 419,
+        "33": 426,
+        "34": 433,
+        "35": 440,
+        "36": 446,
+        "37": 453,
+        "38": 460,
+        "39": 467,
+        "40": 473,
+        "41": 479,
+        "42": 485,
+        "43": 491,
+        "44": 498,
+        "45": 504,
+        "46": 510,
+        "47": 516,
+        "48": 523,
+        "49": 529,
+        "50": 535
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Pichu",
+                    "href": "/pokemon/172",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/172.webp"
+                },
+                "to": {
+                    "name": "Pikachu",
+                    "href": "/pokemon/25",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/025.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Pikachu",
+                    "href": "/pokemon/25",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/025.webp"
+                },
+                "to": {
+                    "name": "Raichu",
+                    "href": "/pokemon/26",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/026.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Pikachu",
+                "href": "/pokemon/25",
+                "img": "https://db.pokemongohub.net/images/official/medium/025.webp"
+            },
+            {
+                "name": "Raichu",
+                "href": "/pokemon/26",
+                "img": "https://db.pokemongohub.net/images/official/medium/026.webp"
+            },
+            {
+                "name": "Pichu",
+                "href": "/pokemon/172",
+                "img": "https://db.pokemongohub.net/images/official/medium/172.webp"
+            },
+            {
+                "name": "Alolan Raichu",
+                "href": "/pokemon/26-Alola",
+                "img": "https://db.pokemongohub.net/images/official/medium/026_f2.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Pichu in the meta PvE Analysis Pichu is a Baby Pokémon with only double digit stats across the board 🚼 You really want to send this little one to fight PvE battles ? 🤨 ⚔️ Raids - There, there… calm down, little baby 🍼 🛡️ Gyms - Seriously ? 😑 PvP Analysis 🧸 Little Cup - Thunder Shock combined with the cheap Thunder Punch and Disarming Voice make for a fun set that can grab you some wins, but its low stats hinder it largely. 🔵 Great League - It's a BABY POKÉMON ! 🟡 Ultra League - Read above . 🟣 Master League - Again, read above .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Pichu",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Pichu's Electric-type moves, Candy, and Candy XL from catching Pichu.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 172,
+            "height_m": 0.3,
+            "weight_kg": 2,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Pichu's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It is unskilled at storing electric power. Any kind of shock causes it to discharge energy spontaneously."
+        },
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "PICHU charges itself with electricity more easily on days with thunderclouds or when the air is very dry. You can hear the crackling of static electricity coming off this POKéMON."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "When PICHU plays with others, it may short out electricity with another PICHU, creating a shower of sparks. In that event, this POKéMON will begin crying, startled by the flash of sparks."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It is still inept at retaining electricity. When it is startled, it discharges power accidentally. It gets better at holding power as it grows older."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled."
+        },
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "The electric pouches on its cheeks are still small. They cannot store much electricity yet."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It plays with others by touching tails and setting off sparks. This appears to be a test of courage."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It plays with others by touching tails and setting off sparks. This appears to be a test of courage."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Pichu charges itself with electricity more easily on days with thunderclouds or when the air is very dry. You can hear the crackling of static electricity coming off this Pokémon."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "When Pichu plays with others, it may short out electricity with another Pichu, creating a shower of sparks. In that event, this Pokémon will begin crying, startled by the flash of sparks."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It is not yet skilled at controlling electricity. If you take your eyes off it, it may shock itself."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Despite this Pokémon’s cute appearance, those who want to live with one should prepare to be on the receiving end of its electric jolts."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It still can’t use electricity well. When it’s surprised or excited, it discharges electricity unintentionally."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It has electric sacs in its cheeks. When they’re fully charged, Pichu plays very energetically."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Pichu stores electricity in the sacs on its cheeks but discharges it inadvertently when agitated or excited. Being yet immature, the Pokémon's handling of electricity is rather inept."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Pichu",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.icon.png"
+            },
+            {
+                "label": "Shiny Pichu",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 172,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0172_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0172_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Pichu sprite"
+            },
+            {
+                "pokedex_number": 172,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0172_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0172_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Pichu sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/172_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/172_social.jpg",
+                "alt": "Pichu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/172_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/172_social_dark.jpg",
+                "alt": "Pichu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/172_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/172_social_map.jpg",
+                "alt": "Pichu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/172_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/172_social_map_dark.jpg",
+                "alt": "Pichu"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 172,
+            "name": "Pichu",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cANNIVERSARY.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cANNIVERSARY.icon.png",
+            "category": "Anniversary"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Shiny Pichu",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cANNIVERSARY.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cANNIVERSARY.s.icon.png",
+            "category": "Anniversary"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Pichu",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cCOSTUME_2.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cCOSTUME_2.icon.png",
+            "category": "Costume 2"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Shiny Pichu",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cCOSTUME_2.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cCOSTUME_2.s.icon.png",
+            "category": "Costume 2"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Pichu",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cFALL_2018.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cFALL_2018.icon.png",
+            "category": "Fall 2018"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Shiny Pichu",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cFALL_2018.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cFALL_2018.s.icon.png",
+            "category": "Fall 2018"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Pichu",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cHALLOWEEN_2017.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cHALLOWEEN_2017.icon.png",
+            "category": "Halloween 2017"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Shiny Pichu",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cHALLOWEEN_2017.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cHALLOWEEN_2017.s.icon.png",
+            "category": "Halloween 2017"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Pichu",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cHOLIDAY_2016.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cHOLIDAY_2016.icon.png",
+            "category": "Holiday 2016"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Shiny Pichu",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cHOLIDAY_2016.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cHOLIDAY_2016.s.icon.png",
+            "category": "Holiday 2016"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Pichu",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cNOVEMBER_2018.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cNOVEMBER_2018.icon.png",
+            "category": "November 2018"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Shiny Pichu",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cNOVEMBER_2018.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cNOVEMBER_2018.s.icon.png",
+            "category": "November 2018"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Pichu",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cONE_YEAR_ANNIVERSARY.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cONE_YEAR_ANNIVERSARY.icon.png",
+            "category": "One Year Anniversary"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Shiny Pichu",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cONE_YEAR_ANNIVERSARY.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cONE_YEAR_ANNIVERSARY.s.icon.png",
+            "category": "One Year Anniversary"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Pichu",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cSPRING_2023.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cSPRING_2023.icon.png",
+            "category": "Spring 2023"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Shiny Pichu",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cSPRING_2023.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cSPRING_2023.s.icon.png",
+            "category": "Spring 2023"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Pichu",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cSUMMER_2018.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cSUMMER_2018.icon.png",
+            "category": "Summer 2018"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Shiny Pichu",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cSUMMER_2018.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cSUMMER_2018.s.icon.png",
+            "category": "Summer 2018"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Pichu",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cWINTER_2018.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cWINTER_2018.icon.png",
+            "category": "Winter 2018"
+        },
+        {
+            "pokedex_number": 172,
+            "name": "Shiny Pichu",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm172.cWINTER_2018.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm172.cWINTER_2018.s.icon.png",
+            "category": "Winter 2018"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Pichu’s strengths and weaknesses?",
+            "answer": "As a Electric-type Pokémon, Pichu is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Pichu in Pokémon GO?",
+            "answer": "The best moves for Pichu in Pokémon GO are Thunder Shock and Thunder Punch. This moveset has a DPS (Damage Per Second) of 2.939 and a TDO (Total Damage Output) of 9.315."
+        },
+        {
+            "question": "How does Pichu perform in Raids?",
+            "answer": "Pichu's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Pichu rank as a Electric-type attacker?",
+            "answer": "Pichu's performance as a Electric-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Pichu?",
+            "answer": "The following Mega Pokémon boost Pichu: Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Pichu’s maximum CP at Level 40 and Level 50?",
+            "answer": "Pichu’s maximum CP at Level 40 is 473 CP and 535 CP at Level 50."
+        },
+        {
+            "question": "Can Pichu be shiny in Pokémon GO?",
+            "answer": "Pichu can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Pichu Dynamax in Pokémon GO?",
+            "answer": "Pichu cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

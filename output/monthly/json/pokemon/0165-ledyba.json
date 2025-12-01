@@ -1,0 +1,906 @@
+{
+    "overview_and_stats": {
+        "max_cp": 823,
+        "attack": 72,
+        "defense": 118,
+        "stamina": 120,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Ledyba",
+        "forms": [
+            {
+                "name": "Ledyba",
+                "href": "/pokemon/165",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/165.webp"
+            },
+            {
+                "name": "Shadow Ledyba",
+                "href": "/pokemon/165-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/165.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/165.webp",
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "weather_boost": [
+            "rain",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bug Bite",
+            "charged": "Aerial Ace",
+            "dps": 4.02,
+            "tdo": 33.64,
+            "boosted_weather": [
+                "rain",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 4.02,
+                "tdo": 33.6,
+                "score": 3.1
+            },
+            {
+                "rank": 2,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Silver Wind",
+                "charged_url": "https://db.pokemongohub.net/move/262",
+                "dps": 3.78,
+                "tdo": 31.6,
+                "score": 2.91
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 3.66,
+                "tdo": 30.6,
+                "score": 2.82
+            },
+            {
+                "rank": 4,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 3.59,
+                "tdo": 30.0,
+                "score": 2.76
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Silver Wind",
+                "charged_url": "https://db.pokemongohub.net/move/262",
+                "dps": 3.48,
+                "tdo": 29.1,
+                "score": 2.68
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 3.25,
+                "tdo": 27.2,
+                "score": 2.5
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bug Bite",
+                "type": "Bug",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/201"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Swift",
+                "type": "Normal",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.2s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/125"
+            },
+            {
+                "name": "Silver Wind",
+                "type": "Bug",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/262"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Ledyba's has 823 max CP (at Level 50). A Ledyba obtained from Raids can be encountered from 377 CP to 416 CP, or if weather boosted, in the 471 CP to 520 CP range. In Field and Special Research, Ledyba can be found in the 283 CP to 312 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "823",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "283 - 312",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "377 - 416",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "377 - 416",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "471 - 520",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "471 CP - 520 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 10,
+        "2": 32,
+        "3": 54,
+        "4": 76,
+        "5": 98,
+        "6": 120,
+        "7": 142,
+        "8": 164,
+        "9": 186,
+        "10": 208,
+        "11": 228,
+        "12": 249,
+        "13": 270,
+        "14": 291,
+        "15": 312,
+        "16": 332,
+        "17": 353,
+        "18": 374,
+        "19": 395,
+        "20": 416,
+        "21": 436,
+        "22": 457,
+        "23": 478,
+        "24": 499,
+        "25": 520,
+        "26": 540,
+        "27": 561,
+        "28": 582,
+        "29": 603,
+        "30": 624,
+        "31": 634,
+        "32": 644,
+        "33": 655,
+        "34": 665,
+        "35": 676,
+        "36": 686,
+        "37": 696,
+        "38": 707,
+        "39": 717,
+        "40": 728,
+        "41": 737,
+        "42": 746,
+        "43": 756,
+        "44": 765,
+        "45": 774,
+        "46": 784,
+        "47": 794,
+        "48": 803,
+        "49": 813,
+        "50": 823
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Ledyba",
+                    "href": "/pokemon/165",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/165.webp"
+                },
+                "to": {
+                    "name": "Ledian",
+                    "href": "/pokemon/166",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/166.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Ledyba",
+                "href": "/pokemon/165",
+                "img": "https://db.pokemongohub.net/images/official/medium/165.webp"
+            },
+            {
+                "name": "Ledian",
+                "href": "/pokemon/166",
+                "img": "https://db.pokemongohub.net/images/official/medium/166.webp"
+            },
+            {
+                "name": "Shadow Ledyba",
+                "href": "/pokemon/165-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Ledian",
+                "href": "/pokemon/166-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Ledyba in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Ledyba",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Ledyba's Bug and Flying-type moves, Candy, and Candy XL from catching Ledyba.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 165,
+            "height_m": 0.99,
+            "weight_kg": 10.8,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "0.99 m",
+            "xl": "1.49 m",
+            "xxl": "1.73 m",
+            "description": "Ledyba's height ranges from 0.49 m to 1.73 m, with the average being 0.99 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.4851,
+                "upper_m": 0.495,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′07″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.495,
+                "upper_m": 0.99,
+                "lower_ft": "1′07″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.7425,
+                "upper_m": 1.2375,
+                "lower_ft": "2′05″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.2375,
+                "upper_m": 1.485,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.485,
+                "upper_m": 1.7325,
+                "lower_ft": "4′10″",
+                "upper_ft": "5′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_ELECTRIC",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.125,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It is very timid. It will be afraid to move if it is alone. But it will be active if it is in a group."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "When the weather turns cold, lots of LEDYBA gather from everywhere to cluster and keep each other warm."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It is timid and clusters together with others. The fluid secreted by its feet indicates its location."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "LEDYBA secretes an aromatic fluid from where its legs join its body. This fluid is used for communicating with others. This POKéMON conveys its feelings to others by altering the fluid’s scent."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "LEDYBA communicate using a fluid that they secrete from where the legs join the body. They are said to convey feelings to others by altering the fluid’s scent."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "When the weather turns cold, numerous LEDYBA gather from everywhere to cluster and keep each other warm."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "It is very timid. It will be afraid to move if it is alone. But it will be active if it is in a group."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It is so timid, it can’t move if it isn’t with a swarm of others. It conveys its feelings with scent."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It is very timid. It will be afraid to move if it is alone. But it will be active if it is in a group."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "When the weather turns cold, lots of LEDYBA gather from everywhere to cluster and keep each other warm."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "When the weather turns cold, lots of Ledyba gather from everywhere to cluster and keep each other warm."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It is timid and clusters together with others. The fluid secreted by its feet indicates its location."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Ledyba secretes an aromatic fluid from where its legs join its body. This fluid is used for communicating with others. This Pokémon conveys its feelings to others by altering the fluid’s scent."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "They are timid and grow uneasy when not in a swarm with others of their kind. The pattern on their backs differs slightly from one to another."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "They communicate with one another using bodily fluids that give off odors. When they’re angry, their odor smells sour."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "This Pokémon is very sensitive to cold. In the warmth of Alola, it appears quite lively."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "These very cowardly Pokémon join together and use Reflect to protect their nest."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Ledyba",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm165.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm165.icon.png"
+            },
+            {
+                "label": "Regular Ledyba♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm165.g2.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm165.g2.icon.png"
+            },
+            {
+                "label": "Shiny Ledyba",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm165.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm165.s.icon.png"
+            },
+            {
+                "label": "Shiny Ledyba♀",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm165.g2.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm165.g2.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 165,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0165_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0165_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Ledyba ♀ sprite"
+            },
+            {
+                "pokedex_number": 165,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0165_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0165_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Ledyba ♀ sprite"
+            },
+            {
+                "pokedex_number": 165,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0165_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0165_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Ledyba sprite"
+            },
+            {
+                "pokedex_number": 165,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0165_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0165_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Ledyba sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/165_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/165_social.jpg",
+                "alt": "Ledyba"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/165_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/165_social_dark.jpg",
+                "alt": "Ledyba"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/165_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/165_social_map.jpg",
+                "alt": "Ledyba"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/165_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/165_social_map_dark.jpg",
+                "alt": "Ledyba"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Ledyba’s strengths and weaknesses?",
+            "answer": "As a Bug and Flying-type Pokémon, Ledyba is especially weak against Rock-type moves, and weak against Electric, Fire, Flying, and Ice-type moves."
+        },
+        {
+            "question": "What are the best moves for Ledyba in Pokémon GO?",
+            "answer": "The best moves for Ledyba in Pokémon GO are Bug Bite and Aerial Ace. This moveset has a DPS (Damage Per Second) of 4.02 and a TDO (Total Damage Output) of 33.644."
+        },
+        {
+            "question": "How does Ledyba perform in Raids?",
+            "answer": "Ledyba's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Ledyba rank as a Bug-type attacker?",
+            "answer": "Ledyba's performance as a Bug-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Ledyba?",
+            "answer": "The following Mega Pokémon boost Ledyba: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, Primal Kyogre, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Ledyba’s maximum CP at Level 40 and Level 50?",
+            "answer": "Ledyba’s maximum CP at Level 40 is 728 CP and 823 CP at Level 50."
+        },
+        {
+            "question": "Can Ledyba be shiny in Pokémon GO?",
+            "answer": "Ledyba can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Ledyba Dynamax in Pokémon GO?",
+            "answer": "Ledyba cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

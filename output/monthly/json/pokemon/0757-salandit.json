@@ -1,0 +1,785 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1268,
+        "attack": 136,
+        "defense": 80,
+        "stamina": 134,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Salandit",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/757.webp",
+        "types": [
+            "Poison",
+            "Fire"
+        ],
+        "weather_boost": [
+            "cloudy",
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Poison Jab",
+            "charged": "Flamethrower",
+            "dps": 6.04,
+            "tdo": 39.85,
+            "boosted_weather": [
+                "cloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 6.04,
+                "tdo": 39.9,
+                "score": 4.38
+            },
+            {
+                "rank": 2,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Poison Fang",
+                "charged_url": "https://db.pokemongohub.net/move/50",
+                "dps": 5.92,
+                "tdo": 39.1,
+                "score": 4.3
+            },
+            {
+                "rank": 3,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 5.89,
+                "tdo": 38.8,
+                "score": 4.27
+            },
+            {
+                "rank": 4,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 5.12,
+                "tdo": 33.8,
+                "score": 3.72
+            },
+            {
+                "rank": 5,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Poison Fang",
+                "charged_url": "https://db.pokemongohub.net/move/50",
+                "dps": 4.94,
+                "tdo": 32.6,
+                "score": 3.58
+            },
+            {
+                "rank": 6,
+                "fast": "Ember",
+                "fast_url": "https://db.pokemongohub.net/move/209",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 4.93,
+                "tdo": 32.5,
+                "score": 3.57
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ember",
+                "type": "Fire",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/209"
+            },
+            {
+                "name": "Poison Jab",
+                "type": "Poison",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.4s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/224"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Poison Fang",
+                "type": "Poison",
+                "stats": {
+                    "damage": 30,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 30,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.7s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/50"
+            },
+            {
+                "name": "Dragon Pulse",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.0s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/82"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Salandit's has 1268 max CP (at Level 50). A Salandit obtained from Raids can be encountered from 593 CP to 641 CP, or if weather boosted, in the 741 CP to 801 CP range. In Field and Special Research, Salandit can be found in the 444 CP to 480 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1268",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "444 - 480",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "593 - 641",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "593 - 641",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "741 - 801",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "741 CP - 801 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 15,
+        "2": 49,
+        "3": 83,
+        "4": 117,
+        "5": 151,
+        "6": 185,
+        "7": 219,
+        "8": 252,
+        "9": 286,
+        "10": 320,
+        "11": 352,
+        "12": 384,
+        "13": 416,
+        "14": 448,
+        "15": 480,
+        "16": 512,
+        "17": 545,
+        "18": 577,
+        "19": 609,
+        "20": 641,
+        "21": 673,
+        "22": 705,
+        "23": 737,
+        "24": 769,
+        "25": 801,
+        "26": 833,
+        "27": 865,
+        "28": 897,
+        "29": 929,
+        "30": 961,
+        "31": 977,
+        "32": 993,
+        "33": 1009,
+        "34": 1025,
+        "35": 1041,
+        "36": 1057,
+        "37": 1073,
+        "38": 1090,
+        "39": 1106,
+        "40": 1122,
+        "41": 1136,
+        "42": 1150,
+        "43": 1165,
+        "44": 1179,
+        "45": 1194,
+        "46": 1208,
+        "47": 1223,
+        "48": 1238,
+        "49": 1253,
+        "50": 1268
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Salandit",
+                    "href": "/pokemon/757",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/757.webp"
+                },
+                "to": {
+                    "name": "Salazzle",
+                    "href": "/pokemon/758",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/758.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Female required"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Female required"
+        ],
+        "family": [
+            {
+                "name": "Salandit",
+                "href": "/pokemon/757",
+                "img": "https://db.pokemongohub.net/images/official/medium/757.webp"
+            },
+            {
+                "name": "Salazzle",
+                "href": "/pokemon/758",
+                "img": "https://db.pokemongohub.net/images/official/medium/758.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Salandit in the meta PvE Analysis The Poison/Fire-type Salandit is quite a rare species in Pokémon GO, with only the female being able to evolve. However, regardless of the gender, a Salandit is a weak Pokémon, bringing nothing of note to Raids and Gyms. PvP Analysis 🧸 Little Cup Poison and Fire are both good offensive types in PvP, and Salandit salvages these traits by beating a large number of threats, including Grass types like Bulbasaur, Cottonee, and Abomasnow, Ice types like Alolan Sandshrew and Swinub, Fairies like Igglybuff and Wigglytuff, Dark types like Umbreon, Vullaby, and Scrafty, Skarmory, Shelmet, Wynaut, Vigoroth, and Chansey. 👀 This is quite a fine list of wins, cementing Salandit as a legitimate threat in the Little Cup. Be wary of its double weakness to Ground attacks, as well as Psychic, Rock, and Water attacks. With a max CP of only 1268, Salandit doesn't work out in any other PvP League. 💎 The best PvP moves for Salandit are Ember, Poison Fang and Flamethrower. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Salandit",
+        "type": "Poison",
+        "intro_text": "A list of Mega Pokémon that boost Salandit's Poison and Fire-type moves, Candy, and Candy XL from catching Salandit.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 757,
+            "height_m": 0.6,
+            "weight_kg": 4.8,
+            "region": "Generation 7",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.29 m",
+            "xs": "0.3 m",
+            "m": "0.6 m",
+            "xl": "0.9 m",
+            "xxl": "1.05 m",
+            "description": "Salandit's height ranges from 0.29 m to 1.05 m, with the average being 0.6 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.294,
+                "upper_m": 0.3,
+                "lower_ft": "0′12″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.3,
+                "upper_m": 0.6,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.45,
+                "upper_m": 0.75,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.75,
+                "upper_m": 0.9,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.9,
+                "upper_m": 1.05,
+                "lower_ft": "2′11″",
+                "upper_ft": "3′05″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It burns its bodily fluids to create a poisonous gas. When its enemies become disoriented from inhaling the gas, it attacks them."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Volcanoes or dry, craggy places are its home. It emanates a sweet-smelling poisonous gas that attracts bug Pokémon, then attacks them."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "The males will do whatever the females tell them. They give the females most of their food. Due to malnutrition, the males can’t evolve."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It weakens opponents and sends them reeling with its poisonous gas. Salandit doesn’t deal well with Spinda, since it’s always reeling."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Its venom sacs produce a fluid that this Pokémon then heats up with the flame in its tail. This process creates Salandit’s poisonous gas."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This sneaky Pokémon will slink behind its prey and immobilize it with poisonous gas before the prey even realizes Salandit is there."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Salandit",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm757.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm757.icon.png"
+            },
+            {
+                "label": "Shiny Salandit",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm757.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm757.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 757,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0757_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0757_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Salandit sprite"
+            },
+            {
+                "pokedex_number": 757,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0757_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0757_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Salandit sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/757_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/757_social.jpg",
+                "alt": "Salandit"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/757_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/757_social_dark.jpg",
+                "alt": "Salandit"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/757_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/757_social_map.jpg",
+                "alt": "Salandit"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/757_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/757_social_map_dark.jpg",
+                "alt": "Salandit"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Salandit’s strengths and weaknesses?",
+            "answer": "As a Poison and Fire-type Pokémon, Salandit is especially weak against Ground-type moves, and weak against Psychic, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Salandit in Pokémon GO?",
+            "answer": "The best moves for Salandit in Pokémon GO are Poison Jab and Flamethrower. This moveset has a DPS (Damage Per Second) of 6.041 and a TDO (Total Damage Output) of 39.853."
+        },
+        {
+            "question": "How does Salandit perform in Raids?",
+            "answer": "Salandit's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Salandit rank as a Poison-type attacker?",
+            "answer": "Salandit is an F-Tier Poison-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Salandit rank as a Fire-type attacker?",
+            "answer": "Salandit is an F-Tier Fire-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Salandit?",
+            "answer": "The following Mega Pokémon boost Salandit: Mega Venusaur, Mega Beedrill, Mega Gengar, Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Salandit’s maximum CP at Level 40 and Level 50?",
+            "answer": "Salandit’s maximum CP at Level 40 is 1122 CP and 1268 CP at Level 50."
+        },
+        {
+            "question": "Can Salandit be shiny in Pokémon GO?",
+            "answer": "Salandit can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Salandit Dynamax in Pokémon GO?",
+            "answer": "Salandit cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

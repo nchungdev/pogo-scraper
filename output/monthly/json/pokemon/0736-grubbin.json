@@ -1,0 +1,841 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1112,
+        "attack": 115,
+        "defense": 85,
+        "stamina": 132,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Grubbin",
+        "forms": [
+            {
+                "name": "Grubbin",
+                "href": "/pokemon/736",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/736.webp"
+            },
+            {
+                "name": "Shadow Grubbin",
+                "href": "/pokemon/736-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/736.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/736.webp",
+        "types": [
+            "Bug"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bug Bite",
+            "charged": "X-Scissor",
+            "dps": 5.67,
+            "tdo": 38.86,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "X-Scissor",
+                "charged_url": "https://db.pokemongohub.net/move/100",
+                "dps": 5.67,
+                "tdo": 38.9,
+                "score": 4.16
+            },
+            {
+                "rank": 2,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 5.0,
+                "tdo": 34.2,
+                "score": 3.66
+            },
+            {
+                "rank": 3,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "X-Scissor",
+                "charged_url": "https://db.pokemongohub.net/move/100",
+                "dps": 4.76,
+                "tdo": 32.6,
+                "score": 3.49
+            },
+            {
+                "rank": 4,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Vise Grip",
+                "charged_url": "https://db.pokemongohub.net/move/20",
+                "dps": 4.62,
+                "tdo": 31.7,
+                "score": 3.39
+            },
+            {
+                "rank": 5,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 4.2,
+                "tdo": 28.8,
+                "score": 3.08
+            },
+            {
+                "rank": 6,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Vise Grip",
+                "charged_url": "https://db.pokemongohub.net/move/20",
+                "dps": 3.75,
+                "tdo": 25.7,
+                "score": 2.75
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bug Bite",
+                "type": "Bug",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/201"
+            },
+            {
+                "name": "Spark",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/206"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Vise Grip",
+                "type": "Normal",
+                "stats": {
+                    "damage": 35,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 35,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.2s - 1.6s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/20"
+            },
+            {
+                "name": "X-Scissor",
+                "type": "Bug",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.1s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/100"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Grubbin's has 1112 max CP (at Level 50). A Grubbin obtained from Raids can be encountered from 518 CP to 562 CP, or if weather boosted, in the 647 CP to 703 CP range. In Field and Special Research, Grubbin can be found in the 388 CP to 421 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1112",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "388 - 421",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "518 - 562",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "518 - 562",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "647 - 703",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "647 CP - 703 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 43,
+        "3": 73,
+        "4": 103,
+        "5": 132,
+        "6": 162,
+        "7": 192,
+        "8": 221,
+        "9": 251,
+        "10": 281,
+        "11": 309,
+        "12": 337,
+        "13": 365,
+        "14": 393,
+        "15": 421,
+        "16": 450,
+        "17": 478,
+        "18": 506,
+        "19": 534,
+        "20": 562,
+        "21": 590,
+        "22": 618,
+        "23": 646,
+        "24": 675,
+        "25": 703,
+        "26": 731,
+        "27": 759,
+        "28": 787,
+        "29": 815,
+        "30": 843,
+        "31": 857,
+        "32": 871,
+        "33": 886,
+        "34": 900,
+        "35": 914,
+        "36": 928,
+        "37": 942,
+        "38": 956,
+        "39": 970,
+        "40": 984,
+        "41": 996,
+        "42": 1009,
+        "43": 1022,
+        "44": 1034,
+        "45": 1047,
+        "46": 1060,
+        "47": 1073,
+        "48": 1086,
+        "49": 1099,
+        "50": 1112
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Grubbin",
+                    "href": "/pokemon/736",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/736.webp"
+                },
+                "to": {
+                    "name": "Charjabug",
+                    "href": "/pokemon/737",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/737.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Charjabug",
+                    "href": "/pokemon/737",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/737.webp"
+                },
+                "to": {
+                    "name": "Vikavolt",
+                    "href": "/pokemon/738",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/738.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Magnetic Lure Module"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Grubbin",
+                "href": "/pokemon/736",
+                "img": "https://db.pokemongohub.net/images/official/medium/736.webp"
+            },
+            {
+                "name": "Charjabug",
+                "href": "/pokemon/737",
+                "img": "https://db.pokemongohub.net/images/official/medium/737.webp"
+            },
+            {
+                "name": "Vikavolt",
+                "href": "/pokemon/738",
+                "img": "https://db.pokemongohub.net/images/official/medium/738.webp"
+            },
+            {
+                "name": "Shadow Grubbin",
+                "href": "/pokemon/736-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Charjabug",
+                "href": "/pokemon/737-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Vikavolt",
+                "href": "/pokemon/738-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Grubbin in the meta PvE Analysis Grubbin is a pure Bug-type Pokémon with decent Attack and HP stats, but unfortunately has a very low Defense 🫣. If that wasn’t already concerning, Bug-type damage is generally underwhelming in Pokémon GO , leaving this little grub as little more than a Dex filler . ⚔️ Raids – This Bug-type contributes very little to damage output. Avoid using it in Raids . 🛡️ Gyms – It’s a poor Gym defender due to its low Defense . PvP Analysis 🧸 Little Cup – X-Scissor and Crunch are both cheap moves that combine well with Spark , allowing Grubbin to challenge a variety of types 📃. Its relatively high offensive power helps it take down some unlikely opponents like Vigoroth , Umbreon , and Toxicroak . However, its lack of tankiness is a major drawback that prevents it from truly shining 🫤. 🔵 Great League – Don’t even try. 🟡 Ultra League – Grubbin isn’t grubbing any victories here 🐛. 🟣 Master League – Impossible 😂.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Grubbin",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Grubbin's Bug-type moves, Candy, and Candy XL from catching Grubbin.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 736,
+            "height_m": 0.4,
+            "weight_kg": 4.4,
+            "region": "Generation 7",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Grubbin's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Its strong jaw enables it to scrape trees and slurp out the sap. It normally lives underground."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "They often gather near places frequented by electric Pokémon in order to avoid being attacked by bird Pokémon."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "If you find its nest, you shouldn’t stick your hand inside. You’ll get bitten by an irritated Grubbin."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It spits a sticky thread to stop opponents in their tracks, and then it grabs them in its sharp, sturdy mandibles to take them down."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Its natural enemies, like Rookidee, may flee rather than risk getting caught in its large mandibles that can snap thick tree branches."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Grubbin",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm736.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm736.icon.png"
+            },
+            {
+                "label": "Shiny Grubbin",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm736.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm736.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 736,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0736_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0736_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Grubbin sprite"
+            },
+            {
+                "pokedex_number": 736,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0736_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0736_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Grubbin sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/736_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/736_social.jpg",
+                "alt": "Grubbin"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/736_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/736_social_dark.jpg",
+                "alt": "Grubbin"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/736_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/736_social_map.jpg",
+                "alt": "Grubbin"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/736_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/736_social_map_dark.jpg",
+                "alt": "Grubbin"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Grubbin’s strengths and weaknesses?",
+            "answer": "As a Bug-type Pokémon, Grubbin is weak to Fire, Flying, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Grubbin in Pokémon GO?",
+            "answer": "The best moves for Grubbin in Pokémon GO are Bug Bite and X-Scissor. This moveset has a DPS (Damage Per Second) of 5.671 and a TDO (Total Damage Output) of 38.858."
+        },
+        {
+            "question": "How does Grubbin perform in Raids?",
+            "answer": "Grubbin's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Grubbin rank as a Bug-type attacker?",
+            "answer": "Grubbin's performance as a Bug-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Grubbin?",
+            "answer": "The following Mega Pokémon boost Grubbin: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, and Primal Kyogre."
+        },
+        {
+            "question": "What is Grubbin’s maximum CP at Level 40 and Level 50?",
+            "answer": "Grubbin’s maximum CP at Level 40 is 984 CP and 1112 CP at Level 50."
+        },
+        {
+            "question": "Can Grubbin be shiny in Pokémon GO?",
+            "answer": "Grubbin can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Grubbin Dynamax in Pokémon GO?",
+            "answer": "Grubbin cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,742 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3463,
+        "attack": 253,
+        "defense": 182,
+        "stamina": 155,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Cursola",
+        "forms": [
+            {
+                "name": "Cursola",
+                "href": "/pokemon/864",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/864.webp"
+            },
+            {
+                "name": "Shadow Cursola",
+                "href": "/pokemon/864-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/864.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/864.webp",
+        "types": [
+            "Ghost"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Night Shade",
+            "dps": 10.35,
+            "tdo": 161.59,
+            "boosted_weather": [
+                "partlyCloudy",
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 10.35,
+                "tdo": 161.6,
+                "score": 8.92
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Power Gem",
+                "charged_url": "https://db.pokemongohub.net/move/65",
+                "dps": 10.3,
+                "tdo": 160.7,
+                "score": 8.88
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Rock Blast",
+                "charged_url": "https://db.pokemongohub.net/move/259",
+                "dps": 10.14,
+                "tdo": 158.3,
+                "score": 8.74
+            },
+            {
+                "rank": 4,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 10.01,
+                "tdo": 156.3,
+                "score": 8.63
+            },
+            {
+                "rank": 5,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Power Gem",
+                "charged_url": "https://db.pokemongohub.net/move/65",
+                "dps": 9.96,
+                "tdo": 155.5,
+                "score": 8.59
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Rock Blast",
+                "charged_url": "https://db.pokemongohub.net/move/259",
+                "dps": 9.77,
+                "tdo": 152.6,
+                "score": 8.43
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Power Gem",
+                "type": "Rock",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 85,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/65"
+            },
+            {
+                "name": "Rock Blast",
+                "type": "Rock",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.5s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/259"
+            },
+            {
+                "name": "Night Shade",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/265"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Cursola's has 3463 max CP (at Level 50). A Cursola obtained from Raids can be encountered from 1670 CP to 1750 CP, or if weather boosted, in the 2088 CP to 2188 CP range. In Field and Special Research, Cursola can be found in the 1253 CP to 1312 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3463",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1253 - 1312",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1670 - 1750",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1670 - 1750",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2088 - 2188",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2088 CP - 2188 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 43,
+        "2": 135,
+        "3": 228,
+        "4": 320,
+        "5": 413,
+        "6": 505,
+        "7": 598,
+        "8": 690,
+        "9": 783,
+        "10": 875,
+        "11": 962,
+        "12": 1050,
+        "13": 1137,
+        "14": 1225,
+        "15": 1312,
+        "16": 1400,
+        "17": 1487,
+        "18": 1575,
+        "19": 1662,
+        "20": 1750,
+        "21": 1837,
+        "22": 1925,
+        "23": 2012,
+        "24": 2100,
+        "25": 2188,
+        "26": 2275,
+        "27": 2363,
+        "28": 2450,
+        "29": 2538,
+        "30": 2625,
+        "31": 2669,
+        "32": 2713,
+        "33": 2757,
+        "34": 2800,
+        "35": 2844,
+        "36": 2888,
+        "37": 2931,
+        "38": 2975,
+        "39": 3019,
+        "40": 3063,
+        "41": 3102,
+        "42": 3141,
+        "43": 3180,
+        "44": 3220,
+        "45": 3260,
+        "46": 3300,
+        "47": 3340,
+        "48": 3381,
+        "49": 3421,
+        "50": 3463
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Galarian Corsola",
+                    "href": "/pokemon/222-Galarian",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/222_galar.webp"
+                },
+                "to": {
+                    "name": "Cursola",
+                    "href": "/pokemon/864",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/864.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Corsola",
+                "href": "/pokemon/222",
+                "img": "https://db.pokemongohub.net/images/official/medium/222.webp"
+            },
+            {
+                "name": "Cursola",
+                "href": "/pokemon/864",
+                "img": "https://db.pokemongohub.net/images/official/medium/864.webp"
+            },
+            {
+                "name": "Galarian Corsola",
+                "href": "/pokemon/222-Galarian",
+                "img": "https://db.pokemongohub.net/images/official/medium/222_galar.webp"
+            },
+            {
+                "name": "Shadow Cursola",
+                "href": "/pokemon/864-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Cursola in the meta PvE Analysis Cursola has the same DEF and HP as Galarian Corsola , but its ATK is in a class of its own at an impressive 253 ! 👀 Unfortunately, it’s terrible in PvE due to its moveset, with Astonish and Night Shade leaving it more dead than it already is. 😭 ⚔️ Raids It’s a sad case for Cursola . Despite learning Hex and Shadow Ball in the mainline games , it is cursed (no pun intended) with a pathetic PvE moveset in Pokémon GO . 🫤 There are plenty of better Ghost-type attackers , so stick to those! 🙂 🛡️ Gyms With poor defenses , Cursola doesn’t even have decent viability as a Gym defender . 👎 PvP Analysis Cursola shares the same DEF and HP as its pre-evolution, Galarian Corsola , but embarrassingly, it’s totally outclassed . 🤐 Until it receives a moveset upgrade , Cursola is destined to remain a Dex filler at best. 😶‍🌫️ 🔵 Great League While Galarian Corsola is a top-tier meta Pokémon , Cursola is entirely forgettable. The pre-evolution is so good, you’ll regret evolving it ! 😅 🟡 Ultra League With Pokémon like Giratina , Trevenant , Dusknoir , Drifblim , and Gengar excelling as Ghost-types, Cursola is irrelevant in this league. 🥲 🟣 Master League With its dreadful bulk and lackluster moveset , Cursola is easily outclassed. The Legendaries and Dragons of the Master League exorcise it without effort. 🫠",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Cursola",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Cursola's Ghost-type moves, Candy, and Candy XL from catching Cursola.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 864,
+            "height_m": 1,
+            "weight_kg": 0.4,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "1.75 m",
+            "description": "Cursola's height ranges from 0.49 m to 1.75 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 1.75,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 30.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 45.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon’s core spirit."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Be cautious of the ectoplasmic body surrounding its soul. You’ll become stiff as stone if you touch it."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Cursola",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm864.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm864.icon.png"
+            },
+            {
+                "label": "Shiny Cursola",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm864.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm864.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 864,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0864_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0864_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Cursola sprite"
+            },
+            {
+                "pokedex_number": 864,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0864_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0864_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Cursola sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/864_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/864_social.jpg",
+                "alt": "Cursola"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/864_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/864_social_dark.jpg",
+                "alt": "Cursola"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/864_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/864_social_map.jpg",
+                "alt": "Cursola"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/864_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/864_social_map_dark.jpg",
+                "alt": "Cursola"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Cursola’s strengths and weaknesses?",
+            "answer": "As a Ghost-type Pokémon, Cursola is weak to Dark and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Cursola in Pokémon GO?",
+            "answer": "The best moves for Cursola in Pokémon GO are Tackle and Night Shade. This moveset has a DPS (Damage Per Second) of 10.352 and a TDO (Total Damage Output) of 161.587."
+        },
+        {
+            "question": "How does Cursola perform in Raids?",
+            "answer": "Cursola's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Cursola rank as a Ghost-type attacker?",
+            "answer": "Cursola is an F-Tier Ghost-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Cursola?",
+            "answer": "The following Mega Pokémon boost Cursola: Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Cursola’s maximum CP at Level 40 and Level 50?",
+            "answer": "Cursola’s maximum CP at Level 40 is 3063 CP and 3463 CP at Level 50."
+        },
+        {
+            "question": "Can Cursola be shiny in Pokémon GO?",
+            "answer": "Cursola can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Cursola Dynamax in Pokémon GO?",
+            "answer": "Cursola cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

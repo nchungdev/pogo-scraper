@@ -1,0 +1,855 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1845,
+        "attack": 139,
+        "defense": 139,
+        "stamina": 172,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Castform",
+        "forms": [
+            {
+                "name": "Castform",
+                "href": "/pokemon/351",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/351.webp"
+            },
+            {
+                "name": "Castform (Rainy)",
+                "href": "/pokemon/351-Rainy",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/351_f1.webp"
+            },
+            {
+                "name": "Castform (Snowy)",
+                "href": "/pokemon/351-Snowy",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/351_f3.webp"
+            },
+            {
+                "name": "Castform (Sunny)",
+                "href": "/pokemon/351-Sunny",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/351_f2.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/351.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Weather Ball",
+            "dps": 8.39,
+            "tdo": 112.66,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Weather Ball",
+                "charged_url": "https://db.pokemongohub.net/move/352",
+                "dps": 8.39,
+                "tdo": 112.7,
+                "score": 7.08
+            },
+            {
+                "rank": 2,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Weather Ball",
+                "charged_url": "https://db.pokemongohub.net/move/352",
+                "dps": 7.74,
+                "tdo": 103.9,
+                "score": 6.53
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Weather Ball",
+                "charged_url": "https://db.pokemongohub.net/move/294",
+                "dps": 7.58,
+                "tdo": 101.7,
+                "score": 6.39
+            },
+            {
+                "rank": 4,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Weather Ball",
+                "charged_url": "https://db.pokemongohub.net/move/294",
+                "dps": 6.8,
+                "tdo": 91.3,
+                "score": 5.74
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Hurricane",
+                "charged_url": "https://db.pokemongohub.net/move/122",
+                "dps": 6.53,
+                "tdo": 87.6,
+                "score": 5.5
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 6.23,
+                "tdo": 83.6,
+                "score": 5.25
+            },
+            {
+                "rank": 7,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 5.44,
+                "tdo": 73.0,
+                "score": 4.59
+            },
+            {
+                "rank": 8,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Hurricane",
+                "charged_url": "https://db.pokemongohub.net/move/122",
+                "dps": 5.36,
+                "tdo": 72.0,
+                "score": 4.52
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Hex",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 8,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 8,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/264"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Hurricane",
+                "type": "Flying",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.0s - 2.2s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/122"
+            },
+            {
+                "name": "Energy Ball",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/273"
+            },
+            {
+                "name": "Weather Ball",
+                "type": "Rock",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/294"
+            },
+            {
+                "name": "Weather Ball",
+                "type": "Normal",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/352"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Castform's has 1845 max CP (at Level 50). A Castform obtained from Raids can be encountered from 875 CP to 932 CP, or if weather boosted, in the 1094 CP to 1165 CP range. In Field and Special Research, Castform can be found in the 656 CP to 699 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1845",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "656 - 699",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "875 - 932",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "875 - 932",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1094 - 1165",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1094 CP - 1165 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 23,
+        "2": 72,
+        "3": 121,
+        "4": 170,
+        "5": 220,
+        "6": 269,
+        "7": 318,
+        "8": 367,
+        "9": 417,
+        "10": 466,
+        "11": 513,
+        "12": 559,
+        "13": 606,
+        "14": 652,
+        "15": 699,
+        "16": 746,
+        "17": 792,
+        "18": 839,
+        "19": 886,
+        "20": 932,
+        "21": 979,
+        "22": 1025,
+        "23": 1072,
+        "24": 1119,
+        "25": 1165,
+        "26": 1212,
+        "27": 1259,
+        "28": 1305,
+        "29": 1352,
+        "30": 1399,
+        "31": 1422,
+        "32": 1445,
+        "33": 1469,
+        "34": 1492,
+        "35": 1515,
+        "36": 1539,
+        "37": 1562,
+        "38": 1585,
+        "39": 1608,
+        "40": 1632,
+        "41": 1652,
+        "42": 1673,
+        "43": 1694,
+        "44": 1715,
+        "45": 1737,
+        "46": 1758,
+        "47": 1780,
+        "48": 1801,
+        "49": 1823,
+        "50": 1845
+    },
+    "meta_analysis": "Castform in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Castform",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Castform's Normal-type moves, Candy, and Candy XL from catching Castform.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 351,
+            "height_m": 0.3,
+            "weight_kg": 0.8,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Castform's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.3,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "CASTFORM’s appearance changes with the weather. This POKéMON gained the ability to use the vast power of nature to protect its tiny body."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "CASTFORM borrows the power of nature to transform itself into the guises of the sun, rain clouds, and snow clouds. This POKéMON’s feelings change with the weather."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It alters its form depending on the weather. Changes in the climate such as the temperature and humidity appear to affect its cellular structure."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It has the ability to change its form into the sun, the rain, or a snow cloud, depending on the weather."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "Its appearance changes with the weather. Recently, its molecules were found to be just like water."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "This Pokémon can change its cells, taking different forms based on the temperature and humidity."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Temperature and weather affect its cellular structure, so this Pokémon changes form according to the weather."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "This Pokémon can change its cells, taking different forms based on the temperature and humidity."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It has the ability to change its form into the sun, the rain, or a snow cloud, depending on the weather."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Castform’s appearance changes with the weather. This Pokémon gained the ability to use the vast power of nature to protect its tiny body."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Castform borrows the power of nature to transform itself into the guises of the sun, rain, and snow-clouds. This Pokémon’s feelings change with the weather."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It changes its form depending on the weather. Changes in the temperature or humidity appear to affect its cellular structure."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Its form changes on its own, due to its cells’ sensitive reactions to temperature and humidity."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Although its form changes with the weather, that is apparently the result of a chemical reaction and not the result of its own free will."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Its form changes depending on the weather. The rougher conditions get, the rougher Castform’s disposition!"
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/351_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/351_social.jpg",
+                "alt": "Castform"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/351_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/351_social_dark.jpg",
+                "alt": "Castform"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/351_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/351_social_map.jpg",
+                "alt": "Castform"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/351_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/351_social_map_dark.jpg",
+                "alt": "Castform"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Castform’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Castform is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Castform in Pokémon GO?",
+            "answer": "The best moves for Castform in Pokémon GO are Tackle and Weather Ball. This moveset has a DPS (Damage Per Second) of 8.394 and a TDO (Total Damage Output) of 112.664."
+        },
+        {
+            "question": "How does Castform perform in Raids?",
+            "answer": "Castform's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Castform rank as a Normal-type attacker?",
+            "answer": "Castform is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Castform?",
+            "answer": "The following Mega Pokémon boost Castform: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Castform’s maximum CP at Level 40 and Level 50?",
+            "answer": "Castform’s maximum CP at Level 40 is 1632 CP and 1845 CP at Level 50."
+        },
+        {
+            "question": "Can Castform be shiny in Pokémon GO?",
+            "answer": "Castform can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Castform Dynamax in Pokémon GO?",
+            "answer": "Castform cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

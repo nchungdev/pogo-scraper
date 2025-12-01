@@ -1,0 +1,882 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1253,
+        "attack": 108,
+        "defense": 122,
+        "stamina": 137,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Pineco",
+        "forms": [
+            {
+                "name": "Pineco",
+                "href": "/pokemon/204",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/204.webp"
+            },
+            {
+                "name": "Shadow Pineco",
+                "href": "/pokemon/204-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/204.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/204.webp",
+        "types": [
+            "Bug"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bug Bite",
+            "charged": "Gyro Ball",
+            "dps": 5.15,
+            "tdo": 50.01,
+            "boosted_weather": [
+                "rain",
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Gyro Ball",
+                "charged_url": "https://db.pokemongohub.net/move/267",
+                "dps": 5.15,
+                "tdo": 50.0,
+                "score": 4.1
+            },
+            {
+                "rank": 2,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 4.84,
+                "tdo": 47.0,
+                "score": 3.85
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Gyro Ball",
+                "charged_url": "https://db.pokemongohub.net/move/267",
+                "dps": 4.66,
+                "tdo": 45.3,
+                "score": 3.71
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Rock Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/63",
+                "dps": 4.38,
+                "tdo": 42.5,
+                "score": 3.48
+            },
+            {
+                "rank": 5,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Sand Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/258",
+                "dps": 4.24,
+                "tdo": 41.2,
+                "score": 3.37
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Sand Tomb",
+                "charged_url": "https://db.pokemongohub.net/move/258",
+                "dps": 3.93,
+                "tdo": 38.1,
+                "score": 3.12
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bug Bite",
+                "type": "Bug",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/201"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Rock Tomb",
+                "type": "Rock",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/63"
+            },
+            {
+                "name": "Sand Tomb",
+                "type": "Ground",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "1.7s - 4.0s"
+                },
+                "trainer_battle": {
+                    "damage": 25,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/258"
+            },
+            {
+                "name": "Gyro Ball",
+                "type": "Steel",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "3.2s - 3.5s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/267"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Pineco's has 1253 max CP (at Level 50). A Pineco obtained from Raids can be encountered from 586 CP to 633 CP, or if weather boosted, in the 733 CP to 791 CP range. In Field and Special Research, Pineco can be found in the 440 CP to 475 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1253",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "440 - 475",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "586 - 633",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "586 - 633",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "733 - 791",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "733 CP - 791 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 15,
+        "2": 49,
+        "3": 82,
+        "4": 116,
+        "5": 149,
+        "6": 182,
+        "7": 216,
+        "8": 249,
+        "9": 283,
+        "10": 316,
+        "11": 348,
+        "12": 380,
+        "13": 411,
+        "14": 443,
+        "15": 475,
+        "16": 506,
+        "17": 538,
+        "18": 570,
+        "19": 601,
+        "20": 633,
+        "21": 665,
+        "22": 696,
+        "23": 728,
+        "24": 760,
+        "25": 791,
+        "26": 823,
+        "27": 855,
+        "28": 886,
+        "29": 918,
+        "30": 950,
+        "31": 966,
+        "32": 981,
+        "33": 997,
+        "34": 1013,
+        "35": 1029,
+        "36": 1045,
+        "37": 1061,
+        "38": 1076,
+        "39": 1092,
+        "40": 1108,
+        "41": 1122,
+        "42": 1136,
+        "43": 1151,
+        "44": 1165,
+        "45": 1179,
+        "46": 1194,
+        "47": 1208,
+        "48": 1223,
+        "49": 1238,
+        "50": 1253
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Pineco",
+                    "href": "/pokemon/204",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/204.webp"
+                },
+                "to": {
+                    "name": "Forretress",
+                    "href": "/pokemon/205",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/205.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Pineco",
+                "href": "/pokemon/204",
+                "img": "https://db.pokemongohub.net/images/official/medium/204.webp"
+            },
+            {
+                "name": "Forretress",
+                "href": "/pokemon/205",
+                "img": "https://db.pokemongohub.net/images/official/medium/205.webp"
+            },
+            {
+                "name": "Shadow Pineco",
+                "href": "/pokemon/204-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Forretress",
+                "href": "/pokemon/205-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Pineco in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Pineco",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Pineco's Bug-type moves, Candy, and Candy XL from catching Pineco.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 204,
+            "height_m": 0.61,
+            "weight_kg": 7.2,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.3 m",
+            "xs": "0.31 m",
+            "m": "0.61 m",
+            "xl": "0.92 m",
+            "xxl": "1.07 m",
+            "description": "Pineco's height ranges from 0.3 m to 1.07 m, with the average being 0.61 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2989,
+                "upper_m": 0.305,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′00″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.305,
+                "upper_m": 0.61,
+                "lower_ft": "1′00″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.4575,
+                "upper_m": 0.7625,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.7625,
+                "upper_m": 0.915,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.915,
+                "upper_m": 1.0675,
+                "lower_ft": "3′00″",
+                "upper_ft": "3′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It hangs and waits for flying insect prey to come near. It does not move about much on its own."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It spits out a fluid that it uses to glue tree bark to its body. The fluid hardens when it touches air."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "PINECO hangs from a tree branch and patiently waits for prey to come along. If the POKéMON is disturbed while eating by someone shaking its tree, it drops down to the ground and explodes with no warning."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "A PINECO hangs from a tree branch and waits for prey. While eating, if it is disturbed by someone shaking its tree, it falls on the ground and suddenly explodes."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It hangs and waits for flying-insect prey to come near. It does not move about much on its own."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "It likes to make its shell thicker by adding layers of tree bark. The extra weight doesn’t bother it."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It looks just like a pinecone. Its shell protects it from bird Pokémon that peck it by mistake."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn’t bother it."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It hangs and waits for flying insect prey to come near. It does not move about much on its own."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn’t bother it."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It looks just like a pinecone. Its shell protects it from bird Pokémon that peck it by mistake."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Pineco hangs from a tree branch and patiently waits for prey to come along. If the Pokémon is disturbed while eating by someone shaking its tree, it drops down to the ground and explodes with no warning."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Motionless, it hangs from trees, waiting for its bug Pokémon prey to come to it. Its favorite in Alola is Cutiefly."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It sticks tree bark to itself with its saliva, making itself thicker and larger. Elderly Pineco are ridiculously huge."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Pineco",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm204.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm204.icon.png"
+            },
+            {
+                "label": "Shiny Pineco",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm204.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm204.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 204,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0204_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0204_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Pineco sprite"
+            },
+            {
+                "pokedex_number": 204,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0204_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0204_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Pineco sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/204_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/204_social.jpg",
+                "alt": "Pineco"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/204_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/204_social_dark.jpg",
+                "alt": "Pineco"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/204_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/204_social_map.jpg",
+                "alt": "Pineco"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/204_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/204_social_map_dark.jpg",
+                "alt": "Pineco"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Pineco’s strengths and weaknesses?",
+            "answer": "As a Bug-type Pokémon, Pineco is weak to Fire, Flying, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Pineco in Pokémon GO?",
+            "answer": "The best moves for Pineco in Pokémon GO are Bug Bite and Gyro Ball. This moveset has a DPS (Damage Per Second) of 5.153 and a TDO (Total Damage Output) of 50.014."
+        },
+        {
+            "question": "How does Pineco perform in Raids?",
+            "answer": "Pineco's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Pineco rank as a Bug-type attacker?",
+            "answer": "Pineco is an F-Tier Bug-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Pineco?",
+            "answer": "The following Mega Pokémon boost Pineco: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, and Primal Kyogre."
+        },
+        {
+            "question": "What is Pineco’s maximum CP at Level 40 and Level 50?",
+            "answer": "Pineco’s maximum CP at Level 40 is 1108 CP and 1253 CP at Level 50."
+        },
+        {
+            "question": "Can Pineco be shiny in Pokémon GO?",
+            "answer": "Pineco can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Pineco Dynamax in Pokémon GO?",
+            "answer": "Pineco cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

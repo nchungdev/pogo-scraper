@@ -1,0 +1,936 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2957,
+        "attack": 211,
+        "defense": 187,
+        "stamina": 155,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Mismagius",
+        "forms": [
+            {
+                "name": "Mismagius",
+                "href": "/pokemon/429",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/429.webp"
+            },
+            {
+                "name": "Shadow Mismagius",
+                "href": "/pokemon/429-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/429.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/429.webp",
+        "types": [
+            "Ghost"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Sucker Punch",
+            "charged": "Shadow Ball",
+            "dps": 11.92,
+            "tdo": 190.84,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 11.92,
+                "tdo": 190.8,
+                "score": 10.32
+            },
+            {
+                "rank": 2,
+                "fast": "Psywave",
+                "fast_url": "https://db.pokemongohub.net/move/401",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 11.9,
+                "tdo": 190.5,
+                "score": 10.3
+            },
+            {
+                "rank": 3,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 11.7,
+                "tdo": 187.2,
+                "score": 10.12
+            },
+            {
+                "rank": 4,
+                "fast": "Magical Leaf",
+                "fast_url": "https://db.pokemongohub.net/move/357",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 11.56,
+                "tdo": 185.0,
+                "score": 10.0
+            },
+            {
+                "rank": 5,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 9.83,
+                "tdo": 157.3,
+                "score": 8.51
+            },
+            {
+                "rank": 6,
+                "fast": "Psywave",
+                "fast_url": "https://db.pokemongohub.net/move/401",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 9.64,
+                "tdo": 154.3,
+                "score": 8.34
+            },
+            {
+                "rank": 7,
+                "fast": "Magical Leaf",
+                "fast_url": "https://db.pokemongohub.net/move/357",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 9.6,
+                "tdo": 153.6,
+                "score": 8.3
+            },
+            {
+                "rank": 8,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 9.56,
+                "tdo": 153.0,
+                "score": 8.27
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Sucker Punch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/203"
+            },
+            {
+                "name": "Hex",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 8,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 8,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/264"
+            },
+            {
+                "name": "Magical Leaf",
+                "type": "Grass",
+                "stats": {
+                    "damage": 17,
+                    "energy": 17,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 17,
+                    "energy": 17,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 10,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/357"
+            },
+            {
+                "name": "Psywave",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 4,
+                    "energy": 7,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 7,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.6s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/401"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Dazzling Gleam",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.1s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/86"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Mismagius's has 2957 max CP (at Level 50). A Mismagius obtained from Raids can be encountered from 1421 CP to 1494 CP, or if weather boosted, in the 1777 CP to 1868 CP range. In Field and Special Research, Mismagius can be found in the 1066 CP to 1121 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2957",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1066 - 1121",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1421 - 1494",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1421 - 1494",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1777 - 1868",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1777 CP - 1868 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 37,
+        "2": 115,
+        "3": 194,
+        "4": 273,
+        "5": 352,
+        "6": 431,
+        "7": 510,
+        "8": 589,
+        "9": 668,
+        "10": 747,
+        "11": 822,
+        "12": 896,
+        "13": 971,
+        "14": 1046,
+        "15": 1121,
+        "16": 1195,
+        "17": 1270,
+        "18": 1345,
+        "19": 1419,
+        "20": 1494,
+        "21": 1569,
+        "22": 1644,
+        "23": 1718,
+        "24": 1793,
+        "25": 1868,
+        "26": 1943,
+        "27": 2017,
+        "28": 2092,
+        "29": 2167,
+        "30": 2242,
+        "31": 2279,
+        "32": 2316,
+        "33": 2354,
+        "34": 2391,
+        "35": 2428,
+        "36": 2466,
+        "37": 2503,
+        "38": 2541,
+        "39": 2578,
+        "40": 2615,
+        "41": 2648,
+        "42": 2682,
+        "43": 2715,
+        "44": 2749,
+        "45": 2783,
+        "46": 2818,
+        "47": 2852,
+        "48": 2887,
+        "49": 2922,
+        "50": 2957
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Misdreavus",
+                    "href": "/pokemon/200",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/200.webp"
+                },
+                "to": {
+                    "name": "Mismagius",
+                    "href": "/pokemon/429",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/429.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Special Item: Sinnoh Stone"
+                ]
+            }
+        ],
+        "details": [
+            "100 Candy",
+            "Special Item: Sinnoh Stone"
+        ],
+        "family": [
+            {
+                "name": "Misdreavus",
+                "href": "/pokemon/200",
+                "img": "https://db.pokemongohub.net/images/official/medium/200.webp"
+            },
+            {
+                "name": "Mismagius",
+                "href": "/pokemon/429",
+                "img": "https://db.pokemongohub.net/images/official/medium/429.webp"
+            },
+            {
+                "name": "Shadow Misdreavus",
+                "href": "/pokemon/200-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Mismagius",
+                "href": "/pokemon/429-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Mismagius in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Mismagius",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Mismagius's Ghost-type moves, Candy, and Candy XL from catching Mismagius.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 429,
+            "height_m": 0.9,
+            "weight_kg": 4.4,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.44 m",
+            "xs": "0.45 m",
+            "m": "0.9 m",
+            "xl": "1.35 m",
+            "xxl": "1.8 m",
+            "description": "Mismagius's height ranges from 0.44 m to 1.8 m, with the average being 0.9 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.441,
+                "upper_m": 0.45,
+                "lower_ft": "1′05″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.45,
+                "upper_m": 0.9,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.675,
+                "upper_m": 1.125,
+                "lower_ft": "2′03″",
+                "upper_ft": "3′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.125,
+                "upper_m": 1.35,
+                "lower_ft": "3′08″",
+                "upper_ft": "4′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.35,
+                "upper_m": 1.8,
+                "lower_ft": "4′05″",
+                "upper_ft": "5′11″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 30.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It chants incantations. While they usually torment targets, some chants bring happiness."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "Its cries sound like incantations to torment the foe. It appears where you least expect it."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "It chants incantations. While they usually torment targets, some chants bring happiness."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Its cries sound like incantations to torment the foe. It appears where you least expect it."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It appears as if from nowhere—muttering incantations, placing curses, and giving people terrifying visions."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Mismagius have been known to cast spells to make people fall in love, so some people search for this Pokémon as if their life depended on it."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Feared for its wrath and the curses it spreads, this Pokémon will also, on a whim, cast spells that help people."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Its muttered curses can cause awful headaches or terrifying visions that torment others."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "The incantations Mismagius chants can ward against misfortune, so a custom exists of inviting it into one's home. Incur the Pokémon's displeasure, however, and disaster will surely ensue."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Mismagius",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm429.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm429.icon.png"
+            },
+            {
+                "label": "Shiny Mismagius",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm429.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm429.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 429,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0429_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0429_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Mismagius sprite"
+            },
+            {
+                "pokedex_number": 429,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0429_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0429_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Mismagius sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/429_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/429_social.jpg",
+                "alt": "Mismagius"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/429_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/429_social_dark.jpg",
+                "alt": "Mismagius"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/429_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/429_social_map.jpg",
+                "alt": "Mismagius"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/429_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/429_social_map_dark.jpg",
+                "alt": "Mismagius"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Mismagius’s strengths and weaknesses?",
+            "answer": "As a Ghost-type Pokémon, Mismagius is weak to Dark and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Mismagius in Pokémon GO?",
+            "answer": "The best moves for Mismagius in Pokémon GO are Sucker Punch and Shadow Ball. This moveset has a DPS (Damage Per Second) of 11.923 and a TDO (Total Damage Output) of 190.844."
+        },
+        {
+            "question": "How does Mismagius perform in Raids?",
+            "answer": "Mismagius's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Mismagius rank as a Ghost-type attacker?",
+            "answer": "Mismagius is a D-Tier Ghost-type attacker, struggling in Raids due to its lower stats or suboptimal moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Mismagius?",
+            "answer": "The following Mega Pokémon boost Mismagius: Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Mismagius’s maximum CP at Level 40 and Level 50?",
+            "answer": "Mismagius’s maximum CP at Level 40 is 2615 CP and 2957 CP at Level 50."
+        },
+        {
+            "question": "Can Mismagius be shiny in Pokémon GO?",
+            "answer": "Mismagius can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Mismagius Dynamax in Pokémon GO?",
+            "answer": "Mismagius cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

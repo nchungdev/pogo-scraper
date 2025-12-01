@@ -1,0 +1,913 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1350,
+        "attack": 117,
+        "defense": 105,
+        "stamina": 160,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Pidgeotto",
+        "forms": [
+            {
+                "name": "Pidgeotto",
+                "href": "/pokemon/17",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/017.webp"
+            },
+            {
+                "name": "Shadow Pidgeotto",
+                "href": "/pokemon/17-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/017.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/017.webp",
+        "types": [
+            "Normal",
+            "Flying"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Steel Wing",
+            "charged": "Aerial Ace",
+            "dps": 5.6,
+            "tdo": 54.77,
+            "boosted_weather": [
+                "snow",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 5.6,
+                "tdo": 54.8,
+                "score": 4.46
+            },
+            {
+                "rank": 2,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 5.5,
+                "tdo": 53.9,
+                "score": 4.38
+            },
+            {
+                "rank": 3,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Air Cutter",
+                "charged_url": "https://db.pokemongohub.net/move/121",
+                "dps": 5.24,
+                "tdo": 51.3,
+                "score": 4.18
+            },
+            {
+                "rank": 4,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Air Cutter",
+                "charged_url": "https://db.pokemongohub.net/move/121",
+                "dps": 5.06,
+                "tdo": 49.5,
+                "score": 4.03
+            },
+            {
+                "rank": 5,
+                "fast": "Steel Wing",
+                "fast_url": "https://db.pokemongohub.net/move/239",
+                "charged": "Twister",
+                "charged_url": "https://db.pokemongohub.net/move/80",
+                "dps": 4.71,
+                "tdo": 46.1,
+                "score": 3.75
+            },
+            {
+                "rank": 6,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Twister",
+                "charged_url": "https://db.pokemongohub.net/move/80",
+                "dps": 4.42,
+                "tdo": 43.3,
+                "score": 3.52
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Wing Attack",
+                "type": "Flying",
+                "stats": {
+                    "damage": 10,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/210"
+            },
+            {
+                "name": "Steel Wing",
+                "type": "Steel",
+                "stats": {
+                    "damage": 14,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 14,
+                    "energy": 8,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.7s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 5
+                },
+                "url": "https://db.pokemongohub.net/move/239"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Twister",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/80"
+            },
+            {
+                "name": "Air Cutter",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/121"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Pidgeotto's has 1350 max CP (at Level 50). A Pidgeotto obtained from Raids can be encountered from 633 CP to 682 CP, or if weather boosted, in the 792 CP to 853 CP range. In Field and Special Research, Pidgeotto can be found in the 475 CP to 512 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1350",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "475 - 512",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "633 - 682",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "633 - 682",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "792 - 853",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "792 CP - 853 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 16,
+        "2": 52,
+        "3": 89,
+        "4": 125,
+        "5": 161,
+        "6": 197,
+        "7": 233,
+        "8": 269,
+        "9": 305,
+        "10": 341,
+        "11": 375,
+        "12": 409,
+        "13": 443,
+        "14": 477,
+        "15": 512,
+        "16": 546,
+        "17": 580,
+        "18": 614,
+        "19": 648,
+        "20": 682,
+        "21": 716,
+        "22": 750,
+        "23": 785,
+        "24": 819,
+        "25": 853,
+        "26": 887,
+        "27": 921,
+        "28": 955,
+        "29": 989,
+        "30": 1024,
+        "31": 1041,
+        "32": 1058,
+        "33": 1075,
+        "34": 1092,
+        "35": 1109,
+        "36": 1126,
+        "37": 1143,
+        "38": 1160,
+        "39": 1177,
+        "40": 1194,
+        "41": 1209,
+        "42": 1225,
+        "43": 1240,
+        "44": 1255,
+        "45": 1271,
+        "46": 1287,
+        "47": 1302,
+        "48": 1318,
+        "49": 1334,
+        "50": 1350
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Pidgey",
+                    "href": "/pokemon/16",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/016.webp"
+                },
+                "to": {
+                    "name": "Pidgeotto",
+                    "href": "/pokemon/17",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/017.webp"
+                },
+                "requirements": [
+                    "12 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Pidgeotto",
+                    "href": "/pokemon/17",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/017.webp"
+                },
+                "to": {
+                    "name": "Pidgeot",
+                    "href": "/pokemon/18",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/018.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Pidgeot",
+                    "href": "/pokemon/18",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/018.webp"
+                },
+                "to": {
+                    "name": "Mega Pidgeot",
+                    "href": "/pokemon/18-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "100 / 20 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "12 Candy"
+        ],
+        "family": [
+            {
+                "name": "Pidgey",
+                "href": "/pokemon/16",
+                "img": "https://db.pokemongohub.net/images/official/medium/016.webp"
+            },
+            {
+                "name": "Pidgeotto",
+                "href": "/pokemon/17",
+                "img": "https://db.pokemongohub.net/images/official/medium/017.webp"
+            },
+            {
+                "name": "Pidgeot",
+                "href": "/pokemon/18",
+                "img": "https://db.pokemongohub.net/images/official/medium/018.webp"
+            },
+            {
+                "name": "Mega Pidgeot",
+                "href": "/pokemon/18-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Pidgey",
+                "href": "/pokemon/16-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Pidgeotto",
+                "href": "/pokemon/17-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Pidgeot",
+                "href": "/pokemon/18-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Pidgeotto in the meta PvE Analysis ⚔️ Raids Pidgeotto is too small for raids. 🛡️ Gyms Far better options are available. PvP Analysis Pidgeotto’s best moveset for PvP is Gust , Feather Dance , and Brave Bird . Sadly, it is not a useful PvP Pokémon . 🔵 Great League Pidgeotto doesn’t break the top 300 in Great League rankings due to its low CP. Even if maxed out with XL Candy , it still wouldn’t be viable. 🟡 Ultra League Pidgeotto is too small for Ultra League . 🟣 Master League Buffalo Pidgeotto wings for dinner, anyone?",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Pidgeotto",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Pidgeotto's Normal and Flying-type moves, Candy, and Candy XL from catching Pidgeotto.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 17,
+            "height_m": 1.1,
+            "weight_kg": 30,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": 5,
+        "size_info": {
+            "xxs": "0.54 m",
+            "xs": "0.55 m",
+            "m": "1.1 m",
+            "xl": "1.65 m",
+            "xxl": "1.93 m",
+            "description": "Pidgeotto's height ranges from 0.54 m to 1.93 m, with the average being 1.1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.539,
+                "upper_m": 0.55,
+                "lower_ft": "1′09″",
+                "upper_ft": "1′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.55,
+                "upper_m": 1.1,
+                "lower_ft": "1′10″",
+                "upper_ft": "3′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.825,
+                "upper_m": 1.375,
+                "lower_ft": "2′08″",
+                "upper_ft": "4′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.375,
+                "upper_m": 1.65,
+                "lower_ft": "4′06″",
+                "upper_ft": "5′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.65,
+                "upper_m": 1.925,
+                "lower_ft": "5′05″",
+                "upper_ft": "6′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "This POKéMON is full of vitality. It constantly flies around its large territory in search of prey."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It has outstanding vision. However high it flies, it is able to distin guish the move ments of its prey."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It immobilizes its prey using well- developed claws, then carries the prey more than 60 miles to its nest."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It slowly flies in a circular pat tern, all the while keeping a sharp lookout for prey."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "PIDGEOTTO claims a large area as its own territory. This POKéMON flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "This POKéMON flies around, patrolling its large territory. If its living space is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "The claws on its feet are well developed. It can carry prey such as an EXEGGCUTE to its nest over 60 miles away."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It flies over its wide territory in search of prey, downing it with its highly developed claws."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It has outstanding vision. However high it flies, it is able to distinguish the movements of its prey."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It renders its prey immobile using well-developed claws, then carries the prey more than 60 miles to its nest."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "This Pokémon is full of vitality. It constantly flies around its large territory in search of prey."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Pidgeotto",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm17.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm17.icon.png"
+            },
+            {
+                "label": "Shiny Pidgeotto",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm17.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm17.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 17,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0017_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0017_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Pidgeotto sprite"
+            },
+            {
+                "pokedex_number": 17,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0017_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0017_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Pidgeotto sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/017_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/017_social.jpg",
+                "alt": "Pidgeotto"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/017_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/017_social_dark.jpg",
+                "alt": "Pidgeotto"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/017_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/017_social_map.jpg",
+                "alt": "Pidgeotto"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/017_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/017_social_map_dark.jpg",
+                "alt": "Pidgeotto"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Pidgeotto’s strengths and weaknesses?",
+            "answer": "As a Normal and Flying-type Pokémon, Pidgeotto is weak to Electric, Ice, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Pidgeotto in Pokémon GO?",
+            "answer": "The best moves for Pidgeotto in Pokémon GO are Steel Wing and Aerial Ace. This moveset has a DPS (Damage Per Second) of 5.595 and a TDO (Total Damage Output) of 54.767."
+        },
+        {
+            "question": "How does Pidgeotto perform in Raids?",
+            "answer": "Pidgeotto's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Pidgeotto rank as a Normal-type attacker?",
+            "answer": "Pidgeotto's performance as a Normal-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Pidgeotto rank as a Flying-type attacker?",
+            "answer": "Pidgeotto is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Pidgeotto?",
+            "answer": "The following Mega Pokémon boost Pidgeotto: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, Mega Audino, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Pidgeotto’s maximum CP at Level 40 and Level 50?",
+            "answer": "Pidgeotto’s maximum CP at Level 40 is 1194 CP and 1350 CP at Level 50."
+        },
+        {
+            "question": "Can Pidgeotto be shiny in Pokémon GO?",
+            "answer": "Pidgeotto can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Pidgeotto Dynamax in Pokémon GO?",
+            "answer": "Pidgeotto cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

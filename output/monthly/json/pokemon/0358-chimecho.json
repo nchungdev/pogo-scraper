@@ -1,0 +1,847 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2554,
+        "attack": 175,
+        "defense": 170,
+        "stamina": 181,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Chimecho",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/358.webp",
+        "types": [
+            "Psychic"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Extrasensory",
+            "charged": "Shadow Ball",
+            "dps": 9.33,
+            "tdo": 157.74,
+            "boosted_weather": [
+                "windy",
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 9.33,
+                "tdo": 157.7,
+                "score": 8.14
+            },
+            {
+                "rank": 2,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 9.06,
+                "tdo": 153.2,
+                "score": 7.9
+            },
+            {
+                "rank": 3,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 8.22,
+                "tdo": 138.8,
+                "score": 7.16
+            },
+            {
+                "rank": 4,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Psyshock",
+                "charged_url": "https://db.pokemongohub.net/move/60",
+                "dps": 8.07,
+                "tdo": 136.4,
+                "score": 7.03
+            },
+            {
+                "rank": 5,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 7.71,
+                "tdo": 130.3,
+                "score": 6.72
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 6.61,
+                "tdo": 111.7,
+                "score": 5.76
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            },
+            {
+                "name": "Extrasensory",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/274"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Psyshock",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/60"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Energy Ball",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/273"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Chimecho's has 2554 max CP (at Level 50). A Chimecho obtained from Raids can be encountered from 1224 CP to 1291 CP, or if weather boosted, in the 1530 CP to 1614 CP range. In Field and Special Research, Chimecho can be found in the 918 CP to 968 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2554",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "918 - 968",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1224 - 1291",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1224 - 1291",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1530 - 1614",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1530 CP - 1614 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 31,
+        "2": 100,
+        "3": 168,
+        "4": 236,
+        "5": 304,
+        "6": 373,
+        "7": 441,
+        "8": 509,
+        "9": 577,
+        "10": 645,
+        "11": 710,
+        "12": 774,
+        "13": 839,
+        "14": 903,
+        "15": 968,
+        "16": 1033,
+        "17": 1097,
+        "18": 1162,
+        "19": 1226,
+        "20": 1291,
+        "21": 1355,
+        "22": 1420,
+        "23": 1484,
+        "24": 1549,
+        "25": 1614,
+        "26": 1678,
+        "27": 1743,
+        "28": 1807,
+        "29": 1872,
+        "30": 1937,
+        "31": 1969,
+        "32": 2001,
+        "33": 2033,
+        "34": 2066,
+        "35": 2098,
+        "36": 2130,
+        "37": 2162,
+        "38": 2195,
+        "39": 2227,
+        "40": 2259,
+        "41": 2288,
+        "42": 2317,
+        "43": 2346,
+        "44": 2375,
+        "45": 2404,
+        "46": 2434,
+        "47": 2464,
+        "48": 2494,
+        "49": 2524,
+        "50": 2554
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Chingling",
+                    "href": "/pokemon/433",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/433.webp"
+                },
+                "to": {
+                    "name": "Chimecho",
+                    "href": "/pokemon/358",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/358.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Chimecho",
+                "href": "/pokemon/358",
+                "img": "https://db.pokemongohub.net/images/official/medium/358.webp"
+            },
+            {
+                "name": "Chingling",
+                "href": "/pokemon/433",
+                "img": "https://db.pokemongohub.net/images/official/medium/433.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Chimecho in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Chimecho",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Chimecho's Psychic-type moves, Candy, and Candy XL from catching Chimecho.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 358,
+            "height_m": 0.61,
+            "weight_kg": 1,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 1000
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.3 m",
+            "xs": "0.31 m",
+            "m": "0.61 m",
+            "xl": "0.92 m",
+            "xxl": "0.95 m",
+            "description": "Chimecho's height ranges from 0.3 m to 0.95 m, with the average being 0.61 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2989,
+                "upper_m": 0.305,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′00″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.305,
+                "upper_m": 0.61,
+                "lower_ft": "1′00″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.4575,
+                "upper_m": 0.7625,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.7625,
+                "upper_m": 0.915,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.915,
+                "upper_m": 0.9455,
+                "lower_ft": "3′00″",
+                "upper_ft": "3′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 5.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 30.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.3,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "CHIMECHO makes its cries echo inside its hollow body. When this POKéMON becomes enraged, its cries result in ultrasonic waves that have the power to knock foes flying."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "In high winds, CHIMECHO cries as it hangs from a tree branch or the eaves of a building using a suction cup on its head. This POKéMON plucks berries with its long tail and eats them."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "They fly about very actively when the hot season arrives. They communicate among themselves using seven different and distinguishing cries."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It travels by riding on winds. It cleverly uses its long tail to pluck nuts and berries, which it loves to eat."
+        },
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "To knock foes flying, it makes the air shudder with its cries. It converses using seven cries."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "Emitting ultrasonic cries, it floats on winds to travel great distances."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It uses the sucker on its head to hang from a tree or from eaves. It can produce seven different tones."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It uses the sucker on its head to hang from a tree or from eaves. It can produce seven different tones."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Emitting ultrasonic cries, it floats on winds to travel great distances."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Chimecho makes its cries echo inside its hollow body. When this Pokémon becomes enraged, its cries result in ultrasonic waves that have the power to knock foes flying."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "In high winds, Chimecho cries as it hangs from a tree branch or the eaves of a building using a suction cup on its head. This Pokémon plucks berries with its long tail and eats them."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Can emit waves of air powerful enough to knock out prey taller than itself. I hypothesize that it amplifies the faint sound of wind within its body."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Chimecho",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm358.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm358.icon.png"
+            },
+            {
+                "label": "Shiny Chimecho",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm358.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm358.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 358,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0358_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0358_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Chimecho sprite"
+            },
+            {
+                "pokedex_number": 358,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0358_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0358_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Chimecho sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/358_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/358_social.jpg",
+                "alt": "Chimecho"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/358_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/358_social_dark.jpg",
+                "alt": "Chimecho"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/358_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/358_social_map.jpg",
+                "alt": "Chimecho"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/358_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/358_social_map_dark.jpg",
+                "alt": "Chimecho"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Chimecho’s strengths and weaknesses?",
+            "answer": "As a Psychic-type Pokémon, Chimecho is weak to Bug, Dark, and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Chimecho in Pokémon GO?",
+            "answer": "The best moves for Chimecho in Pokémon GO are Extrasensory and Shadow Ball. This moveset has a DPS (Damage Per Second) of 9.333 and a TDO (Total Damage Output) of 157.743."
+        },
+        {
+            "question": "How does Chimecho perform in Raids?",
+            "answer": "Chimecho's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Chimecho rank as a Psychic-type attacker?",
+            "answer": "Chimecho is an F-Tier Psychic-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Chimecho?",
+            "answer": "The following Mega Pokémon boost Chimecho: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Chimecho’s maximum CP at Level 40 and Level 50?",
+            "answer": "Chimecho’s maximum CP at Level 40 is 2259 CP and 2554 CP at Level 50."
+        },
+        {
+            "question": "Can Chimecho be shiny in Pokémon GO?",
+            "answer": "Chimecho can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Chimecho Dynamax in Pokémon GO?",
+            "answer": "Chimecho cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,845 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1508,
+        "attack": 125,
+        "defense": 122,
+        "stamina": 155,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Spoink",
+        "forms": [
+            {
+                "name": "Spoink",
+                "href": "/pokemon/325",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/325.webp"
+            },
+            {
+                "name": "Shadow Spoink",
+                "href": "/pokemon/325-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/325.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/325.webp",
+        "types": [
+            "Psychic"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Zen Headbutt",
+            "charged": "Shadow Ball",
+            "dps": 6.27,
+            "tdo": 68.05,
+            "boosted_weather": [
+                "windy",
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 6.27,
+                "tdo": 68.1,
+                "score": 5.1
+            },
+            {
+                "rank": 2,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Mirror Coat",
+                "charged_url": "https://db.pokemongohub.net/move/276",
+                "dps": 5.72,
+                "tdo": 62.1,
+                "score": 4.65
+            },
+            {
+                "rank": 3,
+                "fast": "Zen Headbutt",
+                "fast_url": "https://db.pokemongohub.net/move/234",
+                "charged": "Psybeam",
+                "charged_url": "https://db.pokemongohub.net/move/30",
+                "dps": 5.61,
+                "tdo": 60.9,
+                "score": 4.56
+            },
+            {
+                "rank": 4,
+                "fast": "Splash",
+                "fast_url": "https://db.pokemongohub.net/move/231",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 3.74,
+                "tdo": 40.6,
+                "score": 3.04
+            },
+            {
+                "rank": 5,
+                "fast": "Splash",
+                "fast_url": "https://db.pokemongohub.net/move/231",
+                "charged": "Psybeam",
+                "charged_url": "https://db.pokemongohub.net/move/30",
+                "dps": 2.98,
+                "tdo": 32.3,
+                "score": 2.42
+            },
+            {
+                "rank": 6,
+                "fast": "Splash",
+                "fast_url": "https://db.pokemongohub.net/move/231",
+                "charged": "Mirror Coat",
+                "charged_url": "https://db.pokemongohub.net/move/276",
+                "dps": 2.97,
+                "tdo": 32.2,
+                "score": 2.41
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Splash",
+                "type": "Water",
+                "stats": {
+                    "damage": 0,
+                    "energy": 17,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 0,
+                    "energy": 17,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 0,
+                    "energy": 12
+                },
+                "url": "https://db.pokemongohub.net/move/231"
+            },
+            {
+                "name": "Zen Headbutt",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 9,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/234"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Psybeam",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/30"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Mirror Coat",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.2s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/276"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Spoink's has 1508 max CP (at Level 50). A Spoink obtained from Raids can be encountered from 711 CP to 762 CP, or if weather boosted, in the 888 CP to 953 CP range. In Field and Special Research, Spoink can be found in the 533 CP to 571 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1508",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "533 - 571",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "711 - 762",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "711 - 762",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "888 - 953",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "888 CP - 953 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 18,
+        "2": 59,
+        "3": 99,
+        "4": 139,
+        "5": 179,
+        "6": 220,
+        "7": 260,
+        "8": 300,
+        "9": 341,
+        "10": 381,
+        "11": 419,
+        "12": 457,
+        "13": 495,
+        "14": 533,
+        "15": 571,
+        "16": 610,
+        "17": 648,
+        "18": 686,
+        "19": 724,
+        "20": 762,
+        "21": 800,
+        "22": 838,
+        "23": 876,
+        "24": 915,
+        "25": 953,
+        "26": 991,
+        "27": 1029,
+        "28": 1067,
+        "29": 1105,
+        "30": 1143,
+        "31": 1162,
+        "32": 1181,
+        "33": 1201,
+        "34": 1220,
+        "35": 1239,
+        "36": 1258,
+        "37": 1277,
+        "38": 1296,
+        "39": 1315,
+        "40": 1334,
+        "41": 1351,
+        "42": 1368,
+        "43": 1385,
+        "44": 1402,
+        "45": 1420,
+        "46": 1437,
+        "47": 1455,
+        "48": 1472,
+        "49": 1490,
+        "50": 1508
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Spoink",
+                    "href": "/pokemon/325",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/325.webp"
+                },
+                "to": {
+                    "name": "Grumpig",
+                    "href": "/pokemon/326",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/326.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Spoink",
+                "href": "/pokemon/325",
+                "img": "https://db.pokemongohub.net/images/official/medium/325.webp"
+            },
+            {
+                "name": "Grumpig",
+                "href": "/pokemon/326",
+                "img": "https://db.pokemongohub.net/images/official/medium/326.webp"
+            },
+            {
+                "name": "Shadow Spoink",
+                "href": "/pokemon/325-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Grumpig",
+                "href": "/pokemon/326-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Spoink in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Spoink",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Spoink's Psychic-type moves, Candy, and Candy XL from catching Spoink.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 325,
+            "height_m": 0.71,
+            "weight_kg": 30.6,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.35 m",
+            "xs": "0.36 m",
+            "m": "0.71 m",
+            "xl": "1.07 m",
+            "xxl": "1.1 m",
+            "description": "Spoink's height ranges from 0.35 m to 1.1 m, with the average being 0.71 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.3479,
+                "upper_m": 0.355,
+                "lower_ft": "1′02″",
+                "upper_ft": "1′02″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.355,
+                "upper_m": 0.71,
+                "lower_ft": "1′02″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.5325,
+                "upper_m": 0.8875,
+                "lower_ft": "1′09″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.8875,
+                "upper_m": 1.065,
+                "lower_ft": "2′11″",
+                "upper_ft": "3′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.065,
+                "upper_m": 1.1005,
+                "lower_ft": "3′06″",
+                "upper_ft": "3′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 20.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "SPOINK bounces around on its tail. The shock of its bouncing makes its heart pump. As a result, this POKéMON cannot afford to stop bouncing - if it stops, its heart will stop."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "SPOINK keeps a pearl on top of its head. The pearl functions to amplify this POKéMON’s psychokinetic powers. It is therefore on a constant search for a bigger pearl."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "A POKéMON that manipulates psychic power at will. It doesn’t stop bouncing even when it is asleep. It loves eating mushrooms that grow underground."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It apparently dies if it stops bouncing about. It carries a pearl from CLAMPERL on its head."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It bounces around on its tail to keep its heart pumping. It carries a pearl from CLAMPERL on its head."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Using its tail like a spring, it keeps its heart beating by bouncing constantly. If it stops, it dies."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Spoink bounces around on its tail. The shock of its bouncing makes its heart pump. As a result, this Pokémon cannot afford to stop bouncing—if it stops, its heart will stop."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Spoink keeps a pearl on top of its head. The pearl functions to amplify this Pokémon’s psychokinetic powers. It is therefore on a constant search for a bigger pearl."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Spoink",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm325.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm325.icon.png"
+            },
+            {
+                "label": "Shiny Spoink",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm325.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm325.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 325,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0325_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0325_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Spoink sprite"
+            },
+            {
+                "pokedex_number": 325,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0325_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0325_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Spoink sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/325_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/325_social.jpg",
+                "alt": "Spoink"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/325_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/325_social_dark.jpg",
+                "alt": "Spoink"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/325_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/325_social_map.jpg",
+                "alt": "Spoink"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/325_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/325_social_map_dark.jpg",
+                "alt": "Spoink"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Spoink’s strengths and weaknesses?",
+            "answer": "As a Psychic-type Pokémon, Spoink is weak to Bug, Dark, and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Spoink in Pokémon GO?",
+            "answer": "The best moves for Spoink in Pokémon GO are Zen Headbutt and Shadow Ball. This moveset has a DPS (Damage Per Second) of 6.269 and a TDO (Total Damage Output) of 68.053."
+        },
+        {
+            "question": "How does Spoink perform in Raids?",
+            "answer": "Spoink's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Spoink rank as a Psychic-type attacker?",
+            "answer": "Spoink is an F-Tier Psychic-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Spoink?",
+            "answer": "The following Mega Pokémon boost Spoink: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Spoink’s maximum CP at Level 40 and Level 50?",
+            "answer": "Spoink’s maximum CP at Level 40 is 1334 CP and 1508 CP at Level 50."
+        },
+        {
+            "question": "Can Spoink be shiny in Pokémon GO?",
+            "answer": "Spoink can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Spoink Dynamax in Pokémon GO?",
+            "answer": "Spoink cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

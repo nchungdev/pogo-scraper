@@ -1,0 +1,774 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2708,
+        "attack": 204,
+        "defense": 129,
+        "stamina": 198,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Heatmor",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/631.webp",
+        "types": [
+            "Fire"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Fire Spin",
+            "charged": "Flamethrower",
+            "dps": 10.99,
+            "tdo": 157.09,
+            "boosted_weather": [
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 10.99,
+                "tdo": 157.1,
+                "score": 9.35
+            },
+            {
+                "rank": 2,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 10.21,
+                "tdo": 145.9,
+                "score": 8.69
+            },
+            {
+                "rank": 3,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Thunder Punch",
+                "charged_url": "https://db.pokemongohub.net/move/77",
+                "dps": 9.65,
+                "tdo": 137.9,
+                "score": 8.22
+            },
+            {
+                "rank": 4,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Power-Up Punch",
+                "charged_url": "https://db.pokemongohub.net/move/319",
+                "dps": 9.65,
+                "tdo": 137.9,
+                "score": 8.22
+            },
+            {
+                "rank": 5,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Thunder Punch",
+                "charged_url": "https://db.pokemongohub.net/move/77",
+                "dps": 8.74,
+                "tdo": 125.0,
+                "score": 7.44
+            },
+            {
+                "rank": 6,
+                "fast": "Lick",
+                "fast_url": "https://db.pokemongohub.net/move/212",
+                "charged": "Power-Up Punch",
+                "charged_url": "https://db.pokemongohub.net/move/319",
+                "dps": 8.74,
+                "tdo": 125.0,
+                "score": 7.44
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Lick",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/212"
+            },
+            {
+                "name": "Fire Spin",
+                "type": "Fire",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 11,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/269"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Thunder Punch",
+                "type": "Electric",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.9s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/77"
+            },
+            {
+                "name": "Power-Up Punch",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.7s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 20,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/319"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Heatmor's has 2708 max CP (at Level 50). A Heatmor obtained from Raids can be encountered from 1298 CP to 1368 CP, or if weather boosted, in the 1623 CP to 1711 CP range. In Field and Special Research, Heatmor can be found in the 974 CP to 1026 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2708",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "974 - 1026",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1298 - 1368",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1298 - 1368",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1623 - 1711",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1623 CP - 1711 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 33,
+        "2": 106,
+        "3": 178,
+        "4": 250,
+        "5": 323,
+        "6": 395,
+        "7": 467,
+        "8": 540,
+        "9": 612,
+        "10": 684,
+        "11": 753,
+        "12": 821,
+        "13": 889,
+        "14": 958,
+        "15": 1026,
+        "16": 1095,
+        "17": 1163,
+        "18": 1231,
+        "19": 1300,
+        "20": 1368,
+        "21": 1437,
+        "22": 1505,
+        "23": 1574,
+        "24": 1642,
+        "25": 1711,
+        "26": 1779,
+        "27": 1848,
+        "28": 1916,
+        "29": 1984,
+        "30": 2053,
+        "31": 2087,
+        "32": 2121,
+        "33": 2156,
+        "34": 2190,
+        "35": 2224,
+        "36": 2258,
+        "37": 2292,
+        "38": 2327,
+        "39": 2361,
+        "40": 2395,
+        "41": 2425,
+        "42": 2456,
+        "43": 2487,
+        "44": 2518,
+        "45": 2549,
+        "46": 2580,
+        "47": 2612,
+        "48": 2644,
+        "49": 2676,
+        "50": 2708
+    },
+    "meta_analysis": "Heatmor in the meta PvE Analysis Heatmor is heavily outperformed by many Fire types . At best, it's a budget option for beginners who lack better Fire Pokémon . Otherwise, it's a cool dex filler since it's a regional species. 🙂 💥 The best PvE moves for Heatmor are Fire Spin and Flamethrower . ⚔️ Raids Heatmor is not a Pokémon you should bring to raid battles because of how underpowered it is. 🫤 🛡️ Gyms With no bulk to back it up, Heatmor fails in gym defense . 🫠 PvP Analysis Niantic gave Heatmor a rather interesting set of moves , including Lick , Thunder Punch , and Power-Up Punch . Quite a variety, but due to its average stats , it doesn't fare well overall because of the inconsistency of these movesets. We recommend opting for STAB moves Fire Spin and Flamethrower to take advantage of its relatively high offensive power . This way, it's not entirely at a loss in PvP. 🙂 💥 The best PvP moves for Heatmor are Fire Spin , Flamethrower , and Thunder Punch . 🔵 Great League The Great League favors Pokémon with more bulk and relatively less offensive power . Heatmor is the opposite, leaving it in an awkward position where it's more likely to lose battles. 😞 🟡 Ultra League Nothing improves for Heatmor in the Ultra League . Lose, lose, and lose. 🥱 🟣 Master League Heatmor's stats are insufficient for the Master League . Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Heatmor",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Heatmor's Fire-type moves, Candy, and Candy XL from catching Heatmor.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 631,
+            "height_m": 1.4,
+            "weight_kg": 58,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.69 m",
+            "xs": "0.7 m",
+            "m": "1.4 m",
+            "xl": "2.1 m",
+            "xxl": "2.45 m",
+            "description": "Heatmor's height ranges from 0.69 m to 2.45 m, with the average being 1.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.686,
+                "upper_m": 0.7,
+                "lower_ft": "2′03″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.7,
+                "upper_m": 1.4,
+                "lower_ft": "2′04″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.05,
+                "upper_m": 1.75,
+                "lower_ft": "3′05″",
+                "upper_ft": "5′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.75,
+                "upper_m": 2.1,
+                "lower_ft": "5′09″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.1,
+                "upper_m": 2.45,
+                "lower_ft": "6′11″",
+                "upper_ft": "8′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 2,
+            "attack_probability": 70.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "It breathes through a hole in its tail while it burns with an internal fire. Durant is its prey."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "Using their very hot, flame-covered tongues, they burn through Durant’s steel bodies and consume their insides."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Using their very hot, flame-covered tongues, they burn through Durant’s steel bodies and consume their insides."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "There’s a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Heatmor",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm631.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm631.icon.png"
+            },
+            {
+                "label": "Shiny Heatmor",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm631.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm631.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 631,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0631_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0631_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Heatmor sprite"
+            },
+            {
+                "pokedex_number": 631,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0631_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0631_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Heatmor sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/631_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/631_social.jpg",
+                "alt": "Heatmor"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/631_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/631_social_dark.jpg",
+                "alt": "Heatmor"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/631_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/631_social_map.jpg",
+                "alt": "Heatmor"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/631_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/631_social_map_dark.jpg",
+                "alt": "Heatmor"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Heatmor’s strengths and weaknesses?",
+            "answer": "As a Fire-type Pokémon, Heatmor is weak to Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Heatmor in Pokémon GO?",
+            "answer": "The best moves for Heatmor in Pokémon GO are Fire Spin and Flamethrower. This moveset has a DPS (Damage Per Second) of 10.989 and a TDO (Total Damage Output) of 157.094."
+        },
+        {
+            "question": "How does Heatmor perform in Raids?",
+            "answer": "Heatmor's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Heatmor rank as a Fire-type attacker?",
+            "answer": "Heatmor is an F-Tier Fire-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Heatmor?",
+            "answer": "The following Mega Pokémon boost Heatmor: Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Heatmor’s maximum CP at Level 40 and Level 50?",
+            "answer": "Heatmor’s maximum CP at Level 40 is 2395 CP and 2708 CP at Level 50."
+        },
+        {
+            "question": "Can Heatmor be shiny in Pokémon GO?",
+            "answer": "Heatmor can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Heatmor Dynamax in Pokémon GO?",
+            "answer": "Heatmor cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

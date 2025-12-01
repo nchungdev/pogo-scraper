@@ -1,0 +1,774 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3457,
+        "attack": 212,
+        "defense": 212,
+        "stamina": 190,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": true,
+        "title": "Mesprit",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/481.webp",
+        "types": [
+            "Psychic"
+        ],
+        "weather_boost": [
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Confusion",
+            "charged": "Future Sight",
+            "dps": 11.3,
+            "tdo": 245.17,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Future Sight",
+                "charged_url": "https://db.pokemongohub.net/move/275",
+                "dps": 11.3,
+                "tdo": 245.2,
+                "score": 10.15
+            },
+            {
+                "rank": 2,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Future Sight",
+                "charged_url": "https://db.pokemongohub.net/move/275",
+                "dps": 11.22,
+                "tdo": 243.3,
+                "score": 10.06
+            },
+            {
+                "rank": 3,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Blizzard",
+                "charged_url": "https://db.pokemongohub.net/move/40",
+                "dps": 10.66,
+                "tdo": 231.2,
+                "score": 9.56
+            },
+            {
+                "rank": 4,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Blizzard",
+                "charged_url": "https://db.pokemongohub.net/move/40",
+                "dps": 10.47,
+                "tdo": 227.2,
+                "score": 9.39
+            },
+            {
+                "rank": 5,
+                "fast": "Confusion",
+                "fast_url": "https://db.pokemongohub.net/move/235",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 9.09,
+                "tdo": 197.3,
+                "score": 8.16
+            },
+            {
+                "rank": 6,
+                "fast": "Extrasensory",
+                "fast_url": "https://db.pokemongohub.net/move/274",
+                "charged": "Swift",
+                "charged_url": "https://db.pokemongohub.net/move/125",
+                "dps": 8.74,
+                "tdo": 189.6,
+                "score": 7.84
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Confusion",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 19,
+                    "energy": 14,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 19,
+                    "energy": 14,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.5s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 16,
+                    "energy": 14
+                },
+                "url": "https://db.pokemongohub.net/move/235"
+            },
+            {
+                "name": "Extrasensory",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 11,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/274"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Blizzard",
+                "type": "Ice",
+                "stats": {
+                    "damage": 130,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 130,
+                    "energy": 100,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 140,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/40"
+            },
+            {
+                "name": "Swift",
+                "type": "Normal",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.2s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/125"
+            },
+            {
+                "name": "Future Sight",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 115,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 115,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.2s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/275"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Mesprit's has 3457 max CP (at Level 50). A Mesprit obtained from Raids can be encountered from 1669 CP to 1747 CP, or if weather boosted, in the 2086 CP to 2184 CP range. In Field and Special Research, Mesprit can be found in the 1252 CP to 1310 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3457",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1252 - 1310",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1669 - 1747",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1669 - 1747",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2086 - 2184",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2086 CP - 2184 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 43,
+        "2": 135,
+        "3": 227,
+        "4": 320,
+        "5": 412,
+        "6": 504,
+        "7": 597,
+        "8": 689,
+        "9": 781,
+        "10": 874,
+        "11": 961,
+        "12": 1048,
+        "13": 1136,
+        "14": 1223,
+        "15": 1310,
+        "16": 1398,
+        "17": 1485,
+        "18": 1572,
+        "19": 1660,
+        "20": 1747,
+        "21": 1835,
+        "22": 1922,
+        "23": 2009,
+        "24": 2097,
+        "25": 2184,
+        "26": 2272,
+        "27": 2359,
+        "28": 2446,
+        "29": 2534,
+        "30": 2621,
+        "31": 2665,
+        "32": 2709,
+        "33": 2752,
+        "34": 2796,
+        "35": 2840,
+        "36": 2883,
+        "37": 2927,
+        "38": 2971,
+        "39": 3014,
+        "40": 3058,
+        "41": 3097,
+        "42": 3136,
+        "43": 3175,
+        "44": 3215,
+        "45": 3254,
+        "46": 3295,
+        "47": 3335,
+        "48": 3375,
+        "49": 3416,
+        "50": 3457
+    },
+    "meta_analysis": "Mesprit in the meta PvE Analysis Mesprit has balanced stats but they are all pretty low. It simply doesn't compete with its Psychic type peers and you would prefer using non-Legendaries like Alakazam, Espeon, or even its Legendary sibling, Azelf. 😯 ⚔️ Raids If you're really fond of the Lake Guardians, use Azelf instead. Mesprit’s damage output is barely above Lugia.😬 🛡️ Gyms N/A 💥 The best attackset for Mesprit in PvE is Confusion and Future Sight. PvP Analysis Mesprit? More like, Mehsprit. A clunky attackset that isn't backed by either offense or bulk, Mesprit is widely outclassed in PvP and offers little to no utility. 🥲 Leave Lugia and Cresselia, even Uxie is better than Mesprit in PvP and that isn't a big deal in the first place. 😅 Mesprit is the worst of the Lake Guardian trio and should be just a Pokédex entry.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Mesprit",
+        "type": "Psychic",
+        "intro_text": "A list of Mega Pokémon that boost Mesprit's Psychic-type moves, Candy, and Candy XL from catching Mesprit.",
+        "mega_list": [
+            {
+                "name": "Mega Alakazam",
+                "pokemon_id": 65,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/65-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Medicham",
+                "pokemon_id": 308,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/308-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Metagross",
+                "pokemon_id": 376,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/376-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gallade",
+                "pokemon_id": 475,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/475-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 481,
+            "height_m": 0.3,
+            "weight_kg": 0.3,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Mesprit's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 5.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.4,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "Known as “The Being of Emotion.” It taught humans the nobility of sorrow, pain, and joy."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake’s surface."
+        },
+        {
+            "versions": [
+                "Platinum"
+            ],
+            "entry": "When MESPRIT flew, people learned the joy and sadness of living. It was the birth of emotions."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "This Pokémon is said to have endowed the human heart with emotions, such as sorrow and joy."
+        },
+        {
+            "versions": [
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "When Mesprit flew, people learned the joy and sadness of living. It was the birth of emotions."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Known as “The Being of Emotion.” It taught humans the nobility of sorrow, pain, and joy."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake’s surface."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Known as the Being of Emotion. In legend, this Pokémon was feared, as any who showed disrespect would have their emotions thrown into disarray."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Mesprit",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm481.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm481.icon.png"
+            },
+            {
+                "label": "Shiny Mesprit",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm481.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm481.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 481,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0481_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0481_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Mesprit sprite"
+            },
+            {
+                "pokedex_number": 481,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0481_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0481_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Mesprit sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/481_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/481_social.jpg",
+                "alt": "Mesprit"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/481_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/481_social_dark.jpg",
+                "alt": "Mesprit"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/481_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/481_social_map.jpg",
+                "alt": "Mesprit"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/481_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/481_social_map_dark.jpg",
+                "alt": "Mesprit"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Mesprit’s strengths and weaknesses?",
+            "answer": "As a Psychic-type Pokémon, Mesprit is weak to Bug, Dark, and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Mesprit in Pokémon GO?",
+            "answer": "The best moves for Mesprit in Pokémon GO are Confusion and Future Sight. This moveset has a DPS (Damage Per Second) of 11.303 and a TDO (Total Damage Output) of 245.172."
+        },
+        {
+            "question": "How does Mesprit perform in Raids?",
+            "answer": "Mesprit's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Mesprit rank as a Psychic-type attacker?",
+            "answer": "Mesprit is an F-Tier Psychic-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Mesprit?",
+            "answer": "The following Mega Pokémon boost Mesprit: Mega Alakazam, Mega Slowbro, Mega Gardevoir, Mega Medicham, Mega Metagross, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Gallade."
+        },
+        {
+            "question": "What is Mesprit’s maximum CP at Level 40 and Level 50?",
+            "answer": "Mesprit’s maximum CP at Level 40 is 3058 CP and 3457 CP at Level 50."
+        },
+        {
+            "question": "Can Mesprit be shiny in Pokémon GO?",
+            "answer": "Mesprit can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Mesprit Dynamax in Pokémon GO?",
+            "answer": "Mesprit cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

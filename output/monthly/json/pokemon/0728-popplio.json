@@ -1,0 +1,794 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1276,
+        "attack": 120,
+        "defense": 103,
+        "stamina": 137,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Popplio",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/728.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Pound",
+            "charged": "Aqua Tail",
+            "dps": 5.84,
+            "tdo": 48.83,
+            "boosted_weather": [
+                "partlyCloudy",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Aqua Tail",
+                "charged_url": "https://db.pokemongohub.net/move/58",
+                "dps": 5.84,
+                "tdo": 48.8,
+                "score": 4.5
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Aqua Tail",
+                "charged_url": "https://db.pokemongohub.net/move/58",
+                "dps": 5.84,
+                "tdo": 48.8,
+                "score": 4.5
+            },
+            {
+                "rank": 3,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 5.35,
+                "tdo": 44.8,
+                "score": 4.12
+            },
+            {
+                "rank": 4,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 5.35,
+                "tdo": 44.8,
+                "score": 4.12
+            },
+            {
+                "rank": 5,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 5.21,
+                "tdo": 43.6,
+                "score": 4.01
+            },
+            {
+                "rank": 6,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 5.21,
+                "tdo": 43.6,
+                "score": 4.01
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Pound",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.4s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/222"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aqua Jet",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/57"
+            },
+            {
+                "name": "Aqua Tail",
+                "type": "Water",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/58"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Popplio's has 1276 max CP (at Level 50). A Popplio obtained from Raids can be encountered from 597 CP to 645 CP, or if weather boosted, in the 747 CP to 806 CP range. In Field and Special Research, Popplio can be found in the 448 CP to 483 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1276",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "448 - 483",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "597 - 645",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "597 - 645",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "747 - 806",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "747 CP - 806 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 15,
+        "2": 50,
+        "3": 84,
+        "4": 118,
+        "5": 152,
+        "6": 186,
+        "7": 220,
+        "8": 254,
+        "9": 288,
+        "10": 322,
+        "11": 354,
+        "12": 387,
+        "13": 419,
+        "14": 451,
+        "15": 483,
+        "16": 516,
+        "17": 548,
+        "18": 580,
+        "19": 612,
+        "20": 645,
+        "21": 677,
+        "22": 709,
+        "23": 742,
+        "24": 774,
+        "25": 806,
+        "26": 838,
+        "27": 871,
+        "28": 903,
+        "29": 935,
+        "30": 967,
+        "31": 984,
+        "32": 1000,
+        "33": 1016,
+        "34": 1032,
+        "35": 1048,
+        "36": 1064,
+        "37": 1080,
+        "38": 1096,
+        "39": 1113,
+        "40": 1129,
+        "41": 1143,
+        "42": 1157,
+        "43": 1172,
+        "44": 1187,
+        "45": 1201,
+        "46": 1216,
+        "47": 1231,
+        "48": 1246,
+        "49": 1261,
+        "50": 1276
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Popplio",
+                    "href": "/pokemon/728",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/728.webp"
+                },
+                "to": {
+                    "name": "Brionne",
+                    "href": "/pokemon/729",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/729.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Brionne",
+                    "href": "/pokemon/729",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/729.webp"
+                },
+                "to": {
+                    "name": "Primarina",
+                    "href": "/pokemon/730",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/730.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Popplio",
+                "href": "/pokemon/728",
+                "img": "https://db.pokemongohub.net/images/official/medium/728.webp"
+            },
+            {
+                "name": "Brionne",
+                "href": "/pokemon/729",
+                "img": "https://db.pokemongohub.net/images/official/medium/729.webp"
+            },
+            {
+                "name": "Primarina",
+                "href": "/pokemon/730",
+                "img": "https://db.pokemongohub.net/images/official/medium/730.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Popplio in the meta PvE Analysis ⚔️ Raids Popplio is the first stage of the Water-type starter from Alola . Needless to say, Popplio isn’t close to reaching the full potential of its evolution line and should not be used as a raid attacker. PvP Analysis Popplio’s max CP and base stats are too low for any of the main metas . It also does not perform particularly well in the 500 CP Little Cup , as Popplio is too frail , with a base stat total far lower than the Pokémon that typically excel in that league.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Popplio",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Popplio's Water-type moves, Candy, and Candy XL from catching Popplio.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 728,
+            "height_m": 0.4,
+            "weight_kg": 7.5,
+            "region": "Generation 7",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.62 m",
+            "description": "Popplio's height ranges from 0.2 m to 0.62 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.62,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "This Pokémon snorts body fluids from its nose, blowing balloons to smash into its foes. It’s famous for being a hard worker."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "This Pokémon can control water bubbles. It practices diligently so it can learn to make big bubbles."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "The balloons it inflates with its nose grow larger and larger as it practices day by day."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Popplio gets on top of its bouncy water balloons to jump higher. It’s quite the acrobatic fighter!"
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It creates special bouncy balloons to send at its opponents. When the balloons pop, the sheer force of their bursting is what deals damage."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "If Popplio want to create big, powerful balloons, they must be persistent. It takes daily practice for these Pokémon to develop their skills."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Popplio",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm728.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm728.icon.png"
+            },
+            {
+                "label": "Shiny Popplio",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm728.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm728.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 728,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0728_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0728_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Popplio sprite"
+            },
+            {
+                "pokedex_number": 728,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0728_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0728_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Popplio sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/728_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/728_social.jpg",
+                "alt": "Popplio"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/728_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/728_social_dark.jpg",
+                "alt": "Popplio"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/728_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/728_social_map.jpg",
+                "alt": "Popplio"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/728_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/728_social_map_dark.jpg",
+                "alt": "Popplio"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Popplio’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Popplio is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Popplio in Pokémon GO?",
+            "answer": "The best moves for Popplio in Pokémon GO are Pound and Aqua Tail. This moveset has a DPS (Damage Per Second) of 5.841 and a TDO (Total Damage Output) of 48.833."
+        },
+        {
+            "question": "How does Popplio perform in Raids?",
+            "answer": "Popplio's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Popplio rank as a Water-type attacker?",
+            "answer": "Popplio is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Popplio?",
+            "answer": "The following Mega Pokémon boost Popplio: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Popplio’s maximum CP at Level 40 and Level 50?",
+            "answer": "Popplio’s maximum CP at Level 40 is 1129 CP and 1276 CP at Level 50."
+        },
+        {
+            "question": "Can Popplio be shiny in Pokémon GO?",
+            "answer": "Popplio can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Popplio Dynamax in Pokémon GO?",
+            "answer": "Popplio cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

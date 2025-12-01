@@ -1,0 +1,876 @@
+{
+    "overview_and_stats": {
+        "max_cp": 521,
+        "attack": 37,
+        "defense": 93,
+        "stamina": 172,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Marill",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/183.webp",
+        "types": [
+            "Water",
+            "Fairy"
+        ],
+        "weather_boost": [
+            "rain",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Aqua Tail",
+            "dps": 2.64,
+            "tdo": 24.83,
+            "boosted_weather": [
+                "partlyCloudy",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Aqua Tail",
+                "charged_url": "https://db.pokemongohub.net/move/58",
+                "dps": 2.64,
+                "tdo": 24.8,
+                "score": 2.08
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 2.53,
+                "tdo": 23.8,
+                "score": 2.0
+            },
+            {
+                "rank": 3,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Aqua Tail",
+                "charged_url": "https://db.pokemongohub.net/move/58",
+                "dps": 2.52,
+                "tdo": 23.7,
+                "score": 1.99
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 2.45,
+                "tdo": 23.1,
+                "score": 1.94
+            },
+            {
+                "rank": 5,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 2.39,
+                "tdo": 22.5,
+                "score": 1.89
+            },
+            {
+                "rank": 6,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 2.31,
+                "tdo": 21.8,
+                "score": 1.83
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Bubble",
+                "type": "Water",
+                "stats": {
+                    "damage": 10,
+                    "energy": 12,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 12,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/237"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Bubble Beam",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.6s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 25,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/53"
+            },
+            {
+                "name": "Aqua Tail",
+                "type": "Water",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/58"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Marill's has 521 max CP (at Level 50). A Marill obtained from Raids can be encountered from 229 CP to 263 CP, or if weather boosted, in the 287 CP to 329 CP range. In Field and Special Research, Marill can be found in the 172 CP to 197 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "521",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "172 - 197",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "229 - 263",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "229 - 263",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "287 - 329",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "287 CP - 329 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 6,
+        "2": 20,
+        "3": 34,
+        "4": 48,
+        "5": 62,
+        "6": 76,
+        "7": 90,
+        "8": 104,
+        "9": 117,
+        "10": 131,
+        "11": 145,
+        "12": 158,
+        "13": 171,
+        "14": 184,
+        "15": 197,
+        "16": 211,
+        "17": 224,
+        "18": 237,
+        "19": 250,
+        "20": 263,
+        "21": 276,
+        "22": 290,
+        "23": 303,
+        "24": 316,
+        "25": 329,
+        "26": 342,
+        "27": 356,
+        "28": 369,
+        "29": 382,
+        "30": 395,
+        "31": 402,
+        "32": 408,
+        "33": 415,
+        "34": 422,
+        "35": 428,
+        "36": 435,
+        "37": 441,
+        "38": 448,
+        "39": 454,
+        "40": 461,
+        "41": 467,
+        "42": 473,
+        "43": 479,
+        "44": 485,
+        "45": 491,
+        "46": 497,
+        "47": 503,
+        "48": 509,
+        "49": 515,
+        "50": 521
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Marill",
+                    "href": "/pokemon/183",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/183.webp"
+                },
+                "to": {
+                    "name": "Azumarill",
+                    "href": "/pokemon/184",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/184.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Azurill",
+                    "href": "/pokemon/298",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/298.webp"
+                },
+                "to": {
+                    "name": "Marill",
+                    "href": "/pokemon/183",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/183.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Marill",
+                "href": "/pokemon/183",
+                "img": "https://db.pokemongohub.net/images/official/medium/183.webp"
+            },
+            {
+                "name": "Azumarill",
+                "href": "/pokemon/184",
+                "img": "https://db.pokemongohub.net/images/official/medium/184.webp"
+            },
+            {
+                "name": "Azurill",
+                "href": "/pokemon/298",
+                "img": "https://db.pokemongohub.net/images/official/medium/298.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Marill in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Marill",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Marill's Water and Fairy-type moves, Candy, and Candy XL from catching Marill.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 183,
+            "height_m": 0.41,
+            "weight_kg": 8.5,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.21 m",
+            "m": "0.41 m",
+            "xl": "0.62 m",
+            "xxl": "0.72 m",
+            "description": "Marill's height ranges from 0.2 m to 0.72 m, with the average being 0.41 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2009,
+                "upper_m": 0.205,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.205,
+                "upper_m": 0.41,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3075,
+                "upper_m": 0.5125,
+                "lower_ft": "1′00″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5125,
+                "upper_m": 0.615,
+                "lower_ft": "1′08″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.615,
+                "upper_m": 0.7175,
+                "lower_ft": "2′00″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "The tip of its tail, which con tains oil that is lighter than wa ter, lets it swim without drowning."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "The fur on its body naturally repels water. It can stay dry, even when it plays in the water."
+        },
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "MARILL’s oil-filled tail acts much like a life preserver. If you see just its tail bobbing on the water’s surface, it’s a sure indication that this POKéMON is diving beneath the water to feed on aquatic plants."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "When fishing for food at the edge of a fast-running stream, MARILL wraps its tail around the trunk of a tree. This POKéMON’s tail is flexible and configured to stretch."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "Its body is covered with water-repellent fur. Because of the fur, it can swim through water at high speed without being slowed by the water’s resistance."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning."
+        },
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "Using its tail as a float, it dives underwater. It likes eating plants that grow on river bottoms."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "The tip of its tail is filled with oil that is lighter than water, so it acts as a float."
+        },
+        {
+            "versions": [
+                "Platinum"
+            ],
+            "entry": "The oil-filled end of its tail floats on water. It keeps MARILL from drowning even in a strong current."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "The tip of its tail, which contains oil that is lighter than water, lets it swim without drowning."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "The end of its tail serves as a buoy that keeps it from drowning, even in a vicious current."
+        },
+        {
+            "versions": [
+                "Black",
+                "White"
+            ],
+            "entry": "The oil-filled end of its tail floats on water. It keeps Marill from drowning even in a strong current."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "The oil-filled tail functions as a buoy, so it’s fine even in rivers with strong currents."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "The fur on its body naturally repels water. It can stay dry, even when it plays in the water."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "The tip of its tail is filled with oil that is lighter than water, so it acts as a float."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Marill’s oil-filled tail acts much like a life preserver. If you see just its tail bobbing on the water’s surface, it’s a sure indication that this Pokémon is diving beneath the water to feed on aquatic plants."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "When fishing for food at the edge of a fast-running stream, Marill wraps its tail around the trunk of a tree. This Pokémon’s tail is flexible and configured to stretch."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This Pokémon uses its round tail as a float. The ball of Marill’s tail is filled with nutrients that have been turned into an oil."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Even after Marill swims in a cold sea, its water- repellent fur dries almost as soon as Marill leaves the water. That’s why this Pokémon is never cold."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Marill",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm183.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm183.icon.png"
+            },
+            {
+                "label": "Shiny Marill",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm183.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm183.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 183,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0183_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0183_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Marill sprite"
+            },
+            {
+                "pokedex_number": 183,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0183_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0183_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Marill sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/183_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/183_social.jpg",
+                "alt": "Marill"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/183_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/183_social_dark.jpg",
+                "alt": "Marill"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/183_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/183_social_map.jpg",
+                "alt": "Marill"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/183_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/183_social_map_dark.jpg",
+                "alt": "Marill"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Marill’s strengths and weaknesses?",
+            "answer": "As a Water and Fairy-type Pokémon, Marill is weak to Electric, Grass, and Poison-type moves."
+        },
+        {
+            "question": "What are the best moves for Marill in Pokémon GO?",
+            "answer": "The best moves for Marill in Pokémon GO are Tackle and Aqua Tail. This moveset has a DPS (Damage Per Second) of 2.637 and a TDO (Total Damage Output) of 24.826."
+        },
+        {
+            "question": "How does Marill perform in Raids?",
+            "answer": "Marill's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Marill rank as a Water-type attacker?",
+            "answer": "Marill's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Marill?",
+            "answer": "The following Mega Pokémon boost Marill: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, and Mega Diancie."
+        },
+        {
+            "question": "What is Marill’s maximum CP at Level 40 and Level 50?",
+            "answer": "Marill’s maximum CP at Level 40 is 461 CP and 521 CP at Level 50."
+        },
+        {
+            "question": "Can Marill be shiny in Pokémon GO?",
+            "answer": "Marill can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Marill Dynamax in Pokémon GO?",
+            "answer": "Marill cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

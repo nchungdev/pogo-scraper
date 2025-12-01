@@ -1,0 +1,775 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1099,
+        "attack": 98,
+        "defense": 110,
+        "stamina": 137,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Mareanie",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/747.webp",
+        "types": [
+            "Poison",
+            "Water"
+        ],
+        "weather_boost": [
+            "cloudy",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bite",
+            "charged": "Brine",
+            "dps": 4.69,
+            "tdo": 41.56,
+            "boosted_weather": [
+                "fog",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Brine",
+                "charged_url": "https://db.pokemongohub.net/move/104",
+                "dps": 4.69,
+                "tdo": 41.6,
+                "score": 3.66
+            },
+            {
+                "rank": 2,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Gunk Shot",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 4.66,
+                "tdo": 41.3,
+                "score": 3.64
+            },
+            {
+                "rank": 3,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Brine",
+                "charged_url": "https://db.pokemongohub.net/move/104",
+                "dps": 4.66,
+                "tdo": 41.2,
+                "score": 3.63
+            },
+            {
+                "rank": 4,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Gunk Shot",
+                "charged_url": "https://db.pokemongohub.net/move/92",
+                "dps": 4.46,
+                "tdo": 39.5,
+                "score": 3.48
+            },
+            {
+                "rank": 5,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Sludge Wave",
+                "charged_url": "https://db.pokemongohub.net/move/91",
+                "dps": 4.33,
+                "tdo": 38.4,
+                "score": 3.38
+            },
+            {
+                "rank": 6,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Sludge Wave",
+                "charged_url": "https://db.pokemongohub.net/move/91",
+                "dps": 4.33,
+                "tdo": 38.3,
+                "score": 3.38
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Poison Sting",
+                "type": "Poison",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/236"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Sludge Wave",
+                "type": "Poison",
+                "stats": {
+                    "damage": 105,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 105,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.8s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/91"
+            },
+            {
+                "name": "Gunk Shot",
+                "type": "Poison",
+                "stats": {
+                    "damage": 130,
+                    "energy": 100,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 130,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.6s - 2.6s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/92"
+            },
+            {
+                "name": "Brine",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/104"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Mareanie's has 1099 max CP (at Level 50). A Mareanie obtained from Raids can be encountered from 511 CP to 555 CP, or if weather boosted, in the 639 CP to 694 CP range. In Field and Special Research, Mareanie can be found in the 383 CP to 416 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1099",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "383 - 416",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "511 - 555",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "511 - 555",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "639 - 694",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "639 CP - 694 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 13,
+        "2": 43,
+        "3": 72,
+        "4": 101,
+        "5": 131,
+        "6": 160,
+        "7": 189,
+        "8": 219,
+        "9": 248,
+        "10": 278,
+        "11": 305,
+        "12": 333,
+        "13": 361,
+        "14": 389,
+        "15": 416,
+        "16": 444,
+        "17": 472,
+        "18": 500,
+        "19": 528,
+        "20": 555,
+        "21": 583,
+        "22": 611,
+        "23": 639,
+        "24": 667,
+        "25": 694,
+        "26": 722,
+        "27": 750,
+        "28": 778,
+        "29": 806,
+        "30": 833,
+        "31": 847,
+        "32": 861,
+        "33": 875,
+        "34": 889,
+        "35": 903,
+        "36": 917,
+        "37": 931,
+        "38": 945,
+        "39": 958,
+        "40": 972,
+        "41": 985,
+        "42": 997,
+        "43": 1010,
+        "44": 1022,
+        "45": 1035,
+        "46": 1048,
+        "47": 1060,
+        "48": 1073,
+        "49": 1086,
+        "50": 1099
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Mareanie",
+                    "href": "/pokemon/747",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/747.webp"
+                },
+                "to": {
+                    "name": "Toxapex",
+                    "href": "/pokemon/748",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/748.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Mareanie",
+                "href": "/pokemon/747",
+                "img": "https://db.pokemongohub.net/images/official/medium/747.webp"
+            },
+            {
+                "name": "Toxapex",
+                "href": "/pokemon/748",
+                "img": "https://db.pokemongohub.net/images/official/medium/748.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Mareanie in the meta PvE Analysis ⚔️ Raids Mareanie may bully Corsola in the main series, but in Pokémon GO , it has no use in raids. 🛡️ Gyms Far better options are available. PvP Analysis Mareanie’s best moveset for PvP is Poison Sting , Brine , and Sludge Wave . Sadly, it is not a useful PvP Pokémon . 🧸 Little Cup While Mareanie fits in Little Cup , it doesn’t even break the top 150 in rankings. 🔵 Great League With a max CP of 1099, Mareanie is far too small for Great League . 🟡 Ultra League Don’t do it. 🟣 Master League Starfish for dinner, anyone?",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Mareanie",
+        "type": "Poison",
+        "intro_text": "A list of Mega Pokémon that boost Mareanie's Poison and Water-type moves, Candy, and Candy XL from catching Mareanie.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 747,
+            "height_m": 0.4,
+            "weight_kg": 8,
+            "region": "Generation 7",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Mareanie's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It’s found crawling on beaches and seafloors. The coral that grows on Corsola’s head is as good as a five-star banquet to this Pokémon."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "They eat Corsola branches, so Mareanie are hated by craftsmen who work with Corsola branches that have naturally fallen off."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Aside from its head, its body parts regenerate quickly if they’re cut off. After a good night’s sleep, Mareanie is back to normal."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "The first symptom of its sting is numbness. The next is an itching sensation so intense that it’s impossible to resist the urge to claw at your skin."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Unlike their Alolan counterparts, the Mareanie of the Galar region have not yet figured out that the branches of Corsola are delicious."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Mareanie",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm747.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm747.icon.png"
+            },
+            {
+                "label": "Shiny Mareanie",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm747.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm747.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 747,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0747_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0747_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Mareanie sprite"
+            },
+            {
+                "pokedex_number": 747,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0747_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0747_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Mareanie sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/747_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/747_social.jpg",
+                "alt": "Mareanie"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/747_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/747_social_dark.jpg",
+                "alt": "Mareanie"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/747_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/747_social_map.jpg",
+                "alt": "Mareanie"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/747_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/747_social_map_dark.jpg",
+                "alt": "Mareanie"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Mareanie’s strengths and weaknesses?",
+            "answer": "As a Poison and Water-type Pokémon, Mareanie is weak to Electric, Ground, and Psychic-type moves."
+        },
+        {
+            "question": "What are the best moves for Mareanie in Pokémon GO?",
+            "answer": "The best moves for Mareanie in Pokémon GO are Bite and Brine. This moveset has a DPS (Damage Per Second) of 4.693 and a TDO (Total Damage Output) of 41.565."
+        },
+        {
+            "question": "How does Mareanie perform in Raids?",
+            "answer": "Mareanie's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Mareanie rank as a Poison-type attacker?",
+            "answer": "Mareanie's performance as a Poison-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Mareanie?",
+            "answer": "The following Mega Pokémon boost Mareanie: Mega Venusaur, Mega Beedrill, Mega Gengar, Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Mareanie’s maximum CP at Level 40 and Level 50?",
+            "answer": "Mareanie’s maximum CP at Level 40 is 972 CP and 1099 CP at Level 50."
+        },
+        {
+            "question": "Can Mareanie be shiny in Pokémon GO?",
+            "answer": "Mareanie can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Mareanie Dynamax in Pokémon GO?",
+            "answer": "Mareanie cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

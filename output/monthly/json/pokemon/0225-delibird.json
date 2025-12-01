@@ -1,0 +1,881 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1237,
+        "attack": 128,
+        "defense": 90,
+        "stamina": 128,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Delibird",
+        "forms": [
+            {
+                "name": "Delibird",
+                "href": "/pokemon/225",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/225.webp"
+            },
+            {
+                "name": "Shadow Delibird",
+                "href": "/pokemon/225-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/225.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/225.webp",
+        "types": [
+            "Ice",
+            "Flying"
+        ],
+        "weather_boost": [
+            "snow",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Present",
+            "charged": "Fly",
+            "dps": 4.74,
+            "tdo": 33.19,
+            "boosted_weather": [
+                "partlyCloudy",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Present",
+                "fast_url": "https://db.pokemongohub.net/move/291",
+                "charged": "Fly",
+                "charged_url": "https://db.pokemongohub.net/move/341",
+                "dps": 4.74,
+                "tdo": 33.2,
+                "score": 3.49
+            },
+            {
+                "rank": 2,
+                "fast": "Present",
+                "fast_url": "https://db.pokemongohub.net/move/291",
+                "charged": "Triple Axel",
+                "charged_url": "https://db.pokemongohub.net/move/391",
+                "dps": 4.52,
+                "tdo": 31.6,
+                "score": 3.33
+            },
+            {
+                "rank": 3,
+                "fast": "Present",
+                "fast_url": "https://db.pokemongohub.net/move/291",
+                "charged": "Ice Punch",
+                "charged_url": "https://db.pokemongohub.net/move/33",
+                "dps": 3.96,
+                "tdo": 27.7,
+                "score": 2.92
+            },
+            {
+                "rank": 4,
+                "fast": "Present",
+                "fast_url": "https://db.pokemongohub.net/move/291",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 3.85,
+                "tdo": 27.0,
+                "score": 2.84
+            },
+            {
+                "rank": 5,
+                "fast": "Present",
+                "fast_url": "https://db.pokemongohub.net/move/291",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 3.69,
+                "tdo": 25.8,
+                "score": 2.72
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Present",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 23,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 23,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 12
+                },
+                "url": "https://db.pokemongohub.net/move/291"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ice Punch",
+                "type": "Ice",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.4s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/33"
+            },
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Icy Wind",
+                "type": "Ice",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.2s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/111"
+            },
+            {
+                "name": "Fly",
+                "type": "Flying",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.4s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/341"
+            },
+            {
+                "name": "Triple Axel",
+                "type": "Ice",
+                "stats": {
+                    "damage": 60,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 33,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.5s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/391"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Delibird's has 1237 max CP (at Level 50). A Delibird obtained from Raids can be encountered from 578 CP to 625 CP, or if weather boosted, in the 723 CP to 781 CP range. In Field and Special Research, Delibird can be found in the 433 CP to 469 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1237",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "433 - 469",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "578 - 625",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "578 - 625",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "723 - 781",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "723 CP - 781 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 15,
+        "2": 48,
+        "3": 81,
+        "4": 114,
+        "5": 147,
+        "6": 180,
+        "7": 213,
+        "8": 246,
+        "9": 279,
+        "10": 312,
+        "11": 344,
+        "12": 375,
+        "13": 406,
+        "14": 437,
+        "15": 469,
+        "16": 500,
+        "17": 531,
+        "18": 562,
+        "19": 594,
+        "20": 625,
+        "21": 656,
+        "22": 687,
+        "23": 719,
+        "24": 750,
+        "25": 781,
+        "26": 813,
+        "27": 844,
+        "28": 875,
+        "29": 906,
+        "30": 938,
+        "31": 953,
+        "32": 969,
+        "33": 985,
+        "34": 1000,
+        "35": 1016,
+        "36": 1031,
+        "37": 1047,
+        "38": 1063,
+        "39": 1078,
+        "40": 1094,
+        "41": 1108,
+        "42": 1122,
+        "43": 1136,
+        "44": 1150,
+        "45": 1164,
+        "46": 1179,
+        "47": 1193,
+        "48": 1208,
+        "49": 1222,
+        "50": 1237
+    },
+    "meta_analysis": "Delibird in the meta PvE Analysis Delibird is a gimmick Pokémon, bringing Christmas cheer and dropping presents on the go ! 🎄🎁 Stat-wise, it's disappointing and basically not to be used in battles anyway. 😄 Just pursue it for the beautiful shiny and 500 bonus Stardust . ✨ ⚔️ Raids Not good enough for your Raid entourage . 🙁 🛡️ Gyms A low Defense stat that doesn't even go beyond 90 makes Delibird a bad Gym defender . 🥲 PvP Analysis 🔵 Great League Delibird delivers a poor PvP performance , making it just a Dex filler . 🙃 🟡 Ultra League With a maximum CP of 1237 , Delibird is not qualified for Ultra League usage. 🟣 Master League All Delibird can do is give presents to the titans of the Master League , not battle! 🎁",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Delibird",
+        "type": "Ice",
+        "intro_text": "A list of Mega Pokémon that boost Delibird's Ice and Flying-type moves, Candy, and Candy XL from catching Delibird.",
+        "mega_list": [
+            {
+                "name": "Mega Glalie",
+                "pokemon_id": 362,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/362-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 225,
+            "height_m": 0.89,
+            "weight_kg": 16,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.44 m",
+            "xs": "0.45 m",
+            "m": "0.89 m",
+            "xl": "1.34 m",
+            "xxl": "1.56 m",
+            "description": "Delibird's height ranges from 0.44 m to 1.56 m, with the average being 0.89 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.4361,
+                "upper_m": 0.445,
+                "lower_ft": "1′05″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.445,
+                "upper_m": 0.89,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.6675,
+                "upper_m": 1.1125,
+                "lower_ft": "2′02″",
+                "upper_ft": "3′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.1125,
+                "upper_m": 1.335,
+                "lower_ft": "3′08″",
+                "upper_ft": "4′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.335,
+                "upper_m": 1.5575,
+                "lower_ft": "4′05″",
+                "upper_ft": "5′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It carries food all day long. There are tales about lost people who were saved by the food it had."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It nests at the edge of sharp cliffs. It spends all day carrying food to its await ing chicks."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It always carries its food with it, wherever it goes. If attacked, it throws its food at the opponent."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "DELIBIRD carries its food bundled up in its tail. There once was a famous explorer who managed to reach the peak of Mt. Everest thanks to one of these POKéMON sharing its food."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It carries food bundled up in its tail. There was a famous explorer who managed to scale Mt. Everest thanks to a DELIBIRD sharing its food."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It nests at the edge of sharp cliffs. It spends all day carrying food to its awaiting chicks."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "It carries food all day long. There are tales about lost people who were saved by the food it had."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It carries food all day long. There are tales about lost people who were saved by its stored food."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It nests at the edge of sharp cliffs. It spends all day carrying food to its awaiting chicks."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It carries food all day long. When someone is lost in the mountains, it shares that food."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It carries food rolled up in its tail. It has the habit of sharing food with people lost in mountains."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It carries food all day long. When someone is lost in the mountains, it shares that food."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "Delibird carries its food bundled up in its tail. There once was a famous explorer who managed to reach the peak of the world’s highest mountain, thanks to one of these Pokémon sharing its food."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Although it naturally prefers colder locales, Delibird in Alola seem able to withstand the heat to a certain extent."
+        },
+        {
+            "versions": [
+                "Moon",
+                "Shield"
+            ],
+            "entry": "It has a generous habit of sharing its food with people and Pokémon, so it’s always scrounging around for more food."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It shares its food with people who are stranded. Because Delibird is omnivorous, sometimes it gives those people bug Pokémon."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "It wraps food in its tail to carry it around. The Delibird with the biggest tail is the boss of the flock!"
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It carries food all day long. There are tales about lost people who were saved by the food it had."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Delibird",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm225.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm225.icon.png"
+            },
+            {
+                "label": "Shiny Delibird",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm225.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm225.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 225,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0225_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0225_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Delibird sprite"
+            },
+            {
+                "pokedex_number": 225,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0225_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0225_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Delibird sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/225_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/225_social.jpg",
+                "alt": "Delibird"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/225_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/225_social_dark.jpg",
+                "alt": "Delibird"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/225_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/225_social_map.jpg",
+                "alt": "Delibird"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/225_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/225_social_map_dark.jpg",
+                "alt": "Delibird"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Delibird’s strengths and weaknesses?",
+            "answer": "As a Ice and Flying-type Pokémon, Delibird is especially weak against Rock-type moves, and weak against Electric, Fire, and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Delibird in Pokémon GO?",
+            "answer": "The best moves for Delibird in Pokémon GO are Present and Fly. This moveset has a DPS (Damage Per Second) of 4.742 and a TDO (Total Damage Output) of 33.185."
+        },
+        {
+            "question": "How does Delibird perform in Raids?",
+            "answer": "Delibird's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Delibird rank as a Ice-type attacker?",
+            "answer": "Delibird is an F-Tier Ice-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Delibird rank as a Flying-type attacker?",
+            "answer": "Delibird is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Delibird?",
+            "answer": "The following Mega Pokémon boost Delibird: Mega Glalie, Mega Abomasnow, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Delibird’s maximum CP at Level 40 and Level 50?",
+            "answer": "Delibird’s maximum CP at Level 40 is 1094 CP and 1237 CP at Level 50."
+        },
+        {
+            "question": "Can Delibird be shiny in Pokémon GO?",
+            "answer": "Delibird can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Delibird Dynamax in Pokémon GO?",
+            "answer": "Delibird cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

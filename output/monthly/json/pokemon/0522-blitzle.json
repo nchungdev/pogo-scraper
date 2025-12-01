@@ -1,0 +1,796 @@
+{
+    "overview_and_stats": {
+        "max_cp": 998,
+        "attack": 118,
+        "defense": 64,
+        "stamina": 128,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Blitzle",
+        "forms": [
+            {
+                "name": "Blitzle",
+                "href": "/pokemon/522",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/522.webp"
+            },
+            {
+                "name": "Shadow Blitzle",
+                "href": "/pokemon/522-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/522.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/522.webp",
+        "types": [
+            "Electric"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Spark",
+            "charged": "Discharge",
+            "dps": 4.08,
+            "tdo": 21.5,
+            "boosted_weather": [
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 4.08,
+                "tdo": 21.5,
+                "score": 2.77
+            },
+            {
+                "rank": 2,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 3.89,
+                "tdo": 20.5,
+                "score": 2.64
+            },
+            {
+                "rank": 3,
+                "fast": "Spark",
+                "fast_url": "https://db.pokemongohub.net/move/206",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 3.8,
+                "tdo": 20.0,
+                "score": 2.58
+            },
+            {
+                "rank": 4,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Discharge",
+                "charged_url": "https://db.pokemongohub.net/move/35",
+                "dps": 3.78,
+                "tdo": 19.9,
+                "score": 2.57
+            },
+            {
+                "rank": 5,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 3.56,
+                "tdo": 18.7,
+                "score": 2.41
+            },
+            {
+                "rank": 6,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 3.42,
+                "tdo": 18.0,
+                "score": 2.32
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Spark",
+                "type": "Electric",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/206"
+            },
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Discharge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.1s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/35"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Blitzle's has 998 max CP (at Level 50). A Blitzle obtained from Raids can be encountered from 461 CP to 504 CP, or if weather boosted, in the 577 CP to 630 CP range. In Field and Special Research, Blitzle can be found in the 346 CP to 378 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "998",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "346 - 378",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "461 - 504",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "461 - 504",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "577 - 630",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "577 CP - 630 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 12,
+        "2": 39,
+        "3": 65,
+        "4": 92,
+        "5": 119,
+        "6": 145,
+        "7": 172,
+        "8": 199,
+        "9": 225,
+        "10": 252,
+        "11": 277,
+        "12": 302,
+        "13": 327,
+        "14": 353,
+        "15": 378,
+        "16": 403,
+        "17": 428,
+        "18": 454,
+        "19": 479,
+        "20": 504,
+        "21": 529,
+        "22": 554,
+        "23": 580,
+        "24": 605,
+        "25": 630,
+        "26": 655,
+        "27": 681,
+        "28": 706,
+        "29": 731,
+        "30": 756,
+        "31": 769,
+        "32": 782,
+        "33": 794,
+        "34": 807,
+        "35": 819,
+        "36": 832,
+        "37": 845,
+        "38": 857,
+        "39": 870,
+        "40": 882,
+        "41": 894,
+        "42": 905,
+        "43": 916,
+        "44": 928,
+        "45": 939,
+        "46": 951,
+        "47": 962,
+        "48": 974,
+        "49": 986,
+        "50": 998
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Blitzle",
+                    "href": "/pokemon/522",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/522.webp"
+                },
+                "to": {
+                    "name": "Zebstrika",
+                    "href": "/pokemon/523",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/523.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Blitzle",
+                "href": "/pokemon/522",
+                "img": "https://db.pokemongohub.net/images/official/medium/522.webp"
+            },
+            {
+                "name": "Zebstrika",
+                "href": "/pokemon/523",
+                "img": "https://db.pokemongohub.net/images/official/medium/523.webp"
+            },
+            {
+                "name": "Shadow Blitzle",
+                "href": "/pokemon/522-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Zebstrika",
+                "href": "/pokemon/523-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Blitzle in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Blitzle",
+        "type": "Electric",
+        "intro_text": "A list of Mega Pokémon that boost Blitzle's Electric-type moves, Candy, and Candy XL from catching Blitzle.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Manectric",
+                "pokemon_id": 310,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/310-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 522,
+            "height_m": 0.8,
+            "weight_kg": 29.8,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.39 m",
+            "xs": "0.4 m",
+            "m": "0.8 m",
+            "xl": "1.2 m",
+            "xxl": "1.4 m",
+            "description": "Blitzle's height ranges from 0.39 m to 1.4 m, with the average being 0.8 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.392,
+                "upper_m": 0.4,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.4,
+                "upper_m": 0.8,
+                "lower_ft": "1′04″",
+                "upper_ft": "2′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.6,
+                "upper_m": 1,
+                "lower_ft": "1′12″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1,
+                "upper_m": 1.2,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.2,
+                "upper_m": 1.4,
+                "lower_ft": "3′11″",
+                "upper_ft": "4′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Blitzle",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm522.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm522.icon.png"
+            },
+            {
+                "label": "Shiny Blitzle",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm522.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm522.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 522,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0522_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0522_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Blitzle sprite"
+            },
+            {
+                "pokedex_number": 522,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0522_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0522_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Blitzle sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/522_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/522_social.jpg",
+                "alt": "Blitzle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/522_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/522_social_dark.jpg",
+                "alt": "Blitzle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/522_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/522_social_map.jpg",
+                "alt": "Blitzle"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/522_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/522_social_map_dark.jpg",
+                "alt": "Blitzle"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 522,
+            "name": "Blitzle",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm522.cFASHION_2021_NOEVOLVE.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm522.cFASHION_2021_NOEVOLVE.icon.png",
+            "category": "Fashion 2021"
+        },
+        {
+            "pokedex_number": 522,
+            "name": "Shiny Blitzle",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm522.cFASHION_2021_NOEVOLVE.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm522.cFASHION_2021_NOEVOLVE.s.icon.png",
+            "category": "Fashion 2021"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Blitzle’s strengths and weaknesses?",
+            "answer": "As a Electric-type Pokémon, Blitzle is weak to Ground-type moves."
+        },
+        {
+            "question": "What are the best moves for Blitzle in Pokémon GO?",
+            "answer": "The best moves for Blitzle in Pokémon GO are Spark and Discharge. This moveset has a DPS (Damage Per Second) of 4.082 and a TDO (Total Damage Output) of 21.496."
+        },
+        {
+            "question": "How does Blitzle perform in Raids?",
+            "answer": "Blitzle's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Blitzle rank as a Electric-type attacker?",
+            "answer": "Blitzle's performance as a Electric-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Blitzle?",
+            "answer": "The following Mega Pokémon boost Blitzle: Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Blitzle’s maximum CP at Level 40 and Level 50?",
+            "answer": "Blitzle’s maximum CP at Level 40 is 882 CP and 998 CP at Level 50."
+        },
+        {
+            "question": "Can Blitzle be shiny in Pokémon GO?",
+            "answer": "Blitzle can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Blitzle Dynamax in Pokémon GO?",
+            "answer": "Blitzle cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

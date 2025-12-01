@@ -1,0 +1,801 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1630,
+        "attack": 153,
+        "defense": 86,
+        "stamina": 172,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Darumaka",
+        "forms": [
+            {
+                "name": "Darumaka",
+                "href": "/pokemon/554",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/554.webp"
+            },
+            {
+                "name": "Galarian Darumaka",
+                "href": "/pokemon/554-Galarian",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/554_galar.webp"
+            },
+            {
+                "name": "Galarian Shadow Darumaka",
+                "href": "/pokemon/554-Galarian_Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/554_galar.webp"
+            },
+            {
+                "name": "Shadow Darumaka",
+                "href": "/pokemon/554-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/554.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/554.webp",
+        "types": [
+            "Fire"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Fire Fang",
+            "charged": "Fire Punch",
+            "dps": 7.58,
+            "tdo": 66.76,
+            "boosted_weather": [
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Fire Fang",
+                "fast_url": "https://db.pokemongohub.net/move/240",
+                "charged": "Fire Punch",
+                "charged_url": "https://db.pokemongohub.net/move/115",
+                "dps": 7.58,
+                "tdo": 66.8,
+                "score": 5.91
+            },
+            {
+                "rank": 2,
+                "fast": "Fire Fang",
+                "fast_url": "https://db.pokemongohub.net/move/240",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 6.88,
+                "tdo": 60.6,
+                "score": 5.36
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Fire Punch",
+                "charged_url": "https://db.pokemongohub.net/move/115",
+                "dps": 6.67,
+                "tdo": 58.7,
+                "score": 5.2
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 6.07,
+                "tdo": 53.4,
+                "score": 4.73
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Fire Fang",
+                "type": "Fire",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.7s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/240"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            },
+            {
+                "name": "Fire Punch",
+                "type": "Fire",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.7s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/115"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Darumaka's has 1630 max CP (at Level 50). A Darumaka obtained from Raids can be encountered from 768 CP to 823 CP, or if weather boosted, in the 961 CP to 1030 CP range. In Field and Special Research, Darumaka can be found in the 576 CP to 618 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1630",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "576 - 618",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "768 - 823",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "768 - 823",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "961 - 1030",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "961 CP - 1030 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 20,
+        "2": 63,
+        "3": 107,
+        "4": 150,
+        "5": 194,
+        "6": 238,
+        "7": 281,
+        "8": 325,
+        "9": 368,
+        "10": 412,
+        "11": 453,
+        "12": 494,
+        "13": 535,
+        "14": 576,
+        "15": 618,
+        "16": 659,
+        "17": 700,
+        "18": 741,
+        "19": 782,
+        "20": 823,
+        "21": 865,
+        "22": 906,
+        "23": 947,
+        "24": 988,
+        "25": 1030,
+        "26": 1071,
+        "27": 1112,
+        "28": 1153,
+        "29": 1194,
+        "30": 1236,
+        "31": 1256,
+        "32": 1277,
+        "33": 1297,
+        "34": 1318,
+        "35": 1339,
+        "36": 1359,
+        "37": 1380,
+        "38": 1400,
+        "39": 1421,
+        "40": 1442,
+        "41": 1460,
+        "42": 1478,
+        "43": 1497,
+        "44": 1515,
+        "45": 1534,
+        "46": 1553,
+        "47": 1572,
+        "48": 1591,
+        "49": 1610,
+        "50": 1630
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Darumaka",
+                    "href": "/pokemon/554",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/554.webp"
+                },
+                "to": {
+                    "name": "Standard Mode Darmanitan",
+                    "href": "/pokemon/555-Standard",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/555.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Darumaka",
+                "href": "/pokemon/554",
+                "img": "https://db.pokemongohub.net/images/official/medium/554.webp"
+            },
+            {
+                "name": "Darmanitan",
+                "href": "/pokemon/555",
+                "img": "https://db.pokemongohub.net/images/official/medium/555.webp"
+            },
+            {
+                "name": "Galarian Darumaka",
+                "href": "/pokemon/554-Galarian",
+                "img": "https://db.pokemongohub.net/images/official/medium/554_galar.webp"
+            },
+            {
+                "name": "Galarian Shadow Darumaka",
+                "href": "/pokemon/554-Galarian_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Galarian Standard Mode Darmanitan",
+                "href": "/pokemon/555-Galarian_Standard",
+                "img": "https://db.pokemongohub.net/images/official/medium/555_galar.webp"
+            },
+            {
+                "name": "Galarian Standard Mode Shadow Darmanitan",
+                "href": "/pokemon/555-Galarian_Standard_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Galarian Zen Mode Darmanitan",
+                "href": "/pokemon/555-Galarian_Zen",
+                "img": "https://db.pokemongohub.net/images/official/medium/555_galar_zen.webp"
+            },
+            {
+                "name": "Galarian Zen Mode Shadow Darmanitan",
+                "href": "/pokemon/555-Galarian_Zen_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Darumaka",
+                "href": "/pokemon/554-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Darmanitan",
+                "href": "/pokemon/555-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Standard Mode Darmanitan",
+                "href": "/pokemon/555-Standard",
+                "img": "https://db.pokemongohub.net/images/official/medium/555.webp"
+            },
+            {
+                "name": "Standard Mode Shadow Darmanitan",
+                "href": "/pokemon/555-Standard_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Zen Mode Darmanitan",
+                "href": "/pokemon/555-Zen",
+                "img": "https://db.pokemongohub.net/images/official/medium/555.webp"
+            },
+            {
+                "name": "Zen Mode Shadow Darmanitan",
+                "href": "/pokemon/555-Zen_Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Darumaka in the meta PvE Analysis Darumaka is one of the happiest Pokémon around, dancing around in bliss . 💃🕺 However, that joy doesn't translate to combat , as its stats (particularly DEF ) are very low . Dance on, Darumaka—you don't need to fight in Raids or Gyms . 🥰 PvP Analysis 💎 Darumaka’s best moveset for PvP is Fire Fang , Flame Charge , and Fire Punch . 🧸 Little Cup Darumaka has a reasonably high ATK for a Little Cup entrant, and this fiery little Pokémon makes this trait even hotter with the guaranteed ATK buff from Flame Charge . 🔥 Complementing it is Fire Punch , a cheap Charged Move that helps burn through shields . 👊 However, despite these offensive perks, keep in mind that Darumaka has a wildly low DEF stat , making it vulnerable to high-damage Fast Moves . 😶‍🌫️ Darumaka is too underpowered for the Great, Ultra, and Master League .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Darumaka",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Darumaka's Fire-type moves, Candy, and Candy XL from catching Darumaka.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 554,
+            "height_m": 0.6,
+            "weight_kg": 37.5,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.29 m",
+            "xs": "0.3 m",
+            "m": "0.6 m",
+            "xl": "0.9 m",
+            "xxl": "0.93 m",
+            "description": "Darumaka's height ranges from 0.29 m to 0.93 m, with the average being 0.6 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.294,
+                "upper_m": 0.3,
+                "lower_ft": "0′12″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.3,
+                "upper_m": 0.6,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.45,
+                "upper_m": 0.75,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.75,
+                "upper_m": 0.9,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.9,
+                "upper_m": 0.93,
+                "lower_ft": "2′11″",
+                "upper_ft": "3′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "Darumaka’s droppings are hot, so people used to put them in their clothes to keep themselves warm."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100° F."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Darumaka’s droppings are hot, so people used to put them in their clothes to keep themselves warm."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100 degrees Fahrenheit."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It derives its power from fire burning inside its body. If the fire dwindles, this Pokémon will immediately fall asleep."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "This popular symbol of good fortune will never fall over in its sleep, no matter how it’s pushed or pulled."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Darumaka",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm554.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm554.icon.png"
+            },
+            {
+                "label": "Shiny Darumaka",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm554.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm554.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 554,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0554_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0554_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Darumaka sprite"
+            },
+            {
+                "pokedex_number": 554,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0554_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0554_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Darumaka sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/554_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/554_social.jpg",
+                "alt": "Darumaka"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/554_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/554_social_dark.jpg",
+                "alt": "Darumaka"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/554_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/554_social_map.jpg",
+                "alt": "Darumaka"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/554_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/554_social_map_dark.jpg",
+                "alt": "Darumaka"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Darumaka’s strengths and weaknesses?",
+            "answer": "As a Fire-type Pokémon, Darumaka is weak to Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Darumaka in Pokémon GO?",
+            "answer": "The best moves for Darumaka in Pokémon GO are Fire Fang and Fire Punch. This moveset has a DPS (Damage Per Second) of 7.584 and a TDO (Total Damage Output) of 66.763."
+        },
+        {
+            "question": "How does Darumaka perform in Raids?",
+            "answer": "Darumaka's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Darumaka rank as a Fire-type attacker?",
+            "answer": "Darumaka is an F-Tier Fire-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Darumaka?",
+            "answer": "The following Mega Pokémon boost Darumaka: Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Darumaka’s maximum CP at Level 40 and Level 50?",
+            "answer": "Darumaka’s maximum CP at Level 40 is 1442 CP and 1630 CP at Level 50."
+        },
+        {
+            "question": "Can Darumaka be shiny in Pokémon GO?",
+            "answer": "Darumaka can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Darumaka Dynamax in Pokémon GO?",
+            "answer": "Darumaka can Dynamax in Pokémon GO."
+        }
+    ]
+}

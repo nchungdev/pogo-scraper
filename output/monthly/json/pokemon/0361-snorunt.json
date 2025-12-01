@@ -1,0 +1,919 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1004,
+        "attack": 95,
+        "defense": 95,
+        "stamina": 137,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Snorunt",
+        "forms": [
+            {
+                "name": "Snorunt",
+                "href": "/pokemon/361",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/361.webp"
+            },
+            {
+                "name": "Shadow Snorunt",
+                "href": "/pokemon/361-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/361.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/361.webp",
+        "types": [
+            "Ice"
+        ],
+        "weather_boost": [
+            "snow"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Powder Snow",
+            "charged": "Avalanche",
+            "dps": 4.45,
+            "tdo": 34.71,
+            "boosted_weather": [
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Avalanche",
+                "charged_url": "https://db.pokemongohub.net/move/254",
+                "dps": 4.45,
+                "tdo": 34.7,
+                "score": 3.37
+            },
+            {
+                "rank": 2,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Avalanche",
+                "charged_url": "https://db.pokemongohub.net/move/254",
+                "dps": 4.29,
+                "tdo": 33.4,
+                "score": 3.25
+            },
+            {
+                "rank": 3,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 4.11,
+                "tdo": 32.0,
+                "score": 3.11
+            },
+            {
+                "rank": 4,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 4.0,
+                "tdo": 31.2,
+                "score": 3.03
+            },
+            {
+                "rank": 5,
+                "fast": "Powder Snow",
+                "fast_url": "https://db.pokemongohub.net/move/244",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 3.72,
+                "tdo": 29.0,
+                "score": 2.82
+            },
+            {
+                "rank": 6,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 3.69,
+                "tdo": 28.8,
+                "score": 2.8
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Powder Snow",
+                "type": "Ice",
+                "stats": {
+                    "damage": 6,
+                    "energy": 15,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 15,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/244"
+            },
+            {
+                "name": "Hex",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 8,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 8,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/264"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Icy Wind",
+                "type": "Ice",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.2s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/111"
+            },
+            {
+                "name": "Avalanche",
+                "type": "Ice",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.5s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/254"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Snorunt's has 1004 max CP (at Level 50). A Snorunt obtained from Raids can be encountered from 465 CP to 507 CP, or if weather boosted, in the 581 CP to 634 CP range. In Field and Special Research, Snorunt can be found in the 349 CP to 380 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1004",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "349 - 380",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "465 - 507",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "465 - 507",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "581 - 634",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "581 CP - 634 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 12,
+        "2": 39,
+        "3": 66,
+        "4": 93,
+        "5": 119,
+        "6": 146,
+        "7": 173,
+        "8": 200,
+        "9": 227,
+        "10": 253,
+        "11": 279,
+        "12": 304,
+        "13": 330,
+        "14": 355,
+        "15": 380,
+        "16": 406,
+        "17": 431,
+        "18": 456,
+        "19": 482,
+        "20": 507,
+        "21": 533,
+        "22": 558,
+        "23": 583,
+        "24": 609,
+        "25": 634,
+        "26": 659,
+        "27": 685,
+        "28": 710,
+        "29": 736,
+        "30": 761,
+        "31": 774,
+        "32": 786,
+        "33": 799,
+        "34": 812,
+        "35": 824,
+        "36": 837,
+        "37": 850,
+        "38": 862,
+        "39": 875,
+        "40": 888,
+        "41": 899,
+        "42": 910,
+        "43": 922,
+        "44": 933,
+        "45": 945,
+        "46": 957,
+        "47": 968,
+        "48": 980,
+        "49": 992,
+        "50": 1004
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Snorunt",
+                    "href": "/pokemon/361",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/361.webp"
+                },
+                "to": {
+                    "name": "Froslass",
+                    "href": "/pokemon/478",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/478.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Special Item: Sinnoh Stone",
+                    "Female required"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Snorunt",
+                    "href": "/pokemon/361",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/361.webp"
+                },
+                "to": {
+                    "name": "Glalie",
+                    "href": "/pokemon/362",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/362.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Glalie",
+                    "href": "/pokemon/362",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/362.webp"
+                },
+                "to": {
+                    "name": "Mega Glalie",
+                    "href": "/pokemon/362-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "200 / 40 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "100 Candy",
+            "Special Item: Sinnoh Stone",
+            "Female required"
+        ],
+        "family": [
+            {
+                "name": "Snorunt",
+                "href": "/pokemon/361",
+                "img": "https://db.pokemongohub.net/images/official/medium/361.webp"
+            },
+            {
+                "name": "Glalie",
+                "href": "/pokemon/362",
+                "img": "https://db.pokemongohub.net/images/official/medium/362.webp"
+            },
+            {
+                "name": "Froslass",
+                "href": "/pokemon/478",
+                "img": "https://db.pokemongohub.net/images/official/medium/478.webp"
+            },
+            {
+                "name": "Mega Glalie",
+                "href": "/pokemon/362-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Snorunt",
+                "href": "/pokemon/361-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Glalie",
+                "href": "/pokemon/362-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Froslass",
+                "href": "/pokemon/478-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Snorunt in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Snorunt",
+        "type": "Ice",
+        "intro_text": "A list of Mega Pokémon that boost Snorunt's Ice-type moves, Candy, and Candy XL from catching Snorunt.",
+        "mega_list": [
+            {
+                "name": "Mega Glalie",
+                "pokemon_id": 362,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/362-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 361,
+            "height_m": 0.71,
+            "weight_kg": 16.8,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": 15,
+        "size_info": {
+            "xxs": "0.35 m",
+            "xs": "0.36 m",
+            "m": "0.71 m",
+            "xl": "1.07 m",
+            "xxl": "1.24 m",
+            "description": "Snorunt's height ranges from 0.35 m to 1.24 m, with the average being 0.71 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.3479,
+                "upper_m": 0.355,
+                "lower_ft": "1′02″",
+                "upper_ft": "1′02″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.355,
+                "upper_m": 0.71,
+                "lower_ft": "1′02″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.5325,
+                "upper_m": 0.8875,
+                "lower_ft": "1′09″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.8875,
+                "upper_m": 1.065,
+                "lower_ft": "2′11″",
+                "upper_ft": "3′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.065,
+                "upper_m": 1.2425,
+                "lower_ft": "3′06″",
+                "upper_ft": "4′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 10.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "SNORUNT live in regions with heavy snowfall. In seasons without snow, such as spring and summer, this POKéMON steals away to live quietly among stalactites and stalagmites deep in caverns."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "SNORUNT survives by eating only snow and ice. Old folklore claims that a house visited by this POKéMON is sure to prosper for many generations to come."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "They tend to move about in groups of around five SNORUNT. In snowy regions, it is said that when they are seen late at night, snowfall will arrive by morning."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It is said that a home visited by a SNORUNT will prosper. It can withstand cold of minus 150 degrees Fahrenheit."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl"
+            ],
+            "entry": "In the snow country, certain folklore says a house will prosper if a SNORUNT lives there."
+        },
+        {
+            "versions": [
+                "Platinum"
+            ],
+            "entry": "It is said that several SNORUNT gather under giant leaves and live together in harmony."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It’s said that if they are seen at midnight, they’ll cause heavy snow. They eat snow and ice to survive."
+        },
+        {
+            "versions": [
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It is said that several Snorunt gather under giant leaves and live together in harmony."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It is said that several Snorunt gather under giant leaves and live together in harmony."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "In the snow country, certain folklore says a house will prosper if a Snorunt lives there."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Snorunt live in regions with heavy snowfall. In seasons without snow, such as spring and summer, this Pokémon steals away to live quietly among stalactites and stalagmites deep in caverns."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Snorunt survives by eating only snow and ice. Old folklore claims that a house visited by this Pokémon is sure to prosper for many generations to come."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Their numbers seem to have rapidly increased in Alola. Custom has it that houses where Snorunt live will be prosperous for generations to come."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It can only survive in cold areas. It bounces happily around, even in environments as cold as -150 degrees Fahrenheit."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It feeds mainly on ice and snow. It’s only able to survive in a limited number of places in the warm Alola region."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Rich people from cold areas all share childhood memories of playing with Snorunt."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It’s said that if they are seen at midnight, they’ll cause heavy snow. They eat snow and ice to survive."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It can only survive in cold areas. It bounces happily around, even in environments as cold as −150 degrees Fahrenheit."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Arrives alongside the first snow. It's thought that homes Snorunt visit will prosper for many generations. By tradition, one might offer a lump of ice made from pure water at one's front door."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Snorunt",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm361.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm361.icon.png"
+            },
+            {
+                "label": "Shiny Snorunt",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm361.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm361.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 361,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0361_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0361_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Snorunt sprite"
+            },
+            {
+                "pokedex_number": 361,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0361_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0361_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Snorunt sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/361_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/361_social.jpg",
+                "alt": "Snorunt"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/361_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/361_social_dark.jpg",
+                "alt": "Snorunt"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/361_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/361_social_map.jpg",
+                "alt": "Snorunt"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/361_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/361_social_map_dark.jpg",
+                "alt": "Snorunt"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Snorunt’s strengths and weaknesses?",
+            "answer": "As a Ice-type Pokémon, Snorunt is weak to Fighting, Fire, Rock, and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Snorunt in Pokémon GO?",
+            "answer": "The best moves for Snorunt in Pokémon GO are Powder Snow and Avalanche. This moveset has a DPS (Damage Per Second) of 4.454 and a TDO (Total Damage Output) of 34.712."
+        },
+        {
+            "question": "How does Snorunt perform in Raids?",
+            "answer": "Snorunt's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Snorunt rank as a Ice-type attacker?",
+            "answer": "Snorunt's performance as a Ice-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Snorunt?",
+            "answer": "The following Mega Pokémon boost Snorunt: Mega Glalie and Mega Abomasnow."
+        },
+        {
+            "question": "What is Snorunt’s maximum CP at Level 40 and Level 50?",
+            "answer": "Snorunt’s maximum CP at Level 40 is 888 CP and 1004 CP at Level 50."
+        },
+        {
+            "question": "Can Snorunt be shiny in Pokémon GO?",
+            "answer": "Snorunt can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Snorunt Dynamax in Pokémon GO?",
+            "answer": "Snorunt cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

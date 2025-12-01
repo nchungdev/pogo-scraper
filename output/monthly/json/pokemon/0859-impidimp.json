@@ -1,0 +1,772 @@
+{
+    "overview_and_stats": {
+        "max_cp": 913,
+        "attack": 103,
+        "defense": 69,
+        "stamina": 128,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Impidimp",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/859.webp",
+        "types": [
+            "Dark",
+            "Fairy"
+        ],
+        "weather_boost": [
+            "fog",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bite",
+            "charged": "Dark Pulse",
+            "dps": 4.73,
+            "tdo": 26.48,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 4.73,
+                "tdo": 26.5,
+                "score": 3.27
+            },
+            {
+                "rank": 2,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 4.73,
+                "tdo": 26.5,
+                "score": 3.27
+            },
+            {
+                "rank": 3,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 4.73,
+                "tdo": 26.5,
+                "score": 3.27
+            },
+            {
+                "rank": 4,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 4.37,
+                "tdo": 24.5,
+                "score": 3.02
+            },
+            {
+                "rank": 5,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 4.37,
+                "tdo": 24.5,
+                "score": 3.02
+            },
+            {
+                "rank": 6,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 4.32,
+                "tdo": 24.2,
+                "score": 2.99
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Sucker Punch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/203"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Play Rough",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/88"
+            },
+            {
+                "name": "Foul Play",
+                "type": "Dark",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.7s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/280"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Impidimp's has 913 max CP (at Level 50). A Impidimp obtained from Raids can be encountered from 421 CP to 461 CP, or if weather boosted, in the 526 CP to 576 CP range. In Field and Special Research, Impidimp can be found in the 315 CP to 346 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "913",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "315 - 346",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "421 - 461",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "421 - 461",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "526 - 576",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "526 CP - 576 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 11,
+        "2": 35,
+        "3": 60,
+        "4": 84,
+        "5": 108,
+        "6": 133,
+        "7": 157,
+        "8": 182,
+        "9": 206,
+        "10": 230,
+        "11": 253,
+        "12": 276,
+        "13": 300,
+        "14": 323,
+        "15": 346,
+        "16": 369,
+        "17": 392,
+        "18": 415,
+        "19": 438,
+        "20": 461,
+        "21": 484,
+        "22": 507,
+        "23": 530,
+        "24": 553,
+        "25": 576,
+        "26": 600,
+        "27": 623,
+        "28": 646,
+        "29": 669,
+        "30": 692,
+        "31": 703,
+        "32": 715,
+        "33": 727,
+        "34": 738,
+        "35": 750,
+        "36": 761,
+        "37": 773,
+        "38": 784,
+        "39": 796,
+        "40": 807,
+        "41": 817,
+        "42": 828,
+        "43": 838,
+        "44": 849,
+        "45": 859,
+        "46": 870,
+        "47": 880,
+        "48": 891,
+        "49": 902,
+        "50": 913
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Impidimp",
+                    "href": "/pokemon/859",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/859.webp"
+                },
+                "to": {
+                    "name": "Morgrem",
+                    "href": "/pokemon/860",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/860.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Morgrem",
+                    "href": "/pokemon/860",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/860.webp"
+                },
+                "to": {
+                    "name": "Grimmsnarl",
+                    "href": "/pokemon/861",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/861.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Impidimp",
+                "href": "/pokemon/859",
+                "img": "https://db.pokemongohub.net/images/official/medium/859.webp"
+            },
+            {
+                "name": "Morgrem",
+                "href": "/pokemon/860",
+                "img": "https://db.pokemongohub.net/images/official/medium/860.webp"
+            },
+            {
+                "name": "Grimmsnarl",
+                "href": "/pokemon/861",
+                "img": "https://db.pokemongohub.net/images/official/medium/861.webp"
+            },
+            {
+                "name": "Gigantamax Grimmsnarl",
+                "href": "/pokemon/861-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/861_gmax.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Impidimp in the meta PvE Analysis Impidimp, as the first of a three-stage evolution line, has low stats for PvE, making it completely unviable for Raids and Gyms. PvP Analysis 🧸 Little Cup Impidimp is a great addition to the Little League, using its strong Dark and Fairy moves to beat a variety of opponents, including Altaria, Bronzor, Wynaut, Chansey, Chinchou, Skarmory, Dratini, Drifloon, and Ducklett. This is undoubtedly impressive and makes Impidimp a sublime fit for your team. That said, it is still unable to beat other premier Little League threats like Deino, Bulbasaur, Igglybuff, Swinub, Vulpix, Seel, and Wooper. As long as you have Pokémon to account for these losses, you're in a winning spot.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Impidimp",
+        "type": "Dark",
+        "intro_text": "A list of Mega Pokémon that boost Impidimp's Dark and Fairy-type moves, Candy, and Candy XL from catching Impidimp.",
+        "mega_list": [
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Absol",
+                "pokemon_id": 359,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/359-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 859,
+            "height_m": 0.4,
+            "weight_kg": 5.5,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.2 m",
+            "m": "0.4 m",
+            "xl": "0.6 m",
+            "xxl": "0.7 m",
+            "description": "Impidimp's height ranges from 0.2 m to 0.7 m, with the average being 0.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.196,
+                "upper_m": 0.2,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.2,
+                "upper_m": 0.4,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3,
+                "upper_m": 0.5,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5,
+                "upper_m": 0.6,
+                "lower_ft": "1′08″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.6,
+                "upper_m": 0.7,
+                "lower_ft": "1′12″",
+                "upper_ft": "2′04″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 10.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Through its nose, it sucks in the emanations produced by people and Pokémon when they feel annoyed. It thrives off this negative energy."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It sneaks into people’s homes, stealing things and feasting on the negative energy of the frustrated occupants."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Impidimp",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm859.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm859.icon.png"
+            },
+            {
+                "label": "Shiny Impidimp",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm859.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm859.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 859,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0859_000_mo_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0859_000_mo_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Impidimp sprite"
+            },
+            {
+                "pokedex_number": 859,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0859_000_mo_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0859_000_mo_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Impidimp sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/859_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/859_social.jpg",
+                "alt": "Impidimp"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/859_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/859_social_dark.jpg",
+                "alt": "Impidimp"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/859_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/859_social_map.jpg",
+                "alt": "Impidimp"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/859_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/859_social_map_dark.jpg",
+                "alt": "Impidimp"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Impidimp’s strengths and weaknesses?",
+            "answer": "As a Dark and Fairy-type Pokémon, Impidimp is weak to Fairy, Poison, and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Impidimp in Pokémon GO?",
+            "answer": "The best moves for Impidimp in Pokémon GO are Bite and Dark Pulse. This moveset has a DPS (Damage Per Second) of 4.73 and a TDO (Total Damage Output) of 26.484."
+        },
+        {
+            "question": "How does Impidimp perform in Raids?",
+            "answer": "Impidimp's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Impidimp rank as a Dark-type attacker?",
+            "answer": "Impidimp's performance as a Dark-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Impidimp?",
+            "answer": "The following Mega Pokémon boost Impidimp: Mega Gyarados, Mega Houndoom, Mega Tyranitar, Mega Sableye, Mega Sharpedo, Mega Absol, Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, and Mega Diancie."
+        },
+        {
+            "question": "What is Impidimp’s maximum CP at Level 40 and Level 50?",
+            "answer": "Impidimp’s maximum CP at Level 40 is 807 CP and 913 CP at Level 50."
+        },
+        {
+            "question": "Can Impidimp be shiny in Pokémon GO?",
+            "answer": "Impidimp can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Impidimp Dynamax in Pokémon GO?",
+            "answer": "Impidimp cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

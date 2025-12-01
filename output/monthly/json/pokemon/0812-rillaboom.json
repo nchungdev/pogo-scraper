@@ -1,0 +1,827 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3758,
+        "attack": 239,
+        "defense": 168,
+        "stamina": 225,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": false,
+        "title": "Rillaboom",
+        "forms": [
+            {
+                "name": "Rillaboom",
+                "href": "/pokemon/812",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/812.webp"
+            },
+            {
+                "name": "Gigantamax Rillaboom",
+                "href": "/pokemon/812-Gigantamax",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/812_gmax.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/812.webp",
+        "types": [
+            "Grass"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Razor Leaf",
+            "charged": "Grass Knot",
+            "dps": 13.82,
+            "tdo": 282.92,
+            "boosted_weather": [
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Razor Leaf",
+                "fast_url": "https://db.pokemongohub.net/move/215",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 13.82,
+                "tdo": 282.9,
+                "score": 12.33
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 13.23,
+                "tdo": 270.8,
+                "score": 11.8
+            },
+            {
+                "rank": 3,
+                "fast": "Razor Leaf",
+                "fast_url": "https://db.pokemongohub.net/move/215",
+                "charged": "Earth Power",
+                "charged_url": "https://db.pokemongohub.net/move/304",
+                "dps": 11.87,
+                "tdo": 243.0,
+                "score": 10.58
+            },
+            {
+                "rank": 4,
+                "fast": "Razor Leaf",
+                "fast_url": "https://db.pokemongohub.net/move/215",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 11.74,
+                "tdo": 240.2,
+                "score": 10.46
+            },
+            {
+                "rank": 5,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Earth Power",
+                "charged_url": "https://db.pokemongohub.net/move/304",
+                "dps": 11.21,
+                "tdo": 229.4,
+                "score": 9.99
+            },
+            {
+                "rank": 6,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 11.1,
+                "tdo": 227.3,
+                "score": 9.9
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Razor Leaf",
+                "type": "Grass",
+                "stats": {
+                    "damage": 13,
+                    "energy": 7,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 7,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/215"
+            },
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Grass Knot",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/272"
+            },
+            {
+                "name": "Energy Ball",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/273"
+            },
+            {
+                "name": "Earth Power",
+                "type": "Ground",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/304"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Rillaboom's has 3758 max CP (at Level 50). A Rillaboom obtained from Raids can be encountered from 1817 CP to 1899 CP, or if weather boosted, in the 2272 CP to 2374 CP range. In Field and Special Research, Rillaboom can be found in the 1363 CP to 1424 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3758",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1363 - 1424",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1817 - 1899",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1817 - 1899",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2272 - 2374",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2272 CP - 2374 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 47,
+        "2": 147,
+        "3": 247,
+        "4": 348,
+        "5": 448,
+        "6": 548,
+        "7": 649,
+        "8": 749,
+        "9": 849,
+        "10": 950,
+        "11": 1045,
+        "12": 1140,
+        "13": 1235,
+        "14": 1330,
+        "15": 1424,
+        "16": 1519,
+        "17": 1614,
+        "18": 1709,
+        "19": 1804,
+        "20": 1899,
+        "21": 1994,
+        "22": 2089,
+        "23": 2184,
+        "24": 2279,
+        "25": 2374,
+        "26": 2469,
+        "27": 2564,
+        "28": 2659,
+        "29": 2754,
+        "30": 2849,
+        "31": 2897,
+        "32": 2944,
+        "33": 2992,
+        "34": 3039,
+        "35": 3087,
+        "36": 3134,
+        "37": 3182,
+        "38": 3229,
+        "39": 3277,
+        "40": 3324,
+        "41": 3366,
+        "42": 3409,
+        "43": 3452,
+        "44": 3495,
+        "45": 3538,
+        "46": 3581,
+        "47": 3625,
+        "48": 3669,
+        "49": 3714,
+        "50": 3758
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Grookey",
+                    "href": "/pokemon/810",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/810.webp"
+                },
+                "to": {
+                    "name": "Thwackey",
+                    "href": "/pokemon/811",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/811.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Thwackey",
+                    "href": "/pokemon/811",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/811.webp"
+                },
+                "to": {
+                    "name": "Rillaboom",
+                    "href": "/pokemon/812",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/812.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Grookey",
+                "href": "/pokemon/810",
+                "img": "https://db.pokemongohub.net/images/official/medium/810.webp"
+            },
+            {
+                "name": "Thwackey",
+                "href": "/pokemon/811",
+                "img": "https://db.pokemongohub.net/images/official/medium/811.webp"
+            },
+            {
+                "name": "Rillaboom",
+                "href": "/pokemon/812",
+                "img": "https://db.pokemongohub.net/images/official/medium/812.webp"
+            },
+            {
+                "name": "Gigantamax Rillaboom",
+                "href": "/pokemon/812-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/812_gmax.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Rillaboom in the meta PvE Analysis Rillaboom is a powerful addition to Pokémon GO as this large Gorilla has the highest ATK of all Grass-type starters in the meta 💥 It's quite useful in the current meta, but it is slated to get deadlier with Frenzy Plant down the line 📈 Keep some high IV Grookey stocked up! 🌳 ⚔️ Raids - Razor Leaf and Grass Knot make Rillaboom a good addition to your team of counters against Ground , Rock , and Water-type Raid Bosses 💯 🛡️ Gyms - Grass types have a slew of weaknesses, making them impressive Gym defenders in general 🔮 Dynamax Rillaboom is a formidable Grass-type Pokémon with a very strong Max Overgrow to annihilate Bosses in Max Battles 🍃 PvP Analysis Rillaboom boasts the highest stat product of all starters in Pokémon GO but is held back by an underwhelming PvP moveset 😐 🔵 Great League - Downfall of the Planet of the Apes , like Rillaboom 🟡 Ultra League - Razor Leaf go brrr 🍃 Still a massive L though 📉 🟣 Master League - Grass types hardly fare well in the Master League , and this ape has nothing to go ‘boom’ anyway 😢",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Rillaboom",
+        "type": "Grass",
+        "intro_text": "A list of Mega Pokémon that boost Rillaboom's Grass-type moves, Candy, and Candy XL from catching Rillaboom.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 812,
+            "height_m": 2.1,
+            "weight_kg": 90,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 10,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "1.03 m",
+            "xs": "1.05 m",
+            "m": "2.1 m",
+            "xl": "3.15 m",
+            "xxl": "3.26 m",
+            "description": "Rillaboom's height ranges from 1.03 m to 3.26 m, with the average being 2.1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 1.029,
+                "upper_m": 1.05,
+                "lower_ft": "3′05″",
+                "upper_ft": "3′05″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.05,
+                "upper_m": 2.1,
+                "lower_ft": "3′05″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.575,
+                "upper_m": 2.625,
+                "lower_ft": "5′02″",
+                "upper_ft": "8′07″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.625,
+                "upper_m": 3.15,
+                "lower_ft": "8′07″",
+                "upper_ft": "10′04″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 3.15,
+                "upper_m": 3.255,
+                "lower_ft": "10′04″",
+                "upper_ft": "10′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Rillaboom",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm812.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm812.icon.png"
+            },
+            {
+                "label": "Shiny Rillaboom",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm812.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm812.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 812,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0812_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0812_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Rillaboom sprite"
+            },
+            {
+                "pokedex_number": 812,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0812_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0812_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Rillaboom sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/812_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/812_social.jpg",
+                "alt": "Rillaboom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/812_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/812_social_dark.jpg",
+                "alt": "Rillaboom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/812_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/812_social_map.jpg",
+                "alt": "Rillaboom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/812_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/812_social_map_dark.jpg",
+                "alt": "Rillaboom"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Rillaboom’s strengths and weaknesses?",
+            "answer": "As a Grass-type Pokémon, Rillaboom is weak to Bug, Fire, Flying, Ice, and Poison-type moves."
+        },
+        {
+            "question": "What are the best moves for Rillaboom in Pokémon GO?",
+            "answer": "The best moves for Rillaboom in Pokémon GO are Razor Leaf and Grass Knot. This moveset has a DPS (Damage Per Second) of 13.82 and a TDO (Total Damage Output) of 282.917."
+        },
+        {
+            "question": "How does Rillaboom perform in Raids?",
+            "answer": "Rillaboom can be useful in specific Raid matchups but has limited effectiveness. Ranks #189 as a Raid attacker."
+        },
+        {
+            "question": "How does Rillaboom rank as a Grass-type attacker?",
+            "answer": "Rillaboom is an A+ Tier Grass-type attacker, ranking at number #13 and performing very well in most scenarios and a great choice for trainers."
+        },
+        {
+            "question": "What Mega Pokémon boost Rillaboom?",
+            "answer": "The following Mega Pokémon boost Rillaboom: Mega Venusaur, Mega Sceptile, Primal Groudon, and Mega Abomasnow."
+        },
+        {
+            "question": "What is Rillaboom’s maximum CP at Level 40 and Level 50?",
+            "answer": "Rillaboom’s maximum CP at Level 40 is 3324 CP and 3758 CP at Level 50."
+        },
+        {
+            "question": "Can Rillaboom be shiny in Pokémon GO?",
+            "answer": "Rillaboom cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Rillaboom Dynamax in Pokémon GO?",
+            "answer": "Rillaboom can Dynamax in Pokémon GO."
+        }
+    ]
+}

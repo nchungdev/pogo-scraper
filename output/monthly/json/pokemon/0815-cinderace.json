@@ -1,0 +1,815 @@
+{
+    "overview_and_stats": {
+        "max_cp": 3412,
+        "attack": 238,
+        "defense": 163,
+        "stamina": 190,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": false,
+        "title": "Cinderace",
+        "forms": [
+            {
+                "name": "Cinderace",
+                "href": "/pokemon/815",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/815.webp"
+            },
+            {
+                "name": "Gigantamax Cinderace",
+                "href": "/pokemon/815-Gigantamax",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/815_gmax.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/815.webp",
+        "types": [
+            "Fire"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Fire Spin",
+            "charged": "Flamethrower",
+            "dps": 12.76,
+            "tdo": 217.01,
+            "boosted_weather": [
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 12.76,
+                "tdo": 217.0,
+                "score": 11.13
+            },
+            {
+                "rank": 2,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Focus Blast",
+                "charged_url": "https://db.pokemongohub.net/move/247",
+                "dps": 11.92,
+                "tdo": 202.8,
+                "score": 10.4
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 11.25,
+                "tdo": 191.4,
+                "score": 9.81
+            },
+            {
+                "rank": 4,
+                "fast": "Fire Spin",
+                "fast_url": "https://db.pokemongohub.net/move/269",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 10.7,
+                "tdo": 182.0,
+                "score": 9.33
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Focus Blast",
+                "charged_url": "https://db.pokemongohub.net/move/247",
+                "dps": 10.27,
+                "tdo": 174.7,
+                "score": 8.96
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Flame Charge",
+                "charged_url": "https://db.pokemongohub.net/move/101",
+                "dps": 9.77,
+                "tdo": 166.1,
+                "score": 8.52
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Fire Spin",
+                "type": "Fire",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 11,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/269"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Flame Charge",
+                "type": "Fire",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.6s"
+                },
+                "trainer_battle": {
+                    "damage": 65,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/101"
+            },
+            {
+                "name": "Focus Blast",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "3.0s - 3.5s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 75
+                },
+                "url": "https://db.pokemongohub.net/move/247"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Cinderace's has 3412 max CP (at Level 50). A Cinderace obtained from Raids can be encountered from 1646 CP to 1724 CP, or if weather boosted, in the 2058 CP to 2156 CP range. In Field and Special Research, Cinderace can be found in the 1234 CP to 1293 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "3412",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1234 - 1293",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1646 - 1724",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1646 - 1724",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2058 - 2156",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2058 CP - 2156 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 42,
+        "2": 133,
+        "3": 224,
+        "4": 316,
+        "5": 407,
+        "6": 498,
+        "7": 589,
+        "8": 680,
+        "9": 771,
+        "10": 862,
+        "11": 948,
+        "12": 1035,
+        "13": 1121,
+        "14": 1207,
+        "15": 1293,
+        "16": 1379,
+        "17": 1466,
+        "18": 1552,
+        "19": 1638,
+        "20": 1724,
+        "21": 1811,
+        "22": 1897,
+        "23": 1983,
+        "24": 2069,
+        "25": 2156,
+        "26": 2242,
+        "27": 2328,
+        "28": 2414,
+        "29": 2501,
+        "30": 2587,
+        "31": 2630,
+        "32": 2673,
+        "33": 2716,
+        "34": 2759,
+        "35": 2802,
+        "36": 2846,
+        "37": 2889,
+        "38": 2932,
+        "39": 2975,
+        "40": 3018,
+        "41": 3056,
+        "42": 3095,
+        "43": 3134,
+        "44": 3173,
+        "45": 3212,
+        "46": 3252,
+        "47": 3291,
+        "48": 3331,
+        "49": 3372,
+        "50": 3412
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Scorbunny",
+                    "href": "/pokemon/813",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/813.webp"
+                },
+                "to": {
+                    "name": "Raboot",
+                    "href": "/pokemon/814",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/814.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Raboot",
+                    "href": "/pokemon/814",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/814.webp"
+                },
+                "to": {
+                    "name": "Cinderace",
+                    "href": "/pokemon/815",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/815.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Scorbunny",
+                "href": "/pokemon/813",
+                "img": "https://db.pokemongohub.net/images/official/medium/813.webp"
+            },
+            {
+                "name": "Raboot",
+                "href": "/pokemon/814",
+                "img": "https://db.pokemongohub.net/images/official/medium/814.webp"
+            },
+            {
+                "name": "Cinderace",
+                "href": "/pokemon/815",
+                "img": "https://db.pokemongohub.net/images/official/medium/815.webp"
+            },
+            {
+                "name": "Gigantamax Cinderace",
+                "href": "/pokemon/815-Gigantamax",
+                "img": "https://db.pokemongohub.net/images/official/medium/815_gmax.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Cinderace in the meta PvE Analysis ⚔️ Raids – On its debut, Cinderace made it into the top 30 Fire-type raid attackers , and this is without the typical legacy move of Blast Burn at its disposal. A movepool update may be all this bunny needs to become a top (non-Shadow or Mega) raid attacker. 🛡️ Gyms – Now that it's fully evolved, you could use Cinderace as part of a balanced squad of gym defenders. But without any real bulk, it won't last long on the pitch. PvP Analysis 🔵 Great League – With its current movepool and only notable stat being Attack , Cinderace doesn't hold up against more meta-relevant teams. Its only real victory comes over Alolan Sandslash . 🟡 Ultra League – Although it could be used to throw a curveball, Cinderace's usefulness is too situational to make it a reliable PvP battler. 🟣 Master League – Ranking so low and with no coverage moves, you'd do better with other Fire-type Pokémon .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Cinderace",
+        "type": "Fire",
+        "intro_text": "A list of Mega Pokémon that boost Cinderace's Fire-type moves, Candy, and Candy XL from catching Cinderace.",
+        "mega_list": [
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Blaziken",
+                "pokemon_id": 257,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/257-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Camerupt",
+                "pokemon_id": 323,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/323-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 815,
+            "height_m": 1.4,
+            "weight_kg": 33,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 10,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.69 m",
+            "xs": "0.7 m",
+            "m": "1.4 m",
+            "xl": "2.1 m",
+            "xxl": "2.45 m",
+            "description": "Cinderace's height ranges from 0.69 m to 2.45 m, with the average being 1.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.686,
+                "upper_m": 0.7,
+                "lower_ft": "2′03″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.7,
+                "upper_m": 1.4,
+                "lower_ft": "2′04″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.05,
+                "upper_m": 1.75,
+                "lower_ft": "3′05″",
+                "upper_ft": "5′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.75,
+                "upper_m": 2.1,
+                "lower_ft": "5′09″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.1,
+                "upper_m": 2.45,
+                "lower_ft": "6′11″",
+                "upper_ft": "8′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It’s skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Cinderace",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm815.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm815.icon.png"
+            },
+            {
+                "label": "Shiny Cinderace",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm815.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm815.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 815,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0815_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0815_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Cinderace sprite"
+            },
+            {
+                "pokedex_number": 815,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0815_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0815_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Cinderace sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/815_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/815_social.jpg",
+                "alt": "Cinderace"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/815_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/815_social_dark.jpg",
+                "alt": "Cinderace"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/815_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/815_social_map.jpg",
+                "alt": "Cinderace"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/815_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/815_social_map_dark.jpg",
+                "alt": "Cinderace"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Cinderace’s strengths and weaknesses?",
+            "answer": "As a Fire-type Pokémon, Cinderace is weak to Ground, Rock, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Cinderace in Pokémon GO?",
+            "answer": "The best moves for Cinderace in Pokémon GO are Fire Spin and Flamethrower. This moveset has a DPS (Damage Per Second) of 12.759 and a TDO (Total Damage Output) of 217.012."
+        },
+        {
+            "question": "How does Cinderace perform in Raids?",
+            "answer": "Cinderace's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Cinderace rank as a Fire-type attacker?",
+            "answer": "Cinderace is a D-Tier Fire-type attacker, struggling in Raids due to its lower stats or suboptimal moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Cinderace?",
+            "answer": "The following Mega Pokémon boost Cinderace: Mega Houndoom, Mega Blaziken, Mega Camerupt, and Primal Groudon."
+        },
+        {
+            "question": "What is Cinderace’s maximum CP at Level 40 and Level 50?",
+            "answer": "Cinderace’s maximum CP at Level 40 is 3018 CP and 3412 CP at Level 50."
+        },
+        {
+            "question": "Can Cinderace be shiny in Pokémon GO?",
+            "answer": "Cinderace cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Cinderace Dynamax in Pokémon GO?",
+            "answer": "Cinderace can Dynamax in Pokémon GO."
+        }
+    ]
+}

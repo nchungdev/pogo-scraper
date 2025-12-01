@@ -1,0 +1,801 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2083,
+        "attack": 213,
+        "defense": 89,
+        "stamina": 146,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Archen",
+        "forms": [
+            {
+                "name": "Archen",
+                "href": "/pokemon/566",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/566.webp"
+            },
+            {
+                "name": "Shadow Archen",
+                "href": "/pokemon/566-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/566.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/566.webp",
+        "types": [
+            "Rock",
+            "Flying"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Wing Attack",
+            "charged": "Ancient Power",
+            "dps": 8.51,
+            "tdo": 66.39,
+            "boosted_weather": [
+                "windy",
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 8.51,
+                "tdo": 66.4,
+                "score": 6.44
+            },
+            {
+                "rank": 2,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Dragon Claw",
+                "charged_url": "https://db.pokemongohub.net/move/83",
+                "dps": 8.45,
+                "tdo": 65.9,
+                "score": 6.4
+            },
+            {
+                "rank": 3,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 8.21,
+                "tdo": 64.0,
+                "score": 6.22
+            },
+            {
+                "rank": 4,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Dragon Claw",
+                "charged_url": "https://db.pokemongohub.net/move/83",
+                "dps": 8.07,
+                "tdo": 63.0,
+                "score": 6.11
+            },
+            {
+                "rank": 5,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 7.99,
+                "tdo": 62.3,
+                "score": 6.05
+            },
+            {
+                "rank": 6,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 7.59,
+                "tdo": 59.3,
+                "score": 5.75
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Wing Attack",
+                "type": "Flying",
+                "stats": {
+                    "damage": 10,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/210"
+            },
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ancient Power",
+                "type": "Rock",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.9s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/62"
+            },
+            {
+                "name": "Dragon Claw",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.1s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/83"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Archen's has 2083 max CP (at Level 50). A Archen obtained from Raids can be encountered from 989 CP to 1052 CP, or if weather boosted, in the 1236 CP to 1316 CP range. In Field and Special Research, Archen can be found in the 741 CP to 789 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2083",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "741 - 789",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "989 - 1052",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "989 - 1052",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1236 - 1316",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1236 CP - 1316 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 26,
+        "2": 81,
+        "3": 137,
+        "4": 192,
+        "5": 248,
+        "6": 304,
+        "7": 359,
+        "8": 415,
+        "9": 471,
+        "10": 526,
+        "11": 579,
+        "12": 631,
+        "13": 684,
+        "14": 737,
+        "15": 789,
+        "16": 842,
+        "17": 895,
+        "18": 947,
+        "19": 1000,
+        "20": 1052,
+        "21": 1105,
+        "22": 1158,
+        "23": 1210,
+        "24": 1263,
+        "25": 1316,
+        "26": 1368,
+        "27": 1421,
+        "28": 1474,
+        "29": 1526,
+        "30": 1579,
+        "31": 1605,
+        "32": 1632,
+        "33": 1658,
+        "34": 1684,
+        "35": 1711,
+        "36": 1737,
+        "37": 1763,
+        "38": 1790,
+        "39": 1816,
+        "40": 1842,
+        "41": 1866,
+        "42": 1889,
+        "43": 1913,
+        "44": 1937,
+        "45": 1961,
+        "46": 1985,
+        "47": 2009,
+        "48": 2033,
+        "49": 2058,
+        "50": 2083
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Archen",
+                    "href": "/pokemon/566",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/566.webp"
+                },
+                "to": {
+                    "name": "Archeops",
+                    "href": "/pokemon/567",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/567.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Archen",
+                "href": "/pokemon/566",
+                "img": "https://db.pokemongohub.net/images/official/medium/566.webp"
+            },
+            {
+                "name": "Archeops",
+                "href": "/pokemon/567",
+                "img": "https://db.pokemongohub.net/images/official/medium/567.webp"
+            },
+            {
+                "name": "Shadow Archen",
+                "href": "/pokemon/566-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Archeops",
+                "href": "/pokemon/567-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Archen in the meta PvE Analysis Archen has a respectable Attack stat of 213 , but this Rock/Flying-type Pokémon has no Rock-type Quick Move and no Flying-type Charged Move . Also, its Defense is terribly low at just 89 . 😭 All this results in zero utility in raids and gyms for Archen . PvP Analysis 🧸 Little Cup Despite having extremely low bulk , Archen has a serviceable moveset that pairs well with its high offensive power . Dragon Claw gives it good neutral coverage . An Ancient Power boost makes it a serious threat . However, all of Archen’s moves are resisted by Steel Pokémon , and that’s a huge disadvantage for this prehistoric Pokémon . 🥲 🔵 Great League Archen struggles heavily in the Great League due to its extreme fragility . It loses nearly every match in this platform. 😔 Archen doesn’t work out in the other Leagues. 💥 The best PvP moveset for Archen is Wing Attack, Ancient Power, and Dragon Claw .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Archen",
+        "type": "Rock",
+        "intro_text": "A list of Mega Pokémon that boost Archen's Rock and Flying-type moves, Candy, and Candy XL from catching Archen.",
+        "mega_list": [
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 566,
+            "height_m": 0.5,
+            "weight_kg": 9.5,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "1 m",
+            "description": "Archen's height ranges from 0.25 m to 1 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 1,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′03″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "Revived from a fossil, this Pokémon is thought to be the ancestor of all bird Pokémon."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It was revived from an ancient fossil. Not able to fly, it lived in treetops and hopped from one branch to another."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Revived from a fossil, this Pokémon is thought to be the ancestor of all bird Pokémon."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It is the ancestor of all bird Pokémon. Archen itself could not actually fly but moved by hopping from treetop to treetop."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "To all appearances flightless, it was able to glide down from tall treetops to snag its prey."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Once thought to be the ancestor of all bird Pokémon, some of the latest research suggests that may not be the case."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Restored from a fossil, this ancient bird Pokémon has wings but can’t yet fly."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This Pokémon was successfully restored from a fossil. As research suggested, Archen is unable to fly. But it’s very good at jumping."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Archen is said to be the ancestor of bird Pokémon. It lived in treetops, eating berries and bug Pokémon."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Archen",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm566.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm566.icon.png"
+            },
+            {
+                "label": "Shiny Archen",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm566.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm566.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 566,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0566_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0566_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Archen sprite"
+            },
+            {
+                "pokedex_number": 566,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0566_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0566_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Archen sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/566_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/566_social.jpg",
+                "alt": "Archen"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/566_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/566_social_dark.jpg",
+                "alt": "Archen"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/566_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/566_social_map.jpg",
+                "alt": "Archen"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/566_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/566_social_map_dark.jpg",
+                "alt": "Archen"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Archen’s strengths and weaknesses?",
+            "answer": "As a Rock and Flying-type Pokémon, Archen is weak to Electric, Ice, Rock, Steel, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Archen in Pokémon GO?",
+            "answer": "The best moves for Archen in Pokémon GO are Wing Attack and Ancient Power. This moveset has a DPS (Damage Per Second) of 8.507 and a TDO (Total Damage Output) of 66.394."
+        },
+        {
+            "question": "How does Archen perform in Raids?",
+            "answer": "Archen's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Archen rank as a Rock-type attacker?",
+            "answer": "Archen is an F-Tier Rock-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Archen rank as a Flying-type attacker?",
+            "answer": "Archen is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Archen?",
+            "answer": "The following Mega Pokémon boost Archen: Mega Aerodactyl, Mega Tyranitar, Mega Diancie, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Archen’s maximum CP at Level 40 and Level 50?",
+            "answer": "Archen’s maximum CP at Level 40 is 1842 CP and 2083 CP at Level 50."
+        },
+        {
+            "question": "Can Archen be shiny in Pokémon GO?",
+            "answer": "Archen can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Archen Dynamax in Pokémon GO?",
+            "answer": "Archen cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

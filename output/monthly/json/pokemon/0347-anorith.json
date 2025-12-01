@@ -1,0 +1,859 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1729,
+        "attack": 176,
+        "defense": 100,
+        "stamina": 128,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Anorith",
+        "forms": [
+            {
+                "name": "Anorith",
+                "href": "/pokemon/347",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/347.webp"
+            },
+            {
+                "name": "Shadow Anorith",
+                "href": "/pokemon/347-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/347.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/347.webp",
+        "types": [
+            "Rock",
+            "Bug"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Scratch",
+            "charged": "Ancient Power",
+            "dps": 7.13,
+            "tdo": 54.64,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 7.13,
+                "tdo": 54.6,
+                "score": 5.38
+            },
+            {
+                "rank": 2,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Cross Poison",
+                "charged_url": "https://db.pokemongohub.net/move/89",
+                "dps": 6.87,
+                "tdo": 52.7,
+                "score": 5.18
+            },
+            {
+                "rank": 3,
+                "fast": "Struggle Bug",
+                "fast_url": "https://db.pokemongohub.net/move/261",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 6.83,
+                "tdo": 52.3,
+                "score": 5.15
+            },
+            {
+                "rank": 4,
+                "fast": "Struggle Bug",
+                "fast_url": "https://db.pokemongohub.net/move/261",
+                "charged": "Cross Poison",
+                "charged_url": "https://db.pokemongohub.net/move/89",
+                "dps": 6.49,
+                "tdo": 49.8,
+                "score": 4.9
+            },
+            {
+                "rank": 5,
+                "fast": "Scratch",
+                "fast_url": "https://db.pokemongohub.net/move/220",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 6.4,
+                "tdo": 49.1,
+                "score": 4.83
+            },
+            {
+                "rank": 6,
+                "fast": "Struggle Bug",
+                "fast_url": "https://db.pokemongohub.net/move/261",
+                "charged": "Aqua Jet",
+                "charged_url": "https://db.pokemongohub.net/move/57",
+                "dps": 5.97,
+                "tdo": 45.7,
+                "score": 4.5
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Scratch",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/220"
+            },
+            {
+                "name": "Struggle Bug",
+                "type": "Bug",
+                "stats": {
+                    "damage": 15,
+                    "energy": 15,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 15,
+                    "energy": 15,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.2s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/261"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aqua Jet",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/57"
+            },
+            {
+                "name": "Ancient Power",
+                "type": "Rock",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.9s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/62"
+            },
+            {
+                "name": "Cross Poison",
+                "type": "Poison",
+                "stats": {
+                    "damage": 40,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 40,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/89"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Anorith's has 1729 max CP (at Level 50). A Anorith obtained from Raids can be encountered from 817 CP to 874 CP, or if weather boosted, in the 1022 CP to 1092 CP range. In Field and Special Research, Anorith can be found in the 613 CP to 655 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1729",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "613 - 655",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "817 - 874",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "817 - 874",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1022 - 1092",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1022 CP - 1092 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 21,
+        "2": 67,
+        "3": 113,
+        "4": 160,
+        "5": 206,
+        "6": 252,
+        "7": 298,
+        "8": 344,
+        "9": 391,
+        "10": 437,
+        "11": 480,
+        "12": 524,
+        "13": 568,
+        "14": 611,
+        "15": 655,
+        "16": 699,
+        "17": 743,
+        "18": 786,
+        "19": 830,
+        "20": 874,
+        "21": 917,
+        "22": 961,
+        "23": 1005,
+        "24": 1049,
+        "25": 1092,
+        "26": 1136,
+        "27": 1180,
+        "28": 1223,
+        "29": 1267,
+        "30": 1311,
+        "31": 1333,
+        "32": 1355,
+        "33": 1376,
+        "34": 1398,
+        "35": 1420,
+        "36": 1442,
+        "37": 1464,
+        "38": 1486,
+        "39": 1507,
+        "40": 1529,
+        "41": 1549,
+        "42": 1568,
+        "43": 1588,
+        "44": 1608,
+        "45": 1628,
+        "46": 1648,
+        "47": 1668,
+        "48": 1688,
+        "49": 1708,
+        "50": 1729
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Anorith",
+                    "href": "/pokemon/347",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/347.webp"
+                },
+                "to": {
+                    "name": "Armaldo",
+                    "href": "/pokemon/348",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/348.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Anorith",
+                "href": "/pokemon/347",
+                "img": "https://db.pokemongohub.net/images/official/medium/347.webp"
+            },
+            {
+                "name": "Armaldo",
+                "href": "/pokemon/348",
+                "img": "https://db.pokemongohub.net/images/official/medium/348.webp"
+            },
+            {
+                "name": "Shadow Anorith",
+                "href": "/pokemon/347-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Armaldo",
+                "href": "/pokemon/348-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Anorith in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Anorith",
+        "type": "Rock",
+        "intro_text": "A list of Mega Pokémon that boost Anorith's Rock and Bug-type moves, Candy, and Candy XL from catching Anorith.",
+        "mega_list": [
+            {
+                "name": "Mega Aerodactyl",
+                "pokemon_id": 142,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/142-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 347,
+            "height_m": 0.71,
+            "weight_kg": 12.5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.35 m",
+            "xs": "0.36 m",
+            "m": "0.71 m",
+            "xl": "1.07 m",
+            "xxl": "1.24 m",
+            "description": "Anorith's height ranges from 0.35 m to 1.24 m, with the average being 0.71 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.3479,
+                "upper_m": 0.355,
+                "lower_ft": "1′02″",
+                "upper_ft": "1′02″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.355,
+                "upper_m": 0.71,
+                "lower_ft": "1′02″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.5325,
+                "upper_m": 0.8875,
+                "lower_ft": "1′09″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.8875,
+                "upper_m": 1.065,
+                "lower_ft": "2′11″",
+                "upper_ft": "3′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.065,
+                "upper_m": 1.2425,
+                "lower_ft": "3′06″",
+                "upper_ft": "4′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.4,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "ANORITH was regenerated from a prehistoric fossil. This primitive POKéMON once lived in warm seas. It grips its prey firmly between its two large claws."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "ANORITH is said to be a type of POKéMON predecessor, with eight wings at the sides of its body. This POKéMON swam in the primordial sea by undulating these eight wings."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It was resurrected from a fossil using the power of science. It swims by undulating the eight wings at its sides. They were feet that adapted to life in the sea."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It is a kind of POKéMON progenitor. It uses its extending claws to catch prey hiding among rocks on the seafloor."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "An ancestral Pokémon that lived in the ocean. Over time, its eight feet transformed into wings."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It is a kind of Pokémon progenitor. It uses its extending claws to catch prey hiding among rocks on the seafloor."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Anorith was regenerated from a prehistoric fossil. This primitive Pokémon once lived in warm seas. It grips its prey firmly between its two large claws."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Anorith is said to be a type of Pokémon predecessor, with eight wings at the sides of its body. This Pokémon swam in the primordial sea by undulating these eight wings."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "When restored Anorith are released into the ocean, they don’t thrive, because the water composition has changed since their era."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "This is one kind of primeval bug Pokémon. With eight wings, it could apparently swim a lot faster than you’d expect."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This Pokémon was restored from a fossil. Anorith lived in the ocean about 100,000,000 years ago, hunting with its pair of claws."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Anorith can swim swiftly by pulling its eight wings through the water like oars on a boat. This Pokémon is an ancestor of modern bug Pokémon."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Anorith",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm347.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm347.icon.png"
+            },
+            {
+                "label": "Shiny Anorith",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm347.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm347.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 347,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0347_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0347_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Anorith sprite"
+            },
+            {
+                "pokedex_number": 347,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0347_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0347_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Anorith sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/347_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/347_social.jpg",
+                "alt": "Anorith"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/347_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/347_social_dark.jpg",
+                "alt": "Anorith"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/347_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/347_social_map.jpg",
+                "alt": "Anorith"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/347_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/347_social_map_dark.jpg",
+                "alt": "Anorith"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Anorith’s strengths and weaknesses?",
+            "answer": "As a Rock and Bug-type Pokémon, Anorith is weak to Rock, Steel, and Water-type moves."
+        },
+        {
+            "question": "What are the best moves for Anorith in Pokémon GO?",
+            "answer": "The best moves for Anorith in Pokémon GO are Scratch and Ancient Power. This moveset has a DPS (Damage Per Second) of 7.129 and a TDO (Total Damage Output) of 54.645."
+        },
+        {
+            "question": "How does Anorith perform in Raids?",
+            "answer": "Anorith's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Anorith rank as a Rock-type attacker?",
+            "answer": "Anorith is an F-Tier Rock-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Anorith rank as a Bug-type attacker?",
+            "answer": "Anorith is an F-Tier Bug-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Anorith?",
+            "answer": "The following Mega Pokémon boost Anorith: Mega Aerodactyl, Mega Tyranitar, Mega Diancie, Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, and Primal Kyogre."
+        },
+        {
+            "question": "What is Anorith’s maximum CP at Level 40 and Level 50?",
+            "answer": "Anorith’s maximum CP at Level 40 is 1529 CP and 1729 CP at Level 50."
+        },
+        {
+            "question": "Can Anorith be shiny in Pokémon GO?",
+            "answer": "Anorith can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Anorith Dynamax in Pokémon GO?",
+            "answer": "Anorith cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

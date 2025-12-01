@@ -1,0 +1,698 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2826,
+        "attack": 175,
+        "defense": 185,
+        "stamina": 207,
+        "buddy_distance": 5,
+        "released": false,
+        "shiny_released": false,
+        "title": "Dracovish",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/882.webp",
+        "types": [
+            "Water",
+            "Dragon"
+        ],
+        "weather_boost": [
+            "rain",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Dragon Breath",
+            "charged": "Dragon Pulse",
+            "dps": 9.47,
+            "tdo": 196.04,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 9.47,
+                "tdo": 196.0,
+                "score": 8.45
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 9.22,
+                "tdo": 190.7,
+                "score": 8.23
+            },
+            {
+                "rank": 3,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Brine",
+                "charged_url": "https://db.pokemongohub.net/move/104",
+                "dps": 9.03,
+                "tdo": 187.0,
+                "score": 8.06
+            },
+            {
+                "rank": 4,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Brine",
+                "charged_url": "https://db.pokemongohub.net/move/104",
+                "dps": 8.68,
+                "tdo": 179.6,
+                "score": 7.75
+            },
+            {
+                "rank": 5,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 7.82,
+                "tdo": 161.8,
+                "score": 6.98
+            },
+            {
+                "rank": 6,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 7.48,
+                "tdo": 154.7,
+                "score": 6.67
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Dragon Breath",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/204"
+            },
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ancient Power",
+                "type": "Rock",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.9s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/62"
+            },
+            {
+                "name": "Dragon Pulse",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.0s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/82"
+            },
+            {
+                "name": "Brine",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.7s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/104"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Dracovish's has 2826 max CP (at Level 50). A Dracovish obtained from Raids can be encountered from 1358 CP to 1428 CP, or if weather boosted, in the 1697 CP to 1786 CP range. In Field and Special Research, Dracovish can be found in the 1018 CP to 1071 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2826",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1018 - 1071",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1358 - 1428",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1358 - 1428",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1697 - 1786",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1697 CP - 1786 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 35,
+        "2": 110,
+        "3": 186,
+        "4": 261,
+        "5": 337,
+        "6": 412,
+        "7": 488,
+        "8": 563,
+        "9": 639,
+        "10": 714,
+        "11": 786,
+        "12": 857,
+        "13": 928,
+        "14": 1000,
+        "15": 1071,
+        "16": 1143,
+        "17": 1214,
+        "18": 1285,
+        "19": 1357,
+        "20": 1428,
+        "21": 1500,
+        "22": 1571,
+        "23": 1643,
+        "24": 1714,
+        "25": 1786,
+        "26": 1857,
+        "27": 1929,
+        "28": 2000,
+        "29": 2071,
+        "30": 2143,
+        "31": 2179,
+        "32": 2214,
+        "33": 2250,
+        "34": 2286,
+        "35": 2321,
+        "36": 2357,
+        "37": 2393,
+        "38": 2429,
+        "39": 2464,
+        "40": 2500,
+        "41": 2532,
+        "42": 2564,
+        "43": 2596,
+        "44": 2628,
+        "45": 2661,
+        "46": 2693,
+        "47": 2726,
+        "48": 2760,
+        "49": 2793,
+        "50": 2826
+    },
+    "meta_analysis": "Dracovish in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Dracovish",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Dracovish's Water and Dragon-type moves, Candy, and Candy XL from catching Dracovish.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 882,
+            "height_m": 2.3,
+            "weight_kg": 215,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "1.13 m",
+            "xs": "1.15 m",
+            "m": "2.3 m",
+            "xl": "3.45 m",
+            "xxl": "3.57 m",
+            "description": "Dracovish's height ranges from 1.13 m to 3.57 m, with the average being 2.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 1.127,
+                "upper_m": 1.15,
+                "lower_ft": "3′08″",
+                "upper_ft": "3′09″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.15,
+                "upper_m": 2.3,
+                "lower_ft": "3′09″",
+                "upper_ft": "7′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.725,
+                "upper_m": 2.875,
+                "lower_ft": "5′08″",
+                "upper_ft": "9′05″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.875,
+                "upper_m": 3.45,
+                "lower_ft": "9′05″",
+                "upper_ft": "11′04″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 3.45,
+                "upper_m": 3.565,
+                "lower_ft": "11′04″",
+                "upper_ft": "11′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 30.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Its mighty legs are capable of running at speeds exceeding 40 mph, but this Pokémon can’t breathe unless it’s underwater."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 882,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0882_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0882_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Dracovish sprite"
+            },
+            {
+                "pokedex_number": 882,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0882_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0882_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Dracovish sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/882_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/882_social.jpg",
+                "alt": "Dracovish"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/882_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/882_social_dark.jpg",
+                "alt": "Dracovish"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/882_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/882_social_map.jpg",
+                "alt": "Dracovish"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/882_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/882_social_map_dark.jpg",
+                "alt": "Dracovish"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Dracovish’s strengths and weaknesses?",
+            "answer": "As a Water and Dragon-type Pokémon, Dracovish is weak to Dragon and Fairy-type moves."
+        },
+        {
+            "question": "What are the best moves for Dracovish in Pokémon GO?",
+            "answer": "The best moves for Dracovish in Pokémon GO are Dragon Breath and Dragon Pulse. This moveset has a DPS (Damage Per Second) of 9.473 and a TDO (Total Damage Output) of 196.038."
+        },
+        {
+            "question": "How does Dracovish perform in Raids?",
+            "answer": "Dracovish's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Dracovish rank as a Water-type attacker?",
+            "answer": "Dracovish's performance as a Water-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Dracovish?",
+            "answer": "The following Mega Pokémon boost Dracovish: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Ampharos, Mega Sceptile, Mega Altaria, Mega Salamence, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Garchomp."
+        },
+        {
+            "question": "What is Dracovish’s maximum CP at Level 40 and Level 50?",
+            "answer": "Dracovish’s maximum CP at Level 40 is 2500 CP and 2826 CP at Level 50."
+        },
+        {
+            "question": "Can Dracovish be shiny in Pokémon GO?",
+            "answer": "Dracovish cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Dracovish Dynamax in Pokémon GO?",
+            "answer": "Dracovish cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,813 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1437,
+        "attack": 105,
+        "defense": 139,
+        "stamina": 172,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Vullaby",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/629.webp",
+        "types": [
+            "Dark",
+            "Flying"
+        ],
+        "weather_boost": [
+            "fog",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Feint Attack",
+            "charged": "Brave Bird",
+            "dps": 6.09,
+            "tdo": 81.69,
+            "boosted_weather": [
+                "fog",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Brave Bird",
+                "charged_url": "https://db.pokemongohub.net/move/256",
+                "dps": 6.09,
+                "tdo": 81.7,
+                "score": 5.13
+            },
+            {
+                "rank": 2,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 6.01,
+                "tdo": 80.7,
+                "score": 5.07
+            },
+            {
+                "rank": 3,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 5.95,
+                "tdo": 79.8,
+                "score": 5.02
+            },
+            {
+                "rank": 4,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Brave Bird",
+                "charged_url": "https://db.pokemongohub.net/move/256",
+                "dps": 5.92,
+                "tdo": 79.5,
+                "score": 4.99
+            },
+            {
+                "rank": 5,
+                "fast": "Feint Attack",
+                "fast_url": "https://db.pokemongohub.net/move/238",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 5.66,
+                "tdo": 75.9,
+                "score": 4.77
+            },
+            {
+                "rank": 6,
+                "fast": "Air Slash",
+                "fast_url": "https://db.pokemongohub.net/move/255",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 5.65,
+                "tdo": 75.8,
+                "score": 4.76
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Feint Attack",
+                "type": "Dark",
+                "stats": {
+                    "damage": 11,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 11,
+                    "energy": 10,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 6
+                },
+                "url": "https://db.pokemongohub.net/move/238"
+            },
+            {
+                "name": "Air Slash",
+                "type": "Flying",
+                "stats": {
+                    "damage": 12,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 12,
+                    "energy": 8,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/255"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Brave Bird",
+                "type": "Flying",
+                "stats": {
+                    "damage": 130,
+                    "energy": 100,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 130,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.0s - 1.6s"
+                },
+                "trainer_battle": {
+                    "damage": 130,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/256"
+            },
+            {
+                "name": "Foul Play",
+                "type": "Dark",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.7s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/280"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Vullaby's has 1437 max CP (at Level 50). A Vullaby obtained from Raids can be encountered from 675 CP to 726 CP, or if weather boosted, in the 844 CP to 908 CP range. In Field and Special Research, Vullaby can be found in the 506 CP to 545 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1437",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "506 - 545",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "675 - 726",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "675 - 726",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "844 - 908",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "844 CP - 908 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 17,
+        "2": 56,
+        "3": 94,
+        "4": 133,
+        "5": 171,
+        "6": 209,
+        "7": 248,
+        "8": 286,
+        "9": 325,
+        "10": 363,
+        "11": 399,
+        "12": 436,
+        "13": 472,
+        "14": 508,
+        "15": 545,
+        "16": 581,
+        "17": 617,
+        "18": 654,
+        "19": 690,
+        "20": 726,
+        "21": 763,
+        "22": 799,
+        "23": 835,
+        "24": 872,
+        "25": 908,
+        "26": 944,
+        "27": 981,
+        "28": 1017,
+        "29": 1053,
+        "30": 1090,
+        "31": 1108,
+        "32": 1126,
+        "33": 1144,
+        "34": 1162,
+        "35": 1181,
+        "36": 1199,
+        "37": 1217,
+        "38": 1235,
+        "39": 1253,
+        "40": 1271,
+        "41": 1288,
+        "42": 1304,
+        "43": 1320,
+        "44": 1337,
+        "45": 1353,
+        "46": 1370,
+        "47": 1387,
+        "48": 1403,
+        "49": 1420,
+        "50": 1437
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Vullaby",
+                    "href": "/pokemon/629",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/629.webp"
+                },
+                "to": {
+                    "name": "Mandibuzz",
+                    "href": "/pokemon/630",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/630.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Vullaby",
+                "href": "/pokemon/629",
+                "img": "https://db.pokemongohub.net/images/official/medium/629.webp"
+            },
+            {
+                "name": "Mandibuzz",
+                "href": "/pokemon/630",
+                "img": "https://db.pokemongohub.net/images/official/medium/630.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Vullaby in the meta PvE Analysis ⚔️ Raids Though its name and appearance may have you thinking this is a baby Pokémon , Vullaby is simply a base form and, as such, doesn’t have much worth noting about it for attacking raids . As a Dark/Flying-type , it is outclassed in both categories by its own evolution Mandibuzz , as well as other strong options like Honchkrow and Yveltal . 🛡️ Gyms Taking neutral damage from Fighting-types , one of the most common attacking types in gyms , does work in Vullaby’s favor —especially since it can hit those same Fighting-types for super effective Flying damage . However, type matchups aren’t everything , and Vullaby is unlikely to last long as a gym defender , especially in gyms that frequently change teams. Show more Show less PvP Analysis 🧸 Little League Keeping with discussions on type matchups , Vullaby is at a huge disadvantage in the Little League thanks to the monster that is Shuckle . Having its entire moveset resisted by the meta leader , while also being hit back with neutral Bug damage and super effective Rock attacks , it’s no surprise that Vullaby is ranked so low in this league. Still, if you were to use one , be sure to give it the best fighting chance with the moveset Air Slash, Brave Bird, and Foul Play . 🔵 Great League The Diapered Pokémon couldn’t scavenge enough CP to make it viable for the Great League , capping out at 1437 CP . 🟡 Ultra League Vullaby is not an option at this level. 🟣 Master League That diaper may come in handy against the numerous Legendaries that roam this league. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Vullaby",
+        "type": "Dark",
+        "intro_text": "A list of Mega Pokémon that boost Vullaby's Dark and Flying-type moves, Candy, and Candy XL from catching Vullaby.",
+        "mega_list": [
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Houndoom",
+                "pokemon_id": 229,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/229-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Tyranitar",
+                "pokemon_id": 248,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/248-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Absol",
+                "pokemon_id": 359,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/359-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 629,
+            "height_m": 0.5,
+            "weight_kg": 9,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.88 m",
+            "description": "Vullaby's height ranges from 0.25 m to 0.88 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.875,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "They tend to guard their posteriors with suitable bones they have found. They pursue weak Pokémon."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Their wings are too tiny to allow them to fly. They guard their posteriors with bones that were gathered by Mandibuzz."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Its wings are too tiny to allow it to fly. As the time approaches for it to evolve, it discards the bones it was wearing."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Their wings are too tiny to allow them to fly. They guard their posteriors with bones that were gathered by Mandibuzz."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "It protects its plump posterior with the bones of prey it has consumed. As it grows, it replaces the bones."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "It can’t fly yet and must wait until its wings have developed more. Since it’s still at a playful age, it hops around friskily."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Mandibuzz gives it the bones it wears. Vullaby’s wings are short, so it can’t fly yet, but it jumps around, dreaming of wide open skies."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Its healthy appetite leads to visible growth spurts. It often has to replace the bones it wears as its size increases."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It wears a bone to protect its rear. It often squabbles with others of its kind over particularly comfy bones."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Vullaby grow quickly. Bones that have gotten too small for older Vullaby to wear often get passed down to younger ones in the nest."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Vullaby",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm629.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm629.icon.png"
+            },
+            {
+                "label": "Shiny Vullaby",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm629.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm629.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 629,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0629_000_fo_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0629_000_fo_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Vullaby sprite"
+            },
+            {
+                "pokedex_number": 629,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0629_000_fo_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0629_000_fo_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Vullaby sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/629_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/629_social.jpg",
+                "alt": "Vullaby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/629_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/629_social_dark.jpg",
+                "alt": "Vullaby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/629_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/629_social_map.jpg",
+                "alt": "Vullaby"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/629_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/629_social_map_dark.jpg",
+                "alt": "Vullaby"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Vullaby’s strengths and weaknesses?",
+            "answer": "As a Dark and Flying-type Pokémon, Vullaby is weak to Electric, Fairy, Ice, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Vullaby in Pokémon GO?",
+            "answer": "The best moves for Vullaby in Pokémon GO are Feint Attack and Brave Bird. This moveset has a DPS (Damage Per Second) of 6.086 and a TDO (Total Damage Output) of 81.693."
+        },
+        {
+            "question": "How does Vullaby perform in Raids?",
+            "answer": "Vullaby's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Vullaby rank as a Dark-type attacker?",
+            "answer": "Vullaby's performance as a Dark-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Vullaby rank as a Flying-type attacker?",
+            "answer": "Vullaby is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Vullaby?",
+            "answer": "The following Mega Pokémon boost Vullaby: Mega Gyarados, Mega Houndoom, Mega Tyranitar, Mega Sableye, Mega Sharpedo, Mega Absol, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Vullaby’s maximum CP at Level 40 and Level 50?",
+            "answer": "Vullaby’s maximum CP at Level 40 is 1271 CP and 1437 CP at Level 50."
+        },
+        {
+            "question": "Can Vullaby be shiny in Pokémon GO?",
+            "answer": "Vullaby can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Vullaby Dynamax in Pokémon GO?",
+            "answer": "Vullaby cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

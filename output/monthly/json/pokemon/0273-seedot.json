@@ -1,0 +1,889 @@
+{
+    "overview_and_stats": {
+        "max_cp": 676,
+        "attack": 71,
+        "defense": 77,
+        "stamina": 120,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Seedot",
+        "forms": [
+            {
+                "name": "Seedot",
+                "href": "/pokemon/273",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/273.webp"
+            },
+            {
+                "name": "Shadow Seedot",
+                "href": "/pokemon/273-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/273.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/273.webp",
+        "types": [
+            "Grass"
+        ],
+        "weather_boost": [
+            "sunny"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Quick Attack",
+            "charged": "Grass Knot",
+            "dps": 2.91,
+            "tdo": 16.87,
+            "boosted_weather": [
+                "partlyCloudy",
+                "sunny"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 2.91,
+                "tdo": 16.9,
+                "score": 2.04
+            },
+            {
+                "rank": 2,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 2.73,
+                "tdo": 15.8,
+                "score": 1.91
+            },
+            {
+                "rank": 3,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 2.71,
+                "tdo": 15.7,
+                "score": 1.89
+            },
+            {
+                "rank": 4,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Grass Knot",
+                "charged_url": "https://db.pokemongohub.net/move/272",
+                "dps": 2.64,
+                "tdo": 15.3,
+                "score": 1.84
+            },
+            {
+                "rank": 5,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Foul Play",
+                "charged_url": "https://db.pokemongohub.net/move/280",
+                "dps": 2.45,
+                "tdo": 14.2,
+                "score": 1.71
+            },
+            {
+                "rank": 6,
+                "fast": "Bullet Seed",
+                "fast_url": "https://db.pokemongohub.net/move/271",
+                "charged": "Energy Ball",
+                "charged_url": "https://db.pokemongohub.net/move/273",
+                "dps": 2.44,
+                "tdo": 14.1,
+                "score": 1.71
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            },
+            {
+                "name": "Bullet Seed",
+                "type": "Grass",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/271"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Grass Knot",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/272"
+            },
+            {
+                "name": "Energy Ball",
+                "type": "Grass",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.1s - 3.9s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/273"
+            },
+            {
+                "name": "Foul Play",
+                "type": "Dark",
+                "stats": {
+                    "damage": 70,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.7s - 1.9s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/280"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Seedot's has 676 max CP (at Level 50). A Seedot obtained from Raids can be encountered from 307 CP to 342 CP, or if weather boosted, in the 384 CP to 427 CP range. In Field and Special Research, Seedot can be found in the 230 CP to 256 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "676",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "230 - 256",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "307 - 342",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "307 - 342",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "384 - 427",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "384 CP - 427 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 8,
+        "2": 26,
+        "3": 44,
+        "4": 62,
+        "5": 80,
+        "6": 98,
+        "7": 116,
+        "8": 134,
+        "9": 153,
+        "10": 171,
+        "11": 188,
+        "12": 205,
+        "13": 222,
+        "14": 239,
+        "15": 256,
+        "16": 273,
+        "17": 290,
+        "18": 307,
+        "19": 324,
+        "20": 342,
+        "21": 359,
+        "22": 376,
+        "23": 393,
+        "24": 410,
+        "25": 427,
+        "26": 444,
+        "27": 461,
+        "28": 478,
+        "29": 496,
+        "30": 513,
+        "31": 521,
+        "32": 530,
+        "33": 538,
+        "34": 547,
+        "35": 555,
+        "36": 564,
+        "37": 572,
+        "38": 581,
+        "39": 590,
+        "40": 598,
+        "41": 606,
+        "42": 613,
+        "43": 621,
+        "44": 629,
+        "45": 637,
+        "46": 644,
+        "47": 652,
+        "48": 660,
+        "49": 668,
+        "50": 676
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Seedot",
+                    "href": "/pokemon/273",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/273.webp"
+                },
+                "to": {
+                    "name": "Nuzleaf",
+                    "href": "/pokemon/274",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/274.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Nuzleaf",
+                    "href": "/pokemon/274",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/274.webp"
+                },
+                "to": {
+                    "name": "Shiftry",
+                    "href": "/pokemon/275",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/275.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Seedot",
+                "href": "/pokemon/273",
+                "img": "https://db.pokemongohub.net/images/official/medium/273.webp"
+            },
+            {
+                "name": "Nuzleaf",
+                "href": "/pokemon/274",
+                "img": "https://db.pokemongohub.net/images/official/medium/274.webp"
+            },
+            {
+                "name": "Shiftry",
+                "href": "/pokemon/275",
+                "img": "https://db.pokemongohub.net/images/official/medium/275.webp"
+            },
+            {
+                "name": "Shadow Seedot",
+                "href": "/pokemon/273-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Nuzleaf",
+                "href": "/pokemon/274-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Shiftry",
+                "href": "/pokemon/275-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Seedot in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Seedot",
+        "type": "Grass",
+        "intro_text": "A list of Mega Pokémon that boost Seedot's Grass-type moves, Candy, and Candy XL from catching Seedot.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Groudon",
+                "pokemon_id": 383,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/383-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/383_f2.webp"
+            },
+            {
+                "name": "Mega Abomasnow",
+                "pokemon_id": 460,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/460-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 273,
+            "height_m": 0.51,
+            "weight_kg": 4,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.26 m",
+            "m": "0.51 m",
+            "xl": "0.77 m",
+            "xxl": "0.89 m",
+            "description": "Seedot's height ranges from 0.25 m to 0.89 m, with the average being 0.51 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2499,
+                "upper_m": 0.255,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.255,
+                "upper_m": 0.51,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3825,
+                "upper_m": 0.6375,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.6375,
+                "upper_m": 0.765,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.765,
+                "upper_m": 0.8925,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′11″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "SEEDOT attaches itself to a tree branch using the top of its head. It sucks moisture from the tree while hanging off the branch. The more water it drinks, the glossier this POKéMON’s body becomes."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "SEEDOT looks exactly like an acorn when it is dangling from a tree branch. It startles other POKéMON by suddenly moving. This POKéMON polishes its body once a day using leaves."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It hangs off branches and absorbs nutrients. When it finishes eating, its body becomes so heavy that it drops to the ground with a thump."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "If it remains still, it becomes impossible to distinguish from real nuts. It delights in surprising foraging PIDGEY."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall."
+        },
+        {
+            "versions": [
+                "X",
+                "Shield"
+            ],
+            "entry": "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Seedot attaches itself to a tree branch using the top of its head. It sucks moisture from the tree while hanging off the branch. The more water it drinks, the glossier this Pokémon’s body becomes."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Seedot looks exactly like an acorn when it is dangling from a tree branch. It startles other Pokémon by suddenly moving. This Pokémon polishes its body once a day using leaves."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Seedot",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm273.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm273.icon.png"
+            },
+            {
+                "label": "Shiny Seedot",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm273.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm273.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 273,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0273_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0273_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Seedot sprite"
+            },
+            {
+                "pokedex_number": 273,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0273_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0273_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Seedot sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/273_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/273_social.jpg",
+                "alt": "Seedot"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/273_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/273_social_dark.jpg",
+                "alt": "Seedot"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/273_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/273_social_map.jpg",
+                "alt": "Seedot"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/273_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/273_social_map_dark.jpg",
+                "alt": "Seedot"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Seedot’s strengths and weaknesses?",
+            "answer": "As a Grass-type Pokémon, Seedot is weak to Bug, Fire, Flying, Ice, and Poison-type moves."
+        },
+        {
+            "question": "What are the best moves for Seedot in Pokémon GO?",
+            "answer": "The best moves for Seedot in Pokémon GO are Quick Attack and Grass Knot. This moveset has a DPS (Damage Per Second) of 2.914 and a TDO (Total Damage Output) of 16.871."
+        },
+        {
+            "question": "How does Seedot perform in Raids?",
+            "answer": "Seedot's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Seedot rank as a Grass-type attacker?",
+            "answer": "Seedot's performance as a Grass-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Seedot?",
+            "answer": "The following Mega Pokémon boost Seedot: Mega Venusaur, Mega Sceptile, Primal Groudon, and Mega Abomasnow."
+        },
+        {
+            "question": "What is Seedot’s maximum CP at Level 40 and Level 50?",
+            "answer": "Seedot’s maximum CP at Level 40 is 598 CP and 676 CP at Level 50."
+        },
+        {
+            "question": "Can Seedot be shiny in Pokémon GO?",
+            "answer": "Seedot can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Seedot Dynamax in Pokémon GO?",
+            "answer": "Seedot cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

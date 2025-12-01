@@ -1,0 +1,776 @@
+{
+    "overview_and_stats": {
+        "max_cp": 5007,
+        "attack": 278,
+        "defense": 192,
+        "stamina": 268,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": false,
+        "title": "Eternatus",
+        "forms": [
+            {
+                "name": "Eternatus",
+                "href": "/pokemon/890",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/890.webp"
+            },
+            {
+                "name": "Eternamax Eternatus",
+                "href": "/pokemon/890-Eternamax",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/890_eternamax.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/890.webp",
+        "types": [
+            "Poison",
+            "Dragon"
+        ],
+        "weather_boost": [
+            "cloudy",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": true
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Poison Jab",
+            "charged": "Dynamax Cannon",
+            "dps": 23.04,
+            "tdo": 629.02,
+            "boosted_weather": [
+                "cloudy",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Dynamax Cannon *",
+                "charged_url": "https://db.pokemongohub.net/move/482",
+                "dps": 23.04,
+                "tdo": 629.0,
+                "score": 21.13
+            },
+            {
+                "rank": 2,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Dynamax Cannon *",
+                "charged_url": "https://db.pokemongohub.net/move/482",
+                "dps": 22.66,
+                "tdo": 618.8,
+                "score": 20.8
+            },
+            {
+                "rank": 3,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 16.56,
+                "tdo": 452.3,
+                "score": 15.19
+            },
+            {
+                "rank": 4,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Sludge Bomb",
+                "charged_url": "https://db.pokemongohub.net/move/90",
+                "dps": 16.41,
+                "tdo": 448.0,
+                "score": 15.04
+            },
+            {
+                "rank": 5,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 15.1,
+                "tdo": 412.2,
+                "score": 13.84
+            },
+            {
+                "rank": 6,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 14.88,
+                "tdo": 406.4,
+                "score": 13.64
+            },
+            {
+                "rank": 7,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 14.21,
+                "tdo": 388.0,
+                "score": 13.03
+            },
+            {
+                "rank": 8,
+                "fast": "Poison Jab",
+                "fast_url": "https://db.pokemongohub.net/move/224",
+                "charged": "Flamethrower",
+                "charged_url": "https://db.pokemongohub.net/move/24",
+                "dps": 13.88,
+                "tdo": 379.0,
+                "score": 12.73
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Poison Jab",
+                "type": "Poison",
+                "stats": {
+                    "damage": 13,
+                    "energy": 9,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 13,
+                    "energy": 9,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.4s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/224"
+            },
+            {
+                "name": "Dragon Tail",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 14,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 14,
+                    "energy": 8,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 12
+                },
+                "url": "https://db.pokemongohub.net/move/253"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flamethrower",
+                "type": "Fire",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.5s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/24"
+            },
+            {
+                "name": "Dragon Pulse",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.0s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/82"
+            },
+            {
+                "name": "Sludge Bomb",
+                "type": "Poison",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.3s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/90"
+            },
+            {
+                "name": "Dynamax Cannon *",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 215,
+                    "energy": 100,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 215,
+                    "energy": 100,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/482"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Eternatus's has 5007 max CP (at Level 50). A Eternatus obtained from Raids can be encountered from 2435 CP to 2530 CP, or if weather boosted, in the 3044 CP to 3163 CP range. In Field and Special Research, Eternatus can be found in the 1826 CP to 1898 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "5007",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1826 - 1898",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "2435 - 2530",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2435 - 2530",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "3044 - 3163",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "3044 CP - 3163 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 62,
+        "2": 196,
+        "3": 330,
+        "4": 463,
+        "5": 597,
+        "6": 731,
+        "7": 864,
+        "8": 998,
+        "9": 1132,
+        "10": 1265,
+        "11": 1392,
+        "12": 1518,
+        "13": 1645,
+        "14": 1771,
+        "15": 1898,
+        "16": 2024,
+        "17": 2151,
+        "18": 2277,
+        "19": 2404,
+        "20": 2530,
+        "21": 2657,
+        "22": 2784,
+        "23": 2910,
+        "24": 3037,
+        "25": 3163,
+        "26": 3290,
+        "27": 3416,
+        "28": 3543,
+        "29": 3670,
+        "30": 3796,
+        "31": 3860,
+        "32": 3923,
+        "33": 3986,
+        "34": 4049,
+        "35": 4112,
+        "36": 4176,
+        "37": 4239,
+        "38": 4302,
+        "39": 4365,
+        "40": 4429,
+        "41": 4485,
+        "42": 4542,
+        "43": 4598,
+        "44": 4656,
+        "45": 4713,
+        "46": 4771,
+        "47": 4830,
+        "48": 4888,
+        "49": 4948,
+        "50": 5007
+    },
+    "meta_analysis": "Eternatus in the meta PvE Analysis Eternatus is the strongest Dragon type in Pokémon GO, thanks to insane damage output of its signature Dynamax Cannon. Of course, getting a level 50 Eternatus will take an eternity due to its ridiculous power up costs but it's well worth the effort. 👍 When you consider every Pokémon in the game, Mega Rayquaza (with Dragging Tail and Dragon Ascent) remains unchallenged, closely followed by Crush Grip Shadow Regigigas and the eventual Mega Mewtwo Y. In fact, Poison Jab + Dynamax Cannon gives Eternatus its best DPS figures and the Dragon Tail variant trails behind Aura Sphere Mega Lucario. However, these arguments are for the role of a generalist, and you'd rather use Eternatus as a Dragon-type attacker in Raids and Max Battles. But that's not all as Eternatus is also the overall beat Poison type in Pokémon GO, boasting an ideal moveset complemented by high DPS and TDO. ⚔️ Raids Dynamax Cannon Eternatus boasts higher DPS and TDO than Breaking Swipe/Outrage Mega Rayquaza, making it the top Dragon Pokémon in the PvE meta. In fact, its output is considerably higher as well. That said, Mega Rayquaza offers a boost to all Dragon Pokémon in the Raid, including itself, often making it more valuable in large group Raid battles. Your best-case scenario is using both, which would be more than enough. 🐉 As a Poison type, Eternatus is just behind Mega Beedrill in DPS but has superior TDO, making it virtually the best in this category. Note that unlike many other Poison-type Pokémon, Eternatus takes neutral damage from Fairy-type moves (instead of resisting them) courtesy of its Dragon subtyping. As such, Eternatus isn't your best bet against Fairy Raid Bosses but it's excellent against Grass-type Raid Bosses. ‼️ 🔮 Max Battles If possible, you want to activate the Dynamax Cannon when fighting in Dynamax and Gigantamax Battles. Dynamax Cannon boosts the base power of all regular Max Moves from 250/300/350 (for each corresponding level) to 300/350/450, matching the damage of GMax moves. For GMax moves, it adds another 100 DMG, making it a whopping 550 DMG. This is even better than Crowned Zacian’s 5% increase to Max Attack from 250/300/350 to just 262.5/315/367.5 Additionally, with its signature D-Max Cannon, Eternatus is the best Dragon-type attacker in Max Battles. Period. Therefore, Eternatus is an invaluable addition in battles against Dynamax and Gigantamax Pokémon, offering significant boosts that make the battle easier along with its own powerful Max Move to flaunt. Dynamax Cannon Adventure Effect Trainers can activate Dynamax Cannon's Adventure Effect by using 5,000 Stardust and 30 Eternatus Candy to temporarily boost their Pokémon's Max Moves by one level in Max Battles for 10 minutes. Max Moves that are locked will temporarily be raised to Level 1. Max Moves that have been fully trained to Level 3 will increase to Level 4 which will provide an outsized power relative to a standard level up. Dynamax Cannon's Adventure Effect is not applicable to Zacian and Zamazenta (including their Crowned forms). You can extend the timer for this Adventure Effect in increments of 10 minutes by using more Stardust and Eternatus Candy. The timer can be raised to 2 hours when you tap ‘Use,’ and you can tap it again to add more time, up to 24 hours in all. Increases the base power of all Max Moves, for each corresponding level, from 250/300/350 to 300/350/450, matching the damage of GMax moves. It also adds a value of 100 to GMax Moves, dishing out 550 DMG. Show more Show less PvP Analysis 🔵 Great League Eternatus cannot participate in the Great League, its CP is too high. 🟡 Ultra League Eternatus is a decent Pokémon in the Ultra League, where it loses a some shine due to its high ATK fitted in a CP capped format. Victories come against top Grass types like Venusaur and Virizion, the formidable Shadow Drapion, Shadow Dragonite, Ampharos, Golisopod, Dusknoir, Fighters like Annihilape and Pangoro, and even a premier Steel type like Cobalion. Switching to Poison Jab doesn't make too much of a difference, with this avatar now gaining Fairies like Clefable and Galarian Weezing. However, core wins like Cobalion, Dusknoir, and Shadow Dragonite get sacrificed. It can trouble your opponents appreciably but ultimately, there are better Poison and Dragon types for the job, with even Poison/Dragon type Dragalge faring better in the Ultra League. 🟣 Master League Eternatus unleashes its true power in the Master League, with the Dragon Tail variant beating heavyweights like Black and White Kyurem, Zygarde Complete, Yvelta, Zamazenta Crowned Shield, Dawn Wings Necrozma, Kyogre, Melmetal, Ho-Oh, Dialga and Palkia Origin, Tapu Bulu, Landorus Therian, and Primarina. This is undoubtedly one of the most meta-defining additions to Pokémon GO. While the Poison Jab variant is less potent overall, it beats Fairies like Xerneas, Zacian Hero, and Florges. However, it loses Melmetal, Zamazenta Crowned Shield, Dawn Wings Necrozma, Landorus Therian, and Dialga and Palkia Origin. Eternatus is extremely potent as a finisher, where shields no longer hold play and it can use Dynamax Cannon freely. 80 DMG at 45 energy makes it a Drill Run/Fly/Sparkling Aria/Behemoth Bash clone, giving it high damage at relatively low energy. In this situation, it beats much of the meta except most Fairy, Ground, and Steel types. It still manages to take down Steel types like Dusk Mane Necrozma, Solgaleo, and Melmetal. 💎 The best PvP moves for Eternatus are Dragon Tail, Dynamax Cannon and Flamethrower. Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Eternatus",
+        "type": "Poison",
+        "intro_text": "A list of Mega Pokémon that boost Eternatus's Poison and Dragon-type moves, Candy, and Candy XL from catching Eternatus.",
+        "mega_list": [
+            {
+                "name": "Mega Venusaur",
+                "pokemon_id": 3,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/3-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 890,
+            "height_m": 20,
+            "weight_kg": 950,
+            "region": "Generation 8",
+            "can_be_traded": false,
+            "pokemon_home_transfer": false,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "9.8 m",
+            "xs": "10 m",
+            "m": "20 m",
+            "xl": "30 m",
+            "xxl": "31 m",
+            "description": "Eternatus's height ranges from 9.8 m to 31 m, with the average being 20 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 9.8,
+                "upper_m": 10,
+                "lower_ft": "32′02″",
+                "upper_ft": "32′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 10,
+                "upper_m": 20,
+                "lower_ft": "32′10″",
+                "upper_ft": "65′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 15,
+                "upper_m": 25,
+                "lower_ft": "49′03″",
+                "upper_ft": "82′00″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 25,
+                "upper_m": 30,
+                "lower_ft": "82′00″",
+                "upper_ft": "98′05″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 30,
+                "upper_m": 31,
+                "lower_ft": "98′05″",
+                "upper_ft": "101′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 20.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It was inside a meteorite that fell 20,000 years ago. There seems to be a connection between this Pokémon and the Dynamax phenomenon."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Eternatus",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm890.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm890.icon.png"
+            },
+            {
+                "label": "Shiny Eternatus",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm890.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm890.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 890,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0890_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0890_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Eternatus sprite"
+            },
+            {
+                "pokedex_number": 890,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0890_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0890_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Eternatus sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/890_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/890_social.jpg",
+                "alt": "Eternatus"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/890_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/890_social_dark.jpg",
+                "alt": "Eternatus"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/890_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/890_social_map.jpg",
+                "alt": "Eternatus"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/890_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/890_social_map_dark.jpg",
+                "alt": "Eternatus"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Eternatus’s strengths and weaknesses?",
+            "answer": "As a Poison and Dragon-type Pokémon, Eternatus is weak to Dragon, Ground, Ice, and Psychic-type moves."
+        },
+        {
+            "question": "What are the best moves for Eternatus in Pokémon GO?",
+            "answer": "The best moves for Eternatus in Pokémon GO are Poison Jab and Dynamax Cannon. This moveset has a DPS (Damage Per Second) of 23.037 and a TDO (Total Damage Output) of 629.018."
+        },
+        {
+            "question": "How does Eternatus perform in Raids?",
+            "answer": "Eternatus is an S-Tier Raid attacker, known for its high damage and versatility. Ranks #4 as a Raid attacker."
+        },
+        {
+            "question": "How does Eternatus rank as a Poison-type attacker?",
+            "answer": "Eternatus is an S-Tier Poison-type attacker, ranking at number #1 and providing exceptional value due to its strong stats and effective moveset."
+        },
+        {
+            "question": "How does Eternatus rank as a Dragon-type attacker?",
+            "answer": "Eternatus is an S-Tier Dragon-type attacker, ranking at number #1 and providing exceptional value due to its strong stats and effective moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Eternatus?",
+            "answer": "The following Mega Pokémon boost Eternatus: Mega Venusaur, Mega Beedrill, Mega Gengar, Mega Ampharos, Mega Sceptile, Mega Altaria, Mega Salamence, Mega Latias, Mega Latios, Mega Rayquaza, and Mega Garchomp."
+        },
+        {
+            "question": "What is Eternatus’s maximum CP at Level 40 and Level 50?",
+            "answer": "Eternatus’s maximum CP at Level 40 is 4429 CP and 5007 CP at Level 50."
+        },
+        {
+            "question": "Can Eternatus be shiny in Pokémon GO?",
+            "answer": "Eternatus cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Eternatus Dynamax in Pokémon GO?",
+            "answer": "Eternatus can Dynamax in Pokémon GO."
+        }
+    ]
+}

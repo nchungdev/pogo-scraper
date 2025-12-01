@@ -1,0 +1,725 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2516,
+        "attack": 177,
+        "defense": 199,
+        "stamina": 146,
+        "buddy_distance": 5,
+        "released": false,
+        "shiny_released": false,
+        "title": "Mimikyu",
+        "forms": [
+            {
+                "name": "Mimikyu",
+                "href": "/pokemon/778",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/778.webp"
+            },
+            {
+                "name": "Mimikyu (Busted)",
+                "href": "/pokemon/778-Busted",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/778.webp"
+            },
+            {
+                "name": "Mimikyu (Disguised)",
+                "href": "/pokemon/778-Disguised",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/778.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/778.webp",
+        "types": [
+            "Ghost",
+            "Fairy"
+        ],
+        "weather_boost": [
+            "fog",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": false,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Shadow Claw",
+            "charged": "Shadow Ball",
+            "dps": 10.35,
+            "tdo": 166.24,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 10.35,
+                "tdo": 166.2,
+                "score": 8.96
+            },
+            {
+                "rank": 2,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 10.08,
+                "tdo": 161.9,
+                "score": 8.73
+            },
+            {
+                "rank": 3,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 9.8,
+                "tdo": 157.3,
+                "score": 8.48
+            },
+            {
+                "rank": 4,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 9.57,
+                "tdo": 153.7,
+                "score": 8.29
+            },
+            {
+                "rank": 5,
+                "fast": "Shadow Claw",
+                "fast_url": "https://db.pokemongohub.net/move/213",
+                "charged": "Shadow Sneak",
+                "charged_url": "https://db.pokemongohub.net/move/66",
+                "dps": 7.77,
+                "tdo": 124.7,
+                "score": 6.72
+            },
+            {
+                "rank": 6,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Shadow Sneak",
+                "charged_url": "https://db.pokemongohub.net/move/66",
+                "dps": 7.72,
+                "tdo": 124.0,
+                "score": 6.68
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Shadow Claw",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.3s"
+                },
+                "trainer_battle": {
+                    "damage": 6,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/213"
+            },
+            {
+                "name": "Charm",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 20,
+                    "energy": 11,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 20,
+                    "energy": 11,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 13,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/320"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Sneak",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.3s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 50,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/66"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Play Rough",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/88"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Mimikyu's has 2516 max CP (at Level 50). A Mimikyu obtained from Raids can be encountered from 1205 CP to 1271 CP, or if weather boosted, in the 1506 CP to 1589 CP range. In Field and Special Research, Mimikyu can be found in the 903 CP to 954 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2516",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "903 - 954",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1205 - 1271",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1205 - 1271",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1506 - 1589",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1506 CP - 1589 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 31,
+        "2": 98,
+        "3": 165,
+        "4": 233,
+        "5": 300,
+        "6": 367,
+        "7": 434,
+        "8": 501,
+        "9": 568,
+        "10": 636,
+        "11": 699,
+        "12": 763,
+        "13": 826,
+        "14": 890,
+        "15": 954,
+        "16": 1017,
+        "17": 1081,
+        "18": 1144,
+        "19": 1208,
+        "20": 1271,
+        "21": 1335,
+        "22": 1399,
+        "23": 1462,
+        "24": 1526,
+        "25": 1589,
+        "26": 1653,
+        "27": 1717,
+        "28": 1780,
+        "29": 1844,
+        "30": 1908,
+        "31": 1939,
+        "32": 1971,
+        "33": 2003,
+        "34": 2035,
+        "35": 2066,
+        "36": 2098,
+        "37": 2130,
+        "38": 2162,
+        "39": 2194,
+        "40": 2225,
+        "41": 2254,
+        "42": 2282,
+        "43": 2311,
+        "44": 2339,
+        "45": 2368,
+        "46": 2398,
+        "47": 2427,
+        "48": 2456,
+        "49": 2486,
+        "50": 2516
+    },
+    "meta_analysis": "Mimikyu in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Mimikyu",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Mimikyu's Ghost and Fairy-type moves, Candy, and Candy XL from catching Mimikyu.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 778,
+            "height_m": 0.2,
+            "weight_kg": 0.7,
+            "region": "Generation 7",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.1 m",
+            "xs": "0.1 m",
+            "m": "0.2 m",
+            "xl": "0.3 m",
+            "xxl": "0.35 m",
+            "description": "Mimikyu's height ranges from 0.1 m to 0.35 m, with the average being 0.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.098,
+                "upper_m": 0.1,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.1,
+                "upper_m": 0.2,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.15,
+                "upper_m": 0.25,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.25,
+                "upper_m": 0.3,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.3,
+                "upper_m": 0.35,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Although it’s a quiet, lonely Pokémon, if you try to look at what’s under its rag, it will become agitated and resist violently."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "A gust of wind revealed what hides under this Pokémon’s rag to a passing Trainer, who went home and died painfully that very night."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "There was a scientist who peeked under Mimikyu’s old rag in the name of research. The scientist died of a mysterious disease."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 778,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0778_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0778_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Mimikyu sprite"
+            },
+            {
+                "pokedex_number": 778,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0778_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0778_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Mimikyu sprite"
+            },
+            {
+                "pokedex_number": 778,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0778_003_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0778_003_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Mimikyu sprite"
+            },
+            {
+                "pokedex_number": 778,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0778_003_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0778_003_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Mimikyu sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/778_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/778_social.jpg",
+                "alt": "Mimikyu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/778_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/778_social_dark.jpg",
+                "alt": "Mimikyu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/778_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/778_social_map.jpg",
+                "alt": "Mimikyu"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/778_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/778_social_map_dark.jpg",
+                "alt": "Mimikyu"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Mimikyu’s strengths and weaknesses?",
+            "answer": "As a Ghost and Fairy-type Pokémon, Mimikyu is weak to Ghost and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Mimikyu in Pokémon GO?",
+            "answer": "The best moves for Mimikyu in Pokémon GO are Shadow Claw and Shadow Ball. This moveset has a DPS (Damage Per Second) of 10.352 and a TDO (Total Damage Output) of 166.243."
+        },
+        {
+            "question": "How does Mimikyu perform in Raids?",
+            "answer": "Mimikyu's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Mimikyu rank as a Ghost-type attacker?",
+            "answer": "Mimikyu's performance as a Ghost-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Mimikyu?",
+            "answer": "The following Mega Pokémon boost Mimikyu: Mega Gengar, Mega Sableye, Mega Banette, Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, and Mega Diancie."
+        },
+        {
+            "question": "What is Mimikyu’s maximum CP at Level 40 and Level 50?",
+            "answer": "Mimikyu’s maximum CP at Level 40 is 2225 CP and 2516 CP at Level 50."
+        },
+        {
+            "question": "Can Mimikyu be shiny in Pokémon GO?",
+            "answer": "Mimikyu cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Mimikyu Dynamax in Pokémon GO?",
+            "answer": "Mimikyu cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

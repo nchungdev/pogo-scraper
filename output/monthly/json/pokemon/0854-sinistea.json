@@ -1,0 +1,743 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1287,
+        "attack": 134,
+        "defense": 96,
+        "stamina": 120,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Sinistea",
+        "forms": [
+            {
+                "name": "Sinistea (Antique)",
+                "href": "/pokemon/854-Antique",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/854.webp"
+            },
+            {
+                "name": "Sinistea (Phony)",
+                "href": "/pokemon/854-Phony",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/854.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/854.webp",
+        "types": [
+            "Ghost"
+        ],
+        "weather_boost": [
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Sucker Punch",
+            "charged": "Shadow Ball",
+            "dps": 6.18,
+            "tdo": 43.19,
+            "boosted_weather": [
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 6.18,
+                "tdo": 43.2,
+                "score": 4.56
+            },
+            {
+                "rank": 2,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 5.6,
+                "tdo": 39.1,
+                "score": 4.13
+            },
+            {
+                "rank": 3,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 5.47,
+                "tdo": 38.2,
+                "score": 4.03
+            },
+            {
+                "rank": 4,
+                "fast": "Sucker Punch",
+                "fast_url": "https://db.pokemongohub.net/move/203",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 5.25,
+                "tdo": 36.7,
+                "score": 3.87
+            },
+            {
+                "rank": 5,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Psychic",
+                "charged_url": "https://db.pokemongohub.net/move/108",
+                "dps": 4.87,
+                "tdo": 34.0,
+                "score": 3.58
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Dark Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/16",
+                "dps": 4.5,
+                "tdo": 31.5,
+                "score": 3.32
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Sucker Punch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.1s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/203"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dark Pulse",
+                "type": "Dark",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/16"
+            },
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Psychic",
+                "type": "Psychic",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.5s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 75,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/108"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Sinistea's has 1287 max CP (at Level 50). A Sinistea obtained from Raids can be encountered from 603 CP to 650 CP, or if weather boosted, in the 754 CP to 813 CP range. In Field and Special Research, Sinistea can be found in the 452 CP to 488 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1287",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "452 - 488",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "603 - 650",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "603 - 650",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "754 - 813",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "754 CP - 813 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 16,
+        "2": 50,
+        "3": 84,
+        "4": 119,
+        "5": 153,
+        "6": 188,
+        "7": 222,
+        "8": 256,
+        "9": 291,
+        "10": 325,
+        "11": 358,
+        "12": 390,
+        "13": 423,
+        "14": 455,
+        "15": 488,
+        "16": 520,
+        "17": 553,
+        "18": 585,
+        "19": 618,
+        "20": 650,
+        "21": 683,
+        "22": 716,
+        "23": 748,
+        "24": 781,
+        "25": 813,
+        "26": 846,
+        "27": 878,
+        "28": 911,
+        "29": 943,
+        "30": 976,
+        "31": 992,
+        "32": 1009,
+        "33": 1025,
+        "34": 1041,
+        "35": 1057,
+        "36": 1074,
+        "37": 1090,
+        "38": 1106,
+        "39": 1122,
+        "40": 1139,
+        "41": 1153,
+        "42": 1168,
+        "43": 1182,
+        "44": 1197,
+        "45": 1212,
+        "46": 1227,
+        "47": 1242,
+        "48": 1257,
+        "49": 1272,
+        "50": 1287
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Sinistea",
+                    "href": "/pokemon/854",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/854.webp"
+                },
+                "to": {
+                    "name": "Polteageist",
+                    "href": "/pokemon/855",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/855.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Sinistea",
+                "href": "/pokemon/854",
+                "img": "https://db.pokemongohub.net/images/official/medium/854.webp"
+            },
+            {
+                "name": "Polteageist",
+                "href": "/pokemon/855",
+                "img": "https://db.pokemongohub.net/images/official/medium/855.webp"
+            },
+            {
+                "name": "Sinistea (Antique)",
+                "href": "/pokemon/854-Antique",
+                "img": "https://db.pokemongohub.net/images/official/medium/854.webp"
+            },
+            {
+                "name": "Polteageist (Antique)",
+                "href": "/pokemon/855-Antique",
+                "img": "https://db.pokemongohub.net/images/official/medium/855.webp"
+            },
+            {
+                "name": "Sinistea (Phony)",
+                "href": "/pokemon/854-Phony",
+                "img": "https://db.pokemongohub.net/images/official/medium/854.webp"
+            },
+            {
+                "name": "Polteageist (Phony)",
+                "href": "/pokemon/855-Phony",
+                "img": "https://db.pokemongohub.net/images/official/medium/855.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Sinistea in the meta PvE Analysis On appraisal , your Team Leader will tell you whether the Sinistea you caught is the Phony or Authentic Form . It’s literally a cup of tea ☕ filled with a ghost 👻. Hilarious ! 😂 Low ATK , lower HP , and even lower DEF … this tea is not brewed for PvE , Trainers! 😅 ⚔️ Raids The Ghost-type meta has plenty of high DPS options , and Sinistea doesn’t make the cut. 👎 🛡️ Gyms Gym attackers in Pokémon GO need some (sinis)tea to refresh themselves . Sinistea can fill that role ! 😁 PvP Analysis Sinistea has a pretty cool PvP moveset with the STAB pair of Astonish and Shadow Ball , combined with Dark Pulse , posing a massive threat to a good section of the Little Cup meta ! 👻 It's particularly an amazing lead , tearing down opponents with Shadow Claw and its impressive ATK . However, its DEF is bad , and that sort of breaks its potential in this cup. 💔 Still, a useful Pokémon overall ! 🙌 🔵 Great League Sinistea maxes out at only 1287 CP , far below the 1500 mark . As such, it’s too fragile to advance in battles. 🫤 🟡 Ultra League Ultra League is NOT Sinistea’s cup of tea . 😅 🟣 Master League Master League is NEVER Sinistea’s cup of tea . 😅😅 Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Sinistea",
+        "type": "Ghost",
+        "intro_text": "A list of Mega Pokémon that boost Sinistea's Ghost-type moves, Candy, and Candy XL from catching Sinistea.",
+        "mega_list": [
+            {
+                "name": "Mega Gengar",
+                "pokemon_id": 94,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/94-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sableye",
+                "pokemon_id": 302,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/302-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Banette",
+                "pokemon_id": 354,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/354-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 854,
+            "height_m": 0.1,
+            "weight_kg": 0.2,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.05 m",
+            "xs": "0.05 m",
+            "m": "0.1 m",
+            "xl": "0.15 m",
+            "xxl": "0.18 m",
+            "description": "Sinistea's height ranges from 0.05 m to 0.18 m, with the average being 0.1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.049,
+                "upper_m": 0.05,
+                "lower_ft": "0′02″",
+                "upper_ft": "0′02″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.05,
+                "upper_m": 0.1,
+                "lower_ft": "0′02″",
+                "upper_ft": "0′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.075,
+                "upper_m": 0.125,
+                "lower_ft": "0′03″",
+                "upper_ft": "0′05″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.125,
+                "upper_m": 0.15,
+                "lower_ft": "0′05″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.15,
+                "upper_m": 0.175,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 30.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "The teacup in which this Pokémon makes its home is a famous piece of antique tableware. Many forgeries are in circulation."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Sinistea",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm854.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm854.icon.png"
+            },
+            {
+                "label": "Shiny Sinistea",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm854.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm854.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 854,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0854_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0854_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Sinistea sprite"
+            },
+            {
+                "pokedex_number": 854,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0854_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0854_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Sinistea sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/854_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/854_social.jpg",
+                "alt": "Sinistea"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/854_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/854_social_dark.jpg",
+                "alt": "Sinistea"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/854_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/854_social_map.jpg",
+                "alt": "Sinistea"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/854_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/854_social_map_dark.jpg",
+                "alt": "Sinistea"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Sinistea’s strengths and weaknesses?",
+            "answer": "As a Ghost-type Pokémon, Sinistea is weak to Dark and Ghost-type moves."
+        },
+        {
+            "question": "What are the best moves for Sinistea in Pokémon GO?",
+            "answer": "The best moves for Sinistea in Pokémon GO are Sucker Punch and Shadow Ball. This moveset has a DPS (Damage Per Second) of 6.183 and a TDO (Total Damage Output) of 43.188."
+        },
+        {
+            "question": "How does Sinistea perform in Raids?",
+            "answer": "Sinistea's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Sinistea rank as a Ghost-type attacker?",
+            "answer": "Sinistea's performance as a Ghost-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Sinistea?",
+            "answer": "The following Mega Pokémon boost Sinistea: Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Sinistea’s maximum CP at Level 40 and Level 50?",
+            "answer": "Sinistea’s maximum CP at Level 40 is 1139 CP and 1287 CP at Level 50."
+        },
+        {
+            "question": "Can Sinistea be shiny in Pokémon GO?",
+            "answer": "Sinistea can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Sinistea Dynamax in Pokémon GO?",
+            "answer": "Sinistea cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

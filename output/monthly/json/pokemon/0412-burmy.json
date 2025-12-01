@@ -1,0 +1,698 @@
+{
+    "overview_and_stats": {
+        "max_cp": 552,
+        "attack": 53,
+        "defense": 83,
+        "stamina": 120,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Burmy",
+        "forms": [
+            {
+                "name": "Burmy (Plant Cloak)",
+                "href": "/pokemon/412-Plant",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/412.webp"
+            },
+            {
+                "name": "Burmy (Sandy Cloak)",
+                "href": "/pokemon/412-Sandy",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/412_f2.webp"
+            },
+            {
+                "name": "Burmy (Trash Cloak)",
+                "href": "/pokemon/412-Trash",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/412_f3.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/412.webp",
+        "types": [
+            "Bug"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bug Bite",
+            "charged": "Struggle",
+            "dps": 2.84,
+            "tdo": 17.5,
+            "boosted_weather": [
+                "rain",
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Struggle",
+                "charged_url": "https://db.pokemongohub.net/move/133",
+                "dps": 2.84,
+                "tdo": 17.5,
+                "score": 2.02
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Struggle",
+                "charged_url": "https://db.pokemongohub.net/move/133",
+                "dps": 2.72,
+                "tdo": 16.7,
+                "score": 1.93
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bug Bite",
+                "type": "Bug",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/201"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Struggle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 35,
+                    "energy": 0,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 35,
+                    "energy": 0,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.0s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 35,
+                    "energy": 100
+                },
+                "url": "https://db.pokemongohub.net/move/133"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Burmy's has 552 max CP (at Level 50). A Burmy obtained from Raids can be encountered from 247 CP to 279 CP, or if weather boosted, in the 309 CP to 348 CP range. In Field and Special Research, Burmy can be found in the 185 CP to 209 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "552",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "185 - 209",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "247 - 279",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "247 - 279",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "309 - 348",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "309 CP - 348 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 6,
+        "2": 21,
+        "3": 36,
+        "4": 51,
+        "5": 65,
+        "6": 80,
+        "7": 95,
+        "8": 110,
+        "9": 124,
+        "10": 139,
+        "11": 153,
+        "12": 167,
+        "13": 181,
+        "14": 195,
+        "15": 209,
+        "16": 223,
+        "17": 237,
+        "18": 251,
+        "19": 265,
+        "20": 279,
+        "21": 293,
+        "22": 307,
+        "23": 321,
+        "24": 334,
+        "25": 348,
+        "26": 362,
+        "27": 376,
+        "28": 390,
+        "29": 404,
+        "30": 418,
+        "31": 425,
+        "32": 432,
+        "33": 439,
+        "34": 446,
+        "35": 453,
+        "36": 460,
+        "37": 467,
+        "38": 474,
+        "39": 481,
+        "40": 488,
+        "41": 494,
+        "42": 500,
+        "43": 507,
+        "44": 513,
+        "45": 519,
+        "46": 526,
+        "47": 532,
+        "48": 539,
+        "49": 545,
+        "50": 552
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Burmy",
+                    "href": "/pokemon/412",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/412.webp"
+                },
+                "to": {
+                    "name": "Wormadam (Plant Cloak)",
+                    "href": "/pokemon/413-Plant",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/413.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Female required"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Burmy",
+                    "href": "/pokemon/412",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/412.webp"
+                },
+                "to": {
+                    "name": "Mothim",
+                    "href": "/pokemon/414",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/414.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Male required"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Female required"
+        ],
+        "family": [
+            {
+                "name": "Burmy",
+                "href": "/pokemon/412",
+                "img": "https://db.pokemongohub.net/images/official/medium/412.webp"
+            },
+            {
+                "name": "Wormadam",
+                "href": "/pokemon/413",
+                "img": "https://db.pokemongohub.net/images/official/medium/413.webp"
+            },
+            {
+                "name": "Mothim",
+                "href": "/pokemon/414",
+                "img": "https://db.pokemongohub.net/images/official/medium/414.webp"
+            },
+            {
+                "name": "Burmy (Plant Cloak)",
+                "href": "/pokemon/412-Plant",
+                "img": "https://db.pokemongohub.net/images/official/medium/412.webp"
+            },
+            {
+                "name": "Wormadam (Plant Cloak)",
+                "href": "/pokemon/413-Plant",
+                "img": "https://db.pokemongohub.net/images/official/medium/413.webp"
+            },
+            {
+                "name": "Burmy (Sandy Cloak)",
+                "href": "/pokemon/412-Sandy",
+                "img": "https://db.pokemongohub.net/images/official/medium/412_f2.webp"
+            },
+            {
+                "name": "Wormadam (Sandy Cloak)",
+                "href": "/pokemon/413-Sandy",
+                "img": "https://db.pokemongohub.net/images/official/medium/413_f2.webp"
+            },
+            {
+                "name": "Burmy (Trash Cloak)",
+                "href": "/pokemon/412-Trash",
+                "img": "https://db.pokemongohub.net/images/official/medium/412_f3.webp"
+            },
+            {
+                "name": "Wormadam (Trash Cloak)",
+                "href": "/pokemon/413-Trash",
+                "img": "https://db.pokemongohub.net/images/official/medium/413_f3.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Burmy in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Burmy",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Burmy's Bug-type moves, Candy, and Candy XL from catching Burmy.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 412,
+            "height_m": 0.2,
+            "weight_kg": 3.4,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.1 m",
+            "xs": "0.1 m",
+            "m": "0.2 m",
+            "xl": "0.3 m",
+            "xxl": "0.35 m",
+            "description": "Burmy's height ranges from 0.1 m to 0.35 m, with the average being 0.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.098,
+                "upper_m": 0.1,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.1,
+                "upper_m": 0.2,
+                "lower_ft": "0′04″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.15,
+                "upper_m": 0.25,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.25,
+                "upper_m": 0.3,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.3,
+                "upper_m": 0.35,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′02″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_FLYING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 5.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 30.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Even if it is born where there are no cocooning materials, it somehow always ends up with a cloak."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "It covers itself with a cloak to shelter from the cold. When it’s hot, its cloak is thinner."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "If its cloak is even slightly damaged, Burmy will immediately repair it with whatever is close at hand. The Pokémon within the cloak is scrawny and vulnerable to the cold."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [],
+        "home_sprites": [
+            {
+                "pokedex_number": 412,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0412_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0412_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Burmy sprite"
+            },
+            {
+                "pokedex_number": 412,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0412_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0412_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Burmy sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/412_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/412_social.jpg",
+                "alt": "Burmy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/412_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/412_social_dark.jpg",
+                "alt": "Burmy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/412_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/412_social_map.jpg",
+                "alt": "Burmy"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/412_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/412_social_map_dark.jpg",
+                "alt": "Burmy"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Burmy’s strengths and weaknesses?",
+            "answer": "As a Bug-type Pokémon, Burmy is weak to Fire, Flying, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Burmy in Pokémon GO?",
+            "answer": "The best moves for Burmy in Pokémon GO are Bug Bite and Struggle. This moveset has a DPS (Damage Per Second) of 2.838 and a TDO (Total Damage Output) of 17.503."
+        },
+        {
+            "question": "How does Burmy perform in Raids?",
+            "answer": "Burmy's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Burmy rank as a Bug-type attacker?",
+            "answer": "Burmy's performance as a Bug-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Burmy?",
+            "answer": "The following Mega Pokémon boost Burmy: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, and Primal Kyogre."
+        },
+        {
+            "question": "What is Burmy’s maximum CP at Level 40 and Level 50?",
+            "answer": "Burmy’s maximum CP at Level 40 is 488 CP and 552 CP at Level 50."
+        },
+        {
+            "question": "Can Burmy be shiny in Pokémon GO?",
+            "answer": "Burmy can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Burmy Dynamax in Pokémon GO?",
+            "answer": "Burmy cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

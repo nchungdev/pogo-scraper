@@ -1,0 +1,881 @@
+{
+    "overview_and_stats": {
+        "max_cp": 4565,
+        "attack": 275,
+        "defense": 211,
+        "stamina": 205,
+        "buddy_distance": 20,
+        "released": true,
+        "shiny_released": true,
+        "title": "Zekrom",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/644.webp",
+        "types": [
+            "Dragon",
+            "Electric"
+        ],
+        "weather_boost": [
+            "windy",
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Dragon Breath",
+            "charged": "Fusion Bolt",
+            "dps": 16.15,
+            "tdo": 374.17,
+            "boosted_weather": [
+                "windy",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Fusion Bolt *",
+                "charged_url": "https://db.pokemongohub.net/move/374",
+                "dps": 16.15,
+                "tdo": 374.2,
+                "score": 14.58
+            },
+            {
+                "rank": 2,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 15.91,
+                "tdo": 368.8,
+                "score": 14.37
+            },
+            {
+                "rank": 3,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Fusion Bolt *",
+                "charged_url": "https://db.pokemongohub.net/move/374",
+                "dps": 15.69,
+                "tdo": 363.7,
+                "score": 14.18
+            },
+            {
+                "rank": 4,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Wild Charge",
+                "charged_url": "https://db.pokemongohub.net/move/251",
+                "dps": 15.46,
+                "tdo": 358.4,
+                "score": 13.97
+            },
+            {
+                "rank": 5,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Outrage",
+                "charged_url": "https://db.pokemongohub.net/move/277",
+                "dps": 15.08,
+                "tdo": 349.4,
+                "score": 13.62
+            },
+            {
+                "rank": 6,
+                "fast": "Charge Beam",
+                "fast_url": "https://db.pokemongohub.net/move/249",
+                "charged": "Outrage",
+                "charged_url": "https://db.pokemongohub.net/move/277",
+                "dps": 14.48,
+                "tdo": 335.5,
+                "score": 13.08
+            },
+            {
+                "rank": 7,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Flash Cannon",
+                "charged_url": "https://db.pokemongohub.net/move/36",
+                "dps": 12.74,
+                "tdo": 295.2,
+                "score": 11.51
+            },
+            {
+                "rank": 8,
+                "fast": "Dragon Breath",
+                "fast_url": "https://db.pokemongohub.net/move/204",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 12.07,
+                "tdo": 279.8,
+                "score": 10.9
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Dragon Breath",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/204"
+            },
+            {
+                "name": "Charge Beam",
+                "type": "Electric",
+                "stats": {
+                    "damage": 7,
+                    "energy": 14,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 14,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/249"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Flash Cannon",
+                "type": "Steel",
+                "stats": {
+                    "damage": 100,
+                    "energy": 100,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 100,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.4s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 70
+                },
+                "url": "https://db.pokemongohub.net/move/36"
+            },
+            {
+                "name": "Wild Charge",
+                "type": "Electric",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.6s - 2.0s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/251"
+            },
+            {
+                "name": "Outrage",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 110,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 110,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "2.6s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/277"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            },
+            {
+                "name": "Fusion Bolt *",
+                "type": "Electric",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/374"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Zekrom's has 4565 max CP (at Level 50). A Zekrom obtained from Raids can be encountered from 2217 CP to 2307 CP, or if weather boosted, in the 2771 CP to 2884 CP range. In Field and Special Research, Zekrom can be found in the 1663 CP to 1731 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "4565",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1663 - 1731",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "2217 - 2307",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2217 - 2307",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2771 - 2884",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "2771 CP - 2884 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 57,
+        "2": 179,
+        "3": 300,
+        "4": 422,
+        "5": 544,
+        "6": 666,
+        "7": 788,
+        "8": 910,
+        "9": 1032,
+        "10": 1154,
+        "11": 1269,
+        "12": 1384,
+        "13": 1500,
+        "14": 1615,
+        "15": 1731,
+        "16": 1846,
+        "17": 1961,
+        "18": 2077,
+        "19": 2192,
+        "20": 2307,
+        "21": 2423,
+        "22": 2538,
+        "23": 2654,
+        "24": 2769,
+        "25": 2884,
+        "26": 3000,
+        "27": 3115,
+        "28": 3231,
+        "29": 3346,
+        "30": 3462,
+        "31": 3519,
+        "32": 3577,
+        "33": 3635,
+        "34": 3692,
+        "35": 3750,
+        "36": 3808,
+        "37": 3865,
+        "38": 3923,
+        "39": 3981,
+        "40": 4038,
+        "41": 4090,
+        "42": 4141,
+        "43": 4193,
+        "44": 4245,
+        "45": 4298,
+        "46": 4351,
+        "47": 4404,
+        "48": 4457,
+        "49": 4511,
+        "50": 4565
+    },
+    "meta_analysis": "Zekrom in the meta PvE Analysis The Dragon/Electric-type Zekrom looks bold and backs it up by being a fearsome attacker in Pokémon GO . It's great in both of its types but is particularly brilliant as an Electric-type attacker . ⚡🐲 Access to its signature move, Fusion Bolt, is mandatory to ensure optimal performance. ‼️ 💎 Zekrom’s best moveset for PvE: Charge Beam, Fusion Bolt ⚔️ Raids When not accounting for Megas and Shadows , Zekrom ranks just behind Xurkitree and Thundurus Therian in Electric-type DPS , while boasting higher TDO than both . As a Dragon type , it is outclassed in stats by many of its peers , mainly because Zekrom lacks Dragon Tail . That said, it is still an amazing Pokémon to have . 🙂 🛡️ Gyms Legendaries can't be placed in Pokémon GO Gyms. Show more Show less PvP Analysis Zekrom is not usable in the Great League , and its high stats drop to mediocrity in the Ultra League , making its PvP relevance limited to the Master League . Sharing the same stats as Dialga , Zekrom is not surprisingly deadly in the Master League . The Electric/Dragon typing gives it widespread coverage , allowing it to handle much of the meta. Beyond demolishing Flying types , its Electric-type neutral damage threatens Steel Pokémon and even Fairies , which Zekrom is usually weak to. 🌩️ Zekrom is built for speed , with fast-charging moves like Fusion Bolt and Crunch (both at 45 energy) , making it a shield-zapping menace . ⚡ Additionally, its moveset is flexible , allowing Zekrom to function as either a lead or a closer , adding great versatility in team building . 👌 However, Ground types pose a serious threat, so watch out for them. Overall, Zekrom is a phenomenal Master League Pokémon that you’ll enjoy using. 🤌 💎 Best PvP moveset: Dragon Breath, Fusion Bolt/Wild Charge, Crunch Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Zekrom",
+        "type": "Dragon",
+        "intro_text": "A list of Mega Pokémon that boost Zekrom's Dragon and Electric-type moves, Candy, and Candy XL from catching Zekrom.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Altaria",
+                "pokemon_id": 334,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/334-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Salamence",
+                "pokemon_id": 373,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/373-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Garchomp",
+                "pokemon_id": 445,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/445-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 644,
+            "height_m": 2.9,
+            "weight_kg": 345,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 2.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 100,
+            "stardust": 100000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "1.42 m",
+            "xs": "1.45 m",
+            "m": "2.9 m",
+            "xl": "4.35 m",
+            "xxl": "4.5 m",
+            "description": "Zekrom's height ranges from 1.42 m to 4.5 m, with the average being 2.9 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 1.421,
+                "upper_m": 1.45,
+                "lower_ft": "4′08″",
+                "upper_ft": "4′09″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.45,
+                "upper_m": 2.9,
+                "lower_ft": "4′09″",
+                "upper_ft": "9′06″"
+            },
+            {
+                "size": "M",
+                "lower_m": 2.175,
+                "upper_m": 3.625,
+                "lower_ft": "7′02″",
+                "upper_ft": "11′11″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 3.625,
+                "upper_m": 4.35,
+                "lower_ft": "11′11″",
+                "upper_ft": "14′03″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 4.35,
+                "upper_m": 4.495,
+                "lower_ft": "14′03″",
+                "upper_ft": "14′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 2,
+            "attack_probability": 1.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 1.5,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "When the interior part of its tail spins like a motor, Zekrom can generate many bolts of lightning to blast its surroundings."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Mythology tells us that if people lose the righteousness in their hearts, their kingdoms will be razed by Zekrom’s lightning."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Zekrom",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm644.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm644.icon.png"
+            },
+            {
+                "label": "Shiny Zekrom",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm644.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm644.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 644,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0644_000_uk_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0644_000_uk_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Zekrom sprite"
+            },
+            {
+                "pokedex_number": 644,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0644_000_uk_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0644_000_uk_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Zekrom sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/644_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/644_social.jpg",
+                "alt": "Zekrom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/644_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/644_social_dark.jpg",
+                "alt": "Zekrom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/644_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/644_social_map.jpg",
+                "alt": "Zekrom"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/644_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/644_social_map_dark.jpg",
+                "alt": "Zekrom"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Zekrom’s strengths and weaknesses?",
+            "answer": "As a Dragon and Electric-type Pokémon, Zekrom is weak to Dragon, Fairy, Ground, and Ice-type moves."
+        },
+        {
+            "question": "What are the best moves for Zekrom in Pokémon GO?",
+            "answer": "The best moves for Zekrom in Pokémon GO are Dragon Breath and Fusion Bolt. This moveset has a DPS (Damage Per Second) of 16.146 and a TDO (Total Damage Output) of 374.175."
+        },
+        {
+            "question": "How does Zekrom perform in Raids?",
+            "answer": "Zekrom is a solid choice for many Raid battles. Ranks #66 as a Raid attacker."
+        },
+        {
+            "question": "How does Zekrom rank as a Dragon-type attacker?",
+            "answer": "Zekrom is a solid A-Tier Dragon-type attacker, ranking at number #28. It is reliable in many situations but not the absolute best."
+        },
+        {
+            "question": "How does Zekrom rank as a Electric-type attacker?",
+            "answer": "Zekrom is an S-Tier Electric-type attacker, ranking at number #7 and providing exceptional value due to its strong stats and effective moveset."
+        },
+        {
+            "question": "What Mega Pokémon boost Zekrom?",
+            "answer": "The following Mega Pokémon boost Zekrom: Mega Ampharos, Mega Sceptile, Mega Altaria, Mega Salamence, Mega Latias, Mega Latios, Mega Rayquaza, Mega Garchomp, Mega Ampharos, Mega Manectric, and Primal Kyogre."
+        },
+        {
+            "question": "What is Zekrom’s maximum CP at Level 40 and Level 50?",
+            "answer": "Zekrom’s maximum CP at Level 40 is 4038 CP and 4565 CP at Level 50."
+        },
+        {
+            "question": "Can Zekrom be shiny in Pokémon GO?",
+            "answer": "Zekrom can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Zekrom Dynamax in Pokémon GO?",
+            "answer": "Zekrom cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

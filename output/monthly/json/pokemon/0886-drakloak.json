@@ -1,0 +1,750 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1867,
+        "attack": 163,
+        "defense": 105,
+        "stamina": 169,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": false,
+        "title": "Drakloak",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/886.webp",
+        "types": [
+            "Dragon",
+            "Ghost"
+        ],
+        "weather_boost": [
+            "windy",
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": false,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Dragon Tail",
+            "charged": "Shadow Ball",
+            "dps": 9.28,
+            "tdo": 95.54,
+            "boosted_weather": [
+                "windy",
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 9.28,
+                "tdo": 95.5,
+                "score": 7.47
+            },
+            {
+                "rank": 2,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Outrage",
+                "charged_url": "https://db.pokemongohub.net/move/277",
+                "dps": 8.89,
+                "tdo": 91.4,
+                "score": 7.15
+            },
+            {
+                "rank": 3,
+                "fast": "Dragon Tail",
+                "fast_url": "https://db.pokemongohub.net/move/253",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 8.51,
+                "tdo": 87.6,
+                "score": 6.85
+            },
+            {
+                "rank": 4,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Shadow Ball",
+                "charged_url": "https://db.pokemongohub.net/move/70",
+                "dps": 8.25,
+                "tdo": 84.9,
+                "score": 6.64
+            },
+            {
+                "rank": 5,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Outrage",
+                "charged_url": "https://db.pokemongohub.net/move/277",
+                "dps": 7.78,
+                "tdo": 80.0,
+                "score": 6.26
+            },
+            {
+                "rank": 6,
+                "fast": "Astonish",
+                "fast_url": "https://db.pokemongohub.net/move/263",
+                "charged": "Dragon Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/82",
+                "dps": 7.18,
+                "tdo": 73.9,
+                "score": 5.78
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Dragon Tail",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 14,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 14,
+                    "energy": 8,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 12
+                },
+                "url": "https://db.pokemongohub.net/move/253"
+            },
+            {
+                "name": "Astonish",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 7,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 12,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/263"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Shadow Ball",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 100,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/70"
+            },
+            {
+                "name": "Dragon Pulse",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.0s - 3.2s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/82"
+            },
+            {
+                "name": "Outrage",
+                "type": "Dragon",
+                "stats": {
+                    "damage": 110,
+                    "energy": 50,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 110,
+                    "energy": 50,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "2.6s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/277"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Drakloak's has 1867 max CP (at Level 50). A Drakloak obtained from Raids can be encountered from 885 CP to 943 CP, or if weather boosted, in the 1107 CP to 1180 CP range. In Field and Special Research, Drakloak can be found in the 664 CP to 708 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1867",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "664 - 708",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "885 - 943",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "885 - 943",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1107 - 1180",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1107 CP - 1180 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 23,
+        "2": 73,
+        "3": 123,
+        "4": 172,
+        "5": 222,
+        "6": 272,
+        "7": 322,
+        "8": 372,
+        "9": 422,
+        "10": 472,
+        "11": 519,
+        "12": 566,
+        "13": 613,
+        "14": 660,
+        "15": 708,
+        "16": 755,
+        "17": 802,
+        "18": 849,
+        "19": 896,
+        "20": 943,
+        "21": 991,
+        "22": 1038,
+        "23": 1085,
+        "24": 1132,
+        "25": 1180,
+        "26": 1227,
+        "27": 1274,
+        "28": 1321,
+        "29": 1368,
+        "30": 1416,
+        "31": 1439,
+        "32": 1463,
+        "33": 1486,
+        "34": 1510,
+        "35": 1534,
+        "36": 1557,
+        "37": 1581,
+        "38": 1604,
+        "39": 1628,
+        "40": 1651,
+        "41": 1672,
+        "42": 1694,
+        "43": 1715,
+        "44": 1736,
+        "45": 1758,
+        "46": 1779,
+        "47": 1801,
+        "48": 1823,
+        "49": 1845,
+        "50": 1867
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Dreepy",
+                    "href": "/pokemon/885",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/885.webp"
+                },
+                "to": {
+                    "name": "Drakloak",
+                    "href": "/pokemon/886",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/886.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Drakloak",
+                    "href": "/pokemon/886",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/886.webp"
+                },
+                "to": {
+                    "name": "Dragapult",
+                    "href": "/pokemon/887",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/887.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Dreepy",
+                "href": "/pokemon/885",
+                "img": "https://db.pokemongohub.net/images/official/medium/885.webp"
+            },
+            {
+                "name": "Drakloak",
+                "href": "/pokemon/886",
+                "img": "https://db.pokemongohub.net/images/official/medium/886.webp"
+            },
+            {
+                "name": "Dragapult",
+                "href": "/pokemon/887",
+                "img": "https://db.pokemongohub.net/images/official/medium/887.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Drakloak in the meta PvE Analysis Drakloak has average stats typical of the middle of a three-stage evolution line. All you need to do is collect Candy and evolve Drakloak, not use it in Raids and Gym battles. PvP Analysis 🔵 Great League Drakloak has no cheap Charged Attack to complement Dragon Tail’s energy gains, severely limiting its viability in PvP. Use Altaria or Dragonite instead. Drakloak maxes out at only 1867 CP, making it non-functional for the Ultra and Master League. 💎 The best PvP moves for Drakloak are Dragon Tail, Outrage and Shadow Ball.",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Drakloak",
+        "type": "Dragon",
+        "intro_text": "A list of Mega Pokémon that boost Drakloak's Dragon and Ghost-type moves, Candy, and Candy XL from catching Drakloak.",
+        "mega_list": [
+            {
+                "name": "Mega Ampharos",
+                "pokemon_id": 181,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/181-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sceptile",
+                "pokemon_id": 254,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/254-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Altaria",
+                "pokemon_id": 334,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/334-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Salamence",
+                "pokemon_id": 373,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/373-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latias",
+                "pokemon_id": 380,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/380-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Latios",
+                "pokemon_id": 381,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/381-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Rayquaza",
+                "pokemon_id": 384,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/384-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Garchomp",
+                "pokemon_id": 445,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/445-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 886,
+            "height_m": 1.4,
+            "weight_kg": 11,
+            "region": "Generation 8",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.69 m",
+            "xs": "0.7 m",
+            "m": "1.4 m",
+            "xl": "2.1 m",
+            "xxl": "2.45 m",
+            "description": "Drakloak's height ranges from 0.69 m to 2.45 m, with the average being 1.4 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.686,
+                "upper_m": 0.7,
+                "lower_ft": "2′03″",
+                "upper_ft": "2′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.7,
+                "upper_m": 1.4,
+                "lower_ft": "2′04″",
+                "upper_ft": "4′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.05,
+                "upper_m": 1.75,
+                "lower_ft": "3′05″",
+                "upper_ft": "5′09″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.75,
+                "upper_m": 2.1,
+                "lower_ft": "5′09″",
+                "upper_ft": "6′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 2.1,
+                "upper_m": 2.45,
+                "lower_ft": "6′11″",
+                "upper_ft": "8′00″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer": 0,
+            "jump_time": 0,
+            "attack_probability": 30.0,
+            "attack_timer": 0,
+            "dodge_probability": 5.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It’s capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Without a Dreepy to place on its head and care for, it gets so uneasy it’ll try to substitute any Pokémon it finds for the missing Dreepy."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Drakloak",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm886.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm886.icon.png"
+            },
+            {
+                "label": "Shiny Drakloak",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm886.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm886.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 886,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0886_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0886_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Drakloak sprite"
+            },
+            {
+                "pokedex_number": 886,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0886_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0886_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Drakloak sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/886_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/886_social.jpg",
+                "alt": "Drakloak"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/886_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/886_social_dark.jpg",
+                "alt": "Drakloak"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/886_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/886_social_map.jpg",
+                "alt": "Drakloak"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/886_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/886_social_map_dark.jpg",
+                "alt": "Drakloak"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Drakloak’s strengths and weaknesses?",
+            "answer": "As a Dragon and Ghost-type Pokémon, Drakloak is weak to Dark, Dragon, Fairy, Ghost, and Ice-type moves."
+        },
+        {
+            "question": "What are the best moves for Drakloak in Pokémon GO?",
+            "answer": "The best moves for Drakloak in Pokémon GO are Dragon Tail and Shadow Ball. This moveset has a DPS (Damage Per Second) of 9.284 and a TDO (Total Damage Output) of 95.545."
+        },
+        {
+            "question": "How does Drakloak perform in Raids?",
+            "answer": "Drakloak's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Drakloak rank as a Dragon-type attacker?",
+            "answer": "Drakloak is an F-Tier Dragon-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Drakloak rank as a Ghost-type attacker?",
+            "answer": "Drakloak is an F-Tier Ghost-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Drakloak?",
+            "answer": "The following Mega Pokémon boost Drakloak: Mega Ampharos, Mega Sceptile, Mega Altaria, Mega Salamence, Mega Latias, Mega Latios, Mega Rayquaza, Mega Garchomp, Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Drakloak’s maximum CP at Level 40 and Level 50?",
+            "answer": "Drakloak’s maximum CP at Level 40 is 1651 CP and 1867 CP at Level 50."
+        },
+        {
+            "question": "Can Drakloak be shiny in Pokémon GO?",
+            "answer": "Drakloak cannot be shiny in Pokémon GO."
+        },
+        {
+            "question": "Can Drakloak Dynamax in Pokémon GO?",
+            "answer": "Drakloak cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

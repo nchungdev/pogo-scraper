@@ -1,0 +1,874 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1399,
+        "attack": 137,
+        "defense": 85,
+        "stamina": 155,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Snubbull",
+        "forms": [
+            {
+                "name": "Snubbull",
+                "href": "/pokemon/209",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/209.webp"
+            },
+            {
+                "name": "Shadow Snubbull",
+                "href": "/pokemon/209-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/209.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/209.webp",
+        "types": [
+            "Fairy"
+        ],
+        "weather_boost": [
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bite",
+            "charged": "Dazzling Gleam",
+            "dps": 6.11,
+            "tdo": 48.43,
+            "boosted_weather": [
+                "fog",
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 6.11,
+                "tdo": 48.4,
+                "score": 4.65
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Dazzling Gleam",
+                "charged_url": "https://db.pokemongohub.net/move/86",
+                "dps": 6.03,
+                "tdo": 47.8,
+                "score": 4.59
+            },
+            {
+                "rank": 3,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Brick Break",
+                "charged_url": "https://db.pokemongohub.net/move/123",
+                "dps": 5.68,
+                "tdo": 45.0,
+                "score": 4.32
+            },
+            {
+                "rank": 4,
+                "fast": "Bite",
+                "fast_url": "https://db.pokemongohub.net/move/202",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 5.61,
+                "tdo": 44.5,
+                "score": 4.27
+            },
+            {
+                "rank": 5,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Brick Break",
+                "charged_url": "https://db.pokemongohub.net/move/123",
+                "dps": 5.37,
+                "tdo": 42.6,
+                "score": 4.08
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Crunch",
+                "charged_url": "https://db.pokemongohub.net/move/279",
+                "dps": 5.32,
+                "tdo": 42.2,
+                "score": 4.05
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bite",
+                "type": "Dark",
+                "stats": {
+                    "damage": 6,
+                    "energy": 4,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 4,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 2
+                },
+                "url": "https://db.pokemongohub.net/move/202"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Dazzling Gleam",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 100,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 100,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.1s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/86"
+            },
+            {
+                "name": "Brick Break",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 40,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 40,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.7s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/123"
+            },
+            {
+                "name": "Crunch",
+                "type": "Dark",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/279"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Snubbull's has 1399 max CP (at Level 50). A Snubbull obtained from Raids can be encountered from 656 CP to 707 CP, or if weather boosted, in the 821 CP to 884 CP range. In Field and Special Research, Snubbull can be found in the 492 CP to 530 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1399",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "492 - 530",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "656 - 707",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "656 - 707",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "821 - 884",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "821 CP - 884 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 17,
+        "2": 54,
+        "3": 92,
+        "4": 129,
+        "5": 166,
+        "6": 204,
+        "7": 241,
+        "8": 279,
+        "9": 316,
+        "10": 353,
+        "11": 389,
+        "12": 424,
+        "13": 459,
+        "14": 495,
+        "15": 530,
+        "16": 565,
+        "17": 601,
+        "18": 636,
+        "19": 671,
+        "20": 707,
+        "21": 742,
+        "22": 778,
+        "23": 813,
+        "24": 848,
+        "25": 884,
+        "26": 919,
+        "27": 954,
+        "28": 990,
+        "29": 1025,
+        "30": 1061,
+        "31": 1078,
+        "32": 1096,
+        "33": 1114,
+        "34": 1131,
+        "35": 1149,
+        "36": 1167,
+        "37": 1184,
+        "38": 1202,
+        "39": 1220,
+        "40": 1237,
+        "41": 1253,
+        "42": 1269,
+        "43": 1285,
+        "44": 1301,
+        "45": 1317,
+        "46": 1333,
+        "47": 1349,
+        "48": 1366,
+        "49": 1382,
+        "50": 1399
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Snubbull",
+                    "href": "/pokemon/209",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/209.webp"
+                },
+                "to": {
+                    "name": "Granbull",
+                    "href": "/pokemon/210",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/210.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Snubbull",
+                "href": "/pokemon/209",
+                "img": "https://db.pokemongohub.net/images/official/medium/209.webp"
+            },
+            {
+                "name": "Granbull",
+                "href": "/pokemon/210",
+                "img": "https://db.pokemongohub.net/images/official/medium/210.webp"
+            },
+            {
+                "name": "Shadow Snubbull",
+                "href": "/pokemon/209-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Granbull",
+                "href": "/pokemon/210-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Snubbull in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Snubbull",
+        "type": "Fairy",
+        "intro_text": "A list of Mega Pokémon that boost Snubbull's Fairy-type moves, Candy, and Candy XL from catching Snubbull.",
+        "mega_list": [
+            {
+                "name": "Mega Gardevoir",
+                "pokemon_id": 282,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/282-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Mawile",
+                "pokemon_id": 303,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/303-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Altaria",
+                "pokemon_id": 334,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/334-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Diancie",
+                "pokemon_id": 719,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/719-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 209,
+            "height_m": 0.61,
+            "weight_kg": 7.8,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.3 m",
+            "xs": "0.31 m",
+            "m": "0.61 m",
+            "xl": "0.92 m",
+            "xxl": "1.07 m",
+            "description": "Snubbull's height ranges from 0.3 m to 1.07 m, with the average being 0.61 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2989,
+                "upper_m": 0.305,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′00″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.305,
+                "upper_m": 0.61,
+                "lower_ft": "1′00″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.4575,
+                "upper_m": 0.7625,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.7625,
+                "upper_m": 0.915,
+                "lower_ft": "2′06″",
+                "upper_ft": "3′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.915,
+                "upper_m": 1.0675,
+                "lower_ft": "3′00″",
+                "upper_ft": "3′06″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 11,
+            "jump_time_s": 1,
+            "attack_probability": 20.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "Although it looks frightening, it is actually kind and affectionate. It is very popular among women."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "It has an active, playful nature. Many women like to frolic with it because of its af fectionate ways."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "In truth, it is a cowardly POKéMON. It growls eagerly in order to hide its fear from its opponent."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "By baring its fangs and making a scary face, SNUBBULL sends smaller POKéMON scurrying away in terror. However, this POKéMON seems a little sad at making its foes flee."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "By baring its fangs and making a scary face, it sends smaller POKéMON scurrying in terror. The SNUBBULL does seem a little sad at making its foes flee."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Although it looks frightening, it is actually kind and affectionate. It is very popular among women."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Small Pokémon flee from its scary face. It is, however, considered by women to be cute."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "Although it looks frightening, it is actually kind and affectionate. It is very popular among women."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Small Pokémon flee from its scary face. It is, however, considered by women to be cute."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "By baring its fangs and making a scary face, Snubbull sends smaller Pokémon scurrying away in terror. However, this Pokémon seems a little sad at making its foes flee."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Despite its intimidating face, it’s quite cowardly. Its desperate attempts to appear threatening make it popular with people."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "Its growls make its opponents uneasy. This laid-back Pokémon tends to sleep half the day."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "In contrast to its appearance, it’s quite timid. When playing with other puppy Pokémon, it sometimes gets bullied."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Snubbull",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm209.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm209.icon.png"
+            },
+            {
+                "label": "Shiny Snubbull",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm209.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm209.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 209,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0209_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0209_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Snubbull sprite"
+            },
+            {
+                "pokedex_number": 209,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0209_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0209_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Snubbull sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/209_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/209_social.jpg",
+                "alt": "Snubbull"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/209_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/209_social_dark.jpg",
+                "alt": "Snubbull"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/209_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/209_social_map.jpg",
+                "alt": "Snubbull"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/209_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/209_social_map_dark.jpg",
+                "alt": "Snubbull"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Snubbull’s strengths and weaknesses?",
+            "answer": "As a Fairy-type Pokémon, Snubbull is weak to Poison and Steel-type moves."
+        },
+        {
+            "question": "What are the best moves for Snubbull in Pokémon GO?",
+            "answer": "The best moves for Snubbull in Pokémon GO are Bite and Dazzling Gleam. This moveset has a DPS (Damage Per Second) of 6.112 and a TDO (Total Damage Output) of 48.429."
+        },
+        {
+            "question": "How does Snubbull perform in Raids?",
+            "answer": "Snubbull's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Snubbull rank as a Fairy-type attacker?",
+            "answer": "Snubbull is an F-Tier Fairy-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Snubbull?",
+            "answer": "The following Mega Pokémon boost Snubbull: Mega Gardevoir, Mega Mawile, Mega Altaria, Mega Audino, and Mega Diancie."
+        },
+        {
+            "question": "What is Snubbull’s maximum CP at Level 40 and Level 50?",
+            "answer": "Snubbull’s maximum CP at Level 40 is 1237 CP and 1399 CP at Level 50."
+        },
+        {
+            "question": "Can Snubbull be shiny in Pokémon GO?",
+            "answer": "Snubbull can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Snubbull Dynamax in Pokémon GO?",
+            "answer": "Snubbull cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,865 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1662,
+        "attack": 154,
+        "defense": 94,
+        "stamina": 163,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Yanma",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/193.webp",
+        "types": [
+            "Bug",
+            "Flying"
+        ],
+        "weather_boost": [
+            "rain",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Wing Attack",
+            "charged": "Aerial Ace",
+            "dps": 6.8,
+            "tdo": 61.47,
+            "boosted_weather": [
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 6.8,
+                "tdo": 61.5,
+                "score": 5.33
+            },
+            {
+                "rank": 2,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 6.58,
+                "tdo": 59.5,
+                "score": 5.16
+            },
+            {
+                "rank": 3,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Silver Wind",
+                "charged_url": "https://db.pokemongohub.net/move/262",
+                "dps": 6.45,
+                "tdo": 58.3,
+                "score": 5.06
+            },
+            {
+                "rank": 4,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Silver Wind",
+                "charged_url": "https://db.pokemongohub.net/move/262",
+                "dps": 6.22,
+                "tdo": 56.3,
+                "score": 4.88
+            },
+            {
+                "rank": 5,
+                "fast": "Wing Attack",
+                "fast_url": "https://db.pokemongohub.net/move/210",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 6.08,
+                "tdo": 55.0,
+                "score": 4.77
+            },
+            {
+                "rank": 6,
+                "fast": "Quick Attack",
+                "fast_url": "https://db.pokemongohub.net/move/219",
+                "charged": "Ancient Power",
+                "charged_url": "https://db.pokemongohub.net/move/62",
+                "dps": 5.82,
+                "tdo": 52.6,
+                "score": 4.56
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Wing Attack",
+                "type": "Flying",
+                "stats": {
+                    "damage": 10,
+                    "energy": 11,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 11,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 7
+                },
+                "url": "https://db.pokemongohub.net/move/210"
+            },
+            {
+                "name": "Quick Attack",
+                "type": "Normal",
+                "stats": {
+                    "damage": 10,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.5s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/219"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Ancient Power",
+                "type": "Rock",
+                "stats": {
+                    "damage": 70,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 70,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.9s - 3.1s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/62"
+            },
+            {
+                "name": "Silver Wind",
+                "type": "Bug",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/262"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Yanma's has 1662 max CP (at Level 50). A Yanma obtained from Raids can be encountered from 785 CP to 840 CP, or if weather boosted, in the 981 CP to 1050 CP range. In Field and Special Research, Yanma can be found in the 588 CP to 630 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1662",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "588 - 630",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "785 - 840",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "785 - 840",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "981 - 1050",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "981 CP - 1050 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 20,
+        "2": 65,
+        "3": 109,
+        "4": 153,
+        "5": 198,
+        "6": 242,
+        "7": 287,
+        "8": 331,
+        "9": 375,
+        "10": 420,
+        "11": 462,
+        "12": 504,
+        "13": 546,
+        "14": 588,
+        "15": 630,
+        "16": 672,
+        "17": 714,
+        "18": 756,
+        "19": 798,
+        "20": 840,
+        "21": 882,
+        "22": 924,
+        "23": 966,
+        "24": 1008,
+        "25": 1050,
+        "26": 1092,
+        "27": 1134,
+        "28": 1176,
+        "29": 1218,
+        "30": 1260,
+        "31": 1281,
+        "32": 1302,
+        "33": 1323,
+        "34": 1344,
+        "35": 1365,
+        "36": 1386,
+        "37": 1407,
+        "38": 1428,
+        "39": 1449,
+        "40": 1470,
+        "41": 1488,
+        "42": 1507,
+        "43": 1526,
+        "44": 1545,
+        "45": 1564,
+        "46": 1584,
+        "47": 1603,
+        "48": 1622,
+        "49": 1642,
+        "50": 1662
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Yanma",
+                    "href": "/pokemon/193",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/193.webp"
+                },
+                "to": {
+                    "name": "Yanmega",
+                    "href": "/pokemon/469",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/469.webp"
+                },
+                "requirements": [
+                    "100 Candy",
+                    "Special Item: Sinnoh Stone"
+                ]
+            }
+        ],
+        "details": [
+            "100 Candy",
+            "Special Item: Sinnoh Stone"
+        ],
+        "family": [
+            {
+                "name": "Yanma",
+                "href": "/pokemon/193",
+                "img": "https://db.pokemongohub.net/images/official/medium/193.webp"
+            },
+            {
+                "name": "Yanmega",
+                "href": "/pokemon/469",
+                "img": "https://db.pokemongohub.net/images/official/medium/469.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Yanma in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Yanma",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Yanma's Bug and Flying-type moves, Candy, and Candy XL from catching Yanma.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 193,
+            "height_m": 1.19,
+            "weight_kg": 38,
+            "region": "Generation 2",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.58 m",
+            "xs": "0.6 m",
+            "m": "1.19 m",
+            "xl": "1.79 m",
+            "xxl": "2.08 m",
+            "description": "Yanma's height ranges from 0.58 m to 2.08 m, with the average being 1.19 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.5831,
+                "upper_m": 0.595,
+                "lower_ft": "1′11″",
+                "upper_ft": "1′11″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.595,
+                "upper_m": 1.19,
+                "lower_ft": "1′11″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.8925,
+                "upper_m": 1.4875,
+                "lower_ft": "2′11″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.4875,
+                "upper_m": 1.785,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′10″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.785,
+                "upper_m": 2.0825,
+                "lower_ft": "5′10″",
+                "upper_ft": "6′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_ELECTRIC",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 20.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.125,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "If it flaps its wings really fast, it can generate shock waves that will shatter win dows in the area."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "It can see in all directions without moving its big eyes, helping it spot attackers and food right away."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "YANMA is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This POKéMON uses its flying ability to quickly chase down targeted prey."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It can see 360 degrees without moving its eyes. It is a great flier capable of making sudden stops and turning midair to quickly chase down targeted prey."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl"
+            ],
+            "entry": "Its eyes can see 360 degrees without moving its head. It won’t miss prey--even those behind it."
+        },
+        {
+            "versions": [
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "By flapping its wings at high speed, it can fly freely through the air. Even sudden stops are no problem."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Its eyes can see 360 degrees without moving its head. It won’t miss prey--even those behind it."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Yanma is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This Pokémon uses its flying ability to quickly chase down targeted prey."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Yanma is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This Pokémon uses its flying ability to quickly chase down targeted prey."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Its frail wings are so thin that one can see clear through them. However, during flight these wings exhibit the power to churn air with force enough to launch a house skyward."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Yanma",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm193.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm193.icon.png"
+            },
+            {
+                "label": "Shiny Yanma",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm193.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm193.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 193,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0193_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0193_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Yanma sprite"
+            },
+            {
+                "pokedex_number": 193,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0193_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0193_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Yanma sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/193_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/193_social.jpg",
+                "alt": "Yanma"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/193_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/193_social_dark.jpg",
+                "alt": "Yanma"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/193_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/193_social_map.jpg",
+                "alt": "Yanma"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/193_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/193_social_map_dark.jpg",
+                "alt": "Yanma"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Yanma’s strengths and weaknesses?",
+            "answer": "As a Bug and Flying-type Pokémon, Yanma is especially weak against Rock-type moves, and weak against Electric, Fire, Flying, and Ice-type moves."
+        },
+        {
+            "question": "What are the best moves for Yanma in Pokémon GO?",
+            "answer": "The best moves for Yanma in Pokémon GO are Wing Attack and Aerial Ace. This moveset has a DPS (Damage Per Second) of 6.797 and a TDO (Total Damage Output) of 61.468."
+        },
+        {
+            "question": "How does Yanma perform in Raids?",
+            "answer": "Yanma's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Yanma rank as a Bug-type attacker?",
+            "answer": "Yanma is an F-Tier Bug-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Yanma rank as a Flying-type attacker?",
+            "answer": "Yanma is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Yanma?",
+            "answer": "The following Mega Pokémon boost Yanma: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, Primal Kyogre, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Yanma’s maximum CP at Level 40 and Level 50?",
+            "answer": "Yanma’s maximum CP at Level 40 is 1470 CP and 1662 CP at Level 50."
+        },
+        {
+            "question": "Can Yanma be shiny in Pokémon GO?",
+            "answer": "Yanma can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Yanma Dynamax in Pokémon GO?",
+            "answer": "Yanma cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

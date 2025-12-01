@@ -1,0 +1,788 @@
+{
+    "overview_and_stats": {
+        "max_cp": 2535,
+        "attack": 198,
+        "defense": 130,
+        "stamina": 181,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Cinccino",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/573.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Pound",
+            "charged": "Hyper Beam",
+            "dps": 10.76,
+            "tdo": 142.6,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 10.76,
+                "tdo": 142.6,
+                "score": 9.06
+            },
+            {
+                "rank": 2,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 10.19,
+                "tdo": 135.0,
+                "score": 8.58
+            },
+            {
+                "rank": 3,
+                "fast": "Pound",
+                "fast_url": "https://db.pokemongohub.net/move/222",
+                "charged": "Aqua Tail",
+                "charged_url": "https://db.pokemongohub.net/move/58",
+                "dps": 9.41,
+                "tdo": 124.7,
+                "score": 7.92
+            },
+            {
+                "rank": 4,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 8.8,
+                "tdo": 116.5,
+                "score": 7.4
+            },
+            {
+                "rank": 5,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Thunderbolt",
+                "charged_url": "https://db.pokemongohub.net/move/79",
+                "dps": 8.78,
+                "tdo": 116.3,
+                "score": 7.39
+            },
+            {
+                "rank": 6,
+                "fast": "Charm",
+                "fast_url": "https://db.pokemongohub.net/move/320",
+                "charged": "Aqua Tail",
+                "charged_url": "https://db.pokemongohub.net/move/58",
+                "dps": 8.3,
+                "tdo": 109.9,
+                "score": 6.98
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Pound",
+                "type": "Normal",
+                "stats": {
+                    "damage": 6,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 6,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.2s - 0.4s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 4
+                },
+                "url": "https://db.pokemongohub.net/move/222"
+            },
+            {
+                "name": "Charm",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 20,
+                    "energy": 11,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 20,
+                    "energy": 11,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 13,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/320"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Hyper Beam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 150,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 150,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.5s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/14"
+            },
+            {
+                "name": "Aqua Tail",
+                "type": "Water",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/58"
+            },
+            {
+                "name": "Thunderbolt",
+                "type": "Electric",
+                "stats": {
+                    "damage": 80,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 80,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "1.8s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/79"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Cinccino's has 2535 max CP (at Level 50). A Cinccino obtained from Raids can be encountered from 1213 CP to 1281 CP, or if weather boosted, in the 1517 CP to 1601 CP range. In Field and Special Research, Cinccino can be found in the 910 CP to 961 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "2535",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "910 - 961",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "1213 - 1281",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1213 - 1281",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "1517 - 1601",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "1517 CP - 1601 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 31,
+        "2": 99,
+        "3": 167,
+        "4": 234,
+        "5": 302,
+        "6": 370,
+        "7": 437,
+        "8": 505,
+        "9": 573,
+        "10": 640,
+        "11": 705,
+        "12": 769,
+        "13": 833,
+        "14": 897,
+        "15": 961,
+        "16": 1025,
+        "17": 1089,
+        "18": 1153,
+        "19": 1217,
+        "20": 1281,
+        "21": 1345,
+        "22": 1409,
+        "23": 1473,
+        "24": 1537,
+        "25": 1601,
+        "26": 1666,
+        "27": 1730,
+        "28": 1794,
+        "29": 1858,
+        "30": 1922,
+        "31": 1954,
+        "32": 1986,
+        "33": 2018,
+        "34": 2050,
+        "35": 2082,
+        "36": 2114,
+        "37": 2146,
+        "38": 2178,
+        "39": 2210,
+        "40": 2242,
+        "41": 2271,
+        "42": 2299,
+        "43": 2328,
+        "44": 2357,
+        "45": 2386,
+        "46": 2416,
+        "47": 2445,
+        "48": 2475,
+        "49": 2505,
+        "50": 2535
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Minccino",
+                    "href": "/pokemon/572",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/572.webp"
+                },
+                "to": {
+                    "name": "Cinccino",
+                    "href": "/pokemon/573",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/573.webp"
+                },
+                "requirements": [
+                    "50 Candy",
+                    "Special Item: Unova Stone"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy",
+            "Special Item: Unova Stone"
+        ],
+        "family": [
+            {
+                "name": "Minccino",
+                "href": "/pokemon/572",
+                "img": "https://db.pokemongohub.net/images/official/medium/572.webp"
+            },
+            {
+                "name": "Cinccino",
+                "href": "/pokemon/573",
+                "img": "https://db.pokemongohub.net/images/official/medium/573.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Cinccino in the meta PvE Analysis ⚔️ Raids Cinccino is a pure Normal-type , and Normal-types do not make for great raid attackers , as no Pokémon is weak to Normal-type attacks . PvP Analysis 🔵 Great League Normal-types have a special place in PvP , especially in the Great League . Normal-types only have one weakness , that being Fighting-type attacks . As such, with sufficient bulk , they can be fantastic tanks and safe swaps . And that is exactly where Cinccino falls short . Cinccino is a frail, attack-weighted Normal-type Pokémon that focuses on Charm to do damage. Which, admittedly, does not get it very far . You’d be better off using an actual Fairy-type charmer for damage. 🟡 Ultra League Everything said about Cinccino in the Great League applies here, too. Except, there’s even more reason NOT to use Cinccino in the Ultra League . Cinccino’s max CP is 2535 , so you’d need a significant XL Candy and Stardust investment to make it usable in the Ultra League in the first place. 🟣 Master League With a max CP of 2535 , Cinccino is way too weak for the Master League . Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Cinccino",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Cinccino's Normal-type moves, Candy, and Candy XL from catching Cinccino.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 573,
+            "height_m": 0.5,
+            "weight_kg": 7.5,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.88 m",
+            "description": "Cinccino's height ranges from 0.25 m to 0.88 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.875,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "Their white fur is coated in a special oil that makes it easy for them to deflect attacks."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "Their white fur feels amazing to touch. Their fur repels dust and prevents static electricity from building up."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "Cinccino’s body is coated in a special oil that helps it deflect attacks, such as punches."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "Their white fur feels amazing to touch. Their fur repels dust and prevents static electricity from building up."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "Cinccino’s body is coated in a special oil that helps it deflect attacks, such as punches."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "The white parts of its coat are covered in an oil secreted from its body, so this Pokémon can slide right away from its enemies’ attacks."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "The oil that seeps from its body is really smooth. For people troubled by bad skin, this oil is an effective treatment."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won’t tolerate even a speck of the stuff."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "A special oil that seeps through their fur helps them avoid attacks. The oil fetches a high price at market."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Cinccino",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm573.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm573.icon.png"
+            },
+            {
+                "label": "Shiny Cinccino",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm573.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm573.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 573,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0573_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0573_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Cinccino sprite"
+            },
+            {
+                "pokedex_number": 573,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0573_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0573_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Cinccino sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/573_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/573_social.jpg",
+                "alt": "Cinccino"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/573_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/573_social_dark.jpg",
+                "alt": "Cinccino"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/573_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/573_social_map.jpg",
+                "alt": "Cinccino"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/573_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/573_social_map_dark.jpg",
+                "alt": "Cinccino"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 573,
+            "name": "Cinccino",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm573.cFASHION_2025.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm573.cFASHION_2025.icon.png",
+            "category": "Fashion 2025"
+        },
+        {
+            "pokedex_number": 573,
+            "name": "Shiny Cinccino",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm573.cFASHION_2025.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm573.cFASHION_2025.s.icon.png",
+            "category": "Fashion 2025"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Cinccino’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Cinccino is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Cinccino in Pokémon GO?",
+            "answer": "The best moves for Cinccino in Pokémon GO are Pound and Hyper Beam. This moveset has a DPS (Damage Per Second) of 10.765 and a TDO (Total Damage Output) of 142.598."
+        },
+        {
+            "question": "How does Cinccino perform in Raids?",
+            "answer": "Cinccino's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Cinccino rank as a Normal-type attacker?",
+            "answer": "Cinccino is a C-Tier Normal-type attacker, ranking at number #47. It is recommended only when you lack higher-tier options."
+        },
+        {
+            "question": "What Mega Pokémon boost Cinccino?",
+            "answer": "The following Mega Pokémon boost Cinccino: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Cinccino’s maximum CP at Level 40 and Level 50?",
+            "answer": "Cinccino’s maximum CP at Level 40 is 2242 CP and 2535 CP at Level 50."
+        },
+        {
+            "question": "Can Cinccino be shiny in Pokémon GO?",
+            "answer": "Cinccino can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Cinccino Dynamax in Pokémon GO?",
+            "answer": "Cinccino cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,782 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1529,
+        "attack": 136,
+        "defense": 95,
+        "stamina": 172,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Stufful",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/759.webp",
+        "types": [
+            "Normal",
+            "Fighting"
+        ],
+        "weather_boost": [
+            "partlyCloudy",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Superpower",
+            "dps": 6.88,
+            "tdo": 65.93,
+            "boosted_weather": [
+                "partlyCloudy",
+                "cloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Superpower",
+                "charged_url": "https://db.pokemongohub.net/move/310",
+                "dps": 6.88,
+                "tdo": 65.9,
+                "score": 5.46
+            },
+            {
+                "rank": 2,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Brick Break",
+                "charged_url": "https://db.pokemongohub.net/move/123",
+                "dps": 6.6,
+                "tdo": 63.3,
+                "score": 5.24
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Stomp",
+                "charged_url": "https://db.pokemongohub.net/move/127",
+                "dps": 6.54,
+                "tdo": 62.7,
+                "score": 5.19
+            },
+            {
+                "rank": 4,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Superpower",
+                "charged_url": "https://db.pokemongohub.net/move/310",
+                "dps": 5.16,
+                "tdo": 49.5,
+                "score": 4.1
+            },
+            {
+                "rank": 5,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Brick Break",
+                "charged_url": "https://db.pokemongohub.net/move/123",
+                "dps": 4.96,
+                "tdo": 47.6,
+                "score": 3.94
+            },
+            {
+                "rank": 6,
+                "fast": "Take Down",
+                "fast_url": "https://db.pokemongohub.net/move/282",
+                "charged": "Stomp",
+                "charged_url": "https://db.pokemongohub.net/move/127",
+                "dps": 4.7,
+                "tdo": 45.1,
+                "score": 3.73
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Take Down",
+                "type": "Normal",
+                "stats": {
+                    "damage": 7,
+                    "energy": 8,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 7,
+                    "energy": 8,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 0.9s"
+                },
+                "trainer_battle": {
+                    "damage": 5,
+                    "energy": 8
+                },
+                "url": "https://db.pokemongohub.net/move/282"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Brick Break",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 40,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 40,
+                    "energy": 33,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.7s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 40,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/123"
+            },
+            {
+                "name": "Stomp",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 50,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 50,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.9s - 1.3s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/127"
+            },
+            {
+                "name": "Superpower",
+                "type": "Fighting",
+                "stats": {
+                    "damage": 85,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Normal",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 85,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.1s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 85,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/310"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Stufful's has 1529 max CP (at Level 50). A Stufful obtained from Raids can be encountered from 720 CP to 772 CP, or if weather boosted, in the 900 CP to 966 CP range. In Field and Special Research, Stufful can be found in the 540 CP to 579 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1529",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "540 - 579",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "720 - 772",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "720 - 772",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "900 - 966",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "900 CP - 966 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 19,
+        "2": 59,
+        "3": 100,
+        "4": 141,
+        "5": 182,
+        "6": 223,
+        "7": 264,
+        "8": 304,
+        "9": 345,
+        "10": 386,
+        "11": 425,
+        "12": 463,
+        "13": 502,
+        "14": 541,
+        "15": 579,
+        "16": 618,
+        "17": 657,
+        "18": 695,
+        "19": 734,
+        "20": 772,
+        "21": 811,
+        "22": 850,
+        "23": 888,
+        "24": 927,
+        "25": 966,
+        "26": 1004,
+        "27": 1043,
+        "28": 1082,
+        "29": 1120,
+        "30": 1159,
+        "31": 1178,
+        "32": 1198,
+        "33": 1217,
+        "34": 1236,
+        "35": 1256,
+        "36": 1275,
+        "37": 1294,
+        "38": 1313,
+        "39": 1333,
+        "40": 1352,
+        "41": 1369,
+        "42": 1387,
+        "43": 1404,
+        "44": 1421,
+        "45": 1439,
+        "46": 1457,
+        "47": 1475,
+        "48": 1493,
+        "49": 1511,
+        "50": 1529
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Stufful",
+                    "href": "/pokemon/759",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/759.webp"
+                },
+                "to": {
+                    "name": "Bewear",
+                    "href": "/pokemon/760",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/760.webp"
+                },
+                "requirements": [
+                    "400 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "400 Candy"
+        ],
+        "family": [
+            {
+                "name": "Stufful",
+                "href": "/pokemon/759",
+                "img": "https://db.pokemongohub.net/images/official/medium/759.webp"
+            },
+            {
+                "name": "Bewear",
+                "href": "/pokemon/760",
+                "img": "https://db.pokemongohub.net/images/official/medium/760.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Stufful in the meta PvE Analysis With low stats and the Normal typing , Stufful is not meant for PvE usage . So, don’t use it in Raids or Gyms . 🚫 PvP Analysis 🧸 Little Cup Stufful has a very limited moveset and poor DEF , meaning it secures only a few wins in this format. Also, it simply can't touch Ghost-types due to its Normal and Fighting-type moves . 😅 🔵 Great League Stufful faces the same issues in the Great League , but thanks to Stomp and Superpower , it generally secures a few more wins than in the Little Cup . Its only victories include Normal, Water, Rock, and Bug-types . And yes, it barely scratches Ghost-type Pokémon . 👻 Stufful is not good enough for the Ultra and Master League. 💎 Stufful’s best moveset for PvP Tackle, Stomp, and Superpower",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Stufful",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Stufful's Normal and Fighting-type moves, Candy, and Candy XL from catching Stufful.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 759,
+            "height_m": 0.5,
+            "weight_kg": 6.8,
+            "region": "Generation 7",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.25 m",
+            "xs": "0.25 m",
+            "m": "0.5 m",
+            "xl": "0.75 m",
+            "xxl": "0.88 m",
+            "description": "Stufful's height ranges from 0.25 m to 0.88 m, with the average being 0.5 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.245,
+                "upper_m": 0.25,
+                "lower_ft": "0′10″",
+                "upper_ft": "0′10″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.25,
+                "upper_m": 0.5,
+                "lower_ft": "0′10″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.375,
+                "upper_m": 0.625,
+                "lower_ft": "1′03″",
+                "upper_ft": "2′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.625,
+                "upper_m": 0.75,
+                "lower_ft": "2′01″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.75,
+                "upper_m": 0.875,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′10″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer": 0,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer": 0,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.5,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "A touch from anyone except a known friend sends it into a surging frenzy. It’s an incredibly dangerous Pokémon."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It boasts power enough to split large trees in half. The organ on its rear releases an odor that it uses to communicate with others of its kind."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Stufful hates to be hugged or touched in any way. It will squirm, thrash, and resist with amazing power."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Its fluffy fur is a delight to pet, but carelessly reaching out to touch this Pokémon could result in painful retaliation."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "The way it protects itself by flailing its arms may be an adorable sight, but stay well away. This is flailing that can snap thick tree trunks."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Stufful",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm759.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm759.icon.png"
+            },
+            {
+                "label": "Shiny Stufful",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm759.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm759.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 759,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0759_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0759_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Stufful sprite"
+            },
+            {
+                "pokedex_number": 759,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0759_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0759_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Stufful sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/759_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/759_social.jpg",
+                "alt": "Stufful"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/759_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/759_social_dark.jpg",
+                "alt": "Stufful"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/759_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/759_social_map.jpg",
+                "alt": "Stufful"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/759_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/759_social_map_dark.jpg",
+                "alt": "Stufful"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Stufful’s strengths and weaknesses?",
+            "answer": "As a Normal and Fighting-type Pokémon, Stufful is weak to Fairy, Fighting, Flying, and Psychic-type moves."
+        },
+        {
+            "question": "What are the best moves for Stufful in Pokémon GO?",
+            "answer": "The best moves for Stufful in Pokémon GO are Tackle and Superpower. This moveset has a DPS (Damage Per Second) of 6.876 and a TDO (Total Damage Output) of 65.929."
+        },
+        {
+            "question": "How does Stufful perform in Raids?",
+            "answer": "Stufful's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Stufful rank as a Normal-type attacker?",
+            "answer": "Stufful is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Stufful rank as a Fighting-type attacker?",
+            "answer": "Stufful is an F-Tier Fighting-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Stufful?",
+            "answer": "The following Mega Pokémon boost Stufful: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, Mega Audino, Mega Heracross, Mega Blaziken, Mega Medicham, Mega Lopunny, Mega Lucario, and Mega Gallade."
+        },
+        {
+            "question": "What is Stufful’s maximum CP at Level 40 and Level 50?",
+            "answer": "Stufful’s maximum CP at Level 40 is 1352 CP and 1529 CP at Level 50."
+        },
+        {
+            "question": "Can Stufful be shiny in Pokémon GO?",
+            "answer": "Stufful can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Stufful Dynamax in Pokémon GO?",
+            "answer": "Stufful cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

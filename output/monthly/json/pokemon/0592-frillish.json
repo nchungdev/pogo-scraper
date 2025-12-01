@@ -1,0 +1,830 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1421,
+        "attack": 115,
+        "defense": 134,
+        "stamina": 146,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Frillish",
+        "forms": [
+            {
+                "name": "Frillish",
+                "href": "/pokemon/592",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/592.webp"
+            },
+            {
+                "name": "Frillish (Female)",
+                "href": "/pokemon/592-Female",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/592_f2.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/592.webp",
+        "types": [
+            "Water",
+            "Ghost"
+        ],
+        "weather_boost": [
+            "rain",
+            "fog"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bubble",
+            "charged": "Ominous Wind",
+            "dps": 5.62,
+            "tdo": 62.89,
+            "boosted_weather": [
+                "rain",
+                "fog"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Ominous Wind",
+                "charged_url": "https://db.pokemongohub.net/move/69",
+                "dps": 5.62,
+                "tdo": 62.9,
+                "score": 4.6
+            },
+            {
+                "rank": 2,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 5.51,
+                "tdo": 61.6,
+                "score": 4.5
+            },
+            {
+                "rank": 3,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 5.4,
+                "tdo": 60.3,
+                "score": 4.41
+            },
+            {
+                "rank": 4,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Ominous Wind",
+                "charged_url": "https://db.pokemongohub.net/move/69",
+                "dps": 5.33,
+                "tdo": 59.6,
+                "score": 4.36
+            },
+            {
+                "rank": 5,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 5.19,
+                "tdo": 58.0,
+                "score": 4.24
+            },
+            {
+                "rank": 6,
+                "fast": "Hex",
+                "fast_url": "https://db.pokemongohub.net/move/264",
+                "charged": "Night Shade",
+                "charged_url": "https://db.pokemongohub.net/move/265",
+                "dps": 5.04,
+                "tdo": 56.3,
+                "score": 4.12
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bubble",
+                "type": "Water",
+                "stats": {
+                    "damage": 10,
+                    "energy": 12,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 12,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/237"
+            },
+            {
+                "name": "Hex",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 8,
+                    "energy": 13,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 8,
+                    "energy": 13,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.8s - 1.0s"
+                },
+                "trainer_battle": {
+                    "damage": 7,
+                    "energy": 13
+                },
+                "url": "https://db.pokemongohub.net/move/264"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ice Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/39"
+            },
+            {
+                "name": "Ominous Wind",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 45,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/69"
+            },
+            {
+                "name": "Night Shade",
+                "type": "Ghost",
+                "stats": {
+                    "damage": 60,
+                    "energy": 50,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ghost",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Normal",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 60,
+                    "energy": 50,
+                    "weather_boost": [
+                        "fog"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.4s"
+                },
+                "trainer_battle": {
+                    "damage": 70,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/265"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Frillish's has 1421 max CP (at Level 50). A Frillish obtained from Raids can be encountered from 668 CP to 718 CP, or if weather boosted, in the 835 CP to 898 CP range. In Field and Special Research, Frillish can be found in the 501 CP to 539 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1421",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "501 - 539",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "668 - 718",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "668 - 718",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "835 - 898",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "835 CP - 898 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 17,
+        "2": 55,
+        "3": 93,
+        "4": 131,
+        "5": 169,
+        "6": 207,
+        "7": 245,
+        "8": 283,
+        "9": 321,
+        "10": 359,
+        "11": 395,
+        "12": 431,
+        "13": 467,
+        "14": 503,
+        "15": 539,
+        "16": 574,
+        "17": 610,
+        "18": 646,
+        "19": 682,
+        "20": 718,
+        "21": 754,
+        "22": 790,
+        "23": 826,
+        "24": 862,
+        "25": 898,
+        "26": 934,
+        "27": 970,
+        "28": 1006,
+        "29": 1042,
+        "30": 1077,
+        "31": 1095,
+        "32": 1113,
+        "33": 1131,
+        "34": 1149,
+        "35": 1167,
+        "36": 1185,
+        "37": 1203,
+        "38": 1221,
+        "39": 1239,
+        "40": 1257,
+        "41": 1273,
+        "42": 1289,
+        "43": 1305,
+        "44": 1322,
+        "45": 1338,
+        "46": 1354,
+        "47": 1371,
+        "48": 1388,
+        "49": 1404,
+        "50": 1421
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Frillish",
+                    "href": "/pokemon/592",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/592.webp"
+                },
+                "to": {
+                    "name": "Jellicent",
+                    "href": "/pokemon/593",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/593.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Frillish",
+                "href": "/pokemon/592",
+                "img": "https://db.pokemongohub.net/images/official/medium/592.webp"
+            },
+            {
+                "name": "Jellicent",
+                "href": "/pokemon/593",
+                "img": "https://db.pokemongohub.net/images/official/medium/593.webp"
+            },
+            {
+                "name": "Frillish (Female)",
+                "href": "/pokemon/592-Female",
+                "img": "https://db.pokemongohub.net/images/official/medium/592_f2.webp"
+            },
+            {
+                "name": "Jellicent (Female)",
+                "href": "/pokemon/593-Female",
+                "img": "https://db.pokemongohub.net/images/official/medium/593_f2.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Frillish in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis 🧸 Little Cup Frillish has decent stats , but its moveset is not threatening enough to beat most opponents. To put it into perspective, Frillish is unable to take down Seel, Deino, Bronzor, Gligar, and Ducklett . 🫤 The only way Frillish gets scary is through the 1.25x ATK boost from Ominous Wind , but that only has a meagre 10% chance 🙁. Also, since this move only deals 45 DMG , many opponents tank it worry-free . Frillish is not strong enough for the Great, Ultra, and Master League .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Frillish",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Frillish's Water and Ghost-type moves, Candy, and Candy XL from catching Frillish.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 592,
+            "height_m": 1.2,
+            "weight_kg": 33,
+            "region": "Generation 5",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.59 m",
+            "xs": "0.6 m",
+            "m": "1.2 m",
+            "xl": "1.8 m",
+            "xxl": "1.86 m",
+            "description": "Frillish's height ranges from 0.59 m to 1.86 m, with the average being 1.2 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.588,
+                "upper_m": 0.6,
+                "lower_ft": "1′11″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.6,
+                "upper_m": 1.2,
+                "lower_ft": "1′12″",
+                "upper_ft": "3′11″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.9,
+                "upper_m": 1.5,
+                "lower_ft": "2′11″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.5,
+                "upper_m": 1.8,
+                "lower_ft": "4′11″",
+                "upper_ft": "5′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.8,
+                "upper_m": 1.86,
+                "lower_ft": "5′11″",
+                "upper_ft": "6′01″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.8,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Black"
+            ],
+            "entry": "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor."
+        },
+        {
+            "versions": [
+                "White"
+            ],
+            "entry": "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It wraps its veillike arms and legs around prey swimming by and drags them down to the depths of the ocean."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Using the invisible poison spikes on its veillike arms and legs, it paralyzes its enemies and causes them to drown."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It envelops its prey in its veillike arms and draws it down to the deeps, five miles below the ocean’s surface."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Legend has it that the residents of a sunken ancient city changed into these Pokémon."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Frillish",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm592.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm592.icon.png"
+            },
+            {
+                "label": "Shiny Frillish",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm592.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm592.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 592,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0592_000_fd_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0592_000_fd_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Frillish ♀ sprite"
+            },
+            {
+                "pokedex_number": 592,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0592_000_fd_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0592_000_fd_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Frillish ♀ sprite"
+            },
+            {
+                "pokedex_number": 592,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0592_000_md_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0592_000_md_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Frillish sprite"
+            },
+            {
+                "pokedex_number": 592,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0592_000_md_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0592_000_md_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Frillish sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/592_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/592_social.jpg",
+                "alt": "Frillish"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/592_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/592_social_dark.jpg",
+                "alt": "Frillish"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/592_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/592_social_map.jpg",
+                "alt": "Frillish"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/592_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/592_social_map_dark.jpg",
+                "alt": "Frillish"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Frillish’s strengths and weaknesses?",
+            "answer": "As a Water and Ghost-type Pokémon, Frillish is weak to Dark, Electric, Ghost, and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Frillish in Pokémon GO?",
+            "answer": "The best moves for Frillish in Pokémon GO are Bubble and Ominous Wind. This moveset has a DPS (Damage Per Second) of 5.625 and a TDO (Total Damage Output) of 62.891."
+        },
+        {
+            "question": "How does Frillish perform in Raids?",
+            "answer": "Frillish's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Frillish rank as a Water-type attacker?",
+            "answer": "Frillish is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Frillish rank as a Ghost-type attacker?",
+            "answer": "Frillish is an F-Tier Ghost-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Frillish?",
+            "answer": "The following Mega Pokémon boost Frillish: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Gengar, Mega Sableye, and Mega Banette."
+        },
+        {
+            "question": "What is Frillish’s maximum CP at Level 40 and Level 50?",
+            "answer": "Frillish’s maximum CP at Level 40 is 1257 CP and 1421 CP at Level 50."
+        },
+        {
+            "question": "Can Frillish be shiny in Pokémon GO?",
+            "answer": "Frillish can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Frillish Dynamax in Pokémon GO?",
+            "answer": "Frillish cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

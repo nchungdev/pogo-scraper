@@ -1,0 +1,788 @@
+{
+    "overview_and_stats": {
+        "max_cp": 488,
+        "attack": 46,
+        "defense": 75,
+        "stamina": 128,
+        "buddy_distance": 1,
+        "released": true,
+        "shiny_released": true,
+        "title": "Kakuna",
+        "forms": [
+            {
+                "name": "Kakuna",
+                "href": "/pokemon/14",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/014.webp"
+            },
+            {
+                "name": "Shadow Kakuna",
+                "href": "/pokemon/14-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/014.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/014.webp",
+        "types": [
+            "Bug",
+            "Poison"
+        ],
+        "weather_boost": [
+            "rain",
+            "cloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bug Bite",
+            "charged": "Struggle",
+            "dps": 2.61,
+            "tdo": 15.64,
+            "boosted_weather": [
+                "rain",
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bug Bite",
+                "fast_url": "https://db.pokemongohub.net/move/201",
+                "charged": "Struggle",
+                "charged_url": "https://db.pokemongohub.net/move/133",
+                "dps": 2.61,
+                "tdo": 15.6,
+                "score": 1.84
+            },
+            {
+                "rank": 2,
+                "fast": "Poison Sting",
+                "fast_url": "https://db.pokemongohub.net/move/236",
+                "charged": "Struggle",
+                "charged_url": "https://db.pokemongohub.net/move/133",
+                "dps": 2.47,
+                "tdo": 14.8,
+                "score": 1.74
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Bug Bite",
+                "type": "Bug",
+                "stats": {
+                    "damage": 5,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Psychic",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fighting",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 6,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/201"
+            },
+            {
+                "name": "Poison Sting",
+                "type": "Poison",
+                "stats": {
+                    "damage": 4,
+                    "energy": 6,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fairy",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 4,
+                    "energy": 6,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 4,
+                    "energy": 9
+                },
+                "url": "https://db.pokemongohub.net/move/236"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Struggle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 35,
+                    "energy": 0,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 35,
+                    "energy": 0,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.0s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 35,
+                    "energy": 100
+                },
+                "url": "https://db.pokemongohub.net/move/133"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Kakuna's has 488 max CP (at Level 50). A Kakuna obtained from Raids can be encountered from 216 CP to 246 CP, or if weather boosted, in the 270 CP to 308 CP range. In Field and Special Research, Kakuna can be found in the 162 CP to 185 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "488",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "162 - 185",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "216 - 246",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "216 - 246",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "270 - 308",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "270 CP - 308 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 6,
+        "2": 19,
+        "3": 32,
+        "4": 45,
+        "5": 58,
+        "6": 71,
+        "7": 84,
+        "8": 97,
+        "9": 110,
+        "10": 123,
+        "11": 135,
+        "12": 148,
+        "13": 160,
+        "14": 172,
+        "15": 185,
+        "16": 197,
+        "17": 209,
+        "18": 222,
+        "19": 234,
+        "20": 246,
+        "21": 259,
+        "22": 271,
+        "23": 284,
+        "24": 296,
+        "25": 308,
+        "26": 321,
+        "27": 333,
+        "28": 345,
+        "29": 358,
+        "30": 370,
+        "31": 376,
+        "32": 382,
+        "33": 389,
+        "34": 395,
+        "35": 401,
+        "36": 407,
+        "37": 413,
+        "38": 419,
+        "39": 426,
+        "40": 432,
+        "41": 437,
+        "42": 443,
+        "43": 448,
+        "44": 454,
+        "45": 459,
+        "46": 465,
+        "47": 471,
+        "48": 477,
+        "49": 482,
+        "50": 488
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Weedle",
+                    "href": "/pokemon/13",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/013.webp"
+                },
+                "to": {
+                    "name": "Kakuna",
+                    "href": "/pokemon/14",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/014.webp"
+                },
+                "requirements": [
+                    "12 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Kakuna",
+                    "href": "/pokemon/14",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/014.webp"
+                },
+                "to": {
+                    "name": "Beedrill",
+                    "href": "/pokemon/15",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/015.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Beedrill",
+                    "href": "/pokemon/15",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/015.webp"
+                },
+                "to": {
+                    "name": "Mega Beedrill",
+                    "href": "/pokemon/15-Mega",
+                    "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+                },
+                "requirements": [
+                    "100 / 20 Mega Energy"
+                ]
+            }
+        ],
+        "details": [
+            "12 Candy"
+        ],
+        "family": [
+            {
+                "name": "Weedle",
+                "href": "/pokemon/13",
+                "img": "https://db.pokemongohub.net/images/official/medium/013.webp"
+            },
+            {
+                "name": "Kakuna",
+                "href": "/pokemon/14",
+                "img": "https://db.pokemongohub.net/images/official/medium/014.webp"
+            },
+            {
+                "name": "Beedrill",
+                "href": "/pokemon/15",
+                "img": "https://db.pokemongohub.net/images/official/medium/015.webp"
+            },
+            {
+                "name": "Mega Beedrill",
+                "href": "/pokemon/15-Mega",
+                "img": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Shadow Weedle",
+                "href": "/pokemon/13-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Kakuna",
+                "href": "/pokemon/14-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Beedrill",
+                "href": "/pokemon/15-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Kakuna in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Kakuna",
+        "type": "Bug",
+        "intro_text": "A list of Mega Pokémon that boost Kakuna's Bug and Poison-type moves, Candy, and Candy XL from catching Kakuna.",
+        "mega_list": [
+            {
+                "name": "Mega Beedrill",
+                "pokemon_id": 15,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/15-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Pinsir",
+                "pokemon_id": 127,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/127-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Scizor",
+                "pokemon_id": 212,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/212-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Heracross",
+                "pokemon_id": 214,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/214-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 14,
+            "height_m": 0.6,
+            "weight_kg": 10,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 5,
+            "stardust": 300
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": 5,
+        "size_info": {
+            "xxs": "0.29 m",
+            "xs": "0.3 m",
+            "m": "0.6 m",
+            "xl": "0.9 m",
+            "xxl": "1.05 m",
+            "description": "Kakuna's height ranges from 0.29 m to 1.05 m, with the average being 0.6 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.294,
+                "upper_m": 0.3,
+                "lower_ft": "0′12″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.3,
+                "upper_m": 0.6,
+                "lower_ft": "0′12″",
+                "upper_ft": "1′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.45,
+                "upper_m": 0.75,
+                "lower_ft": "1′06″",
+                "upper_ft": "2′06″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.75,
+                "upper_m": 0.9,
+                "lower_ft": "2′06″",
+                "upper_ft": "2′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.9,
+                "upper_m": 1.05,
+                "lower_ft": "2′11″",
+                "upper_ft": "3′05″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer_s": 3600,
+            "jump_time": 0,
+            "attack_probability": 20.0,
+            "attack_timer_s": 3600,
+            "dodge_probability": 0.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "Almost incapable of moving, this POKéMON can only harden its shell to protect itself from predators."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "From this form, it will grow into an adult. As its body becomes soft er, the external shell hardens."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "Nearly incapable of movement, it leans against stout trees while waiting for its evolution."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "KAKUNA remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "It remains virtually immobile while it clings to a tree. However, on the inside, it busily prepares for evolution. This is evident from how hot its shell becomes."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "This POKéMON is in a temporary stage while making its body. It is almost completely unable to move on its own."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Almost incapable of moving, this POKéMON can only harden its shell to protect itself when it is in danger."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "From this form, it will grow into an adult. As its body becomes softer, the external shell hardens."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Kakuna",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm14.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm14.icon.png"
+            },
+            {
+                "label": "Shiny Kakuna",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm14.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm14.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 14,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0014_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0014_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Kakuna sprite"
+            },
+            {
+                "pokedex_number": 14,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0014_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0014_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Kakuna sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/014_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/014_social.jpg",
+                "alt": "Kakuna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/014_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/014_social_dark.jpg",
+                "alt": "Kakuna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/014_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/014_social_map.jpg",
+                "alt": "Kakuna"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/014_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/014_social_map_dark.jpg",
+                "alt": "Kakuna"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Kakuna’s strengths and weaknesses?",
+            "answer": "As a Bug and Poison-type Pokémon, Kakuna is weak to Fire, Flying, Psychic, and Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Kakuna in Pokémon GO?",
+            "answer": "The best moves for Kakuna in Pokémon GO are Bug Bite and Struggle. This moveset has a DPS (Damage Per Second) of 2.607 and a TDO (Total Damage Output) of 15.638."
+        },
+        {
+            "question": "How does Kakuna perform in Raids?",
+            "answer": "Kakuna's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Kakuna rank as a Bug-type attacker?",
+            "answer": "Kakuna's performance as a Bug-type attacker is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "What Mega Pokémon boost Kakuna?",
+            "answer": "The following Mega Pokémon boost Kakuna: Mega Beedrill, Mega Pinsir, Mega Scizor, Mega Heracross, Primal Kyogre, Mega Venusaur, Mega Beedrill, and Mega Gengar."
+        },
+        {
+            "question": "What is Kakuna’s maximum CP at Level 40 and Level 50?",
+            "answer": "Kakuna’s maximum CP at Level 40 is 432 CP and 488 CP at Level 50."
+        },
+        {
+            "question": "Can Kakuna be shiny in Pokémon GO?",
+            "answer": "Kakuna can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Kakuna Dynamax in Pokémon GO?",
+            "answer": "Kakuna cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

@@ -1,0 +1,824 @@
+{
+    "overview_and_stats": {
+        "max_cp": 5010,
+        "attack": 290,
+        "defense": 166,
+        "stamina": 284,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Slaking",
+        "forms": [
+            {
+                "name": "Slaking",
+                "href": "/pokemon/289",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/289.webp"
+            },
+            {
+                "name": "Shadow Slaking",
+                "href": "/pokemon/289-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/289.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/289.webp",
+        "types": [
+            "Normal"
+        ],
+        "weather_boost": [
+            "partlyCloudy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Yawn",
+            "charged": "Body Slam",
+            "dps": 8.93,
+            "tdo": 225.38,
+            "boosted_weather": [
+                "partlyCloudy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Yawn",
+                "fast_url": "https://db.pokemongohub.net/move/287",
+                "charged": "Body Slam *",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 8.93,
+                "tdo": 225.4,
+                "score": 8.14
+            },
+            {
+                "rank": 2,
+                "fast": "Yawn",
+                "fast_url": "https://db.pokemongohub.net/move/287",
+                "charged": "Play Rough",
+                "charged_url": "https://db.pokemongohub.net/move/88",
+                "dps": 8.58,
+                "tdo": 216.4,
+                "score": 7.8
+            },
+            {
+                "rank": 3,
+                "fast": "Yawn",
+                "fast_url": "https://db.pokemongohub.net/move/287",
+                "charged": "Hyper Beam",
+                "charged_url": "https://db.pokemongohub.net/move/14",
+                "dps": 8.38,
+                "tdo": 211.4,
+                "score": 7.63
+            },
+            {
+                "rank": 4,
+                "fast": "Yawn",
+                "fast_url": "https://db.pokemongohub.net/move/287",
+                "charged": "Earthquake",
+                "charged_url": "https://db.pokemongohub.net/move/31",
+                "dps": 6.79,
+                "tdo": 171.3,
+                "score": 6.18
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Yawn",
+                "type": "Normal",
+                "stats": {
+                    "damage": 0,
+                    "energy": 13,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 0,
+                    "energy": 13,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "1.2s - 1.4s"
+                },
+                "trainer_battle": {
+                    "damage": 0,
+                    "energy": 12
+                },
+                "url": "https://db.pokemongohub.net/move/287"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Hyper Beam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 150,
+                    "energy": 100,
+                    "duration": 4.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 150,
+                    "energy": 100,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 4.0,
+                    "damage_window": "3.5s - 3.8s"
+                },
+                "trainer_battle": {
+                    "damage": 150,
+                    "energy": 80
+                },
+                "url": "https://db.pokemongohub.net/move/14"
+            },
+            {
+                "name": "Earthquake",
+                "type": "Ground",
+                "stats": {
+                    "damage": 140,
+                    "energy": 100,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Poison",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Flying",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 140,
+                    "energy": 100,
+                    "weather_boost": [
+                        "sunny"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.6s - 3.4s"
+                },
+                "trainer_battle": {
+                    "damage": 110,
+                    "energy": 65
+                },
+                "url": "https://db.pokemongohub.net/move/31"
+            },
+            {
+                "name": "Play Rough",
+                "type": "Fairy",
+                "stats": {
+                    "damage": 90,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dark",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Poison",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 90,
+                    "energy": 50,
+                    "weather_boost": [
+                        "cloudy"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "1.4s - 2.8s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 60
+                },
+                "url": "https://db.pokemongohub.net/move/88"
+            },
+            {
+                "name": "Body Slam *",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Slaking's has 5010 max CP (at Level 50). A Slaking obtained from Raids can be encountered from 2435 CP to 2532 CP, or if weather boosted, in the 3044 CP to 3165 CP range. In Field and Special Research, Slaking can be found in the 1826 CP to 1899 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "5010",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "1826 - 1899",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "2435 - 2532",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "2435 - 2532",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "3044 - 3165",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "3044 CP - 3165 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 62,
+        "2": 196,
+        "3": 330,
+        "4": 463,
+        "5": 597,
+        "6": 731,
+        "7": 865,
+        "8": 999,
+        "9": 1132,
+        "10": 1266,
+        "11": 1393,
+        "12": 1519,
+        "13": 1646,
+        "14": 1772,
+        "15": 1899,
+        "16": 2025,
+        "17": 2152,
+        "18": 2279,
+        "19": 2405,
+        "20": 2532,
+        "21": 2658,
+        "22": 2785,
+        "23": 2912,
+        "24": 3038,
+        "25": 3165,
+        "26": 3292,
+        "27": 3418,
+        "28": 3545,
+        "29": 3672,
+        "30": 3798,
+        "31": 3862,
+        "32": 3925,
+        "33": 3988,
+        "34": 4051,
+        "35": 4115,
+        "36": 4178,
+        "37": 4241,
+        "38": 4305,
+        "39": 4368,
+        "40": 4431,
+        "41": 4487,
+        "42": 4544,
+        "43": 4601,
+        "44": 4658,
+        "45": 4716,
+        "46": 4774,
+        "47": 4832,
+        "48": 4891,
+        "49": 4950,
+        "50": 5010
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Slakoth",
+                    "href": "/pokemon/287",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/287.webp"
+                },
+                "to": {
+                    "name": "Vigoroth",
+                    "href": "/pokemon/288",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/288.webp"
+                },
+                "requirements": [
+                    "25 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Vigoroth",
+                    "href": "/pokemon/288",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/288.webp"
+                },
+                "to": {
+                    "name": "Slaking",
+                    "href": "/pokemon/289",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/289.webp"
+                },
+                "requirements": [
+                    "100 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "25 Candy"
+        ],
+        "family": [
+            {
+                "name": "Slakoth",
+                "href": "/pokemon/287",
+                "img": "https://db.pokemongohub.net/images/official/medium/287.webp"
+            },
+            {
+                "name": "Vigoroth",
+                "href": "/pokemon/288",
+                "img": "https://db.pokemongohub.net/images/official/medium/288.webp"
+            },
+            {
+                "name": "Slaking",
+                "href": "/pokemon/289",
+                "img": "https://db.pokemongohub.net/images/official/medium/289.webp"
+            },
+            {
+                "name": "Shadow Slakoth",
+                "href": "/pokemon/287-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Vigoroth",
+                "href": "/pokemon/288-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Slaking",
+                "href": "/pokemon/289-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Slaking in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Not yet analysed, come back soon!",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Slaking",
+        "type": "Normal",
+        "intro_text": "A list of Mega Pokémon that boost Slaking's Normal-type moves, Candy, and Candy XL from catching Slaking.",
+        "mega_list": [
+            {
+                "name": "Mega Pidgeot",
+                "pokemon_id": 18,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/18-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Kangaskhan",
+                "pokemon_id": 115,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/115-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Lopunny",
+                "pokemon_id": 428,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/428-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Audino",
+                "pokemon_id": 531,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/531-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 289,
+            "height_m": 2.01,
+            "weight_kg": 130.5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 10,
+            "stardust": 500
+        },
+        "additional_move_cost": {
+            "candy": 75,
+            "stardust": 75000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.98 m",
+            "xs": "1 m",
+            "m": "2.01 m",
+            "xl": "3.02 m",
+            "xxl": "3.12 m",
+            "description": "Slaking's height ranges from 0.98 m to 3.12 m, with the average being 2.01 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.9849,
+                "upper_m": 1.005,
+                "lower_ft": "3′03″",
+                "upper_ft": "3′04″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 1.005,
+                "upper_m": 2.0100000000000002,
+                "lower_ft": "3′04″",
+                "upper_ft": "6′07″"
+            },
+            {
+                "size": "M",
+                "lower_m": 1.5075,
+                "upper_m": 2.5125,
+                "lower_ft": "4′11″",
+                "upper_ft": "8′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 2.5125,
+                "upper_m": 3.015,
+                "lower_ft": "8′03″",
+                "upper_ft": "9′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 3.015,
+                "upper_m": 3.1155,
+                "lower_ft": "9′11″",
+                "upper_ft": "10′03″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "SLAKING spends all day lying down and lolling about. It eats grass growing within its reach. If it eats all the grass it can reach, this POKéMON reluctantly moves to another spot."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "Wherever SLAKING live, rings of over a yard in diameter appear in grassy fields. They are made by the POKéMON as it eats all the grass within reach while lying prone on the ground."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "Hordes of SLAKING gather around trees when fruits come into season. They wait around patiently for ripened fruits to fall out of the trees."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It is the world’s most slothful POKéMON. However, it can exert horrifying power by releasing pent-up energy all at once."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White"
+            ],
+            "entry": "The world’s laziest Pokémon. When it is lounging, it is actually saving energy for striking back."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "The world’s laziest Pokémon. It moves to another spot when there’s no food left within its reach."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "This Pokémon lives lying on its side. It only rolls over and moves when there is no more grass to eat."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "The world’s laziest Pokémon. It moves to another spot when there’s no food left within its reach."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It is the world’s most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Slaking spends all day lying down and lolling about. It eats grass growing within its reach. If it eats all the grass it can reach, this Pokémon reluctantly moves to another spot."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Wherever Slaking live, rings of over a yard in diameter appear in grassy fields. They are made by the Pokémon as it eats all the grass within reach while lying prone on the ground."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Slaking",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm289.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm289.icon.png"
+            },
+            {
+                "label": "Shiny Slaking",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm289.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm289.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 289,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0289_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0289_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Slaking sprite"
+            },
+            {
+                "pokedex_number": 289,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0289_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0289_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Slaking sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/289_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/289_social.jpg",
+                "alt": "Slaking"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/289_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/289_social_dark.jpg",
+                "alt": "Slaking"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/289_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/289_social_map.jpg",
+                "alt": "Slaking"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/289_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/289_social_map_dark.jpg",
+                "alt": "Slaking"
+            }
+        ]
+    },
+    "costumes": [
+        {
+            "pokedex_number": 289,
+            "name": "Slaking",
+            "shiny": false,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm289.cSUMMER_2024.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm289.cSUMMER_2024.icon.png",
+            "category": "Summer 2024"
+        },
+        {
+            "pokedex_number": 289,
+            "name": "Shiny Slaking",
+            "shiny": true,
+            "img": "https://db.pokemongohub.net/images/ingame/normal/pm289.cSUMMER_2024.s.icon.png",
+            "url": "https://db.pokemongohub.net/images/ingame/normal/pm289.cSUMMER_2024.s.icon.png",
+            "category": "Summer 2024"
+        }
+    ],
+    "faq": [
+        {
+            "question": "What are Slaking’s strengths and weaknesses?",
+            "answer": "As a Normal-type Pokémon, Slaking is weak to Fighting-type moves."
+        },
+        {
+            "question": "What are the best moves for Slaking in Pokémon GO?",
+            "answer": "The best moves for Slaking in Pokémon GO are Yawn and Body Slam. This moveset has a DPS (Damage Per Second) of 8.935 and a TDO (Total Damage Output) of 225.379."
+        },
+        {
+            "question": "How does Slaking perform in Raids?",
+            "answer": "Slaking's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Slaking rank as a Normal-type attacker?",
+            "answer": "Slaking is an F-Tier Normal-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Slaking?",
+            "answer": "The following Mega Pokémon boost Slaking: Mega Pidgeot, Mega Kangaskhan, Mega Lopunny, and Mega Audino."
+        },
+        {
+            "question": "What is Slaking’s maximum CP at Level 40 and Level 50?",
+            "answer": "Slaking’s maximum CP at Level 40 is 4431 CP and 5010 CP at Level 50."
+        },
+        {
+            "question": "Can Slaking be shiny in Pokémon GO?",
+            "answer": "Slaking can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Slaking Dynamax in Pokémon GO?",
+            "answer": "Slaking cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

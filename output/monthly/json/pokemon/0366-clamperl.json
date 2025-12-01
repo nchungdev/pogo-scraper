@@ -1,0 +1,764 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1436,
+        "attack": 133,
+        "defense": 135,
+        "stamina": 111,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Clamperl",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/366.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Water Gun",
+            "charged": "Ice Beam",
+            "dps": 6.06,
+            "tdo": 53.39,
+            "boosted_weather": [
+                "rain",
+                "snow"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 6.06,
+                "tdo": 53.4,
+                "score": 4.72
+            },
+            {
+                "rank": 2,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Body Slam",
+                "charged_url": "https://db.pokemongohub.net/move/131",
+                "dps": 5.94,
+                "tdo": 52.3,
+                "score": 4.62
+            },
+            {
+                "rank": 3,
+                "fast": "Water Gun",
+                "fast_url": "https://db.pokemongohub.net/move/230",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 5.87,
+                "tdo": 51.7,
+                "score": 4.57
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Water Gun",
+                "type": "Water",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/230"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ice Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/39"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Body Slam",
+                "type": "Normal",
+                "stats": {
+                    "damage": 50,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 50,
+                    "energy": 33,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.3s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 55,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/131"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Clamperl's has 1436 max CP (at Level 50). A Clamperl obtained from Raids can be encountered from 675 CP to 726 CP, or if weather boosted, in the 845 CP to 907 CP range. In Field and Special Research, Clamperl can be found in the 507 CP to 544 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1436",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "507 - 544",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "675 - 726",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "675 - 726",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "845 - 907",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "845 CP - 907 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 17,
+        "2": 56,
+        "3": 94,
+        "4": 133,
+        "5": 171,
+        "6": 209,
+        "7": 248,
+        "8": 286,
+        "9": 324,
+        "10": 363,
+        "11": 399,
+        "12": 435,
+        "13": 472,
+        "14": 508,
+        "15": 544,
+        "16": 580,
+        "17": 617,
+        "18": 653,
+        "19": 689,
+        "20": 726,
+        "21": 762,
+        "22": 798,
+        "23": 835,
+        "24": 871,
+        "25": 907,
+        "26": 944,
+        "27": 980,
+        "28": 1016,
+        "29": 1053,
+        "30": 1089,
+        "31": 1107,
+        "32": 1125,
+        "33": 1143,
+        "34": 1161,
+        "35": 1180,
+        "36": 1198,
+        "37": 1216,
+        "38": 1234,
+        "39": 1252,
+        "40": 1270,
+        "41": 1286,
+        "42": 1303,
+        "43": 1319,
+        "44": 1335,
+        "45": 1352,
+        "46": 1369,
+        "47": 1385,
+        "48": 1402,
+        "49": 1419,
+        "50": 1436
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Clamperl",
+                    "href": "/pokemon/366",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/366.webp"
+                },
+                "to": {
+                    "name": "Huntail",
+                    "href": "/pokemon/367",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/367.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            },
+            {
+                "from": {
+                    "name": "Clamperl",
+                    "href": "/pokemon/366",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/366.webp"
+                },
+                "to": {
+                    "name": "Gorebyss",
+                    "href": "/pokemon/368",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/368.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Clamperl",
+                "href": "/pokemon/366",
+                "img": "https://db.pokemongohub.net/images/official/medium/366.webp"
+            },
+            {
+                "name": "Huntail",
+                "href": "/pokemon/367",
+                "img": "https://db.pokemongohub.net/images/official/medium/367.webp"
+            },
+            {
+                "name": "Gorebyss",
+                "href": "/pokemon/368",
+                "img": "https://db.pokemongohub.net/images/official/medium/368.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Clamperl in the meta PvE Analysis Clamperl is a pure Water-type Pokémon with a max CP of 1436 . It is not useful for PvE , even with its best moveset of Water Gun and Ice Beam . ⚔️ Raids Clamperl is truly an F-tier attacker , so please don’t use it in raids. 🛡️ Gyms There are much better options available. PvP Analysis Clamperl’s best PvP moveset is Water Gun, Body Slam, and Water Pulse/Ice Beam . However, it is not a useful PvP Pokémon . 🧸 Little Cup Clamperl doesn’t have good bulk and doesn’t pressure opponents into using their shields. 🔵 Great League With a max CP of 1436 , Clamperl is too small for Great League and would require XL Candy to max out. Not worth the investment .",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Clamperl",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Clamperl's Water-type moves, Candy, and Candy XL from catching Clamperl.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 366,
+            "height_m": 0.41,
+            "weight_kg": 52.5,
+            "region": "Generation 3",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.2 m",
+            "xs": "0.21 m",
+            "m": "0.41 m",
+            "xl": "0.62 m",
+            "xxl": "0.82 m",
+            "description": "Clamperl's height ranges from 0.2 m to 0.82 m, with the average being 0.41 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.2009,
+                "upper_m": 0.205,
+                "lower_ft": "0′08″",
+                "upper_ft": "0′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.205,
+                "upper_m": 0.41,
+                "lower_ft": "0′08″",
+                "upper_ft": "1′04″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.3075,
+                "upper_m": 0.5125,
+                "lower_ft": "1′00″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.5125,
+                "upper_m": 0.615,
+                "lower_ft": "1′08″",
+                "upper_ft": "2′00″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.615,
+                "upper_m": 0.82,
+                "lower_ft": "2′00″",
+                "upper_ft": "2′08″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "",
+            "movement_timer_s": 11,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 20,
+            "dodge_probability": 0.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Ruby"
+            ],
+            "entry": "CLAMPERL’s sturdy shell is not only good for protection - it is also used for clamping and catching prey. A fully grown CLAMPERL’s shell will be scored with nicks and scratches all over."
+        },
+        {
+            "versions": [
+                "Sapphire"
+            ],
+            "entry": "CLAMPERL grows while being protected by its rock-hard shell. When its body becomes too large to fit inside the shell, it is sure evidence that this POKéMON is getting close to evolution."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "A CLAMPERL slams its shell closed on prey to prevent escape. The pearl it creates upon evolution is said to be infused with a mysterious energy."
+        },
+        {
+            "versions": [
+                "FireRed",
+                "LeafGreen"
+            ],
+            "entry": "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "When it evolves, it makes a mysterious pearl that amplifies psychic powers when it’s held."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "When it evolves, it makes a mysterious pearl that amplifies psychic powers when it’s held."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl."
+        },
+        {
+            "versions": [
+                "Omega Ruby"
+            ],
+            "entry": "Clamperl’s sturdy shell is not only good for protection—it is also used for clamping and catching prey. A fully grown Clamperl’s shell will be scored with nicks and scratches all over."
+        },
+        {
+            "versions": [
+                "Alpha Sapphire"
+            ],
+            "entry": "Clamperl grows while being protected by its rock-hard shell. When its body becomes too large to fit inside the shell, it is sure evidence that this Pokémon is getting close to evolution."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "Despite its appearance, it’s carnivorous. It clamps down on its prey with both sides of its shell and doesn’t let go until they stop moving."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Clamperl’s pearls are exceedingly precious. They can be more than 10 times as costly as Shellder’s pearls."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Clamperl",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm366.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm366.icon.png"
+            },
+            {
+                "label": "Shiny Clamperl",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm366.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm366.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 366,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0366_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0366_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Clamperl sprite"
+            },
+            {
+                "pokedex_number": 366,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0366_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0366_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Clamperl sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/366_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/366_social.jpg",
+                "alt": "Clamperl"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/366_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/366_social_dark.jpg",
+                "alt": "Clamperl"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/366_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/366_social_map.jpg",
+                "alt": "Clamperl"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/366_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/366_social_map_dark.jpg",
+                "alt": "Clamperl"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Clamperl’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Clamperl is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Clamperl in Pokémon GO?",
+            "answer": "The best moves for Clamperl in Pokémon GO are Water Gun and Ice Beam. This moveset has a DPS (Damage Per Second) of 6.06 and a TDO (Total Damage Output) of 53.387."
+        },
+        {
+            "question": "How does Clamperl perform in Raids?",
+            "answer": "Clamperl's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Clamperl rank as a Water-type attacker?",
+            "answer": "Clamperl is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Clamperl?",
+            "answer": "The following Mega Pokémon boost Clamperl: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Clamperl’s maximum CP at Level 40 and Level 50?",
+            "answer": "Clamperl’s maximum CP at Level 40 is 1270 CP and 1436 CP at Level 50."
+        },
+        {
+            "question": "Can Clamperl be shiny in Pokémon GO?",
+            "answer": "Clamperl can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Clamperl Dynamax in Pokémon GO?",
+            "answer": "Clamperl cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

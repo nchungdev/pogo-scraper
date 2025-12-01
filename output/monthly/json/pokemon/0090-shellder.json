@@ -1,0 +1,991 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1221,
+        "attack": 116,
+        "defense": 134,
+        "stamina": 102,
+        "buddy_distance": 3,
+        "released": true,
+        "shiny_released": true,
+        "title": "Shellder",
+        "forms": [
+            {
+                "name": "Shellder",
+                "href": "/pokemon/90",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/090.webp"
+            },
+            {
+                "name": "Shadow Shellder",
+                "href": "/pokemon/90-Shadow",
+                "thumbnail": "https://db.pokemongohub.net/images/official/thumb/090.webp"
+            }
+        ],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/090.webp",
+        "types": [
+            "Water"
+        ],
+        "weather_boost": [
+            "rain"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Tackle",
+            "charged": "Razor Shell",
+            "dps": 5.94,
+            "tdo": 48.27,
+            "boosted_weather": [
+                "partlyCloudy",
+                "rain"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Razor Shell",
+                "charged_url": "https://db.pokemongohub.net/move/318",
+                "dps": 5.94,
+                "tdo": 48.3,
+                "score": 4.54
+            },
+            {
+                "rank": 2,
+                "fast": "Ice Shard",
+                "fast_url": "https://db.pokemongohub.net/move/217",
+                "charged": "Razor Shell",
+                "charged_url": "https://db.pokemongohub.net/move/318",
+                "dps": 5.46,
+                "tdo": 44.4,
+                "score": 4.18
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 5.01,
+                "tdo": 40.7,
+                "score": 3.83
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.75,
+                "tdo": 38.6,
+                "score": 3.64
+            },
+            {
+                "rank": 5,
+                "fast": "Ice Shard",
+                "fast_url": "https://db.pokemongohub.net/move/217",
+                "charged": "Bubble Beam",
+                "charged_url": "https://db.pokemongohub.net/move/53",
+                "dps": 4.59,
+                "tdo": 37.3,
+                "score": 3.51
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 4.48,
+                "tdo": 36.4,
+                "score": 3.42
+            },
+            {
+                "rank": 7,
+                "fast": "Ice Shard",
+                "fast_url": "https://db.pokemongohub.net/move/217",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.32,
+                "tdo": 35.1,
+                "score": 3.3
+            },
+            {
+                "rank": 8,
+                "fast": "Ice Shard",
+                "fast_url": "https://db.pokemongohub.net/move/217",
+                "charged": "Icy Wind",
+                "charged_url": "https://db.pokemongohub.net/move/111",
+                "dps": 4.13,
+                "tdo": 33.6,
+                "score": 3.16
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Ice Shard",
+                "type": "Ice",
+                "stats": {
+                    "damage": 10,
+                    "energy": 10,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 10,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.4s - 0.7s"
+                },
+                "trainer_battle": {
+                    "damage": 9,
+                    "energy": 10
+                },
+                "url": "https://db.pokemongohub.net/move/217"
+            },
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Bubble Beam",
+                "type": "Water",
+                "stats": {
+                    "damage": 45,
+                    "energy": 33,
+                    "duration": 2.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 45,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 2.0,
+                    "damage_window": "1.6s - 1.8s"
+                },
+                "trainer_battle": {
+                    "damage": 25,
+                    "energy": 40
+                },
+                "url": "https://db.pokemongohub.net/move/53"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            },
+            {
+                "name": "Icy Wind",
+                "type": "Ice",
+                "stats": {
+                    "damage": 65,
+                    "energy": 33,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 33,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "2.2s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/111"
+            },
+            {
+                "name": "Razor Shell",
+                "type": "Water",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 1.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.5,
+                    "damage_window": "0.8s - 1.2s"
+                },
+                "trainer_battle": {
+                    "damage": 35,
+                    "energy": 35
+                },
+                "url": "https://db.pokemongohub.net/move/318"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Shellder's has 1221 max CP (at Level 50). A Shellder obtained from Raids can be encountered from 571 CP to 617 CP, or if weather boosted, in the 713 CP to 771 CP range. In Field and Special Research, Shellder can be found in the 428 CP to 463 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1221",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "428 - 463",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "571 - 617",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "571 - 617",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "713 - 771",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "713 CP - 771 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 15,
+        "2": 47,
+        "3": 80,
+        "4": 113,
+        "5": 145,
+        "6": 178,
+        "7": 210,
+        "8": 243,
+        "9": 276,
+        "10": 308,
+        "11": 339,
+        "12": 370,
+        "13": 401,
+        "14": 432,
+        "15": 463,
+        "16": 493,
+        "17": 524,
+        "18": 555,
+        "19": 586,
+        "20": 617,
+        "21": 648,
+        "22": 679,
+        "23": 709,
+        "24": 740,
+        "25": 771,
+        "26": 802,
+        "27": 833,
+        "28": 864,
+        "29": 895,
+        "30": 926,
+        "31": 941,
+        "32": 956,
+        "33": 972,
+        "34": 987,
+        "35": 1003,
+        "36": 1018,
+        "37": 1034,
+        "38": 1049,
+        "39": 1064,
+        "40": 1080,
+        "41": 1094,
+        "42": 1107,
+        "43": 1121,
+        "44": 1135,
+        "45": 1149,
+        "46": 1163,
+        "47": 1178,
+        "48": 1192,
+        "49": 1206,
+        "50": 1221
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Shellder",
+                    "href": "/pokemon/90",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/090.webp"
+                },
+                "to": {
+                    "name": "Cloyster",
+                    "href": "/pokemon/91",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/091.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Shellder",
+                "href": "/pokemon/90",
+                "img": "https://db.pokemongohub.net/images/official/medium/090.webp"
+            },
+            {
+                "name": "Cloyster",
+                "href": "/pokemon/91",
+                "img": "https://db.pokemongohub.net/images/official/medium/091.webp"
+            },
+            {
+                "name": "Shadow Shellder",
+                "href": "/pokemon/90-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            },
+            {
+                "name": "Shadow Cloyster",
+                "href": "/pokemon/91-Shadow",
+                "img": "https://db.pokemongohub.net/images/purple-flame.svg"
+            }
+        ]
+    },
+    "meta_analysis": "Shellder in the meta PvE Analysis As the base of a two-stage evolution line , Shellder doesn’t have bad stats . That said, these stats aren’t sufficient to make Shellder an option in PvE . 🥲 ⚔️ Raids Shellder’s attacks are so weak , just keep it out of raids altogether . 🚫 🛡️ Gyms Shellder is a terrible gym defender . Avoid using it. 🚫 PvP Analysis 🧸 Little Cup The Little Cup is the only place where Shellder can find some use in Pokémon GO. Despite having good stats , its moveset — Ice Shard, Icy Wind & Razor Shell — lacks the power needed to beat other Pokémon. 😔 The strategy with Shellder revolves around debuffing the opponent’s Attack stat ( guaranteed ) with Icy Wind , while also gambling on the 50% chance of lowering their DEF with Razor Shell . So, Shellder may contribute towards securing wins, but won’t be the one to claim them alone . 😊 Needless to say, don’t let Shellder swing by the GBL in any other League . 💥 The best moves for Shellder in PvP (Little Cup) are Ice Shard, Icy Wind, and Razor Shell . Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Shellder",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Shellder's Water-type moves, Candy, and Candy XL from catching Shellder.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 90,
+            "height_m": 0.3,
+            "weight_kg": 4,
+            "region": "Generation 1",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 1000
+        },
+        "additional_move_cost": {
+            "candy": 50,
+            "stardust": 50000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.15 m",
+            "xs": "0.15 m",
+            "m": "0.3 m",
+            "xl": "0.45 m",
+            "xxl": "0.53 m",
+            "description": "Shellder's height ranges from 0.15 m to 0.53 m, with the average being 0.3 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.147,
+                "upper_m": 0.15,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′06″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.15,
+                "upper_m": 0.3,
+                "lower_ft": "0′06″",
+                "upper_ft": "0′12″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.225,
+                "upper_m": 0.375,
+                "lower_ft": "0′09″",
+                "upper_ft": "1′03″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 0.375,
+                "upper_m": 0.45,
+                "lower_ft": "1′03″",
+                "upper_ft": "1′06″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 0.45,
+                "upper_m": 0.525,
+                "lower_ft": "1′06″",
+                "upper_ft": "1′09″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_JUMP",
+            "movement_timer_s": 23,
+            "jump_time_s": 2,
+            "attack_probability": 10.0,
+            "attack_timer_s": 8,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 1,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Red",
+                "Blue"
+            ],
+            "entry": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
+        },
+        {
+            "versions": [
+                "Yellow"
+            ],
+            "entry": "The shell can withstand any attack. However, when it is open, the tender body is exposed."
+        },
+        {
+            "versions": [
+                "Gold"
+            ],
+            "entry": "It swims facing backward by open ing and closing its two-piece shell. It is surprisingly fast."
+        },
+        {
+            "versions": [
+                "Silver"
+            ],
+            "entry": "Grains of sand trapped in its shells mix with its body fluids to form beautiful pearls."
+        },
+        {
+            "versions": [
+                "Crystal"
+            ],
+            "entry": "Clamping on to an opponent reveals its vulnerable parts, so it uses this move only as a last resort."
+        },
+        {
+            "versions": [
+                "Ruby",
+                "Sapphire"
+            ],
+            "entry": "At night, this POKéMON uses its broad tongue to burrow a hole in the seafloor sand and then sleep in it. While it is sleeping, SHELLDER closes its shell, but leaves its tongue hanging out."
+        },
+        {
+            "versions": [
+                "Emerald"
+            ],
+            "entry": "At night, it burrows a hole in the seafloor with its broad tongue to make a place to sleep. While asleep, it closes its shell, but leaves its tongue hanging out."
+        },
+        {
+            "versions": [
+                "FireRed"
+            ],
+            "entry": "It is encased in a shell that is harder than diamond. Inside, however, it is surprisingly tender."
+        },
+        {
+            "versions": [
+                "LeafGreen"
+            ],
+            "entry": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
+        },
+        {
+            "versions": [
+                "Diamond",
+                "Pearl",
+                "Platinum",
+                "Black",
+                "White",
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "It swims backward by opening and closing its two shells. Its large tongue is always kept hanging out."
+        },
+        {
+            "versions": [
+                "HeartGold"
+            ],
+            "entry": "It swims facing backward by opening and closing its two-piece shell. It is surprisingly fast."
+        },
+        {
+            "versions": [
+                "SoulSilver"
+            ],
+            "entry": "Grains of sand trapped in its shells mix with its body fluids to form beautiful pearls."
+        },
+        {
+            "versions": [
+                "X"
+            ],
+            "entry": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
+        },
+        {
+            "versions": [
+                "Y"
+            ],
+            "entry": "Clamping on to an opponent reveals its vulnerable parts, so it uses this move only as a last resort."
+        },
+        {
+            "versions": [
+                "Omega Ruby",
+                "Alpha Sapphire"
+            ],
+            "entry": "At night, this Pokémon uses its broad tongue to burrow a hole in the seafloor sand and then sleep in it. While it is sleeping, Shellder closes its shell, but leaves its tongue hanging out."
+        },
+        {
+            "versions": [
+                "Sun"
+            ],
+            "entry": "The hardness of its shell surpasses the hardness of a diamond. In days gone by, people used the shells to make shields."
+        },
+        {
+            "versions": [
+                "Moon"
+            ],
+            "entry": "This Pokémon’s tongue is always hanging out. It uses its tongue with great dexterity to dig up sand from the seabed in its search for food."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "The sand that accumulates inside its shell eventually becomes a pearl. But the pearl gets in the way, so it spits it out and discards it."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Even when its shell is closed, its tongue still hangs out. If you give its tongue a good yank, the shock will cause Shellder to open its shell."
+        },
+        {
+            "versions": [
+                "Let's Go",
+                "Pikachu!",
+                "Let's Go",
+                "Eevee!"
+            ],
+            "entry": "The shell can withstand any attack. However, when it is open, the tender body is exposed."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "It swims facing backward by opening and closing its two-piece shell. It is surprisingly fast."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Shellder",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm90.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm90.icon.png"
+            },
+            {
+                "label": "Shiny Shellder",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm90.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm90.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 90,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0090_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0090_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Shellder sprite"
+            },
+            {
+                "pokedex_number": 90,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0090_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0090_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Shellder sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/090_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/090_social.jpg",
+                "alt": "Shellder"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/090_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/090_social_dark.jpg",
+                "alt": "Shellder"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/090_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/090_social_map.jpg",
+                "alt": "Shellder"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/090_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/090_social_map_dark.jpg",
+                "alt": "Shellder"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Shellder’s strengths and weaknesses?",
+            "answer": "As a Water-type Pokémon, Shellder is weak to Electric and Grass-type moves."
+        },
+        {
+            "question": "What are the best moves for Shellder in Pokémon GO?",
+            "answer": "The best moves for Shellder in Pokémon GO are Tackle and Razor Shell. This moveset has a DPS (Damage Per Second) of 5.941 and a TDO (Total Damage Output) of 48.273."
+        },
+        {
+            "question": "How does Shellder perform in Raids?",
+            "answer": "Shellder's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Shellder rank as a Water-type attacker?",
+            "answer": "Shellder is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Shellder?",
+            "answer": "The following Mega Pokémon boost Shellder: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, and Primal Kyogre."
+        },
+        {
+            "question": "What is Shellder’s maximum CP at Level 40 and Level 50?",
+            "answer": "Shellder’s maximum CP at Level 40 is 1080 CP and 1221 CP at Level 50."
+        },
+        {
+            "question": "Can Shellder be shiny in Pokémon GO?",
+            "answer": "Shellder can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Shellder Dynamax in Pokémon GO?",
+            "answer": "Shellder cannot Dynamax in Pokémon GO."
+        }
+    ]
+}

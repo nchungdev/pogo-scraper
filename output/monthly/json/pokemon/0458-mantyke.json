@@ -1,0 +1,835 @@
+{
+    "overview_and_stats": {
+        "max_cp": 1411,
+        "attack": 105,
+        "defense": 179,
+        "stamina": 128,
+        "buddy_distance": 5,
+        "released": true,
+        "shiny_released": true,
+        "title": "Mantyke",
+        "forms": [],
+        "official_artwork": "https://db.pokemongohub.net/images/official/full/458.webp",
+        "types": [
+            "Water",
+            "Flying"
+        ],
+        "weather_boost": [
+            "rain",
+            "windy"
+        ],
+        "availability": {
+            "available_in_pogo": true,
+            "shiny_available": true,
+            "can_dynamax": false
+        }
+    },
+    "moves_and_best_movesets": {
+        "best_moveset": {
+            "fast": "Bubble",
+            "charged": "Aerial Ace",
+            "dps": 5.28,
+            "tdo": 68.29,
+            "boosted_weather": [
+                "rain",
+                "windy"
+            ]
+        },
+        "detailed_combinations": [
+            {
+                "rank": 1,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 5.28,
+                "tdo": 68.3,
+                "score": 4.43
+            },
+            {
+                "rank": 2,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 5.19,
+                "tdo": 67.0,
+                "score": 4.35
+            },
+            {
+                "rank": 3,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Aerial Ace",
+                "charged_url": "https://db.pokemongohub.net/move/45",
+                "dps": 5.15,
+                "tdo": 66.5,
+                "score": 4.31
+            },
+            {
+                "rank": 4,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Ice Beam",
+                "charged_url": "https://db.pokemongohub.net/move/39",
+                "dps": 5.04,
+                "tdo": 65.1,
+                "score": 4.22
+            },
+            {
+                "rank": 5,
+                "fast": "Bubble",
+                "fast_url": "https://db.pokemongohub.net/move/237",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.95,
+                "tdo": 64.0,
+                "score": 4.15
+            },
+            {
+                "rank": 6,
+                "fast": "Tackle",
+                "fast_url": "https://db.pokemongohub.net/move/221",
+                "charged": "Water Pulse",
+                "charged_url": "https://db.pokemongohub.net/move/105",
+                "dps": 4.81,
+                "tdo": 62.2,
+                "score": 4.03
+            }
+        ],
+        "fast_moves": [
+            {
+                "name": "Tackle",
+                "type": "Normal",
+                "stats": {
+                    "damage": 5,
+                    "energy": 5,
+                    "duration": 0.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ghost",
+                            "value": 39.1
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 5,
+                    "energy": 5,
+                    "weather_boost": [
+                        "partlyCloudy"
+                    ],
+                    "duration": 0.5,
+                    "damage_window": "0.3s - 0.5s"
+                },
+                "trainer_battle": {
+                    "damage": 3,
+                    "energy": 3
+                },
+                "url": "https://db.pokemongohub.net/move/221"
+            },
+            {
+                "name": "Bubble",
+                "type": "Water",
+                "stats": {
+                    "damage": 10,
+                    "energy": 12,
+                    "duration": 1.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 10,
+                    "energy": 12,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 1.0,
+                    "damage_window": "0.6s - 0.8s"
+                },
+                "trainer_battle": {
+                    "damage": 8,
+                    "energy": 11
+                },
+                "url": "https://db.pokemongohub.net/move/237"
+            }
+        ],
+        "charged_moves": [
+            {
+                "name": "Ice Beam",
+                "type": "Ice",
+                "stats": {
+                    "damage": 95,
+                    "energy": 50,
+                    "duration": 3.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Flying",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Ice",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 95,
+                    "energy": 50,
+                    "weather_boost": [
+                        "snow"
+                    ],
+                    "duration": 3.5,
+                    "damage_window": "1.5s - 3.0s"
+                },
+                "trainer_battle": {
+                    "damage": 90,
+                    "energy": 55
+                },
+                "url": "https://db.pokemongohub.net/move/39"
+            },
+            {
+                "name": "Aerial Ace",
+                "type": "Flying",
+                "stats": {
+                    "damage": 55,
+                    "energy": 33,
+                    "duration": 2.5
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Fighting",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Bug",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Steel",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Electric",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 55,
+                    "energy": 33,
+                    "weather_boost": [
+                        "windy"
+                    ],
+                    "duration": 2.5,
+                    "damage_window": "2.0s - 2.3s"
+                },
+                "trainer_battle": {
+                    "damage": 60,
+                    "energy": 45
+                },
+                "url": "https://db.pokemongohub.net/move/45"
+            },
+            {
+                "name": "Water Pulse",
+                "type": "Water",
+                "stats": {
+                    "damage": 65,
+                    "energy": 50,
+                    "duration": 3.0
+                },
+                "effectiveness": {
+                    "super_effective": [],
+                    "not_very_effective": [
+                        {
+                            "type": "Ground",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Rock",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Fire",
+                            "value": 160.0
+                        },
+                        {
+                            "type": "Water",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Grass",
+                            "value": 62.5
+                        },
+                        {
+                            "type": "Dragon",
+                            "value": 62.5
+                        }
+                    ]
+                },
+                "gym_raid": {
+                    "damage": 65,
+                    "energy": 50,
+                    "weather_boost": [
+                        "rain"
+                    ],
+                    "duration": 3.0,
+                    "damage_window": "2.0s - 2.7s"
+                },
+                "trainer_battle": {
+                    "damage": 80,
+                    "energy": 50
+                },
+                "url": "https://db.pokemongohub.net/move/105"
+            }
+        ]
+    },
+    "special_cp": {
+        "overview": "Mantyke's has 1411 max CP (at Level 50). A Mantyke obtained from Raids can be encountered from 662 CP to 713 CP, or if weather boosted, in the 828 CP to 891 CP range. In Field and Special Research, Mantyke can be found in the 497 CP to 535 CP range.",
+        "entries": [
+            {
+                "category": "Max CP",
+                "cp": "1411",
+                "level": 50,
+                "iv_floor": "15/15/15",
+                "level_text": "Level 50, 15/15/15 IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Research",
+                "cp": "497 - 535",
+                "level": 15,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 15, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Eggs",
+                "cp": "662 - 713",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "662 - 713",
+                "level": 20,
+                "iv_floor": "10/10/10",
+                "level_text": "Level 20, 10/10/10 minimum IVs",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": "828 - 891",
+                "level": null,
+                "iv_floor": null,
+                "level_text": "828 CP - 891 CP",
+                "weather_boosted": false
+            },
+            {
+                "category": "Raids",
+                "cp": null,
+                "level": 25,
+                "iv_floor": "10/10/10",
+                "level_text": "Weather boosted, Level 25, 10/10/10 minimum IVs",
+                "weather_boosted": true
+            }
+        ],
+        "more_info": [
+            "Field and Special Research encounters are always Level 15. IVs range from 10 (min) to 15 (max). Field Research encounters have a 10/10/10 IV floor.",
+            "Pokémon hatched from Eggs are always Level 20. IVs range from 10 (min) to 15 (max). Egg Hatches have a 10/10/10 IV floor.",
+            "Raid Bosses caught without weather boost are always Level 20. IVs range from 10 (min) to 15 (max). Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Raid Bosses caught with weather boost are always Level 25. IVs range from 10 (min) to 15 (max). Weather boosted Raid Catches have a 10/10/10 IV floor. 😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "😈 Shadow Pokémon have 6/6/6 IV floor in raids.",
+            "Wild encounters range from Level 1 to Level 30 Pokémon. Their IVs range from 0 (min) to 15 (max) for each stat.",
+            "Weather Boosted wild Pokémon encounters get a 5 Level boost, bringing their Level range to Level 6 to Level 35. In addition, they have a guaraneed minimum IV value of 4 for each stat, resulting in a 4/4/4 IV floor."
+        ]
+    },
+    "max_cp_chart": {
+        "1": 17,
+        "2": 55,
+        "3": 93,
+        "4": 130,
+        "5": 168,
+        "6": 206,
+        "7": 243,
+        "8": 281,
+        "9": 319,
+        "10": 356,
+        "11": 392,
+        "12": 428,
+        "13": 463,
+        "14": 499,
+        "15": 535,
+        "16": 570,
+        "17": 606,
+        "18": 642,
+        "19": 677,
+        "20": 713,
+        "21": 748,
+        "22": 784,
+        "23": 820,
+        "24": 856,
+        "25": 891,
+        "26": 927,
+        "27": 963,
+        "28": 998,
+        "29": 1034,
+        "30": 1070,
+        "31": 1087,
+        "32": 1105,
+        "33": 1123,
+        "34": 1141,
+        "35": 1159,
+        "36": 1177,
+        "37": 1194,
+        "38": 1212,
+        "39": 1230,
+        "40": 1248,
+        "41": 1264,
+        "42": 1280,
+        "43": 1296,
+        "44": 1312,
+        "45": 1328,
+        "46": 1344,
+        "47": 1361,
+        "48": 1377,
+        "49": 1394,
+        "50": 1411
+    },
+    "evolution_chart": {
+        "stages": [
+            {
+                "from": {
+                    "name": "Mantyke",
+                    "href": "/pokemon/458",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/458.webp"
+                },
+                "to": {
+                    "name": "Mantine",
+                    "href": "/pokemon/226",
+                    "img": "https://db.pokemongohub.net/images/official/thumb/226.webp"
+                },
+                "requirements": [
+                    "50 Candy"
+                ]
+            }
+        ],
+        "details": [
+            "50 Candy"
+        ],
+        "family": [
+            {
+                "name": "Mantine",
+                "href": "/pokemon/226",
+                "img": "https://db.pokemongohub.net/images/official/medium/226.webp"
+            },
+            {
+                "name": "Mantyke",
+                "href": "/pokemon/458",
+                "img": "https://db.pokemongohub.net/images/official/medium/458.webp"
+            }
+        ]
+    },
+    "meta_analysis": "Mantyke in the meta PvE Analysis Not yet analysed, come back soon! PvP Analysis Preferred Moveset Bubble , Aerial Ace & Water Pulse / Ice Beam 🧸 Little League Mantyke would be a force to be reckoned with in the Little League format, but at hatch levels (L20) , it can’t squeeze under the sub-500 CP cap . If it ever becomes available through research , snap it up! 🔵 Great League Mantyke’s max CP is 1411 at L50 , so it requires a huge investment to use in the Great League , and its present win rate does not justify such an expense . However, it has a decent stat product , and a moveset tweak in the future could make the baby manta a more enticing pick . 🟡 Ultra League NA 🟣 Master League NA Show more Show less",
+    "mega_boost": {
+        "title": "Mega Pokémon that boost Mantyke",
+        "type": "Water",
+        "intro_text": "A list of Mega Pokémon that boost Mantyke's Water and Flying-type moves, Candy, and Candy XL from catching Mantyke.",
+        "mega_list": [
+            {
+                "name": "Mega Blastoise",
+                "pokemon_id": 9,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/9-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Slowbro",
+                "pokemon_id": 80,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/80-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Gyarados",
+                "pokemon_id": 130,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/130-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Swampert",
+                "pokemon_id": 260,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/260-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Mega Sharpedo",
+                "pokemon_id": 319,
+                "form": "Mega",
+                "url": "https://db.pokemongohub.net/pokemon/319-Mega",
+                "image": "https://db.pokemongohub.net/images/mega-bg-vector.svg"
+            },
+            {
+                "name": "Primal Kyogre",
+                "pokemon_id": 382,
+                "form": "Primal",
+                "url": "https://db.pokemongohub.net/pokemon/382-Primal",
+                "image": "https://db.pokemongohub.net/images/official/medium/382_f2.webp"
+            }
+        ],
+        "bonus_info": {
+            "raid_bonus": "Mega and Primal Raid Bonus – Mega Pokémon boost the attack power of all other Pokémon when battling in Raid Battles by 10%. Attacks that share their type with the Mega Pokémon's type(s) receive a 30% boost. However, these bonuses do not stack if there are multiple Mega-Evolved Pokémon battling simultaneously; only the higher boost will be applied.",
+            "catch_bonus": "Mega and Primal Catch Bonus – While a Pokémon is Mega-Evolved, additional XP and Candy is granted when catching a Pokémon that shares a type with it, or for any raid boss caught. These do not stack with each other. Additionally, High and Max Level Mega-Evolved Pokémon grant an increased chance to obtain Candy XL when catching a Pokémon that shares a type with it."
+        },
+        "primal_notes": {
+            "primal_kyogre": [
+                "Water",
+                "Electric",
+                "Bug attacks",
+                "Pokémon."
+            ],
+            "primal_groudon": [
+                "Fire",
+                "Grass",
+                "Ground attacks",
+                "Pokémon."
+            ],
+            "mega_rayquaza": [
+                "Flying",
+                "Dragon",
+                "Psychic attacks",
+                "Pokémon."
+            ]
+        }
+    },
+    "additional": {
+        "basic_info": {
+            "pokedex_number": 458,
+            "height_m": 1,
+            "weight_kg": 65,
+            "region": "Generation 4",
+            "can_be_traded": true,
+            "pokemon_home_transfer": true,
+            "base_catch_rate": 20.0,
+            "base_flee_rate": 0.0
+        },
+        "catch_rewards": {
+            "candy": 3,
+            "stardust": 100
+        },
+        "additional_move_cost": {
+            "candy": 25,
+            "stardust": 10000
+        },
+        "mega_energy_reward": null,
+        "size_info": {
+            "xxs": "0.49 m",
+            "xs": "0.5 m",
+            "m": "1 m",
+            "xl": "1.5 m",
+            "xxl": "2 m",
+            "description": "Mantyke's height ranges from 0.49 m to 2 m, with the average being 1 m. The illustration shows a comparison with a 1.70 m (5′07″) tall Trainer. Max height has been limited to 450px for rendering purposes."
+        },
+        "size_bounds": [
+            {
+                "size": "XXS",
+                "lower_m": 0.49,
+                "upper_m": 0.5,
+                "lower_ft": "1′07″",
+                "upper_ft": "1′08″"
+            },
+            {
+                "size": "XS",
+                "lower_m": 0.5,
+                "upper_m": 1,
+                "lower_ft": "1′08″",
+                "upper_ft": "3′03″"
+            },
+            {
+                "size": "M",
+                "lower_m": 0.75,
+                "upper_m": 1.25,
+                "lower_ft": "2′06″",
+                "upper_ft": "4′01″"
+            },
+            {
+                "size": "XL",
+                "lower_m": 1.25,
+                "upper_m": 1.5,
+                "lower_ft": "4′01″",
+                "upper_ft": "4′11″"
+            },
+            {
+                "size": "XXL",
+                "lower_m": 1.5,
+                "upper_m": 2,
+                "lower_ft": "4′11″",
+                "upper_ft": "6′07″"
+            }
+        ],
+        "encounter_data": {
+            "movement_type": "MOVEMENT_HOVERING",
+            "movement_timer_s": 10,
+            "jump_time_s": 1,
+            "attack_probability": 10.0,
+            "attack_timer_s": 29,
+            "dodge_probability": 15.0,
+            "dodge_duration_s": 0.0,
+            "dodge_distance": 0.2,
+            "min_action_frequency_s": 1,
+            "max_action_frequency_s": 2
+        }
+    },
+    "pokedex": [
+        {
+            "versions": [
+                "Diamond"
+            ],
+            "entry": "A friendly Pokémon that captures the subtle flows of seawater using its two antennae."
+        },
+        {
+            "versions": [
+                "Pearl"
+            ],
+            "entry": "Scientists discovered that the distinctive patterns on its back differ by region."
+        },
+        {
+            "versions": [
+                "Platinum"
+            ],
+            "entry": "People organize tours to see this Pokémon frolic and skim the tops of waves with REMORAID."
+        },
+        {
+            "versions": [
+                "HeartGold",
+                "SoulSilver"
+            ],
+            "entry": "When it swims close to the surface of the ocean, people aboard ships are able to observe the pattern on its back."
+        },
+        {
+            "versions": [
+                "Black",
+                "White"
+            ],
+            "entry": "People organize tours to see this Pokémon frolic and skim the tops of waves with Remoraid."
+        },
+        {
+            "versions": [
+                "Black 2",
+                "White 2"
+            ],
+            "entry": "The pattern on its back varies by region. It often swims in a school of Remoraid."
+        },
+        {
+            "versions": [
+                "X",
+                "Omega Ruby"
+            ],
+            "entry": "The pattern on its back varies by region. It often swims in a school of Remoraid."
+        },
+        {
+            "versions": [
+                "Y",
+                "Alpha Sapphire"
+            ],
+            "entry": "When it swims close to the surface of the ocean, people aboard ships are able to observe the pattern on its back."
+        },
+        {
+            "versions": [
+                "Ultra Sun"
+            ],
+            "entry": "It’s highly friendly and easily tamed. Tours that take people swimming with Mantyke are a super-popular beach activity."
+        },
+        {
+            "versions": [
+                "Ultra Moon"
+            ],
+            "entry": "Mantyke are friendly toward people and will approach boats closely. The patterns on their backs differ depending on their habitat."
+        },
+        {
+            "versions": [
+                "Sword"
+            ],
+            "entry": "Mantyke living in Galar seem to be somewhat sluggish. The colder waters of the seas in this region may be the cause."
+        },
+        {
+            "versions": [
+                "Shield"
+            ],
+            "entry": "It swims along with a school of Remoraid, and they’ll all fight together to repel attackers."
+        },
+        {
+            "versions": [
+                "Legends: Arceus"
+            ],
+            "entry": "Though ball-like in shape, this Pokémon is a proficient swimmer. I have discovered that if a Mantyke spends much time with schools of Remoraid, it will eventually achieve evolution."
+        }
+    ],
+    "sprites": {
+        "regular_shiny": [
+            {
+                "label": "Regular Mantyke",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm458.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm458.icon.png"
+            },
+            {
+                "label": "Shiny Mantyke",
+                "img": "https://db.pokemongohub.net/images/ingame/normal/pm458.s.icon.png",
+                "url": "https://db.pokemongohub.net/images/ingame/normal/pm458.s.icon.png"
+            }
+        ],
+        "home_sprites": [
+            {
+                "pokedex_number": 458,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0458_000_mf_n_00000000_f_n.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Normal/poke_capture_0458_000_mf_n_00000000_f_n.png",
+                "alt": "Pokémon HOME Mantyke sprite"
+            },
+            {
+                "pokedex_number": 458,
+                "img": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0458_000_mf_n_00000000_f_r.png",
+                "url": "https://db.pokemongohub.net/images/pokemon-home-renders/Shiny/poke_capture_0458_000_mf_n_00000000_f_r.png",
+                "alt": "Pokémon HOME Shiny Mantyke sprite"
+            }
+        ],
+        "wallpapers": [
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/458_social.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/458_social.jpg",
+                "alt": "Mantyke"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/458_social_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/458_social_dark.jpg",
+                "alt": "Mantyke"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/458_social_map.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/458_social_map.jpg",
+                "alt": "Mantyke"
+            },
+            {
+                "img": "https://db.pokemongohub.net/images/social-images/458_social_map_dark.jpg",
+                "url": "https://db.pokemongohub.net/images/social-images/458_social_map_dark.jpg",
+                "alt": "Mantyke"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "What are Mantyke’s strengths and weaknesses?",
+            "answer": "As a Water and Flying-type Pokémon, Mantyke is especially weak against Electric-type moves, and weak against Rock-type moves."
+        },
+        {
+            "question": "What are the best moves for Mantyke in Pokémon GO?",
+            "answer": "The best moves for Mantyke in Pokémon GO are Bubble and Aerial Ace. This moveset has a DPS (Damage Per Second) of 5.281 and a TDO (Total Damage Output) of 68.29."
+        },
+        {
+            "question": "How does Mantyke perform in Raids?",
+            "answer": "Mantyke's Raid attacker tier is currently not known, has no viable moves, or it is too low to be ranked."
+        },
+        {
+            "question": "How does Mantyke rank as a Water-type attacker?",
+            "answer": "Mantyke is an F-Tier Water-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "How does Mantyke rank as a Flying-type attacker?",
+            "answer": "Mantyke is an F-Tier Flying-type attacker and not recommended for Raid battles."
+        },
+        {
+            "question": "What Mega Pokémon boost Mantyke?",
+            "answer": "The following Mega Pokémon boost Mantyke: Mega Blastoise, Mega Slowbro, Mega Gyarados, Mega Swampert, Mega Sharpedo, Primal Kyogre, Mega Pidgeot, Mega Pinsir, Mega Aerodactyl, Mega Salamence, and Mega Rayquaza."
+        },
+        {
+            "question": "What is Mantyke’s maximum CP at Level 40 and Level 50?",
+            "answer": "Mantyke’s maximum CP at Level 40 is 1248 CP and 1411 CP at Level 50."
+        },
+        {
+            "question": "Can Mantyke be shiny in Pokémon GO?",
+            "answer": "Mantyke can be Shiny in Pokémon GO ✨."
+        },
+        {
+            "question": "Can Mantyke Dynamax in Pokémon GO?",
+            "answer": "Mantyke cannot Dynamax in Pokémon GO."
+        }
+    ]
+}
